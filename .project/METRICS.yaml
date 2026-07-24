@@ -1,11 +1,12 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0018
+run_id: RUN-0019
 coverage:
   chapters_covered_through: 61
-  chapters_promoted_in_run: [56, 57, 58, 59, 60, 61]
+  chapters_examined_in_run: [62, 63, 64, 65]
+  draft_arc_end: 65
   timeline_nodes: 11
-  draft_nodes: 0
+  draft_nodes: 1
   story_arc_nodes: 8
   characters_documented: 16
   system_records: 1
@@ -14,30 +15,30 @@ coverage:
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [56, 57, 58, 59, 60, 61, 62]
-    cross_checked_mirror_chapters: [56, 57, 58, 59, 60, 61]
+    official_catalog_chapters: [62, 63, 64, 65, 66]
+    cross_checked_mirror_chapters: [62, 63, 64, 65]
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第61章完成徐霄元婴恢复、外门保护、白巧巧首次赠送与梦丹旧关系恢复；第62章切换紫韵请求和天人秘境准备
+    boundary: 第65章完成紫韵委托、天人秘境人选与入场前冲突；第66章正式进入秘境并发布宇文浩击杀任务
   materiality:
     status: passed
-    entity_updates: [徐霄恢复元婴一重, 白巧巧首次登场与首次赠送, 梦丹首次登场与气运关系, 绝品悟道丹, 外门保护关系]
+    staged_entity_updates: [紫韵委托上官金玉事项, 水月首次登场与S级气运面板, 鸿蒙一气丹返还, 徐霄人火之道公开实战, 天人秘境参战关系]
   cross_index_consistency:
-    status: passed
-    closed_blocker: BLOCK-0005
-    files_checked: [docs/01-timeline/node-0011.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, docs/03-system/万倍返还系统.md]
+    status: blocked
+    blocker: BLOCK-0006
+    reason: draft and evidence exist, canonical timeline, character, gift, artifact and system indexes are not yet promoted
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
     duplicated_nodes: 0
     duplicated_gift_ids: 0
-    duplicated_character_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-056-061.yaml]
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, sources/evidence/chapters-062-065.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers: []
+blockers:
+- {id: BLOCK-0006, gate: cross_index_consistency, status: open}

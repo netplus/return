@@ -1,0 +1,48 @@
+schema_version: 2
+run_id: RUN-0019
+task_id: TASK-0014
+updated_at: '2026-07-24'
+arc:
+  chapter_start: 62
+  chapter_end: 65
+  node: NODE-0012
+  status: staged
+  boundary_reason: 第65章完成秘境前准备与公开冲突；第66章正式进入秘境并出现新的气运之敌任务
+chapters:
+- chapter: 62
+  title: 紫韵的请求
+  facts: [徐霄决定替代独孤灵二徒弟参加天人秘境, 秘境限制化神气息物品, 紫韵请求徐霄处理上官金玉]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 63
+  title: 返还，鸿蒙一气丹
+  facts: [紫韵与徐霄形成更强合作承诺, 水月首次登场, 系统识别水月为S级气运之女且基础倍率30羁绊度1, 章节标题确认鸿蒙一气丹返还但赠送明细待完整正文复核]
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+- chapter: 64
+  title: 人火之威
+  facts: [各势力抵达南瞻国天人秘境入口, 徐霄已服用鸿蒙一气丹并获得鸿蒙真气, 徐霄以人火之道展示公开威慑]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 65
+  title: 徐老头，全场公敌
+  facts: [徐霄的表现引发多方敌意, 玉玲珑公开维护徐霄, 秘境入场前冲突升级但尚未进入秘境]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+boundary_check:
+  next_chapter: 66
+  next_title: 进入秘境
+  transition: 正式进入秘境并识别气运之敌宇文浩，开启新冲突阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: blocked
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
