@@ -1,0 +1,15 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0022
+index_role: canonical_extension
+record:
+  id: ART-0018
+  name: 流光星陨戒
+  category: 法器
+  grade: 绝品法器
+  first_chapter: 72
+  current_holder: 徐霄
+  acquisition: GIFT-0016返还
+  status: partial
+  document: docs/06-artifacts/流光星陨戒.md
+  related_nodes: [NODE-0013]

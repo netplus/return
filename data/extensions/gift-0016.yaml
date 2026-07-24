@@ -1,0 +1,18 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0022
+index_role: canonical_extension
+record:
+  id: GIFT-0016
+  chapter: 72
+  node: NODE-0013
+  giver: 徐霄
+  recipient: 水月
+  gift: [上品法戒, 两张元婴引雷符, 一张元婴冰剑符]
+  accepted: true
+  system_valid: true
+  returns:
+  - {gift: 上品法戒, reward: 流光星陨戒}
+  - {gift: 两张元婴引雷符, reward: 六张化神九重紫霄雷符}
+  - {gift: 一张元婴冰剑符, reward: 三张化神九重玄冰剑雨符}
+  status: partial

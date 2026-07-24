@@ -1,0 +1,9 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0022
+index_role: canonical_extension
+record:
+  node: NODE-0013
+  system_updates:
+  - {classification: 气运之敌, person: 宇文浩, task: 击杀宇文浩, reward: 一次万倍暴击机会, completion: pending, status: partial}
+  - {gift_id: GIFT-0016, recipient: 水月, status: partial}

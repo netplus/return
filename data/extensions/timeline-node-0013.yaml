@@ -1,0 +1,18 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0022
+index_role: canonical_extension
+record:
+  id: NODE-0013
+  title: 天人秘境入场与宇文浩冲突
+  chapters: {start: 66, end: 73}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第66—74章标题、顺序和边界；第66—73章正文由可访问镜像交叉核验
+  boundary_reason: 第73章完成上官金玉死亡与秘境前半段冲突闭环；第74章切换苏媚儿赠送线
+  characters: [徐霄, 水月, 宇文浩, 上官金玉]
+  system_events:
+  - {event: 识别气运之敌宇文浩, task: 击杀宇文浩, reward: 一次万倍暴击机会, completion: pending, status: partial}
+  - {gift_id: GIFT-0016, recipient: 水月, gift: [上品法戒, 两张元婴引雷符, 一张元婴冰剑符], reward: [流光星陨戒, 六张紫霄雷符, 三张玄冰剑雨符], status: partial}
+  document: docs/01-timeline/node-0013.md
+  evidence: sources/evidence/chapters-066-073.yaml

@@ -1,0 +1,14 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0022
+index_role: canonical_extension
+record:
+  id: ART-0017
+  name: 九火琉璃罩
+  category: 法宝
+  first_chapter: 68
+  current_holder: 徐霄
+  abilities: [可从系统空间直接驱动, 释放九条火龙, 摧毁防御法器并焚杀元婴修士]
+  status: partial
+  document: docs/06-artifacts/九火琉璃罩.md
+  related_nodes: [NODE-0013]

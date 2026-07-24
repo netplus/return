@@ -1,0 +1,22 @@
+schema_version: 2
+run_id: RUN-0022
+task_id: TASK-0015
+updated_at: '2026-07-24'
+arc:
+  chapter_start: 66
+  chapter_end: 73
+  node: NODE-0013
+  status: promoted
+  canonical_document: docs/01-timeline/node-0013.md
+  boundary_reason: 第73章完成上官金玉死亡与秘境前半段冲突闭环；第74章切换苏媚儿气运与赠送线
+chapters:
+- {chapter: 66, title: 进入秘境, facts: [进入天人秘境, 系统识别宇文浩为气运之敌, 发布击杀任务并奖励一次万倍暴击机会], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 67, title: 这草原我承包了, facts: [队伍抵达烈草平原, 大量收割火纹草, 与魔焰宗和噬魂宗弟子冲突], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 68, title: 师兄我又管不了, facts: [九火琉璃罩首次确认, 九条火龙击杀敌对魔宗弟子, 徐霄公开打破秘境潜规则], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 69, title: 超级元婴修士, facts: [队伍获得大量火纹草, 击杀妖狼并获取凝神草, 转往铁矿山脉], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 70, title: 彻底爆炸, facts: [外界确认徐霄远超普通元婴的战力, 队伍开采铁矿资源], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 71, title: 赤裸裸的威胁, facts: [水月完成疗伤, 外界舆论升级, 徐霄以武力震慑同队弟子], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 72, title: 五极山之威, facts: [GIFT-0016成立, 返还流光星陨戒、紫霄雷符和玄冰剑雨符, 须臾五极山首次实战], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 73, title: 送死的上官金玉, facts: [须臾五极山压制敌对修士, 徐霄击杀上官金玉, 紫韵委托完成], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+boundary_check: {next_chapter: 74, next_title: 气运之女苏媚儿, transition: 转入苏媚儿气运吸取与新赠送返还线}
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}

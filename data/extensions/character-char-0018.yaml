@@ -1,0 +1,17 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0022
+index_role: canonical_extension
+record:
+  id: CHAR-0018
+  name: 宇文浩
+  status: alive
+  role: antagonist
+  affiliations: [破天魔宗]
+  identities: [破天魔宗新掌门, 破天魔宗太上长老之子, 气运之敌]
+  first_appearance: {chapter: 66, title: 进入秘境, node: NODE-0013}
+  system_task: {target: 击杀宇文浩, reward: 一次万倍暴击机会, completion: pending, status: partial}
+  document: docs/02-characters/宇文浩.md
+  related_nodes: [NODE-0013]
+  source_chapters: [66]
+  verification_status: partial
