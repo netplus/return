@@ -1,17 +1,16 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0017
+run_id: RUN-0018
 coverage:
-  chapters_covered_through: 55
-  chapters_examined_in_run: [56, 57, 58, 59, 60, 61]
-  draft_arc_end: 61
-  timeline_nodes: 10
-  draft_nodes: 1
-  story_arc_nodes: 7
-  characters_documented: 14
+  chapters_covered_through: 61
+  chapters_promoted_in_run: [56, 57, 58, 59, 60, 61]
+  timeline_nodes: 11
+  draft_nodes: 0
+  story_arc_nodes: 8
+  characters_documented: 16
   system_records: 1
-  gift_events: 13
-  artifact_records: 14
+  gift_events: 14
+  artifact_records: 15
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
@@ -20,25 +19,25 @@ quality_gates:
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第61章完成徐霄元婴恢复、外门保护、白巧巧资源关系与梦丹旧关系恢复；第62章切换紫韵请求和天人秘境准备
+    boundary: 第61章完成徐霄元婴恢复、外门保护、白巧巧首次赠送与梦丹旧关系恢复；第62章切换紫韵请求和天人秘境准备
   materiality:
     status: passed
-    staged_entity_updates: [徐霄恢复元婴一重, 白巧巧首次登场与首次赠送, 梦丹首次登场与气运关系, 绝品悟道丹, 外门保护关系]
+    entity_updates: [徐霄恢复元婴一重, 白巧巧首次登场与首次赠送, 梦丹首次登场与气运关系, 绝品悟道丹, 外门保护关系]
   cross_index_consistency:
-    status: blocked
-    blocker: BLOCK-0005
-    reason: draft and evidence exist, canonical timeline, character, gift, artifact and system indexes are not yet promoted
+    status: passed
+    closed_blocker: BLOCK-0005
+    files_checked: [docs/01-timeline/node-0011.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, docs/03-system/万倍返还系统.md]
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
     duplicated_nodes: 0
     duplicated_gift_ids: 0
+    duplicated_character_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, sources/evidence/chapters-056-061.yaml]
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-056-061.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers:
-- {id: BLOCK-0005, gate: cross_index_consistency, status: open}
+blockers: []

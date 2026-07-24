@@ -16,10 +16,22 @@ tasks:
 - id: TASK-0013
   title: Build the 外门保护与元婴恢复 story arc from Chapter 56 onward
   type: story_arc
-  status: in_progress
-  run_ids: [RUN-0017]
-  target: {chapter_start: 56, resolved_chapter_end: 61, node: NODE-0011, boundary: adaptive}
-  staged_outputs: [docs/01-timeline/drafts/node-0011.md, sources/evidence/chapters-056-061.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: blocked, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  blockers: [BLOCK-0005]
+  status: done
+  completed_at: '2026-07-24'
+  run_ids: [RUN-0017, RUN-0018]
+  target: {chapter_start: 56, chapter_end: 61, node: NODE-0011, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0011.md, docs/02-characters/徐霄.md, docs/02-characters/白巧巧.md, docs/02-characters/梦丹.md, docs/03-system/万倍返还系统.md, docs/06-artifacts/绝品悟道丹.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-056-061.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  closed_blockers: [BLOCK-0005]
   depends_on: [TASK-0012]
+- id: TASK-0014
+  title: Build the 紫韵请求与天人秘境准备 story arc from Chapter 62 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 62, provisional_chapter_end: 68, node: NODE-0012, boundary: adaptive}
+  rules:
+  - Read and verify each covered chapter as evidence.
+  - End at a coherent story-arc boundary.
+  - Update only material and persistent entity changes.
+  - Deliver the entire arc as one complete commit or record blockers.
+  depends_on: [TASK-0013]
