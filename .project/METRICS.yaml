@@ -1,30 +1,39 @@
-schema_version: 1
+schema_version: 2
 updated_at: 2026-07-24
-run_id: RUN-0004
+run_id: RUN-0007
 coverage:
-  chapters_verified_through: 2
-  timeline_nodes: 2
-  characters_documented: 3
+  chapters_verified_through: 10
+  chapters_verified_in_run: 7
+  timeline_nodes: 4
+  story_arc_nodes: 1
+  characters_documented: 6
   system_records: 1
-  gift_events: 2
-  artifact_records: 4
+  gift_events: 5
+  artifact_records: 7
 quality_gates:
   source_traceability:
     status: passed
-    checked: 6
+    chapters_checked: [4, 5, 6, 7, 8, 9, 10]
     failures: 0
-  field_level_verification:
+  arc_coherence:
     status: passed
-    pending_fields_preserved: 8
+    boundary: 第10章完成林嫣儿关系与外门舆论闭环，第11章切换新气运之女
+  materiality:
+    status: passed
+    entity_updates: [徐霄境界, 紫韵首次登场, 林嫣儿首次登场, 三次有效赠送, 两件重要返还物品]
+  cross_index_consistency:
+    status: passed
+    files_checked: [docs/01-timeline/node-0004.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml]
   duplicate_work_check:
     status: passed
-    duplicated_completed_tasks: 0
+    duplicated_nodes: 0
+    duplicated_gift_ids: 0
+    duplicated_character_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked:
-      - data/system/gifts.yaml
-      - data/artifacts/artifacts.yaml
+    files_checked: [data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, .project/STATE.yaml, .project/TASKS.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
+    output_type: original_summary_and_structured_facts
 blockers: []
