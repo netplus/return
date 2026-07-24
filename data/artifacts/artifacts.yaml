@@ -1,0 +1,62 @@
+schema_version: 1
+updated_at: 2026-07-24
+artifacts:
+  - id: ART-0001
+    name: 寿元丹
+    category: 丹药
+    first_chapter: 1
+    current_holder: 徐霄
+    effects:
+      lifespan_years: 50
+    status: verified
+    document: docs/06-artifacts/寿元丹.md
+    related_nodes:
+      - NODE-0001
+      - NODE-0002
+  - id: ART-0002
+    name: 内藏下品法剑的细木杖
+    category: 法器
+    grade: 下品法器
+    first_chapter: 1
+    original_holder: 徐霄
+    current_holder: 姬雪
+    status: verified
+    related_gift: GIFT-0001
+    related_nodes:
+      - NODE-0001
+  - id: ART-0003
+    name: 南明离火剑
+    category: 法宝
+    grade: 法宝
+    first_chapter: 1
+    current_holder: 徐霄
+    acquisition: 万倍返还系统奖励
+    storage: 系统空间库
+    abilities: pending
+    status: verified
+    document: docs/06-artifacts/南明离火剑.md
+    related_gift: GIFT-0001
+    related_nodes:
+      - NODE-0001
+  - id: ART-0004
+    name: 上品灵石
+    category: 货币与修炼资源
+    first_chapter: 2
+    amount: 100
+    giver: 独孤灵
+    current_holder: 徐霄
+    intended_use: 未来五十年的生活用度
+    status: verified
+    related_nodes:
+      - NODE-0002
+sources:
+  - chapter: 1
+    title: 万倍返还系统
+    type: official_text
+    platform: 番茄小说
+    status: verified
+  - chapter: 2
+    title: 师妹独孤灵
+    type: official_text
+    platform: 番茄小说
+    status: verified
