@@ -1,12 +1,12 @@
 schema_version: 2
-run_id: RUN-0019
+run_ids: [RUN-0019, RUN-0020]
 task_id: TASK-0014
 updated_at: '2026-07-24'
 arc:
   chapter_start: 62
   chapter_end: 65
   node: NODE-0012
-  status: staged
+  status: staged_refined
   boundary_reason: 第65章完成秘境前准备与公开冲突；第66章正式进入秘境并出现新的气运之敌任务
 chapters:
 - chapter: 62
@@ -17,9 +17,16 @@ chapters:
   status: partial
 - chapter: 63
   title: 返还，鸿蒙一气丹
-  facts: [紫韵与徐霄形成更强合作承诺, 水月首次登场, 系统识别水月为S级气运之女且基础倍率30羁绊度1, 章节标题确认鸿蒙一气丹返还但赠送明细待完整正文复核]
+  facts:
+  - 紫韵与徐霄形成更强合作承诺
+  - 水月首次登场，是独孤灵大徒弟
+  - 水月入门不足百年并达到元婴九重巅峰
+  - 系统识别水月为S级气运之女、基础倍率30、羁绊度1
+  - 章节标题与后续正文确认鸿蒙一气丹返还；原始赠送物品与完整倍率仍待复核
   official_catalog: true
-  readable_mirrors: [小说之家, CP小说网]
+  readable_sources: [小说之家正文第一页, CP小说网正文缓存]
+  direct_fields: [水月身份, 水月修为, 气运等级S, 基础倍率30, 羁绊度1]
+  pending_fields: [原始赠送物品, 是否首次赠送, 触发倍率, 同批其他返还]
   status: partial
 - chapter: 64
   title: 人火之威

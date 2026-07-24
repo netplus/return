@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-24'
-last_run_id: RUN-0019
+last_run_id: RUN-0020
 milestone: M2
 workflow:
   standard_version: 2.0
@@ -18,14 +18,16 @@ progress:
   nodes_completed: 11
   nodes_drafted: 1
   characters_documented: 16
+  characters_staged: 1
   system_records: 1
   gift_events: 14
   artifact_records: 15
+  artifacts_staged: 1
   last_completed_node: NODE-0011
 current:
   next_task: TASK-0014
   task_status: in_progress
-  active_run_id: RUN-0019
+  active_run_id: RUN-0020
   next_chapter: 62
   resolved_arc_end: 65
   draft_node: docs/01-timeline/drafts/node-0012.md
@@ -33,5 +35,5 @@ status: active
 blockers:
 - id: BLOCK-0006
   gate: cross_index_consistency
-  description: NODE-0012 evidence and draft are staged, but canonical timeline, character, gift, artifact and system indexes are not yet promoted
+  description: NODE-0012 evidence and staged entity profiles exist, but canonical timeline, character, gift, artifact and system indexes are not yet promoted
   status: open

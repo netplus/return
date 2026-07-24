@@ -1,5 +1,17 @@
 # Changelog
 
+## RUN-0020 — 2026-07-24
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0014`; no completed task or canonical node was duplicated.
+- Rechecked Chapter 63 using the official catalog plus readable chapter text.
+- Strengthened direct evidence for 水月: 独孤灵大徒弟, 入门不足百年, 元婴九重巅峰, S-grade luck, base multiplier 30 and bond 1.
+- Refined `NODE-0012` and `sources/evidence/chapters-062-065.yaml` while preserving the unresolved gift item and multiplier fields as `pending`.
+- Added staged profiles for 水月 and 鸿蒙一气丹.
+- Source traceability, arc coherence, materiality, duplicate-work, YAML structure and copyright gates passed with qualifications.
+- Cross-index consistency remains blocked because canonical timeline, character, gift, artifact and system indexes are not yet promoted; retained `BLOCK-0006`.
+- Kept `TASK-0014` in progress.
+
 ## RUN-0019 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

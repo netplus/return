@@ -1,33 +1,42 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0019
+run_id: RUN-0020
 coverage:
   chapters_covered_through: 61
-  chapters_examined_in_run: [62, 63, 64, 65]
+  chapters_examined_in_run: [63]
   draft_arc_end: 65
   timeline_nodes: 11
   draft_nodes: 1
   story_arc_nodes: 8
   characters_documented: 16
+  characters_staged: 1
   system_records: 1
   gift_events: 14
   artifact_records: 15
+  artifacts_staged: 1
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
     official_catalog_chapters: [62, 63, 64, 65, 66]
-    cross_checked_mirror_chapters: [62, 63, 64, 65]
+    directly_readable_fields:
+    - 水月为独孤灵大徒弟
+    - 水月入门不足百年
+    - 水月修为元婴九重巅峰
+    - 水月气运等级S
+    - 水月基础倍率30
+    - 水月羁绊度1
+    pending_fields: [第63章原始赠送物品, 触发倍率, 完整返还清单]
     failures: 0
   arc_coherence:
     status: passed
     boundary: 第65章完成紫韵委托、天人秘境人选与入场前冲突；第66章正式进入秘境并发布宇文浩击杀任务
   materiality:
     status: passed
-    staged_entity_updates: [紫韵委托上官金玉事项, 水月首次登场与S级气运面板, 鸿蒙一气丹返还, 徐霄人火之道公开实战, 天人秘境参战关系]
+    staged_entity_updates: [水月首次登场与S级气运面板, 鸿蒙一气丹及鸿蒙真气, 紫韵委托上官金玉事项, 徐霄人火之道公开实战]
   cross_index_consistency:
     status: blocked
     blocker: BLOCK-0006
-    reason: draft and evidence exist, canonical timeline, character, gift, artifact and system indexes are not yet promoted
+    reason: draft and staged entity profiles exist, canonical timeline, character, gift, artifact and system indexes are not yet promoted
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0

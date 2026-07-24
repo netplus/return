@@ -9,10 +9,12 @@
 - **Completed timeline nodes:** 11
 - **Draft timeline nodes:** 1
 - **Documented characters:** 16
+- **Staged characters:** 1
 - **System records:** 1
 - **Gift events:** 14
 - **Artifact records:** 15
-- **Last run:** `RUN-0019`
+- **Staged artifacts:** 1
+- **Last run:** `RUN-0020`
 - **Last completed node:** `NODE-0011`
 - **Active task:** `TASK-0014` — 紫韵请求与天人秘境准备 story arc
 - **Resolved draft range:** Chapters 62–65
@@ -20,13 +22,13 @@
 
 ## Current staged arc
 
-`NODE-0012` draft covers Chapters 62—65. 徐霄决定参加天人秘境，接受紫韵处理上官金玉的请求；水月被识别为 S 级气运之女，章节确认鸿蒙一气丹返还并由徐霄服用。抵达秘境入口后，徐霄公开展示人火之道并成为多方敌意焦点。第 66 章正式进入秘境并出现新的宇文浩任务的宻任务。
+`NODE-0012` draft covers Chapters 62—65. 徐霄决定参加天人秘境并接受紫韵处理上官金玉的请求。第 63 章可访问正文直接确认水月是独孤灵大徒弟、入门不足百年、元婴九重巅峰，并被系统识别为 S 级气运之女，基础倍率 30、羁绊度 1。鸿蒙一气丹的返还结果和徐霄服用后的鸿蒙真气已确认，但原始赠送物品和完整倍率结算仍保持 `pending`。第 66 章正式进入秘境并开启宇文浩任务。
 
-## Quality gates — RUN-0019
+## Quality gates — RUN-0020
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed with qualifications |
+| Source traceability | Passed with qualifications; Chapter 63 direct fields strengthened |
 | Arc coherence | Passed |
 | Materiality | Passed |
 | Cross-index consistency | Blocked — `BLOCK-0006` |
@@ -36,4 +38,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 62—66 章标题、顺序与边界；第 62—65 章正文事实由可访问镜像交叉核验，新增字段保持 `partial`，未提升为 `verified`。
+番茄小说官方目录确认第 62—66 章标题、顺序与边界。第 63 章可访问正文直接确认水月身份、修为和系统面板；其余新增事实及鸿蒙一气丹完整结算由正文镜像交叉核验，保持 `partial`。

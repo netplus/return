@@ -18,9 +18,13 @@ tasks:
   title: Build the 紫韵请求与天人秘境准备 story arc from Chapter 62 onward
   type: story_arc
   status: in_progress
-  run_ids: [RUN-0019]
+  run_ids: [RUN-0019, RUN-0020]
   target: {chapter_start: 62, resolved_chapter_end: 65, node: NODE-0012, boundary: adaptive}
-  staged_outputs: [docs/01-timeline/drafts/node-0012.md, sources/evidence/chapters-062-065.yaml]
+  staged_outputs:
+  - docs/01-timeline/drafts/node-0012.md
+  - docs/02-characters/drafts/水月.md
+  - docs/06-artifacts/drafts/鸿蒙一气丹.md
+  - sources/evidence/chapters-062-065.yaml
   quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: blocked, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   blockers: [BLOCK-0006]
   depends_on: [TASK-0013]
