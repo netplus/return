@@ -1,0 +1,84 @@
+schema_version: 1
+run_id: RUN-0009
+arc:
+  task: TASK-0008
+  draft_node: NODE-0006
+  chapter_start: 17
+  chapter_end: 23
+  status: partial
+  boundary_reason: 第23章完成独孤灵首次赠送与三千大道丹领悟闭环；第24章切换林嫣儿消息
+chapters:
+  - chapter: 17
+    title: 周啸的算计
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 周啸及两名弟子因金柳香与徐霄的关系产生敌意
+      - 三人夜间接近徐霄外山住处进行窥探
+  - chapter: 18
+    title: 出手，南明离火剑
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 徐霄保留元婴九重层级神识感知能力
+      - 徐霄提前发现周啸三人
+      - 徐霄以南明离火剑压制三人
+  - chapter: 19
+    title: 错愕的陆大年
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 周啸等人求饶
+      - 金柳香与原师门关系实质破裂
+      - 徐霄通知陆大年按门规接管事件
+  - chapter: 20
+    title: 超级八卦
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 陆大年接受金柳香为记名弟子
+      - 徐霄继续承担金柳香修炼资源
+      - 周啸师徒被逐出宗门
+  - chapter: 21
+    title: 独孤灵来了
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 周啸事件和徐霄相关传言扩散
+      - 独孤灵亲自到外山调查
+  - chapter: 22
+    title: 赠送绝品驻颜丹
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 徐霄将绝品驻颜丹赠予独孤灵
+      - 独孤灵接受赠礼
+  - chapter: 23
+    title: 三千大道，地火之道
+    official_directory: verified
+    readable_text: cross_checked_mirror
+    status: partial
+    facts:
+      - 独孤灵修为为化神九重
+      - 独孤灵拥有纯阴之体并修炼缥缈长生诀
+      - 对独孤灵首次有效赠送触发万倍暴击
+      - 返还三千大道丹
+      - 三千大道丹可使服用者随机领悟一条天地大道
+      - 徐霄服用后开始领悟地火之道
+next_chapter_check:
+  chapter: 24
+  title: 林嫣儿的消息
+  role: next_arc_boundary_confirmation
+source_policy:
+  official_catalog: 番茄小说官方作品页
+  mirrors: 仅用于交叉核对事实，不提升为 verified
+  copyright_boundary: 不保存正文，只保存原创摘要和事实字段
+blockers:
+  - 官方第17—23章正文页在本次运行中无法稳定展开
+  - 中央人物、时间线、赠送与物品索引尚未完成一致性提升

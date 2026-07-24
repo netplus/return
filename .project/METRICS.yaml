@@ -1,22 +1,13 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0008
+run_id: RUN-0009
 coverage:
-  chapters_covered_through: 16
+  chapters_covered_through: 23
   chapters_verified_through: 16
-  chapters_in_run:
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
-  source_qualified_chapters:
-  - 12
-  - 14
-  - 15
-  - 16
+  chapters_in_run: [17, 18, 19, 20, 21, 22, 23]
+  source_qualified_draft_chapters: [17, 18, 19, 20, 21, 22, 23]
   timeline_nodes: 5
+  draft_nodes: 1
   story_arc_nodes: 2
   characters_documented: 7
   system_records: 1
@@ -25,52 +16,46 @@ coverage:
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_direct_chapters:
-    - 11
-    - 13
-    cross_checked_chapters:
-    - 12
-    - 14
-    - 15
-    - 16
+    official_catalog_chapters: [17, 18, 19, 20, 21, 22, 23, 24]
+    cross_checked_mirror_chapters: [17, 18, 19, 20, 21, 22, 23]
+    direct_official_body_chapters: []
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第16章完成一个月互动与外门舆论固化，第17章转入周啸算计和正面冲突
+    boundary: 第23章完成独孤灵首次赠送、三千大道丹返还与地火之道领悟；第24章切换林嫣儿消息
   materiality:
     status: passed
-    entity_updates:
-    - 徐霄境界
-    - 金柳香首次登场与羁绊变化
-    - 两次有效赠送
-    - 绝品寿元丹
-    - 四海升平坠
-    - 系统羁绊倍率规则
+    proposed_entity_updates:
+      - 徐霄保留元婴九重神识感知
+      - 周啸师徒冲突及逐出宗门
+      - 金柳香转为陆大年记名弟子
+      - 独孤灵化神九重与纯阴之体
+      - 独孤灵首次有效赠送
+      - 三千大道丹与地火之道
   cross_index_consistency:
-    status: passed
-    files_checked:
-    - docs/01-timeline/node-0005.md
-    - data/timeline/nodes.yaml
-    - data/characters/characters.yaml
-    - data/system/gifts.yaml
-    - data/artifacts/artifacts.yaml
+    status: blocked
+    detail: NODE-0006仍为草案，中央时间线、人物、赠送事件和物品索引未更新
   duplicate_work_check:
     status: passed
+    duplicated_completed_tasks: 0
     duplicated_nodes: 0
-    duplicated_gift_ids: 0
-    duplicated_character_ids: 0
   yaml_structure_review:
     status: passed
     files_checked:
-    - data/timeline/nodes.yaml
-    - data/characters/characters.yaml
-    - data/system/gifts.yaml
-    - data/artifacts/artifacts.yaml
-    - .project/STATE.yaml
-    - .project/TASKS.yaml
-    - sources/evidence/chapters-011-016.yaml
+      - .project/STATE.yaml
+      - .project/TASKS.yaml
+      - .project/METRICS.yaml
+      - sources/evidence/chapters-017-023.yaml
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers: []
+blockers:
+  - id: BLOCK-0001
+    gate: source_traceability
+    severity: qualification
+    detail: 官方章节正文页未能稳定展开，不能将草案提升为verified
+  - id: BLOCK-0002
+    gate: cross_index_consistency
+    severity: blocking
+    detail: 中央索引整合尚未完成，TASK-0008保持in_progress

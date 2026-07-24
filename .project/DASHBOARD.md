@@ -1,70 +1,48 @@
 # Project dashboard
 
-- **Status:** Active
+- **Status:** Active — task blocked before canonical promotion
 - **Current milestone:** M1 — Chapters 1–50
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Default planning window:** Approximately 5–10 chapters, adaptive boundary
-- **Covered through:** Chapter 16
-- **Source-qualified chapters in latest arc:** 12, 14, 15, 16
+- **Covered through:** Chapter 23 evidence draft
+- **Canonically indexed through:** Chapter 16
 - **Completed timeline nodes:** 5
+- **Draft timeline nodes:** 1 (`NODE-0006`)
 - **Documented characters:** 7
 - **System records:** 1
-- **Gift events:** 7
-- **Artifact records:** 9
-- **Last completed run:** `RUN-0008`
+- **Gift events:** 7 canonical; 1 proposed
+- **Artifact records:** 9 canonical; 1 proposed
+- **Last run:** `RUN-0009`
 - **Last completed node:** `NODE-0005`
-- **Next task:** `TASK-0008` — Build the 周啸 conflict story arc beginning at Chapter 17
-- **Provisional exploration range:** Chapters 17–23
-- **Blockers:** None
+- **Current task:** `TASK-0008` — 周啸 conflict story arc, Chapters 17–23
+- **Task state:** In progress
 
-## Workflow policy
+## Current arc
 
-| Area | Standard |
-|---|---|
-| Evidence unit | Individual chapter |
-| Knowledge unit | Coherent story arc |
-| Typical node size | Approximately 5–10 chapters |
-| Boundary rule | Conflict closure, goal/location transition, or material state change |
-| Entity updates | Material and persistent changes only |
-| Delivery | One complete Task and one squashed Commit per arc |
-| Legacy nodes | `NODE-0001`–`NODE-0003` retained unchanged |
+The Chapter 17—23 boundary is coherent: the 周啸 conflict begins in Chapter 17, is resolved through enforcement and expulsion, and transitions into 独孤灵's intervention and the first successful gift to her. Chapter 23 completes the 三千大道丹 and 地火之道 reward cycle; Chapter 24 switches to 林嫣儿 and a later development.
 
-## Knowledge coverage
-
-| Area | Count | Verification |
-|---|---:|---|
-| Timeline nodes | 5 | Covered through Chapter 16 |
-| Story-arc nodes | 2 | Chapters 4–10 and 11–16 |
-| Characters | 7 | 金柳香 and selected fields are source-qualified |
-| System definitions | 1 | Bond-level multiplier rule added as partial |
-| Gift events | 7 | 6 successful, 1 rejected |
-| Artifact records | 9 | Added 绝品寿元丹 and 四海升平坠 |
-
-## Quality gates — RUN-0008
+## Quality gates — RUN-0009
 
 | Gate | Result |
 |---|---|
 | Source traceability | Passed with qualifications |
 | Arc coherence | Passed |
 | Materiality | Passed |
-| Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
 | Copyright boundary | Passed |
+| Cross-index consistency | **Blocked** |
 
-## Source qualification
+## Blockers
 
-The arc is structurally complete, but Chapters 12 and 14–16 could not all be read from a fully rendered official chapter page. Their facts were cross-checked using the official directory or chapter identifiers plus accessible text mirrors. These fields are marked `partial`; no unsupported detail was promoted to `verified`.
+1. Official Chapter 17—23 body pages did not render reliably. The official directory confirms titles and order; facts were cross-checked against multiple readable mirrors and remain `partial`.
+2. `NODE-0006` has not been promoted into canonical timeline, character, gift, and artifact indexes. `TASK-0008` therefore remains in progress.
 
-## Task summary
+## New artifacts
 
-| Task | Status |
-|---|---|
-| Bootstrap lightweight project management | Done |
-| Verify Chapter 2 and build NODE-0002 | Done |
-| Create initial character records | Done |
-| Create initial system and artifact records | Done |
-| Verify Chapter 3 and build NODE-0003 | Done |
-| First story arc, Chapters 4–10 | Done |
-| 金柳香 and bond-level story arc, Chapters 11–16 | Done with source qualifications |
-| 周啸 conflict story arc beginning at Chapter 17 | Pending |
+- `docs/01-timeline/drafts/node-0006.md`
+- `sources/evidence/chapters-017-023.yaml`
+
+## Next action
+
+Resume `TASK-0008`; retry official text access, consolidate the central indexes, rerun cross-index consistency, then promote `NODE-0006` and complete the task.
