@@ -1,5 +1,16 @@
 # Changelog
 
+## RUN-0007 — 2026-07-24
+
+- Completed `TASK-0006` under Workflow v2.0 as the first story-arc task.
+- Verified Chapters 4—10 and created `NODE-0004`: 虎啸城赠礼与林嫣儿结缘.
+- Added verified character records for 紫韵 and 林嫣儿.
+- Registered three successful gift events: 紫韵首次赠送、林嫣儿首次赠送、林嫣儿后续赠送.
+- Added 九天神凤钗 and 绝品驻颜丹 records and indexed the three returned middle-grade artifacts.
+- Updated 徐霄's recovered cultivation to 筑基四重.
+- Passed source traceability, arc coherence, materiality, cross-index consistency, duplicate-work, YAML structure, and copyright-boundary gates.
+- Queued `TASK-0007` beginning at Chapter 11, where a new气运之女 starts the next narrative phase.
+
 ## RUN-0006 — 2026-07-24
 
 - Replaced the default one-chapter-one-node workflow with story-arc aggregation.
