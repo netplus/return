@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 project: return
 updated_at: 2026-07-24
 verification_states: [verified, partial, inferred, conflict, pending]
@@ -10,18 +10,14 @@ characters:
     affiliations: [缥缈宗]
     identities: [姬雪弟子, 独孤灵师兄, 穿越者]
     first_appearance: {chapter: 1, title: 万倍返还系统, node: NODE-0001}
-    cultivation:
-      before_tribulation: 元婴九重
-      attempted_realm: 化神境
-      current: 筑基一重
-      status: verified
+    cultivation: {before_tribulation: 元婴九重, attempted_realm: 化神境, current: 筑基四重, status: verified}
     age: {value: 1008, status: verified}
     lifespan: {remaining_years: 51, status: verified}
     special_constitution: {value: 暂无, status: verified}
     system: {name: 万倍返还系统, status: verified}
     documents: {profile: docs/02-characters/徐霄.md}
-    related_nodes: [NODE-0001, NODE-0002, NODE-0003]
-    source_chapters: [1, 2, 3]
+    related_nodes: [NODE-0001, NODE-0002, NODE-0003, NODE-0004]
+    source_chapters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     verification_status: verified
   - id: CHAR-0002
     name: 姬雪
@@ -59,6 +55,32 @@ characters:
     first_appearance: {chapter: 3, title: 我还没死，你哭啥？, node: NODE-0003}
     cultivation: {current: 元婴六重, status: verified}
     documents: {profile: docs/02-characters/陆大年.md}
-    related_nodes: [NODE-0003]
-    source_chapters: [3]
+    related_nodes: [NODE-0003, NODE-0004]
+    source_chapters: [3, 4, 5, 6, 7]
+    verification_status: verified
+  - id: CHAR-0005
+    name: 紫韵
+    status: alive
+    role: supporting
+    affiliations: [紫来商行]
+    identities: [紫来商行掌柜, 气运之女]
+    first_appearance: {chapter: 4, title: 赠送资源到手, node: NODE-0004}
+    luck_grade: {value: null, status: pending}
+    cultivation: {current: null, status: pending}
+    documents: {profile: docs/02-characters/紫韵.md}
+    related_nodes: [NODE-0004]
+    source_chapters: [4, 5]
+    verification_status: partial
+  - id: CHAR-0006
+    name: 林嫣儿
+    status: alive
+    role: supporting
+    affiliations: [缥缈宗]
+    identities: [缥缈宗外门弟子, 气运之女]
+    first_appearance: {chapter: 6, title: 赠送筑基丹, node: NODE-0004}
+    luck_grade: {value: C, base_multiplier: 10, status: verified}
+    cultivation: {current: 练气九重, status: verified}
+    documents: {profile: docs/02-characters/林嫣儿.md}
+    related_nodes: [NODE-0004]
+    source_chapters: [6, 7, 8, 9, 10]
     verification_status: verified
