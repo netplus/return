@@ -1,5 +1,14 @@
 # Changelog
 
+## RUN-0005 — 2026-07-24
+
+- Verified Chapter 3, `我还没死，你哭啥？`, against the official 番茄小说 page.
+- Created `NODE-0003`: 寿元恢复、法宝试用与陆大年登场.
+- Recorded 徐霄's age, 51-year remaining lifespan, activated character panel, and improved physical condition.
+- Expanded 南明离火剑 with verified refinement, control, appearance, and demonstrated attack-level data.
+- Added 陆大年 as `CHAR-0004`, including his office, cultivation, formal master, and actual teacher.
+- Completed `TASK-0005` and queued `TASK-0006` for Chapter 4.
+
 ## RUN-0004 — 2026-07-24
 
 - Completed `TASK-0004` using verified facts from Chapters 1—2 only.
@@ -7,24 +16,16 @@
 - Added verified artifact records for 寿元丹, 南明离火剑, the gifted lower-grade sword, and 100 upper-grade spirit stones.
 - Preserved undisclosed effects, grades, mappings, and probabilities as `pending`.
 - Ran source traceability, field-level verification, duplicate-work, YAML-structure, and copyright-boundary quality gates; all passed.
-- Recorded project metrics in `.project/METRICS.yaml` and queued `TASK-0005` for Chapter 3.
 
 ## RUN-0003 — 2026-07-24
 
 - Created initial verified character profiles for 徐霄, 姬雪, and 独孤灵 from Chapters 1—2.
 - Added `data/characters/characters.yaml` as the structured character index.
-- Preserved unknown cultivation fields for 姬雪 and 独孤灵 as `pending` rather than inferring them.
-- Completed `TASK-0003` and advanced the queue to `TASK-0004`.
 
 ## RUN-0002 — 2026-07-24
 
-- Verified Chapter 2, `师妹独孤灵`, against the official 番茄小说 page.
-- Created `NODE-0002`: 寿元丹赠送失败与迁居外山.
-- Registered the failed寿元丹 gift, 徐霄's outer-mountain residence, and the transfer of 100 upper-grade spirit stones.
-- Completed `TASK-0002` and advanced the queue to `TASK-0003`.
+- Verified Chapter 2 and created `NODE-0002`.
 
 ## RUN-0001 — 2026-07-24
 
 - Initialized the lightweight project-management system.
-- Registered existing progress through Chapter 1 and `NODE-0001`.
-- Set `TASK-0002` as the next task: verify Chapter 2 and build `NODE-0002`.

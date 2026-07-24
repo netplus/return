@@ -8,45 +8,39 @@ tasks:
   - id: TASK-0002
     title: Verify Chapter 2 and build NODE-0002
     type: timeline
-    target:
-      chapter: 2
-      node: NODE-0002
+    target: {chapter: 2, node: NODE-0002}
     status: done
     completed_at: 2026-07-24
-    depends_on:
-      - TASK-0001
+    depends_on: [TASK-0001]
   - id: TASK-0003
     title: Create initial character records from verified chapters
     type: characters
     status: done
     completed_at: 2026-07-24
-    outputs:
-      - docs/02-characters/徐霄.md
-      - docs/02-characters/姬雪.md
-      - docs/02-characters/独孤灵.md
-      - data/characters/characters.yaml
-    depends_on:
-      - TASK-0002
+    depends_on: [TASK-0002]
   - id: TASK-0004
     title: Create initial system and artifact records
     type: system
     status: done
     completed_at: 2026-07-24
     run_id: RUN-0004
-    outputs:
-      - docs/03-system/万倍返还系统.md
-      - data/system/gifts.yaml
-      - docs/06-artifacts/寿元丹.md
-      - docs/06-artifacts/南明离火剑.md
-      - data/artifacts/artifacts.yaml
-    depends_on:
-      - TASK-0002
+    depends_on: [TASK-0002]
   - id: TASK-0005
     title: Verify Chapter 3 and build NODE-0003
     type: timeline
-    target:
-      chapter: 3
-      node: NODE-0003
+    target: {chapter: 3, node: NODE-0003}
+    status: done
+    completed_at: 2026-07-24
+    run_id: RUN-0005
+    outputs:
+      - docs/01-timeline/node-0003.md
+      - docs/02-characters/陆大年.md
+      - data/timeline/nodes.yaml
+      - data/characters/characters.yaml
+    depends_on: [TASK-0004]
+  - id: TASK-0006
+    title: Verify Chapter 4 and build NODE-0004
+    type: timeline
+    target: {chapter: 4, node: NODE-0004}
     status: pending
-    depends_on:
-      - TASK-0004
+    depends_on: [TASK-0005]

@@ -10,17 +10,10 @@ verification_states:
 nodes:
   - id: NODE-0001
     title: 寿元将尽与首次万倍返还
-    chapters:
-      start: 1
-      end: 1
+    chapters: {start: 1, end: 1}
     status: verified
-    locations:
-      - 缥缈峰后山
-      - 缥缈宗宗门秘境外
-    characters:
-      - 徐霄
-      - 姬雪
-      - 独孤灵
+    locations: [缥缈峰后山, 缥缈宗宗门秘境外]
+    characters: [徐霄, 姬雪, 独孤灵]
     system_events:
       - recipient: 姬雪
         recipient_luck_grade: SSS
@@ -36,39 +29,17 @@ nodes:
       lifespan: 不足一年
     document: docs/01-timeline/node-0001.md
     sources:
-      - chapter: 1
-        title: 万倍返还系统
-        type: official_text
-        platform: 番茄小说
-        status: verified
+      - {chapter: 1, title: 万倍返还系统, type: official_text, platform: 番茄小说, status: verified}
   - id: NODE-0002
     title: 寿元丹赠送失败与迁居外山
-    chapters:
-      start: 2
-      end: 2
+    chapters: {start: 2, end: 2}
     status: verified
-    locations:
-      - 缥缈宗宗门秘境外露台
-      - 缥缈峰内山
-      - 缥缈峰外山
-      - 外山山腰徐霄住处
-    characters:
-      - 徐霄
-      - 独孤灵
-      - 姬雪
+    locations: [缥缈宗宗门秘境外露台, 缥缈峰内山, 缥缈峰外山, 外山山腰徐霄住处]
+    characters: [徐霄, 独孤灵, 姬雪]
     system_events:
-      - recipient: 独孤灵
-        gift: 寿元丹
-        accepted: false
-        recognized: false
-        reward: null
-        status: verified
+      - {recipient: 独孤灵, gift: 寿元丹, accepted: false, recognized: false, reward: null, status: verified}
     resource_events:
-      - from: 独孤灵
-        to: 徐霄
-        item: 上品灵石
-        quantity: 100
-        status: verified
+      - {from: 独孤灵, to: 徐霄, item: 上品灵石, quantity: 100, status: verified}
     protagonist_state:
       realm: 筑基一重
       can_fly_on_sword: false
@@ -76,8 +47,26 @@ nodes:
       lifespan_if_taking_pill: 五十年
     document: docs/01-timeline/node-0002.md
     sources:
-      - chapter: 2
-        title: 师妹独孤灵
-        type: official_text
-        platform: 番茄小说
-        status: verified
+      - {chapter: 2, title: 师妹独孤灵, type: official_text, platform: 番茄小说, status: verified}
+  - id: NODE-0003
+    title: 寿元恢复、法宝试用与陆大年登场
+    chapters: {start: 3, end: 3}
+    status: verified
+    locations: [缥缈峰外山山腰徐霄住处]
+    characters: [徐霄, 陆大年, 独孤灵]
+    system_events:
+      - {event: 激活人物面板, trigger: 寿元增加五十年, status: verified}
+      - {event: 系统完成南明离火剑炼化, status: verified}
+    artifact_events:
+      - {item: 南明离火剑, result: 至少发挥元婴境界攻击力, status: verified}
+      - {item: 寿元丹, action: 服用, lifespan_added_years: 50, status: verified}
+    protagonist_state:
+      age: 1008
+      realm: 筑基一重
+      special_constitution: 暂无
+      remaining_lifespan_years: 51
+    new_characters:
+      - {name: 陆大年, role: 缥缈宗外门执法长老, realm: 元婴六重, status: verified}
+    document: docs/01-timeline/node-0003.md
+    sources:
+      - {chapter: 3, title: 我还没死，你哭啥？, type: official_text, platform: 番茄小说, status: verified}
