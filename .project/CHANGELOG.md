@@ -1,5 +1,14 @@
 # Changelog
 
+## RUN-0004 — 2026-07-24
+
+- Completed `TASK-0004` using verified facts from Chapters 1—2 only.
+- Added the initial `万倍返还系统` rule record and structured gift-event index.
+- Added verified artifact records for 寿元丹, 南明离火剑, the gifted lower-grade sword, and 100 upper-grade spirit stones.
+- Preserved undisclosed effects, grades, mappings, and probabilities as `pending`.
+- Ran source traceability, field-level verification, duplicate-work, YAML-structure, and copyright-boundary quality gates; all passed.
+- Recorded project metrics in `.project/METRICS.yaml` and queued `TASK-0005` for Chapter 3.
+
 ## RUN-0003 — 2026-07-24
 
 - Created initial verified character profiles for 徐霄, 姬雪, and 独孤灵 from Chapters 1—2.
