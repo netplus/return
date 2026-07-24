@@ -1,12 +1,7 @@
-schema_version: 1
+schema_version: 2
 project: return
 updated_at: 2026-07-24
-verification_states:
-  - verified
-  - partial
-  - inferred
-  - conflict
-  - pending
+verification_states: [verified, partial, inferred, conflict, pending]
 nodes:
   - id: NODE-0001
     title: 寿元将尽与首次万倍返还
@@ -15,58 +10,55 @@ nodes:
     locations: [缥缈峰后山, 缥缈宗宗门秘境外]
     characters: [徐霄, 姬雪, 独孤灵]
     system_events:
-      - recipient: 姬雪
-        recipient_luck_grade: SSS
-        gift: 内藏下品法剑的细木杖
-        base_multiplier: 100
-        triggered_multiplier: 10000
-        reward: 南明离火剑
-        status: verified
-    protagonist_state:
-      realm_before_failure: 元婴九重
-      attempted_realm: 化神境
-      realm_after_failure: 筑基一重
-      lifespan: 不足一年
+      - {recipient: 姬雪, recipient_luck_grade: SSS, gift: 内藏下品法剑的细木杖, base_multiplier: 100, triggered_multiplier: 10000, reward: 南明离火剑, status: verified}
+    protagonist_state: {realm_before_failure: 元婴九重, attempted_realm: 化神境, realm_after_failure: 筑基一重, lifespan: 不足一年}
     document: docs/01-timeline/node-0001.md
-    sources:
-      - {chapter: 1, title: 万倍返还系统, type: official_text, platform: 番茄小说, status: verified}
+    sources: [{chapter: 1, title: 万倍返还系统, type: official_text, platform: 番茄小说, status: verified}]
   - id: NODE-0002
     title: 寿元丹赠送失败与迁居外山
     chapters: {start: 2, end: 2}
     status: verified
     locations: [缥缈宗宗门秘境外露台, 缥缈峰内山, 缥缈峰外山, 外山山腰徐霄住处]
     characters: [徐霄, 独孤灵, 姬雪]
-    system_events:
-      - {recipient: 独孤灵, gift: 寿元丹, accepted: false, recognized: false, reward: null, status: verified}
-    resource_events:
-      - {from: 独孤灵, to: 徐霄, item: 上品灵石, quantity: 100, status: verified}
-    protagonist_state:
-      realm: 筑基一重
-      can_fly_on_sword: false
-      residence: 缥缈峰外山山腰
-      lifespan_if_taking_pill: 五十年
+    system_events: [{recipient: 独孤灵, gift: 寿元丹, accepted: false, recognized: false, reward: null, status: verified}]
+    resource_events: [{from: 独孤灵, to: 徐霄, item: 上品灵石, quantity: 100, status: verified}]
+    protagonist_state: {realm: 筑基一重, can_fly_on_sword: false, residence: 缥缈峰外山山腰, lifespan_if_taking_pill: 五十年}
     document: docs/01-timeline/node-0002.md
-    sources:
-      - {chapter: 2, title: 师妹独孤灵, type: official_text, platform: 番茄小说, status: verified}
+    sources: [{chapter: 2, title: 师妹独孤灵, type: official_text, platform: 番茄小说, status: verified}]
   - id: NODE-0003
     title: 寿元恢复、法宝试用与陆大年登场
     chapters: {start: 3, end: 3}
     status: verified
     locations: [缥缈峰外山山腰徐霄住处]
     characters: [徐霄, 陆大年, 独孤灵]
-    system_events:
-      - {event: 激活人物面板, trigger: 寿元增加五十年, status: verified}
-      - {event: 系统完成南明离火剑炼化, status: verified}
-    artifact_events:
-      - {item: 南明离火剑, result: 至少发挥元婴境界攻击力, status: verified}
-      - {item: 寿元丹, action: 服用, lifespan_added_years: 50, status: verified}
-    protagonist_state:
-      age: 1008
-      realm: 筑基一重
-      special_constitution: 暂无
-      remaining_lifespan_years: 51
-    new_characters:
-      - {name: 陆大年, role: 缥缈宗外门执法长老, realm: 元婴六重, status: verified}
+    system_events: [{event: 激活人物面板, trigger: 寿元增加五十年, status: verified}, {event: 系统完成南明离火剑炼化, status: verified}]
+    artifact_events: [{item: 南明离火剑, result: 至少发挥元婴境界攻击力, status: verified}, {item: 寿元丹, action: 服用, lifespan_added_years: 50, status: verified}]
+    protagonist_state: {age: 1008, realm: 筑基一重, special_constitution: 暂无, remaining_lifespan_years: 51}
+    new_characters: [{name: 陆大年, role: 缥缈宗外门执法长老, realm: 元婴六重, status: verified}]
     document: docs/01-timeline/node-0003.md
+    sources: [{chapter: 3, title: 我还没死，你哭啥？, type: official_text, platform: 番茄小说, status: verified}]
+  - id: NODE-0004
+    title: 虎啸城赠礼与林嫣儿结缘
+    chapters: {start: 4, end: 10}
+    granularity: story_arc
+    status: verified
+    boundary_reason: 第10章完成林嫣儿赠礼关系与外门舆论闭环，第11章转入新气运之女
+    locations: [虎啸城, 紫来商行, 缥缈宗外山, 徐霄外山住处]
+    characters: [徐霄, 陆大年, 紫韵, 林嫣儿]
+    system_events:
+      - {gift_id: GIFT-0003, recipient: 紫韵, gift: 下品法钗, triggered_multiplier: 1000, reward: 九天神凤钗, status: verified}
+      - {gift_id: GIFT-0004, recipient: 林嫣儿, gift: 十枚筑基丹, triggered_multiplier: 100, reward: 绝品驻颜丹, status: verified}
+      - {gift_id: GIFT-0005, recipient: 林嫣儿, gift: 三件下品法器, triggered_multiplier: 10, reward: 三件中品法器, status: verified}
+    protagonist_state: {realm_start: 筑基一重, realm_end: 筑基四重, remaining_lifespan_years: 51}
+    new_characters:
+      - {name: 紫韵, role: 紫来商行掌柜, luck_grade: pending, status: partial}
+      - {name: 林嫣儿, role: 缥缈宗外门弟子, realm: 练气九重, luck_grade: C, status: verified}
+    document: docs/01-timeline/node-0004.md
     sources:
-      - {chapter: 3, title: 我还没死，你哭啥？, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 4, title: 赠送资源到手, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 5, title: 九天神凤钗, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 6, title: 赠送筑基丹, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 7, title: 百倍暴击，绝品驻颜丹, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 8, title: 宗门广场的羡慕声, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 9, title: 林嫣儿到来, type: official_text, platform: 番茄小说, status: verified}
+      - {chapter: 10, title: 宗门广场炸了, type: official_text, platform: 番茄小说, status: verified}

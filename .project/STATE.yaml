@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: 2026-07-24
-last_run_id: RUN-0006
+last_run_id: RUN-0007
 milestone: M1
 workflow:
   standard_version: 2.0
@@ -13,16 +13,16 @@ scope:
   chapter_start: 1
   chapter_end: 50
 progress:
-  chapters_verified_through: 3
-  nodes_completed: 3
-  characters_documented: 4
+  chapters_verified_through: 10
+  nodes_completed: 4
+  characters_documented: 6
   system_records: 1
-  gift_events: 2
-  artifact_records: 4
-  last_completed_node: NODE-0003
+  gift_events: 5
+  artifact_records: 7
+  last_completed_node: NODE-0004
 current:
-  next_task: TASK-0006
-  next_chapter: 4
-  provisional_arc_end: 10
+  next_task: TASK-0007
+  next_chapter: 11
+  provisional_arc_end: 17
 status: active
 blockers: []
