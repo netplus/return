@@ -1,16 +1,24 @@
 # Changelog
 
+## RUN-0010 — 2026-07-24
+
+- Resumed and completed the existing `TASK-0008`; no completed task or node was duplicated.
+- Promoted the Chapter 17—23 draft into canonical `NODE-0006`: 周啸冲突与三千大道丹.
+- Preserved source qualification: official directory confirms chapter titles and order;正文 facts remain `partial` after mirror cross-checking.
+- Added `CHAR-0008` 周啸 and updated 徐霄、独孤灵、金柳香、陆大年 in the canonical character index.
+- Registered `GIFT-0008`: 绝品驻颜丹赠予独孤灵，万倍暴击返还三千大道丹.
+- Added `ART-0010` 三千大道丹 and recorded 徐霄's 地火之道 comprehension.
+- Updated the system rules and event index through Chapter 23.
+- Resolved the cross-index blocker by synchronizing timeline, character, gift, artifact, system and evidence indexes.
+- Passed all quality gates; source traceability passed with explicit qualifications.
+- Removed the obsolete draft and queued `TASK-0009` beginning at Chapter 24.
+
 ## RUN-0009 — 2026-07-24
 
 - Resumed `TASK-0008` only; no completed work was duplicated.
 - Confirmed the provisional Chapter 17—23 boundary for the 周啸 conflict and 独孤灵 gift arc.
-- Added `docs/01-timeline/drafts/node-0006.md` as a source-qualified draft rather than promoting unsupported facts to the canonical timeline.
-- Added `sources/evidence/chapters-017-023.yaml` with chapter-level evidence, status, and boundary data.
-- Confirmed major proposed increments: retained元婴九重神识, 南明离火剑 conflict use, 周啸师徒 expulsion, 金柳香 becoming 陆大年's nominal disciple, 独孤灵 at 化神九重 with纯阴之体, and the first successful gift to 独孤灵 returning 三千大道丹 and 地火之道.
-- Source traceability passed with qualifications; official directory data was available, but official chapter bodies did not render reliably.
-- Arc coherence, materiality, duplicate-work, YAML-structure, and copyright-boundary gates passed.
-- Cross-index consistency remains blocked because the draft has not yet been consolidated into the canonical timeline, character, gift, and artifact indexes.
-- Kept `TASK-0008` in progress and recorded blockers in state, tasks, metrics, dashboard, and the draft.
+- Added a source-qualified draft and chapter evidence index.
+- Recorded source-access and cross-index blockers; kept the task in progress.
 
 ## RUN-0008 — 2026-07-24
 
@@ -19,7 +27,6 @@
 - Added `CHAR-0007` for 金柳香 and registered two grouped gift events.
 - Updated 徐霄 to 筑基五重 and added bond-level multiplier evidence.
 - Added artifact records for 绝品寿元丹 and 四海升平坠.
-- Queued `TASK-0008` for the 周啸 conflict beginning at Chapter 17.
 
 ## RUN-0007 — 2026-07-24
 
