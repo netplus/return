@@ -1,5 +1,15 @@
 # Changelog
 
+## RUN-0006 — 2026-07-24
+
+- Replaced the default one-chapter-one-node workflow with story-arc aggregation.
+- Added `docs/00-project/WORKFLOW.md` as workflow standard version 2.0.
+- Set the default planning window to approximately 5—10 chapters with adaptive narrative boundaries.
+- Defined chapters as evidence units and Timeline Nodes as knowledge-layer story arcs.
+- Limited character, artifact, system, world, realm, and battle updates to material and persistent changes.
+- Preserved `NODE-0001` through `NODE-0003` as legacy fine-grained history without destructive rewriting.
+- Reframed `TASK-0006` to cover the first coherent arc beginning at Chapter 4, provisionally exploring Chapters 4—10.
+
 ## RUN-0005 — 2026-07-24
 
 - Verified Chapter 3, `我还没死，你哭啥？`, against the official 番茄小说 page.
@@ -7,7 +17,7 @@
 - Recorded 徐霄's age, 51-year remaining lifespan, activated character panel, and improved physical condition.
 - Expanded 南明离火剑 with verified refinement, control, appearance, and demonstrated attack-level data.
 - Added 陆大年 as `CHAR-0004`, including his office, cultivation, formal master, and actual teacher.
-- Completed `TASK-0005` and queued `TASK-0006` for Chapter 4.
+- Completed `TASK-0005`.
 
 ## RUN-0004 — 2026-07-24
 

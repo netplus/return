@@ -1,4 +1,9 @@
-schema_version: 1
+schema_version: 2
+workflow:
+  standard_version: 2.0
+  unit: story_arc
+  default_chapter_window: 5-10
+  boundary_mode: adaptive
 tasks:
   - id: TASK-0001
     title: Bootstrap lightweight project management
@@ -8,6 +13,7 @@ tasks:
   - id: TASK-0002
     title: Verify Chapter 2 and build NODE-0002
     type: timeline
+    legacy_granularity: chapter
     target: {chapter: 2, node: NODE-0002}
     status: done
     completed_at: 2026-07-24
@@ -28,6 +34,7 @@ tasks:
   - id: TASK-0005
     title: Verify Chapter 3 and build NODE-0003
     type: timeline
+    legacy_granularity: chapter
     target: {chapter: 3, node: NODE-0003}
     status: done
     completed_at: 2026-07-24
@@ -39,8 +46,17 @@ tasks:
       - data/characters/characters.yaml
     depends_on: [TASK-0004]
   - id: TASK-0006
-    title: Verify Chapter 4 and build NODE-0004
-    type: timeline
-    target: {chapter: 4, node: NODE-0004}
+    title: Build the first story arc from Chapter 4 onward
+    type: story_arc
     status: pending
+    target:
+      chapter_start: 4
+      provisional_chapter_end: 10
+      node: NODE-0004
+      boundary: adaptive
+    rules:
+      - Read and verify each covered chapter as evidence.
+      - End the node at a coherent story-arc boundary rather than a fixed chapter count.
+      - Update entity records only for material, persistent changes.
+      - Deliver the entire arc in one commit.
     depends_on: [TASK-0005]

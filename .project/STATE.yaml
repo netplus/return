@@ -1,7 +1,14 @@
-schema_version: 1
+schema_version: 2
 updated_at: 2026-07-24
-last_run_id: RUN-0005
+last_run_id: RUN-0006
 milestone: M1
+workflow:
+  standard_version: 2.0
+  unit: story_arc
+  default_chapter_window: 5-10
+  boundary_mode: adaptive
+  standard_document: docs/00-project/WORKFLOW.md
+  effective_from_chapter: 4
 scope:
   chapter_start: 1
   chapter_end: 50
@@ -16,5 +23,6 @@ progress:
 current:
   next_task: TASK-0006
   next_chapter: 4
+  provisional_arc_end: 10
 status: active
 blockers: []
