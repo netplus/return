@@ -3,33 +3,33 @@
 - **Status:** Active
 - **Current milestone:** M2 — Chapters 51–100
 - **Workflow standard:** v2.0 — Story-arc aggregation
-- **Canonical coverage through:** Chapter 55
+- **Canonical coverage through:** Chapter 61
 - **Current evidence exploration through:** Chapter 61
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 10
-- **Draft timeline nodes:** 1
-- **Documented characters:** 14
+- **Completed timeline nodes:** 11
+- **Draft timeline nodes:** 0
+- **Documented characters:** 16
 - **System records:** 1
-- **Gift events:** 13
-- **Artifact records:** 14
-- **Last run:** `RUN-0017`
-- **Last completed node:** `NODE-0010`
-- **Active task:** `TASK-0013` — 外门保护与元婴恢复 story arc
-- **Resolved draft range:** Chapters 56–61
-- **Blockers:** `BLOCK-0005` — canonical cross-index promotion pending
+- **Gift events:** 14
+- **Artifact records:** 15
+- **Last run:** `RUN-0018`
+- **Last completed node:** `NODE-0011`
+- **Next task:** `TASK-0014` — 紫韵请求与天人秘境准备 story arc
+- **Provisional exploration range:** Chapters 62–68
+- **Blockers:** None
 
-## Current staged arc
+## Latest completed arc
 
-`NODE-0011` draft covers Chapters 56—61. 徐霄闭关后恢复至元婴一重并公开保护金柳香、林嫣儿；外门大比期间识别 B 级气运之女白巧巧，首次赠送触发千倍暴击并返还绝品悟道丹。白巧巧的师父、外门第一长老梦丹重新与徐霄接触，旧日师徒与伴侣关系恢复。第 62 章转入紫韵请求和天人秘境准备。
+`NODE-0011` covers Chapters 56—61. 徐霄闭关后恢复至元婴一重并公开保护金柳香、林嫣儿；外门大比期间识别 B 级气运之女白巧巧，首次赠送触发千倍暴击并返还绝品悟道丹。白巧巧的师父、外门第一长老梦丹重新与徐霄接触，旧日师徒与伴侣关系恢复。第 62 章转入紫韵请求和天人秘境准备。
 
-## Quality gates — RUN-0017
+## Quality gates — RUN-0018
 
 | Gate | Result |
 |---|---|
 | Source traceability | Passed with qualifications |
 | Arc coherence | Passed |
 | Materiality | Passed |
-| Cross-index consistency | Blocked — `BLOCK-0005` |
+| Cross-index consistency | Passed; `BLOCK-0005` closed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
 | Copyright boundary | Passed |
@@ -50,4 +50,5 @@
 | Chapters 32–38 story arc | Done with source qualifications |
 | Chapters 39–50 story arc | Done with source qualifications |
 | Chapters 51–55 story arc | Done with source qualifications |
-| Chapters 56–61 story arc | In progress — draft and evidence staged |
+| Chapters 56–61 story arc | Done with source qualifications |
+| Chapter 62 onward story arc | Pending |
