@@ -1,5 +1,9 @@
 schema_version: 2
-workflow: {standard_version: 2.0, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
+workflow:
+  standard_version: 2.0
+  unit: story_arc
+  default_chapter_window: 5-10
+  boundary_mode: adaptive
 tasks:
 - {id: TASK-0001, title: Bootstrap lightweight project management, type: project, status: done, completed_at: '2026-07-24'}
 - {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, status: done, completed_at: '2026-07-24', depends_on: [TASK-0001]}
@@ -15,17 +19,22 @@ tasks:
 - id: TASK-0012
   title: Build the 玉玲珑私下传讯与后续赠送 story arc from Chapter 51 onward
   type: story_arc
-  status: in_progress
-  run_ids: [RUN-0015]
-  target: {chapter_start: 51, resolved_chapter_end: 55, node: NODE-0010, boundary: adaptive}
-  staged_outputs: [docs/01-timeline/drafts/node-0010.md, sources/evidence/chapters-051-055.yaml]
-  quality_gates:
-    source_traceability: passed_with_qualifications
-    arc_coherence: passed
-    materiality: passed
-    cross_index_consistency: blocked
-    duplicate_work_check: passed
-    yaml_structure_review: passed
-    copyright_boundary: passed
-  blockers: [BLOCK-0004]
+  status: done
+  completed_at: '2026-07-24'
+  run_ids: [RUN-0015, RUN-0016]
+  target: {chapter_start: 51, chapter_end: 55, node: NODE-0010, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0010.md, docs/02-characters/徐霄.md, docs/02-characters/玉玲珑.md, docs/02-characters/萧慕河.md, docs/03-system/万倍返还系统.md, docs/06-artifacts/三千大道丹.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-051-055.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  closed_blockers: [BLOCK-0004]
   depends_on: [TASK-0011]
+- id: TASK-0013
+  title: Build the 外门保护与元婴恢复 story arc from Chapter 56 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 56, provisional_chapter_end: 62, node: NODE-0011, boundary: adaptive}
+  rules:
+  - Read and verify each covered chapter as evidence.
+  - End at a coherent story-arc boundary.
+  - Update only material and persistent entity changes.
+  - Deliver the entire arc as one complete commit or record blockers.
+  depends_on: [TASK-0012]

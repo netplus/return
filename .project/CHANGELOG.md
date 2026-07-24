@@ -1,5 +1,17 @@
 # Changelog
 
+## RUN-0016 — 2026-07-24
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0012`; no completed task or canonical node was duplicated.
+- Promoted `NODE-0010`: 玉玲珑气运返还与人火领悟, covering Chapters 51—55.
+- Synchronized 徐霄, 玉玲珑 and 萧慕河 records, `GIFT-0013`, 三千大道丹 and system rules.
+- Updated the evidence record from staged to promoted and removed the obsolete draft file.
+- Closed `BLOCK-0004` after canonical timeline, character, gift, artifact and system indexes became consistent.
+- Source traceability passed with qualifications; Chapters 51—55 remain `partial`.
+- Arc coherence, materiality, cross-index consistency, duplicate-work, YAML structure and copyright gates passed.
+- Completed `TASK-0012` and queued `TASK-0013` beginning at Chapter 56.
+
 ## RUN-0015 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

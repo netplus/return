@@ -105,10 +105,21 @@ artifacts:
   first_chapter: 23
   final_user: 徐霄
   current_state: 已服用
-  result: 地火之道
   status: partial
   related_nodes:
   - NODE-0006
+  - NODE-0010
+  acquisitions:
+  - gift_id: GIFT-0008
+    chapter: 23
+    result: 地火之道
+    status: partial
+  - gift_id: GIFT-0013
+    chapter: 54
+    result: 人火之道
+    status: partial
+  instances_consumed: 2
+  document: docs/06-artifacts/三千大道丹.md
 - id: ART-0011
   name: 紫霄雷符
   category: 术法符箓
@@ -182,5 +193,13 @@ sources:
   status: partial
 - chapter: 38
   title: 再次炸锅的宗门舆论
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 54
+  title: 返还，三千大道丹
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 55
+  title: 一年之后
   type: official_catalog_and_cross_checked_text
   status: partial

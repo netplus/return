@@ -167,6 +167,22 @@ gifts:
   reward: 须臾五极山
   reward_storage: 系统空间库
   status: partial
+- id: GIFT-0013
+  chapter: 54
+  node: NODE-0010
+  giver: 徐霄
+  recipient: 玉玲珑
+  gift: 上品驻颜丹
+  rationale: 私下会面后的有效赠送
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 10000
+  reward: 三千大道丹
+  reward_storage: 系统空间库
+  retained_bonus: 保留一次可用于下一次普通有效赠送的万倍暴击机会
+  result: 徐霄服用后领悟人火之道
+  status: partial
 sources:
 - chapter: 32
   title: 新的任务
@@ -178,5 +194,17 @@ sources:
   status: partial
 - chapter: 38
   title: 再次炸锅的宗门舆论
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 52
+  title: 气运50倍返还
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 54
+  title: 返还，三千大道丹
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 55
+  title: 一年之后
   type: official_catalog_and_cross_checked_text
   status: partial

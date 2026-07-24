@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-24'
-last_run_id: RUN-0015
+last_run_id: RUN-0016
 milestone: M2
 workflow:
   standard_version: 2.0
@@ -9,29 +9,25 @@ workflow:
   boundary_mode: adaptive
   standard_document: docs/00-project/WORKFLOW.md
   effective_from_chapter: 4
-scope: {chapter_start: 51, chapter_end: 100}
+scope:
+  chapter_start: 51
+  chapter_end: 100
 progress:
-  chapters_covered_through: 50
+  chapters_covered_through: 55
   chapters_examined_through: 55
   chapters_verified_through: 16
   source_qualified_chapters: [12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
-  nodes_completed: 9
-  nodes_drafted: 1
+  nodes_completed: 10
+  nodes_drafted: 0
   characters_documented: 14
   system_records: 1
-  gift_events: 12
+  gift_events: 13
   artifact_records: 14
-  last_completed_node: NODE-0009
+  last_completed_node: NODE-0010
 current:
-  next_task: TASK-0012
-  task_status: in_progress
-  active_run_id: RUN-0015
-  next_chapter: 51
-  resolved_arc_end: 55
-  draft_node: docs/01-timeline/drafts/node-0010.md
+  next_task: TASK-0013
+  task_status: pending
+  next_chapter: 56
+  provisional_arc_end: 62
 status: active
-blockers:
-- id: BLOCK-0004
-  gate: cross_index_consistency
-  description: NODE-0010 evidence and draft are staged, but canonical timeline, character, gift, artifact and system indexes are not yet promoted
-  status: open
+blockers: []

@@ -1,12 +1,14 @@
 schema_version: 2
 run_id: RUN-0015
+promotion_run_id: RUN-0016
 task_id: TASK-0012
 updated_at: '2026-07-24'
 arc:
   chapter_start: 51
   chapter_end: 55
   node: NODE-0010
-  status: staged
+  status: promoted
+  canonical_document: docs/01-timeline/node-0010.md
   boundary_reason: 第55章完成玉玲珑首次有效赠送、三千大道丹返还、人火领悟和一年修炼；第56章切换外门保护线
 chapters:
 - chapter: 51
@@ -45,5 +47,10 @@ boundary_check:
   transition: 转入出关、元婴恢复与外门保护线
 quality:
   source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
   copyright_boundary: passed
   full_chapter_text_stored: false

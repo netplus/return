@@ -1,16 +1,15 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0015
+run_id: RUN-0016
 coverage:
-  chapters_covered_through: 50
-  chapters_examined_in_run: [51, 52, 53, 54, 55]
-  draft_arc_end: 55
-  timeline_nodes: 9
-  draft_nodes: 1
-  story_arc_nodes: 6
+  chapters_covered_through: 55
+  chapters_promoted_in_run: [51, 52, 53, 54, 55]
+  timeline_nodes: 10
+  draft_nodes: 0
+  story_arc_nodes: 7
   characters_documented: 14
   system_records: 1
-  gift_events: 12
+  gift_events: 13
   artifact_records: 14
 quality_gates:
   source_traceability:
@@ -20,24 +19,24 @@ quality_gates:
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第55章完成玉玲珑首次赠送、三千大道丹返还、人火领悟与一年修炼；第56章切换外门保护线
+    boundary: 第55章完成玉玲珑首次有效赠送、三千大道丹返还、人火领悟与一年修炼；第56章切换外门保护线
   materiality:
     status: passed
-    staged_entity_updates: [徐霄人火之道与301年寿命, 玉玲珑有效赠送关系, 萧慕河再次冲突, 气运五十倍返还, GIFT-0013, 第二枚三千大道丹]
+    entity_updates: [徐霄人火之道与301年寿命, 玉玲珑有效赠送关系, 萧慕河再次冲突, 气运五十倍返还, GIFT-0013, 第二枚三千大道丹]
   cross_index_consistency:
-    status: blocked
-    blocker: BLOCK-0004
-    reason: draft and evidence exist, canonical timeline, character, gift, artifact and system indexes are not yet promoted
+    status: passed
+    closed_blocker: BLOCK-0004
+    files_checked: [docs/01-timeline/node-0010.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, docs/03-system/万倍返还系统.md]
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
     duplicated_nodes: 0
+    duplicated_gift_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, sources/evidence/chapters-051-055.yaml]
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-051-055.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers:
-- {id: BLOCK-0004, gate: cross_index_consistency, status: open}
+blockers: []
