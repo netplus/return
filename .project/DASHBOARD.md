@@ -5,18 +5,34 @@
 - **Verified through:** Chapter 2
 - **Completed timeline nodes:** 2
 - **Documented characters:** 3
+- **System records:** 1
+- **Gift events:** 2
+- **Artifact records:** 4
+- **Last completed run:** `RUN-0004`
 - **Last completed node:** `NODE-0002`
-- **Next task:** `TASK-0004` — Create initial system and artifact records
+- **Next task:** `TASK-0005` — Verify Chapter 3 and build `NODE-0003`
 - **Next chapter:** Chapter 3
 - **Blockers:** None
 
-## Character coverage
+## Knowledge coverage
 
-| Character | Profile | Verification |
-|---|---|---|
-| 徐霄 | Complete through Chapter 2 | Verified |
-| 姬雪 | Complete through Chapter 2 | Verified; cultivation pending |
-| 独孤灵 | Complete through Chapter 2 | Verified; cultivation pending |
+| Area | Count | Verification |
+|---|---:|---|
+| Timeline nodes | 2 | Verified through Chapter 2 |
+| Characters | 3 | Verified; selected unknown fields pending |
+| System definitions | 1 | Verified through Chapter 2 |
+| Gift events | 2 | 1 successful, 1 rejected |
+| Artifact records | 4 | Verified; undisclosed capabilities pending |
+
+## Quality gates — RUN-0004
+
+| Gate | Result |
+|---|---|
+| Source traceability | Passed |
+| Field-level verification | Passed |
+| Duplicate-work check | Passed |
+| YAML structure review | Passed |
+| Copyright boundary | Passed |
 
 ## Task summary
 
@@ -25,4 +41,5 @@
 | Bootstrap lightweight project management | Done |
 | Verify Chapter 2 and build NODE-0002 | Done |
 | Create initial character records | Done |
-| Create initial system and artifact records | Pending |
+| Create initial system and artifact records | Done |
+| Verify Chapter 3 and build NODE-0003 | Pending |
