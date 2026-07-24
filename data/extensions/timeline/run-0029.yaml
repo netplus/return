@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0029
+nodes:
+- id: NODE-0019
+  title: 魇女袭击、血肉金身丹与水柔关系确认
+  chapters: {start: 117, end: 127}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第117—128章标题、顺序和边界；第117—127章正文由可访问镜像交叉核验
+  boundary_reason: 第127章完成炼虚袭击、慕容云河冲突和一个月时间推进；第128章转入灵矿危机
+  characters: [徐霄, 魇女, 妙玉, 诸葛无方, 水柔, 慕容云河, 萧慕河, 宇文浩]
+  conflict_events:
+  - {event: 魇女放出三具炼虚游尸袭击, result: 徐霄、妙玉和诸葛无方抵挡后以虚天丹和高阶符箓化解, status: partial}
+  - {event: 慕容云河率死士攻击徐霄, result: 玄天八卦阵挡住进攻，慕容云河最终死亡, status: partial}
+  system_events:
+  - {gift_id: GIFT-0027, recipient: 妙玉, reward: 血肉金身丹, status: partial}
+  - {gift_id: GIFT-0028, recipient: 魇女, reward: null, status: partial}
+  protagonist_state: {realm: 元婴九重, defense_record: 玄天八卦阵抵挡炼虚游尸, relationship_update: 与水柔关系确认, status: partial}
+  document: docs/01-timeline/node-0019.md
+  evidence: sources/evidence/chapters-117-127.yaml

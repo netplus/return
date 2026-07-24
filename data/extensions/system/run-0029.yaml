@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0029
+gifts:
+- id: GIFT-0027
+  chapter: 116
+  resolution_chapter: 119
+  node: NODE-0019
+  giver: 徐霄
+  recipient: 妙玉
+  gift: 一枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 10000
+  reward: 血肉金身丹
+  reward_storage: 系统空间库
+  settlement_status: resolved_with_qualified_source
+  status: partial
+- id: GIFT-0028
+  chapter: 118
+  node: NODE-0019
+  giver: 徐霄
+  recipient: 魇女
+  gift: 一枚虚天丹
+  accepted: true
+  system_valid: false
+  triggered_multiplier: null
+  reward: null
+  settlement_status: no_visible_system_return
+  status: partial
+system_object_updates:
+- {name: 魇女, classification: 未被系统识别为气运之女, status: partial}
+rule_observations:
+- {rule: 未被系统识别的对象可以接受叙事性赠礼但不产生可见返还, example: 魇女接受虚天丹, status: partial}
+- {rule: 系统结算可能在叙事事件之后延迟展示, example: 第116章妙玉接受虚天丹，第119章显示万倍返还, status: partial}
+conflicts:
+- field: 第118—119章虚天丹受赠对象
+  resolution: 将第119章系统结算关联既有GIFT-0027妙玉；魇女另记为非系统赠礼GIFT-0028
+  status: partial

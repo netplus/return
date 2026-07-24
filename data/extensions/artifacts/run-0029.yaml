@@ -1,0 +1,29 @@
+schema_version: 1
+run_id: RUN-0029
+artifacts:
+- id: ART-0025
+  name: 血肉金身丹
+  category: 丹药
+  first_chapter: 119
+  current_holder: 徐霄
+  current_state: 未确认服用
+  acquisition: GIFT-0027万倍暴击返还
+  effects: [血肉蕴含佛门金身之力, 强化肉身防御]
+  status: partial
+  document: docs/06-artifacts/血肉金身丹.md
+  related_nodes: [NODE-0019]
+- id: ART-0021
+  name: 虚天丹
+  update:
+    transfers_add:
+    - {gift_id: GIFT-0027, recipient: 妙玉, quantity: 1, status: partial}
+    - {gift_id: GIFT-0028, recipient: 魇女, quantity: 1, status: partial}
+    related_nodes_add: [NODE-0019]
+- id: ART-0018
+  name: 玄天八卦阵
+  update:
+    battle_use_add:
+    - {chapter: 117, result: 抵挡炼虚游尸}
+    - {chapter: 124, result: 挡住慕容云河及八名死士}
+    status: partial
+    related_nodes_add: [NODE-0019]

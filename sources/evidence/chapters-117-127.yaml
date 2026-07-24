@@ -1,0 +1,28 @@
+schema_version: 2
+run_id: RUN-0029
+task_id: TASK-0021
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 117
+  chapter_end: 127
+  node: NODE-0019
+  status: promoted
+  canonical_document: docs/01-timeline/node-0019.md
+  boundary_reason: 第127章完成魇女袭击、慕容云河冲突、水柔关系和萧慕河合体神魂线索收束；第128章转入灵矿危机
+chapters:
+- {chapter: 117, title: 天尸宗魇女, facts: [魇女放出三具炼虚威能游尸袭击, 徐霄以玄天八卦阵抵挡游尸], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 118, title: 再次破防的众人, facts: [魇女接受虚天丹, 徐霄展示高阶符箓后魇女停止攻击], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 119, title: 魇女的过往, facts: [系统提示妙玉虚天丹首次赠送触发万倍暴击, 返还血肉金身丹, 魇女未被系统识别为气运之女], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 120, title: 完美的诸葛无方, facts: [魇女袭击阶段收束, 诸葛无方继续为徐霄提供宗门背书], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 121, title: 柔柔，随便挑, facts: [徐霄进入碧水商会与水柔接触, 徐霄补充常规赠送资源], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 122, title: 气傻了的慕容云河, facts: [徐霄向水柔赠出炼神丹, 慕容云河因两人关系到场], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 123, title: 完全丧失理智, facts: [慕容云河率死士与徐霄正面对峙], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 124, title: 反常的萧慕河, facts: [玄天八卦阵挡住慕容云河与死士, 徐霄使用高阶雷冰符箓反击], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 125, title: 确认合体大修, facts: [萧慕河表现异常并确认体内合体神魂影响, 徐霄与水柔关系公开化], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 126, title: 水柔的心意, facts: [人物对话确认慕容云河已死亡, 水柔明确表达对徐霄的心意], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 127, title: 过了一个月, facts: [时间推进一个月, 宇文浩联络猿族谋划, 萧慕河与体内合体神魂共同谋划复仇], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+field_qualifications:
+- {field: GIFT-0027结算, note: 第119章系统提示写明第一次赠送妙玉并返还血肉金身丹，与第116章妙玉接受虚天丹对应, status: partial}
+- {field: GIFT-0028魇女虚天丹, note: 第118章语境确认魇女接受虚天丹，但第119章说明魇女未被系统识别，未记录返还, status: partial}
+- {field: 慕容云河死亡, note: 第126章人物对话确认死亡，精确最后一击保持pending, status: partial}
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}

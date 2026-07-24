@@ -1,112 +1,38 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0028
+run_id: RUN-0029
 coverage:
-  chapters_covered_through: 116
-  chapters_promoted_in_run:
-  - 103
-  - 104
-  - 105
-  - 106
-  - 107
-  - 108
-  - 109
-  - 110
-  - 111
-  - 112
-  - 113
-  - 114
-  - 115
-  - 116
-  timeline_nodes: 18
+  chapters_covered_through: 127
+  chapters_promoted_in_run: [117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127]
+  timeline_nodes: 19
   draft_nodes: 0
-  story_arc_nodes: 15
-  characters_documented: 24
+  story_arc_nodes: 16
+  characters_documented: 26
   characters_staged: 0
   system_records: 1
-  gift_events: 27
-  artifact_records: 24
+  gift_events: 29
+  artifact_records: 25
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters:
-    - 103
-    - 104
-    - 105
-    - 106
-    - 107
-    - 108
-    - 109
-    - 110
-    - 111
-    - 112
-    - 113
-    - 114
-    - 115
-    - 116
-    - 117
-    cross_checked_mirror_chapters:
-    - 103
-    - 104
-    - 105
-    - 106
-    - 107
-    - 108
-    - 109
-    - 110
-    - 111
-    - 112
-    - 113
-    - 114
-    - 115
-    - 116
-    pending_fields:
-    - GIFT-0026系统结算
-    - 妙玉系统面板和GIFT-0027返还结算
-    - 翠山门八名弟子的完整身份修为
-    - 天玉骨能力边界
+    official_catalog_chapters: [117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128]
+    cross_checked_mirror_chapters: [117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127]
+    pending_fields: [魇女虚天丹是否存在未展示系统结算, 血肉金身丹是否服用及能力上限, 慕容云河最后一击归属, 萧慕河体内合体神魂身份]
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第116章完成翠山门报复、全城声讨、妙玉介入、虚天丹交换与徐霄脱罪；第117章转入天尸宗魇女袭击
+    boundary: 第127章完成魇女袭击、慕容云河冲突、水柔关系与一个月时间推进；第128章转入灵矿危机
   materiality:
     status: passed
-    entity_updates:
-    - 徐霄元婴九重与天玉骨
-    - 刘玲玲脱离翠山门控制
-    - 木玉儿五十上品灵石赠送
-    - 妙玉首次登场与虚天丹转移
-    - 铁幕城执法危机
+    entity_updates: [魇女首次登场与炼虚游尸, 妙玉GIFT-0027结算, 血肉金身丹, 慕容云河死亡, 水柔关系确认, 萧慕河合体神魂确认]
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked:
-    - docs/01-timeline/node-0018.md
-    - data/extensions/timeline/run-0028.yaml
-    - data/extensions/characters/run-0028.yaml
-    - data/extensions/system/run-0028.yaml
-    - data/extensions/artifacts/run-0028.yaml
-  duplicate_work_check:
-    status: passed
-    duplicated_completed_tasks: 0
-    duplicated_nodes: 0
-    duplicated_character_ids: 0
-    duplicated_gift_ids: 0
-    duplicated_artifact_ids: 0
+    files_checked: [docs/01-timeline/node-0019.md, data/extensions/timeline/run-0029.yaml, data/extensions/characters/run-0029.yaml, data/extensions/system/run-0029.yaml, data/extensions/artifacts/run-0029.yaml]
+  duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review:
     status: passed
-    files_checked:
-    - .project/STATE.yaml
-    - .project/TASKS.yaml
-    - .project/METRICS.yaml
-    - data/extensions/timeline/run-0028.yaml
-    - data/extensions/characters/run-0028.yaml
-    - data/extensions/system/run-0028.yaml
-    - data/extensions/artifacts/run-0028.yaml
-    - sources/evidence/chapters-103-116.yaml
-  copyright_boundary:
-    status: passed
-    full_chapter_text_stored: false
-    output_type: original_summary_and_structured_facts
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0029.yaml, data/extensions/characters/run-0029.yaml, data/extensions/system/run-0029.yaml, data/extensions/artifacts/run-0029.yaml, sources/evidence/chapters-117-127.yaml]
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

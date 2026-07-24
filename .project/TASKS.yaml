@@ -1,9 +1,5 @@
 schema_version: 2
-workflow:
-  standard_version: 2.0
-  unit: story_arc
-  default_chapter_window: 5-10
-  boundary_mode: adaptive
+workflow: {standard_version: 2.0, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 tasks:
 - {id: TASK-0001, title: Bootstrap lightweight project management, type: project, status: done, completed_at: '2026-07-24'}
 - {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, status: done, completed_at: '2026-07-24', depends_on: [TASK-0001]}
@@ -24,24 +20,25 @@ tasks:
 - {id: TASK-0017, title: Build Chapters 82-87 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0024, target: {chapter_start: 82, chapter_end: 87, node: NODE-0015}, depends_on: [TASK-0016]}
 - {id: TASK-0018, title: Build Chapters 88-93 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0025, target: {chapter_start: 88, chapter_end: 93, node: NODE-0016}, depends_on: [TASK-0017]}
 - {id: TASK-0019, title: Build Chapters 94-102 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_ids: [RUN-0026, RUN-0027], target: {chapter_start: 94, chapter_end: 102, node: NODE-0017}, depends_on: [TASK-0018]}
-- id: TASK-0020
-  title: Build the 翠山门报复与铁幕城冲突升级 story arc from Chapter 103 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0028
-  target: {chapter_start: 103, chapter_end: 116, node: NODE-0018, boundary: adaptive}
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  outputs: [docs/01-timeline/node-0018.md, docs/02-characters/妙玉.md, docs/02-characters/徐霄.md, docs/02-characters/木玉儿.md, docs/06-artifacts/虚天丹.md, data/extensions/timeline/run-0028.yaml, data/extensions/characters/run-0028.yaml, data/extensions/system/run-0028.yaml, data/extensions/artifacts/run-0028.yaml, sources/evidence/chapters-103-116.yaml]
-  depends_on: [TASK-0019]
+- {id: TASK-0020, title: Build Chapters 103-116 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0028, target: {chapter_start: 103, chapter_end: 116, node: NODE-0018}, depends_on: [TASK-0019]}
 - id: TASK-0021
   title: Build the 天尸宗魇女与炼虚袭击 story arc from Chapter 117 onward
   type: story_arc
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0029
+  target: {chapter_start: 117, chapter_end: 127, node: NODE-0019, boundary: adaptive}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  outputs: [docs/01-timeline/node-0019.md, docs/02-characters/魇女.md, docs/02-characters/慕容云河.md, docs/06-artifacts/血肉金身丹.md, data/extensions/timeline/run-0029.yaml, data/extensions/characters/run-0029.yaml, data/extensions/system/run-0029.yaml, data/extensions/artifacts/run-0029.yaml, sources/evidence/chapters-117-127.yaml]
+  depends_on: [TASK-0020]
+- id: TASK-0022
+  title: Build the 灵矿危机与百草宗柳璃 story arc from Chapter 128 onward
+  type: story_arc
   status: pending
-  target: {chapter_start: 117, provisional_chapter_end: 124, node: NODE-0019, boundary: adaptive}
+  target: {chapter_start: 128, provisional_chapter_end: 135, node: NODE-0020, boundary: adaptive}
   rules:
   - Read and verify each covered chapter as evidence.
   - End at a coherent story-arc boundary.
   - Update only material and persistent entity changes.
   - Deliver the entire arc as one complete commit or record blockers.
-  depends_on: [TASK-0020]
+  depends_on: [TASK-0021]

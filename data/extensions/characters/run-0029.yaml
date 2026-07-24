@@ -1,0 +1,57 @@
+schema_version: 1
+run_id: RUN-0029
+characters:
+- id: CHAR-0025
+  name: 魇女
+  status: alive
+  role: supporting_antagonistic
+  affiliations: [天尸宗, 铁幕城]
+  identities: [炼虚修士, 游尸操控者]
+  first_appearance: {chapter: 117, title: 天尸宗魇女, node: NODE-0019}
+  cultivation: {current: 炼虚境, status: partial}
+  system_classification: {value: 未被识别为气运之女, status: partial}
+  accepted_gifts: [GIFT-0028]
+  documents: {profile: docs/02-characters/魇女.md}
+  related_nodes: [NODE-0019]
+  source_chapters: [117, 118, 119, 120]
+  verification_status: partial
+- id: CHAR-0026
+  name: 慕容云河
+  status: dead
+  role: antagonist
+  affiliations: [北风国]
+  identities: [北风国国主]
+  first_appearance: {chapter: 122, title: 气傻了的慕容云河, node: NODE-0019}
+  cultivation: {current: 化神九重, status: partial}
+  conflict: {target: 徐霄, result: 碧水商会冲突中死亡, status: partial}
+  documents: {profile: docs/02-characters/慕容云河.md}
+  related_nodes: [NODE-0019]
+  source_chapters: [122, 123, 124, 125, 126]
+  verification_status: partial
+- id: CHAR-0024
+  name: 妙玉
+  update:
+    gift_resolution_add: {gift_id: GIFT-0027, triggered_multiplier: 10000, reward: 血肉金身丹, status: partial}
+    battle_record_add: {chapter: 117, result: 使用七星剑斩杀炼虚游尸, status: partial}
+    related_nodes_add: [NODE-0019]
+    source_chapters_add: [117, 118, 119]
+- id: CHAR-0020
+  name: 水柔
+  update:
+    relationship_with_徐霄: 明确亲密关系
+    cultivation: {current: 化神八重, status: partial}
+    related_nodes_add: [NODE-0019]
+    source_chapters_add: [121, 122, 123, 124, 125, 126, 127]
+- id: CHAR-0014
+  name: 萧慕河
+  update:
+    hidden_factor: {value: 体内合体期修士神魂已能影响其行为并共同谋划对付徐霄, status: partial}
+    related_nodes_add: [NODE-0019]
+    source_chapters_add: [124, 125, 127]
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    battle_record_add: {chapter_range: 117-124, result: 玄天八卦阵抵挡炼虚游尸和化神九重攻击, status: partial}
+    relationship_updates: {水柔: 关系确认}
+    related_nodes_add: [NODE-0019]
+    source_chapters_add: [117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127]
