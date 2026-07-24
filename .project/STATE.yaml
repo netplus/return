@@ -1,5 +1,6 @@
 schema_version: 1
 updated_at: 2026-07-24
+last_run_id: RUN-0004
 milestone: M1
 scope:
   chapter_start: 1
@@ -8,9 +9,12 @@ progress:
   chapters_verified_through: 2
   nodes_completed: 2
   characters_documented: 3
+  system_records: 1
+  gift_events: 2
+  artifact_records: 4
   last_completed_node: NODE-0002
 current:
-  next_task: TASK-0004
+  next_task: TASK-0005
   next_chapter: 3
 status: active
 blockers: []
