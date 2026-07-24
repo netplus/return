@@ -1,0 +1,40 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0023
+index_role: canonical_extension
+record:
+  id: NODE-0014
+  title: 苏媚儿赠送与秘境围杀
+  chapters:
+    start: 74
+    end: 81
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第74—82章标题、顺序和边界；第74—81章正文由可访问镜像交叉核验
+  boundary_reason: 第81章完成秘境围杀和徐霄提前离场；第82章转入秘境外当面清算
+  characters:
+  - 徐霄
+  - 苏媚儿
+  - 水月
+  - 萧慕河
+  system_events:
+  - event: 苏媚儿吸取气运
+    result: 系统执行十倍气运返还
+    status: partial
+  - gift_id: GIFT-0017
+    recipient: 苏媚儿
+    gift: 上品驻颜丹
+    triggered_multiplier: 10000
+    reward: 九阳龙血丹
+    status: partial
+  - event: 苏媚儿吸取灵力
+    result: 系统返还使徐霄提升至元婴二重
+    status: partial
+  protagonist_state:
+    realm: 元婴二重
+    constitution_additions:
+    - 真龙之血
+    remaining_lifespan_years: 300
+    status: partial
+  document: docs/01-timeline/node-0014.md
+  evidence: sources/evidence/chapters-074-081.yaml

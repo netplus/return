@@ -1,0 +1,19 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0023
+index_role: canonical_extension
+record:
+  id: GIFT-0017
+  chapter: 75
+  node: NODE-0014
+  giver: 徐霄
+  recipient: 苏媚儿
+  gift: 上品驻颜丹
+  accepted: true
+  system_valid: true
+  trigger: 消耗此前保留的固定万倍暴击机会
+  triggered_multiplier: 10000
+  reward: 九阳龙血丹
+  reward_storage: 系统空间库
+  result: 徐霄服用后获得真龙之血、强化肉身和断肢重生能力
+  status: partial

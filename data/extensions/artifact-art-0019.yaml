@@ -1,0 +1,21 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0023
+index_role: canonical_extension
+record:
+  id: ART-0019
+  name: 九阳龙血丹
+  category: 丹药
+  grade: null
+  first_chapter: 75
+  final_user: 徐霄
+  current_state: 已服用
+  acquisition: GIFT-0017固定万倍暴击返还
+  effects:
+  - 获得一丝真龙血脉
+  - 强化脏腑筋骨
+  - 获得断肢重生能力
+  status: partial
+  document: docs/06-artifacts/九阳龙血丹.md
+  related_nodes:
+  - NODE-0014

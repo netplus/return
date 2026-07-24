@@ -1,0 +1,48 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0023
+index_role: canonical_extension
+record:
+  id: CHAR-0019
+  name: 苏媚儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 合欢宗
+  identities:
+  - 合欢宗弟子
+  - 气运之女
+  first_appearance:
+    chapter: 74
+    title: 气运之女苏媚儿
+    node: NODE-0014
+  cultivation:
+    current: 元婴九重
+    status: partial
+  luck_grade:
+    value: null
+    status: pending
+  relationship_context:
+    徐霄: 建立气运、灵力和资源互动关系
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0017
+    item: 上品驻颜丹
+    status: partial
+  - chapter: 76
+    item: 十枚化婴丹
+    return_resolution: pending
+    status: partial
+  document: docs/02-characters/苏媚儿.md
+  related_nodes:
+  - NODE-0014
+  source_chapters:
+  - 74
+  - 75
+  - 76
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  verification_status: partial

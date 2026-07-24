@@ -1,23 +1,28 @@
 # Changelog
 
-## RUN-0022 — 2026-07-24
+## RUN-0023 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0015`; no completed task or canonical node was duplicated.
-- Completed `NODE-0013`: 天人秘境入场与宇文浩冲突, covering Chapters 66—73.
-- Added 宇文浩 as `CHAR-0018` and kept his system task `pending`.
-- Registered `GIFT-0016` for 水月 and its three confirmed return groups.
-- Added 九火琉璃罩 and 流光星陨戒 as `ART-0017` and `ART-0018`.
-- Recorded 须臾五极山 first combat use and 上官金玉's death in the timeline node.
+- Resumed only `TASK-0016`; no completed task or canonical node was duplicated.
+- Completed `NODE-0014`: 苏媚儿赠送与秘境围杀, covering Chapters 74—81.
+- Added 苏媚儿 as `CHAR-0019`.
+- Registered `GIFT-0017`: 上品驻颜丹赠予苏媚儿，固定万倍暴击返还九阳龙血丹.
+- Added 九阳龙血丹 as `ART-0019` and recorded 真龙之血、肉身强化与断肢重生.
+- Updated 徐霄 to 元婴二重 and recorded the first confirmed灵力转移返还 instance.
+- Recorded the秘境化神威能传送规则 and the multi-sect围杀 resolution.
 - Added append-only canonical extension indexes and promoted the evidence record.
 - All quality gates passed; source traceability remains qualified.
-- Completed `TASK-0015` and queued `TASK-0016` beginning at Chapter 74.
+- Completed `TASK-0016` and queued `TASK-0017` beginning at Chapter 82.
+
+## RUN-0022 — 2026-07-24
+
+- Completed `NODE-0013`, 宇文浩, `GIFT-0016`, 九火琉璃罩 and 流光星陨戒.
+- Completed `TASK-0015` and queued `TASK-0016`.
 
 ## RUN-0021 — 2026-07-24
 
 - Promoted `NODE-0012`, 水月 and 鸿蒙一气丹; closed `BLOCK-0006`.
 - Introduced append-only canonical extension indexes.
-- Completed `TASK-0014` and queued `TASK-0015`.
 
 ## Earlier runs
 

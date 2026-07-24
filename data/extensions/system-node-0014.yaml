@@ -1,0 +1,18 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0023
+index_role: canonical_extension
+record:
+  node: NODE-0014
+  system_updates:
+  - rule: 气运转移返还
+    instance: 苏媚儿每吸取1点气运，系统返还10点
+    status: partial
+  - rule: 灵力转移返还
+    instance: 苏媚儿吸取灵力后，系统返还使徐霄提升一重境界
+    exact_multiplier: pending
+    status: partial
+  - gift_id: GIFT-0017
+    recipient: 苏媚儿
+    fixed_bonus_consumed: 万倍暴击机会
+    status: partial

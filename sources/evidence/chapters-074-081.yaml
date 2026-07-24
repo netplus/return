@@ -1,0 +1,109 @@
+schema_version: 2
+run_id: RUN-0023
+task_id: TASK-0016
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 74
+  chapter_end: 81
+  node: NODE-0014
+  status: promoted
+  canonical_document: docs/01-timeline/node-0014.md
+  boundary_reason: 第81章完成秘境围杀和徐霄提前离场；第82章转入秘境外当面清算
+chapters:
+- chapter: 74
+  title: 气运之女苏媚儿
+  facts:
+  - 苏媚儿作为合欢宗气运之女进入主线
+  - 徐霄与苏媚儿一行建立互动
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 75
+  title: 返还，九阳龙血丹
+  facts:
+  - 苏媚儿吸取徐霄气运并触发十倍返还
+  - 徐霄赠送上品驻颜丹
+  - 固定万倍暴击返还九阳龙血丹
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 76
+  title: 晋级元婴二重
+  facts:
+  - 徐霄服用九阳龙血丹获得真龙之血和断肢重生能力
+  - 苏媚儿吸取灵力触发系统返还
+  - 徐霄晋级元婴二重
+  - 苏媚儿接受十枚化婴丹
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 77
+  title: 魔门动静
+  facts:
+  - 魔道多宗准备联合围杀徐霄
+  - 萧慕河继续推动针对徐霄的行动
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 78
+  title: 三处战场
+  facts:
+  - 魔道联合队伍抵达并形成三处战场
+  - 徐霄、缥缈宗和合欢宗队伍遭围杀
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 79
+  title: 万众瞩目的一战
+  facts:
+  - 万毒宗等队伍攻击苏媚儿一行
+  - 多方通过灵璧关注秘境战斗
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 80
+  title: 徐霄的化神符箓
+  facts:
+  - 须臾五极山抵挡五行先天阵
+  - 徐霄使用化神九重符箓
+  - 确认释放化神威能会使释放者被传送出境
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 81
+  title: 提前离开秘境
+  facts:
+  - 化神符箓击杀多名围杀者
+  - 徐霄因秘境规则提前离场
+  - 水月和苏媚儿队伍继续留在秘境
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  status: partial
+boundary_check:
+  next_chapter: 82
+  next_title: 当面出手，买一送一
+  transition: 转入秘境外对魔道与宇文浩的正面清算
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

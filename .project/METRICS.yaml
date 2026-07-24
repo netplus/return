@@ -1,31 +1,66 @@
 schema_version: 2
-updated_at: '2026-07-24'
-run_id: RUN-0022
+updated_at: '2026-07-25'
+run_id: RUN-0023
 coverage:
-  chapters_covered_through: 73
-  chapters_promoted_in_run: [66, 67, 68, 69, 70, 71, 72, 73]
-  timeline_nodes: 13
+  chapters_covered_through: 81
+  chapters_promoted_in_run:
+  - 74
+  - 75
+  - 76
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  timeline_nodes: 14
   draft_nodes: 0
-  story_arc_nodes: 10
-  characters_documented: 18
+  story_arc_nodes: 11
+  characters_documented: 19
   characters_staged: 0
   system_records: 1
-  gift_events: 16
-  artifact_records: 18
+  gift_events: 17
+  artifact_records: 19
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [66, 67, 68, 69, 70, 71, 72, 73, 74]
-    cross_checked_mirror_chapters: [66, 67, 68, 69, 70, 71, 72, 73]
-    pending_fields: [宇文浩后续任务结算, 九火琉璃罩完整品阶, 上官金玉完整身份与修为]
+    official_catalog_chapters:
+    - 74
+    - 75
+    - 76
+    - 77
+    - 78
+    - 79
+    - 80
+    - 81
+    - 82
+    cross_checked_mirror_chapters:
+    - 74
+    - 75
+    - 76
+    - 77
+    - 78
+    - 79
+    - 80
+    - 81
+    pending_fields:
+    - 苏媚儿气运等级与羁绊
+    - 灵力返还精确倍率
+    - 宇文浩任务结算
+    - 围杀者完整损失
+    - 高阶符箓剩余数量
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第73章完成秘境资源争夺、连续战斗、须臾五极山实战和上官金玉死亡；第74章转入苏媚儿气运与赠送线
+    boundary: 第81章完成秘境围杀和徐霄提前离场；第82章转入秘境外当面清算
   materiality:
     status: passed
-    entity_updates: [宇文浩气运之敌任务, 九火琉璃罩首次确认, 水月后续赠送与返还, 须臾五极山首次实战, 上官金玉死亡]
+    entity_updates:
+    - 苏媚儿首次登场与有效赠送
+    - 九阳龙血丹与真龙之血
+    - 徐霄晋级元婴二重
+    - 气运与灵力转移返还规则
+    - 秘境化神威能传送规则
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
