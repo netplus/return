@@ -7,9 +7,10 @@ scope:
 progress:
   chapters_verified_through: 2
   nodes_completed: 2
+  characters_documented: 3
   last_completed_node: NODE-0002
 current:
-  next_task: TASK-0003
+  next_task: TASK-0004
   next_chapter: 3
 status: active
 blockers: []
