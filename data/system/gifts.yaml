@@ -2,38 +2,16 @@ schema_version: 2
 updated_at: '2026-07-24'
 verification_states: [verified, partial, inferred, conflict, pending]
 gifts:
-  - {id: GIFT-0001, chapter: 1, node: NODE-0001, giver: 徐霄, recipient: 姬雪, recipient_luck_grade: SSS, recipient_bond: 1, gift: 内藏下品法剑的细木杖, rationale: 临终留念, accepted: true, system_valid: true, base_multiplier: 100, triggered_multiplier: 10000, reward: 南明离火剑, reward_storage: 系统空间库, status: verified}
-  - {id: GIFT-0002, chapter: 2, node: NODE-0002, giver: 徐霄, recipient: 独孤灵, recipient_luck_grade: SS, gift: 寿元丹, rationale: 将师父所赠续命丹转赠师妹, accepted: false, system_valid: false, triggered_multiplier: null, reward: null, status: verified}
-  - {id: GIFT-0003, chapter: 5, node: NODE-0004, giver: 徐霄, recipient: 紫韵, recipient_luck_grade: null, gift: 下品法钗, rationale: 商行交易后的人情赠礼, accepted: true, system_valid: true, triggered_multiplier: 1000, reward: 九天神凤钗, reward_storage: 系统空间库, first_gift: true, status: verified}
-  - {id: GIFT-0004, chapter: 7, node: NODE-0004, giver: 徐霄, recipient: 林嫣儿, recipient_luck_grade: C, gift: 十枚筑基丹, rationale: 帮助受骗外门弟子筑基, accepted: true, system_valid: true, base_multiplier: 10, triggered_multiplier: 100, reward: 绝品驻颜丹, reward_storage: 系统空间库, first_gift: true, status: verified}
-  - {id: GIFT-0005, chapter: 9, node: NODE-0004, giver: 徐霄, recipient: 林嫣儿, recipient_luck_grade: C, gift: [下品攻击法器玉钗, 下品防御法器戒指, 下品法剑], rationale: 答谢林嫣儿登门致谢并按摩肩膀, accepted: true, system_valid: true, base_multiplier: 10, triggered_multiplier: 10, reward: [中品法器碧玉金钗, 中品法器玄光戒, 中品法器流星剑], reward_storage: 系统空间库, first_gift: false, status: verified}
-  - {id: GIFT-0006, chapter: 12, node: NODE-0005, giver: 徐霄, recipient: 金柳香, recipient_luck_grade: C, recipient_bond: 1, gift: 十枚筑基丹, rationale: 帮助主动前来照料住处的外门弟子提升修为, accepted: true, system_valid: true, base_multiplier: 10, triggered_multiplier: 100, reward: 绝品寿元丹, reward_effect: 增加三百年寿元, reward_storage: 系统空间库, first_gift: true, status: partial}
-  - id: GIFT-0007
-    chapter: 15
-    node: NODE-0005
-    giver: 徐霄
-    recipient: 金柳香
-    recipient_luck_grade: C
-    recipient_bond: 2
-    rationale: 确认长期照料关系后的成组赠送
-    accepted: true
-    system_valid: true
-    base_multiplier: 20
-    components:
-      - {gift: 中品法器碧玉金钗, triggered_multiplier: 1000, reward: 绝品法器四海升平坠, trigger: 羁绊等级首次提升后的暴击, status: partial}
-      - {gift: 下品防御法戒, reward: 两枚中品法戒, status: partial}
-      - {gift: 十枚上品灵石, triggered_multiplier: 20, reward: 二百枚上品灵石, status: partial}
-    reward_storage: 系统空间库
-    first_gift_after_bond_upgrade: true
-    status: partial
-  - {id: GIFT-0008, chapter: 22, resolution_chapter: 23, node: NODE-0006, giver: 徐霄, recipient: 独孤灵, recipient_luck_grade: SS, gift: 绝品驻颜丹, rationale: 独孤灵到外山调查后的人情赠礼, accepted: true, system_valid: true, triggered_multiplier: 10000, reward: 三千大道丹, reward_effect: 随机领悟一条天地大道, reward_storage: 系统空间库, first_gift: true, result: 地火之道, status: partial}
+  - {id: GIFT-0001, chapter: 1, node: NODE-0001, giver: 徐霄, recipient: 姬雪, recipient_luck_grade: SSS, recipient_bond: 1, gift: 内藏下品法剑的细木杖, accepted: true, system_valid: true, base_multiplier: 100, triggered_multiplier: 10000, reward: 南明离火剑, status: verified}
+  - {id: GIFT-0002, chapter: 2, node: NODE-0002, giver: 徐霄, recipient: 独孤灵, gift: 寿元丹, accepted: false, system_valid: false, reward: null, status: verified}
+  - {id: GIFT-0003, chapter: 5, node: NODE-0004, giver: 徐霄, recipient: 紫韵, gift: 下品法钗, accepted: true, system_valid: true, triggered_multiplier: 1000, reward: 九天神凤钗, status: verified}
+  - {id: GIFT-0004, chapter: 7, node: NODE-0004, giver: 徐霄, recipient: 林嫣儿, gift: 十枚筑基丹, accepted: true, system_valid: true, triggered_multiplier: 100, reward: 绝品驻颜丹, status: verified}
+  - {id: GIFT-0005, chapter: 9, node: NODE-0004, giver: 徐霄, recipient: 林嫣儿, gift: 三件下品法器, accepted: true, system_valid: true, triggered_multiplier: 10, reward: 三件中品法器, status: verified}
+  - {id: GIFT-0006, chapter: 12, node: NODE-0005, giver: 徐霄, recipient: 金柳香, gift: 十枚筑基丹, accepted: true, system_valid: true, triggered_multiplier: 100, reward: 绝品寿元丹, status: partial}
+  - {id: GIFT-0007, chapter: 15, node: NODE-0005, giver: 徐霄, recipient: 金柳香, gift: 碧玉金钗等资源, accepted: true, system_valid: true, base_multiplier: 20, reward: 四海升平坠等资源, status: partial}
+  - {id: GIFT-0008, chapter: 22, resolution_chapter: 23, node: NODE-0006, giver: 徐霄, recipient: 独孤灵, gift: 绝品驻颜丹, accepted: true, system_valid: true, triggered_multiplier: 10000, reward: 三千大道丹, result: 地火之道, status: partial}
+  - {id: GIFT-0009, chapter: 25, node: NODE-0007, giver: 徐霄, recipient: 紫韵, recipient_luck_grade: A, gift: 三张元婴期引雷符, rationale: 交易后赠予护身符箓, accepted: true, system_valid: true, reward: 三张化神九重紫霄雷符, reward_storage: 系统空间库, status: partial}
+  - {id: GIFT-0010, chapter: 31, node: NODE-0007, giver: 徐霄, recipient: 林嫣儿, recipient_luck_grade: C, gift: [元婴期引雷符, 十颗筑基丹, 十枚上品灵石], rationale: 成为陆大年记名弟子的拜师礼, accepted: true, system_valid: true, trigger: 完成击杀气运之敌任务获得千倍返还机会, triggered_multiplier: 1000, reward: 九天神雷符, reward_storage: 系统空间库, status: partial}
 sources:
-  - {chapter: 1, title: 万倍返还系统, type: official_text, platform: 番茄小说, status: verified}
-  - {chapter: 2, title: 师妹独孤灵, type: official_text, platform: 番茄小说, status: verified}
-  - {chapter: 5, title: 九天神凤钗, type: official_text, platform: 番茄小说, status: verified}
-  - {chapter: 7, title: 百倍暴击，绝品驻颜丹, type: official_text, platform: 番茄小说, status: verified}
-  - {chapter: 9, title: 林嫣儿到来, type: official_text, platform: 番茄小说, status: verified}
-  - {chapter: 12, title: 返还绝品寿元丹, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
-  - {chapter: 15, title: 宗门广场又炸了, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
-  - {chapter: 22, title: 赠送绝品驻颜丹, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
-  - {chapter: 23, title: 三千大道，地火之道, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
+  - {chapter: 25, title: 紫霄雷符, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
+  - {chapter: 31, title: 返还，九天神雷符, type: official_and_cross_checked_text, platform: 番茄小说官方正文与镜像, status: partial}

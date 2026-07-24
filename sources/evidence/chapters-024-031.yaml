@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0011
+node: NODE-0007
+chapters:
+  - {chapter: 24, title: 林嫣儿的消息, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 25, title: 紫霄雷符, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 26, title: 上门杀人, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 27, title: 鹰长老卒, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 28, title: 玄魔宗李九夜, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 29, title: 杀火旗先锋, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 30, title: 成功激怒玄魔宗, official_catalog: true, direct_official_body: false, mirror_cross_check: true, status: partial}
+  - {chapter: 31, title: 返还，九天神雷符, official_catalog: true, direct_official_body: true, mirror_cross_check: true, status: partial}
+boundary_evidence:
+  next_chapter: 32
+  next_title: 新的任务
+  reason: 第31章完成金石城救援、玄魔宗接亲队覆灭、林嫣儿安置和九天神雷符返还；第32章进入新系统任务
+source_policy:
+  canonical_status: partial
+  note: 官方目录确认标题和顺序；未取得完整官方正文的章节仅以镜像交叉核验，不提升为 verified
+copyright:
+  full_chapter_text_stored: false
+  stored_material: original_summary_and_structured_facts

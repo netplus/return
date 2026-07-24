@@ -4,37 +4,37 @@
 - **Current milestone:** M1 — Chapters 1–50
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Default planning window:** Approximately 5–10 chapters, adaptive boundary
-- **Covered through:** Chapter 23
+- **Covered through:** Chapter 31
 - **Directly verified through:** Chapter 16
-- **Source-qualified canonical coverage:** Chapters 17–23
-- **Completed timeline nodes:** 6
+- **Source-qualified canonical coverage:** Chapters 17–31
+- **Completed timeline nodes:** 7
 - **Draft timeline nodes:** 0
-- **Documented characters:** 8
+- **Documented characters:** 9
 - **System records:** 1
-- **Gift events:** 8
-- **Artifact records:** 10
-- **Last run:** `RUN-0010`
-- **Last completed node:** `NODE-0006`
-- **Next task:** `TASK-0009` — 林嫣儿消息与玄魔宗冲突 story arc
-- **Provisional exploration range:** Chapters 24–30
+- **Gift events:** 10
+- **Artifact records:** 12
+- **Last run:** `RUN-0011`
+- **Last completed node:** `NODE-0007`
+- **Next task:** `TASK-0010` — new system task and 玄魔宗劫难 story arc
+- **Provisional exploration range:** Chapters 32–38
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0006` covers Chapters 17—23. The 周啸 conflict begins with the night approach to 徐霄's residence, closes with enforcement and expulsion, and transitions into 独孤灵's first successful system gift. The reward cycle closes when 徐霄 consumes 三千大道丹 and begins comprehending 地火之道. Chapter 24 switches to 林嫣儿's message and the next conflict line.
+`NODE-0007` covers Chapters 24—31. 林嫣儿's forced-marriage request leads 徐霄 to procure high-level talismans, intervene in 金石城, defeat the 玄魔宗 garrison and接亲队, and establish 林嫣儿 as 陆大年's nominal disciple. The arc closes with the system returning 九天神雷符; Chapter 32 begins a new task.
 
 ## Knowledge coverage
 
 | Area | Count | Verification |
 |---|---:|---|
-| Timeline nodes | 6 | Canonical through Chapter 23 |
-| Story-arc nodes | 3 | Chapters 4–10, 11–16, 17–23 |
-| Characters | 8 | Added 周啸; Chapter 17–23 fields remain partial |
-| System definitions | 1 | Gift index extended through `GIFT-0008` |
-| Gift events | 8 | 7 successful, 1 rejected |
-| Artifact records | 10 | Added 三千大道丹 |
+| Timeline nodes | 7 | Canonical through Chapter 31 |
+| Story-arc nodes | 4 | Chapters 4–10, 11–16, 17–23, 24–31 |
+| Characters | 9 | Added 李九夜; latest fields remain source-qualified |
+| System definitions | 1 | Gift index extended through `GIFT-0010` |
+| Gift events | 10 | 9 successful, 1 rejected |
+| Artifact records | 12 | Added 紫霄雷符 and 九天神雷符 |
 
-## Quality gates — RUN-0010
+## Quality gates — RUN-0011
 
 | Gate | Result |
 |---|---|
@@ -48,16 +48,15 @@
 
 ## Source qualification
 
-The official 番茄小说 work page confirms Chapters 17—24 titles and order. Chapter 17—23 body facts were cross-checked through readable text mirrors and remain explicitly marked `partial`; no unsupported field was promoted to `verified`.
+The official 番茄小说 catalog confirms Chapters 24—32 titles and order. Chapter 31 provides direct official body evidence for the decisive battle. Chapter 24—30 body facts were cross-checked through readable mirrors and remain marked `partial`.
 
 ## Task summary
 
 | Task | Status |
 |---|---|
-| Bootstrap Project OS | Done |
-| Legacy Chapter 2 and Chapter 3 nodes | Done |
-| Initial character/system/artifact records | Done |
+| Project OS and legacy nodes | Done |
 | Chapters 4–10 story arc | Done |
 | Chapters 11–16 story arc | Done with source qualifications |
 | Chapters 17–23 story arc | Done with source qualifications |
-| Chapters 24 onward story arc | Pending |
+| Chapters 24–31 story arc | Done with source qualifications |
+| Chapters 32 onward story arc | Pending |

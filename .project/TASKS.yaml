@@ -2,36 +2,28 @@ schema_version: 2
 workflow: {standard_version: 2.0, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 tasks:
   - {id: TASK-0001, title: Bootstrap lightweight project management, type: project, status: done, completed_at: '2026-07-24'}
-  - {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, legacy_granularity: chapter, target: {chapter: 2, node: NODE-0002}, status: done, completed_at: '2026-07-24', depends_on: [TASK-0001]}
-  - {id: TASK-0003, title: Create initial character records from verified chapters, type: characters, status: done, completed_at: '2026-07-24', depends_on: [TASK-0002]}
+  - {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, status: done, completed_at: '2026-07-24', depends_on: [TASK-0001]}
+  - {id: TASK-0003, title: Create initial character records, type: characters, status: done, completed_at: '2026-07-24', depends_on: [TASK-0002]}
   - {id: TASK-0004, title: Create initial system and artifact records, type: system, status: done, completed_at: '2026-07-24', run_id: RUN-0004, depends_on: [TASK-0002]}
-  - {id: TASK-0005, title: Verify Chapter 3 and build NODE-0003, type: timeline, legacy_granularity: chapter, target: {chapter: 3, node: NODE-0003}, status: done, completed_at: '2026-07-24', run_id: RUN-0005, depends_on: [TASK-0004]}
-  - {id: TASK-0006, title: Build the first story arc from Chapter 4 onward, type: story_arc, target: {chapter_start: 4, chapter_end: 10, node: NODE-0004, boundary: adaptive}, status: done, completed_at: '2026-07-24', run_id: RUN-0007, quality_gates: passed, depends_on: [TASK-0005]}
-  - {id: TASK-0007, title: Build the story arc for 金柳香 and bond-level rewards, type: story_arc, target: {chapter_start: 11, chapter_end: 16, node: NODE-0005, boundary: adaptive}, status: done, completed_at: '2026-07-24', run_id: RUN-0008, quality_gates: passed_with_source_qualifications, depends_on: [TASK-0006]}
-  - id: TASK-0008
-    title: Build the 周啸 conflict story arc from Chapter 17 onward
+  - {id: TASK-0005, title: Verify Chapter 3 and build NODE-0003, type: timeline, status: done, completed_at: '2026-07-24', run_id: RUN-0005, depends_on: [TASK-0004]}
+  - {id: TASK-0006, title: Build Chapters 4-10 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0007, target: {chapter_start: 4, chapter_end: 10, node: NODE-0004}, depends_on: [TASK-0005]}
+  - {id: TASK-0007, title: Build Chapters 11-16 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0008, target: {chapter_start: 11, chapter_end: 16, node: NODE-0005}, depends_on: [TASK-0006]}
+  - {id: TASK-0008, title: Build Chapters 17-23 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_ids: [RUN-0009, RUN-0010], target: {chapter_start: 17, chapter_end: 23, node: NODE-0006}, depends_on: [TASK-0007]}
+  - id: TASK-0009
+    title: Build the 林嫣儿消息与玄魔宗冲突 story arc
     type: story_arc
-    target: {chapter_start: 17, chapter_end: 23, node: NODE-0006, boundary: adaptive}
     status: done
     completed_at: '2026-07-24'
-    run_ids: [RUN-0009, RUN-0010]
-    outputs:
-      - docs/01-timeline/node-0006.md
-      - docs/02-characters/周啸.md
-      - docs/06-artifacts/三千大道丹.md
-      - data/timeline/nodes.yaml
-      - data/characters/characters.yaml
-      - data/system/gifts.yaml
-      - data/artifacts/artifacts.yaml
-      - sources/evidence/chapters-017-023.yaml
+    run_id: RUN-0011
+    target: {chapter_start: 24, chapter_end: 31, node: NODE-0007, boundary: adaptive}
+    outputs: [docs/01-timeline/node-0007.md, docs/02-characters/林嫣儿.md, docs/02-characters/紫韵.md, docs/06-artifacts/紫霄雷符.md, docs/06-artifacts/九天神雷符.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-024-031.yaml]
     quality_gates: passed_with_source_qualifications
-    blockers_resolved: [BLOCK-0001, BLOCK-0002]
-    depends_on: [TASK-0007]
-  - id: TASK-0009
-    title: Build the 林嫣儿消息与玄魔宗冲突 story arc from Chapter 24 onward
+    depends_on: [TASK-0008]
+  - id: TASK-0010
+    title: Build the new system task and 玄魔宗劫难 story arc from Chapter 32 onward
     type: story_arc
     status: pending
-    target: {chapter_start: 24, provisional_chapter_end: 30, node: NODE-0007, boundary: adaptive}
+    target: {chapter_start: 32, provisional_chapter_end: 38, node: NODE-0008, boundary: adaptive}
     rules:
       - Read workflow, state, tasks, quality rules, metrics, changelog and dashboard before execution.
       - Read and verify each covered chapter as evidence.
@@ -39,4 +31,4 @@ tasks:
       - Update only material and persistent entity changes.
       - Record blockers instead of bypassing failed gates.
       - Deliver the entire arc as one completion commit.
-    depends_on: [TASK-0008]
+    depends_on: [TASK-0009]
