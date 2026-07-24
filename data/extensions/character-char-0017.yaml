@@ -1,0 +1,36 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0021
+index_role: canonical_extension
+record:
+  id: CHAR-0017
+  name: 水月
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 独孤灵大徒弟
+  - 徐霄师侄
+  - 气运之女
+  first_appearance:
+    chapter: 63
+    title: 返还，鸿蒙一气丹
+    node: NODE-0012
+  cultivation:
+    current: 元婴九重巅峰
+    status: partial
+  luck_grade:
+    value: S
+    base_multiplier: 30
+    status: partial
+  bond:
+    current: 1
+    status: partial
+  documents:
+    profile: docs/02-characters/水月.md
+  related_nodes:
+  - NODE-0012
+  source_chapters:
+  - 63
+  verification_status: partial

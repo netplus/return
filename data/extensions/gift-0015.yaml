@@ -1,0 +1,27 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0021
+index_role: canonical_extension
+record:
+  id: GIFT-0015
+  chapter: 63
+  node: NODE-0012
+  giver: 徐霄
+  recipient: 水月
+  recipient_luck_grade: S
+  recipient_bond: 1
+  gift: null
+  accepted: true
+  system_valid: true
+  first_gift: null
+  base_multiplier: 30
+  triggered_multiplier: null
+  reward: 鸿蒙一气丹
+  reward_storage: 系统空间库
+  result: 徐霄服用后获得鸿蒙真气
+  status: partial
+  pending_fields:
+  - gift
+  - first_gift
+  - triggered_multiplier
+  - additional_returns

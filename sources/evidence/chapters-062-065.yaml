@@ -1,19 +1,27 @@
 schema_version: 2
-run_ids: [RUN-0019, RUN-0020]
+run_ids:
+- RUN-0019
+- RUN-0020
+- RUN-0021
 task_id: TASK-0014
 updated_at: '2026-07-24'
 arc:
   chapter_start: 62
   chapter_end: 65
   node: NODE-0012
-  status: staged_refined
+  status: promoted
+  canonical_document: docs/01-timeline/node-0012.md
   boundary_reason: 第65章完成秘境前准备与公开冲突；第66章正式进入秘境并出现新的气运之敌任务
 chapters:
 - chapter: 62
   title: 紫韵的请求
-  facts: [徐霄决定替代独孤灵二徒弟参加天人秘境, 秘境限制化神气息物品, 紫韵请求徐霄处理上官金玉]
+  facts:
+  - 徐霄决定替代独孤灵二徒弟参加天人秘境
+  - 秘境限制化神气息物品
+  - 紫韵请求徐霄处理上官金玉
   official_catalog: true
-  readable_mirrors: [小说之家]
+  readable_mirrors:
+  - 小说之家
   status: partial
 - chapter: 63
   title: 返还，鸿蒙一气丹
@@ -22,23 +30,42 @@ chapters:
   - 水月首次登场，是独孤灵大徒弟
   - 水月入门不足百年并达到元婴九重巅峰
   - 系统识别水月为S级气运之女、基础倍率30、羁绊度1
-  - 章节标题与后续正文确认鸿蒙一气丹返还；原始赠送物品与完整倍率仍待复核
+  - 确认鸿蒙一气丹返还；原始赠送物品与完整倍率仍待复核
   official_catalog: true
-  readable_sources: [小说之家正文第一页, CP小说网正文缓存]
-  direct_fields: [水月身份, 水月修为, 气运等级S, 基础倍率30, 羁绊度1]
-  pending_fields: [原始赠送物品, 是否首次赠送, 触发倍率, 同批其他返还]
+  readable_sources:
+  - 小说之家正文第一页
+  - CP小说网正文缓存
+  direct_fields:
+  - 水月身份
+  - 水月修为
+  - 气运等级S
+  - 基础倍率30
+  - 羁绊度1
+  pending_fields:
+  - 原始赠送物品
+  - 是否首次赠送
+  - 触发倍率
+  - 同批其他返还
   status: partial
 - chapter: 64
   title: 人火之威
-  facts: [各势力抵达南瞻国天人秘境入口, 徐霄已服用鸿蒙一气丹并获得鸿蒙真气, 徐霄以人火之道展示公开威慑]
+  facts:
+  - 各势力抵达南瞻国天人秘境入口
+  - 徐霄已服用鸿蒙一气丹并获得鸿蒙真气
+  - 徐霄以人火之道展示公开威慑
   official_catalog: true
-  readable_mirrors: [小说之家]
+  readable_mirrors:
+  - 小说之家
   status: partial
 - chapter: 65
   title: 徐老头，全场公敌
-  facts: [徐霄的表现引发多方敌意, 玉玲珑公开维护徐霄, 秘境入场前冲突升级但尚未进入秘境]
+  facts:
+  - 徐霄的表现引发多方敌意
+  - 玉玲珑公开维护徐霄
+  - 秘境入场前冲突升级但尚未进入秘境
   official_catalog: true
-  readable_mirrors: [小说之家]
+  readable_mirrors:
+  - 小说之家
   status: partial
 boundary_check:
   next_chapter: 66
@@ -48,7 +75,7 @@ quality:
   source_traceability: passed_with_qualifications
   arc_coherence: passed
   materiality: passed
-  cross_index_consistency: blocked
+  cross_index_consistency: passed
   duplicate_work_check: passed
   yaml_structure_review: passed
   copyright_boundary: passed

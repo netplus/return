@@ -1,0 +1,22 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0021
+index_role: canonical_extension
+record:
+  id: ART-0016
+  name: 鸿蒙一气丹
+  category: 丹药
+  first_chapter: 63
+  final_user: 徐霄
+  current_state: 已服用
+  acquisition: GIFT-0015返还
+  effect: 获得鸿蒙真气
+  status: partial
+  document: docs/06-artifacts/鸿蒙一气丹.md
+  related_nodes:
+  - NODE-0012
+  pending_fields:
+  - 原始赠送物品
+  - 触发倍率
+  - 丹药品阶
+  - 鸿蒙真气完整能力

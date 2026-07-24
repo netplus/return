@@ -1,0 +1,45 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0021
+index_role: canonical_extension
+record:
+  id: NODE-0012
+  title: 紫韵委托与天人秘境入场准备
+  chapters:
+    start: 62
+    end: 65
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第62—66章标题、顺序和边界；第63章人物与系统面板有可访问正文直证；其余事实由正文镜像交叉核验
+  boundary_reason: 第65章完成秘境前准备与公开冲突；第66章正式进入秘境并出现宇文浩气运之敌任务
+  locations:
+  - 缥缈宗
+  - 紫来商行
+  - 南瞻国天人秘境入口
+  characters:
+  - 徐霄
+  - 紫韵
+  - 水月
+  - 独孤灵
+  - 玉玲珑
+  system_events:
+  - gift_id: GIFT-0015
+    recipient: 水月
+    gift: null
+    reward: 鸿蒙一气丹
+    triggered_multiplier: null
+    status: partial
+    pending_fields:
+    - gift
+    - first_gift
+    - triggered_multiplier
+    - additional_returns
+  protagonist_state:
+    realm: 元婴一重
+    dao_comprehension:
+    - 地火之道
+    - 人火之道
+    new_resource: 鸿蒙真气
+    status: partial
+  document: docs/01-timeline/node-0012.md
+  evidence: sources/evidence/chapters-062-065.yaml

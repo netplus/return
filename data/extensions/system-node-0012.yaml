@@ -1,0 +1,22 @@
+schema_version: 2
+updated_at: '2026-07-24'
+run_id: RUN-0021
+index_role: canonical_extension
+records:
+- type: system_object
+  name: 水月
+  classification: 气运之女
+  luck_grade: S
+  base_multiplier: 30
+  bond: 1
+  chapter: 63
+  status: partial
+- type: unresolved_gift_rule_instance
+  gift_id: GIFT-0015
+  confirmed_reward: 鸿蒙一气丹
+  pending_fields:
+  - 原始赠送物品
+  - 首次赠送标记
+  - 触发倍率
+  - 同批返还
+  status: partial
