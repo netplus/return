@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0025
+artifacts:
+- id: ART-0021
+  name: 虚天丹
+  category: 丹药
+  first_chapter: 91
+  current_holder: 徐霄
+  quantity: 10
+  acquisition: GIFT-0019
+  status: partial
+  document: docs/06-artifacts/虚天丹.md
+  related_nodes:
+  - NODE-0016
+- id: ART-0022
+  name: 金光护身坠
+  category: 法器
+  grade: 绝品法器
+  first_chapter: 93
+  current_holder: 徐霄
+  acquisition: GIFT-0020
+  status: partial
+  document: docs/06-artifacts/金光护身坠.md
+  related_nodes:
+  - NODE-0016
+artifact_updates:
+- id: ART-0018
+  name: 流光星陨戒
+  update:
+    current_holder: 水柔
+    intended_beneficiary: 水月
+    transfer: GIFT-0019
+    related_nodes_add:
+    - NODE-0016
+    status: partial

@@ -1,0 +1,91 @@
+schema_version: 2
+run_id: RUN-0025
+task_id: TASK-0018
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 88
+  chapter_end: 93
+  node: NODE-0016
+  status: promoted
+  canonical_document: docs/01-timeline/node-0016.md
+  boundary_reason: 第93章完成水柔关系、紫韵赠送返还与铁幕城差事下达；第94章进入铁幕城
+chapters:
+- chapter: 88
+  title: 水月母亲，水柔
+  facts:
+  - 水柔为水月母亲
+  - 水柔因宗门传闻到访缥缈宗
+  - 水柔为水家家主
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 89
+  title: 被惊吓的水柔
+  facts:
+  - 水柔为新月城碧水商行会长
+  - 水柔修为化神七重
+  - 徐霄解释曾为水月疗伤
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 90
+  title: 水柔的无奈之举
+  facts:
+  - 水柔接受流光星陨戒
+  - 法戒用于帮助水月渡劫
+  - 水柔与徐霄建立持续关系
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 91
+  title: 三年之后
+  facts:
+  - 徐霄赠送水柔十枚炼神丹
+  - 系统返还十枚虚天丹
+  - 剧情推进三年
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 92
+  title: 愤怒的诸葛无方
+  facts:
+  - 诸葛无方因相关传闻介入
+  - 水月和紫韵卷入宗门审问
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 93
+  title: 强加的差事
+  facts:
+  - 紫韵修为元婴六重
+  - 徐霄赠送紫韵十枚化婴丹和上品法坠
+  - 返还二十枚炼神丹和金光护身坠
+  - 诸葛无方向徐霄下达铁幕城差事
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+boundary_check:
+  next_chapter: 94
+  next_title: 初到铁幕城
+  transition: 进入铁幕城新地点与新势力冲突
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

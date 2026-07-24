@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-25'
-last_run_id: RUN-0024
+last_run_id: RUN-0025
 milestone: M2
 workflow:
   standard_version: 2.0
@@ -16,8 +16,8 @@ scope:
   chapter_start: 51
   chapter_end: 100
 progress:
-  chapters_covered_through: 87
-  chapters_examined_through: 88
+  chapters_covered_through: 93
+  chapters_examined_through: 94
   chapters_verified_through: 16
   source_qualified_chapters:
   - 12
@@ -94,19 +94,25 @@ progress:
   - 85
   - 86
   - 87
-  nodes_completed: 15
+  - 88
+  - 89
+  - 90
+  - 91
+  - 92
+  - 93
+  nodes_completed: 16
   nodes_drafted: 0
-  characters_documented: 19
+  characters_documented: 20
   characters_staged: 0
   system_records: 1
-  gift_events: 18
-  artifact_records: 20
+  gift_events: 20
+  artifact_records: 22
   artifacts_staged: 0
-  last_completed_node: NODE-0015
+  last_completed_node: NODE-0016
 current:
-  next_task: TASK-0018
+  next_task: TASK-0019
   task_status: pending
-  next_chapter: 88
-  provisional_arc_end: 94
+  next_chapter: 94
+  provisional_arc_end: 102
 status: active
 blockers: []

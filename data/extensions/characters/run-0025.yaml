@@ -1,0 +1,61 @@
+schema_version: 1
+run_id: RUN-0025
+characters:
+- id: CHAR-0020
+  name: 水柔
+  status: alive
+  role: supporting
+  affiliations:
+  - 北风国水家
+  - 新月城碧水商行
+  identities:
+  - 水月之母
+  - 水家家主
+  - 碧水商行会长
+  first_appearance:
+    chapter: 88
+    title: 水月母亲，水柔
+    node: NODE-0016
+  cultivation:
+    current: 化神七重
+    status: partial
+  system_classification:
+    value: 有效赠送对象
+    luck_grade: null
+    status: partial
+  documents:
+    profile: docs/02-characters/水柔.md
+  related_nodes:
+  - NODE-0016
+  source_chapters:
+  - 88
+  - 89
+  - 90
+  - 91
+  verification_status: partial
+- id: CHAR-0005
+  name: 紫韵
+  update:
+    cultivation:
+      current: 元婴六重
+      status: partial
+    accepted_gifts:
+    - GIFT-0020
+    related_nodes_add:
+    - NODE-0016
+    source_chapters_add:
+    - 92
+    - 93
+- id: CHAR-0015
+  name: 水月
+  update:
+    mother: 水柔
+    protective_artifact: 流光星陨戒
+    related_nodes_add:
+    - NODE-0016
+    source_chapters_add:
+    - 88
+    - 89
+    - 90
+    - 92
+    - 93

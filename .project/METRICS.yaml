@@ -1,46 +1,60 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0024
+run_id: RUN-0025
 coverage:
-  chapters_covered_through: 87
+  chapters_covered_through: 93
   chapters_promoted_in_run:
-  - 82
-  - 83
-  - 84
-  - 85
-  - 86
-  - 87
-  timeline_nodes: 15
+  - 88
+  - 89
+  - 90
+  - 91
+  - 92
+  - 93
+  timeline_nodes: 16
   draft_nodes: 0
-  story_arc_nodes: 12
-  characters_documented: 19
+  story_arc_nodes: 13
+  characters_documented: 20
   characters_staged: 0
   system_records: 1
-  gift_events: 18
-  artifact_records: 20
+  gift_events: 20
+  artifact_records: 22
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [82, 83, 84, 85, 86, 87, 88]
-    cross_checked_mirror_chapters: [82, 83, 84, 85, 86, 87]
+    official_catalog_chapters:
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
+    - 94
+    cross_checked_mirror_chapters:
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
     pending_fields:
-    - 第82章标题所指第二项清算的完整对象与结果
-    - GIFT-0018的精确触发倍率
-    - 大道神丹的完整品阶、效果和消耗状态
-    - 萧慕河与宇文浩任务结算
+    - 水柔气运等级、基础倍率和羁绊度
+    - 流光星陨戒赠予水柔后的独立返还结果
+    - 徐霄三年修炼后的精确面板
+    - 铁幕城差事的完整职责范围
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第87章完成秘境清算、宗门战果、大道神丹入库、绝品悟道丹赠送和三昧真火形成；第88章转入水柔来访线
+    boundary: 第93章完成水柔关系、紫韵赠送返还和铁幕城差事下达；第94章进入铁幕城
   materiality:
     status: passed
     entity_updates:
-    - 上官飞炼死亡与秘境外清算
-    - 缥缈宗取得大道神丹
-    - GIFT-0018与第三枚三千大道丹
-    - 徐霄领悟天火并融合三昧真火
-    - 独孤灵准备冲击炼虚
+    - 水柔首次登场与长期关系
+    - GIFT-0019与虚天丹
+    - 紫韵元婴六重与GIFT-0020
+    - 金光护身坠
+    - 流光星陨戒持有人转移
+    - 铁幕城差事
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions

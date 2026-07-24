@@ -1,0 +1,27 @@
+schema_version: 1
+run_id: RUN-0025
+nodes:
+- id: NODE-0016
+  title: 水柔结缘与铁幕城差事
+  chapters:
+    start: 88
+    end: 93
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第88—94章标题、顺序和边界；第88—93章正文由可访问镜像交叉核验
+  boundary_reason: 第93章完成水柔关系、紫韵赠送与铁幕城差事下达；第94章进入铁幕城
+  characters:
+  - 徐霄
+  - 水柔
+  - 水月
+  - 紫韵
+  - 诸葛无方
+  system_events:
+  - gift_id: GIFT-0019
+    recipient: 水柔
+    status: partial
+  - gift_id: GIFT-0020
+    recipient: 紫韵
+    status: partial
+  document: docs/01-timeline/node-0016.md
+  evidence: sources/evidence/chapters-088-093.yaml

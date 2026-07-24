@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0025
+gifts:
+- id: GIFT-0019
+  chapter_start: 90
+  resolution_chapter: 91
+  node: NODE-0016
+  giver: 徐霄
+  recipient: 水柔
+  gift:
+  - 流光星陨戒
+  - 十枚炼神丹
+  accepted: true
+  system_valid: true
+  returns:
+  - gift: 流光星陨戒
+    reward: null
+    status: pending
+  - gift: 十枚炼神丹
+    reward: 十枚虚天丹
+    triggered_multiplier: null
+    status: partial
+  status: partial
+- id: GIFT-0020
+  chapter: 93
+  node: NODE-0016
+  giver: 徐霄
+  recipient: 紫韵
+  gift:
+  - 十枚化婴丹
+  - 上品法坠
+  accepted: true
+  system_valid: true
+  returns:
+  - gift: 十枚化婴丹
+    reward: 二十枚炼神丹
+    status: partial
+  - gift: 上品法坠
+    reward: 绝品法器金光护身坠
+    status: partial
+  status: partial
+system_object_updates:
+- name: 水柔
+  classification: 有效赠送对象
+  luck_grade: null
+  base_multiplier: null
+  bond: null
+  status: partial
