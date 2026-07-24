@@ -1,13 +1,14 @@
 schema_version: 2
 run_id: RUN-0026
+promotion_run_id: RUN-0027
 task_id: TASK-0019
 updated_at: '2026-07-25'
 arc:
   chapter_start: 94
   chapter_end: 102
   node: NODE-0017
-  status: staged
-  draft_document: docs/01-timeline/drafts/node-0017.md
+  status: promoted
+  canonical_document: docs/01-timeline/node-0017.md
   boundary_reason: 第102章完成铁幕城落脚及三条赠送关系的阶段性建立；第103章开始翠山门针对徐霄的报复算计
 chapters:
 - chapter: 94
@@ -29,7 +30,7 @@ chapters:
   facts:
   - 段红绫为缥缈宗资历最深的内门大师姐
   - 化神九重并受数百年前妖族战斗暗疾影响
-  - 剩余寿元约百余年，疗伤核心需求为金身舍利或同级修复手段
+  - 剩余寿元约百余年
   status: partial
 - chapter: 97
   title: 胆大的八女
@@ -79,7 +80,7 @@ quality:
   source_traceability: passed_with_qualifications
   arc_coherence: passed
   materiality: passed
-  cross_index_consistency: blocked
+  cross_index_consistency: passed
   duplicate_work_check: passed
   yaml_structure_review: passed
   copyright_boundary: passed

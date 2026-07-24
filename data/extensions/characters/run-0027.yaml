@@ -1,0 +1,127 @@
+schema_version: 1
+run_id: RUN-0027
+characters:
+- id: CHAR-0021
+  name: 段红绫
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗内门大师姐
+  - 气运之女
+  first_appearance:
+    chapter: 96
+    title: 悲催的大师姐
+    node: NODE-0017
+  cultivation:
+    current: 化神九重
+    status: partial
+  health:
+    condition: 数百年前妖族战斗遗留暗疾
+    remaining_lifespan: 约百余年
+    status: partial
+  luck_grade:
+    value: A
+    base_multiplier: 10
+    bond: 1
+    status: partial
+  accepted_gifts:
+  - GIFT-0022
+  documents:
+    profile: docs/02-characters/段红绫.md
+  related_nodes:
+  - NODE-0017
+  source_chapters:
+  - 96
+  - 98
+  - 99
+  verification_status: partial
+- id: CHAR-0022
+  name: 刘玲玲
+  status: alive
+  role: supporting
+  affiliations:
+  - 翠山门
+  identities:
+  - 翠山门女修
+  - 气运之女
+  first_appearance:
+    chapter: 95
+    title: 愤怒的翠山门弟子
+    node: NODE-0017
+  luck_grade:
+    current: B
+    base_multiplier: 20
+    bond: 2
+    status: partial
+  relationship:
+    徐霄: 持续资源支持关系
+    status: partial
+  accepted_gifts:
+  - GIFT-0023
+  - GIFT-0024
+  documents:
+    profile: docs/02-characters/刘玲玲.md
+  related_nodes:
+  - NODE-0017
+  source_chapters:
+  - 95
+  - 100
+  - 101
+  verification_status: partial
+- id: CHAR-0023
+  name: 木玉儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 铁幕城驻地木长老孙女
+  first_appearance:
+    chapter: 100
+    title: 刘玲玲拜访
+    node: NODE-0017
+  accepted_gifts:
+  - GIFT-0025
+  documents:
+    profile: docs/02-characters/木玉儿.md
+  related_nodes:
+  - NODE-0017
+  source_chapters:
+  - 100
+  - 102
+  verification_status: partial
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    current_duty: 缥缈宗铁幕城驻地事务
+    related_nodes_add:
+    - NODE-0017
+    source_chapters_add:
+    - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+- id: CHAR-0015
+  name: 水月
+  update:
+    accepted_gifts_add:
+    - GIFT-0021
+    related_nodes_add:
+    - NODE-0017
+    source_chapters_add:
+    - 94
+- id: CHAR-0016
+  name: 梦丹
+  update:
+    chapter_94_gift: 十枚炼神丹；独立返还结算pending
+    related_nodes_add:
+    - NODE-0017
+    source_chapters_add:
+    - 94

@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0027
+nodes:
+- id: NODE-0017
+  title: 铁幕城落脚与三条赠送关系建立
+  chapters:
+    start: 94
+    end: 102
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第94—103章标题、顺序和边界；第94—102章正文由可访问镜像交叉核验
+  boundary_reason: 第102章完成铁幕城落脚、段红绫疗伤机缘、刘玲玲羁绊升级与木玉儿赠送返还；第103章转入翠山门报复算计
+  characters:
+  - 徐霄
+  - 水月
+  - 梦丹
+  - 段红绫
+  - 刘玲玲
+  - 木玉儿
+  system_events:
+  - gift_id: GIFT-0021
+    recipient: 水月
+    status: partial
+  - gift_id: GIFT-0022
+    recipient: 段红绫
+    status: partial
+  - gift_id: GIFT-0023
+    recipient: 刘玲玲
+    status: partial
+  - gift_id: GIFT-0024
+    recipient: 刘玲玲
+    status: partial
+  - gift_id: GIFT-0025
+    recipient: 木玉儿
+    status: partial
+  document: docs/01-timeline/node-0017.md
+  evidence: sources/evidence/chapters-094-102.yaml

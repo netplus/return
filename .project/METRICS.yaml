@@ -1,73 +1,36 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0026
+run_id: RUN-0027
 coverage:
-  chapters_covered_through: 93
-  chapters_examined_in_run:
-  - 94
-  - 95
-  - 96
-  - 97
-  - 98
-  - 99
-  - 100
-  - 101
-  - 102
-  draft_arc_end: 102
-  timeline_nodes: 16
-  draft_nodes: 1
-  story_arc_nodes: 13
-  characters_documented: 20
+  chapters_covered_through: 102
+  chapters_promoted_in_run: [94, 95, 96, 97, 98, 99, 100, 101, 102]
+  timeline_nodes: 17
+  draft_nodes: 0
+  story_arc_nodes: 14
+  characters_documented: 23
   characters_staged: 0
   system_records: 1
-  gift_events: 20
-  artifact_records: 22
+  gift_events: 25
+  artifact_records: 24
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters:
-    - 94
-    - 95
-    - 96
-    - 97
-    - 98
-    - 99
-    - 100
-    - 101
-    - 102
-    - 103
-    cross_checked_mirror_chapters:
-    - 94
-    - 95
-    - 96
-    - 97
-    - 98
-    - 99
-    - 100
-    - 101
-    - 102
-    pending_fields:
-    - 刘玲玲首次赠送的完整结算
-    - 刘玲玲羁绊升级赠送的完整返还清单
-    - 木玉儿赠送事件的触发倍率与完整返还清单
-    - 梦丹第94章赠送的返还结算
+    official_catalog_chapters: [94, 95, 96, 97, 98, 99, 100, 101, 102, 103]
+    cross_checked_mirror_chapters: [94, 95, 96, 97, 98, 99, 100, 101, 102]
+    pending_fields: [刘玲玲首次赠送的完整结算, 刘玲玲羁绊升级赠送的完整返还清单, 木玉儿赠送事件的触发倍率与完整返还清单, 梦丹第94章赠送的返还结算]
     failures: 0
   arc_coherence:
     status: passed
     boundary: 第102章完成铁幕城落脚、段红绫疗伤机缘、刘玲玲羁绊升级与木玉儿赠送返还；第103章转入翠山门报复算计
   materiality:
     status: passed
-    staged_entity_updates:
-    - 段红绫首次系统识别与净玉瓶返还
-    - 刘玲玲长期资源关系与羁绊升级
-    - 木玉儿首次登场与万锻玉骨丹返还
-    - 徐霄铁幕城职责
+    entity_updates: [段红绫与净玉瓶, 刘玲玲羁绊及气运等级升级, 木玉儿与万锻玉骨丹, 水月炼神丹返还, 徐霄铁幕城职责]
   cross_index_consistency:
-    status: blocked
-    blocker: BLOCK-0007
-    reason: draft and evidence exist, canonical extension indexes and entity documents
-      are not yet promoted
+    status: passed
+    index_mode: base_plus_extensions
+    closed_blocker: BLOCK-0007
+    files_checked: [docs/01-timeline/node-0017.md, data/extensions/timeline/run-0027.yaml, data/extensions/characters/run-0027.yaml, data/extensions/system/run-0027.yaml, data/extensions/artifacts/run-0027.yaml]
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
@@ -77,16 +40,9 @@ quality_gates:
     duplicated_artifact_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked:
-    - .project/STATE.yaml
-    - .project/TASKS.yaml
-    - .project/METRICS.yaml
-    - sources/evidence/chapters-094-102.yaml
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0027.yaml, data/extensions/characters/run-0027.yaml, data/extensions/system/run-0027.yaml, data/extensions/artifacts/run-0027.yaml, sources/evidence/chapters-094-102.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers:
-- id: BLOCK-0007
-  gate: cross_index_consistency
-  status: open
+blockers: []

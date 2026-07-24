@@ -1,7 +1,7 @@
 schema_version: 2
 updated_at: '2026-07-25'
-last_run_id: RUN-0026
-milestone: M2
+last_run_id: RUN-0027
+milestone: M3
 workflow:
   standard_version: 2.0
   unit: story_arc
@@ -13,123 +13,26 @@ indexing:
   mode: base_plus_extensions
   extension_document: data/extensions/README.md
 scope:
-  chapter_start: 51
-  chapter_end: 100
+  chapter_start: 101
+  chapter_end: 150
 progress:
-  chapters_covered_through: 93
+  chapters_covered_through: 102
   chapters_examined_through: 103
   chapters_verified_through: 16
-  source_qualified_chapters:
-  - 12
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 22
-  - 23
-  - 24
-  - 25
-  - 26
-  - 27
-  - 28
-  - 29
-  - 30
-  - 31
-  - 32
-  - 33
-  - 34
-  - 35
-  - 36
-  - 37
-  - 38
-  - 39
-  - 40
-  - 41
-  - 42
-  - 44
-  - 45
-  - 46
-  - 47
-  - 48
-  - 49
-  - 50
-  - 51
-  - 52
-  - 53
-  - 54
-  - 55
-  - 56
-  - 57
-  - 58
-  - 59
-  - 60
-  - 61
-  - 62
-  - 63
-  - 64
-  - 65
-  - 66
-  - 67
-  - 68
-  - 69
-  - 70
-  - 71
-  - 72
-  - 73
-  - 74
-  - 75
-  - 76
-  - 77
-  - 78
-  - 79
-  - 80
-  - 81
-  - 82
-  - 83
-  - 84
-  - 85
-  - 86
-  - 87
-  - 88
-  - 89
-  - 90
-  - 91
-  - 92
-  - 93
-  - 94
-  - 95
-  - 96
-  - 97
-  - 98
-  - 99
-  - 100
-  - 101
-  - 102
-  nodes_completed: 16
-  nodes_drafted: 1
-  characters_documented: 20
+  source_qualified_chapters: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102]
+  nodes_completed: 17
+  nodes_drafted: 0
+  characters_documented: 23
   characters_staged: 0
   system_records: 1
-  gift_events: 20
-  artifact_records: 22
+  gift_events: 25
+  artifact_records: 24
   artifacts_staged: 0
-  last_completed_node: NODE-0016
+  last_completed_node: NODE-0017
 current:
-  next_task: TASK-0019
-  task_status: in_progress
-  active_run_id: RUN-0026
-  next_chapter: 94
-  resolved_arc_end: 102
-  draft_node: docs/01-timeline/drafts/node-0017.md
+  next_task: TASK-0020
+  task_status: pending
+  next_chapter: 103
+  provisional_arc_end: 110
 status: active
-blockers:
-- id: BLOCK-0007
-  gate: cross_index_consistency
-  description: NODE-0017 evidence and draft are staged, but canonical extension indexes
-    and entity documents are not yet promoted; Chapter 102 full return settlement
-    remains source-qualified
-  status: open
+blockers: []

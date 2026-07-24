@@ -1,0 +1,34 @@
+schema_version: 1
+run_id: RUN-0027
+artifacts:
+- id: ART-0023
+  name: 净玉瓶
+  category: 法宝
+  first_chapter: 99
+  current_holder: 徐霄
+  acquisition: GIFT-0022
+  ability: 凝练万年灵液并用于长期疗伤
+  status: partial
+  document: docs/06-artifacts/净玉瓶.md
+  related_nodes:
+  - NODE-0017
+- id: ART-0024
+  name: 万锻玉骨丹
+  category: 丹药
+  first_chapter: 102
+  current_holder: 徐霄
+  acquisition: GIFT-0025
+  effect: 体质强化资源；完整效果pending
+  status: partial
+  document: docs/06-artifacts/万锻玉骨丹.md
+  related_nodes:
+  - NODE-0017
+artifact_updates:
+- id: ART-0021
+  name: 虚天丹
+  update:
+    quantity_add: 30
+    source_gift: GIFT-0021
+    related_nodes_add:
+    - NODE-0017
+    status: partial
