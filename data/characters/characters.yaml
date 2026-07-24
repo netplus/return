@@ -25,7 +25,7 @@ characters:
   cultivation:
     before_tribulation: 元婴九重
     attempted_realm: 化神境
-    current: 结丹四重
+    current: 元婴一重
     status: partial
   retained_spiritual_sense:
     level: 元婴九重
@@ -68,6 +68,7 @@ characters:
   - NODE-0008
   - NODE-0009
   - NODE-0010
+  - NODE-0011
   source_chapters:
   - 1
   - 2
@@ -124,7 +125,24 @@ characters:
   - 53
   - 54
   - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
   verification_status: partial
+  appearance_recovery:
+    value: 修为恢复后外貌与身体状态明显回春
+    chapter: 56
+    status: partial
+  outer_sect_protection:
+    targets:
+    - 金柳香
+    - 林嫣儿
+    commitment: 公开保护并持续提供修炼资源
+    chapter: 56
+    status: partial
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -315,6 +333,7 @@ characters:
   - NODE-0005
   - NODE-0007
   - NODE-0008
+  - NODE-0011
   source_chapters:
   - 6
   - 7
@@ -331,7 +350,13 @@ characters:
   - 31
   - 32
   - 35
+  - 56
   verification_status: partial
+  protection:
+    protector: 徐霄
+    scope: 公开保护与持续资源支持
+    chapter: 56
+    status: partial
 - id: CHAR-0007
   name: 金柳香
   status: alive
@@ -367,6 +392,7 @@ characters:
   - NODE-0005
   - NODE-0006
   - NODE-0008
+  - NODE-0011
   source_chapters:
   - 11
   - 12
@@ -380,7 +406,13 @@ characters:
   - 20
   - 35
   - 36
+  - 56
   verification_status: partial
+  protection:
+    protector: 徐霄
+    scope: 公开保护与持续资源支持
+    chapter: 56
+    status: partial
 - id: CHAR-0008
   name: 周啸
   status: dead
@@ -609,3 +641,82 @@ characters:
     event: 尾随玉玲珑并再次攻击徐霄
     result: 攻击被化解，系统击杀任务仍未完成
     status: partial
+- id: CHAR-0015
+  name: 白巧巧
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门弟子
+  - 气运之女
+  - 梦丹弟子
+  first_appearance:
+    chapter: 58
+    title: 气运之女白巧巧
+    node: NODE-0011
+  luck_grade:
+    value: B
+    base_multiplier: 10
+    status: partial
+  bond:
+    current: 1
+    status: partial
+  cultivation:
+    current: 筑基八重
+    status: partial
+  development:
+    value: 获得内门培养机会
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0014
+    status: partial
+  documents:
+    profile: docs/02-characters/白巧巧.md
+  related_nodes:
+  - NODE-0011
+  source_chapters:
+  - 58
+  - 59
+  - 60
+  - 61
+  verification_status: partial
+- id: CHAR-0016
+  name: 梦丹
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门第一长老
+  - 白巧巧外门师父
+  - 徐霄数百年前的记名弟子
+  - 徐霄旧日伴侣
+  - 气运之女
+  first_appearance:
+    chapter: 59
+    title: 外门第一长老梦丹
+    node: NODE-0011
+  cultivation:
+    current: 元婴九重
+    status: partial
+  base_multiplier:
+    current: 20
+    status: partial
+  relationship_context:
+    徐霄: 旧日师徒与伴侣关系恢复，形成稳定私人关系
+    白巧巧: 外门师父并负责其培养
+    status: partial
+  system_fields:
+    luck_grade: pending
+    bond: pending
+    status: partial
+  documents:
+    profile: docs/02-characters/梦丹.md
+  related_nodes:
+  - NODE-0011
+  source_chapters:
+  - 59
+  - 60
+  - 61
+  verification_status: partial
