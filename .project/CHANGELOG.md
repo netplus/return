@@ -1,5 +1,12 @@
 # Changelog
 
+## RUN-0003 — 2026-07-24
+
+- Created initial verified character profiles for 徐霄, 姬雪, and 独孤灵 from Chapters 1—2.
+- Added `data/characters/characters.yaml` as the structured character index.
+- Preserved unknown cultivation fields for 姬雪 and 独孤灵 as `pending` rather than inferring them.
+- Completed `TASK-0003` and advanced the queue to `TASK-0004`.
+
 ## RUN-0002 — 2026-07-24
 
 - Verified Chapter 2, `师妹独孤灵`, against the official 番茄小说 page.
