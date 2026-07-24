@@ -41,3 +41,43 @@ nodes:
         type: official_text
         platform: 番茄小说
         status: verified
+  - id: NODE-0002
+    title: 寿元丹赠送失败与迁居外山
+    chapters:
+      start: 2
+      end: 2
+    status: verified
+    locations:
+      - 缥缈宗宗门秘境外露台
+      - 缥缈峰内山
+      - 缥缈峰外山
+      - 外山山腰徐霄住处
+    characters:
+      - 徐霄
+      - 独孤灵
+      - 姬雪
+    system_events:
+      - recipient: 独孤灵
+        gift: 寿元丹
+        accepted: false
+        recognized: false
+        reward: null
+        status: verified
+    resource_events:
+      - from: 独孤灵
+        to: 徐霄
+        item: 上品灵石
+        quantity: 100
+        status: verified
+    protagonist_state:
+      realm: 筑基一重
+      can_fly_on_sword: false
+      residence: 缥缈峰外山山腰
+      lifespan_if_taking_pill: 五十年
+    document: docs/01-timeline/node-0002.md
+    sources:
+      - chapter: 2
+        title: 师妹独孤灵
+        type: official_text
+        platform: 番茄小说
+        status: verified
