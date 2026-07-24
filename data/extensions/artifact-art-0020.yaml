@@ -1,0 +1,18 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0024
+index_role: canonical_extension
+record:
+  id: ART-0020
+  name: 大道神丹
+  category: 丹药
+  grade: null
+  first_chapter: 83
+  current_holder: 缥缈宗（由水月取得，拟供独孤灵使用）
+  acquisition: 天人秘境中心岛守护妖兽战后取得
+  intended_use: 辅助独孤灵冲击炼虚境
+  full_effect: pending
+  consumption_status: pending
+  status: partial
+  document: docs/06-artifacts/大道神丹.md
+  related_nodes: [NODE-0015]

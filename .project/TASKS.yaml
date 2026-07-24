@@ -16,19 +16,20 @@ tasks:
 - {id: TASK-0013, title: Build Chapters 56-61 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_ids: [RUN-0017, RUN-0018], target: {chapter_start: 56, chapter_end: 61, node: NODE-0011}, depends_on: [TASK-0012]}
 - {id: TASK-0014, title: Build Chapters 62-65 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_ids: [RUN-0019, RUN-0020, RUN-0021], target: {chapter_start: 62, chapter_end: 65, node: NODE-0012}, depends_on: [TASK-0013]}
 - {id: TASK-0015, title: Build Chapters 66-73 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0022, target: {chapter_start: 66, chapter_end: 73, node: NODE-0013}, depends_on: [TASK-0014]}
-- id: TASK-0016
-  title: Build the 苏媚儿赠送与九阳龙血丹 story arc from Chapter 74 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0023
-  target: {chapter_start: 74, chapter_end: 81, node: NODE-0014, boundary: adaptive}
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0015]
+- {id: TASK-0016, title: Build Chapters 74-81 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0023, target: {chapter_start: 74, chapter_end: 81, node: NODE-0014}, depends_on: [TASK-0015]}
 - id: TASK-0017
   title: Build the 秘境外清算与大道神丹 story arc from Chapter 82 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 82, provisional_chapter_end: 89, node: NODE-0015, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Read canonical base indexes together with data/extensions., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0024
+  target: {chapter_start: 82, chapter_end: 87, node: NODE-0015, boundary: adaptive}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0016]
+- id: TASK-0018
+  title: Build the 水柔来访与后续修炼 story arc from Chapter 88 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 88, provisional_chapter_end: 94, node: NODE-0016, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Read canonical base indexes together with data/extensions., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0017]

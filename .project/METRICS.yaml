@@ -1,66 +1,46 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0023
+run_id: RUN-0024
 coverage:
-  chapters_covered_through: 81
+  chapters_covered_through: 87
   chapters_promoted_in_run:
-  - 74
-  - 75
-  - 76
-  - 77
-  - 78
-  - 79
-  - 80
-  - 81
-  timeline_nodes: 14
+  - 82
+  - 83
+  - 84
+  - 85
+  - 86
+  - 87
+  timeline_nodes: 15
   draft_nodes: 0
-  story_arc_nodes: 11
+  story_arc_nodes: 12
   characters_documented: 19
   characters_staged: 0
   system_records: 1
-  gift_events: 17
-  artifact_records: 19
+  gift_events: 18
+  artifact_records: 20
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters:
-    - 74
-    - 75
-    - 76
-    - 77
-    - 78
-    - 79
-    - 80
-    - 81
-    - 82
-    cross_checked_mirror_chapters:
-    - 74
-    - 75
-    - 76
-    - 77
-    - 78
-    - 79
-    - 80
-    - 81
+    official_catalog_chapters: [82, 83, 84, 85, 86, 87, 88]
+    cross_checked_mirror_chapters: [82, 83, 84, 85, 86, 87]
     pending_fields:
-    - 苏媚儿气运等级与羁绊
-    - 灵力返还精确倍率
-    - 宇文浩任务结算
-    - 围杀者完整损失
-    - 高阶符箓剩余数量
+    - 第82章标题所指第二项清算的完整对象与结果
+    - GIFT-0018的精确触发倍率
+    - 大道神丹的完整品阶、效果和消耗状态
+    - 萧慕河与宇文浩任务结算
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第81章完成秘境围杀和徐霄提前离场；第82章转入秘境外当面清算
+    boundary: 第87章完成秘境清算、宗门战果、大道神丹入库、绝品悟道丹赠送和三昧真火形成；第88章转入水柔来访线
   materiality:
     status: passed
     entity_updates:
-    - 苏媚儿首次登场与有效赠送
-    - 九阳龙血丹与真龙之血
-    - 徐霄晋级元婴二重
-    - 气运与灵力转移返还规则
-    - 秘境化神威能传送规则
+    - 上官飞炼死亡与秘境外清算
+    - 缥缈宗取得大道神丹
+    - GIFT-0018与第三枚三千大道丹
+    - 徐霄领悟天火并融合三昧真火
+    - 独孤灵准备冲击炼虚
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions

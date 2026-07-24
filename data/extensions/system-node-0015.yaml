@@ -1,0 +1,10 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0024
+index_role: canonical_extension
+record:
+  node: NODE-0015
+  system_updates:
+  - {gift_id: GIFT-0018, recipient: 独孤灵, gift: 绝品悟道丹, reward: 三千大道丹, exact_multiplier: pending, status: partial}
+  - {task_target: 萧慕河, classification: 气运之子, completion: pending, status: partial}
+  - {task_target: 宇文浩, classification: 气运之敌, completion: pending, status: partial}

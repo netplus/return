@@ -1,0 +1,19 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0024
+index_role: canonical_extension
+record:
+  id: GIFT-0018
+  chapter: 86
+  resolution_chapter: 87
+  node: NODE-0015
+  giver: 徐霄
+  recipient: 独孤灵
+  gift: 绝品悟道丹
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: 三千大道丹
+  reward_storage: 系统空间库
+  result: 徐霄服用后领悟天火之道，并融合地火、人火、天火为三昧真火
+  status: partial

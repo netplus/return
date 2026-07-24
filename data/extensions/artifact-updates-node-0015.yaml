@@ -1,0 +1,21 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0024
+index_role: canonical_extension
+records:
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    confirmed_acquisitions: 3
+    confirmed_consumptions: 3
+    new_acquisition: {gift_id: GIFT-0018, chapter: 86, result: 天火之道, status: partial}
+    new_related_node: NODE-0015
+  status: partial
+- id: ART-0015
+  name: 绝品悟道丹
+  update:
+    current_holder: 独孤灵
+    transfer_event: GIFT-0018
+    consumption_status: pending
+    new_related_node: NODE-0015
+  status: partial

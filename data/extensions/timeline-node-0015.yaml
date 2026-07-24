@@ -1,0 +1,25 @@
+schema_version: 2
+updated_at: '2026-07-25'
+run_id: RUN-0024
+index_role: canonical_extension
+record:
+  id: NODE-0015
+  title: 秘境外清算、大道神丹与三昧真火
+  chapters: {start: 82, end: 87}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第82—88章标题、顺序和边界；第82—87章正文由可访问镜像交叉核验
+  boundary_reason: 第87章完成秘境清算、宗门战果、大道神丹入库、绝品悟道丹赠送和三昧真火形成；第88章转入水柔来访线
+  characters: [徐霄, 独孤灵, 水月, 上官飞炼, 萧慕河, 宇文浩]
+  conflict_events:
+  - {event: 上官飞炼在秘境外对徐霄出手, result: 徐霄以化神九重符箓将其击杀, status: partial}
+  system_events:
+  - {gift_id: GIFT-0018, recipient: 独孤灵, gift: 绝品悟道丹, triggered_multiplier: pending, reward: 三千大道丹, status: partial}
+  - {event: 第三次服用三千大道丹, result: 领悟天火之道并融合三昧真火, status: partial}
+  protagonist_state:
+    realm: 元婴二重
+    dao_comprehension: [地火之道, 人火之道, 天火之道, 三昧真火]
+    remaining_lifespan_years: 300
+    status: partial
+  document: docs/01-timeline/node-0015.md
+  evidence: sources/evidence/chapters-082-087.yaml
