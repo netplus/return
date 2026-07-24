@@ -1,0 +1,108 @@
+schema_version: 1
+project: return
+updated_at: 2026-07-24
+verification_states:
+  - verified
+  - partial
+  - inferred
+  - conflict
+  - pending
+characters:
+  - id: CHAR-0001
+    name: 徐霄
+    status: alive
+    role: protagonist
+    affiliations:
+      - 缥缈宗
+    identities:
+      - 姬雪弟子
+      - 独孤灵师兄
+      - 穿越者
+    first_appearance:
+      chapter: 1
+      title: 万倍返还系统
+      node: NODE-0001
+    cultivation:
+      before_tribulation: 元婴九重
+      attempted_realm: 化神境
+      current: 筑基一重
+      status: verified
+    lifespan:
+      current: 不足一年
+      status: verified
+    system:
+      name: 万倍返还系统
+      status: verified
+    documents:
+      profile: docs/02-characters/徐霄.md
+    related_nodes:
+      - NODE-0001
+      - NODE-0002
+    source_chapters:
+      - 1
+      - 2
+    verification_status: verified
+
+  - id: CHAR-0002
+    name: 姬雪
+    status: alive
+    role: supporting
+    affiliations:
+      - 缥缈宗
+    identities:
+      - 缥缈宗太上长老
+      - 徐霄之师
+      - 独孤灵之师
+    first_appearance:
+      chapter: 1
+      title: 万倍返还系统
+      node: NODE-0001
+    luck_grade:
+      value: SSS
+      status: verified
+    current_action:
+      value: 宗门秘境闭关
+      status: verified
+    cultivation:
+      current: null
+      status: pending
+    documents:
+      profile: docs/02-characters/姬雪.md
+    related_nodes:
+      - NODE-0001
+      - NODE-0002
+    source_chapters:
+      - 1
+      - 2
+    verification_status: verified
+
+  - id: CHAR-0003
+    name: 独孤灵
+    status: alive
+    role: supporting
+    affiliations:
+      - 缥缈宗
+    identities:
+      - 缥缈宗掌门
+      - 姬雪弟子
+      - 徐霄师妹
+      - 徐霄同村旧识与青梅竹马
+    first_appearance:
+      chapter: 1
+      title: 万倍返还系统
+      node: NODE-0001
+    luck_grade:
+      value: SS
+      status: verified
+    cultivation:
+      current: null
+      status: pending
+    documents:
+      profile: docs/02-characters/独孤灵.md
+    related_nodes:
+      - NODE-0001
+      - NODE-0002
+    source_chapters:
+      - 1
+      - 2
+    verification_status: verified
