@@ -4,39 +4,39 @@
 - **Current milestone:** M2 — Chapters 51–100
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical coverage through:** Chapter 55
-- **Current evidence exploration through:** Chapter 55
+- **Current evidence exploration through:** Chapter 61
 - **Directly verified through:** Chapter 16
 - **Completed timeline nodes:** 10
-- **Draft timeline nodes:** 0
+- **Draft timeline nodes:** 1
 - **Documented characters:** 14
 - **System records:** 1
 - **Gift events:** 13
 - **Artifact records:** 14
-- **Last run:** `RUN-0016`
+- **Last run:** `RUN-0017`
 - **Last completed node:** `NODE-0010`
-- **Next task:** `TASK-0013` — 外门保护与元婴恢复 story arc
-- **Provisional exploration range:** Chapters 56–62
-- **Blockers:** None
+- **Active task:** `TASK-0013` — 外门保护与元婴恢复 story arc
+- **Resolved draft range:** Chapters 56–61
+- **Blockers:** `BLOCK-0005` — canonical cross-index promotion pending
 
-## Latest completed arc
+## Current staged arc
 
-`NODE-0010` covers Chapters 51—55. 玉玲珑主动与徐霄建立私下联络并吸取其气运，系统执行五十倍气运返还；萧慕河尾随并再次发生冲突。徐霄向玉玲珑赠送上品驻颜丹，首次有效赠送触发万倍暴击并返还第二枚三千大道丹。徐霄服丹领悟人火之道，一年修炼后维持结丹四重并拥有三百零一年寿命。第 56 章转入外门保护线。
+`NODE-0011` draft covers Chapters 56—61. 徐霄闭关后恢复至元婴一重并公开保护金柳香、林嫣儿；外门大比期间识别 B 级气运之女白巧巧，首次赠送触发千倍暴击并返还绝品悟道丹。白巧巧的师父、外门第一长老梦丹重新与徐霄接触，旧日师徒与伴侣关系恢复。第 62 章转入紫韵请求和天人秘境准备。
 
-## Quality gates — RUN-0016
+## Quality gates — RUN-0017
 
 | Gate | Result |
 |---|---|
 | Source traceability | Passed with qualifications |
 | Arc coherence | Passed |
 | Materiality | Passed |
-| Cross-index consistency | Passed; `BLOCK-0004` closed |
+| Cross-index consistency | Blocked — `BLOCK-0005` |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方作品页和目录确认第 51—56 章标题、顺序与边界；第 51—55 章正文事实由多个可访问正文镜像交叉核验，新增字段保持 `partial`，未提升为 `verified`。
+番茄小说官方作品页和目录确认第 56—62 章标题、顺序与边界；第 56—61 章正文事实由多个可访问正文镜像交叉核验，新增字段保持 `partial`，未提升为 `verified`。
 
 ## Task summary
 
@@ -50,4 +50,4 @@
 | Chapters 32–38 story arc | Done with source qualifications |
 | Chapters 39–50 story arc | Done with source qualifications |
 | Chapters 51–55 story arc | Done with source qualifications |
-| Chapter 56 onward story arc | Pending |
+| Chapters 56–61 story arc | In progress — draft and evidence staged |

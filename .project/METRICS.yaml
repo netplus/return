@@ -1,11 +1,12 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0016
+run_id: RUN-0017
 coverage:
   chapters_covered_through: 55
-  chapters_promoted_in_run: [51, 52, 53, 54, 55]
+  chapters_examined_in_run: [56, 57, 58, 59, 60, 61]
+  draft_arc_end: 61
   timeline_nodes: 10
-  draft_nodes: 0
+  draft_nodes: 1
   story_arc_nodes: 7
   characters_documented: 14
   system_records: 1
@@ -14,19 +15,19 @@ coverage:
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [51, 52, 53, 54, 55, 56]
-    cross_checked_mirror_chapters: [51, 52, 53, 54, 55]
+    official_catalog_chapters: [56, 57, 58, 59, 60, 61, 62]
+    cross_checked_mirror_chapters: [56, 57, 58, 59, 60, 61]
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第55章完成玉玲珑首次有效赠送、三千大道丹返还、人火领悟与一年修炼；第56章切换外门保护线
+    boundary: 第61章完成徐霄元婴恢复、外门保护、白巧巧资源关系与梦丹旧关系恢复；第62章切换紫韵请求和天人秘境准备
   materiality:
     status: passed
-    entity_updates: [徐霄人火之道与301年寿命, 玉玲珑有效赠送关系, 萧慕河再次冲突, 气运五十倍返还, GIFT-0013, 第二枚三千大道丹]
+    staged_entity_updates: [徐霄恢复元婴一重, 白巧巧首次登场与首次赠送, 梦丹首次登场与气运关系, 绝品悟道丹, 外门保护关系]
   cross_index_consistency:
-    status: passed
-    closed_blocker: BLOCK-0004
-    files_checked: [docs/01-timeline/node-0010.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, docs/03-system/万倍返还系统.md]
+    status: blocked
+    blocker: BLOCK-0005
+    reason: draft and evidence exist, canonical timeline, character, gift, artifact and system indexes are not yet promoted
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
@@ -34,9 +35,10 @@ quality_gates:
     duplicated_gift_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, sources/evidence/chapters-051-055.yaml]
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, sources/evidence/chapters-056-061.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers: []
+blockers:
+- {id: BLOCK-0005, gate: cross_index_consistency, status: open}

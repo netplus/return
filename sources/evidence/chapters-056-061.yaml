@@ -1,0 +1,74 @@
+schema_version: 2
+run_id: RUN-0017
+task_id: TASK-0013
+node_id: NODE-0011
+status: staged
+chapter_range: {start: 56, end: 61}
+boundary:
+  next_chapter: 62
+  reason: 第61章完成元婴恢复、外门保护、白巧巧首次赠送与梦丹关系恢复；第62章切换紫韵请求和天人秘境准备
+source_policy:
+  official_catalog:
+    platform: 番茄小说
+    work_id: '7423641263695481880'
+    confirms: [chapter_numbers, titles, order, boundary]
+  readable_text:
+    type: cross_checked_mirrors
+    status: partial
+  promotion_limit: 新增字段不得提升为verified
+chapters:
+- chapter: 56
+  title: 替小蜜出头
+  status: partial
+  facts:
+  - 徐霄闭关三个月后恢复至元婴一重
+  - 徐霄外貌与身体状态随修为恢复而改善
+  - 徐霄公开介入金柳香和林嫣儿遭同门欺压事件
+- chapter: 57
+  title: 南瞻国天人秘境
+  status: partial
+  facts:
+  - 南瞻国天人秘境三百年开启一次
+  - 化神境以下修士可进入
+  - 秘境深处大道神丹可帮助领悟额外大道之力
+  - 各宗开始准备秘境争夺
+- chapter: 58
+  title: 气运之女白巧巧
+  status: partial
+  facts:
+  - 白巧巧为缥缈宗外门弟子
+  - 系统识别白巧巧为B级气运之女
+  - 白巧巧初始返还倍率十倍、羁绊度一
+  - 白巧巧修为为筑基八重
+- chapter: 59
+  title: 外门第一长老梦丹
+  status: partial
+  facts:
+  - 徐霄向白巧巧赠送十枚筑基丹、十枚上品灵石和中品法戒
+  - 首次赠送筑基丹触发千倍暴击并返还绝品悟道丹
+  - 其余资源返还一百枚上品灵石和上品法戒
+  - 梦丹为白巧巧外门师父和外门第一长老
+- chapter: 60
+  title: 被外貌欺骗的气运之女
+  status: partial
+  facts:
+  - 梦丹修为为元婴九重
+  - 梦丹曾是徐霄记名弟子并与其存在旧日伴侣关系
+  - 梦丹因白巧巧培养问题与徐霄重新接触
+- chapter: 61
+  title: 独孤灵懵逼了
+  status: partial
+  facts:
+  - 徐霄与梦丹恢复稳定私人关系
+  - 系统将梦丹作为二十倍赠送对象
+  - 徐霄承诺继续支持白巧巧和梦丹修炼
+boundary_evidence:
+- chapter: 62
+  title: 紫韵的请求
+  status: boundary_only
+  facts:
+  - 紫韵请求与天人秘境队伍准备开始
+quality_notes:
+  duplicate_check: NODE-0011、GIFT-0014、白巧巧和梦丹在当前中央索引中尚不存在
+  copyright: 仅保存原创摘要和结构化事实，不保存章节原文
+  blocker: BLOCK-0005

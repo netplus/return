@@ -1,5 +1,17 @@
 # Changelog
 
+## RUN-0017 — 2026-07-24
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0013`; no completed task or canonical node was duplicated.
+- Examined Chapters 56—61 and resolved the adaptive boundary at Chapter 61; Chapter 62 begins the 紫韵请求与天人秘境准备 line.
+- Staged `NODE-0011`: 外门保护、白巧巧结缘与梦丹旧情恢复.
+- Recorded 徐霄恢复元婴一重、白巧巧首次赠送、绝品悟道丹返还、梦丹首次登场及旧关系恢复.
+- Added `sources/evidence/chapters-056-061.yaml` with explicit source qualifications.
+- Source traceability, arc coherence, materiality, duplicate-work, YAML structure and copyright gates passed.
+- Cross-index consistency is blocked because canonical timeline, character, gift, artifact and system indexes are not yet promoted; recorded `BLOCK-0005` rather than completing the task.
+- Kept `TASK-0013` in progress for the next run.
+
 ## RUN-0016 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
