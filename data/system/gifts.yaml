@@ -1,0 +1,49 @@
+schema_version: 1
+updated_at: 2026-07-24
+verification_states:
+  - verified
+  - partial
+  - inferred
+  - conflict
+  - pending
+gifts:
+  - id: GIFT-0001
+    chapter: 1
+    node: NODE-0001
+    giver: 徐霄
+    recipient: 姬雪
+    recipient_luck_grade: SSS
+    recipient_bond: 1
+    gift: 内藏下品法剑的细木杖
+    rationale: 临终留念
+    accepted: true
+    system_valid: true
+    base_multiplier: 100
+    triggered_multiplier: 10000
+    reward: 南明离火剑
+    reward_storage: 系统空间库
+    status: verified
+  - id: GIFT-0002
+    chapter: 2
+    node: NODE-0002
+    giver: 徐霄
+    recipient: 独孤灵
+    recipient_luck_grade: SS
+    gift: 寿元丹
+    rationale: 将师父所赠续命丹转赠师妹
+    accepted: false
+    system_valid: false
+    triggered_multiplier: null
+    reward: null
+    status: verified
+sources:
+  - chapter: 1
+    title: 万倍返还系统
+    type: official_text
+    platform: 番茄小说
+    status: verified
+  - chapter: 2
+    title: 师妹独孤灵
+    type: official_text
+    platform: 番茄小说
+    status: verified
