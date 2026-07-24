@@ -21,24 +21,25 @@ tasks:
 - {id: TASK-0018, title: Build Chapters 88-93 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0025, target: {chapter_start: 88, chapter_end: 93, node: NODE-0016}, depends_on: [TASK-0017]}
 - {id: TASK-0019, title: Build Chapters 94-102 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_ids: [RUN-0026, RUN-0027], target: {chapter_start: 94, chapter_end: 102, node: NODE-0017}, depends_on: [TASK-0018]}
 - {id: TASK-0020, title: Build Chapters 103-116 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0028, target: {chapter_start: 103, chapter_end: 116, node: NODE-0018}, depends_on: [TASK-0019]}
-- id: TASK-0021
-  title: Build the 天尸宗魇女与炼虚袭击 story arc from Chapter 117 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0029
-  target: {chapter_start: 117, chapter_end: 127, node: NODE-0019, boundary: adaptive}
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  outputs: [docs/01-timeline/node-0019.md, docs/02-characters/魇女.md, docs/02-characters/慕容云河.md, docs/06-artifacts/血肉金身丹.md, data/extensions/timeline/run-0029.yaml, data/extensions/characters/run-0029.yaml, data/extensions/system/run-0029.yaml, data/extensions/artifacts/run-0029.yaml, sources/evidence/chapters-117-127.yaml]
-  depends_on: [TASK-0020]
+- {id: TASK-0021, title: Build Chapters 117-127 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0029, target: {chapter_start: 117, chapter_end: 127, node: NODE-0019}, depends_on: [TASK-0020]}
 - id: TASK-0022
   title: Build the 灵矿危机与百草宗柳璃 story arc from Chapter 128 onward
   type: story_arc
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0030
+  target: {chapter_start: 128, chapter_end: 137, node: NODE-0020, boundary: adaptive}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  outputs: [docs/01-timeline/node-0020.md, docs/02-characters/柳璃.md, docs/02-characters/陈青儿.md, docs/06-artifacts/三千大道丹.md, data/extensions/timeline/run-0030.yaml, data/extensions/characters/run-0030.yaml, data/extensions/system/run-0030.yaml, data/extensions/artifacts/run-0030.yaml, sources/evidence/chapters-128-137.yaml]
+  depends_on: [TASK-0021]
+- id: TASK-0023
+  title: Build the 猿族夜袭与灵矿反击 story arc from Chapter 138 onward
+  type: story_arc
   status: pending
-  target: {chapter_start: 128, provisional_chapter_end: 135, node: NODE-0020, boundary: adaptive}
+  target: {chapter_start: 138, provisional_chapter_end: 145, node: NODE-0021, boundary: adaptive}
   rules:
   - Read and verify each covered chapter as evidence.
   - End at a coherent story-arc boundary.
   - Update only material and persistent entity changes.
   - Deliver the entire arc as one complete commit or record blockers.
-  depends_on: [TASK-0021]
+  depends_on: [TASK-0022]

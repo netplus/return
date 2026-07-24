@@ -1,0 +1,11 @@
+schema_version: 1
+run_id: RUN-0030
+artifacts:
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    acquisition_add: {gift_id: GIFT-0029, chapter: 134, result: 弱水之道, status: partial}
+    instances_acquired_total: 4
+    instances_consumed_total: 4
+    related_nodes_add: [NODE-0020]
+    document: docs/06-artifacts/三千大道丹.md

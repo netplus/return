@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0030
+task_id: TASK-0022
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 128
+  chapter_end: 137
+  node: NODE-0020
+  status: promoted
+  canonical_document: docs/01-timeline/node-0020.md
+  boundary_reason: 第137章完成灵矿危机、陈青儿关系与弱水之道；第138章转入猿族夜袭
+chapters:
+- {chapter: 128, title: 灵矿危机, facts: [徐霄接到前线灵矿危机并启程, 三宗灵矿遭猿族持续侵扰], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 129, title: 轻松斩杀五猴, facts: [六名化神猿族进攻灵矿, 徐霄以须臾五极山和高阶火系手段斩杀五名并击退首领], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 130, title: 百草宗太上长老柳璃, facts: [柳璃首次登场, 百草宗神兵阁五雷宗共同驻守灵矿, 柳璃为百草宗太上长老], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 131, title: 猿族的调查, facts: [猿族开始调查徐霄, 柳璃与徐霄建立灵矿协作关系], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 132, title: 气运之女陈青儿, facts: [陈青儿首次登场, 系统识别其为气运之女, 陈青儿受修炼资源限制], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 133, title: 羡慕不已的女弟子, facts: [徐霄赠送陈青儿十枚化婴丹, 陈青儿接受赠送], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 134, title: 弱水之道, facts: [徐霄服用新获得的三千大道丹, 领悟弱水之道, 开始准备第二次化神雷劫], official_catalog: true, readable_mirrors: [小说之家, 天天看小说], status: partial}
+- {chapter: 135, title: 大胆的陈青儿, facts: [徐霄补充赠送灵石法器和上品驻颜丹, 陈青儿与徐霄关系进一步确立], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 136, title: 天打雷劈的徐霄, facts: [柳璃得知弟子选择并重新评估徐霄, 猿族报复准备推进], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 137, title: 师徒变化的心态, facts: [柳璃与陈青儿师徒关系发生阶段性态度转折, 当前赠送关系闭环], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 138
+  next_title: 黑夜降临
+  transition: 转入猿族夜袭与灵矿正面反击
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

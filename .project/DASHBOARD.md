@@ -4,25 +4,25 @@
 - **Current milestone:** M3 — Chapters 101–150
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 127
-- **Current evidence exploration through:** Chapter 128
+- **Canonical coverage through:** Chapter 137
+- **Current evidence exploration through:** Chapter 138
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 19
+- **Completed timeline nodes:** 20
 - **Draft timeline nodes:** 0
-- **Documented characters:** 26
-- **Gift events:** 29
+- **Documented characters:** 28
+- **Gift events:** 30
 - **Artifact records:** 25
-- **Last run:** `RUN-0029`
-- **Last completed node:** `NODE-0019`
-- **Next task:** `TASK-0022` — 灵矿危机与百草宗柳璃 story arc
-- **Provisional exploration range:** Chapters 128–135
+- **Last run:** `RUN-0030`
+- **Last completed node:** `NODE-0020`
+- **Next task:** `TASK-0023` — 猿族夜袭与灵矿反击 story arc
+- **Provisional exploration range:** Chapters 138–145
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0019` covers Chapters 117—127. 天尸宗魇女以三具炼虚游尸袭击徐霄、妙玉和诸葛无方，徐霄以玄天八卦阵、高阶符箓和虚天丹化解冲突。妙玉此前接受的虚天丹完成万倍结算并返还血肉金身丹。随后徐霄与水柔关系确认，北风国主慕容云河发动攻击但无法突破八卦阵并最终死亡；萧慕河体内合体神魂的存在和敌意进一步确认。第 128 章转入灵矿危机。
+`NODE-0020` covers Chapters 128—137. 徐霄赴三宗前线灵矿处理猿族侵扰，以须臾五极山、南明离火剑和三昧真火迅速斩杀五名化神猿族并稳定矿区。其间认识百草宗太上长老柳璃及弟子陈青儿，向陈青儿赠送化婴丹与修炼资源，返还新的三千大道丹；徐霄服丹后领悟弱水之道。第 138 章转入猿族夜袭和正面报复。
 
-## Quality gates — RUN-0029
+## Quality gates — RUN-0030
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 117—128 章标题、顺序与边界；第 117—127 章正文事实由可访问镜像交叉核验。第 118 章语境显示魇女接受虚天丹，而第 119 章系统提示写明“第一次赠送妙玉”；知识层将妙玉返还作为 `GIFT-0027` 延迟结算，并将魇女赠礼单独记录为非系统事件，整体保持 `partial`。
+番茄小说官方目录确认第 128—138 章标题、顺序与边界；第 128—137 章正文事实由可访问文本镜像交叉核验。陈青儿的完整气运面板、首次赠送的精确倍率及全部返还清单未获得稳定直证，继续保持 `pending`。

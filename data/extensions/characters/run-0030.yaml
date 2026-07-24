@@ -1,0 +1,38 @@
+schema_version: 1
+run_id: RUN-0030
+characters:
+- id: CHAR-0027
+  name: 柳璃
+  status: alive
+  role: supporting
+  affiliations: [百草宗]
+  identities: [百草宗太上长老, 前线灵矿驻守者, 陈青儿之师]
+  first_appearance: {chapter: 130, title: 百草宗太上长老柳璃, node: NODE-0020}
+  cultivation: {current: 化神六重, status: partial}
+  age: {value: 两千六百余岁, status: partial}
+  documents: {profile: docs/02-characters/柳璃.md}
+  related_nodes: [NODE-0020]
+  source_chapters: [130, 131, 132, 133, 134, 135, 136, 137]
+  verification_status: partial
+- id: CHAR-0028
+  name: 陈青儿
+  status: alive
+  role: supporting
+  affiliations: [百草宗]
+  identities: [柳璃弟子, 前线灵矿修士, 气运之女]
+  first_appearance: {chapter: 132, title: 气运之女陈青儿, node: NODE-0020}
+  cultivation: {current: 元婴阶段, status: partial}
+  system_profile: {luck_grade: null, base_multiplier: null, bond: null, status: pending}
+  accepted_gifts: [GIFT-0029]
+  documents: {profile: docs/02-characters/陈青儿.md}
+  related_nodes: [NODE-0020]
+  source_chapters: [132, 133, 134, 135, 136, 137]
+  verification_status: partial
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    dao_comprehension_add: 弱水之道
+    battle_record_add: {chapter_range: 128-130, result: 斩杀五名化神猿族并稳定前线灵矿, status: partial}
+    cultivation_goal: 准备第二次化神雷劫
+    related_nodes_add: [NODE-0020]
+    source_chapters_add: [128, 129, 130, 131, 132, 133, 134, 135, 136, 137]

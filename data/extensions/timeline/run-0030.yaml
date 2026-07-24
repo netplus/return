@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0030
+nodes:
+- id: NODE-0020
+  title: 灵矿危机、陈青儿结缘与弱水之道
+  chapters: {start: 128, end: 137}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第128—138章标题、顺序和边界；第128—137章正文由可访问镜像交叉核验
+  boundary_reason: 第137章完成灵矿解围、陈青儿赠送关系、弱水之道及师徒态度转折；第138章转入猿族夜袭
+  characters: [徐霄, 柳璃, 陈青儿]
+  conflict_events:
+  - {event: 猿族化神修士抢夺三宗灵矿, result: 徐霄斩杀五名化神猿族并击退首领, status: partial}
+  - {event: 猿族调查徐霄, result: 报复行动进入准备阶段, status: partial}
+  system_events:
+  - {gift_id: GIFT-0029, recipient: 陈青儿, gift: 十枚化婴丹及后续修炼资源, reward: 三千大道丹等返还, status: partial}
+  protagonist_state: {realm: 元婴九重, dao_comprehension_add: 弱水之道, next_goal: 准备第二次化神雷劫, status: partial}
+  document: docs/01-timeline/node-0020.md
+  evidence: sources/evidence/chapters-128-137.yaml

@@ -1,0 +1,31 @@
+schema_version: 1
+run_id: RUN-0030
+gifts:
+- id: GIFT-0029
+  chapter_start: 133
+  resolution_chapter: 134
+  node: NODE-0020
+  giver: 徐霄
+  recipient: 陈青儿
+  recipient_luck_grade: null
+  gift:
+  - 十枚化婴丹
+  - 五十枚上品灵石
+  - 一件上品法剑
+  - 一件中品法器
+  - 两件下品法器
+  - 一枚上品驻颜丹
+  accepted: true
+  system_valid: true
+  triggered_multiplier: null
+  reward:
+  - 三千大道丹
+  - 其他返还待核验
+  result: 徐霄服用三千大道丹后领悟弱水之道
+  status: partial
+system_updates:
+- subject: 万倍返还系统
+  update:
+    recognized_target_add: {name: 陈青儿, classification: 气运之女, profile_fields: pending, status: partial}
+    gift_range: GIFT-0001—GIFT-0029
+    pending_fields_add: [陈青儿气运等级, 陈青儿基础倍率, 陈青儿羁绊度, GIFT-0029精确触发倍率与逐项返还]
