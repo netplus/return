@@ -183,6 +183,33 @@ gifts:
   retained_bonus: 保留一次可用于下一次普通有效赠送的万倍暴击机会
   result: 徐霄服用后领悟人火之道
   status: partial
+- id: GIFT-0014
+  chapter: 59
+  node: NODE-0011
+  giver: 徐霄
+  recipient: 白巧巧
+  recipient_luck_grade: B
+  recipient_bond: 1
+  gift:
+  - 十枚筑基丹
+  - 十枚上品灵石
+  - 中品法器玄光戒
+  rationale: 外门大比后作为培养资源与见面礼
+  accepted: true
+  system_valid: true
+  first_gift: true
+  returns:
+  - gift: 十枚筑基丹
+    triggered_multiplier: 1000
+    reward: 绝品悟道丹
+  - gift: 十枚上品灵石
+    triggered_multiplier: 10
+    reward: 一百枚上品灵石
+  - gift: 中品法器玄光戒
+    triggered_multiplier: 10
+    reward: 上品法戒
+  reward_storage: 系统空间库
+  status: partial
 sources:
 - chapter: 32
   title: 新的任务
@@ -206,5 +233,9 @@ sources:
   status: partial
 - chapter: 55
   title: 一年之后
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 59
+  title: 外门第一长老梦丹
   type: official_catalog_and_cross_checked_text
   status: partial
