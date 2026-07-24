@@ -1,5 +1,17 @@
 # Changelog
 
+## RUN-0018 — 2026-07-24
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0013`; no completed task or canonical node was duplicated.
+- Promoted `NODE-0011`: 外门保护、白巧巧结缘与梦丹旧情恢复, covering Chapters 56—61.
+- Synchronized 徐霄, 金柳香, 林嫣儿, 白巧巧 and 梦丹 records, `GIFT-0014`, 绝品悟道丹 and system rules.
+- Updated the evidence record from staged to promoted and removed the obsolete draft file.
+- Closed `BLOCK-0005` after canonical timeline, character, gift, artifact and system indexes became consistent.
+- Source traceability passed with qualifications; Chapters 56—61 remain `partial`.
+- Arc coherence, materiality, cross-index consistency, duplicate-work, YAML structure and copyright gates passed.
+- Completed `TASK-0013` and queued `TASK-0014` beginning at Chapter 62.
+
 ## RUN-0017 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
