@@ -1,0 +1,49 @@
+schema_version: 2
+run_id: RUN-0015
+task_id: TASK-0012
+updated_at: '2026-07-24'
+arc:
+  chapter_start: 51
+  chapter_end: 55
+  node: NODE-0010
+  status: staged
+  boundary_reason: 第55章完成玉玲珑首次有效赠送、三千大道丹返还、人火领悟和一年修炼；第56章切换外门保护线
+chapters:
+- chapter: 51
+  title: 玉玲珑传讯
+  facts: [玉玲珑主动留下传讯符, 萧慕河因玉玲珑接近徐霄而情绪失控]
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+- chapter: 52
+  title: 气运50倍返还
+  facts: [独孤灵说明合欢宗功法可吸取灵力和气运, 玉玲珑吸取徐霄气运, 系统执行五十倍气运返还]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 53
+  title: 再次破防的萧慕河
+  facts: [萧慕河尾随玉玲珑, 撞见徐霄与玉玲珑后发动攻击, 击杀萧慕河任务仍未完成]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 54
+  title: 返还，三千大道丹
+  facts: [徐霄赠送玉玲珑上品驻颜丹, 首次赠送触发万倍暴击, 返还三千大道丹, 系统保留一次万倍暴击机会]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 55
+  title: 一年之后
+  facts: [徐霄服用三千大道丹领悟人火之道, 人物面板显示结丹四重和301年寿命, 时间推进一年]
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 56
+  next_title: 替小蜜出头
+  transition: 转入出关、元婴恢复与外门保护线
+quality:
+  source_traceability: passed_with_qualifications
+  copyright_boundary: passed
+  full_chapter_text_stored: false
