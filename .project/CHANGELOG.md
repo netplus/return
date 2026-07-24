@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0008 — 2026-07-24
+
+- Completed `TASK-0007` as a six-chapter story arc covering Chapters 11—16.
+- Created `NODE-0005`: 金柳香结缘与羁绊倍率升级.
+- Added `CHAR-0007` for 金柳香, including her outer-sect identity, 周啸师承, 筑基二重 cultivation, C luck grade, and bond progression.
+- Registered two grouped gift events: the first筑基丹 gift returning an absolute-grade lifespan pill, and the bond-upgrade gift group returning 四海升平坠, medium-grade rings, and upper-grade spirit stones.
+- Updated 徐霄's recovered cultivation to 筑基五重.
+- Added the first direct relationship between bond progression and base return multiplier: bond 1→2 and base multiplier 10×→20×.
+- Added artifact records for 绝品寿元丹 and 四海升平坠.
+- Stored chapter-level source qualifications in `sources/evidence/chapters-011-016.yaml`.
+- Passed arc coherence, materiality, cross-index consistency, duplicate-work, YAML structure, and copyright-boundary gates.
+- Source traceability passed with qualifications: Chapters 12 and 14—16 rely on official directory or chapter identifiers plus cross-checked readable mirrors.
+- Queued `TASK-0008` for the 周啸 conflict beginning at Chapter 17.
+
 ## RUN-0007 — 2026-07-24
 
 - Completed `TASK-0006` under Workflow v2.0 as the first story-arc task.

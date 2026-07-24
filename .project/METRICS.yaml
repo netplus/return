@@ -1,29 +1,59 @@
 schema_version: 2
-updated_at: 2026-07-24
-run_id: RUN-0007
+updated_at: '2026-07-24'
+run_id: RUN-0008
 coverage:
-  chapters_verified_through: 10
-  chapters_verified_in_run: 7
-  timeline_nodes: 4
-  story_arc_nodes: 1
-  characters_documented: 6
+  chapters_covered_through: 16
+  chapters_verified_through: 16
+  chapters_in_run:
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  source_qualified_chapters:
+  - 12
+  - 14
+  - 15
+  - 16
+  timeline_nodes: 5
+  story_arc_nodes: 2
+  characters_documented: 7
   system_records: 1
-  gift_events: 5
-  artifact_records: 7
+  gift_events: 7
+  artifact_records: 9
 quality_gates:
   source_traceability:
-    status: passed
-    chapters_checked: [4, 5, 6, 7, 8, 9, 10]
+    status: passed_with_qualifications
+    official_direct_chapters:
+    - 11
+    - 13
+    cross_checked_chapters:
+    - 12
+    - 14
+    - 15
+    - 16
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第10章完成林嫣儿关系与外门舆论闭环，第11章切换新气运之女
+    boundary: 第16章完成一个月互动与外门舆论固化，第17章转入周啸算计和正面冲突
   materiality:
     status: passed
-    entity_updates: [徐霄境界, 紫韵首次登场, 林嫣儿首次登场, 三次有效赠送, 两件重要返还物品]
+    entity_updates:
+    - 徐霄境界
+    - 金柳香首次登场与羁绊变化
+    - 两次有效赠送
+    - 绝品寿元丹
+    - 四海升平坠
+    - 系统羁绊倍率规则
   cross_index_consistency:
     status: passed
-    files_checked: [docs/01-timeline/node-0004.md, data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml]
+    files_checked:
+    - docs/01-timeline/node-0005.md
+    - data/timeline/nodes.yaml
+    - data/characters/characters.yaml
+    - data/system/gifts.yaml
+    - data/artifacts/artifacts.yaml
   duplicate_work_check:
     status: passed
     duplicated_nodes: 0
@@ -31,7 +61,14 @@ quality_gates:
     duplicated_character_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked: [data/timeline/nodes.yaml, data/characters/characters.yaml, data/system/gifts.yaml, data/artifacts/artifacts.yaml, .project/STATE.yaml, .project/TASKS.yaml]
+    files_checked:
+    - data/timeline/nodes.yaml
+    - data/characters/characters.yaml
+    - data/system/gifts.yaml
+    - data/artifacts/artifacts.yaml
+    - .project/STATE.yaml
+    - .project/TASKS.yaml
+    - sources/evidence/chapters-011-016.yaml
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false

@@ -5,51 +5,115 @@ workflow:
   default_chapter_window: 5-10
   boundary_mode: adaptive
 tasks:
-  - {id: TASK-0001, title: Bootstrap lightweight project management, type: project, status: done, completed_at: 2026-07-24}
-  - {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, legacy_granularity: chapter, target: {chapter: 2, node: NODE-0002}, status: done, completed_at: 2026-07-24, depends_on: [TASK-0001]}
-  - {id: TASK-0003, title: Create initial character records from verified chapters, type: characters, status: done, completed_at: 2026-07-24, depends_on: [TASK-0002]}
-  - {id: TASK-0004, title: Create initial system and artifact records, type: system, status: done, completed_at: 2026-07-24, run_id: RUN-0004, depends_on: [TASK-0002]}
-  - id: TASK-0005
-    title: Verify Chapter 3 and build NODE-0003
-    type: timeline
-    legacy_granularity: chapter
-    target: {chapter: 3, node: NODE-0003}
-    status: done
-    completed_at: 2026-07-24
-    run_id: RUN-0005
-    outputs: [docs/01-timeline/node-0003.md, docs/02-characters/陆大年.md, data/timeline/nodes.yaml, data/characters/characters.yaml]
-    depends_on: [TASK-0004]
-  - id: TASK-0006
-    title: Build the first story arc from Chapter 4 onward
-    type: story_arc
-    status: done
-    completed_at: 2026-07-24
-    run_id: RUN-0007
-    target: {chapter_start: 4, chapter_end: 10, node: NODE-0004, boundary: adaptive}
-    outputs:
-      - docs/01-timeline/node-0004.md
-      - docs/02-characters/紫韵.md
-      - docs/02-characters/林嫣儿.md
-      - docs/06-artifacts/九天神凤钗.md
-      - docs/06-artifacts/绝品驻颜丹.md
-      - data/timeline/nodes.yaml
-      - data/characters/characters.yaml
-      - data/system/gifts.yaml
-      - data/artifacts/artifacts.yaml
-    quality_gates: passed
-    depends_on: [TASK-0005]
-  - id: TASK-0007
-    title: Build the next story arc beginning with the new气运之女
-    type: story_arc
-    status: pending
-    target:
-      chapter_start: 11
-      provisional_chapter_end: 17
-      node: NODE-0005
-      boundary: adaptive
-    rules:
-      - Read and verify each covered chapter as evidence.
-      - End at a coherent story-arc boundary.
-      - Update only material and persistent entity changes.
-      - Deliver the entire arc as one squashed commit.
-    depends_on: [TASK-0006]
+- id: TASK-0001
+  title: Bootstrap lightweight project management
+  type: project
+  status: done
+  completed_at: '2026-07-24'
+- id: TASK-0002
+  title: Verify Chapter 2 and build NODE-0002
+  type: timeline
+  legacy_granularity: chapter
+  target:
+    chapter: 2
+    node: NODE-0002
+  status: done
+  completed_at: '2026-07-24'
+  depends_on:
+  - TASK-0001
+- id: TASK-0003
+  title: Create initial character records from verified chapters
+  type: characters
+  status: done
+  completed_at: '2026-07-24'
+  depends_on:
+  - TASK-0002
+- id: TASK-0004
+  title: Create initial system and artifact records
+  type: system
+  status: done
+  completed_at: '2026-07-24'
+  run_id: RUN-0004
+  depends_on:
+  - TASK-0002
+- id: TASK-0005
+  title: Verify Chapter 3 and build NODE-0003
+  type: timeline
+  legacy_granularity: chapter
+  target:
+    chapter: 3
+    node: NODE-0003
+  status: done
+  completed_at: '2026-07-24'
+  run_id: RUN-0005
+  outputs:
+  - docs/01-timeline/node-0003.md
+  - docs/02-characters/陆大年.md
+  - data/timeline/nodes.yaml
+  - data/characters/characters.yaml
+  depends_on:
+  - TASK-0004
+- id: TASK-0006
+  title: Build the first story arc from Chapter 4 onward
+  type: story_arc
+  status: done
+  completed_at: '2026-07-24'
+  run_id: RUN-0007
+  target:
+    chapter_start: 4
+    chapter_end: 10
+    node: NODE-0004
+    boundary: adaptive
+  outputs:
+  - docs/01-timeline/node-0004.md
+  - docs/02-characters/紫韵.md
+  - docs/02-characters/林嫣儿.md
+  - docs/06-artifacts/九天神凤钗.md
+  - docs/06-artifacts/绝品驻颜丹.md
+  - data/timeline/nodes.yaml
+  - data/characters/characters.yaml
+  - data/system/gifts.yaml
+  - data/artifacts/artifacts.yaml
+  quality_gates: passed
+  depends_on:
+  - TASK-0005
+- id: TASK-0007
+  title: Build the story arc for 金柳香 and bond-level rewards
+  type: story_arc
+  status: done
+  completed_at: '2026-07-24'
+  run_id: RUN-0008
+  target:
+    chapter_start: 11
+    chapter_end: 16
+    node: NODE-0005
+    boundary: adaptive
+  outputs:
+  - docs/01-timeline/node-0005.md
+  - docs/02-characters/金柳香.md
+  - docs/06-artifacts/绝品寿元丹.md
+  - docs/06-artifacts/四海升平坠.md
+  - sources/evidence/chapters-011-016.yaml
+  - data/timeline/nodes.yaml
+  - data/characters/characters.yaml
+  - data/system/gifts.yaml
+  - data/artifacts/artifacts.yaml
+  quality_gates: passed_with_source_qualifications
+  depends_on:
+  - TASK-0006
+- id: TASK-0008
+  title: Build the 周啸 conflict story arc from Chapter 17 onward
+  type: story_arc
+  status: pending
+  target:
+    chapter_start: 17
+    provisional_chapter_end: 23
+    node: NODE-0006
+    boundary: adaptive
+  rules:
+  - Read and verify each covered chapter as evidence.
+  - End at a coherent conflict or goal transition.
+  - Update only material and persistent entity changes.
+  - Deliver the entire arc as one squashed commit.
+  depends_on:
+  - TASK-0007

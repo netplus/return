@@ -1,0 +1,74 @@
+schema_version: 1
+run_id: RUN-0008
+node: NODE-0005
+chapter_range:
+  start: 11
+  end: 16
+policy: Store only source metadata, original summaries, fact fields, and verification state; do not store full chapter text.
+chapters:
+- chapter: 11
+  title: 气运之女，金柳香
+  official_chapter_id: '7424873283285156376'
+  access: official_full
+  status: verified
+  facts:
+  - 金柳香被识别为C级气运之女
+  - 初始羁绊度为1
+  - 基础返还倍率为10倍
+  - 徐霄准备赠送筑基资源
+- chapter: 12
+  title: 返还绝品寿元丹
+  official_chapter_id: '7425091395058139673'
+  access: official_directory_plus_cross_checked_mirror
+  status: partial
+  facts:
+  - 金柳香接受十枚筑基丹
+  - 首次赠送触发百倍暴击
+  - 返还绝品寿元丹
+  - 丹药可增加三百年寿元
+- chapter: 13
+  title: 金柳香的猜测
+  official_chapter_id: '7425173399107797529'
+  access: official_full
+  status: verified
+  facts:
+  - 金柳香为周啸弟子
+  - 金柳香修为筑基二重
+  - 徐霄服用两枚筑基丹后恢复至筑基五重
+- chapter: 14
+  title: 羁绊度升级
+  official_chapter_id: '7425211317163655705'
+  access: official_fragment_plus_cross_checked_mirror
+  status: partial
+  facts:
+  - 金柳香提出长期照料
+  - 羁绊度由1提升至2
+  - 基础倍率由10倍提升至20倍
+  - 徐霄赠送碧玉金钗、法戒和十枚上品灵石
+- chapter: 15
+  title: 宗门广场又炸了
+  official_chapter_id: '7425239688849408537'
+  access: official_directory_plus_cross_checked_mirror
+  status: partial
+  facts:
+  - 碧玉金钗触发千倍暴击并返还四海升平坠
+  - 法戒返还两枚中品法戒
+  - 十枚上品灵石返还二百枚
+  - 四海升平坠可释放四海弱水
+- chapter: 16
+  title: 一个月过去
+  official_chapter_id: '7425477115002241561'
+  access: official_directory_plus_cross_checked_mirror
+  status: partial
+  facts:
+  - 时间推进一个月
+  - 徐霄相关传闻在外门固化
+  - 陆大年压制恶意议论
+  - 第17章转入周啸算计
+arc_boundary:
+  end_chapter: 16
+  next_chapter: 17
+  reason: 关系和舆论阶段完成；下一章启动周啸冲突线
+quality:
+  unsupported_fields_promoted: false
+  full_text_stored: false

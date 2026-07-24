@@ -4,16 +4,17 @@
 - **Current milestone:** M1 — Chapters 1–50
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Default planning window:** Approximately 5–10 chapters, adaptive boundary
-- **Verified through:** Chapter 10
-- **Completed timeline nodes:** 4
-- **Documented characters:** 6
+- **Covered through:** Chapter 16
+- **Source-qualified chapters in latest arc:** 12, 14, 15, 16
+- **Completed timeline nodes:** 5
+- **Documented characters:** 7
 - **System records:** 1
-- **Gift events:** 5
-- **Artifact records:** 7
-- **Last completed run:** `RUN-0007`
-- **Last completed node:** `NODE-0004`
-- **Next task:** `TASK-0007` — Build the next story arc beginning at Chapter 11
-- **Provisional exploration range:** Chapters 11–17
+- **Gift events:** 7
+- **Artifact records:** 9
+- **Last completed run:** `RUN-0008`
+- **Last completed node:** `NODE-0005`
+- **Next task:** `TASK-0008` — Build the 周啸 conflict story arc beginning at Chapter 17
+- **Provisional exploration range:** Chapters 17–23
 - **Blockers:** None
 
 ## Workflow policy
@@ -32,24 +33,28 @@
 
 | Area | Count | Verification |
 |---|---:|---|
-| Timeline nodes | 4 | Verified through Chapter 10 |
-| Story-arc nodes | 1 | First v2.0 arc covers Chapters 4–10 |
-| Characters | 6 | 紫韵 partial; others verified at recorded fields |
-| System definitions | 1 | First-gift暴击 pattern extended |
-| Gift events | 5 | 4 successful, 1 rejected |
-| Artifact records | 7 | Includes 九天神凤钗 and 绝品驻颜丹 |
+| Timeline nodes | 5 | Covered through Chapter 16 |
+| Story-arc nodes | 2 | Chapters 4–10 and 11–16 |
+| Characters | 7 | 金柳香 and selected fields are source-qualified |
+| System definitions | 1 | Bond-level multiplier rule added as partial |
+| Gift events | 7 | 6 successful, 1 rejected |
+| Artifact records | 9 | Added 绝品寿元丹 and 四海升平坠 |
 
-## Quality gates — RUN-0007
+## Quality gates — RUN-0008
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed |
+| Source traceability | Passed with qualifications |
 | Arc coherence | Passed |
 | Materiality | Passed |
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
 | Copyright boundary | Passed |
+
+## Source qualification
+
+The arc is structurally complete, but Chapters 12 and 14–16 could not all be read from a fully rendered official chapter page. Their facts were cross-checked using the official directory or chapter identifiers plus accessible text mirrors. These fields are marked `partial`; no unsupported detail was promoted to `verified`.
 
 ## Task summary
 
@@ -61,4 +66,5 @@
 | Create initial system and artifact records | Done |
 | Verify Chapter 3 and build NODE-0003 | Done |
 | First story arc, Chapters 4–10 | Done |
-| Next story arc beginning at Chapter 11 | Pending |
+| 金柳香 and bond-level story arc, Chapters 11–16 | Done with source qualifications |
+| 周啸 conflict story arc beginning at Chapter 17 | Pending |
