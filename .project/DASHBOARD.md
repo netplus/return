@@ -1,48 +1,63 @@
 # Project dashboard
 
-- **Status:** Active — task blocked before canonical promotion
+- **Status:** Active
 - **Current milestone:** M1 — Chapters 1–50
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Default planning window:** Approximately 5–10 chapters, adaptive boundary
-- **Covered through:** Chapter 23 evidence draft
-- **Canonically indexed through:** Chapter 16
-- **Completed timeline nodes:** 5
-- **Draft timeline nodes:** 1 (`NODE-0006`)
-- **Documented characters:** 7
+- **Covered through:** Chapter 23
+- **Directly verified through:** Chapter 16
+- **Source-qualified canonical coverage:** Chapters 17–23
+- **Completed timeline nodes:** 6
+- **Draft timeline nodes:** 0
+- **Documented characters:** 8
 - **System records:** 1
-- **Gift events:** 7 canonical; 1 proposed
-- **Artifact records:** 9 canonical; 1 proposed
-- **Last run:** `RUN-0009`
-- **Last completed node:** `NODE-0005`
-- **Current task:** `TASK-0008` — 周啸 conflict story arc, Chapters 17–23
-- **Task state:** In progress
+- **Gift events:** 8
+- **Artifact records:** 10
+- **Last run:** `RUN-0010`
+- **Last completed node:** `NODE-0006`
+- **Next task:** `TASK-0009` — 林嫣儿消息与玄魔宗冲突 story arc
+- **Provisional exploration range:** Chapters 24–30
+- **Blockers:** None
 
-## Current arc
+## Latest completed arc
 
-The Chapter 17—23 boundary is coherent: the 周啸 conflict begins in Chapter 17, is resolved through enforcement and expulsion, and transitions into 独孤灵's intervention and the first successful gift to her. Chapter 23 completes the 三千大道丹 and 地火之道 reward cycle; Chapter 24 switches to 林嫣儿 and a later development.
+`NODE-0006` covers Chapters 17—23. The 周啸 conflict begins with the night approach to 徐霄's residence, closes with enforcement and expulsion, and transitions into 独孤灵's first successful system gift. The reward cycle closes when 徐霄 consumes 三千大道丹 and begins comprehending 地火之道. Chapter 24 switches to 林嫣儿's message and the next conflict line.
 
-## Quality gates — RUN-0009
+## Knowledge coverage
+
+| Area | Count | Verification |
+|---|---:|---|
+| Timeline nodes | 6 | Canonical through Chapter 23 |
+| Story-arc nodes | 3 | Chapters 4–10, 11–16, 17–23 |
+| Characters | 8 | Added 周啸; Chapter 17–23 fields remain partial |
+| System definitions | 1 | Gift index extended through `GIFT-0008` |
+| Gift events | 8 | 7 successful, 1 rejected |
+| Artifact records | 10 | Added 三千大道丹 |
+
+## Quality gates — RUN-0010
 
 | Gate | Result |
 |---|---|
 | Source traceability | Passed with qualifications |
 | Arc coherence | Passed |
 | Materiality | Passed |
+| Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
 | Copyright boundary | Passed |
-| Cross-index consistency | **Blocked** |
 
-## Blockers
+## Source qualification
 
-1. Official Chapter 17—23 body pages did not render reliably. The official directory confirms titles and order; facts were cross-checked against multiple readable mirrors and remain `partial`.
-2. `NODE-0006` has not been promoted into canonical timeline, character, gift, and artifact indexes. `TASK-0008` therefore remains in progress.
+The official 番茄小说 work page confirms Chapters 17—24 titles and order. Chapter 17—23 body facts were cross-checked through readable text mirrors and remain explicitly marked `partial`; no unsupported field was promoted to `verified`.
 
-## New artifacts
+## Task summary
 
-- `docs/01-timeline/drafts/node-0006.md`
-- `sources/evidence/chapters-017-023.yaml`
-
-## Next action
-
-Resume `TASK-0008`; retry official text access, consolidate the central indexes, rerun cross-index consistency, then promote `NODE-0006` and complete the task.
+| Task | Status |
+|---|---|
+| Bootstrap Project OS | Done |
+| Legacy Chapter 2 and Chapter 3 nodes | Done |
+| Initial character/system/artifact records | Done |
+| Chapters 4–10 story arc | Done |
+| Chapters 11–16 story arc | Done with source qualifications |
+| Chapters 17–23 story arc | Done with source qualifications |
+| Chapters 24 onward story arc | Pending |
