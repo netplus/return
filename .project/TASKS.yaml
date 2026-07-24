@@ -23,25 +23,25 @@ tasks:
 - {id: TASK-0016, title: Build Chapters 74-81 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0023, target: {chapter_start: 74, chapter_end: 81, node: NODE-0014}, depends_on: [TASK-0015]}
 - {id: TASK-0017, title: Build Chapters 82-87 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0024, target: {chapter_start: 82, chapter_end: 87, node: NODE-0015}, depends_on: [TASK-0016]}
 - {id: TASK-0018, title: Build Chapters 88-93 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0025, target: {chapter_start: 88, chapter_end: 93, node: NODE-0016}, depends_on: [TASK-0017]}
-- id: TASK-0019
-  title: Build Chapters 94-102 story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_ids: [RUN-0026, RUN-0027]
-  target: {chapter_start: 94, chapter_end: 102, node: NODE-0017}
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  closed_blockers: [BLOCK-0007]
-  outputs: [docs/01-timeline/node-0017.md, docs/02-characters/段红绫.md, docs/02-characters/刘玲玲.md, docs/02-characters/木玉儿.md, docs/06-artifacts/净玉瓶.md, docs/06-artifacts/万锻玉骨丹.md, data/extensions/timeline/run-0027.yaml, data/extensions/characters/run-0027.yaml, data/extensions/system/run-0027.yaml, data/extensions/artifacts/run-0027.yaml, sources/evidence/chapters-094-102.yaml]
-  depends_on: [TASK-0018]
+- {id: TASK-0019, title: Build Chapters 94-102 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_ids: [RUN-0026, RUN-0027], target: {chapter_start: 94, chapter_end: 102, node: NODE-0017}, depends_on: [TASK-0018]}
 - id: TASK-0020
   title: Build the 翠山门报复与铁幕城冲突升级 story arc from Chapter 103 onward
   type: story_arc
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0028
+  target: {chapter_start: 103, chapter_end: 116, node: NODE-0018, boundary: adaptive}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  outputs: [docs/01-timeline/node-0018.md, docs/02-characters/妙玉.md, docs/02-characters/徐霄.md, docs/02-characters/木玉儿.md, docs/06-artifacts/虚天丹.md, data/extensions/timeline/run-0028.yaml, data/extensions/characters/run-0028.yaml, data/extensions/system/run-0028.yaml, data/extensions/artifacts/run-0028.yaml, sources/evidence/chapters-103-116.yaml]
+  depends_on: [TASK-0019]
+- id: TASK-0021
+  title: Build the 天尸宗魇女与炼虚袭击 story arc from Chapter 117 onward
+  type: story_arc
   status: pending
-  target: {chapter_start: 103, provisional_chapter_end: 110, node: NODE-0018, boundary: adaptive}
+  target: {chapter_start: 117, provisional_chapter_end: 124, node: NODE-0019, boundary: adaptive}
   rules:
   - Read and verify each covered chapter as evidence.
   - End at a coherent story-arc boundary.
   - Update only material and persistent entity changes.
   - Deliver the entire arc as one complete commit or record blockers.
-  depends_on: [TASK-0019]
+  depends_on: [TASK-0020]

@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0028
+artifacts:
+- id: ART-0024
+  name: 万锻玉骨丹
+  update:
+    current_state: 已服用
+    final_user: 徐霄
+    effects_add:
+    - 周身骨骼蜕变为天玉骨
+    - 骨骼坚韧提升
+    - 修炼资质进一步提升
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 104
+- id: ART-0021
+  name: 虚天丹
+  update:
+    transfer:
+      chapter: 116
+      from: 徐霄
+      to: 妙玉
+      quantity: 1
+      gift_id: GIFT-0027
+      status: partial
+    recorded_return_quantity: 40
+    inferred_remaining_quantity: 39
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 115
+    - 116

@@ -1,0 +1,102 @@
+schema_version: 1
+run_id: RUN-0028
+characters:
+- id: CHAR-0024
+  name: 妙玉
+  status: alive
+  role: supporting
+  affiliations:
+  - 铁幕城
+  identities:
+  - 铁幕城城主
+  - 炼虚修士
+  first_appearance:
+    chapter: 110
+    title: 诸葛无方的算盘
+    node: NODE-0018
+  cultivation:
+    current: 炼虚境
+    status: partial
+  accepted_gifts:
+  - GIFT-0027
+  documents:
+    profile: docs/02-characters/妙玉.md
+  related_nodes:
+  - NODE-0018
+  source_chapters:
+  - 110
+  - 114
+  - 115
+  - 116
+  verification_status: partial
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation:
+      current: 元婴九重
+      status: partial
+    lifespan:
+      remaining_years: 297
+      status: partial
+    constitution_add:
+    - 天玉骨
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    - 110
+    - 111
+    - 112
+    - 113
+    - 114
+    - 115
+    - 116
+- id: CHAR-0022
+  name: 刘玲玲
+  update:
+    affiliation_status: 留在铁幕城，不再返回翠山门
+    protection: 受徐霄公开保护
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 103
+    - 104
+    - 105
+    - 106
+- id: CHAR-0023
+  name: 木玉儿
+  update:
+    accepted_gifts_add:
+    - GIFT-0026
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 107
+    - 108
+- id: CHAR-0012
+  name: 诸葛无方
+  update:
+    iron_curtain_role: 赶到铁幕城斡旋徐霄执法危机
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 110
+    - 115
+    - 116
+- id: CHAR-0020
+  name: 水柔
+  update:
+    cultivation:
+      current: 化神八重
+      status: partial
+    related_nodes_add:
+    - NODE-0018
+    source_chapters_add:
+    - 109
+    - 112

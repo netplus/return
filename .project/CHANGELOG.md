@@ -1,21 +1,21 @@
 # Changelog
 
-## RUN-0027 — 2026-07-25
+## RUN-0028 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0019`; no completed task or canonical node was duplicated.
-- Promoted `NODE-0017`: 铁幕城落脚与三条赠送关系建立, covering Chapters 94—102.
-- Added 段红绫 (`CHAR-0021`), 刘玲玲 (`CHAR-0022`) and 木玉儿 (`CHAR-0023`).
-- Registered `GIFT-0021`—`GIFT-0025`; unresolved settlement fields remain explicitly `pending`.
-- Added 净玉瓶 (`ART-0023`) and 万锻玉骨丹 (`ART-0024`), and extended 虚天丹 quantity evidence.
-- Added append-only canonical extension indexes and promoted the evidence record.
-- Closed `BLOCK-0007`; all quality gates passed with qualified source traceability.
-- Completed `TASK-0019`, advanced to milestone M3 and queued `TASK-0020` beginning at Chapter 103.
+- Resumed only `TASK-0020`; no completed task or canonical node was duplicated.
+- Expanded the adaptive boundary from the provisional Chapter 110 to Chapter 116, where the Iron Curtain City enforcement crisis fully closes.
+- Created `NODE-0018`: 翠山门报复与铁幕城脱罪, covering Chapters 103—116.
+- Added 妙玉 (`CHAR-0024`) and updated 徐霄, 刘玲玲, 木玉儿, 水柔 and 诸葛无方.
+- Recorded 徐霄恢复元婴九重、天玉骨、`GIFT-0026` and `GIFT-0027`; unresolved system settlements remain `pending`.
+- Updated 虚天丹 transfer evidence and append-only canonical extension indexes.
+- All quality gates passed with qualified source traceability.
+- Completed `TASK-0020` and queued `TASK-0021` beginning at Chapter 117.
 
-## RUN-0026 — 2026-07-25
+## RUN-0027 — 2026-07-25
 
-- Staged Chapters 94—102 evidence and `NODE-0017`; recorded `BLOCK-0007`.
+- Promoted `NODE-0017`, added 段红绫、刘玲玲、木玉儿 and completed `TASK-0019`.
 
 ## Earlier runs
 
-- RUN-0001 through RUN-0025 established Project OS, append-only extension indexes and canonical coverage through Chapter 93.
+- RUN-0001 through RUN-0026 established Project OS, append-only extension indexes and canonical coverage through Chapter 102.

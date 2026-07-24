@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0028
+gifts:
+- id: GIFT-0026
+  chapter: 108
+  node: NODE-0018
+  giver: 徐霄
+  recipient: 木玉儿
+  gift: 五十枚上品灵石
+  accepted: true
+  system_valid: null
+  triggered_multiplier: null
+  reward: null
+  settlement_status: pending
+  status: partial
+- id: GIFT-0027
+  chapter: 116
+  node: NODE-0018
+  giver: 徐霄
+  recipient: 妙玉
+  gift: 一枚虚天丹
+  accepted: true
+  system_valid: null
+  triggered_multiplier: null
+  reward: null
+  settlement_status: pending
+  narrative_result: 妙玉帮助徐霄澄清罪责
+  status: partial
+system_object_updates:
+- name: 妙玉
+  classification: 有效赠送对象，系统气运分类未确认
+  luck_grade: null
+  base_multiplier: null
+  bond: null
+  status: pending
+rule_observations:
+- rule: 并非所有叙事性赠送都能立即确认系统返还
+  example: 木玉儿上品灵石与妙玉虚天丹均已接受，但当前可访问正文未显示系统结算
+  status: partial

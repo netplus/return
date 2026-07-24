@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0028
+nodes:
+- id: NODE-0018
+  title: 翠山门报复与铁幕城脱罪
+  chapters:
+    start: 103
+    end: 116
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第103—117章标题、顺序和边界；第103—116章正文由可访问镜像交叉核验
+  boundary_reason: 第116章完成全城声讨、妙玉介入、虚天丹交换和徐霄脱罪；第117章转入天尸宗魇女的炼虚级袭击
+  characters:
+  - 徐霄
+  - 刘玲玲
+  - 木玉儿
+  - 水柔
+  - 诸葛无方
+  - 妙玉
+  - 杨铁峰
+  conflict_events:
+  - event: 翠山门弟子试图夺取刘玲玲资源
+    result: 八名翠山门弟子被徐霄杀死，刘玲玲留在铁幕城
+    status: partial
+  - event: 铁幕城守卫队执法
+    result: 杨铁峰因徐霄高阶符箓和既有战绩未强行拘捕
+    status: partial
+  - event: 全城声讨与公开对峙
+    result: 妙玉和诸葛无方介入，徐霄通过丹药交换脱罪
+    status: partial
+  system_events:
+  - gift_id: GIFT-0026
+    recipient: 木玉儿
+    status: partial
+  - gift_id: GIFT-0027
+    recipient: 妙玉
+    status: partial
+  protagonist_state:
+    realm: 元婴九重
+    remaining_lifespan_years: 297
+    constitution_add: 天玉骨
+    status: partial
+  document: docs/01-timeline/node-0018.md
+  evidence: sources/evidence/chapters-103-116.yaml

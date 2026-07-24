@@ -1,36 +1,92 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0027
+run_id: RUN-0028
 coverage:
-  chapters_covered_through: 102
-  chapters_promoted_in_run: [94, 95, 96, 97, 98, 99, 100, 101, 102]
-  timeline_nodes: 17
+  chapters_covered_through: 116
+  chapters_promoted_in_run:
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 108
+  - 109
+  - 110
+  - 111
+  - 112
+  - 113
+  - 114
+  - 115
+  - 116
+  timeline_nodes: 18
   draft_nodes: 0
-  story_arc_nodes: 14
-  characters_documented: 23
+  story_arc_nodes: 15
+  characters_documented: 24
   characters_staged: 0
   system_records: 1
-  gift_events: 25
+  gift_events: 27
   artifact_records: 24
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [94, 95, 96, 97, 98, 99, 100, 101, 102, 103]
-    cross_checked_mirror_chapters: [94, 95, 96, 97, 98, 99, 100, 101, 102]
-    pending_fields: [刘玲玲首次赠送的完整结算, 刘玲玲羁绊升级赠送的完整返还清单, 木玉儿赠送事件的触发倍率与完整返还清单, 梦丹第94章赠送的返还结算]
+    official_catalog_chapters:
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    - 110
+    - 111
+    - 112
+    - 113
+    - 114
+    - 115
+    - 116
+    - 117
+    cross_checked_mirror_chapters:
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    - 110
+    - 111
+    - 112
+    - 113
+    - 114
+    - 115
+    - 116
+    pending_fields:
+    - GIFT-0026系统结算
+    - 妙玉系统面板和GIFT-0027返还结算
+    - 翠山门八名弟子的完整身份修为
+    - 天玉骨能力边界
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第102章完成铁幕城落脚、段红绫疗伤机缘、刘玲玲羁绊升级与木玉儿赠送返还；第103章转入翠山门报复算计
+    boundary: 第116章完成翠山门报复、全城声讨、妙玉介入、虚天丹交换与徐霄脱罪；第117章转入天尸宗魇女袭击
   materiality:
     status: passed
-    entity_updates: [段红绫与净玉瓶, 刘玲玲羁绊及气运等级升级, 木玉儿与万锻玉骨丹, 水月炼神丹返还, 徐霄铁幕城职责]
+    entity_updates:
+    - 徐霄元婴九重与天玉骨
+    - 刘玲玲脱离翠山门控制
+    - 木玉儿五十上品灵石赠送
+    - 妙玉首次登场与虚天丹转移
+    - 铁幕城执法危机
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    closed_blocker: BLOCK-0007
-    files_checked: [docs/01-timeline/node-0017.md, data/extensions/timeline/run-0027.yaml, data/extensions/characters/run-0027.yaml, data/extensions/system/run-0027.yaml, data/extensions/artifacts/run-0027.yaml]
+    files_checked:
+    - docs/01-timeline/node-0018.md
+    - data/extensions/timeline/run-0028.yaml
+    - data/extensions/characters/run-0028.yaml
+    - data/extensions/system/run-0028.yaml
+    - data/extensions/artifacts/run-0028.yaml
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
@@ -40,7 +96,15 @@ quality_gates:
     duplicated_artifact_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0027.yaml, data/extensions/characters/run-0027.yaml, data/extensions/system/run-0027.yaml, data/extensions/artifacts/run-0027.yaml, sources/evidence/chapters-094-102.yaml]
+    files_checked:
+    - .project/STATE.yaml
+    - .project/TASKS.yaml
+    - .project/METRICS.yaml
+    - data/extensions/timeline/run-0028.yaml
+    - data/extensions/characters/run-0028.yaml
+    - data/extensions/system/run-0028.yaml
+    - data/extensions/artifacts/run-0028.yaml
+    - sources/evidence/chapters-103-116.yaml
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false

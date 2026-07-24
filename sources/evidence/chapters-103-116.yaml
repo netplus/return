@@ -1,0 +1,110 @@
+schema_version: 2
+run_id: RUN-0028
+task_id: TASK-0020
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 103
+  chapter_end: 116
+  node: NODE-0018
+  status: promoted
+  canonical_document: docs/01-timeline/node-0018.md
+  boundary_reason: 第116章完成翠山门报复、全城声讨、妙玉介入和徐霄脱罪；第117章转入天尸宗魇女袭击
+chapters:
+- chapter: 103
+  title: 翠山门弟子的算盘
+  facts: [翠山门弟子策划夺取刘玲玲资源并报复徐霄]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 104
+  title: 彻底震惊了
+  facts: [徐霄服用万锻玉骨丹形成天玉骨, 人物面板显示元婴九重与297年寿命, 翠山门八名弟子冲突升级]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 105
+  title: 守卫队到了
+  facts: [八名翠山门弟子死亡, 刘玲玲决定留在铁幕城, 守卫队抵达]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 106
+  title: 恐怖老炸弹之威
+  facts: [杨铁峰与化神执法队评估徐霄威胁, 未立即强行拘捕]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 107
+  title: 与木玉儿聊天
+  facts: [徐霄与木玉儿继续接触, 刘玲玲获得公开保护]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 108
+  title: 铁幕城碧水商会
+  facts: [徐霄向木玉儿赠送五十枚上品灵石, 木玉儿接受, 系统结算未见稳定直证]
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+- chapter: 109
+  title: 左右为难的水柔
+  facts: [水柔在铁幕城碧水商会处理事务, 北风国国主慕容云河追求水柔]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 110
+  title: 诸葛无方的算盘
+  facts: [铁幕城高层讨论徐霄事件, 妙玉决定在民愤无法平息时处罚或逐出徐霄]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 111
+  title: 疯狂声讨的人群
+  facts: [全城声讨徐霄, 徐霄判断魔道在背后推动并主动前往对峙]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 112
+  title: 当众对峙
+  facts: [徐霄公开与声讨人群对峙, 水柔修为在炼神丹支持下提升至化神八重]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 113
+  title: 各方算计，弄死徐霄
+  facts: [徐霄再次动手并以南明离火剑威慑人群, 各方继续谋划借城主府除掉徐霄]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 114
+  title: 铁幕城主，妙玉
+  facts: [铁幕城主妙玉正式到场, 炼虚城主接管事件]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 115
+  title: 虚天丹
+  facts: [诸葛无方赶到并以清元静心丹斡旋, 妙玉免除徐霄死罪]
+  official_catalog: true
+  readable_mirrors: [小说之家]
+  status: partial
+- chapter: 116
+  title: 轻松脱罪
+  facts: [徐霄赠送妙玉一枚虚天丹, 妙玉接受并帮助澄清罪责, 铁幕城执法危机收束]
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 117
+  next_title: 天尸宗魇女
+  transition: 转入天尸宗魇女发动的炼虚级外部袭击
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
+pending_fields: [GIFT-0026系统结算, 妙玉系统面板和GIFT-0027返还结算, 翠山门八名弟子的完整身份修为, 天玉骨能力边界]
