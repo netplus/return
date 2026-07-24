@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0014 — 2026-07-24
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0011`; no completed task or node was duplicated.
+- Promoted staged `NODE-0009` from draft to the canonical timeline for Chapters 39—50.
+- Added canonical character records and profiles for 诸葛无方, 魔极天 and 萧慕河.
+- Updated 徐霄 to结丹四重 with the source-qualified public combat result of killing魔极天.
+- Updated 独孤灵's化神九重 battle record with九天神凤钗 and 玉玲珑's observation of徐霄气运.
+- Extended the system record with气运之子 recognition and the pending萧慕河道具库升级 task.
+- Closed `BLOCK-0003` after synchronizing canonical timeline, character and system indexes.
+- Passed all quality gates; source traceability remains passed with explicit qualifications.
+- Completed `TASK-0011` and queued `TASK-0012` beginning at Chapter 51.
+
 ## RUN-0013 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
@@ -9,23 +22,15 @@
 - Recorded the 魔道上门 response, 独孤灵's use of 九天神凤钗, 诸葛无方's appearance, the 九宗天降山 meeting, 萧慕河's 气运之子 task, and 徐霄's killing of 魔极天.
 - Added `sources/evidence/chapters-039-050.yaml` with explicit source qualifications.
 - Source traceability, arc coherence, materiality, duplicate-work and copyright gates passed.
-- Cross-index consistency is blocked because the draft has not yet been promoted into canonical timeline, character and system indexes; recorded `BLOCK-0003` instead of marking the task complete.
+- Cross-index consistency was blocked because the draft had not yet been promoted into canonical timeline, character and system indexes; recorded `BLOCK-0003` instead of marking the task complete.
 - Kept `TASK-0011` in progress for the next run.
 
 ## RUN-0012 — 2026-07-24
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0010`; no completed task or node was duplicated.
-- Confirmed the adaptive boundary at Chapter 38 and created `NODE-0008`: 玄魔宗覆灭与道体重塑.
-- Recorded the 李天霸气运之敌 task, 九天神雷符 destruction of玄魔宗, and the transition to魔道 retaliation.
-- Added `GIFT-0011` for 金柳香 and `GIFT-0012` for 独孤灵.
-- Added character records for 李天霸 and 玉玲珑.
-- Added artifact records for 九转乾元丹 and 须臾五极山.
+- Completed `TASK-0010` and created `NODE-0008`: 玄魔宗覆灭与道体重塑.
+- Added 李天霸 and 玉玲珑, `GIFT-0011`, `GIFT-0012`, 九转乾元丹 and 须臾五极山.
 - Updated 徐霄 to结丹二重 with a source-qualified道体 transformation.
-- Updated the system record with气运之敌 tasks and task-reward-to-gift binding.
-- Added `sources/evidence/chapters-032-038.yaml`.
-- Passed all quality gates; source traceability passed with explicit qualifications.
-- Queued `TASK-0011` beginning at Chapter 39.
+- Added `sources/evidence/chapters-032-038.yaml` and passed all gates with source qualifications.
 
 ## RUN-0011 — 2026-07-24
 

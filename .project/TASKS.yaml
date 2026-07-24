@@ -1,9 +1,5 @@
 schema_version: 2
-workflow:
-  standard_version: 2.0
-  unit: story_arc
-  default_chapter_window: 5-10
-  boundary_mode: adaptive
+workflow: {standard_version: 2.0, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 tasks:
 - {id: TASK-0001, title: Bootstrap lightweight project management, type: project, status: done, completed_at: '2026-07-24'}
 - {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, status: done, completed_at: '2026-07-24', depends_on: [TASK-0001]}
@@ -18,27 +14,18 @@ tasks:
 - id: TASK-0011
   title: Build the 魔道上门与正魔交锋 story arc from Chapter 39 onward
   type: story_arc
-  status: in_progress
-  run_ids: [RUN-0013]
-  target:
-    chapter_start: 39
-    provisional_chapter_end: 45
-    resolved_chapter_end: 50
-    node: NODE-0009
-    boundary: adaptive
-  staged_outputs:
-    - docs/01-timeline/drafts/node-0009.md
-    - sources/evidence/chapters-039-050.yaml
-  quality_gates:
-    source_traceability: passed_with_qualifications
-    arc_coherence: passed
-    materiality: passed
-    cross_index_consistency: blocked
-    duplicate_work_check: passed
-    copyright_boundary: passed
-  blockers:
-    - BLOCK-0003
-  rules:
-    - Resume this task only until all blockers close.
-    - Promote the draft and synchronize canonical indexes before marking done.
+  status: done
+  completed_at: '2026-07-24'
+  run_ids: [RUN-0013, RUN-0014]
+  target: {chapter_start: 39, chapter_end: 50, node: NODE-0009, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0009.md, docs/02-characters/诸葛无方.md, docs/02-characters/魔极天.md, docs/02-characters/萧慕河.md, data/timeline/nodes.yaml, data/characters/characters.yaml, docs/03-system/万倍返还系统.md]
+  quality_gates: passed_with_source_qualifications
+  closed_blockers: [BLOCK-0003]
   depends_on: [TASK-0010]
+- id: TASK-0012
+  title: Build the 玉玲珑私下传讯与后续赠送 story arc from Chapter 51 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 51, provisional_chapter_end: 57, node: NODE-0010, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence, End at a coherent story-arc boundary, Update only material and persistent entity changes, Deliver the entire arc as one squashed commit]
+  depends_on: [TASK-0011]
