@@ -18,7 +18,13 @@ tasks:
   - id: TASK-0003
     title: Create initial character records from verified chapters
     type: characters
-    status: pending
+    status: done
+    completed_at: 2026-07-24
+    outputs:
+      - docs/02-characters/徐霄.md
+      - docs/02-characters/姬雪.md
+      - docs/02-characters/独孤灵.md
+      - data/characters/characters.yaml
     depends_on:
       - TASK-0002
   - id: TASK-0004
