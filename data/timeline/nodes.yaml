@@ -290,3 +290,52 @@ nodes:
     status: partial
   document: docs/01-timeline/node-0010.md
   evidence: sources/evidence/chapters-051-055.yaml
+- id: NODE-0011
+  title: 外门保护、白巧巧结缘与梦丹旧情恢复
+  chapters:
+    start: 56
+    end: 61
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第56—62章标题、顺序和边界；第56—61章正文事实由多个可访问镜像交叉核验，未提升为verified
+  boundary_reason: 第61章完成徐霄元婴恢复、外门保护、白巧巧首次赠送与梦丹旧关系恢复；第62章切换紫韵请求和天人秘境准备
+  locations:
+  - 缥缈宗外门
+  - 外门大比场地
+  - 徐霄外山住处
+  characters:
+  - 徐霄
+  - 金柳香
+  - 林嫣儿
+  - 白巧巧
+  - 梦丹
+  - 独孤灵
+  conflict_events:
+  - event: 金柳香和林嫣儿遭外门同门排挤欺压
+    result: 徐霄公开介入并确立长期保护与资源支持
+    status: partial
+  system_events:
+  - gift_id: GIFT-0014
+    recipient: 白巧巧
+    gift: 十枚筑基丹、十枚上品灵石与中品法器玄光戒
+    triggered_multiplier: 1000
+    reward: 绝品悟道丹、一百枚上品灵石与上品法戒
+    status: partial
+  - event: 识别梦丹为气运之女
+    known_base_multiplier: 20
+    completion: 完整系统面板待确认
+    status: partial
+  protagonist_state:
+    realm_start: 结丹四重
+    realm_end: 元婴一重
+    appearance: 随修为恢复明显回春
+    status: partial
+  world_updates:
+  - event: 南瞻国天人秘境即将开启
+    rules:
+    - 三百年开启一次
+    - 限制化神境以下修士进入
+    - 大道神丹可帮助领悟额外大道之力
+    status: partial
+  document: docs/01-timeline/node-0011.md
+  evidence: sources/evidence/chapters-056-061.yaml
