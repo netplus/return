@@ -1,180 +1,24 @@
 schema_version: 2
 updated_at: '2026-07-24'
 artifacts:
-- id: ART-0001
-  name: 寿元丹
-  category: 丹药
-  first_chapter: 1
-  final_user: 徐霄
-  current_state: 已服用
-  effects:
-    lifespan_years: 50
-    remaining_lifespan_after_use: 51
-    physical_recovery: true
-  status: verified
-  document: docs/06-artifacts/寿元丹.md
-  related_nodes:
-  - NODE-0001
-  - NODE-0002
-  - NODE-0003
-- id: ART-0002
-  name: 内藏下品法剑的细木杖
-  category: 法器
-  grade: 下品法器
-  first_chapter: 1
-  original_holder: 徐霄
-  current_holder: 姬雪
-  status: verified
-  related_gift: GIFT-0001
-  related_nodes:
-  - NODE-0001
-- id: ART-0003
-  name: 南明离火剑
-  category: 法宝
-  grade: 法宝
-  first_chapter: 1
-  current_holder: 徐霄
-  acquisition: 万倍返还系统奖励
-  refinement: 系统已完成完美炼化
-  control: 意念操控
-  demonstrated_attack_level: 至少元婴境界
-  status: verified
-  document: docs/06-artifacts/南明离火剑.md
-  related_gift: GIFT-0001
-  related_nodes:
-  - NODE-0001
-  - NODE-0003
-- id: ART-0004
-  name: 上品灵石
-  category: 货币与修炼资源
-  first_chapter: 2
-  initial_amount: 100
-  giver: 独孤灵
-  holder: 徐霄
-  use: 第4章起采购筑基丹与低阶法器作为赠送资源
-  known_amount_after_chapter_15: 240
-  status: partial
-  related_nodes:
-  - NODE-0002
-  - NODE-0003
-  - NODE-0004
-  - NODE-0005
-- id: ART-0005
-  name: 九天神凤钗
-  category: 法器
-  grade: 绝品法器
-  first_chapter: 5
-  current_holder: 徐霄
-  acquisition: GIFT-0003千倍暴击返还
-  ability: 注入灵力后释放火凤攻击，威力随使用者境界提升
-  status: verified
-  document: docs/06-artifacts/九天神凤钗.md
-  related_gift: GIFT-0003
-  related_nodes:
-  - NODE-0004
-- id: ART-0006
-  name: 绝品驻颜丹
-  category: 丹药
-  grade: 绝品
-  first_chapter: 7
-  current_holder: 徐霄
-  current_state: 未服用并存入系统空间库
-  acquisition: GIFT-0004百倍暴击返还
-  effect: 青春永驻且容貌不衰
-  status: verified
-  document: docs/06-artifacts/绝品驻颜丹.md
-  related_gift: GIFT-0004
-  related_nodes:
-  - NODE-0004
-- id: ART-0007
-  name: 三件中品法器返还组
-  category: 法器
-  grade: 中品法器
-  first_chapter: 9
-  original_holder: 徐霄
-  items:
-  - name: 碧玉金钗
-    current_holder: 金柳香
-    transfer: GIFT-0007
-    status: partial
-  - name: 玄光戒
-    current_holder: 徐霄
-    status: verified
-  - name: 流星剑
-    current_holder: 徐霄
-    status: verified
-  acquisition: GIFT-0005普通十倍返还
-  status: partial
-  related_gift: GIFT-0005
-  related_nodes:
-  - NODE-0004
-  - NODE-0005
-- id: ART-0008
-  name: 绝品寿元丹
-  category: 丹药
-  grade: 绝品
-  first_chapter: 12
-  current_holder: 徐霄
-  current_state: 未确认服用
-  acquisition: GIFT-0006百倍暴击返还
-  effect:
-    lifespan_years: 300
-  status: partial
-  document: docs/06-artifacts/绝品寿元丹.md
-  related_gift: GIFT-0006
-  related_nodes:
-  - NODE-0005
-- id: ART-0009
-  name: 四海升平坠
-  category: 法器
-  grade: 绝品法器
-  first_chapter: 15
-  current_holder: 徐霄
-  acquisition: GIFT-0007千倍暴击返还
-  ability: 释放四海弱水腐蚀敌人，兼具攻击与防御用途
-  status: partial
-  document: docs/06-artifacts/四海升平坠.md
-  related_gift: GIFT-0007
-  related_nodes:
-  - NODE-0005
+  - {id: ART-0001, name: 寿元丹, category: 丹药, first_chapter: 1, final_user: 徐霄, current_state: 已服用, effects: {lifespan_years: 50, remaining_lifespan_after_use: 51, physical_recovery: true}, status: verified, document: docs/06-artifacts/寿元丹.md, related_nodes: [NODE-0001, NODE-0002, NODE-0003]}
+  - {id: ART-0002, name: 内藏下品法剑的细木杖, category: 法器, grade: 下品法器, first_chapter: 1, original_holder: 徐霄, current_holder: 姬雪, status: verified, related_gift: GIFT-0001, related_nodes: [NODE-0001]}
+  - {id: ART-0003, name: 南明离火剑, category: 法宝, grade: 法宝, first_chapter: 1, current_holder: 徐霄, acquisition: 万倍返还系统奖励, refinement: 系统已完成完美炼化, control: 意念操控, demonstrated_attack_level: 至少元婴境界, latest_battle_use: 压制周啸师徒, status: partial, document: docs/06-artifacts/南明离火剑.md, related_gift: GIFT-0001, related_nodes: [NODE-0001, NODE-0003, NODE-0006]}
+  - {id: ART-0004, name: 上品灵石, category: 货币与修炼资源, first_chapter: 2, initial_amount: 100, giver: 独孤灵, holder: 徐霄, use: 采购赠送资源, known_amount_after_chapter_15: 240, status: partial, related_nodes: [NODE-0002, NODE-0003, NODE-0004, NODE-0005]}
+  - {id: ART-0005, name: 九天神凤钗, category: 法器, grade: 绝品法器, first_chapter: 5, current_holder: 徐霄, acquisition: GIFT-0003千倍暴击返还, ability: 注入灵力后释放火凤攻击，威力随使用者境界提升, status: verified, document: docs/06-artifacts/九天神凤钗.md, related_gift: GIFT-0003, related_nodes: [NODE-0004]}
+  - {id: ART-0006, name: 绝品驻颜丹, category: 丹药, grade: 绝品, first_chapter: 7, current_holder: 独孤灵, current_state: 已接受赠送, acquisition: GIFT-0004百倍暴击返还, effect: 青春永驻且容貌不衰, status: partial, document: docs/06-artifacts/绝品驻颜丹.md, related_gifts: [GIFT-0004, GIFT-0008], related_nodes: [NODE-0004, NODE-0006]}
+  - {id: ART-0007, name: 三件中品法器返还组, category: 法器, grade: 中品法器, first_chapter: 9, original_holder: 徐霄, items: [{name: 碧玉金钗, current_holder: 金柳香, transfer: GIFT-0007, status: partial}, {name: 玄光戒, current_holder: 徐霄, status: verified}, {name: 流星剑, current_holder: 徐霄, status: verified}], acquisition: GIFT-0005普通十倍返还, status: partial, related_gift: GIFT-0005, related_nodes: [NODE-0004, NODE-0005]}
+  - {id: ART-0008, name: 绝品寿元丹, category: 丹药, grade: 绝品, first_chapter: 12, current_holder: 徐霄, current_state: 未确认服用, acquisition: GIFT-0006百倍暴击返还, effect: {lifespan_years: 300}, status: partial, document: docs/06-artifacts/绝品寿元丹.md, related_gift: GIFT-0006, related_nodes: [NODE-0005]}
+  - {id: ART-0009, name: 四海升平坠, category: 法器, grade: 绝品法器, first_chapter: 15, current_holder: 徐霄, acquisition: GIFT-0007千倍暴击返还, ability: 释放四海弱水腐蚀敌人，兼具攻击与防御用途, status: partial, document: docs/06-artifacts/四海升平坠.md, related_gift: GIFT-0007, related_nodes: [NODE-0005]}
+  - {id: ART-0010, name: 三千大道丹, category: 丹药, grade: pending, first_chapter: 23, final_user: 徐霄, current_state: 已服用, acquisition: GIFT-0008万倍暴击返还, effect: 随机领悟一条天地大道, result: 地火之道, status: partial, document: docs/06-artifacts/三千大道丹.md, related_gift: GIFT-0008, related_nodes: [NODE-0006]}
 sources:
-- chapter: 1
-  title: 万倍返还系统
-  type: official_text
-  platform: 番茄小说
-  status: verified
-- chapter: 2
-  title: 师妹独孤灵
-  type: official_text
-  platform: 番茄小说
-  status: verified
-- chapter: 3
-  title: 我还没死，你哭啥？
-  type: official_text
-  platform: 番茄小说
-  status: verified
-- chapter: 5
-  title: 九天神凤钗
-  type: official_text
-  platform: 番茄小说
-  status: verified
-- chapter: 7
-  title: 百倍暴击，绝品驻颜丹
-  type: official_text
-  platform: 番茄小说
-  status: verified
-- chapter: 9
-  title: 林嫣儿到来
-  type: official_text
-  platform: 番茄小说
-  status: verified
-- chapter: 12
-  title: 返还绝品寿元丹
-  type: cross_checked_text
-  platform: 番茄小说目录与正文镜像
-  status: partial
-- chapter: 15
-  title: 宗门广场又炸了
-  type: cross_checked_text
-  platform: 番茄小说目录与正文镜像
-  status: partial
+  - {chapter: 1, title: 万倍返还系统, type: official_text, platform: 番茄小说, status: verified}
+  - {chapter: 2, title: 师妹独孤灵, type: official_text, platform: 番茄小说, status: verified}
+  - {chapter: 3, title: 我还没死，你哭啥？, type: official_text, platform: 番茄小说, status: verified}
+  - {chapter: 5, title: 九天神凤钗, type: official_text, platform: 番茄小说, status: verified}
+  - {chapter: 7, title: 百倍暴击，绝品驻颜丹, type: official_text, platform: 番茄小说, status: verified}
+  - {chapter: 9, title: 林嫣儿到来, type: official_text, platform: 番茄小说, status: verified}
+  - {chapter: 12, title: 返还绝品寿元丹, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
+  - {chapter: 15, title: 宗门广场又炸了, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
+  - {chapter: 22, title: 赠送绝品驻颜丹, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
+  - {chapter: 23, title: 三千大道，地火之道, type: cross_checked_text, platform: 番茄小说目录与正文镜像, status: partial}
