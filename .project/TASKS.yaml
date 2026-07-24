@@ -218,17 +218,26 @@ tasks:
 - id: TASK-0019
   title: Build the 铁幕城与翠山门冲突 story arc from Chapter 94 onward
   type: story_arc
-  status: pending
+  status: in_progress
+  run_ids:
+  - RUN-0026
   target:
     chapter_start: 94
-    provisional_chapter_end: 102
+    resolved_chapter_end: 102
     node: NODE-0017
     boundary: adaptive
-  rules:
-  - Read and verify each covered chapter as evidence.
-  - End at a coherent story-arc boundary.
-  - Update only material and persistent entity changes.
-  - Read canonical base indexes together with data/extensions.
-  - Deliver the entire arc as one complete commit or record blockers.
+  staged_outputs:
+  - docs/01-timeline/drafts/node-0017.md
+  - sources/evidence/chapters-094-102.yaml
+  quality_gates:
+    source_traceability: passed_with_qualifications
+    arc_coherence: passed
+    materiality: passed
+    cross_index_consistency: blocked
+    duplicate_work_check: passed
+    yaml_structure_review: passed
+    copyright_boundary: passed
+  blockers:
+  - BLOCK-0007
   depends_on:
   - TASK-0018

@@ -1,17 +1,21 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0025
+run_id: RUN-0026
 coverage:
   chapters_covered_through: 93
-  chapters_promoted_in_run:
-  - 88
-  - 89
-  - 90
-  - 91
-  - 92
-  - 93
+  chapters_examined_in_run:
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  draft_arc_end: 102
   timeline_nodes: 16
-  draft_nodes: 0
+  draft_nodes: 1
   story_arc_nodes: 13
   characters_documented: 20
   characters_staged: 0
@@ -23,41 +27,47 @@ quality_gates:
   source_traceability:
     status: passed_with_qualifications
     official_catalog_chapters:
-    - 88
-    - 89
-    - 90
-    - 91
-    - 92
-    - 93
     - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
     cross_checked_mirror_chapters:
-    - 88
-    - 89
-    - 90
-    - 91
-    - 92
-    - 93
+    - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
     pending_fields:
-    - 水柔气运等级、基础倍率和羁绊度
-    - 流光星陨戒赠予水柔后的独立返还结果
-    - 徐霄三年修炼后的精确面板
-    - 铁幕城差事的完整职责范围
+    - 刘玲玲首次赠送的完整结算
+    - 刘玲玲羁绊升级赠送的完整返还清单
+    - 木玉儿赠送事件的触发倍率与完整返还清单
+    - 梦丹第94章赠送的返还结算
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第93章完成水柔关系、紫韵赠送返还和铁幕城差事下达；第94章进入铁幕城
+    boundary: 第102章完成铁幕城落脚、段红绫疗伤机缘、刘玲玲羁绊升级与木玉儿赠送返还；第103章转入翠山门报复算计
   materiality:
     status: passed
-    entity_updates:
-    - 水柔首次登场与长期关系
-    - GIFT-0019与虚天丹
-    - 紫韵元婴六重与GIFT-0020
-    - 金光护身坠
-    - 流光星陨戒持有人转移
-    - 铁幕城差事
+    staged_entity_updates:
+    - 段红绫首次系统识别与净玉瓶返还
+    - 刘玲玲长期资源关系与羁绊升级
+    - 木玉儿首次登场与万锻玉骨丹返还
+    - 徐霄铁幕城职责
   cross_index_consistency:
-    status: passed
-    index_mode: base_plus_extensions
+    status: blocked
+    blocker: BLOCK-0007
+    reason: draft and evidence exist, canonical extension indexes and entity documents
+      are not yet promoted
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
@@ -67,8 +77,16 @@ quality_gates:
     duplicated_artifact_ids: 0
   yaml_structure_review:
     status: passed
+    files_checked:
+    - .project/STATE.yaml
+    - .project/TASKS.yaml
+    - .project/METRICS.yaml
+    - sources/evidence/chapters-094-102.yaml
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers: []
+blockers:
+- id: BLOCK-0007
+  gate: cross_index_consistency
+  status: open

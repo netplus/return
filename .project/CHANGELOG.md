@@ -1,23 +1,22 @@
 # Changelog
 
-## RUN-0025 — 2026-07-25
+## RUN-0026 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0018`; no completed task or canonical node was duplicated.
-- Completed `NODE-0016`: 水柔结缘与铁幕城差事, covering Chapters 88—93.
-- Added 水柔 as `CHAR-0020` and recorded her identity, cultivation and relationship with 水月 and 徐霄.
-- Registered `GIFT-0019` and `GIFT-0020`.
-- Added 虚天丹 as `ART-0021` and 金光护身坠 as `ART-0022`; updated 流光星陨戒 ownership.
-- Recorded 紫韵 reaching 元婴六重 and诸葛无方 assigning the铁幕城 duty.
-- Added append-only canonical extension indexes and promoted the evidence record.
-- All quality gates passed; source traceability remains qualified.
-- Completed `TASK-0018` and queued `TASK-0019` beginning at Chapter 94.
+- Resumed only `TASK-0019`; no completed task or canonical node was duplicated.
+- Examined Chapters 94—102 and resolved the adaptive boundary at Chapter 102; Chapter 103 begins the翠山门报复算计 line.
+- Staged `NODE-0017`: 铁幕城落脚与三条赠送关系建立.
+- Recorded段红绫's暗疾与首次赠送、净玉瓶返还、刘玲玲羁绊升级 and木玉儿/万锻玉骨丹 evidence.
+- Added `sources/evidence/chapters-094-102.yaml` with explicit source qualifications and pending fields.
+- Source traceability, arc coherence, materiality, duplicate-work, YAML structure and copyright gates passed.
+- Cross-index consistency is blocked because canonical extension indexes and entity documents are not yet promoted; recorded `BLOCK-0007`.
+- Kept `TASK-0019` in progress for the next run.
 
-## RUN-0024 — 2026-07-25
+## RUN-0025 — 2026-07-25
 
-- Completed `NODE-0015`, `GIFT-0018`, 大道神丹 and 三昧真火.
-- Completed `TASK-0017` and queued `TASK-0018`.
+- Completed `NODE-0016`, 水柔, `GIFT-0019`/`GIFT-0020`, 虚天丹 and 金光护身坠.
+- Completed `TASK-0018` and queued `TASK-0019`.
 
 ## Earlier runs
 
-- RUN-0001 through RUN-0023 established Project OS, append-only extension indexes and canonical coverage through Chapter 81.
+- RUN-0001 through RUN-0024 established Project OS, append-only extension indexes and canonical coverage through Chapter 87.

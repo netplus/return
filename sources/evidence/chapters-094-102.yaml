@@ -1,0 +1,87 @@
+schema_version: 2
+run_id: RUN-0026
+task_id: TASK-0019
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 94
+  chapter_end: 102
+  node: NODE-0017
+  status: staged
+  draft_document: docs/01-timeline/drafts/node-0017.md
+  boundary_reason: 第102章完成铁幕城落脚及三条赠送关系的阶段性建立；第103章开始翠山门针对徐霄的报复算计
+chapters:
+- chapter: 94
+  title: 初到铁幕城
+  facts:
+  - 徐霄代独孤灵前往铁幕城驻地
+  - 向水月赠送十枚炼神丹并返还三十枚虚天丹
+  - 向梦丹留下十枚炼神丹，独立返还结算待核
+  status: partial
+- chapter: 95
+  title: 愤怒的翠山门弟子
+  facts:
+  - 徐霄在城门识别并帮助刘玲玲
+  - 刘玲玲接受十枚筑基丹
+  - 翠山门同门因徐霄名声产生敌意
+  status: partial
+- chapter: 96
+  title: 悲催的大师姐
+  facts:
+  - 段红绫为缥缈宗资历最深的内门大师姐
+  - 化神九重并受数百年前妖族战斗暗疾影响
+  - 剩余寿元约百余年，疗伤核心需求为金身舍利或同级修复手段
+  status: partial
+- chapter: 97
+  title: 胆大的八女
+  facts:
+  - 八名女修主动拜访徐霄
+  - 系统未将八人识别为气运之女
+  - 铁幕城对徐霄的舆论继续发酵
+  status: partial
+- chapter: 98
+  title: 赠送万年树根
+  facts:
+  - 系统识别段红绫为A级气运之女，面板显示基础倍率10、羁绊度1
+  - 徐霄向段红绫赠送万年树根
+  status: partial
+- chapter: 99
+  title: 激动的段红绫
+  facts:
+  - 段红绫首次赠送触发千倍暴击
+  - 返还法宝净玉瓶
+  - 净玉瓶可凝练万年灵液并用于治疗伤势
+  status: partial
+- chapter: 100
+  title: 刘玲玲拜访
+  facts:
+  - 刘玲玲与徐霄建立持续资源支持关系
+  - 木玉儿在缥缈宗铁幕城驻地登场
+  status: partial
+- chapter: 101
+  title: 吓傻的元婴弟子们
+  facts:
+  - 刘玲玲羁绊度提升至2
+  - 刘玲玲气运等级提升至B，基础倍率20
+  - 徐霄继续赠送法器，完整返还结算待核
+  status: partial
+- chapter: 102
+  title: 返还，万锻玉骨丹
+  facts:
+  - 木玉儿接受十枚化婴丹
+  - 章节标题与后续正文确认返还万锻玉骨丹
+  - 触发倍率、首次赠送标记和完整同批返还清单待核
+  status: partial
+boundary_check:
+  next_chapter: 103
+  next_title: 翠山门弟子的算盘
+  transition: 转入翠山门弟子与铁幕城各方针对徐霄的报复和舆论冲突
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: blocked
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
+source_qualification: 番茄小说官方目录确认第94—103章标题、顺序和边界；第94—102章正文事实由多个可访问正文镜像交叉核验，新增字段保持partial。

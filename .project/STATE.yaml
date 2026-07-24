@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-25'
-last_run_id: RUN-0025
+last_run_id: RUN-0026
 milestone: M2
 workflow:
   standard_version: 2.0
@@ -17,7 +17,7 @@ scope:
   chapter_end: 100
 progress:
   chapters_covered_through: 93
-  chapters_examined_through: 94
+  chapters_examined_through: 103
   chapters_verified_through: 16
   source_qualified_chapters:
   - 12
@@ -100,8 +100,17 @@ progress:
   - 91
   - 92
   - 93
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
   nodes_completed: 16
-  nodes_drafted: 0
+  nodes_drafted: 1
   characters_documented: 20
   characters_staged: 0
   system_records: 1
@@ -111,8 +120,16 @@ progress:
   last_completed_node: NODE-0016
 current:
   next_task: TASK-0019
-  task_status: pending
+  task_status: in_progress
+  active_run_id: RUN-0026
   next_chapter: 94
-  provisional_arc_end: 102
+  resolved_arc_end: 102
+  draft_node: docs/01-timeline/drafts/node-0017.md
 status: active
-blockers: []
+blockers:
+- id: BLOCK-0007
+  gate: cross_index_consistency
+  description: NODE-0017 evidence and draft are staged, but canonical extension indexes
+    and entity documents are not yet promoted; Chapter 102 full return settlement
+    remains source-qualified
+  status: open
