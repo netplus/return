@@ -11,7 +11,8 @@ tasks:
     target:
       chapter: 2
       node: NODE-0002
-    status: pending
+    status: done
+    completed_at: 2026-07-24
     depends_on:
       - TASK-0001
   - id: TASK-0003
