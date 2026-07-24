@@ -1,18 +1,186 @@
 schema_version: 2
 updated_at: '2026-07-24'
 artifacts:
-  - {id: ART-0001, name: 寿元丹, category: 丹药, first_chapter: 1, final_user: 徐霄, current_state: 已服用, status: verified, related_nodes: [NODE-0001, NODE-0002, NODE-0003]}
-  - {id: ART-0002, name: 内藏下品法剑的细木杖, category: 法器, grade: 下品法器, first_chapter: 1, current_holder: 姬雪, status: verified, related_nodes: [NODE-0001]}
-  - {id: ART-0003, name: 南明离火剑, category: 法宝, first_chapter: 1, current_holder: 徐霄, acquisition: GIFT-0001, refinement: 系统完成炼化, latest_battle_use: 配合地火之道斩杀鹰长老与火旗先锋, status: partial, related_nodes: [NODE-0001, NODE-0003, NODE-0006, NODE-0007]}
-  - {id: ART-0004, name: 上品灵石, category: 货币与修炼资源, first_chapter: 2, holder: 徐霄, use: 采购与赠送资源, status: partial, related_nodes: [NODE-0002, NODE-0003, NODE-0004, NODE-0005, NODE-0007]}
-  - {id: ART-0005, name: 九天神凤钗, category: 法器, grade: 绝品法器, first_chapter: 5, current_holder: 徐霄, acquisition: GIFT-0003, status: verified, related_nodes: [NODE-0004]}
-  - {id: ART-0006, name: 绝品驻颜丹, category: 丹药, grade: 绝品, first_chapter: 7, current_holder: 独孤灵, status: partial, related_nodes: [NODE-0004, NODE-0006]}
-  - {id: ART-0007, name: 三件中品法器返还组, category: 法器, grade: 中品法器, first_chapter: 9, status: partial, related_nodes: [NODE-0004, NODE-0005]}
-  - {id: ART-0008, name: 绝品寿元丹, category: 丹药, grade: 绝品, first_chapter: 12, current_holder: 徐霄, effect: 增加三百年寿元, status: partial, related_nodes: [NODE-0005]}
-  - {id: ART-0009, name: 四海升平坠, category: 法器, grade: 绝品法器, first_chapter: 15, current_holder: 徐霄, status: partial, related_nodes: [NODE-0005]}
-  - {id: ART-0010, name: 三千大道丹, category: 丹药, first_chapter: 23, final_user: 徐霄, current_state: 已服用, result: 地火之道, status: partial, related_nodes: [NODE-0006]}
-  - {id: ART-0011, name: 紫霄雷符, category: 术法符箓, grade: 化神九重威力, first_chapter: 25, current_holder: 徐霄, initial_quantity: 3, acquisition: GIFT-0009, battle_use: 第31章用于消灭李九夜及玄魔宗接亲队, status: partial, document: docs/06-artifacts/紫霄雷符.md, related_nodes: [NODE-0007]}
-  - {id: ART-0012, name: 九天神雷符, category: 术法符箓, grade: 炼虚层级, first_chapter: 31, current_holder: 徐霄, acquisition: GIFT-0010, effect: 炼虚修士层级一击, status: partial, document: docs/06-artifacts/九天神雷符.md, related_nodes: [NODE-0007]}
+- id: ART-0001
+  name: 寿元丹
+  category: 丹药
+  first_chapter: 1
+  final_user: 徐霄
+  current_state: 已服用
+  status: verified
+  related_nodes:
+  - NODE-0001
+  - NODE-0002
+  - NODE-0003
+- id: ART-0002
+  name: 内藏下品法剑的细木杖
+  category: 法器
+  grade: 下品法器
+  first_chapter: 1
+  current_holder: 姬雪
+  status: verified
+  related_nodes:
+  - NODE-0001
+- id: ART-0003
+  name: 南明离火剑
+  category: 法宝
+  first_chapter: 1
+  current_holder: 徐霄
+  acquisition: GIFT-0001
+  refinement: 系统完成炼化
+  latest_battle_use: 配合地火之道斩杀鹰长老与火旗先锋
+  status: partial
+  related_nodes:
+  - NODE-0001
+  - NODE-0003
+  - NODE-0006
+  - NODE-0007
+- id: ART-0004
+  name: 上品灵石
+  category: 货币与修炼资源
+  first_chapter: 2
+  holder: 徐霄
+  use: 采购与赠送资源
+  status: partial
+  related_nodes:
+  - NODE-0002
+  - NODE-0003
+  - NODE-0004
+  - NODE-0005
+  - NODE-0007
+  - NODE-0008
+- id: ART-0005
+  name: 九天神凤钗
+  category: 法器
+  grade: 绝品法器
+  first_chapter: 5
+  current_holder: 独孤灵
+  acquisition: GIFT-0003
+  transferred_by: GIFT-0012
+  status: partial
+  related_nodes:
+  - NODE-0004
+  - NODE-0008
+- id: ART-0006
+  name: 绝品驻颜丹
+  category: 丹药
+  grade: 绝品
+  first_chapter: 7
+  current_holder: 独孤灵
+  status: partial
+  related_nodes:
+  - NODE-0004
+  - NODE-0006
+- id: ART-0007
+  name: 三件中品法器返还组
+  category: 法器
+  grade: 中品法器
+  first_chapter: 9
+  status: partial
+  related_nodes:
+  - NODE-0004
+  - NODE-0005
+- id: ART-0008
+  name: 绝品寿元丹
+  category: 丹药
+  grade: 绝品
+  first_chapter: 12
+  current_holder: 徐霄
+  effect: 增加三百年寿元
+  status: partial
+  related_nodes:
+  - NODE-0005
+- id: ART-0009
+  name: 四海升平坠
+  category: 法器
+  grade: 绝品法器
+  first_chapter: 15
+  current_holder: 徐霄
+  status: partial
+  related_nodes:
+  - NODE-0005
+- id: ART-0010
+  name: 三千大道丹
+  category: 丹药
+  first_chapter: 23
+  final_user: 徐霄
+  current_state: 已服用
+  result: 地火之道
+  status: partial
+  related_nodes:
+  - NODE-0006
+- id: ART-0011
+  name: 紫霄雷符
+  category: 术法符箓
+  grade: 化神九重威力
+  first_chapter: 25
+  current_holder: 徐霄
+  initial_quantity: 3
+  acquisition: GIFT-0009
+  battle_use: 第31章用于消灭李九夜及玄魔宗接亲队
+  status: partial
+  document: docs/06-artifacts/紫霄雷符.md
+  related_nodes:
+  - NODE-0007
+- id: ART-0012
+  name: 九天神雷符
+  category: 术法符箓
+  grade: 炼虚层级
+  first_chapter: 31
+  final_user: 徐霄
+  current_state: 已消耗
+  acquisition: GIFT-0010
+  effect: 炼虚修士层级一击
+  battle_use: 第34章覆灭玄魔宗
+  status: partial
+  document: docs/06-artifacts/九天神雷符.md
+  related_nodes:
+  - NODE-0007
+  - NODE-0008
+- id: ART-0013
+  name: 九转乾元丹
+  category: 丹药
+  grade: 天地神丹
+  first_chapter: 35
+  final_user: 徐霄
+  current_state: 已服用
+  acquisition: GIFT-0011万倍暴击返还
+  effects:
+  - 重塑道体
+  - 显著提升修炼速度
+  - 提升气运
+  status: partial
+  document: docs/06-artifacts/九转乾元丹.md
+  related_nodes:
+  - NODE-0008
+- id: ART-0014
+  name: 须臾五极山
+  category: 法宝
+  first_chapter: 38
+  current_holder: 徐霄
+  acquisition: GIFT-0012返还
+  properties:
+  - 可大可小
+  - 坚如金铁
+  - 具五岳三山之重
+  status: partial
+  document: docs/06-artifacts/须臾五极山.md
+  related_nodes:
+  - NODE-0008
 sources:
-  - {chapter: 25, title: 紫霄雷符, type: cross_checked_text, status: partial}
-  - {chapter: 31, title: 返还，九天神雷符, type: official_and_cross_checked_text, status: partial}
+- chapter: 34
+  title: 玄魔宗灭门惨案
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 35
+  title: 万倍暴击，返还九转乾元丹
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 36
+  title: 正道四大宗门
+  type: official_catalog_and_cross_checked_text
+  status: partial
+- chapter: 38
+  title: 再次炸锅的宗门舆论
+  type: official_catalog_and_cross_checked_text
+  status: partial

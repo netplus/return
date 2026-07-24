@@ -1,0 +1,74 @@
+schema_version: 2
+run_id: RUN-0012
+task_id: TASK-0010
+arc:
+  chapter_start: 32
+  chapter_end: 38
+  node: NODE-0008
+official_catalog:
+  platform: 番茄小说
+  chapters_confirmed:
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  status: verified_for_titles_and_order
+chapters:
+- chapter: 32
+  title: 新的任务
+  source_status: partial
+  evidence:
+  - 系统识别李天霸为气运之敌
+  - 任务要求击杀李天霸
+  - 奖励为下一次赠送必定万倍暴击
+- chapter: 33
+  title: 玄魔宗劫难
+  source_status: partial
+  evidence:
+  - 李天霸率玄魔宗主力报复
+  - 徐霄主动拦截并承认李九夜之死
+- chapter: 34
+  title: 玄魔宗灭门惨案
+  source_status: partial
+  evidence:
+  - 九天神雷符摧毁玄魔宗主力和山门
+  - 李天霸死亡
+  - 击杀任务完成
+- chapter: 35
+  title: 万倍暴击，返还九转乾元丹
+  source_status: partial
+  evidence:
+  - 徐霄向金柳香赠送筑基丹、上品灵石和地火符
+  - 筑基丹触发万倍暴击并返还九转乾元丹
+  - 其余资源按二十倍返还
+- chapter: 36
+  title: 正道四大宗门
+  source_status: partial
+  evidence:
+  - 九转乾元丹重塑道体和气运
+  - 徐霄进入结丹一重
+  - 金柳香修为达到筑基五重
+- chapter: 37
+  title: 合欢掌门玉玲珑
+  source_status: partial
+  evidence:
+  - 玉玲珑首次登场
+  - 合欢宗关注玄魔宗覆灭
+  - 徐霄达到结丹二重
+- chapter: 38
+  title: 再次炸锅的宗门舆论
+  source_status: partial
+  evidence:
+  - 徐霄赠送九天神凤钗给独孤灵
+  - 系统返还须臾五极山
+  - 宗门舆论扩散
+boundary:
+  end_chapter: 38
+  reason: 第38章完成任务奖励、体质重塑、独孤灵赠礼和舆论闭环；第39章进入魔道上门来袭
+copyright:
+  full_chapter_text_stored: false
+  storage: 原创摘要、事实字段和来源资格

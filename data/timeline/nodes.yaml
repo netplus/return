@@ -1,63 +1,265 @@
 schema_version: 2
 project: return
 updated_at: '2026-07-24'
-verification_states: [verified, partial, inferred, conflict, pending]
+verification_states:
+- verified
+- partial
+- inferred
+- conflict
+- pending
 nodes:
-  - {id: NODE-0001, title: 寿元将尽与首次万倍返还, chapters: {start: 1, end: 1}, status: verified, document: docs/01-timeline/node-0001.md}
-  - {id: NODE-0002, title: 寿元丹赠送失败与迁居外山, chapters: {start: 2, end: 2}, status: verified, document: docs/01-timeline/node-0002.md}
-  - {id: NODE-0003, title: 寿元恢复、法宝试用与陆大年登场, chapters: {start: 3, end: 3}, status: verified, document: docs/01-timeline/node-0003.md}
-  - id: NODE-0004
-    title: 虎啸城赠礼与林嫣儿结缘
-    chapters: {start: 4, end: 10}
-    granularity: story_arc
-    status: verified
-    boundary_reason: 第10章完成林嫣儿赠礼关系与外门舆论闭环，第11章转入新气运之女
-    characters: [徐霄, 陆大年, 紫韵, 林嫣儿]
-    document: docs/01-timeline/node-0004.md
-  - id: NODE-0005
-    title: 金柳香结缘与羁绊倍率升级
-    chapters: {start: 11, end: 16}
-    granularity: story_arc
+- id: NODE-0001
+  title: 寿元将尽与首次万倍返还
+  chapters:
+    start: 1
+    end: 1
+  status: verified
+  document: docs/01-timeline/node-0001.md
+- id: NODE-0002
+  title: 寿元丹赠送失败与迁居外山
+  chapters:
+    start: 2
+    end: 2
+  status: verified
+  document: docs/01-timeline/node-0002.md
+- id: NODE-0003
+  title: 寿元恢复、法宝试用与陆大年登场
+  chapters:
+    start: 3
+    end: 3
+  status: verified
+  document: docs/01-timeline/node-0003.md
+- id: NODE-0004
+  title: 虎啸城赠礼与林嫣儿结缘
+  chapters:
+    start: 4
+    end: 10
+  granularity: story_arc
+  status: verified
+  boundary_reason: 第10章完成林嫣儿赠礼关系与外门舆论闭环，第11章转入新气运之女
+  characters:
+  - 徐霄
+  - 陆大年
+  - 紫韵
+  - 林嫣儿
+  document: docs/01-timeline/node-0004.md
+- id: NODE-0005
+  title: 金柳香结缘与羁绊倍率升级
+  chapters:
+    start: 11
+    end: 16
+  granularity: story_arc
+  status: partial
+  boundary_reason: 第16章完成一个月互动和外门舆论固化，第17章转入周啸冲突
+  characters:
+  - 徐霄
+  - 金柳香
+  - 陆大年
+  - 林嫣儿
+  - 周啸
+  document: docs/01-timeline/node-0005.md
+- id: NODE-0006
+  title: 周啸冲突与三千大道丹
+  chapters:
+    start: 17
+    end: 23
+  granularity: story_arc
+  status: partial
+  boundary_reason: 第23章完成独孤灵首次有效赠送和地火之道领悟，第24章切换林嫣儿消息
+  characters:
+  - 徐霄
+  - 独孤灵
+  - 陆大年
+  - 金柳香
+  - 周啸
+  document: docs/01-timeline/node-0006.md
+- id: NODE-0007
+  title: 林嫣儿救援与金石城雷战
+  chapters:
+    start: 24
+    end: 31
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第24—32章标题和顺序；第31章有官方正文直证；第24—30章由正文镜像交叉核验
+  boundary_reason: 第31章完成林嫣儿救援、玄魔宗接亲队覆灭和九天神雷符返还；第32章进入新的系统任务
+  locations:
+  - 缥缈宗外山
+  - 虎啸城
+  - 紫来商行
+  - 金石城
+  - 林府
+  characters:
+  - 徐霄
+  - 林嫣儿
+  - 紫韵
+  - 李九夜
+  - 鹰长老
+  - 林大动
+  - 金昊
+  conflict_events:
+  - event: 林嫣儿遭玄魔宗少主强娶
+    result: 徐霄赴金石城救援
     status: partial
-    boundary_reason: 第16章完成一个月互动和外门舆论固化，第17章转入周啸冲突
-    characters: [徐霄, 金柳香, 陆大年, 林嫣儿, 周啸]
-    document: docs/01-timeline/node-0005.md
-  - id: NODE-0006
-    title: 周啸冲突与三千大道丹
-    chapters: {start: 17, end: 23}
-    granularity: story_arc
+  - event: 林府冲突
+    result: 玄魔宗驻守弟子与鹰长老死亡
     status: partial
-    boundary_reason: 第23章完成独孤灵首次有效赠送和地火之道领悟，第24章切换林嫣儿消息
-    characters: [徐霄, 独孤灵, 陆大年, 金柳香, 周啸]
-    document: docs/01-timeline/node-0006.md
-  - id: NODE-0007
-    title: 林嫣儿救援与金石城雷战
-    chapters: {start: 24, end: 31}
-    granularity: story_arc
+  - event: 玄魔宗接亲队冲突
+    result: 李九夜及主要战力被紫霄雷符消灭
     status: partial
-    source_qualification: 官方目录确认第24—32章标题和顺序；第31章有官方正文直证；第24—30章由正文镜像交叉核验
-    boundary_reason: 第31章完成林嫣儿救援、玄魔宗接亲队覆灭和九天神雷符返还；第32章进入新的系统任务
-    locations: [缥缈宗外山, 虎啸城, 紫来商行, 金石城, 林府]
-    characters: [徐霄, 林嫣儿, 紫韵, 李九夜, 鹰长老, 林大动, 金昊]
-    conflict_events:
-      - {event: 林嫣儿遭玄魔宗少主强娶, result: 徐霄赴金石城救援, status: partial}
-      - {event: 林府冲突, result: 玄魔宗驻守弟子与鹰长老死亡, status: partial}
-      - {event: 玄魔宗接亲队冲突, result: 李九夜及主要战力被紫霄雷符消灭, status: partial}
-    system_events:
-      - {gift_id: GIFT-0009, recipient: 紫韵, gift: 三张元婴期引雷符, reward: 三张化神九重紫霄雷符, status: partial}
-      - {gift_id: GIFT-0010, recipient: 林嫣儿, gift: 拜师礼资源组, triggered_multiplier: 1000, reward: 九天神雷符, status: partial}
-    protagonist_state: {realm: 筑基五重, dao_comprehension: 地火之道, can_fly_on_sword: true, high_level_talismans: [紫霄雷符, 九天神雷符]}
-    character_updates:
-      - {name: 林嫣儿, current_nominal_master: 陆大年, forced_marriage_crisis: resolved, status: partial}
-      - {name: 紫韵, luck_grade: A, status: partial}
-      - {name: 李九夜, identity: 玄魔宗少主, status: dead, verification: partial}
-    document: docs/01-timeline/node-0007.md
-    sources:
-      - {chapter: 24, title: 林嫣儿的消息, type: cross_checked_text, status: partial}
-      - {chapter: 25, title: 紫霄雷符, type: cross_checked_text, status: partial}
-      - {chapter: 26, title: 上门杀人, type: cross_checked_text, status: partial}
-      - {chapter: 27, title: 鹰长老卒, type: cross_checked_text, status: partial}
-      - {chapter: 28, title: 玄魔宗李九夜, type: cross_checked_text, status: partial}
-      - {chapter: 29, title: 杀火旗先锋, type: cross_checked_text, status: partial}
-      - {chapter: 30, title: 成功激怒玄魔宗, type: cross_checked_text, status: partial}
-      - {chapter: 31, title: 返还，九天神雷符, type: official_and_cross_checked_text, status: partial}
+  system_events:
+  - gift_id: GIFT-0009
+    recipient: 紫韵
+    gift: 三张元婴期引雷符
+    reward: 三张化神九重紫霄雷符
+    status: partial
+  - gift_id: GIFT-0010
+    recipient: 林嫣儿
+    gift: 拜师礼资源组
+    triggered_multiplier: 1000
+    reward: 九天神雷符
+    status: partial
+  protagonist_state:
+    realm: 筑基五重
+    dao_comprehension: 地火之道
+    can_fly_on_sword: true
+    high_level_talismans:
+    - 紫霄雷符
+    - 九天神雷符
+  character_updates:
+  - name: 林嫣儿
+    current_nominal_master: 陆大年
+    forced_marriage_crisis: resolved
+    status: partial
+  - name: 紫韵
+    luck_grade: A
+    status: partial
+  - name: 李九夜
+    identity: 玄魔宗少主
+    status: dead
+    verification: partial
+  document: docs/01-timeline/node-0007.md
+  sources:
+  - chapter: 24
+    title: 林嫣儿的消息
+    type: cross_checked_text
+    status: partial
+  - chapter: 25
+    title: 紫霄雷符
+    type: cross_checked_text
+    status: partial
+  - chapter: 26
+    title: 上门杀人
+    type: cross_checked_text
+    status: partial
+  - chapter: 27
+    title: 鹰长老卒
+    type: cross_checked_text
+    status: partial
+  - chapter: 28
+    title: 玄魔宗李九夜
+    type: cross_checked_text
+    status: partial
+  - chapter: 29
+    title: 杀火旗先锋
+    type: cross_checked_text
+    status: partial
+  - chapter: 30
+    title: 成功激怒玄魔宗
+    type: cross_checked_text
+    status: partial
+  - chapter: 31
+    title: 返还，九天神雷符
+    type: official_and_cross_checked_text
+    status: partial
+- id: NODE-0008
+  title: 玄魔宗覆灭与道体重塑
+  chapters:
+    start: 32
+    end: 38
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第32—39章标题和顺序；第32—38章正文事实由多个可访问镜像交叉核验，未提升为verified
+  boundary_reason: 第38章完成玄魔宗覆灭、任务奖励兑现、道体重塑、独孤灵赠礼及宗门舆论闭环；第39章转入魔道上门来袭
+  locations:
+  - 金石城
+  - 玄魔宗山门
+  - 缥缈宗外山
+  - 合欢宗
+  characters:
+  - 徐霄
+  - 林嫣儿
+  - 金柳香
+  - 独孤灵
+  - 李天霸
+  - 玉玲珑
+  - 陆大年
+  conflict_events:
+  - event: 系统发布击杀气运之敌李天霸任务
+    result: 徐霄使用九天神雷符覆灭玄魔宗并完成任务
+    status: partial
+  - event: 玄魔宗覆灭引发正魔两道关注
+    result: 破天魔宗潜在报复成为下一阶段风险
+    status: partial
+  system_events:
+  - event: 击杀气运之敌李天霸
+    reward: 下一次赠送必定万倍暴击
+    consumed_by: GIFT-0011
+    status: partial
+  - gift_id: GIFT-0011
+    recipient: 金柳香
+    gift: 十枚筑基丹等资源
+    reward: 九转乾元丹等返还
+    status: partial
+  - gift_id: GIFT-0012
+    recipient: 独孤灵
+    gift: 九天神凤钗
+    reward: 须臾五极山
+    status: partial
+  protagonist_state:
+    realm_start: 筑基五重
+    realm_end: 结丹二重
+    constitution: 九转乾元丹重塑道体
+    cultivation_speed: 显著提升
+    status: partial
+  character_updates:
+  - name: 李天霸
+    identity: 玄魔宗掌门
+    status: dead
+    verification: partial
+  - name: 玉玲珑
+    identity: 合欢宗掌门
+    status: alive
+    verification: partial
+  - name: 独孤灵
+    received_item: 九天神凤钗
+    status: partial
+  document: docs/01-timeline/node-0008.md
+  sources:
+  - chapter: 32
+    title: 新的任务
+    type: official_catalog_and_cross_checked_text
+    status: partial
+  - chapter: 33
+    title: 玄魔宗劫难
+    type: official_catalog_and_cross_checked_text
+    status: partial
+  - chapter: 34
+    title: 玄魔宗灭门惨案
+    type: official_catalog_and_cross_checked_text
+    status: partial
+  - chapter: 35
+    title: 万倍暴击，返还九转乾元丹
+    type: official_catalog_and_cross_checked_text
+    status: partial
+  - chapter: 36
+    title: 正道四大宗门
+    type: official_catalog_and_cross_checked_text
+    status: partial
+  - chapter: 37
+    title: 合欢掌门玉玲珑
+    type: official_catalog_and_cross_checked_text
+    status: partial
+  - chapter: 38
+    title: 再次炸锅的宗门舆论
+    type: official_catalog_and_cross_checked_text
+    status: partial

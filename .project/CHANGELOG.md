@@ -1,17 +1,24 @@
 # Changelog
 
-## RUN-0011 — 2026-07-24
+## RUN-0012 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0009`; no completed task or node was duplicated.
-- Extended the adaptive boundary through Chapter 31 and created `NODE-0007`: 林嫣儿救援与金石城雷战.
-- Recorded 林嫣儿's forced-marriage crisis, 徐霄's 金石城 intervention, 鹰长老 and 李九夜 conflict outcomes, and 林嫣儿's new nominal master relationship.
-- Added `GIFT-0009` for 紫韵 and `GIFT-0010` for 林嫣儿.
-- Added artifact records for 紫霄雷符 and 九天神雷符.
-- Updated 紫韵 to A-grade luck with source qualification and added 李九夜 to the character index.
-- Added `sources/evidence/chapters-024-031.yaml`.
+- Resumed only `TASK-0010`; no completed task or node was duplicated.
+- Confirmed the adaptive boundary at Chapter 38 and created `NODE-0008`: 玄魔宗覆灭与道体重塑.
+- Recorded the 李天霸气运之敌 task, 九天神雷符 destruction of玄魔宗, and the transition to魔道 retaliation.
+- Added `GIFT-0011` for 金柳香 and `GIFT-0012` for 独孤灵.
+- Added character records for 李天霸 and 玉玲珑.
+- Added artifact records for 九转乾元丹 and 须臾五极山.
+- Updated 徐霄 to结丹二重 with a source-qualified道体 transformation.
+- Updated the system record with气运之敌 tasks and task-reward-to-gift binding.
+- Added `sources/evidence/chapters-032-038.yaml`.
 - Passed all quality gates; source traceability passed with explicit qualifications.
-- Queued `TASK-0010` beginning at Chapter 32.
+- Queued `TASK-0011` beginning at Chapter 39.
+
+## RUN-0011 — 2026-07-24
+
+- Completed `TASK-0009` and created `NODE-0007`.
+- Added the 林嫣儿救援 and 金石城雷战 arc with source qualifications.
 
 ## RUN-0010 — 2026-07-24
 
