@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0013
+task_id: TASK-0011
+arc:
+  chapter_start: 39
+  chapter_end: 50
+  node: NODE-0009
+  status: staged_partial
+  boundary_reason: 第50章完成魔极天战死、九宗会谈冲突收束和徐霄公开战力确立；第51章转入玉玲珑传讯与后续赠送线
+chapters:
+  - {chapter: 39, title: 魔道上门来袭, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 40, title: 九天神凤钗的威能, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 41, title: 太上长老，诸葛无方, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 42, title: 到达天降山, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 43, title: 魔道五宗, source: official_body_and_cross_checked_mirror, status: partial}
+  - {chapter: 44, title: 超级经验宝宝, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 45, title: 逼王萧慕河，当之无愧, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 46, title: 人老，无所畏惧, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 47, title: 徐老头的实力, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 48, title: 化神巅峰之战, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 49, title: 恐怖老头子, source: official_catalog_and_cross_checked_mirror, status: partial}
+  - {chapter: 50, title: 气炸了的萧慕河, source: official_catalog_and_cross_checked_mirror, status: partial}
+material_facts:
+  - 独孤灵使用九天神凤钗参与魔道上门冲突
+  - 诸葛无方作为缥缈宗太上长老出面
+  - 徐霄一个月内达到结丹四重
+  - 萧慕河被识别为气运之子，体内有合体期修士神魂
+  - 系统发布击杀萧慕河并升级道具库的任务
+  - 徐霄击杀破天魔宗掌门魔极天
+quality_notes:
+  copyright_boundary: no_full_chapter_text
+  verification_policy: mirror_only_facts_remain_partial
+blockers:
+  - id: BLOCK-0003
+    gate: cross_index_consistency
+    description: NODE-0009 is staged as a draft; canonical timeline, character and system indexes are not yet promoted in this run
+    status: open

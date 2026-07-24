@@ -5,135 +5,40 @@ workflow:
   default_chapter_window: 5-10
   boundary_mode: adaptive
 tasks:
-- id: TASK-0001
-  title: Bootstrap lightweight project management
-  type: project
-  status: done
-  completed_at: '2026-07-24'
-- id: TASK-0002
-  title: Verify Chapter 2 and build NODE-0002
-  type: timeline
-  status: done
-  completed_at: '2026-07-24'
-  depends_on:
-  - TASK-0001
-- id: TASK-0003
-  title: Create initial character records
-  type: characters
-  status: done
-  completed_at: '2026-07-24'
-  depends_on:
-  - TASK-0002
-- id: TASK-0004
-  title: Create initial system and artifact records
-  type: system
-  status: done
-  completed_at: '2026-07-24'
-  run_id: RUN-0004
-  depends_on:
-  - TASK-0002
-- id: TASK-0005
-  title: Verify Chapter 3 and build NODE-0003
-  type: timeline
-  status: done
-  completed_at: '2026-07-24'
-  run_id: RUN-0005
-  depends_on:
-  - TASK-0004
-- id: TASK-0006
-  title: Build Chapters 4-10 story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-24'
-  run_id: RUN-0007
-  target:
-    chapter_start: 4
-    chapter_end: 10
-    node: NODE-0004
-  depends_on:
-  - TASK-0005
-- id: TASK-0007
-  title: Build Chapters 11-16 story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-24'
-  run_id: RUN-0008
-  target:
-    chapter_start: 11
-    chapter_end: 16
-    node: NODE-0005
-  depends_on:
-  - TASK-0006
-- id: TASK-0008
-  title: Build Chapters 17-23 story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-24'
-  run_ids:
-  - RUN-0009
-  - RUN-0010
-  target:
-    chapter_start: 17
-    chapter_end: 23
-    node: NODE-0006
-  depends_on:
-  - TASK-0007
-- id: TASK-0009
-  title: Build the 林嫣儿消息与玄魔宗冲突 story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-24'
-  run_id: RUN-0011
-  target:
-    chapter_start: 24
-    chapter_end: 31
-    node: NODE-0007
-    boundary: adaptive
-  quality_gates: passed_with_source_qualifications
-  depends_on:
-  - TASK-0008
-- id: TASK-0010
-  title: Build the new system task and 玄魔宗劫难 story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-24'
-  run_id: RUN-0012
-  target:
-    chapter_start: 32
-    chapter_end: 38
-    node: NODE-0008
-    boundary: adaptive
-  outputs:
-  - docs/01-timeline/node-0008.md
-  - docs/02-characters/徐霄.md
-  - docs/02-characters/李天霸.md
-  - docs/02-characters/玉玲珑.md
-  - docs/03-system/万倍返还系统.md
-  - docs/06-artifacts/九转乾元丹.md
-  - docs/06-artifacts/须臾五极山.md
-  - data/timeline/nodes.yaml
-  - data/characters/characters.yaml
-  - data/system/gifts.yaml
-  - data/artifacts/artifacts.yaml
-  - sources/evidence/chapters-032-038.yaml
-  quality_gates: passed_with_source_qualifications
-  depends_on:
-  - TASK-0009
+- {id: TASK-0001, title: Bootstrap lightweight project management, type: project, status: done, completed_at: '2026-07-24'}
+- {id: TASK-0002, title: Verify Chapter 2 and build NODE-0002, type: timeline, status: done, completed_at: '2026-07-24', depends_on: [TASK-0001]}
+- {id: TASK-0003, title: Create initial character records, type: characters, status: done, completed_at: '2026-07-24', depends_on: [TASK-0002]}
+- {id: TASK-0004, title: Create initial system and artifact records, type: system, status: done, completed_at: '2026-07-24', run_id: RUN-0004, depends_on: [TASK-0002]}
+- {id: TASK-0005, title: Verify Chapter 3 and build NODE-0003, type: timeline, status: done, completed_at: '2026-07-24', run_id: RUN-0005, depends_on: [TASK-0004]}
+- {id: TASK-0006, title: Build Chapters 4-10 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0007, target: {chapter_start: 4, chapter_end: 10, node: NODE-0004}, depends_on: [TASK-0005]}
+- {id: TASK-0007, title: Build Chapters 11-16 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0008, target: {chapter_start: 11, chapter_end: 16, node: NODE-0005}, depends_on: [TASK-0006]}
+- {id: TASK-0008, title: Build Chapters 17-23 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_ids: [RUN-0009, RUN-0010], target: {chapter_start: 17, chapter_end: 23, node: NODE-0006}, depends_on: [TASK-0007]}
+- {id: TASK-0009, title: Build the 林嫣儿消息与玄魔宗冲突 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0011, target: {chapter_start: 24, chapter_end: 31, node: NODE-0007, boundary: adaptive}, quality_gates: passed_with_source_qualifications, depends_on: [TASK-0008]}
+- {id: TASK-0010, title: Build the new system task and 玄魔宗劫难 story arc, type: story_arc, status: done, completed_at: '2026-07-24', run_id: RUN-0012, target: {chapter_start: 32, chapter_end: 38, node: NODE-0008, boundary: adaptive}, quality_gates: passed_with_source_qualifications, depends_on: [TASK-0009]}
 - id: TASK-0011
   title: Build the 魔道上门与正魔交锋 story arc from Chapter 39 onward
   type: story_arc
-  status: pending
+  status: in_progress
+  run_ids: [RUN-0013]
   target:
     chapter_start: 39
     provisional_chapter_end: 45
+    resolved_chapter_end: 50
     node: NODE-0009
     boundary: adaptive
+  staged_outputs:
+    - docs/01-timeline/drafts/node-0009.md
+    - sources/evidence/chapters-039-050.yaml
+  quality_gates:
+    source_traceability: passed_with_qualifications
+    arc_coherence: passed
+    materiality: passed
+    cross_index_consistency: blocked
+    duplicate_work_check: passed
+    copyright_boundary: passed
+  blockers:
+    - BLOCK-0003
   rules:
-  - Read workflow, state, tasks, quality rules, metrics, changelog and dashboard before execution.
-  - Read and verify each covered chapter as evidence.
-  - End at a coherent story-arc boundary.
-  - Update only material and persistent entity changes.
-  - Record blockers instead of bypassing failed gates.
-  - Deliver the entire arc as one completion commit.
-  depends_on:
-  - TASK-0010
+    - Resume this task only until all blockers close.
+    - Promote the draft and synchronize canonical indexes before marking done.
+  depends_on: [TASK-0010]

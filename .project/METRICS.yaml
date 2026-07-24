@@ -1,27 +1,13 @@
 schema_version: 2
 updated_at: '2026-07-24'
-run_id: RUN-0012
+run_id: RUN-0013
 coverage:
   chapters_covered_through: 38
   chapters_verified_through: 16
-  chapters_in_run:
-  - 32
-  - 33
-  - 34
-  - 35
-  - 36
-  - 37
-  - 38
-  source_qualified_chapters:
-  - 32
-  - 33
-  - 34
-  - 35
-  - 36
-  - 37
-  - 38
+  chapters_examined_in_run: [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+  draft_arc_end: 50
   timeline_nodes: 8
-  draft_nodes: 0
+  draft_nodes: 1
   story_arc_nodes: 5
   characters_documented: 11
   system_records: 1
@@ -30,69 +16,30 @@ coverage:
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters:
-    - 32
-    - 33
-    - 34
-    - 35
-    - 36
-    - 37
-    - 38
-    - 39
-    direct_official_body_chapters: []
-    cross_checked_mirror_chapters:
-    - 32
-    - 33
-    - 34
-    - 35
-    - 36
-    - 37
-    - 38
+    official_catalog_chapters: [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+    direct_official_body_chapters: [43]
+    cross_checked_mirror_chapters: [39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50]
     failures: 0
   arc_coherence:
     status: passed
-    boundary: 第38章完成玄魔宗覆灭、任务奖励兑现、道体重塑、独孤灵赠礼和舆论闭环；第39章转入魔道上门来袭
+    boundary: 第50章完成魔极天战死、九宗会谈冲突和徐霄公开战力确立；第51章切换玉玲珑传讯与赠送线
   materiality:
     status: passed
-    entity_updates:
-    - 徐霄结丹二重与道体
-    - 李天霸
-    - 玉玲珑
-    - GIFT-0011
-    - GIFT-0012
-    - 九转乾元丹
-    - 须臾五极山
-    - 玄魔宗覆灭
-    - 气运之敌任务规则
+    staged_entity_updates: [徐霄结丹四重与公开战力, 独孤灵使用九天神凤钗, 玉玲珑观察徐霄气运, 诸葛无方, 魔极天, 萧慕河气运之子任务]
   cross_index_consistency:
-    status: passed
-    files_checked:
-    - docs/01-timeline/node-0008.md
-    - data/timeline/nodes.yaml
-    - data/characters/characters.yaml
-    - data/system/gifts.yaml
-    - data/artifacts/artifacts.yaml
-    - docs/03-system/万倍返还系统.md
+    status: blocked
+    blocker: BLOCK-0003
+    reason: draft and evidence exist, canonical indexes not yet promoted
   duplicate_work_check:
     status: passed
     duplicated_completed_tasks: 0
     duplicated_nodes: 0
-    duplicated_gift_ids: 0
-    duplicated_character_ids: 0
-    duplicated_artifact_ids: 0
   yaml_structure_review:
     status: passed
-    files_checked:
-    - .project/STATE.yaml
-    - .project/TASKS.yaml
-    - .project/METRICS.yaml
-    - data/timeline/nodes.yaml
-    - data/characters/characters.yaml
-    - data/system/gifts.yaml
-    - data/artifacts/artifacts.yaml
-    - sources/evidence/chapters-032-038.yaml
+    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, sources/evidence/chapters-039-050.yaml]
   copyright_boundary:
     status: passed
     full_chapter_text_stored: false
     output_type: original_summary_and_structured_facts
-blockers: []
+blockers:
+  - {id: BLOCK-0003, gate: cross_index_consistency, status: open}

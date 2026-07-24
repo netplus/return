@@ -1,5 +1,17 @@
 # Changelog
 
+## RUN-0013 — 2026-07-24
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0011`; no completed task or node was duplicated.
+- Examined Chapters 39—50 and resolved the adaptive boundary at Chapter 50; Chapter 51 begins the next private-contact and gift line.
+- Staged `NODE-0009`: 魔道上门与天降山正魔交锋.
+- Recorded the 魔道上门 response, 独孤灵's use of 九天神凤钗, 诸葛无方's appearance, the 九宗天降山 meeting, 萧慕河's 气运之子 task, and 徐霄's killing of 魔极天.
+- Added `sources/evidence/chapters-039-050.yaml` with explicit source qualifications.
+- Source traceability, arc coherence, materiality, duplicate-work and copyright gates passed.
+- Cross-index consistency is blocked because the draft has not yet been promoted into canonical timeline, character and system indexes; recorded `BLOCK-0003` instead of marking the task complete.
+- Kept `TASK-0011` in progress for the next run.
+
 ## RUN-0012 — 2026-07-24
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

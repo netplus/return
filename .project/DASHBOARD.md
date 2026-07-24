@@ -4,51 +4,40 @@
 - **Current milestone:** M1 — Chapters 1–50
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Default planning window:** Approximately 5–10 chapters, adaptive boundary
-- **Covered through:** Chapter 38
+- **Canonical coverage through:** Chapter 38
+- **Current evidence exploration through:** Chapter 50
 - **Directly verified through:** Chapter 16
-- **Source-qualified canonical coverage:** Chapters 17–38
 - **Completed timeline nodes:** 8
-- **Draft timeline nodes:** 0
+- **Draft timeline nodes:** 1
 - **Documented characters:** 11
 - **System records:** 1
 - **Gift events:** 12
 - **Artifact records:** 14
-- **Last run:** `RUN-0012`
+- **Last run:** `RUN-0013`
 - **Last completed node:** `NODE-0008`
-- **Next task:** `TASK-0011` — 魔道上门与正魔交锋 story arc
-- **Provisional exploration range:** Chapters 39–45
-- **Blockers:** None
+- **Active task:** `TASK-0011` — 魔道上门与正魔交锋 story arc
+- **Resolved draft range:** Chapters 39–50
+- **Blockers:** `BLOCK-0003` — canonical cross-index promotion pending
 
-## Latest completed arc
+## Current staged arc
 
-`NODE-0008` covers Chapters 32—38. The system identifies 李天霸 as a气运之敌 and rewards his defeat with a guaranteed ten-thousand-fold next gift. 徐霄 destroys玄魔宗 with九天神雷符, uses the reward through金柳香 to obtain九转乾元丹, is remade into a道体 and reaches结丹二重, then gives九天神凤钗 to独孤灵 and receives须臾五极山. Chapter 39 begins the魔道 retaliation phase.
+`NODE-0009` draft covers Chapters 39—50. 玄魔宗覆灭引发破天魔宗上门；独孤灵使用九天神凤钗应战，诸葛无方推动各方转往天降山。萧慕河被系统识别为气运之子并触发道具库升级任务。徐霄随后击杀魔极天，确立正魔九宗公开忌惮的战力。第 51 章转入玉玲珑私下传讯和后续赠送线。
 
-## Knowledge coverage
-
-| Area | Count | Verification |
-|---|---:|---|
-| Timeline nodes | 8 | Canonical through Chapter 38 |
-| Story-arc nodes | 5 | Chapters 4–10, 11–16, 17–23, 24–31, 32–38 |
-| Characters | 11 | Added 李天霸 and 玉玲珑; latest fields source-qualified |
-| System definitions | 1 | Added 气运之敌 task and reward-binding rules |
-| Gift events | 12 | 11 successful, 1 rejected |
-| Artifact records | 14 | Added 九转乾元丹 and 须臾五极山 |
-
-## Quality gates — RUN-0012
+## Quality gates — RUN-0013
 
 | Gate | Result |
 |---|---|
 | Source traceability | Passed with qualifications |
 | Arc coherence | Passed |
 | Materiality | Passed |
-| Cross-index consistency | Passed |
+| Cross-index consistency | Blocked — `BLOCK-0003` |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-The official 番茄小说 catalog confirms Chapters 32—39 titles and order. Chapter 32—38 body facts were cross-checked through readable mirrors and remain marked `partial`; no mirror-only field was promoted to `verified`.
+番茄小说官方目录确认第 39—51 章标题、顺序与边界；第 43 章存在官方正文直证。其余章节关键事实由多个可访问正文镜像交叉核验，新增字段保持 `partial`，未提升为 `verified`。
 
 ## Task summary
 
@@ -60,4 +49,4 @@ The official 番茄小说 catalog confirms Chapters 32—39 titles and order. Ch
 | Chapters 17–23 story arc | Done with source qualifications |
 | Chapters 24–31 story arc | Done with source qualifications |
 | Chapters 32–38 story arc | Done with source qualifications |
-| Chapters 39 onward story arc | Pending |
+| Chapters 39–50 story arc | In progress — draft and evidence staged |
