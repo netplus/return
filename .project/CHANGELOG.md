@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0048 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0039`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 282 so the complete inheritance disclosure, internal accusation, 玉冰 blood request and 林婉 first-gift settlement remain in one story arc; Chapter 283 begins the 玉石宗 external conflict.
+- Created `NODE-0037`: 传承坦白、宗门风波与林婉结缘, covering Chapters 274—282.
+- Recorded 徐霄's public explanation that his resources came from part of 道元真人's inheritance and the sect's decision to treat that information as confidential.
+- Updated 程芷、第一婵、秦朋、玉冰、姬雪、叶尘 and 林婉 for persistent relationship, conflict and resource changes.
+- Added `GIFT-0048`: five虚天丹 to林婉, first-gift thousandfold return of鸿蒙一气丹.
+- Updated `ART-0016` 鸿蒙一气丹 and `ART-0035` 护心龙镜; 徐霄's鸿蒙真气 increased to eight strands and 玉冰 added a direct-contact transmission array to the mirror.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0039` and queued `TASK-0040` beginning at Chapter 283.
+
 ## RUN-0047 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
