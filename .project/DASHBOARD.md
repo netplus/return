@@ -10,7 +10,7 @@
 - **Completed timeline nodes:** 28
 - **Draft timeline nodes:** 0
 - **Documented characters:** 39
-- **Gift events:** 37
+- **Gift events:** 36
 - **Artifact records:** 28
 - **Last run:** `RUN-0039`
 - **Last completed node:** `NODE-0028`
