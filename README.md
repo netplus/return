@@ -32,8 +32,29 @@
 - `docs/07-battles/`：战斗记录
 - `docs/08-analysis/`：专题分析
 - `data/`：结构化 YAML 数据
+- `data/extensions/`：不可变追加记录与增量补丁
+- `data/generated/`：由脚本生成的完整 canonical indexes
+- `scripts/`：索引聚合与一致性校验工具
 - `templates/`：统一文档模板
 - `sources/`：来源索引与核验说明
+
+## 结构化索引
+
+仓库采用三层索引模型：
+
+1. `data/timeline/`、`data/characters/`、`data/system/`、`data/artifacts/` 保存周期性压缩后的基础索引；
+2. `data/extensions/` 保存每次 Run 的追加记录和对既有实体的增量更新；
+3. `data/generated/` 将基础索引与全部扩展实时合并，是外部程序默认应读取的完整索引。
+
+本地生成和校验：
+
+```bash
+python -m pip install PyYAML==6.0.2
+python scripts/knowledge_base.py build
+python scripts/knowledge_base.py validate --generated-dir data/generated
+```
+
+`Knowledge Base CI` 会检查 YAML、全局 ID、跨索引引用、Timeline 区间及 Project OS 统计，并在 `main` 更新后刷新 `data/generated/`。`Compact Base Indexes` 每周将扩展安全合并回基础索引；扩展文件继续保留为增量审计记录。
 
 ## 核验状态
 
@@ -45,4 +66,4 @@
 
 ## 当前阶段
 
-第一阶段覆盖第 1—50 章。第 1—3 章的既有细粒度节点保留；自第 4 章起，按剧情阶段聚合推进。
+项目进度以 `.project/STATE.yaml` 和 `.project/DASHBOARD.md` 为准；README 不再手工复制易过期的章节进度数字。
