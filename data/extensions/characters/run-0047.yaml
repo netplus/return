@@ -1,0 +1,59 @@
+schema_version: 1
+run_id: RUN-0047
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    title_add: 无妄仙宗内门大师兄
+    combat_record_add:
+    - 内门大比中以通天神针击败唐天霸、天昊，并以九天神龙甲压制剑辰人剑合一与七剑法宝
+    role_change_add: 成为未来百年的无妄仙宗内门弟子第一人
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273]
+- id: CHAR-0025
+  name: 魇女
+  update:
+    public_relationship_change: 以徐霄新结识道侣身份公开进入无妄仙宗天阵阁关系网
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [266, 267]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    disciple_evaluation_change: 确认徐霄是天阵阁历来最出众弟子并计划未来传其首座之位
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [263, 265, 266, 273]
+- id: CHAR-0051
+  name: 程芷
+  update:
+    attitude_change: 由轻视和复杂情绪转为承认徐霄远超炼虚初期的实力与长期价值
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [261, 263, 264, 265]
+- id: CHAR-0052
+  name: 程双
+  update:
+    combat_record_add: 依靠徐霄赠送的两件法宝与五行阵法击败炼虚六重对手
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [261, 262, 266, 267]
+- id: CHAR-0053
+  name: 林婉
+  update:
+    cultivation_set: {current: 炼虚巅峰, status: partial}
+    system_interaction_add:
+    - {trigger: 窃取徐霄一点气运, return_to_xuxiao: 十点气运, chapter: 268, status: partial}
+    relationship_change: 主动借内门大比接触徐霄并建立持续气运互动
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [267, 268, 269]
+- id: CHAR-0054
+  name: 剑辰
+  status: alive
+  role: rival
+  affiliations: [无妄仙宗, 天剑阁]
+  identities: [上届内门大师兄, 天剑阁核心弟子, 先天剑体]
+  first_appearance: {chapter: 265, title: 一顿暴打, node: NODE-0036}
+  cultivation: {current: 炼虚巅峰, status: partial}
+  abilities: [人剑合一, 七剑法宝, 先天剑丸]
+  conflict: {target: 徐霄, result: 决赛中由天剑阁首座代为认输并失去内门大师兄头衔, status: partial}
+  related_nodes: [NODE-0036]
+  source_chapters: [265, 266, 267, 269, 271, 272, 273]
+  document: null
+  verification_status: partial
