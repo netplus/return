@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 22
+  extension_files: 23
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -36,10 +36,10 @@ characters:
     level: 元婴九重
     status: partial
   age:
-    value: 1008
-    status: verified
+    value: 1016
+    status: partial
   lifespan:
-    remaining_years: 297
+    remaining_years: 3293
     status: partial
   dao_comprehension:
   - current:
@@ -51,6 +51,8 @@ characters:
     status: partial
   - 弱水之道
   - 净水之道
+  - 金之大道·金刚
+  - 金之大道·粉碎
   constitution:
   - current: 道体
     source: 九转乾元丹
@@ -95,6 +97,7 @@ characters:
   - NODE-0032
   - NODE-0033
   - NODE-0034
+  - NODE-0035
   source_chapters:
   - 1
   - 2
@@ -312,6 +315,13 @@ characters:
   - 250
   - 251
   - 252
+  - 253
+  - 254
+  - 255
+  - 256
+  - 257
+  - 258
+  - 259
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -350,7 +360,7 @@ characters:
   relationship_change: 木玉儿正式成为道侣
   power_change: 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 化神九重巅峰
+  cultivation_change: 晋升炼虚一重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -383,6 +393,8 @@ characters:
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
+  hongmeng_qi: 7
+  array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -1929,10 +1941,16 @@ characters:
     status: partial
   related_nodes:
   - NODE-0031
+  - NODE-0035
   source_chapters:
   - 222
   - 223
   - 224
+  - 258
+  - 259
+  accepted_gifts:
+  - GIFT-0046
+  relationship_change: 与程双建立可持续共处关系，并继续获得徐霄长期资源支持
 - id: CHAR-0039
   name: 陆文涛
   status: alive
@@ -2272,12 +2290,18 @@ characters:
   - 徐霄
   related_nodes:
   - NODE-0034
+  - NODE-0035
   source_chapters:
   - 250
   - 251
   - 252
+  - 257
+  - 259
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0047
+  relationship_change: 接受合道丹后认可徐霄与程双的长期道侣关系
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -2296,10 +2320,17 @@ characters:
     status: pending
   related_nodes:
   - NODE-0034
+  - NODE-0035
   source_chapters:
   - 252
+  - 253
+  - 256
   document: null
   verification_status: partial
+  accepted_resources:
+  - 五枚虚天丹
+  - 每年三枚极品灵石
+  relationship_change: 与徐霄形成稳定同门互助关系
 - id: CHAR-0051
   name: 程芷
   status: alive
@@ -2318,10 +2349,18 @@ characters:
     status: pending
   related_nodes:
   - NODE-0034
+  - NODE-0035
   source_chapters:
   - 252
+  - 253
+  - 255
+  - 256
+  - 259
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0045
+  relationship_change: 对徐霄的态度由排斥转为有条件认可，并继续保护程双利益
 - id: CHAR-0052
   name: 程双
   status: alive
@@ -2340,7 +2379,46 @@ characters:
     status: pending
   related_nodes:
   - NODE-0034
+  - NODE-0035
   source_chapters:
   - 252
+  - 253
+  - 254
+  - 255
+  - 256
+  - 257
+  - 258
+  - 259
+  document: null
+  verification_status: partial
+  bond_level: 2
+  accepted_gifts:
+  - GIFT-0044
+  relationship_change: 与徐霄正式结为道侣并获得持续修炼资源承诺
+- id: CHAR-0053
+  name: 林婉
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  - 天运阁
+  identities:
+  - 天运阁大师姐
+  first_appearance:
+    chapter: 259
+    title: 天运阁大师姐，林婉
+    node: NODE-0035
+  cultivation:
+    current: pending
+    status: pending
+  system_profile:
+    luck_grade: pending
+    base_multiplier: pending
+    bond: pending
+    status: pending
+  related_nodes:
+  - NODE-0035
+  source_chapters:
+  - 259
   document: null
   verification_status: partial

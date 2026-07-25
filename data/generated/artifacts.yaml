@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 21
+  extension_files: 22
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -379,6 +379,7 @@ artifacts:
   - NODE-0017
   - NODE-0018
   - NODE-0019
+  - NODE-0035
   source_gift: GIFT-0021
   transfer:
     chapter: 116
@@ -400,6 +401,21 @@ artifacts:
   - gift_id: GIFT-0028
     recipient: 魇女
     quantity: 1
+    status: partial
+  - gift_id: GIFT-0044
+    recipient: 程双
+    quantity: 5
+    chapter: 253
+    status: partial
+  - gift_id: GIFT-0045
+    recipient: 程芷
+    quantity: 5
+    chapter: 253
+    status: partial
+  - gift_id: GIFT-0046
+    recipient: 花怜惜
+    quantity: 5
+    chapter: 258
     status: partial
 - id: ART-0022
   name: 金光护身坠
@@ -496,11 +512,23 @@ artifacts:
   category: 丹药
   first_chapter: 205
   current_holder: 徐霄
-  acquisition: GIFT-0037返还十五枚
+  acquisition:
+  - GIFT-0037返还十五枚
+  - gift_id: GIFT-0046
+    chapter: 258
+    quantity: 10
+    status: partial
   effect: 用途与完整药效待后续正文确认
   status: partial
   related_nodes:
   - NODE-0029
+  - NODE-0035
+  transfer:
+    gift_id: GIFT-0047
+    recipient: 第一婵
+    quantity: 1
+    chapter: 257
+    status: partial
 - id: ART-0030
   name: 天凤神元丹
   category: 丹药
@@ -578,3 +606,14 @@ artifacts:
   - 240
   - 241
   - 242
+- id: ART-0034
+  name: 蕴仙丹
+  category: 丹药
+  grade: 大乘修炼资源
+  first_chapter: 257
+  current_holder: 徐霄
+  acquisition: GIFT-0047返还
+  effect: 蕴含大乘灵力，大乘修士服用后可大幅提升修为
+  status: partial
+  related_nodes:
+  - NODE-0035

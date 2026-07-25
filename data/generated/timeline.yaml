@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 23
+  extension_files: 24
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1299,3 +1299,53 @@ nodes:
   - 秦朋程芷程双精确修为
   document: docs/01-timeline/node-0034.md
   evidence: sources/evidence/chapters-244-252.yaml
+- id: NODE-0035
+  title: 天阵阁赠送返还、程双结缘与炼虚晋升
+  chapters:
+    start: 253
+    end: 259
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第253—260章标题顺序和边界；第253—259章正文由可访问镜像交叉核验
+  boundary_reason: 第259章完成天阵阁关系稳定并引出林婉；第260章正式进入宗门内门大比
+  characters:
+  - 徐霄
+  - 第一婵
+  - 秦朋
+  - 程芷
+  - 程双
+  - 花怜惜
+  - 林婉
+  system_events:
+  - event: 炼虚晋升触发丹药返还库升级
+    chapter: 254
+    status: partial
+  - event: 花怜惜赠丹返还
+    trigger: 五枚虚天丹
+    reward: 十枚合道丹
+    chapter: 258
+    status: partial
+  - event: 第一婵赠丹返还
+    trigger: 一枚合道丹
+    reward: 一枚蕴仙丹
+    chapter: 257
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    age: 1016
+    remaining_lifespan: 3293
+    hongmeng_qi: 7
+    metal_dao:
+    - 锋锐
+    - 金刚
+    - 粉碎
+    array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
+    status: partial
+  pending:
+  - 程芷程双完整气运面板
+  - 第253章赠送完整返还清单
+  - 第一婵系统有效性
+  - 林婉精确面板
+  - 丹药返还库精确上限
+  document: docs/01-timeline/node-0035.md
+  evidence: sources/evidence/chapters-253-259.yaml
