@@ -1,0 +1,45 @@
+schema_version: 1
+run_id: RUN-0043
+nodes:
+- id: NODE-0032
+  title: 尸潮防守、魇女结缘与凤青玄现世
+  chapters: {start: 227, end: 235}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第227—236章标题、顺序和边界；第227—235章正文由可访问镜像交叉核验
+  boundary_reason: 第235章完成凤青玄接受三光分水剑、停止现场杀戮并承诺开启出口；第236章转入凤青玄借妙玉肉身实施后续计划
+  characters: [徐霄, 魇女, 凤青玄, 独孤灵, 姬雪, 石刚烈, 诸葛无方, 白茹, 花怜惜, 妙玉, 宇文浩, 宇文良恭]
+  system_events:
+  - event: 魇女气运对象重新识别
+    trigger: 系统在第228章检测到魇女
+    result: 魇女被确认为气运之女
+    status: partial
+  - event: 凤青玄气运对象识别
+    trigger: 凤青玄在尸潮战后现身
+    result: 系统确认其为SSS级气运之女
+    status: partial
+  - event: 凤青玄灵宝赠送
+    trigger: 赠送三光分水剑
+    reward: pending
+    relationship_result: 凤青玄停止现场杀戮并承诺之后开启出口
+    status: partial
+  conflict_events:
+  - event: 黑锋山首轮尸潮防守
+    result: 联合防线击退数以千计的尸灵；徐霄击杀二十余名炼虚后期尸灵并取得五件法宝
+    status: partial
+  - event: 凤青玄率尸灵现身
+    result: 战场威胁升级至至少合体层级，并揭示山海碑与无妄仙宗线索
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    combat_resources_confirmed: [九天神龙甲, 破灭天金剑, 三光分水剑, 五行炼体丹形成的五行循环]
+    role_change: 成为首轮尸潮防守的决定性战力，并以赠送灵宝换取凤青玄停止杀戮
+    status: partial
+  pending:
+  - 魇女精确气运等级、返还倍数与羁绊度
+  - 凤青玄精确境界、完整身份与系统面板
+  - GIFT-0043返还结果
+  - 五件战利品法宝的名称与归属
+  - 山海碑、无妄仙宗与尸灵异变的完整因果
+  document: docs/01-timeline/node-0032.md
+  evidence: sources/evidence/chapters-227-235.yaml

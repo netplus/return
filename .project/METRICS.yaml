@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0042
+run_id: RUN-0043
 coverage:
-  chapters_covered_through: 226
-  chapters_promoted_in_run: [219, 220, 221, 222, 223, 224, 225, 226]
-  timeline_nodes: 31
+  chapters_covered_through: 235
+  chapters_promoted_in_run: [227, 228, 229, 230, 231, 232, 233, 234, 235]
+  timeline_nodes: 32
   draft_nodes: 0
-  story_arc_nodes: 28
-  characters_documented: 44
+  story_arc_nodes: 29
+  characters_documented: 45
   characters_staged: 0
   system_records: 1
-  gift_events: 42
+  gift_events: 43
   artifact_records: 32
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [219, 220, 221, 222, 223, 224, 225, 226, 227]
-    cross_checked_mirror_chapters: [219, 220, 221, 222, 223, 224, 225, 226]
-    pending_fields: [外界重开传送门的可行手段, 姬雪与石刚烈精确修为, 花怜惜累计气运返还总量, 三处据点完整损失与战利品, 黑石宫殿黑裙女子与凤长老身份, 混沌神雷符完整能力与消耗状态]
+    official_catalog_chapters: [227, 228, 229, 230, 231, 232, 233, 234, 235, 236]
+    cross_checked_mirror_chapters: [227, 228, 229, 230, 231, 232, 233, 234, 235]
+    pending_fields: [魇女精确气运等级与返还倍数, 凤青玄精确境界与完整系统面板, GIFT-0043返还结果, 尸潮完整伤亡与五件战利品法宝, 山海碑无妄仙宗与尸灵异变的完整因果]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第226章完成三处据点夺取、白茹赠符结算与联合前线建立；第227章转入尸潮推进、据点防守和深入战场西部调查}
-  materiality: {status: passed, entity_updates: [NODE-0031, CHAR-0044石刚烈, 独孤灵晋升炼虚, 段红绫羁绊度2, 花怜惜A级气运确认, GIFT-0041, GIFT-0042, ART-0032混沌神雷符]}
+  arc_coherence: {status: passed, boundary: 第235章完成凤青玄接受三光分水剑、停止现场杀戮并承诺开启出口；第236章转入凤青玄借妙玉肉身实施后续计划}
+  materiality: {status: passed, entity_updates: [NODE-0032, CHAR-0025魇女, CHAR-0045凤青玄, GIFT-0043, ART-0031三光分水剑]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0031.md, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml]
+    files_checked: [docs/01-timeline/node-0032.md, data/extensions/timeline/run-0043.yaml, data/extensions/characters/run-0043.yaml, data/extensions/system/run-0043.yaml, data/extensions/artifacts/run-0043.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml, sources/evidence/chapters-219-226.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0043.yaml, data/extensions/characters/run-0043.yaml, data/extensions/system/run-0043.yaml, data/extensions/artifacts/run-0043.yaml, sources/evidence/chapters-227-235.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

@@ -1,5 +1,21 @@
 # Changelog
 
+## RUN-0043 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0034`; no completed task, node or entity ID was duplicated.
+- Fixed the blocked GitHub write path: the connector did not expose the base Tree SHA required by Git Data API, so the run was staged on a branch and delivered by squash merge, preserving one complete commit on `main`.
+- Resolved the adaptive boundary at Chapter 235; Chapter 236 begins 凤青玄's borrowing of 妙玉's body and the next escape plan.
+- Created `NODE-0032`: 尸潮防守、魇女结缘与凤青玄现世, covering Chapters 227—235.
+- Updated 魇女 as a confirmed luck target and long-term partner; recorded twenty-seven former-partner corpses, including three炼虚级.
+- Added 凤青玄 as `CHAR-0045`, an SSS-grade luck target with at least合体-level pressure and links to无妄仙宗、山海碑 and the events of twenty万年前.
+- Added `GIFT-0043`: 三光分水剑 → 凤青玄; the return resolution remains pending.
+- Transferred `ART-0031` 三光分水剑 from 徐霄 to 凤青玄.
+- Recorded the first large corpse-tide defense, 徐霄's defeat of more than twenty炼虚后期尸灵, five unidentified artifact gains, and the combat effect of the五行炼体丹 cycle.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0034` and queued `TASK-0035` beginning at Chapter 236.
+
 ## RUN-0042 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

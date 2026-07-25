@@ -1,0 +1,60 @@
+schema_version: 1
+run_id: RUN-0043
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add:
+    - 黑锋山首轮尸潮战中独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝
+    body_effect_add: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
+    role_change_add: 以赠送三光分水剑化解凤青玄的现场杀戮并争取到开启出口承诺
+    related_nodes_add: [NODE-0032]
+    source_chapters_add: [227, 228, 230, 231, 232, 233, 234, 235]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    status_change: 与外界大修确认暂时无法重开大道神碑传送门，只能等待场内破局
+    related_nodes_add: [NODE-0032]
+    source_chapters_add: [229]
+- id: CHAR-0003
+  name: 独孤灵
+  update:
+    status_change: 在外界等待远古战场出口恢复，并因徐霄与多名女修关系进一步担忧和愤怒
+    related_nodes_add: [NODE-0032]
+    source_chapters_add: [229]
+- id: CHAR-0025
+  name: 魇女
+  update:
+    system_classification_set:
+      value: 气运之女
+      status: partial
+    luck_grade: {value: pending, status: pending}
+    base_return_multiplier: {value: pending, status: pending}
+    relationship_change: 与徐霄确认长期道侣关系
+    controlled_corpses:
+      total: 27
+      refining_virtual_level: 3
+      source: 历任道侣遗体
+      status: partial
+    related_nodes_add: [NODE-0032]
+    source_chapters_add: [227, 228, 230, 231, 232, 233]
+- id: CHAR-0045
+  name: 凤青玄
+  status: alive
+  role: major_supporting_antagonistic
+  affiliations: [无妄仙宗, 山海碑]
+  identities: [SSS级气运之女, 远古战场尸灵统领, 无妄仙宗相关强者]
+  first_appearance: {chapter: 233, title: sss级气运之女, node: NODE-0032}
+  cultivation: {current: 至少合体层级, status: partial}
+  luck_grade: {value: SSS, base_multiplier: pending, status: partial}
+  history: {sleep_duration: 约二十万年, lost_artifacts: true, status: partial}
+  accepted_gifts: [GIFT-0043]
+  current_artifacts: [三光分水剑]
+  relationship_context:
+    徐霄: 接受其灵宝后停止现场杀戮，承诺之后开启出口并要求徐霄同行
+    妙玉: 第235章开始关注，后续具体安排从第236章展开
+    status: partial
+  related_nodes: [NODE-0032]
+  source_chapters: [233, 234, 235]
+  document: null
+  verification_status: partial
