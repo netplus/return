@@ -1,0 +1,28 @@
+schema_version: 1
+run_id: RUN-0044
+artifacts:
+- id: ART-0033
+  name: 嗜血天魔刀
+  category: 灵宝魔器
+  grade: 灵宝
+  first_chapter: 240
+  current_holder: 徐霄
+  acquisition: 来源待后续正文确认
+  abilities:
+  - 可由六股鸿蒙真气驱动
+  - 可击碎炼虚巅峰修士七星剑阵及多件法宝
+  - 可吸收修士气血持续养刀并增强威势
+  combat_record:
+  - 第240—241章迎战黄龙飞三人，摧毁七星剑阵及多件法宝
+  - 第242章确认已吸收两名炼虚修士气血并增强
+  status: partial
+  related_nodes: [NODE-0033]
+  source_chapters: [240, 241, 242]
+artifact_updates:
+- name: 山海碑
+  update:
+    control_event: 凤青玄重新炼化并开启远古战场出口
+    activation_delay: 约十日
+    related_nodes_add: [NODE-0033]
+    source_chapters_add: [236, 237, 238, 239, 240]
+    verification_status: partial
