@@ -4,25 +4,25 @@
 - **Current milestone:** M5 — Chapters 201–250
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 226
-- **Current evidence exploration through:** Chapter 227
+- **Canonical coverage through:** Chapter 235
+- **Current evidence exploration through:** Chapter 236
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 31
+- **Completed timeline nodes:** 32
 - **Draft timeline nodes:** 0
-- **Documented characters:** 44
-- **Gift events:** 42
+- **Documented characters:** 45
+- **Gift events:** 43
 - **Artifact records:** 32
-- **Last run:** `RUN-0042`
-- **Last completed node:** `NODE-0031`
-- **Next task:** `TASK-0034` — 尸潮推进与战场深处调查 story arc
-- **Provisional exploration range:** Chapters 227–234
+- **Last run:** `RUN-0043`
+- **Last completed node:** `NODE-0032`
+- **Next task:** `TASK-0035` — 凤青玄借体与远古战场脱困 story arc
+- **Provisional exploration range:** Chapters 236–243
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0031` covers Chapters 219—226. 远古战场关闭后，姬雪、独孤灵与石刚烈在外界确认被困事实；独孤灵已晋升炼虚。场内中心殿大会形成联合清剿方案，徐霄向段红绫赠送虚天丹并触发千倍返还，花怜惜被确认是 A 级气运之女。徐霄以三光分水剑主导碎石谷和黑锋山攻坚，联合势力最终拿下碎石谷、黑锋山与弱水河三处据点；向白茹赠送九天神雷符后返还合体九重混沌神雷符。第 227 章转入尸潮防守与深入战场西部调查。
+`NODE-0032` covers Chapters 227—235. 黑魂堡方向的组织化尸潮开始推进，各方采纳徐霄提出的三处据点防守与深入西部调查方案。系统重新确认魇女为气运之女，魇女与徐霄形成长期道侣关系，并公开二十七具历任道侣僵尸，其中三具达到炼虚层级。黑锋山首轮尸潮战中，徐霄独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝。随后至少具有合体层级威压的 SSS 级气运之女凤青玄率尸灵现身；徐霄赠出三光分水剑后，凤青玄停止现场杀戮并承诺之后开启出口。第 236 章转入凤青玄借妙玉肉身实施后续计划。
 
-## Quality gates — RUN-0042
+## Quality gates — RUN-0043
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 219—227 章标题、顺序和边界；第 219—226 章正文由 CP 小说网等可访问文本镜像交叉核验。外界重开传送门手段、姬雪与石刚烈精确修为、花怜惜累计气运返还、黑石宫殿黑裙女子身份及混沌神雷符完整能力继续保持 `pending`。
+番茄小说官方目录确认第 227—236 章标题、顺序和边界；第 227—235 章正文由 CP 小说网等可访问文本镜像交叉核验。魇女精确系统面板、凤青玄精确境界和完整身份、`GIFT-0043` 返还结果、五件战利品法宝及山海碑异变完整因果继续保持 `pending`。
