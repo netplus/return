@@ -27,14 +27,3 @@ artifact_updates:
     consumption_status: pending
     related_nodes_add: [NODE-0039]
     source_chapters_add: [292]
-- name: 黑风血气灵宝
-  update:
-    first_confirmed_chapter: 288
-    former_holder: 黑风
-    current_holder: 徐霄
-    transfer_chapter: 295
-    category: 血气灵宝
-    formal_name: pending
-    full_ability: pending
-    related_nodes_add: [NODE-0039]
-    source_chapters_add: [288, 294, 295]
