@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0036
+gifts:
+- id: GIFT-0033
+  chapter: 171
+  node: NODE-0025
+  giver: 徐霄
+  recipient: 木玉儿
+  gift: pending
+  accepted: true
+  system_valid: true
+  triggered_multiplier: null
+  reward: 鸿蒙一气丹
+  reward_storage: 系统空间库
+  status: partial
+system_objects:
+- {name: 巫瓶儿, classification: 气运之女, luck_grade: A, base_multiplier: 10, bond: 1, first_chapter: 174, status: partial}
+system_updates:
+- subject: 万倍返还系统
+  update:
+    gift_range: GIFT-0001—GIFT-0033
+    pending_fields_add: [GIFT-0033的原始赠送物品、首次赠送标记、精确倍率和完整同批返还]

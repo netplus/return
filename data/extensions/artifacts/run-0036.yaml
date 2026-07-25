@@ -1,0 +1,10 @@
+schema_version: 1
+run_id: RUN-0036
+artifacts:
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: {gift_id: GIFT-0033, chapter: 171, status: partial}
+    consumption_add: {chapter: 172, user: 徐霄, result: 体内鸿蒙真气总量明确为三股并强化法宝操控, status: partial}
+    related_nodes_add: [NODE-0025]
+    pending_fields_add: [GIFT-0033原始赠送物品与精确倍率, 鸿蒙一气丹累计实例数]

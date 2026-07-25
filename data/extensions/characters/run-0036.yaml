@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0036
+characters:
+- {id: CHAR-0001, name: 徐霄, update: {relationship_change_add: 木玉儿正式成为道侣, power_change_add: 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控, travel_plan_add: 选择远古战场作为二次化神雷劫优先地点, related_nodes_add: [NODE-0025], source_chapters_add: [167, 168, 169, 170, 171, 172, 173, 174]}}
+- {id: CHAR-0021, name: 段红绫, update: {health_change_add: 万年槐树根治愈暗疾并恢复修炼前景, relationship_change_add: 主动报答徐霄，双方关系形成长期变化, related_nodes_add: [NODE-0025], source_chapters_add: [167, 172]}}
+- {id: CHAR-0023, name: 木玉儿, update: {relationship_change_add: 正式成为徐霄道侣并获得持续修炼资源承诺, accepted_gifts_add: [GIFT-0033], related_nodes_add: [NODE-0025], source_chapters_add: [168, 169, 170, 171, 172]}}
+- {id: CHAR-0011, name: 玉玲珑, update: {current_action_add: 闭关冲击炼虚境, delegation_add: 派巫瓶儿向徐霄传递二次化神雷劫资料和远古战场建议, related_nodes_add: [NODE-0025], source_chapters_add: [173, 174]}}
+- id: CHAR-0034
+  name: 巫瓶儿
+  status: alive
+  role: supporting
+  affiliations: [合欢宗]
+  identities: [合欢宗长老, 气运之女]
+  first_appearance: {chapter: 172, node: NODE-0025}
+  luck_grade: {value: A, status: partial}
+  base_multiplier: {value: 10, status: partial}
+  bond: {current: 1, status: partial}
+  cultivation: {current: null, status: pending}
+  major_action: {value: 传递二次化神雷劫资料并建议远古战场渡劫, status: partial}
+  documents: {profile: docs/02-characters/巫瓶儿.md}
+  related_nodes: [NODE-0025]
+  source_chapters: [172, 173, 174]
+  verification_status: partial

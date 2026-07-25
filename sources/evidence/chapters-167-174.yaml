@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0036
+task_id: TASK-0027
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 167
+  chapter_end: 174
+  node: NODE-0025
+  status: promoted
+  canonical_document: docs/01-timeline/node-0025.md
+  boundary_reason: 第174章完成巫瓶儿识别、二次雷劫资料传递和远古战场方案；第175章转入巫瓶儿赠送与正式启程
+chapters:
+- {chapter: 167, title: 段红绫的报答, facts: [段红绫暗疾痊愈, 段红绫主动报答徐霄并形成关系变化], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 168, title: 老谋深算的木长老, facts: [八大妖族继续谋划徐霄二次雷劫, 木长老推动木玉儿把握长期资源机缘], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 169, title: 木玉儿的心思, facts: [木玉儿确认对徐霄的感情与报答意愿, 木长老推动道侣关系], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 170, title: 朱刘温三长老到, facts: [木玉儿与徐霄关系实质确认, 徐霄承诺持续提供修炼资源], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 171, title: 返还鸿蒙一气丹, facts: [木玉儿相关赠送返还鸿蒙一气丹, 木长老认可双方关系], official_catalog: true, readable_mirrors: [小说之家], status: partial, pending: [原始赠送物品, 精确倍率, 完整同批返还]}
+- {chapter: 172, title: 合欢宗，巫瓶儿, facts: [木长老公开宣布木玉儿道侣身份, 徐霄服用鸿蒙一气丹后体内有三股鸿蒙真气, 巫瓶儿到访], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 173, title: 二次天雷之事, facts: [玉玲珑闭关冲击炼虚, 巫瓶儿传递二次化神雷劫资料], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 174, title: 千万别客气, facts: [远古战场被建议为渡劫地点, 系统识别巫瓶儿为A级气运之女且基础倍率10羁绊度1], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+boundary_check:
+  next_chapter: 175
+  next_title: 前往远古战场
+  transition: 转入巫瓶儿赠送、气运吸取与正式启程
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

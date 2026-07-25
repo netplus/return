@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0036 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0027`; no completed task or canonical node was duplicated.
+- Resolved the adaptive boundary at Chapter 174; Chapter 175 begins the巫瓶儿赠送 and remote-battlefield departure line.
+- Created `NODE-0025`: 段红绫报答、木玉儿道侣确认与渡劫地点敲定, covering Chapters 167—174.
+- Recorded 段红绫's healed hidden injury and relationship change, and formalized 木玉儿's long-term道侣 relationship with 徐霄.
+- Added `GIFT-0033`: a 木玉儿-related effective gift returning 鸿蒙一气丹; preserved the original gift and exact multiplier as `pending`.
+- Updated 鸿蒙一气丹 with a new acquisition and consumption record; Chapter 172 confirms three strands of鸿蒙真气.
+- Added 巫瓶儿 (`CHAR-0034`) as an A-grade气运之女 with base multiplier 10 and bond 1.
+- Recorded 玉玲珑's炼虚 retreat and the remote battlefield as the preferred second-tribulation location.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0027` and queued `TASK-0028` beginning at Chapter 175.
+
 ## RUN-0035 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

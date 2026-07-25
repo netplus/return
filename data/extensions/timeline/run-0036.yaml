@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0036
+nodes:
+- id: NODE-0025
+  title: 段红绫报答、木玉儿道侣确认与渡劫地点敲定
+  chapters: {start: 167, end: 174}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第167—175章标题、顺序和边界；第167—174章正文由可访问镜像交叉核验
+  boundary_reason: 第174章完成巫瓶儿识别、二次雷劫资料传递和远古战场方案；第175章转入巫瓶儿赠送与正式启程
+  characters: [徐霄, 段红绫, 木玉儿, 木长老, 巫瓶儿, 玉玲珑]
+  system_events:
+  - {gift_id: GIFT-0033, recipient: 木玉儿, gift: pending, reward: 鸿蒙一气丹, triggered_multiplier: null, status: partial}
+  - {event: 识别气运之女巫瓶儿, luck_grade: A, base_multiplier: 10, bond: 1, status: partial}
+  protagonist_state: {relationship_update: 木玉儿正式成为道侣, power_update: 服用鸿蒙一气丹后体内鸿蒙真气增至三股, travel_plan: 前往远古战场渡二次化神雷劫, status: partial}
+  pending: [GIFT-0033原始赠送物品与精确倍率, 巫瓶儿修为, 远古战场对雷劫强度的实际影响]
+  document: docs/01-timeline/node-0025.md
+  evidence: sources/evidence/chapters-167-174.yaml
