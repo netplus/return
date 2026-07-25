@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 25
+  extension_files: 26
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1396,3 +1396,50 @@ nodes:
   - 内门大比完整名次与奖励清单
   document: docs/01-timeline/node-0036.md
   evidence: sources/evidence/chapters-260-273.yaml
+- id: NODE-0037
+  title: 传承坦白、宗门风波与林婉结缘
+  chapters:
+    start: 274
+    end: 282
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第274—283章标题顺序和边界；第274—282章正文由可访问镜像交叉核验
+  boundary_reason: 第282章完成林婉关系曝光、叶尘反徐联盟升级及徐霄返乡转场；第283章转入玉石宗外勤冲突
+  characters:
+  - 徐霄
+  - 道元真人
+  - 第一婵
+  - 秦朋
+  - 程芷
+  - 程双
+  - 叶尘
+  - 唐天霸
+  - 莫一剑
+  - 玉冰
+  - 姬雪
+  - 林婉
+  system_events:
+  - event: 林婉首次赠送返还
+    trigger: 赠送五枚虚天丹
+    reward: 鸿蒙一气丹
+    multiplier: 1000
+    chapter: 281
+    status: partial
+  conflict_events:
+  - event: 内门集体告发与反徐联盟扩大
+    result: 玉冰未立即执行禁闭，叶尘继续组织反对弟子
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    public_resource_explanation: 获得缥缈仙宗道元真人部分传承
+    hongmeng_qi_strands: 8
+    status: partial
+  pending:
+  - 道元真人传承真实范围
+  - 玉冰使用天龙血的完整目的与结果
+  - 姬雪出师精确含义
+  - 林婉完整系统面板
+  - 灵航真人完整身份与行动
+  - 反徐联盟完整成员
+  document: docs/01-timeline/node-0037.md
+  evidence: sources/evidence/chapters-274-282.yaml

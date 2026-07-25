@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 24
+  extension_files: 25
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -99,6 +99,7 @@ characters:
   - NODE-0034
   - NODE-0035
   - NODE-0036
+  - NODE-0037
   source_chapters:
   - 1
   - 2
@@ -337,6 +338,15 @@ characters:
   - 271
   - 272
   - 273
+  - 274
+  - 275
+  - 276
+  - 277
+  - 278
+  - 279
+  - 280
+  - 281
+  - 282
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -372,7 +382,9 @@ characters:
   artifact_changes:
   - 交还通天如意棍
   - 玄天八卦阵确认可抵挡炼虚攻击
-  relationship_change: 木玉儿正式成为道侣
+  relationship_change:
+  - 木玉儿正式成为道侣
+  - 与林婉建立长期资源和情感关系
   power_change: 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
   cultivation_change: 晋升炼虚一重
@@ -413,6 +425,11 @@ characters:
   hongmeng_qi: 7
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
   title: 无妄仙宗内门大师兄
+  public_resource_explanation: 获得缥缈仙宗道元真人部分传承
+  resource_support: 承诺长期提供林婉修炼资源
+  body_resource: 向玉冰提供天龙血用于后续研究
+  hongmeng_qi_strands: 8
+  accepted_return: GIFT-0048返还的鸿蒙一气丹
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -444,6 +461,7 @@ characters:
   - NODE-0031
   - NODE-0032
   - NODE-0034
+  - NODE-0037
   source_chapters:
   - 1
   - 2
@@ -451,8 +469,9 @@ characters:
   - 229
   - 249
   - 250
+  - 279
   verification_status: verified
-  status_change: 与外界大修确认暂时无法重开大道神碑传送门，只能等待场内破局
+  status_change: 继续劝告徐霄收敛行为并关注盘龙岛关系人后续安置；出师精确含义待确认
   relationship_change: 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
   cultivation_change: 炼虚九重
   constitution: 元灵圣体
@@ -2245,6 +2264,7 @@ characters:
   current_conflict: 徐霄阻止盘龙岛修士拜入其门下
   related_nodes:
   - NODE-0034
+  - NODE-0037
   source_chapters:
   - 244
   - 247
@@ -2253,8 +2273,12 @@ characters:
   - 250
   - 251
   - 252
+  - 277
+  - 280
+  - 282
   document: null
   verification_status: partial
+  conflict_change: 组织唐天霸、莫一剑等反对者形成持续反徐联盟，并推动集体告发与舆论攻击
 - id: CHAR-0048
   name: 玉冰
   status: alive
@@ -2282,10 +2306,16 @@ characters:
   - 姬雪
   related_nodes:
   - NODE-0034
+  - NODE-0037
   source_chapters:
   - 250
+  - 278
+  - 279
   document: null
   verification_status: partial
+  resource_acquisition: 徐霄天龙血
+  artifact_action: 在护心龙镜刻入可直接联系自己的传讯阵
+  relationship_change: 以宗门惩戒为名召见徐霄，实际建立持续血液研究和直接通讯关系
 - id: CHAR-0049
   name: 第一婵
   status: alive
@@ -2314,6 +2344,7 @@ characters:
   - NODE-0034
   - NODE-0035
   - NODE-0036
+  - NODE-0037
   source_chapters:
   - 250
   - 251
@@ -2324,12 +2355,16 @@ characters:
   - 265
   - 266
   - 273
+  - 276
+  - 277
+  - 280
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0047
   relationship_change: 接受合道丹后认可徐霄与程双的长期道侣关系
   disciple_evaluation_change: 确认徐霄是天阵阁历来最出众弟子并计划未来传其首座之位
+  evaluation_change: 得知徐霄与程芷关系后重新评估其长期行为，但因资源与弟子机缘未直接切断关系
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -2349,16 +2384,20 @@ characters:
   related_nodes:
   - NODE-0034
   - NODE-0035
+  - NODE-0037
   source_chapters:
   - 252
   - 253
   - 256
+  - 275
+  - 276
   document: null
   verification_status: partial
   accepted_resources:
   - 五枚虚天丹
   - 每年三枚极品灵石
   relationship_change: 与徐霄形成稳定同门互助关系
+  relationship_context: 发现徐霄与程芷关系后接受保密，并继续维持天阵阁师兄弟关系
 - id: CHAR-0051
   name: 程芷
   status: alive
@@ -2379,6 +2418,7 @@ characters:
   - NODE-0034
   - NODE-0035
   - NODE-0036
+  - NODE-0037
   source_chapters:
   - 252
   - 253
@@ -2389,11 +2429,15 @@ characters:
   - 263
   - 264
   - 265
+  - 275
+  - 276
+  - 277
+  - 280
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0045
-  relationship_change: 对徐霄的态度由排斥转为有条件认可，并继续保护程双利益
+  relationship_change: 与徐霄的长期道侣关系在天阵阁和内门范围进一步公开化
   attitude_change: 由轻视和复杂情绪转为承认徐霄远超炼虚初期的实力与长期价值
 - id: CHAR-0052
   name: 程双
@@ -2459,11 +2503,15 @@ characters:
   related_nodes:
   - NODE-0035
   - NODE-0036
+  - NODE-0037
   source_chapters:
   - 259
   - 267
   - 268
   - 269
+  - 280
+  - 281
+  - 282
   document: null
   verification_status: partial
   system_interaction:
@@ -2471,7 +2519,13 @@ characters:
     return_to_xuxiao: 十点气运
     chapter: 268
     status: partial
-  relationship_change: 主动借内门大比接触徐霄并建立持续气运互动
+  - trigger: 持续吸收徐霄气运
+    result: 系统继续产生返还
+    cumulative_amount: pending
+    status: partial
+  relationship_change: 接受徐霄长期资源承诺并表达长期情感意愿
+  accepted_gifts:
+  - GIFT-0048
 - id: CHAR-0054
   name: 剑辰
   status: alive

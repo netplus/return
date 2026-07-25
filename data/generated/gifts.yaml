@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 19
+  extension_files: 20
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -704,4 +704,17 @@ gifts:
   accepted: true
   system_valid: true
   reward: 一枚蕴仙丹
+  status: partial
+- id: GIFT-0048
+  chapter: 281
+  node: NODE-0037
+  giver: 徐霄
+  recipient: 林婉
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 鸿蒙一气丹
+  relationship_result: 建立长期资源和情感关系
   status: partial

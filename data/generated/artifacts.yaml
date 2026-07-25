@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 23
+  extension_files: 24
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -278,12 +278,16 @@ artifacts:
   - gift_id: GIFT-0033
     chapter: 171
     status: partial
+  - gift_id: GIFT-0048
+    chapter: 281
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
   related_nodes:
   - NODE-0012
   - NODE-0025
+  - NODE-0037
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -292,10 +296,17 @@ artifacts:
   - GIFT-0033原始赠送物品与精确倍率
   - 鸿蒙一气丹累计实例数
   consumption:
-    chapter: 172
+  - chapter: 172
     user: 徐霄
     result: 体内鸿蒙真气总量明确为三股并强化法宝操控
     status: partial
+  - chapter: 282
+    user: 徐霄
+    result: 鸿蒙真气总量增至八股
+    status: partial
+  source_chapters:
+  - 281
+  - 282
 - id: ART-0017
   name: 九火琉璃罩
   category: 法宝
@@ -632,3 +643,8 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0036
+  - NODE-0037
+  modification: 玉冰刻入可与其直接联系的传讯阵
+  communication_target: 玉冰
+  source_chapters:
+  - 279
