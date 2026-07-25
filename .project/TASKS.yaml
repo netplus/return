@@ -45,7 +45,17 @@ tasks:
 - id: TASK-0033
   title: Build the 远古战场外部响应与中心殿大会 story arc from Chapter 219 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 219, provisional_chapter_end: 226, node: NODE-0031, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0042
+  target: {chapter_start: 219, chapter_end: 226, node: NODE-0031, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0031.md, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml, sources/evidence/chapters-219-226.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0032]
+- id: TASK-0034
+  title: Build the 尸潮推进与战场深处调查 story arc from Chapter 227 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 227, provisional_chapter_end: 234, node: NODE-0032, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0033]

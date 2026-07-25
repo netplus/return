@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0042
+artifacts:
+- id: ART-0032
+  name: 混沌神雷符
+  category: 符箓
+  grade: 合体九重
+  first_chapter: 226
+  current_holder: 徐霄
+  acquisition: GIFT-0042返还
+  effect: 完整攻击机制与威力表现待后续正文确认
+  status: partial
+  related_nodes: [NODE-0031]
+artifact_updates:
+- id: ART-0031
+  name: 三光分水剑
+  update:
+    combat_record_add: 第223—225章主导碎石谷与黑锋山尸灵清剿
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [223, 224, 225]
+- name: 九天神雷符
+  update:
+    transfer_event: GIFT-0042
+    transferred_to: 白茹
+    transferred_in_chapter: 226
+    related_nodes_add: [NODE-0031]

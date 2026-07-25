@@ -4,25 +4,25 @@
 - **Current milestone:** M5 — Chapters 201–250
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 218
-- **Current evidence exploration through:** Chapter 219
+- **Canonical coverage through:** Chapter 226
+- **Current evidence exploration through:** Chapter 227
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 30
+- **Completed timeline nodes:** 31
 - **Draft timeline nodes:** 0
-- **Documented characters:** 43
-- **Gift events:** 40
-- **Artifact records:** 31
-- **Last run:** `RUN-0041`
-- **Last completed node:** `NODE-0030`
-- **Next task:** `TASK-0033` — 远古战场外部响应与中心殿大会 story arc
-- **Provisional exploration range:** Chapters 219–226
+- **Documented characters:** 44
+- **Gift events:** 42
+- **Artifact records:** 32
+- **Last run:** `RUN-0042`
+- **Last completed node:** `NODE-0031`
+- **Next task:** `TASK-0034` — 尸潮推进与战场深处调查 story arc
+- **Provisional exploration range:** Chapters 227–234
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0030` covers Chapters 211—218. 白狐族减少参与妖族联合行动，白霞儿继续试探徐霄的精气来源并触发十倍精气返还，羁绊度提升至 2。尸灵开始成群外扩，徐霄以三光分水剑清剿尸灵；随后传送门消失，各势力被困。虎奔、狼烈、蛇大同以段红绫为诱饵伏击徐霄，最终三名族长及随行化神修士全部死亡，段红绫获救并得到治疗。第 219 章转入远古战场外部的宗门响应。
+`NODE-0031` covers Chapters 219—226. 远古战场关闭后，姬雪、独孤灵与石刚烈在外界确认被困事实；独孤灵已晋升炼虚。场内中心殿大会形成联合清剿方案，徐霄向段红绫赠送虚天丹并触发千倍返还，花怜惜被确认是 A 级气运之女。徐霄以三光分水剑主导碎石谷和黑锋山攻坚，联合势力最终拿下碎石谷、黑锋山与弱水河三处据点；向白茹赠送九天神雷符后返还合体九重混沌神雷符。第 227 章转入尸潮防守与深入战场西部调查。
 
-## Quality gates — RUN-0041
+## Quality gates — RUN-0042
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 211—219 章标题、顺序和边界；第 211—218 章正文由 CP 小说网等可访问文本镜像交叉核验。精气返还累计量、传送门关闭幕后主体、尸灵组织者、伏击阵法正式名称及敌方法宝完整归属继续保持 `pending`。
+番茄小说官方目录确认第 219—227 章标题、顺序和边界；第 219—226 章正文由 CP 小说网等可访问文本镜像交叉核验。外界重开传送门手段、姬雪与石刚烈精确修为、花怜惜累计气运返还、黑石宫殿黑裙女子身份及混沌神雷符完整能力继续保持 `pending`。

@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0042 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0033`; no completed task or canonical node was duplicated.
+- Resolved the adaptive boundary at Chapter 226; Chapter 227 begins the corpse-tide defense and deeper-battlefield investigation line.
+- Created `NODE-0031`: 外部响应、中心殿联合与三据点反攻, covering Chapters 219—226.
+- Added 石刚烈 as `CHAR-0044`; updated 独孤灵 to炼虚境, 段红绫 bond level to 2, 花怜惜 as A-grade luck target, and 白茹's long-term cooperation record.
+- Added `GIFT-0041` and `GIFT-0042`, returning三千大道丹 and合体九重混沌神雷符.
+- Added `ART-0032` 混沌神雷符 and expanded 三光分水剑's large-scale stronghold-clearing combat record.
+- Recorded the center-hall coalition plan and the capture of碎石谷、黑锋山、弱水河.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0033` and queued `TASK-0034` beginning at Chapter 227.
+
 ## RUN-0041 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

@@ -1,0 +1,41 @@
+schema_version: 1
+run_id: RUN-0042
+gift_events:
+- id: GIFT-0041
+  chapter: 220
+  node: NODE-0031
+  giver: 徐霄
+  recipient: 段红绫
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: false
+  first_bond_increase: true
+  triggered_multiplier: 1000
+  reward: 三千大道丹
+  relationship_result: 羁绊度提升至2
+  status: partial
+- id: GIFT-0042
+  chapter: 226
+  node: NODE-0031
+  giver: 徐霄
+  recipient: 白茹
+  gift: 炼虚九重九天神雷符
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 合体九重混沌神雷符
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [花怜惜]
+    gift_ids_add: [GIFT-0041, GIFT-0042]
+    rule_instances_add:
+    - trigger: 花怜惜窃取一点气运
+      effect: 徐霄获得十点气运返还
+      chapter: 222
+      status: partial
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [220, 222, 226]

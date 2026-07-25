@@ -1,0 +1,63 @@
+schema_version: 1
+run_id: RUN-0042
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add: [以三光分水剑主导碎石谷与黑锋山清剿并推动三处据点反攻]
+    role_change_add: 成为联合前线主要攻坚者并提出深入战场西部调查
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [220, 221, 222, 223, 224, 225, 226]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    status_change: 提前结束闭关并参与远古战场外部响应
+    relationship_change: 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [219]
+- id: CHAR-0003
+  name: 独孤灵
+  update:
+    realm: 炼虚境
+    condition_change: 已完成炼虚突破并结束闭关
+    relationship_change: 因徐霄被困远古战场而明显担忧，但继续受到师门约束
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [219]
+- id: CHAR-0005
+  name: 段红绫
+  update:
+    bond_level: 2
+    accepted_gifts_add: [GIFT-0041]
+    relationship_change: 接受徐霄赠送的五枚虚天丹后再次形成长期资源关系
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [220]
+- id: CHAR-0038
+  name: 花怜惜
+  update:
+    realm: 炼虚后期
+    luck_grade: A
+    base_return_multiplier: 10
+    bond_level: 1
+    system_interaction_add:
+    - {trigger: 窃取一点气运, return_to_xuxiao: 十点气运, status: partial}
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [222, 223, 224]
+- id: CHAR-0040
+  name: 白茹
+  update:
+    accepted_gifts_add: [GIFT-0042]
+    combat_record_add: [黑锋山遭尸灵围攻后由徐霄与联合队伍救援]
+    relationship_change: 接受炼虚九重九天神雷符，狐族与徐霄的长期合作进一步加深
+    related_nodes_add: [NODE-0031]
+    source_chapters_add: [224, 225, 226]
+- id: CHAR-0044
+  name: 石刚烈
+  status: alive
+  role: supporting
+  affiliations: [缥缈宗]
+  identities: [缥缈宗太上长老, 姬雪师兄, 段红绫师父]
+  first_appearance: {chapter: 219, title: 姬雪，独孤灵, node: NODE-0031}
+  realm: {value: pending, status: pending}
+  current_action: 与姬雪、独孤灵在外界关注远古战场传送门关闭
+  document: null
+  verification_status: partial

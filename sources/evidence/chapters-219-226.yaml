@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0042
+task_id: TASK-0033
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 219
+  chapter_end: 226
+  node: NODE-0031
+  status: promoted
+  canonical_document: docs/01-timeline/node-0031.md
+  boundary_reason: 第226章完成三处据点夺取、白茹赠符结算与联合前线建立；第227章转入尸潮推进、据点防守和深入战场西部调查
+chapters:
+- chapter: 219
+  title: 姬雪，独孤灵
+  facts: [远古战场传送门关闭的消息传到缥缈宗外部, 独孤灵已晋升炼虚并担忧徐霄安危, 姬雪与石刚烈要求独孤灵继续与徐霄保持距离]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 220
+  title: 中心殿大会
+  facts: [徐霄向段红绫赠送五枚虚天丹, 首次羁绊提升触发千倍暴击并返还三千大道丹, 段红绫羁绊度升至2, 黑石城召集中心殿大会]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 221
+  title: 对付尸灵的计划
+  facts: [虎狼蛇猿四族持续失联, 各势力确认尸灵危机已威胁整体生存, 中心殿形成清剿三处据点并联合防守的计划]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 222
+  title: 太上长老花怜惜
+  facts: [花怜惜恢复年轻外貌后被系统识别为A级气运之女, 基础返还倍数为10且羁绊度为1, 花怜惜窃取一点气运时徐霄获得十点返还]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 223
+  title: 远古战场深处
+  facts: [徐霄以三光分水剑主导碎石谷外围清剿并击杀多名炼虚尸灵, 联合队伍继续深入碎石谷, 远古战场西部黑石宫殿出现受尸灵敬畏的黑裙女子]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 224
+  title: 救援妖族
+  facts: [联合队伍完成碎石谷主要清剿, 徐霄与人族炼虚修士转向救援受到尸灵围攻的妖族据点]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 225
+  title: 惊呆了妖族
+  facts: [徐霄击杀黑锋山炼虚后期尸灵并救援白茹等妖族, 联合队伍荡平黑锋山尸灵, 狐牛猫兔四族与人族合作关系增强]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 226
+  title: 拿下三处据点
+  facts: [联合势力拿下碎石谷黑锋山弱水河三处据点, 徐霄向白茹赠送炼虚九重九天神雷符, 系统返还合体九重混沌神雷符]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 227
+  next_title: 小露锋芒
+  transition: 转入尸潮推进、据点防守方案和深入战场西部调查
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

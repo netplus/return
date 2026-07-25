@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0041
+run_id: RUN-0042
 coverage:
-  chapters_covered_through: 218
-  chapters_promoted_in_run: [211, 212, 213, 214, 215, 216, 217, 218]
-  timeline_nodes: 30
+  chapters_covered_through: 226
+  chapters_promoted_in_run: [219, 220, 221, 222, 223, 224, 225, 226]
+  timeline_nodes: 31
   draft_nodes: 0
-  story_arc_nodes: 27
-  characters_documented: 43
+  story_arc_nodes: 28
+  characters_documented: 44
   characters_staged: 0
   system_records: 1
-  gift_events: 40
-  artifact_records: 31
+  gift_events: 42
+  artifact_records: 32
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [211, 212, 213, 214, 215, 216, 217, 218, 219]
-    cross_checked_mirror_chapters: [211, 212, 213, 214, 215, 216, 217, 218]
-    pending_fields: [白霞儿精气试探累计返还总量, 远古战场传送门关闭幕后主体, 尸灵组织者与最终目的, 三族伏击阵法正式名称, 敌方法宝完整品阶与战后归属, 段红绫第218章要求的长期结果]
+    official_catalog_chapters: [219, 220, 221, 222, 223, 224, 225, 226, 227]
+    cross_checked_mirror_chapters: [219, 220, 221, 222, 223, 224, 225, 226]
+    pending_fields: [外界重开传送门的可行手段, 姬雪与石刚烈精确修为, 花怜惜累计气运返还总量, 三处据点完整损失与战利品, 黑石宫殿黑裙女子与凤长老身份, 混沌神雷符完整能力与消耗状态]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第218章完成三族伏击清算、段红绫救治与被困后的驻地防守安排；第219章转入远古战场外部宗门响应}
-  materiality: {status: passed, entity_updates: [NODE-0030, CHAR-0042狼烈, CHAR-0043蛇大同, 虎奔死亡, 白霞儿羁绊度2, 三光分水剑实战能力, 远古战场传送门关闭]}
+  arc_coherence: {status: passed, boundary: 第226章完成三处据点夺取、白茹赠符结算与联合前线建立；第227章转入尸潮推进、据点防守和深入战场西部调查}
+  materiality: {status: passed, entity_updates: [NODE-0031, CHAR-0044石刚烈, 独孤灵晋升炼虚, 段红绫羁绊度2, 花怜惜A级气运确认, GIFT-0041, GIFT-0042, ART-0032混沌神雷符]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0030.md, data/extensions/timeline/run-0041.yaml, data/extensions/characters/run-0041.yaml, data/extensions/system/run-0041.yaml, data/extensions/artifacts/run-0041.yaml]
+    files_checked: [docs/01-timeline/node-0031.md, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0041.yaml, data/extensions/characters/run-0041.yaml, data/extensions/system/run-0041.yaml, data/extensions/artifacts/run-0041.yaml, sources/evidence/chapters-211-218.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml, sources/evidence/chapters-219-226.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
