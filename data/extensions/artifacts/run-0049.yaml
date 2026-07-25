@@ -1,0 +1,15 @@
+schema_version: 1
+run_id: RUN-0049
+artifact_updates:
+- id: ART-0026
+  name: 混沌极冰符
+  update:
+    current_state_set: 已消耗
+    final_user_set: 徐霄
+    consumption_event:
+      chapter: 284
+      event: 清算玉石宗伏杀阵营并摧毁其合体层级围攻力量
+      status: partial
+    combat_record_add: 第284章用于处理玉石宗伏杀，形成合体巅峰冰系范围清算效果
+    related_nodes_add: [NODE-0038]
+    source_chapters_add: [284, 287]

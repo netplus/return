@@ -1,0 +1,55 @@
+schema_version: 2
+run_id: RUN-0049
+task_id: TASK-0040
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 283
+  chapter_end: 287
+  node: NODE-0038
+  status: promoted
+  canonical_document: docs/01-timeline/node-0038.md
+  boundary_reason: 第287章完成玉石宗清算后的宗门关系影响并引出黑风血气灵宝；第288章正式发布击杀黑风任务并前往银鳞城
+chapters:
+- chapter: 283
+  title: 玉石宗事变
+  facts: [徐霄受第一婵委派前往玉石宗处理三名外门弟子被扣事件, 白玉龙与无妄仙宗内应将事件设计为针对徐霄的伏杀陷阱, 三名外门弟子实际参与设局]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 284
+  title: 合体符箓之威
+  facts: [周钱两名无妄仙宗执事与玉石宗合体修士公开参与伏杀, 噬骨销魂散因徐霄血脉和神丹积累而失效, 徐霄使用合体九重混沌极冰符清算伏杀阵营]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 285
+  title: 气炸的叶尘
+  facts: [玉石宗伏杀计划失败并造成参与者死亡, 叶尘主导的反徐阵营遭受重大挫败, 其对徐霄的持续敌意和宗门行动没有终止]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 286
+  title: 师妹们反常的拜访
+  facts: [徐霄恶名继续在无妄仙宗扩散, 多名女弟子因资源预期主动到访天阵阁, 徐霄拒绝非系统认可对象, 白茹到访使徐霄与狐族关系进一步公开]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 287
+  title: 大机缘来了
+  facts: [白茹窃取一点精气时系统返还徐霄二十点精气, 玉石宗覆灭及五名无妄仙宗参与者死亡的信息传播, 玉鼎仙宗开始追查黑风及血气灵宝]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 288
+  next_title: 赶到银鳞城
+  transition: 系统正式识别黑风为气运之敌并发布击杀任务，徐霄随第一婵进入银鳞城追踪血气灵宝
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

@@ -1,13 +1,13 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0048
+run_id: RUN-0049
 coverage:
-  chapters_covered_through: 282
-  chapters_promoted_in_run: [274, 275, 276, 277, 278, 279, 280, 281, 282]
-  timeline_nodes: 37
+  chapters_covered_through: 287
+  chapters_promoted_in_run: [283, 284, 285, 286, 287]
+  timeline_nodes: 38
   draft_nodes: 0
-  story_arc_nodes: 34
-  characters_documented: 54
+  story_arc_nodes: 35
+  characters_documented: 55
   characters_staged: 0
   system_records: 1
   gift_events: 48
@@ -16,17 +16,17 @@ coverage:
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [274, 275, 276, 277, 278, 279, 280, 281, 282, 283]
-    cross_checked_mirror_chapters: [274, 275, 276, 277, 278, 279, 280, 281, 282]
-    pending_fields: [道元真人传承真实范围, 玉冰使用天龙血的完整目的与结果, 姬雪出师精确制度含义, 林婉完整气运等级羁绊度与累计窃取量, 灵航真人完整身份与本阶段行动, 叶尘反徐联盟完整成员]
+    official_catalog_chapters: [283, 284, 285, 286, 287, 288]
+    cross_checked_mirror_chapters: [283, 284, 285, 286, 287]
+    pending_fields: [周钱两名执事完整姓名修为与履历, 三名外门弟子完整身份与逐项行为, 混沌极冰符逐人击杀映射与玉石宗普通门人伤亡, 叶尘完整内应网络与具体指令链, 黑风任务与血气灵宝结算]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第282章完成林婉关系曝光、叶尘反徐联盟升级及徐霄离宗转场；第283章转入玉石宗外勤冲突}
-  materiality: {status: passed, entity_updates: [NODE-0037, 徐霄道元传承解释与八股鸿蒙真气, 玉冰天龙血与护心龙镜传讯阵, 程芷关系公开化, 林婉长期资源关系, GIFT-0048]}
+  arc_coherence: {status: passed, boundary: 第287章完成玉石宗清算后的宗门关系影响并引出黑风血气灵宝；第288章正式发布击杀黑风任务并前往银鳞城}
+  materiality: {status: passed, entity_updates: [NODE-0038, CHAR-0055白玉龙, 徐霄抗毒与外勤清算, 叶尘伏杀升级, 白茹二十倍精气返还, ART-0026混沌极冰符消耗]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0037.md, data/extensions/timeline/run-0048.yaml, data/extensions/characters/run-0048.yaml, data/extensions/system/run-0048.yaml, data/extensions/artifacts/run-0048.yaml]
+    files_checked: [docs/01-timeline/node-0038.md, data/extensions/timeline/run-0049.yaml, data/extensions/characters/run-0049.yaml, data/extensions/system/run-0049.yaml, data/extensions/artifacts/run-0049.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0048.yaml, data/extensions/characters/run-0048.yaml, data/extensions/system/run-0048.yaml, data/extensions/artifacts/run-0048.yaml, sources/evidence/chapters-274-282.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0049.yaml, data/extensions/characters/run-0049.yaml, data/extensions/system/run-0049.yaml, data/extensions/artifacts/run-0049.yaml, sources/evidence/chapters-283-287.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

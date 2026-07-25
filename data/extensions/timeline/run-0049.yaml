@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0049
+nodes:
+- id: NODE-0038
+  title: 玉石宗伏杀失败与黑风机缘开启
+  chapters: {start: 283, end: 287}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第283—288章标题、顺序和边界；第283—287章正文由可访问镜像交叉核验
+  boundary_reason: 第287章完成玉石宗覆灭后的宗门关系影响并引出黑风血气灵宝；第288章正式发布击杀黑风任务并前往银鳞城
+  characters: [徐霄, 第一婵, 叶尘, 白茹, 白玉龙, 秦朋, 程芷, 程双]
+  system_events:
+  - event: 白茹精气返还实例
+    trigger: 白茹窃取一点精气
+    reward: 徐霄获得二十点精气
+    status: partial
+  conflict_events:
+  - event: 玉石宗伏杀与反杀
+    result: 徐霄免疫噬骨销魂散并使用混沌极冰符摧毁伏杀阵营，玉石宗覆灭
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    role_change: 完成首次以无妄仙宗内门大师兄身份处理的重大宗门外勤危机
+    resistance_confirmed: 天龙天凤血脉与神丹积累使噬骨销魂散失效
+    status: partial
+  pending:
+  - 周钱两名执事完整姓名修为与履历
+  - 三名外门弟子完整身份与逐项行为
+  - 混沌极冰符逐人击杀映射与玉石宗普通门人伤亡
+  - 叶尘完整内应网络与具体指令链
+  - 黑风任务与血气灵宝结算
+  document: docs/01-timeline/node-0038.md
+  evidence: sources/evidence/chapters-283-287.yaml

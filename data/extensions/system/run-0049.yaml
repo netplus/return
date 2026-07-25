@@ -1,0 +1,14 @@
+schema_version: 1
+run_id: RUN-0049
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [白茹]
+    rule_instances_add:
+    - trigger: 白茹窃取一点精气
+      effect: 徐霄获得二十点精气返还
+      chapter: 287
+      status: partial
+    related_nodes_add: [NODE-0038]
+    source_chapters_add: [287]

@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0049 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0040`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 287; Chapter 288 formally identifies 黑风 as a luck enemy and begins the 银鳞城 blood-artifact pursuit.
+- Created `NODE-0038`: 玉石宗伏杀失败与黑风机缘开启, covering Chapters 283—287.
+- Recorded the conspiracy by 白玉龙, two 无妄仙宗 deacons and three outer disciples to lure and poison 徐霄 at 玉石宗.
+- Confirmed 徐霄's resistance to噬骨销魂散 through his dragon-phoenix bloodlines and divine-pill accumulation.
+- Added 白玉龙 as `CHAR-0055`; updated 徐霄、叶尘 and白茹 for persistent combat, conflict and relationship changes.
+- Updated `ART-0026` 混沌极冰符 to consumed after the Chapter 284 clearance of the ambush force.
+- Recorded the 白茹 essence-return instance: one point taken returns twenty points to 徐霄.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence; no unsupported Gift record was created.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0040` and queued `TASK-0041` beginning at Chapter 288.
+
 ## RUN-0048 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
