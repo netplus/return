@@ -1,12 +1,12 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0037
+run_id: RUN-0038
 coverage:
-  chapters_covered_through: 184
-  chapters_promoted_in_run: [175, 176, 177, 178, 179, 180, 181, 182, 183, 184]
-  timeline_nodes: 26
+  chapters_covered_through: 191
+  chapters_promoted_in_run: [185, 186, 187, 188, 189, 190, 191]
+  timeline_nodes: 27
   draft_nodes: 0
-  story_arc_nodes: 23
+  story_arc_nodes: 24
   characters_documented: 35
   characters_staged: 0
   system_records: 1
@@ -14,11 +14,11 @@ coverage:
   artifact_records: 25
   artifacts_staged: 0
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185], cross_checked_mirror_chapters: [175, 176, 177, 178, 179, 180, 181, 182, 183, 184], pending_fields: [GIFT-0034精确返还倍率与奖励, 慕容龙城最终生死, 雷劫中全部损毁法宝的逐件清单], failures: 0}
-  arc_coherence: {status: passed, boundary: 第184章完成九道二次化神雷劫、天道洗礼与正式晋升化神；第185章转入妖族突然动手}
-  materiality: {status: passed, entity_updates: [NODE-0026, 徐霄晋升化神, GIFT-0034, 巫瓶儿赠送关系, 慕容龙城, 雷劫法宝损耗]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, files_checked: [docs/01-timeline/node-0026.md, data/extensions/timeline/run-0037.yaml, data/extensions/characters/run-0037.yaml, data/extensions/system/run-0037.yaml, data/extensions/artifacts/run-0037.yaml]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [185, 186, 187, 188, 189, 190, 191, 192], cross_checked_mirror_chapters: [185, 186, 187, 188, 189, 190, 191], pending_fields: [猿罡完整身份与境界, 徐霄返还道具库升级后的精确品质上限, 第191章一年备战期间的完整修为与资源变化], failures: 0}
+  arc_coherence: {status: passed, boundary: 第191章完成妖族突袭收束、远古神碑现世和一年备战；第192章转入上官倩的新赠送关系}
+  materiality: {status: passed, entity_updates: [NODE-0027, 徐霄化神实战与九天神雷符威慑, 返还道具库随境界升级, 大道神碑与远古战场提前开启, 猿罡死亡, 妖魔结盟伏线]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, files_checked: [docs/01-timeline/node-0027.md, data/extensions/timeline/run-0038.yaml, data/extensions/characters/run-0038.yaml, data/extensions/system/run-0038.yaml, data/extensions/artifacts/run-0038.yaml]}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0037.yaml, data/extensions/characters/run-0037.yaml, data/extensions/system/run-0037.yaml, data/extensions/artifacts/run-0037.yaml, sources/evidence/chapters-175-184.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0038.yaml, data/extensions/characters/run-0038.yaml, data/extensions/system/run-0038.yaml, data/extensions/artifacts/run-0038.yaml, sources/evidence/chapters-185-191.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

@@ -1,0 +1,16 @@
+schema_version: 2
+run_id: RUN-0038
+task_id: TASK-0029
+updated_at: '2026-07-25'
+arc: {chapter_start: 185, chapter_end: 191, node: NODE-0027, status: promoted, canonical_document: docs/01-timeline/node-0027.md, boundary_reason: 第191章完成妖族突袭收束、远古神碑现世和一年备战；第192章转入上官倩的新赠送关系}
+chapters:
+- {chapter: 185, title: 妖族突然动手, facts: [徐霄渡劫成功后妖族立即发动突袭, 萧慕河与宇文浩继续敌对谋划], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 186, title: 大佬齐出, facts: [猿族炼虚修士以法宝攻击徐霄, 徐霄以四柄神剑应战, 虎奔等妖族炼虚拦截诸葛无方妙玉魇女], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 187, title: 最后的绝望, facts: [多方炼虚强者到场, 宇文良恭与极地魔宗继续谋划击杀徐霄], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 188, title: 神碑现世, facts: [徐霄祭出最后一张炼虚顶级九天神雷符威慑, 系统提示化神晋升触发返还道具库升级, 大道神碑现世], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 189, title: 远古战场提前开启, facts: [各方确认大道神碑为远古战场入口, 雷劫使原本三千年后开启的远古战场提前, 预计一年后正式开放], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 190, title: 开始准备远古战场, facts: [人妖魔三方暂时停止公开冲突, 猿罡死亡, 妖族与魔道规划战场内围杀徐霄], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 191, title: 匆匆一年, facts: [时间推进一年, 徐霄渡劫与远古战场消息传播, 缥缈宗开始正式出发准备], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check: {next_chapter: 192, next_title: a级气运之女，上官倩, transition: 转入上官倩识别与新赠送关系}
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}
+pending_fields: [猿罡完整身份与境界, 返还道具库升级后的精确品质上限, 九天神雷符是否实际消耗, 第191章完整人物面板]

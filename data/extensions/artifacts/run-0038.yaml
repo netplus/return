@@ -1,0 +1,21 @@
+schema_version: 1
+run_id: RUN-0038
+artifacts:
+- id: ART-0012
+  name: 九天神雷符
+  update:
+    strategic_use_add: 第188章作为炼虚顶级威慑手段阻止妖族与其他炼虚修士继续围杀
+    remaining_quantity_statement: 徐霄称系统空间仅剩一张
+    consumption_status: pending
+    related_nodes_add: [NODE-0027]
+    source_chapters_add: [188]
+world_records:
+- id: WORLD-0001
+  name: 大道神碑
+  category: 世界入口与远古遗迹标志
+  first_chapter: 188
+  function: 远古战场入口及开启征兆
+  state_change: 因徐霄二次化神雷劫提前现世，使远古战场提前三千年并于一年后开放
+  status: partial
+  related_nodes: [NODE-0027]
+  source_chapters: [188, 189, 190]

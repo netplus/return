@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0038
+nodes:
+- id: NODE-0027
+  title: 妖族突袭、远古神碑现世与一年备战
+  chapters: {start: 185, end: 191}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第185—192章标题、顺序和边界；第185—191章正文由可访问镜像交叉核验
+  boundary_reason: 第191章完成妖族突袭收束、远古神碑现世和一年备战；第192章转入上官倩的新赠送关系
+  characters: [徐霄, 巫瓶儿, 水柔, 段红绫, 诸葛无方, 妙玉, 魇女, 猿洪, 虎奔, 宇文浩, 萧慕河]
+  conflict_events:
+  - {event: 猿族在徐霄渡劫后发动炼虚级突袭, result: 徐霄以四柄神剑应战并以九天神雷符威慑，猿罡死亡，公开冲突停止, status: partial}
+  - {event: 妖族与魔道规划远古战场内围杀徐霄, result: 形成合作伏线，实际执行待后续确认, status: partial}
+  system_events:
+  - {event: 徐霄晋升化神触发返还道具库升级, result: 返还品质上限提高，精确上限未公开, status: partial}
+  world_events:
+  - {event: 大道神碑提前现世, result: 远古战场由三千年后开启改为一年后开启, status: partial}
+  protagonist_state: {realm: 化神境, combat_display: 四柄神剑发挥化神层级法宝威能, strategic_deterrent: 最后一张炼虚顶级九天神雷符, status: partial}
+  pending: [猿罡完整身份与境界, 道具库升级后的精确品质上限, 九天神雷符是否实际消耗, 一年备战完整状态变化]
+  document: docs/01-timeline/node-0027.md
+  evidence: sources/evidence/chapters-185-191.yaml

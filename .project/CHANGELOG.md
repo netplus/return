@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0038 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0029`; no completed task or canonical node was duplicated.
+- Resolved the adaptive boundary at Chapter 191; Chapter 192 begins the 上官倩 gift-relationship line.
+- Created `NODE-0027`: 妖族突袭、远古神碑现世与一年备战, covering Chapters 185—191.
+- Recorded 徐霄's first post-restoration 化神 battle, four-sword combat display and strategic use of the final九天神雷符.
+- Added the system rule instance that host-realm advancement can upgrade the return-item library; exact quality cap remains `pending`.
+- Recorded猿罡's death,大道神碑's appearance, the remote battlefield opening three thousand years early, and the one-year preparation interval.
+- Recorded the demon-clan and demonic-sect cooperation plan to target徐霄 inside the battlefield.
+- Added append-only Timeline, Character, System and Artifact/World extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0029` and queued `TASK-0030` beginning at Chapter 192.
+
 ## RUN-0037 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
@@ -16,45 +30,15 @@
 
 ## RUN-0036 — 2026-07-25
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0027`; no completed task or canonical node was duplicated.
-- Resolved the adaptive boundary at Chapter 174; Chapter 175 begins the巫瓶儿赠送 and remote-battlefield departure line.
-- Created `NODE-0025`: 段红绫报答、木玉儿道侣确认与渡劫地点敲定, covering Chapters 167—174.
-- Recorded 段红绫's healed hidden injury and relationship change, and formalized 木玉儿's long-term道侣 relationship with 徐霄.
-- Added `GIFT-0033`: a 木玉儿-related effective gift returning 鸿蒙一气丹; preserved the original gift and exact multiplier as `pending`.
-- Updated 鸿蒙一气丹 with a new acquisition and consumption record; Chapter 172 confirms three strands of鸿蒙真气.
-- Added 巫瓶儿 (`CHAR-0034`) as an A-grade气运之女 with base multiplier 10 and bond 1.
-- Recorded 玉玲珑's炼虚 retreat and the remote battlefield as the preferred second-tribulation location.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0027` and queued `TASK-0028` beginning at Chapter 175.
+- Completed `NODE-0025`, covering Chapters 167—174, and queued `TASK-0028`.
 
 ## RUN-0035 — 2026-07-25
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0026`; no completed task or canonical node was duplicated.
-- Resolved the adaptive boundary at Chapter 166; Chapter 167 begins the 段红绫报答与资源赠送 line.
-- Created `NODE-0024`: 妖族炼虚来袭与二次雷劫宣言, covering Chapters 158—166.
-- Added 猿洪 (`CHAR-0032`) and 虎奔 (`CHAR-0033`), and updated 徐霄、妙玉、魇女、诸葛无方、木玉儿 and 水柔.
-- Recorded the iron-curtain-city炼虚 confrontation,玄天八卦阵 blocking a炼虚 strike, and the return of通天如意棍.
-- Added `GIFT-0032`: six graded artifacts to 木玉儿; preserved system settlement as `pending`.
-- Recorded 徐霄's public plan to attempt a second化神雷劫 and the resulting cross-faction reaction.
-- Added append-only Timeline, Character and System extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0026` and queued `TASK-0027` beginning at Chapter 167.
+- Completed `NODE-0024`, covering Chapters 158—166, and queued `TASK-0027`.
 
 ## RUN-0034 — 2026-07-25
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0025`; no completed task or canonical node was duplicated.
-- Resolved the adaptive boundary at Chapter 157; Chapter 158 begins the eight-demon-clan response.
-- Created `NODE-0023`: 刘玲玲营救与猿族清算, covering Chapters 153—157.
-- Recorded 刘玲玲's rescue and transfer plan to 缥缈宗, 猿华 and eight ape elders' deaths, and the destruction of 通天神棍阵.
-- Added `GIFT-0031`: ten蕴金丹 to 刘玲玲, consuming the fixed ten-thousand-fold task bonus and returning 三千大道丹.
-- Updated 三千大道丹 with its fifth recorded consumption and净水之道; updated 九天神雷符 with the ape-clan battle use.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted the chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0025` and queued `TASK-0026` beginning at Chapter 158.
+- Completed `NODE-0023`, covering Chapters 153—157, and queued `TASK-0026`.
 
 ## RUN-0033 — 2026-07-25
 

@@ -1,0 +1,16 @@
+schema_version: 1
+run_id: RUN-0038
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    rule_add:
+      name: 宿主境界提升可升级返还道具库
+      observed_trigger: 徐霄由元婴九重晋升化神境
+      observed_result: 返还道具库升级并提高可返还物品品质上限
+      exact_quality_cap: pending
+      chapter: 188
+      status: partial
+    task_status: {萧慕河: pending, 宇文浩: pending}
+    related_nodes_add: [NODE-0027]
+    source_chapters_add: [188]

@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-0038
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add: 渡过二次化神雷劫后以四柄神剑应对妖族炼虚突袭，并用九天神雷符形成战略威慑
+    system_change_add: 晋升化神触发返还道具库升级
+    current_action_add: 为一年后开启的远古战场准备
+    related_nodes_add: [NODE-0027]
+    source_chapters_add: [185, 186, 187, 188, 189, 190, 191]
+- id: CHAR-0032
+  name: 猿洪
+  update:
+    conflict_change_add: 参与渡劫后的妖族突袭，因九天神雷符与远古战场现世而停止现场追杀
+    strategic_plan_add: 参与妖族与魔道在远古战场内围杀徐霄的布局
+    related_nodes_add: [NODE-0027]
+    source_chapters_add: [185, 186, 187, 188, 189, 190]
+- id: CHAR-0033
+  name: 虎奔
+  update:
+    conflict_change_add: 率妖族炼虚修士拦截人族援手并参与对徐霄的高阶围杀
+    strategic_plan_add: 主张妖魔结盟并在远古战场内优先击杀徐霄
+    related_nodes_add: [NODE-0027]
+    source_chapters_add: [185, 186, 187, 188, 189, 190]
