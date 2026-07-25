@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0046 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0037`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 259; Chapter 260 begins the 无妄仙宗内门大比.
+- Created `NODE-0035`: 天阵阁赠送返还、程双结缘与炼虚晋升, covering Chapters 253—259.
+- Updated 徐霄 to炼虚一重, age 1016, remaining lifespan 3293, seven strands of鸿蒙真气 and complete金之大道锋锐、金刚、粉碎 comprehension.
+- Updated 程双 to bond level 2 and a formal long-term partner relationship; updated 程芷、秦朋、第一婵 and花怜惜 for stable resource and relationship changes.
+- Added 林婉 as `CHAR-0053`.
+- Added `GIFT-0044`—`GIFT-0047`, including the confirmed returns of ten合道丹 and one蕴仙丹.
+- Added `ART-0034` 蕴仙丹 and recorded the炼虚-stage丹药返还库 upgrade.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0037` and queued `TASK-0038` beginning at Chapter 260.
+
 ## RUN-0045 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

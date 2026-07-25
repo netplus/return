@@ -4,25 +4,25 @@
 - **Current milestone:** M6 — Chapters 251–300
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 252
-- **Current evidence exploration through:** Chapter 253
+- **Canonical coverage through:** Chapter 259
+- **Current evidence exploration through:** Chapter 260
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 34
+- **Completed timeline nodes:** 35
 - **Draft timeline nodes:** 0
-- **Documented characters:** 52
-- **Gift events:** 43
-- **Artifact records:** 33
-- **Last run:** `RUN-0045`
-- **Last completed node:** `NODE-0034`
-- **Next task:** `TASK-0037` — 天阵阁赠送返还与新关系 story arc
-- **Provisional exploration range:** Chapters 253–260
+- **Documented characters:** 53
+- **Gift events:** 47
+- **Artifact records:** 34
+- **Last run:** `RUN-0046`
+- **Last completed node:** `NODE-0035`
+- **Next task:** `TASK-0038` — 无妄仙宗内门大比 story arc
+- **Provisional exploration range:** Chapters 260–267
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0034` covers Chapters 244—252. 系统识别无妄仙宗内门长老叶尘为气运之子，并确认其绑定一级“收徒就变强”系统；徐霄开始阻止盘龙岛修士成为叶尘的修炼资源。盘龙岛正、魔、妖三方组织炼虚先遣队进入天元大陆，两年后参加无妄仙宗千年大招。姬雪以炼虚九重、元灵圣体和极上资质被掌门玉冰收为首徒；玉冰被系统确认为 SSS 级气运之女。徐霄修至化神九重巅峰，主动拜合体七重阵法长老第一婵为师，进入天阵阁并认识秦朋、程芷和程双。第 253 章转入连续赠送返还与天阵阁内部关系发展。
+`NODE-0035` covers Chapters 253—259. 徐霄让出年度宗门资源并向秦朋、程芷和程双各赠送五枚虚天丹，迅速建立天阵阁内部资源关系。程双与徐霄正式结为道侣，羁绊度升至 2。三个月后徐霄晋升炼虚一重，丹药返还库升级，鸿蒙真气增至七股，并补全金之大道的锋锐、金刚和粉碎三道。徐霄向花怜惜赠送五枚虚天丹，返还十枚合道丹；又向第一婵赠送一枚合道丹，返还大乘修炼资源蕴仙丹。第 259 章引出天运阁大师姐林婉，第 260 章正式进入内门大比。
 
-## Quality gates — RUN-0045
+## Quality gates — RUN-0046
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 244—253 章标题、顺序和边界；第 244—252 章正文由 CP 小说网等可访问文本镜像交叉核验。叶尘任务完整奖励、玉冰精确境界、徐霄返送第一婵法宝明细、秦朋程芷程双精确修为及宇文父子后续去向继续保持 `pending`。
+番茄小说官方目录确认第 253—260 章标题、顺序和边界；第 253—259 章正文由 CP 小说网等可访问文本镜像交叉核验。程芷、程双完整气运面板，第 253 章赠送返还清单，第一婵系统面板，林婉精确修为以及炼虚阶段丹药返还库精确上限继续保持 `pending`。
