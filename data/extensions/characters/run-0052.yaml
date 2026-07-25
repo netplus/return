@@ -1,0 +1,64 @@
+schema_version: 1
+run_id: RUN-0052
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add:
+    - 以神木飞舟、五行灵宝神剑和高阶符箓清剿凤山界大量合体凶兽及血凤头领
+    role_change_add: 以天阵阁临时首座身份实质推动凤族回归无妄仙宗
+    resource_add: [三千大道丹, 五十七枚蕴仙丹, 鸿蒙一气丹, 七件返还灵宝, 三万六千枚极品灵石]
+    related_nodes_add: [NODE-0041]
+    source_chapters_add: [304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316]
+- id: CHAR-0024
+  name: 妙玉
+  update:
+    cultivation_set: {current: 合体初期, status: partial}
+    current_condition: 凤青玄神魂继续借用其肉身活动，妙玉本人在识海修炼
+    related_nodes_add: [NODE-0041]
+    source_chapters_add: [307]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    strategic_goal_add: 推动凤族重回无妄仙宗，以利用宗门条件加快肉身恢复
+    related_nodes_add: [NODE-0041]
+    source_chapters_add: [307]
+- id: CHAR-0057
+  name: 方达飞
+  status: alive
+  role: antagonist
+  affiliations: [玉鼎仙宗]
+  identities: [玉鼎仙宗长老, 气运之子, 大乘修士传承持有者]
+  first_appearance: {chapter: 304, title: 开始送礼, node: NODE-0041}
+  cultivation: {current: 合体巅峰, status: partial}
+  system_task:
+    target: 击杀方达飞
+    reward: 返还道具库升级
+    completion: pending
+    status: partial
+  conflict:
+    target: 徐霄与无妄仙宗
+    current_result: 凤山界竞争中受创并公开敌视无妄仙宗，击杀任务尚未完成
+    status: partial
+  related_nodes: [NODE-0041]
+  source_chapters: [304, 305, 308, 309, 310, 311, 313, 314, 316]
+  document: null
+  verification_status: partial
+- id: CHAR-0058
+  name: 凤仪
+  status: alive
+  role: supporting
+  affiliations: [凤族]
+  identities: [凤族族长, 准大乘修士, 徐霄有效赠送对象]
+  first_appearance: {chapter: 304, title: 开始送礼, node: NODE-0041}
+  cultivation: {current: 合体巅峰以上且接近大乘, status: partial}
+  accepted_gifts: [GIFT-0054]
+  relationship_context:
+    徐霄: 接受重礼并因其清剿凤山界将其列为凤族最尊贵客人
+    无妄仙宗: 由观望转向支持凤族回归
+    status: partial
+  system_profile: {luck_grade: pending, base_multiplier: pending, bond: pending, status: pending}
+  related_nodes: [NODE-0041]
+  source_chapters: [304, 305, 306, 308, 310, 311, 312, 313, 314, 315, 316]
+  document: null
+  verification_status: partial
