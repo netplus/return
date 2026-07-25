@@ -1,0 +1,40 @@
+schema_version: 1
+run_id: RUN-0050
+artifacts:
+- id: ART-0036
+  name: 玄天艮土剑
+  category: 灵宝神剑
+  grade: 灵宝
+  first_chapter: 293
+  current_holder: 徐霄
+  acquisition: GIFT-0049返还
+  effect: 土属性灵宝神剑；与既有灵宝神剑共同补齐五行体系，完整能力待后续确认
+  status: partial
+  related_nodes: [NODE-0039]
+artifact_updates:
+- id: ART-0033
+  name: 嗜血天魔刀
+  update:
+    combat_record_add:
+    - 第289—290章斩杀三棵合体血藤树并吸收其血气
+    growth_change_add: 吸收合体血藤树血气后猩红威能进一步增强
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [289, 290]
+- id: ART-0032
+  name: 混沌神雷符
+  update:
+    combat_record_add: 第292章用于解除血林沼泽合体九重修士伏击
+    consumption_status: pending
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [292]
+- name: 黑风血气灵宝
+  update:
+    first_confirmed_chapter: 288
+    former_holder: 黑风
+    current_holder: 徐霄
+    transfer_chapter: 295
+    category: 血气灵宝
+    formal_name: pending
+    full_ability: pending
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [288, 294, 295]
