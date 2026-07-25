@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 30
+  extension_files: 31
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1614,3 +1614,59 @@ nodes:
   - 凤山界五色神光完整数量与分配
   document: docs/01-timeline/node-0041.md
   evidence: sources/evidence/chapters-304-316.yaml
+- id: NODE-0042
+  title: 返宗洗白、灵航结缘与先天灵宝返还
+  chapters:
+    start: 317
+    end: 324
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第317—325章标题、顺序和边界；第317—324章正文由可访问镜像交叉核验
+  boundary_reason: 第324章完成灵航关系公开、天运阁内部结构变化与宗门舆论扩散；第325章转入灵花岛地月宗外勤
+  characters:
+  - 徐霄
+  - 凤青玄
+  - 妙玉
+  - 凤仪
+  - 玉冰
+  - 灵航
+  - 林婉
+  - 花怜惜
+  - 秦朋
+  - 萧慕河
+  - 血云魔尊
+  system_events:
+  - event: 火凤精血赠送返还
+    trigger: 徐霄将一滴火凤精血交给凤青玄
+    reward: 一滴天凤精血
+    gift_id: GIFT-0055
+    status: partial
+  - event: 灵航气运返还实例
+    trigger: 灵航窃取一点气运
+    reward: 徐霄获得十点气运
+    status: partial
+  - event: 灵航灵宝赠送返还
+    trigger: 向灵航赠送一件灵宝
+    reward: 先天灵宝四象斩天剑
+    gift_id: GIFT-0056
+    status: partial
+  - event: 灵航首次羁绊升级赠送
+    trigger: 赠送绝品驻颜丹
+    reward: 九转运天丹
+    multiplier: 1000
+    relationship_result: 羁绊度提升至2
+    gift_id: GIFT-0057
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    role_change: 晋升无妄仙宗内门执事并继续兼任内门大师兄
+    power_change: 鸿蒙真气增至十股，气运凝练为九天气运
+    status: partial
+  pending:
+  - 第320章返还道具库升级的精确触发类别与上限
+  - GIFT-0056原始灵宝名称与精确倍率
+  - 四象斩天剑完整能力与炼化状态
+  - 天凤精血完整使用结果
+  - 灵航完整气运等级与系统面板
+  document: docs/01-timeline/node-0042.md
+  evidence: sources/evidence/chapters-317-324.yaml

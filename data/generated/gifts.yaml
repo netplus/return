@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 23
+  extension_files: 24
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -798,4 +798,38 @@ gifts:
   - source: 一千二百枚极品灵石
     reward: 三万六千枚极品灵石
   relationship_result: 凤仪及凤族对徐霄和无妄仙宗态度显著改善
+  status: partial
+- id: GIFT-0055
+  chapter: 317
+  node: NODE-0042
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 一滴火凤精血
+  accepted: true
+  system_valid: true
+  reward: 一滴天凤精血
+  status: partial
+- id: GIFT-0056
+  chapter: 322
+  node: NODE-0042
+  giver: 徐霄
+  recipient: 灵航
+  gift: 一件灵宝（具体名称待核验）
+  accepted: true
+  system_valid: true
+  reward: 先天灵宝四象斩天剑
+  triggered_multiplier: pending
+  status: partial
+- id: GIFT-0057
+  chapter: 323
+  node: NODE-0042
+  giver: 徐霄
+  recipient: 灵航
+  gift: 绝品驻颜丹
+  accepted: true
+  system_valid: true
+  first_bond_increase: true
+  triggered_multiplier: 1000
+  reward: 九转运天丹
+  relationship_result: 羁绊度提升至2
   status: partial

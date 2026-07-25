@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 29
+  extension_files: 30
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -23,6 +23,7 @@ characters:
   - 姬雪弟子
   - 独孤灵师兄
   - 穿越者
+  - 无妄仙宗内门执事
   first_appearance:
     chapter: 1
     title: 万倍返还系统
@@ -104,6 +105,7 @@ characters:
   - NODE-0039
   - NODE-0040
   - NODE-0041
+  - NODE-0042
   source_chapters:
   - 1
   - 2
@@ -385,6 +387,12 @@ characters:
   - 314
   - 315
   - 316
+  - 317
+  - 318
+  - 321
+  - 322
+  - 323
+  - 324
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -423,7 +431,10 @@ characters:
   relationship_change:
   - 木玉儿正式成为道侣
   - 与林婉建立长期资源和情感关系
-  power_change: 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
+  power_change:
+  - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
+  - 服用鸿蒙一气丹后鸿蒙真气增至十股
+  - 服用九转运天丹后气运凝练为九天气运
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
   cultivation_change: 晋升炼虚一重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
@@ -471,6 +482,7 @@ characters:
   - 以无妄仙宗内门大师兄身份独立处理玉石宗重大外勤危机
   - 以天阵阁临时首座身份代表无妄仙宗参加凤族族长万年寿宴
   - 以天阵阁临时首座身份实质推动凤族回归无妄仙宗
+  - 晋升内门执事并继续兼任内门大师兄，宗门公开宣传其促成凤族回归的功绩
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -1034,6 +1046,7 @@ characters:
   - NODE-0019
   - NODE-0033
   - NODE-0039
+  - NODE-0042
   source_chapters:
   - 43
   - 44
@@ -1054,6 +1067,7 @@ characters:
   - 293
   - 294
   - 295
+  - 320
   verification_status: partial
   latest_conflict:
     chapter_range: 241-242
@@ -1063,7 +1077,7 @@ characters:
   possible_external_affiliation:
     value: 弑天血宗
     status: inferred
-  current_action: 与血云魔尊出现在血林沼泽灵宝争夺现场，确认徐霄已抵达天元大陆后继续逃离
+  current_action: 与血云魔尊抵达弑天血宗收徒现场，谋求加入新宗门并恢复复仇能力
   conflict_change: 与徐霄在天元大陆重新形成明确敌对追踪线
 - id: CHAR-0015
   name: 水月
@@ -1463,6 +1477,7 @@ characters:
   - NODE-0024
   - NODE-0033
   - NODE-0041
+  - NODE-0042
   source_chapters:
   - 110
   - 114
@@ -1484,6 +1499,7 @@ characters:
   - 242
   - 243
   - 307
+  - 317
   verification_status: partial
   gift_resolution:
     gift_id: GIFT-0027
@@ -1498,6 +1514,7 @@ characters:
   body_status: 肉身暂由凤青玄神魂控制，本人神魂留在识海修炼
   relationship_cover: 凤青玄以妙玉身份与徐霄宣称进入道侣考察期，以掩饰真实身份
   current_condition: 凤青玄神魂继续借用其肉身活动，妙玉本人在识海修炼
+  strategic_change: 继续承载凤青玄神魂并准备随凤族回归无妄仙宗
 - id: CHAR-0025
   name: 魇女
   status: alive
@@ -2049,15 +2066,18 @@ characters:
   related_nodes:
   - NODE-0031
   - NODE-0035
+  - NODE-0042
   source_chapters:
   - 222
   - 223
   - 224
   - 258
   - 259
+  - 324
   accepted_gifts:
   - GIFT-0046
   relationship_change: 与程双建立可持续共处关系，并继续获得徐霄长期资源支持
+  relationship_network_change: 师父灵航公开与徐霄建立资源和气运关系
 - id: CHAR-0039
   name: 陆文涛
   status: alive
@@ -2264,6 +2284,7 @@ characters:
   - NODE-0032
   - NODE-0033
   - NODE-0041
+  - NODE-0042
   source_chapters:
   - 233
   - 234
@@ -2277,6 +2298,7 @@ characters:
   - 242
   - 243
   - 307
+  - 317
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -2285,6 +2307,9 @@ characters:
   - 重新炼化山海碑并开启传送门，使远古战场修士脱困
   concealment_plan: 以妙玉身份跟随徐霄进入缥缈宗并隐藏真实身份
   strategic_goal: 推动凤族重回无妄仙宗，以利用宗门条件加快肉身恢复
+  received_resources:
+  - GIFT-0055火凤精血
+  recovery_plan: 取得火凤精血并形成天凤精血返还，涅槃恢复计划继续推进
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -2624,6 +2649,7 @@ characters:
   - NODE-0036
   - NODE-0037
   - NODE-0040
+  - NODE-0042
   source_chapters:
   - 259
   - 267
@@ -2635,6 +2661,9 @@ characters:
   - 299
   - 300
   - 301
+  - 319
+  - 320
+  - 324
   document: null
   verification_status: partial
   system_interaction:
@@ -2652,6 +2681,7 @@ characters:
   - GIFT-0052
   - GIFT-0053
   cultivation_progress: 接近炼虚巅峰并获得合道丹作为破境资源
+  relationship_network_change: 师父灵航加入徐霄的气运与资源关系网络
 - id: CHAR-0054
   name: 剑辰
   status: alive
@@ -2835,6 +2865,7 @@ characters:
     status: pending
   related_nodes:
   - NODE-0041
+  - NODE-0042
   source_chapters:
   - 304
   - 305
@@ -2847,5 +2878,60 @@ characters:
   - 314
   - 315
   - 316
+  - 317
+  - 318
+  document: null
+  verification_status: partial
+  affiliation_change: 凤族回归后拟任无妄仙宗内门长老与凤阁首座
+- id: CHAR-0059
+  name: 灵航
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  - 天运阁
+  identities:
+  - 天运阁首座
+  - 内门长老
+  - 气运之女
+  first_appearance:
+    chapter: 281
+    title: 灵航真人
+    node: NODE-0037
+  cultivation:
+    current: 合体巅峰
+    status: partial
+  age:
+    value: 约两万岁
+    status: partial
+  system_profile:
+    luck_grade: pending
+    base_return_multiplier: 10
+    bond: 2
+    status: partial
+  system_interaction:
+  - trigger: 窃取徐霄一点气运
+    return_to_xuxiao: 十点气运
+    chapter: 322
+    status: partial
+  accepted_gifts:
+  - GIFT-0056
+  - GIFT-0057
+  relationship_context:
+    徐霄: 建立长期道侣与修炼资源支持关系
+    林婉与花怜惜: 作为师父公开说明自身加入徐霄的气运资源关系
+    status: partial
+  related_nodes:
+  - NODE-0037
+  - NODE-0042
+  source_chapters:
+  - 281
+  - 282
+  - 319
+  - 320
+  - 321
+  - 322
+  - 323
+  - 324
   document: null
   verification_status: partial
