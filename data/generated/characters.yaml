@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 16
+  extension_files: 17
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -89,6 +89,7 @@ characters:
   - NODE-0026
   - NODE-0027
   - NODE-0028
+  - NODE-0029
   source_chapters:
   - 1
   - 2
@@ -257,6 +258,17 @@ characters:
   - 197
   - 198
   - 199
+  - 200
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 206
+  - 207
+  - 208
+  - 209
+  - 210
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -301,12 +313,20 @@ characters:
   combat_record:
   - 渡过二次化神雷劫后以四柄神剑应对妖族炼虚突袭，并用九天神雷符形成战略威慑
   - 与诸葛无方协作击杀炼虚中期尸灵
+  - 联合狐族破解通天神棍阵并击杀猿洪
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
   - 合体九重混沌极冰符
   - 炼虚九重天道冰剑符
   - 血牛猛虎丹
+  - 十五枚合道丹
+  - 鸿蒙一气丹
+  - 天凤神元丹
+  - 灵宝三光分水剑
+  ability:
+  - 金之大道·锋锐
+  system_progress: 法宝返还库最高可返还灵宝
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -1319,7 +1339,7 @@ characters:
   - 126
   verification_status: partial
 - id: CHAR-0027
-  name: 柳璃
+  name: 白九儿
   status: alive
   role: supporting
   affiliations:
@@ -1344,6 +1364,7 @@ characters:
   - NODE-0020
   - NODE-0021
   - NODE-0022
+  - NODE-0029
   source_chapters:
   - 130
   - 131
@@ -1363,8 +1384,23 @@ characters:
   - 149
   - 151
   - 152
+  - 204
+  - 205
+  - 206
+  - 207
+  - 208
+  - 209
+  - 210
   verification_status: partial
-  relationship_change: 与徐霄关系发生长期实质变化；徐霄承诺帮助其与陈青儿晋级炼虚
+  relationship_change: 成为狐族与徐霄之间的主要联络者并参与猿洪伏杀合作
+  realm: 炼虚境
+  accepted_gifts:
+  - gift_id: GIFT-0037
+    item: 五枚虚天丹
+    status: partial
+  - gift_id: GIFT-0040
+    item: 碧水流光剑
+    status: partial
 - id: CHAR-0028
   name: 陈青儿
   status: alive
@@ -1524,7 +1560,7 @@ characters:
   verification_status: partial
 - id: CHAR-0032
   name: 猿洪
-  status: alive
+  status: dead
   role: antagonist
   affiliations:
   - 猿族
@@ -1545,6 +1581,7 @@ characters:
   related_nodes:
   - NODE-0024
   - NODE-0027
+  - NODE-0029
   source_chapters:
   - 158
   - 159
@@ -1557,9 +1594,17 @@ characters:
   - 188
   - 189
   - 190
+  - 207
+  - 208
+  - 209
+  - 210
   verification_status: partial
   conflict_change: 参与渡劫后的妖族突袭，因九天神雷符与远古战场现世而停止现场追杀
   strategic_plan: 参与妖族与魔道在远古战场内围杀徐霄的布局
+  death:
+    chapter: 210
+    event: 通天神棍阵伏击失败后被徐霄与狐族合作击杀
+    status: partial
 - id: CHAR-0033
   name: 虎奔
   status: alive
@@ -1747,4 +1792,53 @@ characters:
     event: 接受五枚虚天丹后公开修正对徐霄的评价
     status: partial
   document: docs/02-characters/陆文涛.md
+  verification_status: partial
+- id: CHAR-0040
+  name: 白茹
+  status: alive
+  role: supporting
+  affiliations:
+  - 白狐族
+  identities:
+  - 狐族主母
+  - 狐族族长
+  realm:
+    value: 炼虚后期
+    status: partial
+  first_appearance:
+    chapter: 206
+    title: 狐族主母，白茹
+    node: NODE-0029
+  accepted_gifts:
+  - gift_id: GIFT-0038
+    item: 五枚虚天丹
+    status: partial
+  document: docs/02-characters/白茹.md
+  verification_status: partial
+- id: CHAR-0041
+  name: 白霞儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 白狐族
+  identities:
+  - 白茹三孙女
+  - 白九儿之姐
+  - 狐族天才
+  realm:
+    value: 化神九重巅峰
+    status: partial
+  luck_grade:
+    value: C
+    base_multiplier: pending
+    status: partial
+  first_appearance:
+    chapter: 208
+    title: 再见通天神棍阵
+    node: NODE-0029
+  accepted_gifts:
+  - gift_id: GIFT-0039
+    item: 三枚虚天丹
+    status: partial
+  document: docs/02-characters/白霞儿.md
   verification_status: partial

@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 17
+  extension_files: 18
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -995,3 +995,61 @@ nodes:
   - 尸灵生前身份与法宝归属
   document: docs/01-timeline/node-0028.md
   evidence: sources/evidence/chapters-192-199.yaml
+- id: NODE-0029
+  title: 狐族合作、猿洪伏杀与灵宝返还库解锁
+  chapters:
+    start: 200
+    end: 210
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第200—211章标题、顺序和边界；第200—210章正文由可访问镜像交叉核验
+  boundary_reason: 第210章完成猿洪任务结算、返还库升级与狐族交易兑现；第211章转入灵宝探查及战场异况
+  characters:
+  - 徐霄
+  - 白九儿
+  - 白茹
+  - 白霞儿
+  - 猿洪
+  - 上官倩
+  - 段红绫
+  system_events:
+  - gift_id: GIFT-0037
+    recipient: 白九儿
+    gift: 五枚虚天丹
+    reward: 十五枚合道丹
+    status: partial
+  - gift_id: GIFT-0038
+    recipient: 白茹
+    gift: 五枚虚天丹
+    reward: 鸿蒙一气丹
+    status: partial
+  - gift_id: GIFT-0039
+    recipient: 白霞儿
+    gift: 三枚虚天丹
+    reward: 天凤神元丹
+    status: partial
+  - gift_id: GIFT-0040
+    recipient: 白九儿
+    gift: 碧水流光剑
+    reward: 灵宝三光分水剑
+    status: partial
+  conflict_events:
+  - event: 狐族协助徐霄诱杀猿洪
+    result: 通天神棍阵被九天神雷符破解，十二名猿族长老与猿洪死亡
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    new_resources:
+    - 十五枚合道丹
+    - 鸿蒙一气丹
+    - 天凤神元丹
+    - 三光分水剑
+    system_upgrade: 法宝返还库最高可返还灵宝
+    status: partial
+  pending:
+  - 新气运之敌完整面板
+  - 白茹完整系统面板
+  - 通天如意棍最终归属
+  - 三光分水剑完整能力
+  document: docs/01-timeline/node-0029.md
+  evidence: sources/evidence/chapters-200-210.yaml

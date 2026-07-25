@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 15
+  extension_files: 16
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -576,4 +576,53 @@ gifts:
   first_gift: true
   triggered_multiplier: 1000
   reward: 血牛猛虎丹
+  status: partial
+- id: GIFT-0037
+  chapter: 205
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白九儿
+  recipient_luck_grade: S
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 十五枚合道丹
+  status: partial
+- id: GIFT-0038
+  chapter: 207
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白茹
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 鸿蒙一气丹
+  status: partial
+- id: GIFT-0039
+  chapter: 208
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白霞儿
+  recipient_luck_grade: C
+  gift: 三枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 天凤神元丹
+  status: partial
+- id: GIFT-0040
+  chapter: 210
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白九儿
+  recipient_luck_grade: S
+  gift: 碧水流光剑
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 灵宝三光分水剑
   status: partial
