@@ -43,20 +43,21 @@ tasks:
 - {id: TASK-0039, status: done}
 - {id: TASK-0040, status: done}
 - {id: TASK-0041, status: done}
-- id: TASK-0042
-  title: Build the 黑风任务结算与先天灵宝返还 story arc from Chapter 296 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0051
-  target: {chapter_start: 296, chapter_end: 303, node: NODE-0040, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0040.md, data/extensions/timeline/run-0051.yaml, data/extensions/characters/run-0051.yaml, data/extensions/system/run-0051.yaml, data/extensions/artifacts/run-0051.yaml, sources/evidence/chapters-296-303.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0041]
+- {id: TASK-0042, status: done}
 - id: TASK-0043
   title: Build the 凤族寿宴赠礼与方达飞气运之子 story arc from Chapter 304 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 304, provisional_chapter_end: 311, node: NODE-0041, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0052
+  target: {chapter_start: 304, chapter_end: 316, node: NODE-0041, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0041.md, data/extensions/timeline/run-0052.yaml, data/extensions/characters/run-0052.yaml, data/extensions/system/run-0052.yaml, data/extensions/artifacts/run-0052.yaml, sources/evidence/chapters-304-316.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0042]
+- id: TASK-0044
+  title: Build the 返宗汇报、凤族回归与方达飞后续 story arc from Chapter 317 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 317, provisional_chapter_end: 324, node: NODE-0042, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0043]

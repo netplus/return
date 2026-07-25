@@ -4,25 +4,25 @@
 - **Current milestone:** M7 — Chapters 301–350
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 303
-- **Current evidence exploration through:** Chapter 304
+- **Canonical coverage through:** Chapter 316
+- **Current evidence exploration through:** Chapter 317
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 40
+- **Completed timeline nodes:** 41
 - **Draft timeline nodes:** 0
-- **Documented characters:** 56
-- **Gift events:** 53
-- **Artifact records:** 37
-- **Last run:** `RUN-0051`
-- **Last completed node:** `NODE-0040`
-- **Next task:** `TASK-0043` — 凤族寿宴赠礼与方达飞气运之子 story arc
-- **Provisional exploration range:** Chapters 304–311
+- **Documented characters:** 58
+- **Gift events:** 54
+- **Artifact records:** 38
+- **Last run:** `RUN-0052`
+- **Last completed node:** `NODE-0041`
+- **Next task:** `TASK-0044` — 返宗汇报、凤族回归与方达飞后续 story arc
+- **Provisional exploration range:** Chapters 317–324
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0040` covers Chapters 296—303. 黑风死亡后，系统结算气运之敌任务并授予下一次灵宝赠送返还先天灵宝的奖励。徐霄将血气灵宝剑赠给第一婵，返还先天灵宝神木飞舟；第一婵随后接受五枚合道丹并返还五枚蕴仙丹。林婉接受十枚虚天丹和一枚合道丹，分别返还十枚合道丹与一枚蕴仙丹，双方关系转为稳定道侣。玉鼎仙宗与天煞魔宗开始调查徐霄。约一年后，徐霄以天阵阁临时首座身份与赤霞、蛮天参加凤仪万年寿宴，并首次公开神木飞舟。第 304 章转入凤族宴会连续赠礼。
+`NODE-0041` covers Chapters 304—316. 凤仪万年寿宴上，系统识别玉鼎仙宗长老方达飞为气运之子并发布击杀任务。徐霄以宗门和私人礼单向凤仪赠送合道丹、绝品驻颜丹、法宝与极品灵石，集中返还三千大道丹、蕴仙丹、鸿蒙一气丹、七件灵宝和大量极品灵石。随后三宗进入凤山界竞争五色神光；玉鼎仙宗与天煞魔宗队伍先后受创，徐霄以神木飞舟、五行灵宝神剑和高阶符箓清除主要凶兽威胁，促使凤族将其列为最尊贵客人并转向重回无妄仙宗。第 317 章转入返宗汇报和凤青玄精血交付。
 
-## Quality gates — RUN-0051
+## Quality gates — RUN-0052
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 296—304 章标题、顺序和边界；第 296—303 章正文由 CP 小说网、小说之家等可访问正文镜像交叉核验。血气灵宝剑正式名称、神木飞舟完整上限、玉冰研究天龙血结果、外宗调查后续及第 304 章起凤族赠礼继续保持 `pending`。
+番茄小说官方目录确认第 304—317 章标题、顺序和边界；第 304—316 章正文由 CP 小说网等可访问正文镜像交叉核验。方达飞完整大乘传承、凤仪完整系统面板、七件返还灵宝逐件名称、五色神光最终分配及第 317 章起精血返还继续保持 `pending`。

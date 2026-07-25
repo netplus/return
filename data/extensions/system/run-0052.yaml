@@ -1,0 +1,38 @@
+schema_version: 1
+run_id: RUN-0052
+gift_events:
+- id: GIFT-0054
+  chapter: 306
+  node: NODE-0041
+  giver: 徐霄
+  recipient: 凤仪
+  gift:
+    items: [二十枚合道丹, 一枚绝品驻颜丹, 七件法宝, 一千二百枚极品灵石]
+    context: 凤仪万年寿宴的宗门及私人综合礼单
+  accepted: true
+  system_valid: true
+  first_gift: true
+  returns:
+  - {source: 第一枚合道丹, multiplier: 10000, reward: 三千大道丹}
+  - {source: 其余十九枚合道丹, reward: 五十七枚蕴仙丹}
+  - {source: 绝品驻颜丹, reward: 鸿蒙一气丹}
+  - {source: 七件法宝, reward: 七件灵宝}
+  - {source: 一千二百枚极品灵石, reward: 三万六千枚极品灵石}
+  relationship_result: 凤仪及凤族对徐霄和无妄仙宗态度显著改善
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [凤仪]
+    luck_enemies_add: [方达飞]
+    gift_ids_add: [GIFT-0054]
+    active_tasks_add:
+    - {target: 方达飞, type: 击杀气运之子, reward: 返还道具库升级, status: pending, chapter: 304}
+    rule_instances_add:
+    - trigger: 赠送具有充分合理的宗门邀请与寿宴场景理由
+      effect: 赠送物品可突破受赠气运对象自身境界限制并正常结算
+      chapter: 306
+      status: partial
+    related_nodes_add: [NODE-0041]
+    source_chapters_add: [304, 306]

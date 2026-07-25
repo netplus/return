@@ -1,0 +1,38 @@
+schema_version: 2
+run_id: RUN-0052
+task_id: TASK-0043
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 304
+  chapter_end: 316
+  node: NODE-0041
+  status: promoted
+  canonical_document: docs/01-timeline/node-0041.md
+  boundary_reason: 第316章完成凤山界主要凶兽清剿、凤族态度逆转与回归方向确认；第317章转入返宗汇报和凤青玄精血交付
+chapters:
+- {chapter: 304, title: 开始送礼, facts: [系统识别方达飞为气运之子, 方达飞暗有大乘传承, 击杀任务奖励为返还道具库升级, 凤族高层讨论是否回归无妄仙宗], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 305, title: 徐霄的第二份礼单, facts: [玉鼎仙宗和天煞魔宗以重礼争取凤族, 无妄仙宗礼单面临竞争, 徐霄追加私人赠礼], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 306, title: 徐霄的阔绰手笔, facts: [凤仪接受二十枚合道丹一枚绝品驻颜丹七件法宝和一千二百极品灵石, 系统返还三千大道丹五十七枚蕴仙丹鸿蒙一气丹七件灵宝和三万六千极品灵石, 合理赠送理由可突破受赠者境界限制], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 307, title: 凤青玄的叮嘱, facts: [凤青玄借妙玉肉身与徐霄会面, 妙玉肉身达到合体初期, 凤青玄要求徐霄推动凤族回归无妄仙宗], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 308, title: 五行灵宝神剑, facts: [凤仪提出以凤山界五色神光作为三宗竞争条件, 徐霄确认拥有五行灵宝神剑体系, 三宗队伍进入凤山界], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 309, title: 天煞魔宗逃离, facts: [徐霄以五行灵宝神剑和九天神龙甲对抗合体巅峰血虎, 天煞魔宗队伍受创撤离, 无妄仙宗队伍继续收集五色神光], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 310, title: 绝望的玉鼎仙宗, facts: [天煞魔宗仅带回十二缕五色神光, 玉鼎仙宗竞争压力上升, 凤族继续比较各宗成果], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 311, title: 大乘九重混元天冰符, facts: [方达飞与两名玉鼎仙宗长老受创逃出凤山界, 方达飞指控无妄仙宗引兽袭击, 无妄仙宗取得进一步符箓资源], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 312, title: 连续震惊众人, facts: [徐霄向赤霞蛮天提供高阶符箓用于清剿, 神木飞舟前往凤山, 徐霄将清除凤山凶兽作为第三份生辰礼], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 313, title: 开始动手, facts: [五行灵宝神剑首次被凤族和各宗公开确认, 徐霄战力被评估为接近顶尖合体修士, 无妄仙宗队伍进入凤山核心区], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 314, title: 血凤头领, facts: [混沌神火和混沌极冰符大规模清除凶兽, 凤族确认高阶符箓来自徐霄, 凤山血凤头领成为最终主要威胁], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 315, title: 收取凤青玄精血, facts: [徐霄以五行灵宝神剑九天神龙甲和高阶符箓对抗血凤头领, 清剿行动接近完成, 凤青玄精血线索出现], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 316, title: 凤族的选择, facts: [凤山界主要凶兽威胁被清除, 凤族将徐霄列为最尊贵客人, 凤族态度转向重回无妄仙宗, 徐霄治疗赤霞伤势], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 317
+  next_title: 返回宗门汇报
+  transition: 转入返宗汇报、凤青玄精血交付和凤族正式回归安排
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0051
+run_id: RUN-0052
 coverage:
-  chapters_covered_through: 303
-  chapters_promoted_in_run: [296, 297, 298, 299, 300, 301, 302, 303]
-  timeline_nodes: 40
+  chapters_covered_through: 316
+  chapters_promoted_in_run: [304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316]
+  timeline_nodes: 41
   draft_nodes: 0
-  story_arc_nodes: 37
-  characters_documented: 56
+  story_arc_nodes: 38
+  characters_documented: 58
   characters_staged: 0
   system_records: 1
-  gift_events: 53
-  artifact_records: 37
+  gift_events: 54
+  artifact_records: 38
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [296, 297, 298, 299, 300, 301, 302, 303, 304]
-    cross_checked_mirror_chapters: [296, 297, 298, 299, 300, 301, 302, 303]
-    pending_fields: [血气灵宝剑正式名称与完整能力, 神木飞舟完整速度传送限制与防御上限, 玉冰研究天龙血的最终成果, 外宗调查后的完整行动链, 第304章起凤族赠礼结算]
+    official_catalog_chapters: [304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317]
+    cross_checked_mirror_chapters: [304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316]
+    pending_fields: [方达飞大乘传承完整内容, 凤仪完整系统面板, 七件返还灵宝逐件名称与对应关系, 凤山界五色神光完整数量与分配, 第317章起精血赠送返还]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第303章完成神木飞舟公开亮相与凤族出行转场；第304章开始凤族宴会连续赠礼}
-  materiality: {status: passed, entity_updates: [NODE-0040, 徐霄任务结算与凤族代表身份, 第一婵灵宝与合道丹资源关系, 林婉稳定道侣关系, GIFT-0050, GIFT-0051, GIFT-0052, GIFT-0053, ART-0037神木飞舟]}
+  arc_coherence: {status: passed, boundary: 第316章完成凤山界主要凶兽清剿、凤族态度逆转与回归方向确认；第317章转入返宗汇报和凤青玄精血交付}
+  materiality: {status: passed, entity_updates: [NODE-0041, CHAR-0057方达飞, CHAR-0058凤仪, GIFT-0054, ART-0038五行灵宝神剑组, SYS-0001规则与任务更新]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0040.md, data/extensions/timeline/run-0051.yaml, data/extensions/characters/run-0051.yaml, data/extensions/system/run-0051.yaml, data/extensions/artifacts/run-0051.yaml]
+    files_checked: [docs/01-timeline/node-0041.md, data/extensions/timeline/run-0052.yaml, data/extensions/characters/run-0052.yaml, data/extensions/system/run-0052.yaml, data/extensions/artifacts/run-0052.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0051.yaml, data/extensions/characters/run-0051.yaml, data/extensions/system/run-0051.yaml, data/extensions/artifacts/run-0051.yaml, sources/evidence/chapters-296-303.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0052.yaml, data/extensions/characters/run-0052.yaml, data/extensions/system/run-0052.yaml, data/extensions/artifacts/run-0052.yaml, sources/evidence/chapters-304-316.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

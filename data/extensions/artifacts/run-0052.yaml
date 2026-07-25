@@ -1,0 +1,43 @@
+schema_version: 1
+run_id: RUN-0052
+artifacts:
+- id: ART-0038
+  name: 五行灵宝神剑组
+  category: 灵宝神剑组合
+  grade: 灵宝
+  first_chapter: 308
+  current_holder: 徐霄
+  acquisition: GIFT-0054七件灵宝返还中的已确认组成部分
+  composition:
+    confirmed_count: 5
+    attributes: [金, 木, 水, 火, 土]
+    exact_item_mapping: pending
+  effect:
+  - 可由鸿蒙真气协同驱动
+  - 五行属性配合可重创合体巅峰凶兽
+  - 可与九天神龙甲、神木飞舟形成高阶攻防体系
+  status: partial
+  related_nodes: [NODE-0041]
+  source_chapters: [308, 309, 313, 314, 315]
+artifact_updates:
+- id: ART-0037
+  name: 神木飞舟
+  update:
+    combat_record_add: 在凤山界合体巅峰凶兽密集区域承担飞行、防御和作战平台功能
+    related_nodes_add: [NODE-0041]
+    source_chapters_add: [309, 312, 313, 316]
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    acquisition_add: {gift_id: GIFT-0054, chapter: 306, result: 待服用, status: partial}
+    related_nodes_add: [NODE-0041]
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: {gift_id: GIFT-0054, chapter: 306, status: partial}
+    related_nodes_add: [NODE-0041]
+- id: ART-0034
+  name: 蕴仙丹
+  update:
+    acquisition_add: {gift_id: GIFT-0054, chapter: 306, quantity: 57, status: partial}
+    related_nodes_add: [NODE-0041]
