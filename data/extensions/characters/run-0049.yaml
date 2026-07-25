@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0049
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add:
+    - 以合体九重混沌极冰符摧毁玉石宗伏杀阵营并完成宗门外勤清算
+    condition_change_add: 天龙天凤血脉与长期服用神丹使噬骨销魂散失效
+    role_change_add: 以无妄仙宗内门大师兄身份独立处理玉石宗重大外勤危机
+    related_nodes_add: [NODE-0038]
+    source_chapters_add: [283, 284, 285, 286, 287]
+- id: CHAR-0040
+  name: 白茹
+  update:
+    relationship_change_add: 公开到访天阵阁并进入徐霄在无妄仙宗的关系圈
+    system_interaction_add:
+    - {trigger: 窃取一点精气, return_to_xuxiao: 二十点精气, chapter: 287, status: partial}
+    related_nodes_add: [NODE-0038]
+    source_chapters_add: [286, 287]
+- id: CHAR-0047
+  name: 叶尘
+  update:
+    conflict_escalation_add: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
+    current_action_add: 伏杀失败后继续维持宗门反徐舆论和敌对网络
+    related_nodes_add: [NODE-0038]
+    source_chapters_add: [283, 284, 285, 286]
+- id: CHAR-0055
+  name: 白玉龙
+  status: dead
+  role: antagonist
+  affiliations: [玉石宗]
+  identities: [玉石宗掌门, 玉石宗伏杀组织者]
+  first_appearance: {chapter: 283, title: 玉石宗事变, node: NODE-0038}
+  cultivation: {current: 合体境, status: partial}
+  conspiracy:
+    partners: [无妄仙宗周执事, 无妄仙宗钱执事, 三名无妄仙宗外门弟子]
+    method: 以扣押弟子事件诱骗徐霄入宗，使用噬骨销魂散并安排合体修士围杀
+    motive: 夺取徐霄所持大乘传承资源并在事后逃离
+    status: partial
+  conflict:
+    target: 徐霄
+    result: 伏杀失败，死于混沌极冰符清算，玉石宗随之覆灭
+    status: partial
+  related_nodes: [NODE-0038]
+  source_chapters: [283, 284, 287]
+  document: null
+  verification_status: partial
