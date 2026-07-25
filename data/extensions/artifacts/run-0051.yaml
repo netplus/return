@@ -1,0 +1,43 @@
+schema_version: 1
+run_id: RUN-0051
+artifacts:
+- id: ART-0037
+  name: 神木飞舟
+  category: 飞行与传送灵宝
+  grade: 先天灵宝
+  first_chapter: 296
+  current_holder: 徐霄
+  acquisition: GIFT-0050返还
+  capabilities:
+  - 可进行短距离传送以脱离围困
+  - 具备高速飞行能力
+  - 可启动顶级防御光阵
+  public_reveal: 第303章凤族出行前公开亮相
+  status: partial
+  related_nodes: [NODE-0040]
+artifact_updates:
+- id: ART-0034
+  name: 蕴仙丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0051, quantity: 5, chapter: 298, status: partial}
+    - {gift_id: GIFT-0053, quantity: 1, chapter: 300, status: partial}
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [298, 300]
+- id: ART-0021
+  name: 虚天丹
+  update:
+    transfers_add:
+    - {gift_id: GIFT-0052, recipient: 林婉, quantity: 10, chapter: 300, status: partial}
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [300]
+- id: ART-0029
+  name: 合道丹
+  update:
+    transfers_add:
+    - {gift_id: GIFT-0051, recipient: 第一婵, quantity: 5, chapter: 298, status: partial}
+    - {gift_id: GIFT-0053, recipient: 林婉, quantity: 1, chapter: 300, status: partial}
+    acquisitions_add:
+    - {gift_id: GIFT-0052, quantity: 10, chapter: 300, status: partial}
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [298, 300]

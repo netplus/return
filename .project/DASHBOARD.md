@@ -1,28 +1,28 @@
 # Project dashboard
 
 - **Status:** Active
-- **Current milestone:** M6 — Chapters 251–300
+- **Current milestone:** M7 — Chapters 301–350
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 295
-- **Current evidence exploration through:** Chapter 296
+- **Canonical coverage through:** Chapter 303
+- **Current evidence exploration through:** Chapter 304
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 39
+- **Completed timeline nodes:** 40
 - **Draft timeline nodes:** 0
 - **Documented characters:** 56
-- **Gift events:** 49
-- **Artifact records:** 36
-- **Last run:** `RUN-0050`
-- **Last completed node:** `NODE-0039`
-- **Next task:** `TASK-0042` — 黑风任务结算与先天灵宝返还 story arc
-- **Provisional exploration range:** Chapters 296–303
+- **Gift events:** 53
+- **Artifact records:** 37
+- **Last run:** `RUN-0051`
+- **Last completed node:** `NODE-0040`
+- **Next task:** `TASK-0043` — 凤族寿宴赠礼与方达飞气运之子 story arc
+- **Provisional exploration range:** Chapters 304–311
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0039` covers Chapters 288—295. 系统识别银鳞城城主、黑魔宗掌门黑风为气运之敌，并发布击杀任务。徐霄随第一婵、秦朋进入血林沼泽追踪血气灵宝，嗜血天魔刀斩杀三棵合体血藤树并继续增强。第一婵遭合体九重修士伪装伏击时，徐霄以混沌神雷符解围；随后将缴获法宝神剑赠予第一婵，返还灵宝玄天艮土剑，补齐五行灵宝神剑体系。三大仙宗围攻庇护黑风的合体巅峰血藤树，萧慕河与血云魔尊也在现场确认徐霄已抵达天元大陆。第 295 章完成黑风死亡、血气灵宝易手与徐霄一方脱离围攻；第 296 章转入任务结算、灵宝赠送和先天灵宝返还。
+`NODE-0040` covers Chapters 296—303. 黑风死亡后，系统结算气运之敌任务并授予下一次灵宝赠送返还先天灵宝的奖励。徐霄将血气灵宝剑赠给第一婵，返还先天灵宝神木飞舟；第一婵随后接受五枚合道丹并返还五枚蕴仙丹。林婉接受十枚虚天丹和一枚合道丹，分别返还十枚合道丹与一枚蕴仙丹，双方关系转为稳定道侣。玉鼎仙宗与天煞魔宗开始调查徐霄。约一年后，徐霄以天阵阁临时首座身份与赤霞、蛮天参加凤仪万年寿宴，并首次公开神木飞舟。第 304 章转入凤族宴会连续赠礼。
 
-## Quality gates — RUN-0050
+## Quality gates — RUN-0051
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 288—296 章标题、顺序和边界；第 288—295 章正文由 CP 小说网、小说之家等可访问正文镜像交叉核验。黑风血气灵宝正式名称、黑风最终致命者、混沌神雷符消耗状态、萧慕河与血云魔尊完整行动及第 296 章正式任务结算继续保持 `pending`。
+番茄小说官方目录确认第 296—304 章标题、顺序和边界；第 296—303 章正文由 CP 小说网、小说之家等可访问正文镜像交叉核验。血气灵宝剑正式名称、神木飞舟完整上限、玉冰研究天龙血结果、外宗调查后续及第 304 章起凤族赠礼继续保持 `pending`。

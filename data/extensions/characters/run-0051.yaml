@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0051
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    system_task_completion_add: 黑风气运之敌任务完成，下一次灵宝赠送可返还先天灵宝
+    resource_add: [ART-0037]
+    role_change_add: 以天阵阁临时首座身份代表无妄仙宗参加凤族族长万年寿宴
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [296, 297, 298, 299, 300, 301, 302, 303]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    accepted_gifts_add: [GIFT-0050, GIFT-0051]
+    current_artifact_add: 血气灵宝剑
+    relationship_change: 获得徐霄赠送的灵宝和持续合道丹支持，师徒资源与信任关系进一步固化
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [296, 297, 298]
+- id: CHAR-0053
+  name: 林婉
+  update:
+    accepted_gifts_add: [GIFT-0052, GIFT-0053]
+    cultivation_progress: 接近炼虚巅峰并获得合道丹作为破境资源
+    relationship_change: 与徐霄形成稳定道侣及长期资源支持关系
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [299, 300, 301]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    major_action_add: 继续取得徐霄天龙血用于研究，并要求执法体系压制针对徐霄的宗门舆论
+    related_nodes_add: [NODE-0040]
+    source_chapters_add: [297, 298, 302]

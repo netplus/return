@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0051
+nodes:
+- id: NODE-0040
+  title: 黑风任务结算、先天灵宝返还与凤族出行
+  chapters: {start: 296, end: 303}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第296—304章标题、顺序和边界；第296—303章正文由可访问镜像交叉核验
+  boundary_reason: 第303章完成神木飞舟公开亮相与凤族出行转场；第304章开始凤族宴会连续赠礼
+  characters: [徐霄, 第一婵, 林婉, 玉冰, 秦朋, 赤霞, 蛮天]
+  system_events:
+  - event: 黑风气运之敌任务结算
+    trigger: 黑风死亡
+    reward: 下一次赠送灵宝突破限制并返还先天灵宝
+    settlement_chapter: 296
+    status: partial
+  - event: 血气灵宝赠送返还
+    trigger: 赠送血气灵宝剑给第一婵
+    reward: 先天灵宝神木飞舟
+    gift_id: GIFT-0050
+    status: partial
+  conflict_events:
+  - event: 外宗调查徐霄
+    result: 玉鼎仙宗和天煞魔宗将徐霄的大乘传承、灵宝与战绩视为威胁并开始调查
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    resource_change: 获得先天灵宝神木飞舟并以天阵阁临时首座身份参加凤族寿宴
+    status: partial
+  pending:
+  - 血气灵宝剑正式名称与完整能力
+  - 神木飞舟完整速度传送限制与防御上限
+  - 玉冰研究天龙血的最终成果
+  - 外宗调查后的完整行动链
+  document: docs/01-timeline/node-0040.md
+  evidence: sources/evidence/chapters-296-303.yaml
