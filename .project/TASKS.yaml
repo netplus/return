@@ -26,9 +26,19 @@ tasks:
 - {id: TASK-0023, title: Build Chapters 138-144 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_ids: [RUN-0031, RUN-0032], target: {chapter_start: 138, chapter_end: 144, node: NODE-0021}, depends_on: [TASK-0022]}
 - {id: TASK-0024, title: Build Chapters 145-152 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0033, target: {chapter_start: 145, chapter_end: 152, node: NODE-0022}, quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}, depends_on: [TASK-0023]}
 - id: TASK-0025
-  title: Build the 刘玲玲绑架与猿族清算 story arc from Chapter 153 onward
+  title: Build Chapters 153-157 story arc
+  type: story_arc
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0034
+  target: {chapter_start: 153, chapter_end: 157, node: NODE-0023, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0023.md, data/extensions/timeline/run-0034.yaml, data/extensions/characters/run-0034.yaml, data/extensions/system/run-0034.yaml, data/extensions/artifacts/run-0034.yaml, sources/evidence/chapters-153-157.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  depends_on: [TASK-0024]
+- id: TASK-0026
+  title: Build the 八大妖族联合反应与炼虚来袭 story arc from Chapter 158 onward
   type: story_arc
   status: pending
-  target: {chapter_start: 153, provisional_chapter_end: 160, node: NODE-0023, boundary: adaptive}
+  target: {chapter_start: 158, provisional_chapter_end: 165, node: NODE-0024, boundary: adaptive}
   rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0024]
+  depends_on: [TASK-0025]

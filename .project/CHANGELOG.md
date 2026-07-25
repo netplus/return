@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0034 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0025`; no completed task or canonical node was duplicated.
+- Resolved the adaptive boundary at Chapter 157; Chapter 158 begins the eight-demon-clan response.
+- Created `NODE-0023`: 刘玲玲营救与猿族清算, covering Chapters 153—157.
+- Recorded 刘玲玲's rescue and transfer plan to 缥缈宗, 猿华 and eight ape elders' deaths, and the destruction of 通天神棍阵.
+- Added `GIFT-0031`: ten蕴金丹 to 刘玲玲, consuming the fixed ten-thousand-fold task bonus and returning 三千大道丹.
+- Updated 三千大道丹 with its fifth recorded consumption and净水之道; updated 九天神雷符 with the ape-clan battle use.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted the chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0025` and queued `TASK-0026` beginning at Chapter 158.
+
 ## RUN-0033 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

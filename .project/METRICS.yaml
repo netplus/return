@@ -1,29 +1,24 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0033
+run_id: RUN-0034
 coverage:
-  chapters_covered_through: 152
-  chapters_promoted_in_run: [145, 146, 147, 148, 149, 150, 151, 152]
-  timeline_nodes: 22
+  chapters_covered_through: 157
+  chapters_promoted_in_run: [153, 154, 155, 156, 157]
+  timeline_nodes: 23
   draft_nodes: 0
-  story_arc_nodes: 19
+  story_arc_nodes: 20
   characters_documented: 31
   characters_staged: 0
   system_records: 1
-  gift_events: 31
+  gift_events: 32
   artifact_records: 25
   artifacts_staged: 0
 quality_gates:
-  source_traceability:
-    status: passed_with_qualifications
-    official_catalog_chapters: [145, 146, 147, 148, 149, 150, 151, 152, 153]
-    cross_checked_mirror_chapters: [145, 146, 147, 148, 149, 150, 151, 152]
-    pending_fields: [GIFT-0030系统返还结算, 白九儿原始身份面板完整字段, 通天如意棍完整品阶]
-    failures: 0
-  arc_coherence: {status: passed, boundary: 第152章完成白九儿渗透失败、精气返还实例、柳璃关系变化与猿华诱杀方案；第153章转入刘玲玲被绑架}
-  materiality: {status: passed, entity_updates: [NODE-0022, 白九儿, GIFT-0030, 精气窃取返还规则, 柳璃关系变化, 猿华诱杀计划]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, files_checked: [docs/01-timeline/node-0022.md, data/extensions/timeline/run-0033.yaml, data/extensions/characters/run-0033.yaml, data/extensions/system/run-0033.yaml]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [153, 154, 155, 156, 157, 158], cross_checked_mirror_chapters: [153, 154, 155, 156, 157], pending_fields: [第153章批量赠送逐项事件与倍率, 通天如意棍战后状态, 水系三道合一结果], failures: 0}
+  arc_coherence: {status: passed, boundary: 第157章完成刘玲玲营救、猿族九人覆灭、缥缈宗安排、万倍暴击兑现与净水之道领悟；第158章转入八大妖族联合反应}
+  materiality: {status: passed, entity_updates: [NODE-0023, 刘玲玲长期培养安排, 猿华死亡, GIFT-0031, 三千大道丹第五次服用, 净水之道, 九天神雷符实战]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, files_checked: [docs/01-timeline/node-0023.md, data/extensions/timeline/run-0034.yaml, data/extensions/characters/run-0034.yaml, data/extensions/system/run-0034.yaml, data/extensions/artifacts/run-0034.yaml]}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0033.yaml, data/extensions/characters/run-0033.yaml, data/extensions/system/run-0033.yaml, sources/evidence/chapters-145-152.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0034.yaml, data/extensions/characters/run-0034.yaml, data/extensions/system/run-0034.yaml, data/extensions/artifacts/run-0034.yaml, sources/evidence/chapters-153-157.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

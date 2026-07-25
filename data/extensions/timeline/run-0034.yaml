@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0034
+nodes:
+- id: NODE-0023
+  title: 刘玲玲营救与猿族清算
+  chapters:
+    start: 153
+    end: 157
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第153—158章标题、顺序和边界；第153—157章正文由可访问镜像交叉核验
+  boundary_reason: 第157章完成刘玲玲营救、猿族九人覆灭、缥缈宗安排、万倍暴击兑现与净水之道领悟；第158章转入八大妖族联合反应
+  characters:
+  - 徐霄
+  - 刘玲玲
+  - 猿华
+  - 陆大年
+  system_events:
+  - gift_id: GIFT-0031
+    recipient: 刘玲玲
+    gift: 十枚蕴金丹
+    triggered_multiplier: 10000
+    reward: 三千大道丹
+    status: partial
+  conflict_events:
+  - event: 猿华与八名猿族长老以刘玲玲设伏并启动通天神棍阵
+    result: 徐霄使用九天神雷符摧毁阵法，猿族九人全灭，刘玲玲获救
+    status: partial
+  protagonist_state:
+    dao_comprehension_add: 净水之道
+    status: partial
+  pending:
+  - 第153章批量赠送的逐项事件与倍率
+  - 通天如意棍战后明确状态
+  - 水系三道合一结果
+  document: docs/01-timeline/node-0023.md
+  evidence: sources/evidence/chapters-153-157.yaml

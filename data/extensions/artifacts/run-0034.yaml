@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0034
+artifacts:
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    acquisition_add:
+      gift_id: GIFT-0031
+      chapter: 156
+      result: 净水之道
+      status: partial
+    instances_consumed: 5
+    related_nodes_add:
+    - NODE-0023
+- id: ART-0012
+  name: 九天神雷符
+  update:
+    battle_use_add:
+      chapter_range: 154-155
+      event: 摧毁通天神棍阵并击杀猿华及八名猿族化神长老
+      status: partial
+    quantity_consumed_add: 1
+    related_nodes_add:
+    - NODE-0023

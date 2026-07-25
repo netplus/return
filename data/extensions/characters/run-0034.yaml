@@ -1,0 +1,52 @@
+schema_version: 1
+run_id: RUN-0034
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    dao_comprehension_add: 净水之道
+    major_conflict_add: 使用九天神雷符摧毁通天神棍阵并击杀猿华及八名猿族长老
+    related_nodes_add:
+    - NODE-0023
+    source_chapters_add:
+    - 153
+    - 154
+    - 155
+    - 156
+    - 157
+- id: CHAR-0022
+  name: 刘玲玲
+  update:
+    affiliations_add:
+    - 缥缈宗
+    identity_add: 陆大年记名弟子（安排）
+    cultivation_current: 结丹境
+    accepted_gifts_add:
+    - GIFT-0031
+    relationship_change: 由铁幕城前线关系人转为前往缥缈宗长期培养
+    related_nodes_add:
+    - NODE-0023
+    source_chapters_add:
+    - 153
+    - 154
+    - 155
+    - 156
+- id: CHAR-0030
+  name: 猿华
+  update:
+    status: dead
+    conflict_result: 与八名猿族化神长老在通天神棍阵中死于九天神雷符
+    related_nodes_add:
+    - NODE-0023
+    source_chapters_add:
+    - 153
+    - 154
+    - 155
+- id: CHAR-0004
+  name: 陆大年
+  update:
+    disciple_add: 刘玲玲（记名弟子安排）
+    related_nodes_add:
+    - NODE-0023
+    source_chapters_add:
+    - 156
