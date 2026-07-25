@@ -1,0 +1,67 @@
+schema_version: 2
+run_id: RUN-0046
+task_id: TASK-0037
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 253
+  chapter_end: 259
+  node: NODE-0035
+  status: promoted
+  canonical_document: docs/01-timeline/node-0035.md
+  boundary_reason: 第259章完成天阵阁关系稳定并引出林婉；第260章正式进入宗门内门大比
+chapters:
+- chapter: 253
+  title: 再次赠送返还
+  facts: [徐霄拒绝个人年度宗门资源并将九枚极品灵石分给三名师兄姐, 徐霄向秦朋程芷程双各赠送五枚虚天丹]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 254
+  title: 程双的完美爱情
+  facts: [三个月后徐霄晋升炼虚一重, 晋升触发丹药返还库升级, 徐霄鸿蒙真气增至七股并领悟金之大道锋锐金刚粉碎三道]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 255
+  title: 不舒服的程芷
+  facts: [程双与徐霄羁绊度提升至2, 程芷确认妹妹与徐霄关系并继续保持保护立场]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 256
+  title: 合道丹
+  facts: [程双确认徐霄已累计赠送其约二十枚虚天丹并承诺包揽后续资源, 秦朋接受虚天丹并认可徐霄]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 257
+  title: 悲伤的内门弟子
+  facts: [第一婵认可徐霄与程双关系, 徐霄赠送一枚合道丹并返还一枚蕴仙丹, 徐霄掌握炼虚初级五行阵盘制作和快速布阵]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 258
+  title: 天阵阁地震
+  facts: [徐霄向花怜惜赠送五枚虚天丹并返还十枚合道丹, 花怜惜与程双建立共处关系]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 259
+  title: 天运阁大师姐，林婉
+  facts: [第一婵获得两枚合道丹后支持徐霄与程双关系, 程芷再次接受五枚虚天丹, 林婉以天运阁大师姐身份进入剧情]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 260
+  next_title: 大比开始
+  transition: 转入无妄仙宗内门大比与天阵阁竞技表现
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
