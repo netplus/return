@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0050 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0041`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 295; Chapter 296 begins the formal task settlement, blood-artifact gift and innate-spirit-treasure return.
+- Created `NODE-0039`: 黑风追杀、血林沼泽争夺与灵宝到手, covering Chapters 288—295.
+- Added 黑风 as `CHAR-0056`; recorded his identities as 黑魔宗掌门、银鳞城城主 and luck enemy, and his death during the blood-artifact contest.
+- Updated 徐霄、第一婵、秦朋 and 萧慕河 for persistent combat, resource, relationship and enemy-line changes.
+- Added `GIFT-0049`: a captured artifact sword to 第一婵, returning the spirit treasure 玄天艮土剑.
+- Added `ART-0036` 玄天艮土剑 and expanded 嗜血天魔刀 and 混沌神雷符 combat records.
+- Recorded the three-sect pursuit, the destruction of three合体 blood-vine trees, the reappearance of 萧慕河／血云魔尊 and the transfer of 黑风's blood artifact to 徐霄's side.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0041` and queued `TASK-0042` beginning at Chapter 296.
+
 ## RUN-0049 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

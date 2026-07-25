@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0050
+nodes:
+- id: NODE-0039
+  title: 黑风追杀、血林沼泽争夺与灵宝到手
+  chapters: {start: 288, end: 295}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第288—296章标题、顺序和边界；第288—295章正文由可访问镜像交叉核验
+  boundary_reason: 第295章完成黑风死亡与血气灵宝争夺；第296章转入任务结算、血气灵宝赠送和先天灵宝返还
+  characters: [徐霄, 第一婵, 秦朋, 黑风, 萧慕河, 血云魔尊]
+  system_events:
+  - event: 黑风气运之敌击杀任务
+    trigger: 系统识别黑风为气运之敌
+    reward: 下一次赠送灵宝突破限制并返还先天灵宝
+    settlement_chapter: 296
+    status: partial
+  - event: 第一婵法宝神剑赠送返还
+    trigger: 赠送缴获的法宝神剑
+    reward: 灵宝玄天艮土剑
+    gift_id: GIFT-0049
+    status: partial
+  conflict_events:
+  - event: 血林沼泽血气灵宝争夺
+    result: 黑风死亡，徐霄一方取得血气灵宝并脱离三宗围攻
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    combat_change: 嗜血天魔刀吸收三棵合体血藤树气血并进一步增强
+    resource_change: 五行灵宝神剑体系因玄天艮土剑补齐
+    status: partial
+  pending:
+  - 黑风血气灵宝正式名称与完整能力
+  - 黑风最终致命者与逐击杀过程
+  - 混沌神雷符第292章消耗状态
+  - 萧慕河与血云魔尊争夺现场完整行动
+  - 第296章黑风任务正式结算与先天灵宝返还
+  document: docs/01-timeline/node-0039.md
+  evidence: sources/evidence/chapters-288-295.yaml

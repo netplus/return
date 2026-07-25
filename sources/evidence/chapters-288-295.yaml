@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0050
+task_id: TASK-0041
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 288
+  chapter_end: 295
+  node: NODE-0039
+  status: promoted
+  canonical_document: docs/01-timeline/node-0039.md
+  boundary_reason: 第295章完成黑风死亡与血气灵宝争夺；第296章转入任务结算、血气灵宝赠送和先天灵宝返还
+chapters:
+- chapter: 288
+  title: 赶到银鳞城
+  facts: [系统识别黑风为气运之敌并发布击杀任务, 黑风身份确认为黑魔宗掌门与银鳞城城主且修为合体七重, 任务奖励为下一次赠送灵宝突破限制并返还先天灵宝, 徐霄随第一婵秦朋前往银鳞城追踪血气灵宝]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 289
+  title: 魔刀出体
+  facts: [徐霄在血林沼泽再次使用嗜血天魔刀, 魔刀以吸收血气方式克制血藤树, 第一婵与秦朋进一步确认徐霄拥有血气灵宝]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 290
+  title: 玉冰的担忧
+  facts: [徐霄斩杀三棵合体血藤树并使嗜血天魔刀吸收其血气, 九天神龙甲与八股鸿蒙真气用于抵挡血藤攻击, 第一婵秦朋继续深入血林沼泽]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 291
+  title: 相遇玉鼎仙宗
+  facts: [追击队伍在血林沼泽与玉鼎仙宗等势力相遇, 多宗合体修士共同参与黑风与血气灵宝追踪, 第一婵一方继续保存阵盘和灵宝底牌]
+  official_catalog: true
+  readable_mirrors: [CP小说网, 小说之家]
+  status: partial
+- chapter: 292
+  title: 混沌神雷符之威
+  facts: [合体九重修士伪装血气魔修袭击第一婵一行, 第一婵使用多枚合体阵盘应战, 徐霄动用混沌神雷符解除伏击]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 293
+  title: 久违的老熟人
+  facts: [徐霄将伏击战缴获的法宝神剑赠予第一婵, 系统返还灵宝玄天艮土剑, 五行灵宝神剑体系补齐, 萧慕河与血云魔尊出现在血林沼泽争夺线]
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+- chapter: 294
+  title: 惊呆了的萧慕河
+  facts: [三大仙宗多名合体顶级修士围攻庇护黑风的合体巅峰血藤树, 萧慕河与血云魔尊确认徐霄已抵达天元大陆, 黑风准备携血气灵宝突围]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 295
+  title: 灵宝争夺结束
+  facts: [黑风携血气灵宝突围并朝徐霄一方移动, 黑风在争夺尾声死亡, 徐霄一方取得血气灵宝并利用传送手段脱离围攻, 萧慕河与血云魔尊继续逃离]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 296
+  next_title: 先天灵宝，神木飞舟
+  transition: 转入黑风击杀任务正式结算、血气灵宝赠送第一婵和先天灵宝返还
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

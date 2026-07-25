@@ -1,0 +1,34 @@
+schema_version: 1
+run_id: RUN-0050
+gift_events:
+- id: GIFT-0049
+  chapter: 293
+  node: NODE-0039
+  giver: 徐霄
+  recipient: 第一婵
+  gift: 缴获的法宝神剑
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 灵宝玄天艮土剑
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0049]
+    enemy_tasks_add:
+    - target: 黑风
+      issued_chapter: 288
+      condition: 击杀气运之敌黑风
+      reward: 下一次赠送灵宝突破限制并返还先天灵宝
+      death_chapter: 295
+      formal_settlement_chapter: 296
+      status: partial
+    rule_instances_add:
+    - trigger: 赠送第一婵缴获法宝神剑
+      effect: 返还灵宝玄天艮土剑
+      chapter: 293
+      status: partial
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [288, 293, 295]

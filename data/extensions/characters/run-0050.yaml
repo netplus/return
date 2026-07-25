@@ -1,0 +1,57 @@
+schema_version: 1
+run_id: RUN-0050
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add:
+    - 在血林沼泽以嗜血天魔刀斩杀三棵合体血藤树并持续吸收血气
+    - 以混沌神雷符解除合体九重修士伏击，并参与完成黑风与血气灵宝争夺
+    resource_add: [玄天艮土剑, 黑风所持血气灵宝（名称pending）]
+    enemy_relation_add: [黑风, 萧慕河与血云魔尊（天元大陆重逢）]
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [288, 289, 290, 291, 292, 293, 294, 295]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    accepted_gifts_add: [GIFT-0049]
+    relationship_change_add: 在血林沼泽争夺中进一步确认徐霄的合体巅峰符箓和多灵宝底牌，并形成更深的师徒资源合作
+    combat_record_add: 使用多枚合体阵盘应对血林沼泽伏击并参与追杀黑风
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [288, 291, 292, 293, 294, 295]
+- id: CHAR-0050
+  name: 秦朋
+  update:
+    role_change_add: 驾驶天阵阁木舟完成银鳞城至血林沼泽追击及争夺后的脱离
+    relationship_change_add: 对徐霄真实底牌与第一婵资源关系的认知继续升级
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [288, 289, 290, 291, 292, 293, 294, 295]
+- id: CHAR-0014
+  name: 萧慕河
+  update:
+    current_action: 与血云魔尊出现在血林沼泽灵宝争夺现场，确认徐霄已抵达天元大陆后继续逃离
+    conflict_change_add: 与徐霄在天元大陆重新形成明确敌对追踪线
+    related_nodes_add: [NODE-0039]
+    source_chapters_add: [293, 294, 295]
+- id: CHAR-0056
+  name: 黑风
+  status: dead
+  role: antagonist
+  affiliations: [黑魔宗, 银鳞城]
+  identities: [黑魔宗掌门, 银鳞城城主, 气运之敌]
+  first_appearance: {chapter: 288, title: 赶到银鳞城, node: NODE-0039}
+  cultivation: {current: 合体七重, status: partial}
+  crimes: {event: 以银鳞城百万生灵炼制血气灵宝, status: partial}
+  system_task:
+    target: 击杀黑风
+    reward: 下一次赠送灵宝突破限制并返还先天灵宝
+    completion_confirmation_chapter: 296
+    status: partial
+  conflict:
+    target: 徐霄、第一婵与西岚域三大仙宗追击者
+    result: 血林沼泽灵宝争夺尾声死亡，血气灵宝被徐霄一方取得
+    status: partial
+  related_nodes: [NODE-0039]
+  source_chapters: [288, 289, 294, 295]
+  document: null
+  verification_status: partial
