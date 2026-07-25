@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 20
+  extension_files: 21
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -93,6 +93,7 @@ characters:
   - NODE-0030
   - NODE-0031
   - NODE-0032
+  - NODE-0033
   source_chapters:
   - 1
   - 2
@@ -295,6 +296,12 @@ characters:
   - 233
   - 234
   - 235
+  - 237
+  - 239
+  - 240
+  - 241
+  - 242
+  - 243
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -343,6 +350,7 @@ characters:
   - 以三光分水剑清剿外扩尸灵，并在三族伏击中击杀虎奔、狼烈与蛇大同
   - 以三光分水剑主导碎石谷与黑锋山清剿并推动三处据点反攻
   - 黑锋山首轮尸潮战中独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝
+  - 以嗜血天魔刀击碎黄龙飞七星剑阵及多件法宝，并使魔刀吸收两名炼虚修士气血
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -360,6 +368,7 @@ characters:
   - 远古战场传送门关闭后成为缥缈宗驻地核心战力
   - 成为联合前线主要攻坚者并提出深入战场西部调查
   - 以赠送三光分水剑化解凤青玄的现场杀戮并争取到开启出口承诺
+  - 公开确立为盘龙大陆最强战力之一，并开始直接面对天元大陆势力
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
 - id: CHAR-0002
   name: 姬雪
@@ -446,6 +455,7 @@ characters:
   - NODE-0009
   - NODE-0031
   - NODE-0032
+  - NODE-0033
   source_chapters:
   - 1
   - 2
@@ -459,10 +469,13 @@ characters:
   - 41
   - 219
   - 229
+  - 240
+  - 242
+  - 243
   verification_status: partial
   realm: 炼虚境
   condition_change: 已完成炼虚突破并结束闭关
-  relationship_change: 因徐霄被困远古战场而明显担忧，但继续受到师门约束
+  relationship_change: 与徐霄重逢后经安抚继续维持核心道侣关系
   status_change: 在外界等待远古战场出口恢复，并因徐霄与多名女修关系进一步担忧和愤怒
 - id: CHAR-0004
   name: 陆大年
@@ -893,6 +906,7 @@ characters:
   - NODE-0009
   - NODE-0010
   - NODE-0019
+  - NODE-0033
   source_chapters:
   - 43
   - 44
@@ -908,12 +922,17 @@ characters:
   - 124
   - 125
   - 127
+  - 241
+  - 242
   verification_status: partial
   latest_conflict:
-    chapter_range: 51-53
-    event: 尾随玉玲珑并再次攻击徐霄
-    result: 攻击被化解，系统击杀任务仍未完成
+    chapter_range: 241-242
+    event: 与体内合体修士趁徐霄迎战海外修士时夺走定位阵盘并逃入无尽海域
+    result: 成功逃离盘龙岛，系统击杀任务仍未完成
     status: partial
+  possible_external_affiliation:
+    value: 弑天血宗
+    status: inferred
 - id: CHAR-0015
   name: 水月
   status: alive
@@ -1307,6 +1326,7 @@ characters:
   - NODE-0018
   - NODE-0019
   - NODE-0024
+  - NODE-0033
   source_chapters:
   - 110
   - 114
@@ -1319,6 +1339,14 @@ characters:
   - 161
   - 162
   - 166
+  - 236
+  - 237
+  - 238
+  - 239
+  - 240
+  - 241
+  - 242
+  - 243
   verification_status: partial
   gift_resolution:
     gift_id: GIFT-0027
@@ -1330,6 +1358,8 @@ characters:
     result: 使用七星剑斩杀炼虚游尸
     status: partial
   major_action: 与魇女共同阻止妖族炼虚修士越界杀死徐霄
+  body_status: 肉身暂由凤青玄神魂控制，本人神魂留在识海修炼
+  relationship_cover: 凤青玄以妙玉身份与徐霄宣称进入道侣考察期，以掩饰真实身份
 - id: CHAR-0025
   name: 魇女
   status: alive
@@ -2069,9 +2099,56 @@ characters:
     status: partial
   related_nodes:
   - NODE-0032
+  - NODE-0033
   source_chapters:
   - 233
   - 234
   - 235
+  - 236
+  - 237
+  - 238
+  - 239
+  - 240
+  - 241
+  - 242
+  - 243
+  document: null
+  verification_status: partial
+  current_vessel: 妙玉肉身
+  major_action:
+  - 收妙玉为徒并暂借其肉身，承诺返回天元大陆后重塑肉身归还
+  - 重新炼化山海碑并开启传送门，使远古战场修士脱困
+  concealment_plan: 以妙玉身份跟随徐霄进入缥缈宗并隐藏真实身份
+- id: CHAR-0046
+  name: 黄龙飞
+  status: pending
+  role: antagonist
+  affiliations:
+  - 天元大陆缥缈仙宗
+  identities:
+  - 缥缈仙宗修士
+  - 三人小队首领
+  first_appearance:
+    chapter: 239
+    title: 放飞自我，黄龙飞
+    node: NODE-0033
+  cultivation:
+    current: 炼虚巅峰
+    status: partial
+  combat:
+    target: 盘龙大陆修士与山海碑
+    actions:
+    - 率两名师弟抵达盘龙岛
+    - 杀害血魂与清虚
+    - 企图奴役盘龙大陆修士
+    - 使用七星剑阵攻击徐霄
+    result: 七星剑阵及多件法宝被嗜血天魔刀摧毁；最终生死未稳定核验
+    status: partial
+  related_nodes:
+  - NODE-0033
+  source_chapters:
+  - 239
+  - 240
+  - 241
   document: null
   verification_status: partial

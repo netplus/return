@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 20
+  extension_files: 21
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -557,3 +557,24 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0031
+- id: ART-0033
+  name: 嗜血天魔刀
+  category: 灵宝魔器
+  grade: 灵宝
+  first_chapter: 240
+  current_holder: 徐霄
+  acquisition: 来源待后续正文确认
+  abilities:
+  - 可由六股鸿蒙真气驱动
+  - 可击碎炼虚巅峰修士七星剑阵及多件法宝
+  - 可吸收修士气血持续养刀并增强威势
+  combat_record:
+  - 第240—241章迎战黄龙飞三人，摧毁七星剑阵及多件法宝
+  - 第242章确认已吸收两名炼虚修士气血并增强
+  status: partial
+  related_nodes:
+  - NODE-0033
+  source_chapters:
+  - 240
+  - 241
+  - 242
