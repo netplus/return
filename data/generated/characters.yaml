@@ -1,0 +1,1750 @@
+schema_version: 2
+project: return
+updated_at: '2026-07-25'
+verification_states:
+- verified
+- partial
+- inferred
+- conflict
+- pending
+index_mode: materialized
+materialized_from:
+  base: data/characters/characters.yaml
+  extensions: data/extensions/**/*.yaml
+  extension_files: 16
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  status: alive
+  role: protagonist
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 姬雪弟子
+  - 独孤灵师兄
+  - 穿越者
+  first_appearance:
+    chapter: 1
+    title: 万倍返还系统
+    node: NODE-0001
+  cultivation:
+    before_tribulation: 元婴九重
+    attempted_realm: 化神境
+    current: 元婴九重
+    status: partial
+  retained_spiritual_sense:
+    level: 元婴九重
+    status: partial
+  age:
+    value: 1008
+    status: verified
+  lifespan:
+    remaining_years: 297
+    status: partial
+  dao_comprehension:
+  - current:
+    - 地火之道
+    - 人火之道
+    source:
+    - 三千大道丹（首次）
+    - 三千大道丹（第二次）
+    status: partial
+  - 弱水之道
+  - 净水之道
+  constitution:
+  - current: 道体
+    source: 九转乾元丹
+    status: partial
+  - 天玉骨
+  public_combat_record:
+    result: 击杀化神九重魔极天
+    chapter: 50
+    status: partial
+  system:
+    name: 万倍返还系统
+    status: verified
+  documents:
+    profile: docs/02-characters/徐霄.md
+  related_nodes:
+  - NODE-0001
+  - NODE-0002
+  - NODE-0003
+  - NODE-0004
+  - NODE-0005
+  - NODE-0006
+  - NODE-0007
+  - NODE-0008
+  - NODE-0009
+  - NODE-0010
+  - NODE-0011
+  - NODE-0017
+  - NODE-0018
+  - NODE-0019
+  - NODE-0020
+  - NODE-0021
+  - NODE-0022
+  - NODE-0023
+  - NODE-0024
+  - NODE-0025
+  - NODE-0026
+  - NODE-0027
+  - NODE-0028
+  source_chapters:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 108
+  - 109
+  - 110
+  - 111
+  - 112
+  - 113
+  - 114
+  - 115
+  - 116
+  - 117
+  - 118
+  - 119
+  - 120
+  - 121
+  - 122
+  - 123
+  - 124
+  - 125
+  - 126
+  - 127
+  - 128
+  - 129
+  - 130
+  - 131
+  - 132
+  - 133
+  - 134
+  - 135
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  - 144
+  - 145
+  - 146
+  - 147
+  - 148
+  - 149
+  - 150
+  - 151
+  - 152
+  - 153
+  - 154
+  - 155
+  - 156
+  - 157
+  - 158
+  - 159
+  - 160
+  - 161
+  - 162
+  - 163
+  - 164
+  - 165
+  - 166
+  - 167
+  - 168
+  - 169
+  - 170
+  - 171
+  - 172
+  - 173
+  - 174
+  - 175
+  - 176
+  - 177
+  - 178
+  - 179
+  - 180
+  - 181
+  - 182
+  - 183
+  - 184
+  - 185
+  - 186
+  - 187
+  - 188
+  - 189
+  - 190
+  - 191
+  - 192
+  - 193
+  - 194
+  - 195
+  - 196
+  - 197
+  - 198
+  - 199
+  verification_status: partial
+  appearance_recovery:
+    value: 修为恢复后外貌与身体状态明显回春
+    chapter: 56
+    status: partial
+  outer_sect_protection:
+    targets:
+    - 金柳香
+    - 林嫣儿
+    commitment: 公开保护并持续提供修炼资源
+    chapter: 56
+    status: partial
+  current_duty: 缥缈宗铁幕城驻地事务
+  battle_record:
+  - chapter_range: 117-124
+    result: 玄天八卦阵抵挡炼虚游尸和化神九重攻击
+    status: partial
+  - chapter_range: 128-130
+    result: 斩杀五名化神猿族并稳定前线灵矿
+    status: partial
+  - chapter_range: 138-141
+    result: 以玄天八卦阵和化神九重符箓击杀猿飞及猿族主力
+    status: partial
+  relationship_updates:
+    水柔: 关系确认
+  cultivation_goal: 准备第二次化神雷劫
+  reputation_change: 在人族阵营中的负面声望开始逆转
+  system_behavior: 被白九儿窃取精气时系统按30倍返还
+  major_conflict:
+  - 使用九天神雷符摧毁通天神棍阵并击杀猿华及八名猿族长老
+  - 抵挡猿族元帅炼虚一击并在炼虚对峙中保住性命
+  public_plan: 准备再次冲击化神雷劫
+  artifact_changes:
+  - 交还通天如意棍
+  - 玄天八卦阵确认可抵挡炼虚攻击
+  relationship_change: 木玉儿正式成为道侣
+  power_change: 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
+  travel_plan: 选择远古战场作为二次化神雷劫优先地点
+  cultivation_change: 成功渡过第二次化神雷劫，由元婴九重重返化神境
+  tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
+  artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
+  combat_record:
+  - 渡过二次化神雷劫后以四柄神剑应对妖族炼虚突袭，并用九天神雷符形成战略威慑
+  - 与诸葛无方协作击杀炼虚中期尸灵
+  system_change: 晋升化神触发返还道具库升级
+  current_action: 为一年后开启的远古战场准备
+  resource:
+  - 合体九重混沌极冰符
+  - 炼虚九重天道冰剑符
+  - 血牛猛虎丹
+- id: CHAR-0002
+  name: 姬雪
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗太上长老
+  - 徐霄之师
+  - 独孤灵之师
+  first_appearance:
+    chapter: 1
+    title: 万倍返还系统
+    node: NODE-0001
+  luck_grade:
+    value: SSS
+    status: verified
+  current_action:
+    value: 宗门秘境闭关
+    status: verified
+  cultivation:
+    current: null
+    status: pending
+  documents:
+    profile: docs/02-characters/姬雪.md
+  related_nodes:
+  - NODE-0001
+  - NODE-0002
+  source_chapters:
+  - 1
+  - 2
+  verification_status: verified
+- id: CHAR-0003
+  name: 独孤灵
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗掌门
+  - 姬雪弟子
+  - 徐霄师妹
+  - 徐霄同村旧识与青梅竹马
+  first_appearance:
+    chapter: 1
+    title: 万倍返还系统
+    node: NODE-0001
+  luck_grade:
+    value: SS
+    status: verified
+  cultivation:
+    current: 化神九重
+    status: partial
+  constitution:
+    value: 纯阴之体
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0008
+    item: 绝品驻颜丹
+    status: partial
+  - gift_id: GIFT-0012
+    item: 九天神凤钗
+    status: partial
+  battle_record:
+    chapter_range: 39-41
+    item: 九天神凤钗
+    result: 应对破天魔宗上门
+    status: partial
+  documents:
+    profile: docs/02-characters/独孤灵.md
+  related_nodes:
+  - NODE-0001
+  - NODE-0002
+  - NODE-0003
+  - NODE-0006
+  - NODE-0008
+  - NODE-0009
+  source_chapters:
+  - 1
+  - 2
+  - 3
+  - 21
+  - 22
+  - 23
+  - 38
+  - 39
+  - 40
+  - 41
+  verification_status: partial
+- id: CHAR-0004
+  name: 陆大年
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门执法长老
+  - 独孤灵弟子
+  - 徐霄实际教导的后辈
+  - 金柳香记名师父
+  - 林嫣儿记名师父
+  first_appearance:
+    chapter: 3
+    title: 我还没死，你哭啥？
+    node: NODE-0003
+  cultivation:
+    current: 元婴六重
+    status: verified
+  documents:
+    profile: docs/02-characters/陆大年.md
+  related_nodes:
+  - NODE-0003
+  - NODE-0004
+  - NODE-0005
+  - NODE-0006
+  - NODE-0007
+  - NODE-0008
+  - NODE-0023
+  source_chapters:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 16
+  - 19
+  - 20
+  - 31
+  - 35
+  - 156
+  verification_status: partial
+  disciple: 刘玲玲（记名弟子安排）
+- id: CHAR-0005
+  name: 紫韵
+  status: alive
+  role: supporting
+  affiliations:
+  - 紫来商行
+  identities:
+  - 紫来商行掌柜
+  - 气运之女
+  first_appearance:
+    chapter: 4
+    title: 赠送资源到手
+    node: NODE-0004
+  luck_grade:
+    value: A
+    status: partial
+  cultivation:
+    current: 元婴六重
+    status: partial
+  documents:
+    profile: docs/02-characters/紫韵.md
+  related_nodes:
+  - NODE-0004
+  - NODE-0007
+  - NODE-0016
+  source_chapters:
+  - 4
+  - 5
+  - 25
+  - 92
+  - 93
+  verification_status: partial
+  accepted_gifts:
+  - GIFT-0020
+- id: CHAR-0006
+  name: 林嫣儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门弟子
+  - 气运之女
+  - 陆大年记名弟子
+  first_appearance:
+    chapter: 6
+    title: 赠送筑基丹
+    node: NODE-0004
+  luck_grade:
+    value: C
+    base_multiplier: 10
+    status: verified
+  cultivation:
+    current: pending
+    status: pending
+  family:
+    location: 金石城
+    father: 林大动
+    status: partial
+  documents:
+    profile: docs/02-characters/林嫣儿.md
+  related_nodes:
+  - NODE-0004
+  - NODE-0005
+  - NODE-0007
+  - NODE-0008
+  - NODE-0011
+  source_chapters:
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 13
+  - 24
+  - 26
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 35
+  - 56
+  verification_status: partial
+  protection:
+    protector: 徐霄
+    scope: 公开保护与持续资源支持
+    chapter: 56
+    status: partial
+- id: CHAR-0007
+  name: 金柳香
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门弟子
+  - 陆大年记名弟子
+  - 气运之女
+  former_identity: 周啸弟子
+  first_appearance:
+    chapter: 11
+    title: 气运之女，金柳香
+    node: NODE-0005
+  luck_grade:
+    value: C
+    status: verified
+  bond:
+    initial: 1
+    current: 2
+    status: partial
+  base_multiplier:
+    initial: 10
+    current: 20
+    status: partial
+  cultivation:
+    current: 筑基五重
+    status: partial
+  documents:
+    profile: docs/02-characters/金柳香.md
+  related_nodes:
+  - NODE-0005
+  - NODE-0006
+  - NODE-0008
+  - NODE-0011
+  source_chapters:
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 35
+  - 36
+  - 56
+  verification_status: partial
+  protection:
+    protector: 徐霄
+    scope: 公开保护与持续资源支持
+    chapter: 56
+    status: partial
+- id: CHAR-0008
+  name: 周啸
+  status: dead
+  role: antagonist
+  affiliations: []
+  former_affiliation: 缥缈宗外门
+  identities:
+  - 金柳香原师父
+  first_appearance:
+    chapter: 16
+    title: 一个月过去
+    node: NODE-0005
+  conflict:
+    target: 徐霄与金柳香
+    result: 与两名弟子被逐出缥缈宗后死于虎啸城外
+    status: partial
+  documents:
+    profile: docs/02-characters/周啸.md
+  related_nodes:
+  - NODE-0005
+  - NODE-0006
+  - NODE-0007
+  source_chapters:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 24
+  verification_status: partial
+- id: CHAR-0009
+  name: 李九夜
+  status: dead
+  role: antagonist
+  affiliations:
+  - 玄魔宗
+  identities:
+  - 玄魔宗少主
+  first_appearance:
+    chapter: 28
+    title: 玄魔宗李九夜
+    node: NODE-0007
+  conflict:
+    target: 林嫣儿与徐霄
+    result: 金石城接亲冲突中死于紫霄雷符
+    status: partial
+  related_nodes:
+  - NODE-0007
+  source_chapters:
+  - 24
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  verification_status: partial
+- id: CHAR-0010
+  name: 李天霸
+  status: dead
+  role: antagonist
+  affiliations:
+  - 玄魔宗
+  identities:
+  - 玄魔宗掌门
+  - 李九夜之父
+  - 气运之敌
+  first_appearance:
+    chapter: 32
+    title: 新的任务
+    node: NODE-0008
+  cultivation:
+    current: 化神境
+    status: partial
+  conflict:
+    target: 徐霄与金石城
+    result: 与玄魔宗主力一同死于九天神雷符
+    status: partial
+  documents:
+    profile: docs/02-characters/李天霸.md
+  related_nodes:
+  - NODE-0008
+  source_chapters:
+  - 32
+  - 33
+  - 34
+  verification_status: partial
+- id: CHAR-0011
+  name: 玉玲珑
+  status: alive
+  role: supporting
+  affiliations:
+  - 合欢宗
+  identities:
+  - 合欢宗掌门
+  first_appearance:
+    chapter: 37
+    title: 合欢掌门玉玲珑
+    node: NODE-0008
+  relationship_context:
+    徐霄: 主动建立私下联络，吸取其气运后接受上品驻颜丹，成为有效赠送对象
+    独孤灵: 可直接联络的正道宗门掌门
+    status: partial
+  documents:
+    profile: docs/02-characters/玉玲珑.md
+  related_nodes:
+  - NODE-0008
+  - NODE-0009
+  - NODE-0010
+  - NODE-0025
+  source_chapters:
+  - 37
+  - 42
+  - 43
+  - 44
+  - 45
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 173
+  - 174
+  verification_status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0013
+    item: 上品驻颜丹
+    status: partial
+  current_action: 闭关冲击炼虚境
+  delegation: 派巫瓶儿向徐霄传递二次化神雷劫资料和远古战场建议
+- id: CHAR-0012
+  name: 诸葛无方
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗太上长老
+  first_appearance:
+    chapter: 41
+    title: partial
+    node: NODE-0009
+  function:
+    value: 宗门高层对外决策并推动九宗转往天降山会谈
+    status: partial
+  documents:
+    profile: docs/02-characters/诸葛无方.md
+  related_nodes:
+  - NODE-0009
+  - NODE-0018
+  - NODE-0024
+  source_chapters:
+  - 41
+  - 42
+  - 110
+  - 115
+  - 116
+  - 161
+  - 162
+  - 163
+  - 165
+  - 166
+  verification_status: partial
+  iron_curtain_role: 赶到铁幕城斡旋徐霄执法危机
+  major_action: 代表缥缈宗保护徐霄并支持其尝试二次化神雷劫
+- id: CHAR-0013
+  name: 魔极天
+  status: dead
+  role: antagonist
+  affiliations:
+  - 破天魔宗
+  identities:
+  - 破天魔宗掌门
+  first_appearance:
+    chapter: 39
+    title: partial
+    node: NODE-0009
+  cultivation:
+    current: 化神九重
+    status: partial
+  conflict:
+    target: 徐霄与缥缈宗
+    result: 天降山单挑中被徐霄击杀
+    status: partial
+  documents:
+    profile: docs/02-characters/魔极天.md
+  related_nodes:
+  - NODE-0009
+  source_chapters:
+  - 39
+  - 40
+  - 41
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  verification_status: partial
+- id: CHAR-0014
+  name: 萧慕河
+  status: alive
+  role: antagonist
+  affiliations:
+  - 极地魔宗
+  identities:
+  - 极地魔宗新掌门
+  - 气运之子
+  first_appearance:
+    chapter: 43
+    title: partial
+    node: NODE-0009
+  cultivation:
+    current: 化神九重
+    status: partial
+  hidden_factor:
+    value: 体内合体期修士神魂已能影响其行为并共同谋划对付徐霄
+    status: partial
+  system_task:
+    target: 击杀萧慕河
+    reward: 升级返还道具库并提高品质上限
+    completion: pending
+    status: partial
+  documents:
+    profile: docs/02-characters/萧慕河.md
+  related_nodes:
+  - NODE-0009
+  - NODE-0010
+  - NODE-0019
+  source_chapters:
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 124
+  - 125
+  - 127
+  verification_status: partial
+  latest_conflict:
+    chapter_range: 51-53
+    event: 尾随玉玲珑并再次攻击徐霄
+    result: 攻击被化解，系统击杀任务仍未完成
+    status: partial
+- id: CHAR-0015
+  name: 水月
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门弟子
+  - 气运之女
+  - 梦丹弟子
+  first_appearance:
+    chapter: 58
+    title: 气运之女白巧巧
+    node: NODE-0011
+  luck_grade:
+    value: B
+    base_multiplier: 10
+    status: partial
+  bond:
+    current: 1
+    status: partial
+  cultivation:
+    current: 筑基八重
+    status: partial
+  development:
+    value: 获得内门培养机会
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0014
+    status: partial
+  - GIFT-0021
+  documents:
+    profile: docs/02-characters/白巧巧.md
+  related_nodes:
+  - NODE-0011
+  - NODE-0016
+  - NODE-0017
+  source_chapters:
+  - 58
+  - 59
+  - 60
+  - 61
+  - 88
+  - 89
+  - 90
+  - 92
+  - 93
+  - 94
+  verification_status: partial
+  mother: 水柔
+  protective_artifact: 流光星陨戒
+- id: CHAR-0016
+  name: 梦丹
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗外门第一长老
+  - 白巧巧外门师父
+  - 徐霄数百年前的记名弟子
+  - 徐霄旧日伴侣
+  - 气运之女
+  first_appearance:
+    chapter: 59
+    title: 外门第一长老梦丹
+    node: NODE-0011
+  cultivation:
+    current: 元婴九重
+    status: partial
+  base_multiplier:
+    current: 20
+    status: partial
+  relationship_context:
+    徐霄: 旧日师徒与伴侣关系恢复，形成稳定私人关系
+    白巧巧: 外门师父并负责其培养
+    status: partial
+  system_fields:
+    luck_grade: pending
+    bond: pending
+    status: partial
+  documents:
+    profile: docs/02-characters/梦丹.md
+  related_nodes:
+  - NODE-0011
+  - NODE-0017
+  source_chapters:
+  - 59
+  - 60
+  - 61
+  - 94
+  verification_status: partial
+  chapter_94_gift: 十枚炼神丹；独立返还结算pending
+- id: CHAR-0017
+  name: 水月
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 独孤灵大徒弟
+  - 徐霄师侄
+  - 气运之女
+  first_appearance:
+    chapter: 63
+    title: 返还，鸿蒙一气丹
+    node: NODE-0012
+  cultivation:
+    current: 元婴九重巅峰
+    status: partial
+  luck_grade:
+    value: S
+    base_multiplier: 30
+    status: partial
+  bond:
+    current: 1
+    status: partial
+  documents:
+    profile: docs/02-characters/水月.md
+  related_nodes:
+  - NODE-0012
+  source_chapters:
+  - 63
+  verification_status: partial
+- id: CHAR-0018
+  name: 宇文浩
+  status: alive
+  role: antagonist
+  affiliations:
+  - 破天魔宗
+  identities:
+  - 破天魔宗新掌门
+  - 破天魔宗太上长老之子
+  - 气运之敌
+  first_appearance:
+    chapter: 66
+    title: 进入秘境
+    node: NODE-0013
+  system_task:
+    target: 击杀宇文浩
+    reward: 一次万倍暴击机会
+    completion: pending
+    status: partial
+  document: docs/02-characters/宇文浩.md
+  related_nodes:
+  - NODE-0013
+  source_chapters:
+  - 66
+  verification_status: partial
+- id: CHAR-0019
+  name: 苏媚儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 合欢宗
+  identities:
+  - 合欢宗弟子
+  - 气运之女
+  first_appearance:
+    chapter: 74
+    title: 气运之女苏媚儿
+    node: NODE-0014
+  cultivation:
+    current: 元婴九重
+    status: partial
+  luck_grade:
+    value: null
+    status: pending
+  relationship_context:
+    徐霄: 建立气运、灵力和资源互动关系
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0017
+    item: 上品驻颜丹
+    status: partial
+  - chapter: 76
+    item: 十枚化婴丹
+    return_resolution: pending
+    status: partial
+  document: docs/02-characters/苏媚儿.md
+  related_nodes:
+  - NODE-0014
+  source_chapters:
+  - 74
+  - 75
+  - 76
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  verification_status: partial
+- id: CHAR-0020
+  name: 水柔
+  status: alive
+  role: supporting
+  affiliations:
+  - 北风国水家
+  - 新月城碧水商行
+  identities:
+  - 水月之母
+  - 水家家主
+  - 碧水商行会长
+  first_appearance:
+    chapter: 88
+    title: 水月母亲，水柔
+    node: NODE-0016
+  cultivation:
+    current: 化神八重
+    status: partial
+  system_classification:
+    value: 有效赠送对象
+    luck_grade: null
+    status: partial
+  documents:
+    profile: docs/02-characters/水柔.md
+  related_nodes:
+  - NODE-0016
+  - NODE-0018
+  - NODE-0019
+  - NODE-0024
+  source_chapters:
+  - 88
+  - 89
+  - 90
+  - 91
+  - 109
+  - 112
+  - 121
+  - 122
+  - 123
+  - 124
+  - 125
+  - 126
+  - 127
+  - 165
+  verification_status: partial
+  relationship_with_徐霄: 明确亲密关系
+  relationship_change: 公开支持徐霄渡劫并确认长期道侣立场
+- id: CHAR-0021
+  name: 段红绫
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗内门大师姐
+  - 气运之女
+  first_appearance:
+    chapter: 96
+    title: 悲催的大师姐
+    node: NODE-0017
+  cultivation:
+    current: 化神九重
+    status: partial
+  health:
+    condition: 数百年前妖族战斗遗留暗疾
+    remaining_lifespan: 约百余年
+    status: partial
+  luck_grade:
+    value: A
+    base_multiplier: 10
+    bond: 1
+    status: partial
+  accepted_gifts:
+  - GIFT-0022
+  documents:
+    profile: docs/02-characters/段红绫.md
+  related_nodes:
+  - NODE-0017
+  - NODE-0025
+  source_chapters:
+  - 96
+  - 98
+  - 99
+  - 167
+  - 172
+  verification_status: partial
+  health_change: 万年槐树根治愈暗疾并恢复修炼前景
+  relationship_change: 主动报答徐霄，双方关系形成长期变化
+- id: CHAR-0022
+  name: 刘玲玲
+  status: alive
+  role: supporting
+  affiliations:
+  - 翠山门
+  - 缥缈宗
+  identities:
+  - 翠山门女修
+  - 气运之女
+  first_appearance:
+    chapter: 95
+    title: 愤怒的翠山门弟子
+    node: NODE-0017
+  luck_grade:
+    current: B
+    base_multiplier: 20
+    bond: 2
+    status: partial
+  relationship:
+    徐霄: 持续资源支持关系
+    status: partial
+  accepted_gifts:
+  - GIFT-0023
+  - GIFT-0024
+  - GIFT-0031
+  documents:
+    profile: docs/02-characters/刘玲玲.md
+  related_nodes:
+  - NODE-0017
+  - NODE-0018
+  - NODE-0023
+  source_chapters:
+  - 95
+  - 100
+  - 101
+  - 103
+  - 104
+  - 105
+  - 106
+  - 153
+  - 154
+  - 155
+  - 156
+  verification_status: partial
+  affiliation_status: 留在铁幕城，不再返回翠山门
+  protection: 受徐霄公开保护
+  identity: 陆大年记名弟子（安排）
+  cultivation_current: 结丹境
+  relationship_change: 由铁幕城前线关系人转为前往缥缈宗长期培养
+- id: CHAR-0023
+  name: 木玉儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 铁幕城驻地木长老孙女
+  first_appearance:
+    chapter: 100
+    title: 刘玲玲拜访
+    node: NODE-0017
+  accepted_gifts:
+  - GIFT-0025
+  - GIFT-0026
+  - GIFT-0032
+  - GIFT-0033
+  documents:
+    profile: docs/02-characters/木玉儿.md
+  related_nodes:
+  - NODE-0017
+  - NODE-0018
+  - NODE-0024
+  - NODE-0025
+  source_chapters:
+  - 100
+  - 102
+  - 107
+  - 108
+  - 163
+  - 168
+  - 169
+  - 170
+  - 171
+  - 172
+  verification_status: partial
+  relationship_change:
+  - 接受六件法器，长期资源支持关系继续加深
+  - 正式成为徐霄道侣并获得持续修炼资源承诺
+- id: CHAR-0024
+  name: 妙玉
+  status: alive
+  role: supporting
+  affiliations:
+  - 铁幕城
+  identities:
+  - 铁幕城城主
+  - 炼虚修士
+  first_appearance:
+    chapter: 110
+    title: 诸葛无方的算盘
+    node: NODE-0018
+  cultivation:
+    current: 炼虚境
+    status: partial
+  accepted_gifts:
+  - GIFT-0027
+  documents:
+    profile: docs/02-characters/妙玉.md
+  related_nodes:
+  - NODE-0018
+  - NODE-0019
+  - NODE-0024
+  source_chapters:
+  - 110
+  - 114
+  - 115
+  - 116
+  - 117
+  - 118
+  - 119
+  - 160
+  - 161
+  - 162
+  - 166
+  verification_status: partial
+  gift_resolution:
+    gift_id: GIFT-0027
+    triggered_multiplier: 10000
+    reward: 血肉金身丹
+    status: partial
+  battle_record:
+    chapter: 117
+    result: 使用七星剑斩杀炼虚游尸
+    status: partial
+  major_action: 与魇女共同阻止妖族炼虚修士越界杀死徐霄
+- id: CHAR-0025
+  name: 魇女
+  status: alive
+  role: supporting_antagonistic
+  affiliations:
+  - 天尸宗
+  - 铁幕城
+  identities:
+  - 炼虚修士
+  - 游尸操控者
+  first_appearance:
+    chapter: 117
+    title: 天尸宗魇女
+    node: NODE-0019
+  cultivation:
+    current: 炼虚境
+    status: partial
+  system_classification:
+    value: 未被识别为气运之女
+    status: partial
+  accepted_gifts:
+  - GIFT-0028
+  documents:
+    profile: docs/02-characters/魇女.md
+  related_nodes:
+  - NODE-0019
+  - NODE-0024
+  source_chapters:
+  - 117
+  - 118
+  - 119
+  - 120
+  - 160
+  - 161
+  - 162
+  - 166
+  verification_status: partial
+  major_action: 以三具炼虚游尸参与制衡并形成围绕徐霄渡劫的新谋划
+- id: CHAR-0026
+  name: 慕容云河
+  status: dead
+  role: antagonist
+  affiliations:
+  - 北风国
+  identities:
+  - 北风国国主
+  first_appearance:
+    chapter: 122
+    title: 气傻了的慕容云河
+    node: NODE-0019
+  cultivation:
+    current: 化神九重
+    status: partial
+  conflict:
+    target: 徐霄
+    result: 碧水商会冲突中死亡
+    status: partial
+  documents:
+    profile: docs/02-characters/慕容云河.md
+  related_nodes:
+  - NODE-0019
+  source_chapters:
+  - 122
+  - 123
+  - 124
+  - 125
+  - 126
+  verification_status: partial
+- id: CHAR-0027
+  name: 柳璃
+  status: alive
+  role: supporting
+  affiliations:
+  - 百草宗
+  identities:
+  - 百草宗太上长老
+  - 前线灵矿驻守者
+  - 陈青儿之师
+  first_appearance:
+    chapter: 130
+    title: 百草宗太上长老柳璃
+    node: NODE-0020
+  cultivation:
+    current: 化神六重
+    status: partial
+  age:
+    value: 两千六百余岁
+    status: partial
+  documents:
+    profile: docs/02-characters/柳璃.md
+  related_nodes:
+  - NODE-0020
+  - NODE-0021
+  - NODE-0022
+  source_chapters:
+  - 130
+  - 131
+  - 132
+  - 133
+  - 134
+  - 135
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  - 144
+  - 149
+  - 151
+  - 152
+  verification_status: partial
+  relationship_change: 与徐霄关系发生长期实质变化；徐霄承诺帮助其与陈青儿晋级炼虚
+- id: CHAR-0028
+  name: 陈青儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 百草宗
+  identities:
+  - 柳璃弟子
+  - 前线灵矿修士
+  - 气运之女
+  first_appearance:
+    chapter: 132
+    title: 气运之女陈青儿
+    node: NODE-0020
+  cultivation:
+    current: 元婴阶段
+    status: partial
+  system_profile:
+    luck_grade: null
+    base_multiplier: null
+    bond: null
+    status: pending
+  accepted_gifts:
+  - GIFT-0029
+  documents:
+    profile: docs/02-characters/陈青儿.md
+  related_nodes:
+  - NODE-0020
+  - NODE-0021
+  source_chapters:
+  - 132
+  - 133
+  - 134
+  - 135
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  verification_status: partial
+  relationship_change: 与徐霄的长期资源和情感关系继续固化
+- id: CHAR-0029
+  name: 猿飞
+  status: dead
+  role: antagonist
+  affiliations:
+  - 猿族
+  identities:
+  - 猿族大将军
+  first_appearance:
+    chapter: 139
+    title: 巨猿法相
+    node: NODE-0021
+  cultivation:
+    current: 化神九重
+    status: partial
+  abilities:
+  - name: 巨猿法相
+    classification: 猿族顶级天赋神通
+    status: partial
+  conflict:
+    target: 徐霄与三宗灵矿
+    result: 夜袭中被徐霄使用玄天八卦阵与高阶符箓击杀
+    status: partial
+  documents:
+    profile: docs/02-characters/猿飞.md
+  related_nodes:
+  - NODE-0021
+  source_chapters:
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  - 144
+  verification_status: partial
+- id: CHAR-0030
+  name: 猿华
+  status: dead
+  role: antagonist
+  affiliations:
+  - 猿族
+  identities:
+  - 猿族少主
+  first_appearance:
+    chapter: 144
+    title: 万妖城，猿族少主
+    node: NODE-0021
+  cultivation:
+    current: null
+    status: pending
+  current_action: 取得通天如意棍并策划绑架徐霄关系人、布置通天神棍阵诱杀徐霄
+  documents:
+    profile: docs/02-characters/猿华.md
+  related_nodes:
+  - NODE-0021
+  - NODE-0022
+  - NODE-0023
+  source_chapters:
+  - 144
+  - 150
+  - 151
+  - 152
+  - 153
+  - 154
+  - 155
+  verification_status: partial
+  conflict_result: 与八名猿族化神长老在通天神棍阵中死于九天神雷符
+- id: CHAR-0031
+  name: 白九儿
+  status: alive
+  role: antagonist_supporting
+  affiliations:
+  - 狐族
+  identities:
+  - 狐族后辈
+  - 气运之女
+  - 受命渗透徐霄
+  first_appearance:
+    chapter: 145
+    title: 狐族驻地，白九儿
+    node: NODE-0022
+  cultivation:
+    current: 化神九重
+    status: partial
+  luck_grade:
+    value: S
+    base_multiplier: 30
+    bond: 1
+    status: partial
+  abilities:
+  - name: 魅惑之术
+    status: partial
+  - name: 吸取精气
+    status: partial
+  - name: 身外替身
+    cost: 自断一条狐尾
+    status: partial
+  conflict:
+    target: 徐霄
+    result: 渗透失败，断尾逃回狐族，修为暂时下降约两成
+    status: partial
+  documents:
+    profile: docs/02-characters/白九儿.md
+  related_nodes:
+  - NODE-0022
+  source_chapters:
+  - 145
+  - 146
+  - 147
+  - 148
+  - 149
+  - 150
+  verification_status: partial
+- id: CHAR-0032
+  name: 猿洪
+  status: alive
+  role: antagonist
+  affiliations:
+  - 猿族
+  - 八大妖族
+  identities:
+  - 猿族族长
+  - 猿华之父
+  cultivation:
+    current: 炼虚境
+    status: partial
+  first_appearance:
+    chapter: 158
+    node: NODE-0024
+  conflict:
+    target: 徐霄
+    result: 铁幕城追责未果，取回通天如意棍后暂退
+    status: partial
+  related_nodes:
+  - NODE-0024
+  - NODE-0027
+  source_chapters:
+  - 158
+  - 159
+  - 160
+  - 161
+  - 162
+  - 185
+  - 186
+  - 187
+  - 188
+  - 189
+  - 190
+  verification_status: partial
+  conflict_change: 参与渡劫后的妖族突袭，因九天神雷符与远古战场现世而停止现场追杀
+  strategic_plan: 参与妖族与魔道在远古战场内围杀徐霄的布局
+- id: CHAR-0033
+  name: 虎奔
+  status: alive
+  role: antagonist
+  affiliations:
+  - 虎族
+  - 八大妖族
+  identities:
+  - 虎族族长
+  cultivation:
+    current: 炼虚境
+    status: partial
+  first_appearance:
+    chapter: 159
+    node: NODE-0024
+  conflict:
+    target: 徐霄
+    result: 参与铁幕城追责并在炼虚对峙后暂退
+    status: partial
+  related_nodes:
+  - NODE-0024
+  - NODE-0027
+  source_chapters:
+  - 159
+  - 160
+  - 161
+  - 162
+  - 185
+  - 186
+  - 187
+  - 188
+  - 189
+  - 190
+  verification_status: partial
+  conflict_change: 率妖族炼虚修士拦截人族援手并参与对徐霄的高阶围杀
+  strategic_plan: 主张妖魔结盟并在远古战场内优先击杀徐霄
+- id: CHAR-0034
+  name: 巫瓶儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 合欢宗
+  identities:
+  - 合欢宗长老
+  - 气运之女
+  first_appearance:
+    chapter: 172
+    node: NODE-0025
+  luck_grade:
+    value: A
+    status: partial
+  base_multiplier:
+    value: 10
+    status: partial
+  bond:
+    current: 1
+    status: partial
+  cultivation:
+    current: null
+    status: pending
+  major_action:
+    value: 传递二次化神雷劫资料并建议远古战场渡劫
+    status: partial
+  documents:
+    profile: docs/02-characters/巫瓶儿.md
+  related_nodes:
+  - NODE-0025
+  - NODE-0026
+  source_chapters:
+  - 172
+  - 173
+  - 174
+  - 175
+  - 178
+  - 180
+  - 181
+  - 182
+  - 183
+  - 184
+  verification_status: partial
+  accepted_gifts:
+  - GIFT-0034
+  relationship_change: 接受绝品驻颜丹并与徐霄形成稳定赠送及气运互动关系
+  current_action: 陪同前往远古战场并为二次雷劫护法
+- id: CHAR-0035
+  name: 慕容龙城
+  status: alive_unknown
+  role: antagonist
+  affiliations:
+  - 北风国
+  identities:
+  - 北风国太上皇
+  first_appearance:
+    chapter: 178
+    node: NODE-0026
+  cultivation:
+    current: null
+    status: pending
+  conflict:
+    target: 徐霄
+    result: 渡劫前被捆龙绳、三光神水和四柄神剑压制
+    life_status: pending
+    status: partial
+  documents:
+    profile: docs/02-characters/慕容龙城.md
+  related_nodes:
+  - NODE-0026
+  source_chapters:
+  - 178
+  - 179
+  verification_status: partial
+- id: CHAR-0036
+  name: 上官倩
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗长老
+  - A 级气运之女
+  - 段红绫师妹
+  first_appearance:
+    chapter: 192
+    title: a级气运之女，上官倩
+    node: NODE-0028
+  luck_grade:
+    value: A
+    base_multiplier: pending
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0035
+    item: 两张化神九重玄冰剑雨符
+    status: partial
+  document: docs/02-characters/上官倩.md
+  verification_status: partial
+- id: CHAR-0037
+  name: 水云
+  status: alive
+  role: supporting
+  affiliations:
+  - 水家
+  identities:
+  - 水家掌舵人
+  - 水柔之母
+  - 水月祖母
+  - 有效赠送对象
+  first_appearance:
+    chapter: 196
+    title: 水云，花怜惜
+    node: NODE-0028
+  accepted_gifts:
+  - gift_id: GIFT-0036
+    item: 绝品悟道丹
+    status: partial
+  document: docs/02-characters/水云.md
+  verification_status: partial
+- id: CHAR-0038
+  name: 花怜惜
+  status: alive
+  role: supporting
+  affiliations:
+  - 合欢宗
+  identities:
+  - 合欢宗太上长老
+  first_appearance:
+    chapter: 196
+    title: 水云，花怜惜
+    node: NODE-0028
+  document: docs/02-characters/花怜惜.md
+  verification_status: partial
+- id: CHAR-0039
+  name: 陆文涛
+  status: alive
+  role: supporting
+  affiliations:
+  - 青山书院
+  identities:
+  - 青山书院老院长
+  - 儒家势力代表
+  first_appearance:
+    chapter: 197
+    title: 青山书院，陆文涛
+    node: NODE-0028
+  attitude_change:
+    event: 接受五枚虚天丹后公开修正对徐霄的评价
+    status: partial
+  document: docs/02-characters/陆文涛.md
+  verification_status: partial
