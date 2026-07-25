@@ -29,7 +29,20 @@ jobs:
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
 
       - name: Validate base and extension indexes
-        run: python scripts/knowledge_base.py validate
+        shell: bash
+        run: |
+          mkdir -p build
+          set -o pipefail
+          python scripts/knowledge_base.py validate 2>&1 | tee build/validation.log
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report-${{ github.sha }}
+          path: build/validation.log
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Build materialized canonical indexes
         run: python scripts/knowledge_base.py build --output-dir build/canonical-indexes
