@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0041
+task_id: TASK-0032
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 211
+  chapter_end: 218
+  node: NODE-0030
+  status: promoted
+  canonical_document: docs/01-timeline/node-0030.md
+  boundary_reason: 第218章完成三族伏击清算、段红绫救治与被困后的驻地防守安排；第219章转入远古战场外部宗门响应
+chapters:
+- chapter: 211
+  title: 徐霄的好奇
+  facts: [白狐族决定尽量退出妖族联合行动并优先交好徐霄, 白霞儿被安排继续探查徐霄精气来源]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 212
+  title: 白霞儿的试探
+  facts: [白霞儿窃取一股精气时系统向徐霄返还十股精气, 徐霄以存在精气秘宝的说法掩饰系统机制]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 213
+  title: 战场异况
+  facts: [白霞儿与徐霄羁绊度提升至2, 尸灵强度和外扩趋势持续上升，各势力开始判断战场异常]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 214
+  title: 徐霄的叮嘱
+  facts: [白狐族决定留守黑石城并由白茹亲自推进精气探查, 徐霄警告队伍尸灵开始成群活动，远古战场与历史记录不符]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 215
+  title: 惊天巨变
+  facts: [三光分水剑快速击杀炼虚与化神尸灵并以三光神水腐蚀目标, 尸灵开始有组织地离开碎石谷且多个人族势力出现伤亡, 远古战场传送门突然消失]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 216
+  title: 灵宝之威
+  facts: [传送门关闭后场内修士被困，行动重点转为生存与守城, 虎奔、狼烈、蛇大同以段红绫为诱饵布置只能进不能出的伏击区域, 徐霄进入伏击区域并以灵宝与九天神龙甲交战]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 217
+  title: 屠杀妖族
+  facts: [三光分水剑击杀蛇大同, 破灭天金剑与三光分水剑击杀虎奔、狼烈并摧毁敌方法宝, 维持阵法的三族化神修士全部死亡]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 218
+  title: 段红绫的要求
+  facts: [徐霄与段红绫返回缥缈宗驻地并安排众人留守黑石城, 段红绫内伤经净玉瓶万年灵液治疗后基本恢复, 远古战场被困状态成为后续阶段主要前提]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 219
+  next_title: 姬雪，独孤灵
+  transition: 转入远古战场外部的宗门响应、救援判断与后续大会
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

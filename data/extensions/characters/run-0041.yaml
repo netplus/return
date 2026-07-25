@@ -1,0 +1,61 @@
+schema_version: 1
+run_id: RUN-0041
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add: [以三光分水剑清剿外扩尸灵，并在三族伏击中击杀虎奔、狼烈与蛇大同]
+    role_change_add: 远古战场传送门关闭后成为缥缈宗驻地核心战力
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [211, 212, 213, 214, 215, 216, 217, 218]
+- id: CHAR-0041
+  name: 白霞儿
+  update:
+    bond_level: 2
+    relationship_change: 继续承担狐族探查精气来源的任务，并获得徐霄长期修炼资源承诺
+    system_interaction_add:
+    - {trigger: 窃取一股精气, return_to_xuxiao: 十股精气, status: partial}
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [211, 212, 213, 214]
+- id: CHAR-0040
+  name: 白茹
+  update:
+    strategic_change: 决定白狐族尽量退出妖族联合行动，以长期交好徐霄和获取精气资源为优先
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [211, 214]
+- id: CHAR-0005
+  name: 段红绫
+  update:
+    combat_record_add: [被虎狼蛇三族炼虚修士围困后由徐霄救出]
+    condition_change: 内伤经万年灵液治疗后基本恢复
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [216, 217, 218]
+- id: CHAR-0033
+  name: 虎奔
+  update:
+    status: dead
+    death: {chapter: 217, event: 三族伏击失败后被徐霄以灵宝神剑击杀, status: partial}
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [216, 217]
+- id: CHAR-0042
+  name: 狼烈
+  status: dead
+  role: antagonist
+  affiliations: [狼族, 妖族]
+  identities: [狼族族长]
+  realm: {value: 炼虚七重, status: partial}
+  first_appearance: {chapter: 216, title: 灵宝之威, node: NODE-0030}
+  death: {chapter: 217, event: 三族伏击失败后被徐霄以灵宝神剑击杀, status: partial}
+  document: null
+  verification_status: partial
+- id: CHAR-0043
+  name: 蛇大同
+  status: dead
+  role: antagonist
+  affiliations: [蛇族, 妖族]
+  identities: [蛇族族长]
+  realm: {value: 炼虚七重, status: partial}
+  first_appearance: {chapter: 216, title: 灵宝之威, node: NODE-0030}
+  death: {chapter: 217, event: 三族伏击失败后被三光分水剑击杀并被三光神水腐蚀, status: partial}
+  document: null
+  verification_status: partial

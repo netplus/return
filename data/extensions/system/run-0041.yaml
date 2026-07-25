@@ -1,0 +1,13 @@
+schema_version: 1
+run_id: RUN-0041
+gift_events: []
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    rule_instances_add:
+    - {trigger: 白霞儿窃取一股精气, effect: 系统向徐霄返还十股精气, chapter: 212, status: partial}
+    relationship_instances_add:
+    - {character: 白霞儿, bond_level: 2, chapter: 213, status: partial}
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [212, 213]

@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0041 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0032`; no completed task or canonical node was duplicated.
+- Resolved the adaptive boundary at Chapter 218; Chapter 219 begins the remote-battlefield external response and center-hall line.
+- Created `NODE-0030`: 远古战场异变、灵宝扬威与妖族伏击覆灭, covering Chapters 211—218.
+- Added 狼烈 and 蛇大同 as `CHAR-0042` and `CHAR-0043`; updated 虎奔 to dead and 白霞儿 bond level to 2.
+- Recorded the tenfold essence-return rule instance, the disappearance of the battlefield portal, and the organized outward movement of corpse spirits.
+- Confirmed 三光分水剑 combat effects and the destruction of the tiger, wolf and snake ambush force.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0032` and queued `TASK-0033` beginning at Chapter 219.
+
 ## RUN-0040 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
@@ -15,44 +28,15 @@
 
 ## RUN-0039 — 2026-07-25
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0030`; no completed task or canonical node was duplicated.
-- Resolved the adaptive boundary at Chapter 199; Chapter 200 begins a new气运之敌 and black-stone-city line.
-- Created `NODE-0028`: 上官倩结缘与远古战场初战, covering Chapters 192—199.
-- Added 上官倩, 水云, 花怜惜 and 陆文涛 as `CHAR-0036`—`CHAR-0039`.
-- Added `GIFT-0035` and `GIFT-0036`, returning 混沌极冰符, 天道冰剑符 and 血牛猛虎丹.
-- Recorded the remote-battlefield entry and the joint defeat of a炼虚中期尸灵 by徐霄 and诸葛无方.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0030` and queued `TASK-0031` beginning at Chapter 200.
+- Completed `NODE-0028`, covering Chapters 192—199, and queued `TASK-0031`.
 
 ## RUN-0038 — 2026-07-25
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0029`; no completed task or canonical node was duplicated.
-- Resolved the adaptive boundary at Chapter 191; Chapter 192 begins the 上官倩 gift-relationship line.
-- Created `NODE-0027`: 妖族突袭、远古神碑现世与一年备战, covering Chapters 185—191.
-- Recorded 徐霄's first post-restoration 化神 battle, four-sword combat display and strategic use of the final九天神雷符.
-- Added the system rule instance that host-realm advancement can upgrade the return-item library; exact quality cap remains `pending`.
-- Recorded猿罡's death,大道神碑's appearance, the remote battlefield opening three thousand years early, and the one-year preparation interval.
-- Recorded the demon-clan and demonic-sect cooperation plan to target徐霄 inside the battlefield.
-- Added append-only Timeline, Character, System and Artifact/World extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0029` and queued `TASK-0030` beginning at Chapter 192.
+- Completed `NODE-0027`, covering Chapters 185—191, and queued `TASK-0030`.
 
 ## RUN-0037 — 2026-07-25
 
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0028`; no completed task or canonical node was duplicated.
-- Extended the adaptive boundary through Chapter 184 so the arc includes both the nine thunder strikes and the resulting heavenly wash; Chapter 185 begins the demon-clan assault.
-- Created `NODE-0026`: 远古战场二次化神雷劫与重返仙途, covering Chapters 175—184.
-- Added `GIFT-0034`: an accepted absolute-grade appearance-preserving pill to 巫瓶儿; exact multiplier and reward remain `pending`.
-- Added 慕容龙城 (`CHAR-0035`) and recorded his pre-tribulation conflict with 徐霄 without inferring his final life status.
-- Updated 徐霄 to 化神境 after completing the second化神雷劫 despite nine sacrificial cultivators amplifying it.
-- Recorded major artifact attrition: only four divine swords remained from eleven principal artifacts after the tribulation.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0028` and queued `TASK-0029` beginning at Chapter 185.
+- Completed `NODE-0026`, covering Chapters 175—184, and queued `TASK-0029`.
 
 ## RUN-0036 — 2026-07-25
 

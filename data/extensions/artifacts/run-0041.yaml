@@ -1,0 +1,21 @@
+schema_version: 1
+run_id: RUN-0041
+artifacts: []
+artifact_updates:
+- id: ART-0031
+  name: 三光分水剑
+  update:
+    effect_add: [释放三光神水，可快速腐蚀炼虚与化神尸灵, 可从目标内部穿杀并腐蚀妖族肉身]
+    combat_record_add: 第215—217章用于清剿尸灵并击杀蛇大同、虎奔与狼烈
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [215, 216, 217]
+- name: 破灭天金剑
+  update:
+    combat_record_add: 与三光分水剑协同压制并摧毁三族炼虚法宝
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [216, 217]
+- name: 九天神龙甲
+  update:
+    combat_record_add: 在虎狼蛇三族伏击中承担主要防御
+    related_nodes_add: [NODE-0030]
+    source_chapters_add: [216, 217]

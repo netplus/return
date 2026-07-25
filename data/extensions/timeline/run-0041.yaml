@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0041
+nodes:
+- id: NODE-0030
+  title: 远古战场异变、灵宝扬威与妖族伏击覆灭
+  chapters: {start: 211, end: 218}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第211—219章标题、顺序和边界；第211—218章正文由可访问镜像交叉核验
+  boundary_reason: 第218章完成三族伏击清算、段红绫救治与被困后的驻地防守安排；第219章转入远古战场外部的宗门响应
+  characters: [徐霄, 白霞儿, 白茹, 白九儿, 段红绫, 上官倩, 虎奔, 狼烈, 蛇大同, 水云]
+  system_events:
+  - event: 白霞儿精气返还实例
+    trigger: 白霞儿窃取一股精气
+    reward: 徐霄获得十股精气
+    relationship_result: 羁绊度提升至2
+    status: partial
+  conflict_events:
+  - event: 尸灵外扩与传送门消失
+    result: 场内各势力被困，探索阶段转为守城与生存阶段
+    status: partial
+  - event: 虎狼蛇三族伏击徐霄与段红绫
+    result: 虎奔、狼烈、蛇大同及三族随行化神修士死亡，阵法失效
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    combat_resources_confirmed: [三光分水剑, 破灭天金剑, 九天神龙甲]
+    role_change: 成为传送门关闭后缥缈宗驻地的核心战力
+    status: partial
+  pending:
+  - 白霞儿精气试探累计返还总量
+  - 远古战场传送门关闭的幕后主体
+  - 尸灵组织者与最终目的
+  - 三族伏击阵法正式名称
+  - 敌方法宝完整品阶与战后归属
+  document: docs/01-timeline/node-0030.md
+  evidence: sources/evidence/chapters-211-218.yaml

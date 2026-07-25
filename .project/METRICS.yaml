@@ -1,13 +1,13 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0040
+run_id: RUN-0041
 coverage:
-  chapters_covered_through: 210
-  chapters_promoted_in_run: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
-  timeline_nodes: 29
+  chapters_covered_through: 218
+  chapters_promoted_in_run: [211, 212, 213, 214, 215, 216, 217, 218]
+  timeline_nodes: 30
   draft_nodes: 0
-  story_arc_nodes: 26
-  characters_documented: 41
+  story_arc_nodes: 27
+  characters_documented: 43
   characters_staged: 0
   system_records: 1
   gift_events: 40
@@ -16,17 +16,17 @@ coverage:
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211]
-    cross_checked_mirror_chapters: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
-    pending_fields: [新气运之敌完整系统面板, 白茹完整气运与羁绊面板, 白霞儿基础倍率与羁绊度, 猿洪最后一击与通天如意棍最终归属, 三光分水剑完整能力]
+    official_catalog_chapters: [211, 212, 213, 214, 215, 216, 217, 218, 219]
+    cross_checked_mirror_chapters: [211, 212, 213, 214, 215, 216, 217, 218]
+    pending_fields: [白霞儿精气试探累计返还总量, 远古战场传送门关闭幕后主体, 尸灵组织者与最终目的, 三族伏击阵法正式名称, 敌方法宝完整品阶与战后归属, 段红绫第218章要求的长期结果]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第210章完成猿洪任务结算、返还库升级与狐族交易兑现；第211章转入灵宝探查及战场异况}
-  materiality: {status: passed, entity_updates: [NODE-0029, CHAR-0040白茹, CHAR-0041白霞儿, 白九儿晋升炼虚, 猿洪死亡, GIFT-0037至GIFT-0040, ART-0029至ART-0031, 法宝返还库升级]}
+  arc_coherence: {status: passed, boundary: 第218章完成三族伏击清算、段红绫救治与被困后的驻地防守安排；第219章转入远古战场外部宗门响应}
+  materiality: {status: passed, entity_updates: [NODE-0030, CHAR-0042狼烈, CHAR-0043蛇大同, 虎奔死亡, 白霞儿羁绊度2, 三光分水剑实战能力, 远古战场传送门关闭]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0029.md, docs/02-characters/白茹.md, docs/02-characters/白霞儿.md, data/extensions/timeline/run-0040.yaml, data/extensions/characters/run-0040.yaml, data/extensions/system/run-0040.yaml, data/extensions/artifacts/run-0040.yaml]
+    files_checked: [docs/01-timeline/node-0030.md, data/extensions/timeline/run-0041.yaml, data/extensions/characters/run-0041.yaml, data/extensions/system/run-0041.yaml, data/extensions/artifacts/run-0041.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0040.yaml, data/extensions/characters/run-0040.yaml, data/extensions/system/run-0040.yaml, data/extensions/artifacts/run-0040.yaml, sources/evidence/chapters-200-210.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0041.yaml, data/extensions/characters/run-0041.yaml, data/extensions/system/run-0041.yaml, data/extensions/artifacts/run-0041.yaml, sources/evidence/chapters-211-218.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
