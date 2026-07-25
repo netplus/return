@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0045 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0036`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 252; Chapter 253 begins continuous gifting and Tianzhen Pavilion relationship development.
+- Created `NODE-0034`: 气运之子叶尘与初入无妄仙宗, covering Chapters 244—252.
+- Added 叶尘 as `CHAR-0047`, 玉冰 as `CHAR-0048`, 第一婵 as `CHAR-0049`, and 秦朋、程芷、程双 as `CHAR-0050`—`CHAR-0052`.
+- Updated 徐霄 to化神九重巅峰 and recorded his entry into天阵阁; updated姬雪 to炼虚九重、元灵圣体 and玉冰首徒.
+- Recorded the system capability to identify external rule systems and confirmed叶尘's level-one收徒就变强 system.
+- Added append-only Timeline, Character and System extension indexes and promoted chapter evidence; no unsupported Gift or Artifact record was created.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0036`, advanced to milestone M6, and queued `TASK-0037` beginning at Chapter 253.
+
 ## RUN-0044 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

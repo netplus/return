@@ -1,0 +1,14 @@
+schema_version: 1
+run_id: RUN-0045
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [玉冰]
+    rule_instances_add:
+    - trigger: 识别叶尘绑定的外部规则系统
+      effect: 确认一级系统为最低等级规则系统，并识别收徒反馈会减慢徒弟修炼
+      chapter: 247
+      status: partial
+    related_nodes_add: [NODE-0034]
+    source_chapters_add: [244, 247, 250]

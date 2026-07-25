@@ -32,50 +32,15 @@ tasks:
 - {id: TASK-0029, title: Build Chapters 185-191 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0038, target: {chapter_start: 185, chapter_end: 191, node: NODE-0027, boundary: adaptive}, depends_on: [TASK-0028]}
 - {id: TASK-0030, title: Build the 上官倩结缘与远古战场入场 story arc from Chapter 192 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0039, target: {chapter_start: 192, chapter_end: 199, node: NODE-0028, boundary: adaptive}, depends_on: [TASK-0029]}
 - {id: TASK-0031, title: Build the 新气运之敌与黑石城 story arc from Chapter 200 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0040, target: {chapter_start: 200, chapter_end: 210, node: NODE-0029, boundary: adaptive}, depends_on: [TASK-0030]}
-- id: TASK-0032
-  title: Build the 灵宝探查与远古战场异况 story arc from Chapter 211 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0041
-  target: {chapter_start: 211, chapter_end: 218, node: NODE-0030, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0030.md, data/extensions/timeline/run-0041.yaml, data/extensions/characters/run-0041.yaml, data/extensions/system/run-0041.yaml, data/extensions/artifacts/run-0041.yaml, sources/evidence/chapters-211-218.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0031]
-- id: TASK-0033
-  title: Build the 远古战场外部响应与中心殿大会 story arc from Chapter 219 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0042
-  target: {chapter_start: 219, chapter_end: 226, node: NODE-0031, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0031.md, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml, sources/evidence/chapters-219-226.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0032]
-- id: TASK-0034
-  title: Build the 尸潮推进与战场深处调查 story arc from Chapter 227 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0043
-  target: {chapter_start: 227, chapter_end: 235, node: NODE-0032, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0032.md, data/extensions/timeline/run-0043.yaml, data/extensions/characters/run-0043.yaml, data/extensions/system/run-0043.yaml, data/extensions/artifacts/run-0043.yaml, sources/evidence/chapters-227-235.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0033]
-- id: TASK-0035
-  title: Build the 凤青玄借体与远古战场脱困 story arc from Chapter 236 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0044
-  target: {chapter_start: 236, chapter_end: 243, node: NODE-0033, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0033.md, data/extensions/timeline/run-0044.yaml, data/extensions/characters/run-0044.yaml, data/extensions/artifacts/run-0044.yaml, sources/evidence/chapters-236-243.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0034]
-- id: TASK-0036
-  title: Build the 新气运之子与初到天元大陆 story arc from Chapter 244 onward
+- {id: TASK-0032, title: Build the 灵宝探查与远古战场异况 story arc from Chapter 211 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0041, target: {chapter_start: 211, chapter_end: 218, node: NODE-0030, boundary: adaptive}, outputs: [docs/01-timeline/node-0030.md, data/extensions/timeline/run-0041.yaml, data/extensions/characters/run-0041.yaml, data/extensions/system/run-0041.yaml, data/extensions/artifacts/run-0041.yaml, sources/evidence/chapters-211-218.yaml], quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}, depends_on: [TASK-0031]}
+- {id: TASK-0033, title: Build the 远古战场外部响应与中心殿大会 story arc from Chapter 219 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0042, target: {chapter_start: 219, chapter_end: 226, node: NODE-0031, boundary: adaptive}, outputs: [docs/01-timeline/node-0031.md, data/extensions/timeline/run-0042.yaml, data/extensions/characters/run-0042.yaml, data/extensions/system/run-0042.yaml, data/extensions/artifacts/run-0042.yaml, sources/evidence/chapters-219-226.yaml], quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}, depends_on: [TASK-0032]}
+- {id: TASK-0034, title: Build the 尸潮推进与战场深处调查 story arc from Chapter 227 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0043, target: {chapter_start: 227, chapter_end: 235, node: NODE-0032, boundary: adaptive}, outputs: [docs/01-timeline/node-0032.md, data/extensions/timeline/run-0043.yaml, data/extensions/characters/run-0043.yaml, data/extensions/system/run-0043.yaml, data/extensions/artifacts/run-0043.yaml, sources/evidence/chapters-227-235.yaml], quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}, depends_on: [TASK-0033]}
+- {id: TASK-0035, title: Build the 凤青玄借体与远古战场脱困 story arc from Chapter 236 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0044, target: {chapter_start: 236, chapter_end: 243, node: NODE-0033, boundary: adaptive}, outputs: [docs/01-timeline/node-0033.md, data/extensions/timeline/run-0044.yaml, data/extensions/characters/run-0044.yaml, data/extensions/artifacts/run-0044.yaml, sources/evidence/chapters-236-243.yaml], quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}, depends_on: [TASK-0034]}
+- {id: TASK-0036, title: Build the 新气运之子与初到天元大陆 story arc from Chapter 244 onward, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0045, target: {chapter_start: 244, chapter_end: 252, node: NODE-0034, boundary: adaptive}, outputs: [docs/01-timeline/node-0034.md, data/extensions/timeline/run-0045.yaml, data/extensions/characters/run-0045.yaml, data/extensions/system/run-0045.yaml, sources/evidence/chapters-244-252.yaml], quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}, depends_on: [TASK-0035]}
+- id: TASK-0037
+  title: Build the 天阵阁赠送返还与新关系 story arc from Chapter 253 onward
   type: story_arc
   status: pending
-  target: {chapter_start: 244, provisional_chapter_end: 251, node: NODE-0034, boundary: adaptive}
+  target: {chapter_start: 253, provisional_chapter_end: 260, node: NODE-0035, boundary: adaptive}
   rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0035]
+  depends_on: [TASK-0036]
