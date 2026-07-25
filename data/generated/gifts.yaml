@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 16
+  extension_files: 17
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -625,4 +625,29 @@ gifts:
   system_valid: true
   first_gift: false
   reward: 灵宝三光分水剑
+  status: partial
+- id: GIFT-0041
+  chapter: 220
+  node: NODE-0031
+  giver: 徐霄
+  recipient: 段红绫
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: false
+  first_bond_increase: true
+  triggered_multiplier: 1000
+  reward: 三千大道丹
+  relationship_result: 羁绊度提升至2
+  status: partial
+- id: GIFT-0042
+  chapter: 226
+  node: NODE-0031
+  giver: 徐霄
+  recipient: 白茹
+  gift: 炼虚九重九天神雷符
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 合体九重混沌神雷符
   status: partial

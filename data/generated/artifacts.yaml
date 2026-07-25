@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 18
+  extension_files: 19
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -526,8 +526,25 @@ artifacts:
   related_nodes:
   - NODE-0029
   - NODE-0030
-  combat_record: 第215—217章用于清剿尸灵并击杀蛇大同、虎奔与狼烈
+  - NODE-0031
+  combat_record:
+  - 第215—217章用于清剿尸灵并击杀蛇大同、虎奔与狼烈
+  - 第223—225章主导碎石谷与黑锋山尸灵清剿
   source_chapters:
   - 215
   - 216
   - 217
+  - 223
+  - 224
+  - 225
+- id: ART-0032
+  name: 混沌神雷符
+  category: 符箓
+  grade: 合体九重
+  first_chapter: 226
+  current_holder: 徐霄
+  acquisition: GIFT-0042返还
+  effect: 完整攻击机制与威力表现待后续正文确认
+  status: partial
+  related_nodes:
+  - NODE-0031

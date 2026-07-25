@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 19
+  extension_files: 20
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1102,3 +1102,58 @@ nodes:
   - 敌方法宝完整品阶与战后归属
   document: docs/01-timeline/node-0030.md
   evidence: sources/evidence/chapters-211-218.yaml
+- id: NODE-0031
+  title: 外部响应、中心殿联合与三据点反攻
+  chapters:
+    start: 219
+    end: 226
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第219—227章标题、顺序和边界；第219—226章正文由可访问镜像交叉核验
+  boundary_reason: 第226章完成三处据点夺取、白茹赠符结算与联合前线建立；第227章转入尸潮推进、据点防守和深入战场西部调查
+  characters:
+  - 徐霄
+  - 姬雪
+  - 独孤灵
+  - 石刚烈
+  - 段红绫
+  - 诸葛无方
+  - 花怜惜
+  - 白茹
+  - 白霞儿
+  - 牛大力
+  system_events:
+  - event: 段红绫首次羁绊升级赠送
+    trigger: 赠送五枚虚天丹
+    reward: 三千大道丹
+    multiplier: 1000
+    relationship_result: 羁绊度提升至2
+    status: partial
+  - event: 花怜惜气运返还实例
+    trigger: 花怜惜窃取一点气运
+    reward: 徐霄获得十点气运
+    status: partial
+  - event: 白茹符箓赠送返还
+    trigger: 赠送炼虚九重九天神雷符
+    reward: 合体九重混沌神雷符
+    status: partial
+  conflict_events:
+  - event: 中心殿联合决策与三据点清剿
+    result: 正道、魔道与剩余妖族形成联合前线，拿下碎石谷、黑锋山和弱水河
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    combat_resources_confirmed:
+    - 三光分水剑
+    - 破灭天金剑
+    - 九天神龙甲
+    role_change: 成为三处据点反攻的主要攻坚者，并提出主动调查战场深处
+    status: partial
+  pending:
+  - 外界重开传送门的可行手段
+  - 姬雪与石刚烈精确修为
+  - 花怜惜累计气运返还总量
+  - 黑石宫殿黑裙女子与凤长老身份
+  - 混沌神雷符完整能力与消耗状态
+  document: docs/01-timeline/node-0031.md
+  evidence: sources/evidence/chapters-219-226.yaml

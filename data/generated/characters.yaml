@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 18
+  extension_files: 19
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -91,6 +91,7 @@ characters:
   - NODE-0028
   - NODE-0029
   - NODE-0030
+  - NODE-0031
   source_chapters:
   - 1
   - 2
@@ -278,6 +279,13 @@ characters:
   - 216
   - 217
   - 218
+  - 220
+  - 221
+  - 222
+  - 223
+  - 224
+  - 225
+  - 226
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -324,6 +332,7 @@ characters:
   - 与诸葛无方协作击杀炼虚中期尸灵
   - 联合狐族破解通天神棍阵并击杀猿洪
   - 以三光分水剑清剿外扩尸灵，并在三族伏击中击杀虎奔、狼烈与蛇大同
+  - 以三光分水剑主导碎石谷与黑锋山清剿并推动三处据点反攻
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -337,7 +346,9 @@ characters:
   ability:
   - 金之大道·锋锐
   system_progress: 法宝返还库最高可返还灵宝
-  role_change: 远古战场传送门关闭后成为缥缈宗驻地核心战力
+  role_change:
+  - 远古战场传送门关闭后成为缥缈宗驻地核心战力
+  - 成为联合前线主要攻坚者并提出深入战场西部调查
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -366,10 +377,14 @@ characters:
   related_nodes:
   - NODE-0001
   - NODE-0002
+  - NODE-0031
   source_chapters:
   - 1
   - 2
+  - 219
   verification_status: verified
+  status_change: 提前结束闭关并参与远古战场外部响应
+  relationship_change: 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
 - id: CHAR-0003
   name: 独孤灵
   status: alive
@@ -415,6 +430,7 @@ characters:
   - NODE-0006
   - NODE-0008
   - NODE-0009
+  - NODE-0031
   source_chapters:
   - 1
   - 2
@@ -426,7 +442,11 @@ characters:
   - 39
   - 40
   - 41
+  - 219
   verification_status: partial
+  realm: 炼虚境
+  condition_change: 已完成炼虚突破并结束闭关
+  relationship_change: 因徐霄被困远古战场而明显担忧，但继续受到师门约束
 - id: CHAR-0004
   name: 陆大年
   status: alive
@@ -496,6 +516,7 @@ characters:
   - NODE-0007
   - NODE-0016
   - NODE-0030
+  - NODE-0031
   source_chapters:
   - 4
   - 5
@@ -505,12 +526,16 @@ characters:
   - 216
   - 217
   - 218
+  - 220
   verification_status: partial
   accepted_gifts:
   - GIFT-0020
+  - GIFT-0041
   combat_record:
   - 被虎狼蛇三族炼虚修士围困后由徐霄救出
   condition_change: 内伤经万年灵液治疗后基本恢复
+  bond_level: 2
+  relationship_change: 接受徐霄赠送的五枚虚天丹后再次形成长期资源关系
 - id: CHAR-0006
   name: 林嫣儿
   status: alive
@@ -1800,6 +1825,20 @@ characters:
     node: NODE-0028
   document: docs/02-characters/花怜惜.md
   verification_status: partial
+  realm: 炼虚后期
+  luck_grade: A
+  base_return_multiplier: 10
+  bond_level: 1
+  system_interaction:
+  - trigger: 窃取一点气运
+    return_to_xuxiao: 十点气运
+    status: partial
+  related_nodes:
+  - NODE-0031
+  source_chapters:
+  - 222
+  - 223
+  - 224
 - id: CHAR-0039
   name: 陆文涛
   status: alive
@@ -1838,14 +1877,22 @@ characters:
   - gift_id: GIFT-0038
     item: 五枚虚天丹
     status: partial
+  - GIFT-0042
   document: docs/02-characters/白茹.md
   verification_status: partial
   strategic_change: 决定白狐族尽量退出妖族联合行动，以长期交好徐霄和获取精气资源为优先
   related_nodes:
   - NODE-0030
+  - NODE-0031
   source_chapters:
   - 211
   - 214
+  - 224
+  - 225
+  - 226
+  combat_record:
+  - 黑锋山遭尸灵围攻后由徐霄与联合队伍救援
+  relationship_change: 接受炼虚九重九天神雷符，狐族与徐霄的长期合作进一步加深
 - id: CHAR-0041
   name: 白霞儿
   status: alive
@@ -1928,5 +1975,25 @@ characters:
     chapter: 217
     event: 三族伏击失败后被三光分水剑击杀并被三光神水腐蚀
     status: partial
+  document: null
+  verification_status: partial
+- id: CHAR-0044
+  name: 石刚烈
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗太上长老
+  - 姬雪师兄
+  - 段红绫师父
+  first_appearance:
+    chapter: 219
+    title: 姬雪，独孤灵
+    node: NODE-0031
+  realm:
+    value: pending
+    status: pending
+  current_action: 与姬雪、独孤灵在外界关注远古战场传送门关闭
   document: null
   verification_status: partial
