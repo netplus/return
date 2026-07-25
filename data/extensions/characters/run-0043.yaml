@@ -25,10 +25,9 @@ characters:
 - id: CHAR-0025
   name: 魇女
   update:
-    field_set:
-      system_classification:
-        value: 气运之女
-        status: partial
+    system_classification_set:
+      value: 气运之女
+      status: partial
     luck_grade: {value: pending, status: pending}
     base_return_multiplier: {value: pending, status: pending}
     relationship_change: 与徐霄确认长期道侣关系
