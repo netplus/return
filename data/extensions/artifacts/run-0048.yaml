@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0048
+artifact_updates:
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0048, chapter: 281, status: partial}
+    consumption_add:
+    - {chapter: 282, user: 徐霄, result: 鸿蒙真气总量增至八股, status: partial}
+    related_nodes_add: [NODE-0037]
+    source_chapters_add: [281, 282]
+- id: ART-0035
+  name: 护心龙镜
+  update:
+    modification_add: 玉冰刻入可与其直接联系的传讯阵
+    communication_target: 玉冰
+    related_nodes_add: [NODE-0037]
+    source_chapters_add: [279]
