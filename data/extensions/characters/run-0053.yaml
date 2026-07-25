@@ -1,0 +1,73 @@
+schema_version: 1
+run_id: RUN-0053
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    identities_add: [无妄仙宗内门执事]
+    role_change_add: 晋升内门执事并继续兼任内门大师兄，宗门公开宣传其促成凤族回归的功绩
+    power_change_add: [服用鸿蒙一气丹后鸿蒙真气增至十股, 服用九转运天丹后气运凝练为九天气运]
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [317, 318, 321, 322, 323, 324]
+- id: CHAR-0024
+  name: 妙玉
+  update:
+    strategic_change_add: 继续承载凤青玄神魂并准备随凤族回归无妄仙宗
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [317]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    received_resources_add: [GIFT-0055火凤精血]
+    recovery_plan_add: 取得火凤精血并形成天凤精血返还，涅槃恢复计划继续推进
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [317]
+- id: CHAR-0053
+  name: 林婉
+  update:
+    relationship_network_change_add: 师父灵航加入徐霄的气运与资源关系网络
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [319, 320, 324]
+- id: CHAR-0038
+  name: 花怜惜
+  update:
+    relationship_network_change_add: 师父灵航公开与徐霄建立资源和气运关系
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [324]
+- id: CHAR-0014
+  name: 萧慕河
+  update:
+    current_action_set: 与血云魔尊抵达弑天血宗收徒现场，谋求加入新宗门并恢复复仇能力
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [320]
+- id: CHAR-0058
+  name: 凤仪
+  update:
+    affiliation_change_add: 凤族回归后拟任无妄仙宗内门长老与凤阁首座
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [317, 318]
+- id: CHAR-0059
+  name: 灵航
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 天运阁]
+  identities: [天运阁首座, 内门长老, 气运之女]
+  first_appearance: {chapter: 281, title: 灵航真人, node: NODE-0037}
+  cultivation: {current: 合体巅峰, status: partial}
+  age: {value: 约两万岁, status: partial}
+  system_profile:
+    luck_grade: pending
+    base_return_multiplier: 10
+    bond: 2
+    status: partial
+  system_interaction:
+  - {trigger: 窃取徐霄一点气运, return_to_xuxiao: 十点气运, chapter: 322, status: partial}
+  accepted_gifts: [GIFT-0056, GIFT-0057]
+  relationship_context:
+    徐霄: 建立长期道侣与修炼资源支持关系
+    林婉与花怜惜: 作为师父公开说明自身加入徐霄的气运资源关系
+    status: partial
+  related_nodes: [NODE-0037, NODE-0042]
+  source_chapters: [281, 282, 319, 320, 321, 322, 323, 324]
+  document: null
+  verification_status: partial
