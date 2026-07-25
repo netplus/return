@@ -4,25 +4,25 @@
 - **Current milestone:** M7 — Chapters 301–350
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 316
-- **Current evidence exploration through:** Chapter 317
+- **Canonical coverage through:** Chapter 324
+- **Current evidence exploration through:** Chapter 325
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 41
+- **Completed timeline nodes:** 42
 - **Draft timeline nodes:** 0
-- **Documented characters:** 58
-- **Gift events:** 54
-- **Artifact records:** 38
-- **Last run:** `RUN-0052`
-- **Last completed node:** `NODE-0041`
-- **Next task:** `TASK-0044` — 返宗汇报、凤族回归与方达飞后续 story arc
-- **Provisional exploration range:** Chapters 317–324
+- **Documented characters:** 59
+- **Gift events:** 57
+- **Artifact records:** 41
+- **Last run:** `RUN-0053`
+- **Last completed node:** `NODE-0042`
+- **Next task:** `TASK-0045` — 灵花岛、地月宗与灵田外勤 story arc
+- **Provisional exploration range:** Chapters 325–332
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0041` covers Chapters 304—316. 凤仪万年寿宴上，系统识别玉鼎仙宗长老方达飞为气运之子并发布击杀任务。徐霄以宗门和私人礼单向凤仪赠送合道丹、绝品驻颜丹、法宝与极品灵石，集中返还三千大道丹、蕴仙丹、鸿蒙一气丹、七件灵宝和大量极品灵石。随后三宗进入凤山界竞争五色神光；玉鼎仙宗与天煞魔宗队伍先后受创，徐霄以神木飞舟、五行灵宝神剑和高阶符箓清除主要凶兽威胁，促使凤族将其列为最尊贵客人并转向重回无妄仙宗。第 317 章转入返宗汇报和凤青玄精血交付。
+`NODE-0042` covers Chapters 317—324. 徐霄交付火凤精血并返还天凤精血，凤族回归安排进入执行；玉冰将徐霄提升为内门执事并推动宗门公开宣传其功绩。灵航突破合体巅峰后确认徐霄的庞大气运，建立长期气运、资源与道侣关系；灵宝赠送返还先天灵宝四象斩天剑，绝品驻颜丹赠送返还九转运天丹。徐霄服丹后鸿蒙真气增至十股，气运凝练为九天气运。第 325 章转入灵花岛和地月宗外勤。
 
-## Quality gates — RUN-0052
+## Quality gates — RUN-0053
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 304—317 章标题、顺序和边界；第 304—316 章正文由 CP 小说网等可访问正文镜像交叉核验。方达飞完整大乘传承、凤仪完整系统面板、七件返还灵宝逐件名称、五色神光最终分配及第 317 章起精血返还继续保持 `pending`。
+番茄小说官方目录确认第 317—325 章标题、顺序和边界；第 317—324 章正文由 CP 小说网等可访问正文镜像交叉核验。第 320 章返还道具库升级细节、灵航首次灵宝原名、四象斩天剑完整能力、天凤精血使用结果及灵航完整系统面板继续保持 `pending`。

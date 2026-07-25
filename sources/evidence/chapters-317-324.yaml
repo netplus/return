@@ -1,0 +1,79 @@
+schema_version: 2
+run_id: RUN-0053
+task_id: TASK-0044
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 317
+  chapter_end: 324
+  node: NODE-0042
+  status: promoted
+  canonical_document: docs/01-timeline/node-0042.md
+  boundary_reason: 第324章完成灵航关系公开、天运阁内部结构变化与宗门舆论扩散；第325章转入灵花岛地月宗外勤
+chapters:
+- chapter: 317
+  title: 返回宗门汇报
+  facts: [凤族确认回归无妄仙宗, 徐霄将一滴火凤精血交给凤青玄, 系统返还一滴天凤精血, 妙玉与凤仪的回归宗门安排形成]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 318
+  title: 开始洗白的徐霄
+  facts: [徐霄被破格提拔为内门执事并继续兼任内门大师兄, 玉冰安排宣传其自费促成凤族回归的功绩, 徐霄的宗门正式地位与公开声望提升]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 319
+  title: 灵航真人出关
+  facts: [灵航结束闭关并达到合体巅峰, 玉鼎仙宗与天煞魔宗继续推动针对徐霄的负面舆论, 灵航开始重新评估徐霄的气运与资源价值]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 320
+  title: 返还道具库再次升级
+  facts: [灵航确认合体巅峰修为并劝林婉只取气运与资源, 萧慕河与血云魔尊抵达弑天血宗收徒现场, 章节标题确认返还道具库出现升级但精确触发与类别待核验]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 321
+  title: 灵航来访
+  facts: [灵航前往天阵阁寻找徐霄, 她确认徐霄周身气运庞大且质量极高, 双方开始讨论长期气运与资源关系]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 322
+  title: 先天灵宝，四象斩天剑
+  facts: [灵航窃取一点气运时徐霄获得十点返还, 双方建立长期资源关系, 徐霄向灵航赠送一件灵宝并获得先天灵宝四象斩天剑]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 323
+  title: 秦朋，世界观崩塌
+  facts: [灵航羁绊度提升至2, 徐霄向灵航赠送绝品驻颜丹, 首次羁绊提升触发千倍暴击并返还九转运天丹, 灵航确认徐霄为其首位真正道侣]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 324
+  title: 内门长老们炸了
+  facts: [灵航向林婉花怜惜公开与徐霄的气运资源关系, 徐霄服用鸿蒙一气丹后鸿蒙真气增至十股, 徐霄服用九转运天丹后气运凝练为九天气运]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 325
+  next_title: 灵花岛，地月宗
+  transition: 转入灵花岛驻守、地月宗与新的外勤冲突阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
+pending:
+- 第320章返还道具库升级的精确触发类别与上限
+- GIFT-0056原始灵宝名称与精确倍率
+- 四象斩天剑完整能力与炼化状态
+- 天凤精血完整使用结果
+- 灵航完整气运等级与系统面板

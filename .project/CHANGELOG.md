@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0053 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0044`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 324; Chapter 325 begins the 灵花岛、地月宗与灵田外勤 line.
+- Created `NODE-0042`: 返宗洗白、灵航结缘与先天灵宝返还, covering Chapters 317—324.
+- Added 灵航 as `CHAR-0059`; updated 徐霄、凤青玄、妙玉、凤仪、林婉、花怜惜 and萧慕河 for persistent role, relationship, cultivation and strategic changes.
+- Added `GIFT-0055`—`GIFT-0057`, returning天凤精血、先天灵宝四象斩天剑 and九转运天丹.
+- Added `ART-0039` 天凤精血, `ART-0040` 四象斩天剑 and `ART-0041` 九转运天丹.
+- Recorded 徐霄's promotion to inner-sect deacon, ten strands of鸿蒙真气 and the condensation of九天气运.
+- Preserved the Chapter 320 return-library upgrade details and the original spirit treasure used in `GIFT-0056` as pending rather than inferring unsupported fields.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0044` and queued `TASK-0045` beginning at Chapter 325.
+
 ## RUN-0052 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
