@@ -1,0 +1,16 @@
+schema_version: 1
+run_id: RUN-0046
+gift_events:
+- {id: GIFT-0044, chapter: 253, node: NODE-0035, giver: 徐霄, recipient: 程双, gift: 五枚虚天丹, accepted: true, system_valid: true, reward: pending, status: partial}
+- {id: GIFT-0045, chapter: 253, node: NODE-0035, giver: 徐霄, recipient: 程芷, gift: 五枚虚天丹, accepted: true, system_valid: true, reward: pending, status: partial}
+- {id: GIFT-0046, chapter: 258, node: NODE-0035, giver: 徐霄, recipient: 花怜惜, gift: 五枚虚天丹, accepted: true, system_valid: true, reward: 十枚合道丹, status: partial}
+- {id: GIFT-0047, chapter: 257, node: NODE-0035, giver: 徐霄, recipient: 第一婵, gift: 一枚合道丹, accepted: true, system_valid: true, reward: 一枚蕴仙丹, status: partial}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0044, GIFT-0045, GIFT-0046, GIFT-0047]
+    rule_instances_add:
+    - {trigger: 宿主晋升炼虚一重, effect: 丹药返还库品质上限提升, chapter: 254, status: partial}
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [253, 254, 257, 258]
