@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0051
+task_id: TASK-0042
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 296
+  chapter_end: 303
+  node: NODE-0040
+  status: promoted
+  canonical_document: docs/01-timeline/node-0040.md
+  boundary_reason: 第303章完成神木飞舟公开亮相与凤族出行转场；第304章开始凤族宴会连续赠礼
+chapters:
+- chapter: 296
+  title: 先天灵宝，神木飞舟
+  facts: [黑风气运之敌任务正式结算, 下一次赠送灵宝突破限制并返还先天灵宝, 徐霄向第一婵赠送血气灵宝剑, 系统返还先天灵宝神木飞舟]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 297
+  title: 第一婵的惊喜
+  facts: [玉冰继续取得徐霄天龙血用于研究, 玉冰要求执法队压制针对徐霄的宗门舆论, 第一婵向徐霄展示真容]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 298
+  title: 调查徐霄
+  facts: [第一婵接受五枚合道丹, 系统返还五枚蕴仙丹, 第一婵进入闭关, 外宗开始调查徐霄]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 299
+  title: 林婉的小心思
+  facts: [天煞魔宗调查徐霄及其血林沼泽表现, 无妄仙宗执法体系压制公开议论, 林婉再次主动接近徐霄]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 300
+  title: 大乘九重混元金光剑阵
+  facts: [徐霄向林婉赠送十枚虚天丹并返还十枚合道丹, 徐霄向林婉赠送一枚合道丹并返还一枚蕴仙丹, 林婉与徐霄形成稳定道侣和长期资源关系]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 301
+  title: 又是一年
+  facts: [叶尘反徐联盟持续扩大, 玉鼎仙宗和天煞魔宗将徐霄列为高风险目标, 时间推进约一年]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 302
+  title: 凤族之行
+  facts: [无妄仙宗讨论凤族重回宗门的可能, 凤仪万年寿宴成为外交机会, 徐霄被纳入出行代表]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 303
+  title: 神木飞舟，惊呆众人
+  facts: [徐霄以天阵阁临时首座身份与赤霞蛮天同行, 神木飞舟首次公开亮相, 飞舟确认具备先天灵宝威压与顶级防御光阵]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 304
+  next_title: 开始送礼
+  transition: 转入凤族寿宴、方达飞气运之子任务与连续赠礼阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
