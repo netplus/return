@@ -1,0 +1,997 @@
+schema_version: 2
+project: return
+updated_at: '2026-07-25'
+verification_states:
+- verified
+- partial
+- inferred
+- conflict
+- pending
+index_mode: materialized
+materialized_from:
+  base: data/timeline/nodes.yaml
+  extensions: data/extensions/**/*.yaml
+  extension_files: 17
+nodes:
+- id: NODE-0001
+  title: 寿元将尽与首次万倍返还
+  chapters:
+    start: 1
+    end: 1
+  status: verified
+  document: docs/01-timeline/node-0001.md
+- id: NODE-0002
+  title: 寿元丹赠送失败与迁居外山
+  chapters:
+    start: 2
+    end: 2
+  status: verified
+  document: docs/01-timeline/node-0002.md
+- id: NODE-0003
+  title: 寿元恢复、法宝试用与陆大年登场
+  chapters:
+    start: 3
+    end: 3
+  status: verified
+  document: docs/01-timeline/node-0003.md
+- id: NODE-0004
+  title: 虎啸城赠礼与林嫣儿结缘
+  chapters:
+    start: 4
+    end: 10
+  granularity: story_arc
+  status: verified
+  boundary_reason: 第10章完成林嫣儿赠礼关系与外门舆论闭环，第11章转入新气运之女
+  characters:
+  - 徐霄
+  - 陆大年
+  - 紫韵
+  - 林嫣儿
+  document: docs/01-timeline/node-0004.md
+- id: NODE-0005
+  title: 金柳香结缘与羁绊倍率升级
+  chapters:
+    start: 11
+    end: 16
+  granularity: story_arc
+  status: partial
+  boundary_reason: 第16章完成一个月互动和外门舆论固化，第17章转入周啸冲突
+  characters:
+  - 徐霄
+  - 金柳香
+  - 陆大年
+  - 林嫣儿
+  - 周啸
+  document: docs/01-timeline/node-0005.md
+- id: NODE-0006
+  title: 周啸冲突与三千大道丹
+  chapters:
+    start: 17
+    end: 23
+  granularity: story_arc
+  status: partial
+  boundary_reason: 第23章完成独孤灵首次有效赠送和地火之道领悟，第24章切换林嫣儿消息
+  characters:
+  - 徐霄
+  - 独孤灵
+  - 陆大年
+  - 金柳香
+  - 周啸
+  document: docs/01-timeline/node-0006.md
+- id: NODE-0007
+  title: 林嫣儿救援与金石城雷战
+  chapters:
+    start: 24
+    end: 31
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第24—32章标题和顺序；第31章有官方正文直证；第24—30章由正文镜像交叉核验
+  boundary_reason: 第31章完成林嫣儿救援、玄魔宗接亲队覆灭和九天神雷符返还；第32章进入新的系统任务
+  locations:
+  - 缥缈宗外山
+  - 虎啸城
+  - 紫来商行
+  - 金石城
+  - 林府
+  characters:
+  - 徐霄
+  - 林嫣儿
+  - 紫韵
+  - 李九夜
+  - 鹰长老
+  - 林大动
+  - 金昊
+  conflict_events:
+  - event: 林嫣儿遭玄魔宗少主强娶
+    result: 徐霄赴金石城救援
+    status: partial
+  - event: 林府冲突
+    result: 玄魔宗驻守弟子与鹰长老死亡
+    status: partial
+  - event: 玄魔宗接亲队冲突
+    result: 李九夜及主要战力被紫霄雷符消灭
+    status: partial
+  system_events:
+  - gift_id: GIFT-0009
+    recipient: 紫韵
+    gift: 三张元婴期引雷符
+    reward: 三张化神九重紫霄雷符
+    status: partial
+  - gift_id: GIFT-0010
+    recipient: 林嫣儿
+    gift: 拜师礼资源组
+    triggered_multiplier: 1000
+    reward: 九天神雷符
+    status: partial
+  protagonist_state:
+    realm: 筑基五重
+    dao_comprehension: 地火之道
+    can_fly_on_sword: true
+    high_level_talismans:
+    - 紫霄雷符
+    - 九天神雷符
+  document: docs/01-timeline/node-0007.md
+- id: NODE-0008
+  title: 玄魔宗覆灭与道体重塑
+  chapters:
+    start: 32
+    end: 38
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第32—39章标题和顺序；第32—38章正文事实由多个可访问镜像交叉核验，未提升为verified
+  boundary_reason: 第38章完成玄魔宗覆灭、任务奖励兑现、道体重塑、独孤灵赠礼及宗门舆论闭环；第39章转入魔道上门来袭
+  locations:
+  - 金石城
+  - 玄魔宗山门
+  - 缥缈宗外山
+  - 合欢宗
+  characters:
+  - 徐霄
+  - 林嫣儿
+  - 金柳香
+  - 独孤灵
+  - 李天霸
+  - 玉玲珑
+  - 陆大年
+  conflict_events:
+  - event: 系统发布击杀气运之敌李天霸任务
+    result: 徐霄使用九天神雷符覆灭玄魔宗并完成任务
+    status: partial
+  - event: 玄魔宗覆灭引发正魔两道关注
+    result: 破天魔宗潜在报复成为下一阶段风险
+    status: partial
+  system_events:
+  - event: 击杀气运之敌李天霸
+    reward: 下一次赠送必定万倍暴击
+    consumed_by: GIFT-0011
+    status: partial
+  - gift_id: GIFT-0011
+    recipient: 金柳香
+    gift: 十枚筑基丹等资源
+    reward: 九转乾元丹等返还
+    status: partial
+  - gift_id: GIFT-0012
+    recipient: 独孤灵
+    gift: 九天神凤钗
+    reward: 须臾五极山
+    status: partial
+  protagonist_state:
+    realm_start: 筑基五重
+    realm_end: 结丹二重
+    constitution: 九转乾元丹重塑道体
+    cultivation_speed: 显著提升
+    status: partial
+  document: docs/01-timeline/node-0008.md
+- id: NODE-0009
+  title: 魔道上门与天降山正魔交锋
+  chapters:
+    start: 39
+    end: 50
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第39—51章标题、顺序和边界；第43章有官方正文直证；其余正文事实由多个镜像交叉核验
+  boundary_reason: 第50章完成魔极天战死、九宗会谈冲突收束与徐霄公开战力确立；第51章切换玉玲珑私下传讯与赠送线
+  locations:
+  - 缥缈宗
+  - 天降山
+  characters:
+  - 徐霄
+  - 独孤灵
+  - 玉玲珑
+  - 诸葛无方
+  - 魔极天
+  - 萧慕河
+  conflict_events:
+  - event: 破天魔宗上门追责玄魔宗覆灭
+    result: 独孤灵以九天神凤钗应战，诸葛无方将冲突转为九宗会谈
+    status: partial
+  - event: 魔极天挑战徐霄
+    result: 魔极天被徐霄击杀，徐霄公开确立化神级威慑力
+    status: partial
+  system_events:
+  - event: 识别气运之子萧慕河
+    task: 击杀萧慕河
+    reward: 升级返还道具库并提高品质上限
+    completion: pending
+    status: partial
+  protagonist_state:
+    realm_start: 结丹二重
+    realm_end: 结丹四重
+    public_combat_result: 击杀化神九重魔极天
+    status: partial
+  character_updates:
+  - name: 独孤灵
+    cultivation: 化神九重
+    battle_item: 九天神凤钗
+    status: partial
+  - name: 玉玲珑
+    observation: 徐霄身负巨大气运
+    status: partial
+  - name: 诸葛无方
+    identity: 缥缈宗太上长老
+    status: partial
+  - name: 魔极天
+    identity: 破天魔宗掌门
+    cultivation: 化神九重
+    life_status: dead
+    status: partial
+  - name: 萧慕河
+    identity: 极地魔宗新掌门
+    cultivation: 化神九重
+    system_classification: 气运之子
+    status: partial
+  document: docs/01-timeline/node-0009.md
+  evidence: sources/evidence/chapters-039-050.yaml
+- id: NODE-0010
+  title: 玉玲珑气运返还与人火领悟
+  chapters:
+    start: 51
+    end: 55
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第51—56章标题、顺序和边界；第51—55章正文事实由多个可访问镜像交叉核验，未提升为verified
+  boundary_reason: 第55章完成玉玲珑首次有效赠送、三千大道丹返还、人火领悟和一年修炼；第56章切换外门保护线
+  locations:
+  - 天降山
+  - 天降山南侧枫叶林
+  - 缥缈宗
+  characters:
+  - 徐霄
+  - 玉玲珑
+  - 独孤灵
+  - 萧慕河
+  conflict_events:
+  - event: 萧慕河尾随玉玲珑并再次攻击徐霄
+    result: 攻击被化解，击杀萧慕河任务仍未完成
+    status: partial
+  system_events:
+  - event: 玉玲珑吸取徐霄气运
+    result: 系统执行五十倍气运返还
+    status: partial
+  - gift_id: GIFT-0013
+    recipient: 玉玲珑
+    gift: 上品驻颜丹
+    triggered_multiplier: 10000
+    reward: 三千大道丹
+    status: partial
+  - event: 保留固定万倍暴击机会
+    application: 下一次普通有效赠送
+    completion: pending
+    status: partial
+  protagonist_state:
+    realm: 结丹四重
+    constitution: 道体
+    dao_comprehension:
+    - 地火之道
+    - 人火之道
+    remaining_lifespan_years: 301
+    status: partial
+  character_updates:
+  - name: 玉玲珑
+    relationship: 与徐霄建立私下联络并成为有效赠送对象
+    status: partial
+  - name: 萧慕河
+    system_task: 击杀任务仍未完成
+    status: partial
+  document: docs/01-timeline/node-0010.md
+  evidence: sources/evidence/chapters-051-055.yaml
+- id: NODE-0011
+  title: 外门保护、白巧巧结缘与梦丹旧情恢复
+  chapters:
+    start: 56
+    end: 61
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第56—62章标题、顺序和边界；第56—61章正文事实由多个可访问镜像交叉核验，未提升为verified
+  boundary_reason: 第61章完成徐霄元婴恢复、外门保护、白巧巧首次赠送与梦丹旧关系恢复；第62章切换紫韵请求和天人秘境准备
+  locations:
+  - 缥缈宗外门
+  - 外门大比场地
+  - 徐霄外山住处
+  characters:
+  - 徐霄
+  - 金柳香
+  - 林嫣儿
+  - 白巧巧
+  - 梦丹
+  - 独孤灵
+  conflict_events:
+  - event: 金柳香和林嫣儿遭外门同门排挤欺压
+    result: 徐霄公开介入并确立长期保护与资源支持
+    status: partial
+  system_events:
+  - gift_id: GIFT-0014
+    recipient: 白巧巧
+    gift: 十枚筑基丹、十枚上品灵石与中品法器玄光戒
+    triggered_multiplier: 1000
+    reward: 绝品悟道丹、一百枚上品灵石与上品法戒
+    status: partial
+  - event: 识别梦丹为气运之女
+    known_base_multiplier: 20
+    completion: 完整系统面板待确认
+    status: partial
+  protagonist_state:
+    realm_start: 结丹四重
+    realm_end: 元婴一重
+    appearance: 随修为恢复明显回春
+    status: partial
+  world_updates:
+  - event: 南瞻国天人秘境即将开启
+    rules:
+    - 三百年开启一次
+    - 限制化神境以下修士进入
+    - 大道神丹可帮助领悟额外大道之力
+    status: partial
+  document: docs/01-timeline/node-0011.md
+  evidence: sources/evidence/chapters-056-061.yaml
+- id: NODE-0012
+  title: 紫韵委托与天人秘境入场准备
+  chapters:
+    start: 62
+    end: 65
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第62—66章标题、顺序和边界；第63章人物与系统面板有可访问正文直证；其余事实由正文镜像交叉核验
+  boundary_reason: 第65章完成秘境前准备与公开冲突；第66章正式进入秘境并出现宇文浩气运之敌任务
+  locations:
+  - 缥缈宗
+  - 紫来商行
+  - 南瞻国天人秘境入口
+  characters:
+  - 徐霄
+  - 紫韵
+  - 水月
+  - 独孤灵
+  - 玉玲珑
+  system_events:
+  - gift_id: GIFT-0015
+    recipient: 水月
+    gift: null
+    reward: 鸿蒙一气丹
+    triggered_multiplier: null
+    status: partial
+    pending_fields:
+    - gift
+    - first_gift
+    - triggered_multiplier
+    - additional_returns
+  protagonist_state:
+    realm: 元婴一重
+    dao_comprehension:
+    - 地火之道
+    - 人火之道
+    new_resource: 鸿蒙真气
+    status: partial
+  document: docs/01-timeline/node-0012.md
+  evidence: sources/evidence/chapters-062-065.yaml
+- id: NODE-0013
+  title: 天人秘境入场与宇文浩冲突
+  chapters:
+    start: 66
+    end: 73
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第66—74章标题、顺序和边界；第66—73章正文由可访问镜像交叉核验
+  boundary_reason: 第73章完成上官金玉死亡与秘境前半段冲突闭环；第74章切换苏媚儿赠送线
+  characters:
+  - 徐霄
+  - 水月
+  - 宇文浩
+  - 上官金玉
+  system_events:
+  - event: 识别气运之敌宇文浩
+    task: 击杀宇文浩
+    reward: 一次万倍暴击机会
+    completion: pending
+    status: partial
+  - gift_id: GIFT-0016
+    recipient: 水月
+    gift:
+    - 上品法戒
+    - 两张元婴引雷符
+    - 一张元婴冰剑符
+    reward:
+    - 流光星陨戒
+    - 六张紫霄雷符
+    - 三张玄冰剑雨符
+    status: partial
+  document: docs/01-timeline/node-0013.md
+  evidence: sources/evidence/chapters-066-073.yaml
+- id: NODE-0014
+  title: 苏媚儿赠送与秘境围杀
+  chapters:
+    start: 74
+    end: 81
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第74—82章标题、顺序和边界；第74—81章正文由可访问镜像交叉核验
+  boundary_reason: 第81章完成秘境围杀和徐霄提前离场；第82章转入秘境外当面清算
+  characters:
+  - 徐霄
+  - 苏媚儿
+  - 水月
+  - 萧慕河
+  system_events:
+  - event: 苏媚儿吸取气运
+    result: 系统执行十倍气运返还
+    status: partial
+  - gift_id: GIFT-0017
+    recipient: 苏媚儿
+    gift: 上品驻颜丹
+    triggered_multiplier: 10000
+    reward: 九阳龙血丹
+    status: partial
+  - event: 苏媚儿吸取灵力
+    result: 系统返还使徐霄提升至元婴二重
+    status: partial
+  protagonist_state:
+    realm: 元婴二重
+    constitution_additions:
+    - 真龙之血
+    remaining_lifespan_years: 300
+    status: partial
+  document: docs/01-timeline/node-0014.md
+  evidence: sources/evidence/chapters-074-081.yaml
+- id: NODE-0015
+  title: 秘境外清算、大道神丹与三昧真火
+  chapters:
+    start: 82
+    end: 87
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第82—88章标题、顺序和边界；第82—87章正文由可访问镜像交叉核验
+  boundary_reason: 第87章完成秘境清算、宗门战果、大道神丹入库、绝品悟道丹赠送和三昧真火形成；第88章转入水柔来访线
+  characters:
+  - 徐霄
+  - 独孤灵
+  - 水月
+  - 上官飞炼
+  - 萧慕河
+  - 宇文浩
+  conflict_events:
+  - event: 上官飞炼在秘境外对徐霄出手
+    result: 徐霄以化神九重符箓将其击杀
+    status: partial
+  system_events:
+  - gift_id: GIFT-0018
+    recipient: 独孤灵
+    gift: 绝品悟道丹
+    triggered_multiplier: pending
+    reward: 三千大道丹
+    status: partial
+  - event: 第三次服用三千大道丹
+    result: 领悟天火之道并融合三昧真火
+    status: partial
+  protagonist_state:
+    realm: 元婴二重
+    dao_comprehension:
+    - 地火之道
+    - 人火之道
+    - 天火之道
+    - 三昧真火
+    remaining_lifespan_years: 300
+    status: partial
+  document: docs/01-timeline/node-0015.md
+  evidence: sources/evidence/chapters-082-087.yaml
+- id: NODE-0016
+  title: 水柔结缘与铁幕城差事
+  chapters:
+    start: 88
+    end: 93
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第88—94章标题、顺序和边界；第88—93章正文由可访问镜像交叉核验
+  boundary_reason: 第93章完成水柔关系、紫韵赠送与铁幕城差事下达；第94章进入铁幕城
+  characters:
+  - 徐霄
+  - 水柔
+  - 水月
+  - 紫韵
+  - 诸葛无方
+  system_events:
+  - gift_id: GIFT-0019
+    recipient: 水柔
+    status: partial
+  - gift_id: GIFT-0020
+    recipient: 紫韵
+    status: partial
+  document: docs/01-timeline/node-0016.md
+  evidence: sources/evidence/chapters-088-093.yaml
+- id: NODE-0017
+  title: 铁幕城落脚与三条赠送关系建立
+  chapters:
+    start: 94
+    end: 102
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第94—103章标题、顺序和边界；第94—102章正文由可访问镜像交叉核验
+  boundary_reason: 第102章完成铁幕城落脚、段红绫疗伤机缘、刘玲玲羁绊升级与木玉儿赠送返还；第103章转入翠山门报复算计
+  characters:
+  - 徐霄
+  - 水月
+  - 梦丹
+  - 段红绫
+  - 刘玲玲
+  - 木玉儿
+  system_events:
+  - gift_id: GIFT-0021
+    recipient: 水月
+    status: partial
+  - gift_id: GIFT-0022
+    recipient: 段红绫
+    status: partial
+  - gift_id: GIFT-0023
+    recipient: 刘玲玲
+    status: partial
+  - gift_id: GIFT-0024
+    recipient: 刘玲玲
+    status: partial
+  - gift_id: GIFT-0025
+    recipient: 木玉儿
+    status: partial
+  document: docs/01-timeline/node-0017.md
+  evidence: sources/evidence/chapters-094-102.yaml
+- id: NODE-0018
+  title: 翠山门报复与铁幕城脱罪
+  chapters:
+    start: 103
+    end: 116
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第103—117章标题、顺序和边界；第103—116章正文由可访问镜像交叉核验
+  boundary_reason: 第116章完成全城声讨、妙玉介入、虚天丹交换和徐霄脱罪；第117章转入天尸宗魇女的炼虚级袭击
+  characters:
+  - 徐霄
+  - 刘玲玲
+  - 木玉儿
+  - 水柔
+  - 诸葛无方
+  - 妙玉
+  - 杨铁峰
+  conflict_events:
+  - event: 翠山门弟子试图夺取刘玲玲资源
+    result: 八名翠山门弟子被徐霄杀死，刘玲玲留在铁幕城
+    status: partial
+  - event: 铁幕城守卫队执法
+    result: 杨铁峰因徐霄高阶符箓和既有战绩未强行拘捕
+    status: partial
+  - event: 全城声讨与公开对峙
+    result: 妙玉和诸葛无方介入，徐霄通过丹药交换脱罪
+    status: partial
+  system_events:
+  - gift_id: GIFT-0026
+    recipient: 木玉儿
+    status: partial
+  - gift_id: GIFT-0027
+    recipient: 妙玉
+    status: partial
+  protagonist_state:
+    realm: 元婴九重
+    remaining_lifespan_years: 297
+    constitution_add: 天玉骨
+    status: partial
+  document: docs/01-timeline/node-0018.md
+  evidence: sources/evidence/chapters-103-116.yaml
+- id: NODE-0019
+  title: 魇女袭击、血肉金身丹与水柔关系确认
+  chapters:
+    start: 117
+    end: 127
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第117—128章标题、顺序和边界；第117—127章正文由可访问镜像交叉核验
+  boundary_reason: 第127章完成炼虚袭击、慕容云河冲突和一个月时间推进；第128章转入灵矿危机
+  characters:
+  - 徐霄
+  - 魇女
+  - 妙玉
+  - 诸葛无方
+  - 水柔
+  - 慕容云河
+  - 萧慕河
+  - 宇文浩
+  conflict_events:
+  - event: 魇女放出三具炼虚游尸袭击
+    result: 徐霄、妙玉和诸葛无方抵挡后以虚天丹和高阶符箓化解
+    status: partial
+  - event: 慕容云河率死士攻击徐霄
+    result: 玄天八卦阵挡住进攻，慕容云河最终死亡
+    status: partial
+  system_events:
+  - gift_id: GIFT-0027
+    recipient: 妙玉
+    reward: 血肉金身丹
+    status: partial
+  - gift_id: GIFT-0028
+    recipient: 魇女
+    reward: null
+    status: partial
+  protagonist_state:
+    realm: 元婴九重
+    defense_record: 玄天八卦阵抵挡炼虚游尸
+    relationship_update: 与水柔关系确认
+    status: partial
+  document: docs/01-timeline/node-0019.md
+  evidence: sources/evidence/chapters-117-127.yaml
+- id: NODE-0020
+  title: 灵矿危机、陈青儿结缘与弱水之道
+  chapters:
+    start: 128
+    end: 137
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第128—138章标题、顺序和边界；第128—137章正文由可访问镜像交叉核验
+  boundary_reason: 第137章完成灵矿解围、陈青儿赠送关系、弱水之道及师徒态度转折；第138章转入猿族夜袭
+  characters:
+  - 徐霄
+  - 柳璃
+  - 陈青儿
+  conflict_events:
+  - event: 猿族化神修士抢夺三宗灵矿
+    result: 徐霄斩杀五名化神猿族并击退首领
+    status: partial
+  - event: 猿族调查徐霄
+    result: 报复行动进入准备阶段
+    status: partial
+  system_events:
+  - gift_id: GIFT-0029
+    recipient: 陈青儿
+    gift: 十枚化婴丹及后续修炼资源
+    reward: 三千大道丹等返还
+    status: partial
+  protagonist_state:
+    realm: 元婴九重
+    dao_comprehension_add: 弱水之道
+    next_goal: 准备第二次化神雷劫
+    status: partial
+  document: docs/01-timeline/node-0020.md
+  evidence: sources/evidence/chapters-128-137.yaml
+- id: NODE-0021
+  title: 猿族夜袭、猿飞覆灭与声望逆转
+  chapters:
+    start: 138
+    end: 144
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第138—145章标题、顺序和边界；第138—144章正文由可访问镜像交叉核验
+  boundary_reason: 第144章完成夜袭反击、猿飞死亡、九宗反应与猿族少主接管报复；第145章转入狐族白九儿渗透线
+  characters:
+  - 徐霄
+  - 柳璃
+  - 陈青儿
+  - 猿飞
+  - 猿华
+  conflict_events:
+  - event: 猿族夜袭百草宗灵矿
+    result: 徐霄守住矿区，猿飞及猿族主要化神战力死亡
+    status: partial
+  - event: 猿族后续报复决策
+    result: 猿华放弃正面硬拼并转向狐族渗透
+    status: partial
+  protagonist_state:
+    battle_record_add: 以玄天八卦阵和化神九重符箓击杀猿飞及猿族主力
+    reputation_change: 在人族阵营中的负面声望开始逆转
+    status: partial
+  pending:
+  - 第143章系统奖励完整上下文与返还清单
+  - 猿华修为与系统分类
+  document: docs/01-timeline/node-0021.md
+  evidence: sources/evidence/chapters-138-144.yaml
+- id: NODE-0022
+  title: 白九儿渗透失败与猿华诱杀布局
+  chapters:
+    start: 145
+    end: 152
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第145—153章标题、顺序和边界；第145—152章正文由可访问镜像交叉核验
+  boundary_reason: 第152章完成白九儿渗透失败、精气返还实例、柳璃关系变化与猿华诱杀方案；第153章转入刘玲玲被绑架
+  characters:
+  - 徐霄
+  - 柳璃
+  - 陈青儿
+  - 白九儿
+  - 猿华
+  system_events:
+  - event: 白九儿窃取徐霄精气
+    result: 系统按每1点返还30点精气
+    status: partial
+  - gift_id: GIFT-0030
+    recipient: 白九儿
+    gift: 化婴丹
+    system_settlement: 未显示
+    status: partial
+  conflict_events:
+  - event: 白九儿受狐族委托渗透并施展魅惑与吸精术
+    result: 徐霄免疫并获得精气返还；白九儿断尾逃离
+    status: partial
+  - event: 猿华调整报复方案
+    result: 启用通天如意棍并策划绑架徐霄关系人诱入大阵
+    status: partial
+  pending:
+  - GIFT-0030为何未结算及后续是否补发
+  - 白九儿完整族内身份与系统面板
+  - 通天如意棍完整品阶与阵法限制
+  document: docs/01-timeline/node-0022.md
+  evidence: sources/evidence/chapters-145-152.yaml
+- id: NODE-0023
+  title: 刘玲玲营救与猿族清算
+  chapters:
+    start: 153
+    end: 157
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第153—158章标题、顺序和边界；第153—157章正文由可访问镜像交叉核验
+  boundary_reason: 第157章完成刘玲玲营救、猿族九人覆灭、缥缈宗安排、万倍暴击兑现与净水之道领悟；第158章转入八大妖族联合反应
+  characters:
+  - 徐霄
+  - 刘玲玲
+  - 猿华
+  - 陆大年
+  system_events:
+  - gift_id: GIFT-0031
+    recipient: 刘玲玲
+    gift: 十枚蕴金丹
+    triggered_multiplier: 10000
+    reward: 三千大道丹
+    status: partial
+  conflict_events:
+  - event: 猿华与八名猿族长老以刘玲玲设伏并启动通天神棍阵
+    result: 徐霄使用九天神雷符摧毁阵法，猿族九人全灭，刘玲玲获救
+    status: partial
+  protagonist_state:
+    dao_comprehension_add: 净水之道
+    status: partial
+  pending:
+  - 第153章批量赠送的逐项事件与倍率
+  - 通天如意棍战后明确状态
+  - 水系三道合一结果
+  document: docs/01-timeline/node-0023.md
+  evidence: sources/evidence/chapters-153-157.yaml
+- id: NODE-0024
+  title: 妖族炼虚来袭与二次雷劫宣言
+  chapters:
+    start: 158
+    end: 166
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第158—167章标题、顺序和边界；第158—166章正文由可访问镜像交叉核验
+  boundary_reason: 第166章完成妖族炼虚追责、通天如意棍归还、二次雷劫宣言及各方立场布局；第167章转入段红绫报答与资源赠送线
+  characters:
+  - 徐霄
+  - 猿洪
+  - 虎奔
+  - 妙玉
+  - 魇女
+  - 诸葛无方
+  - 木玉儿
+  - 水柔
+  system_events:
+  - gift_id: GIFT-0032
+    recipient: 木玉儿
+    gift: 两件下品法器、两件中品法器、两件上品法器
+    settlement: pending
+    status: partial
+  conflict_events:
+  - event: 猿族与虎族三名炼虚修士进入铁幕城追责
+    result: 妙玉、魇女和诸葛无方制衡；徐霄交还通天如意棍，妖族暂退
+    status: partial
+  - event: 猿族元帅以炼虚攻击徐霄
+    result: 玄天八卦阵成功抵挡并反弹
+    status: partial
+  protagonist_state:
+    public_plan: 准备再次冲击化神雷劫
+    artifact_update: 交还通天如意棍；玄天八卦阵新增炼虚防御实绩
+    status: partial
+  pending:
+  - 猿族元帅正式姓名
+  - GIFT-0032完整结算
+  - 二次化神雷劫结果
+  document: docs/01-timeline/node-0024.md
+  evidence: sources/evidence/chapters-158-166.yaml
+- id: NODE-0025
+  title: 段红绫报答、木玉儿道侣确认与渡劫地点敲定
+  chapters:
+    start: 167
+    end: 174
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第167—175章标题、顺序和边界；第167—174章正文由可访问镜像交叉核验
+  boundary_reason: 第174章完成巫瓶儿识别、二次雷劫资料传递和远古战场方案；第175章转入巫瓶儿赠送与正式启程
+  characters:
+  - 徐霄
+  - 段红绫
+  - 木玉儿
+  - 木长老
+  - 巫瓶儿
+  - 玉玲珑
+  system_events:
+  - gift_id: GIFT-0033
+    recipient: 木玉儿
+    gift: pending
+    reward: 鸿蒙一气丹
+    triggered_multiplier: null
+    status: partial
+  - event: 识别气运之女巫瓶儿
+    luck_grade: A
+    base_multiplier: 10
+    bond: 1
+    status: partial
+  protagonist_state:
+    relationship_update: 木玉儿正式成为道侣
+    power_update: 服用鸿蒙一气丹后体内鸿蒙真气增至三股
+    travel_plan: 前往远古战场渡二次化神雷劫
+    status: partial
+  pending:
+  - GIFT-0033原始赠送物品与精确倍率
+  - 巫瓶儿修为
+  - 远古战场对雷劫强度的实际影响
+  document: docs/01-timeline/node-0025.md
+  evidence: sources/evidence/chapters-167-174.yaml
+- id: NODE-0026
+  title: 远古战场二次化神雷劫与重返仙途
+  chapters:
+    start: 175
+    end: 184
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第175—185章标题、顺序和边界；第175—184章正文由可访问镜像交叉核验
+  boundary_reason: 第184章完成九道二次化神雷劫、天道洗礼与晋升化神；第185章转入妖族突然动手
+  characters:
+  - 徐霄
+  - 巫瓶儿
+  - 段红绫
+  - 水柔
+  - 萧慕河
+  - 宇文浩
+  - 慕容龙城
+  - 诸葛无方
+  - 妙玉
+  - 魇女
+  system_events:
+  - gift_id: GIFT-0034
+    recipient: 巫瓶儿
+    gift: 绝品驻颜丹
+    reward: null
+    triggered_multiplier: null
+    status: partial
+  - event: 巫瓶儿吸取徐霄气运后触发系统返还
+    multiplier: null
+    status: partial
+  conflict_events:
+  - event: 慕容龙城在渡劫前与徐霄冲突
+    result: 徐霄以捆龙绳、三光神水和四柄神剑将其压制
+    status: partial
+  - event: 魔道安排九名元婴巅峰修士同时引动雷劫
+    result: 雷劫被强化为九道，徐霄仍成功渡过
+    status: partial
+  protagonist_state:
+    realm_start: 元婴九重
+    realm_end: 化神境
+    tribulation_result: 成功渡过第二次化神雷劫并接受天道洗礼
+    artifact_attrition: 十一件主要法宝仅余四柄神剑，防御、治疗与控制类法宝大幅损毁
+    status: partial
+  pending:
+  - GIFT-0034精确返还倍率与奖励
+  - 慕容龙城最终生死
+  - 雷劫中全部损毁法宝逐件对应关系
+  document: docs/01-timeline/node-0026.md
+  evidence: sources/evidence/chapters-175-184.yaml
+- id: NODE-0027
+  title: 妖族突袭、远古神碑现世与一年备战
+  chapters:
+    start: 185
+    end: 191
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第185—192章标题、顺序和边界；第185—191章正文由可访问镜像交叉核验
+  boundary_reason: 第191章完成妖族突袭收束、远古神碑现世和一年备战；第192章转入上官倩的新赠送关系
+  characters:
+  - 徐霄
+  - 巫瓶儿
+  - 水柔
+  - 段红绫
+  - 诸葛无方
+  - 妙玉
+  - 魇女
+  - 猿洪
+  - 虎奔
+  - 宇文浩
+  - 萧慕河
+  conflict_events:
+  - event: 猿族在徐霄渡劫后发动炼虚级突袭
+    result: 徐霄以四柄神剑应战并以九天神雷符威慑，猿罡死亡，公开冲突停止
+    status: partial
+  - event: 妖族与魔道规划远古战场内围杀徐霄
+    result: 形成合作伏线，实际执行待后续确认
+    status: partial
+  system_events:
+  - event: 徐霄晋升化神触发返还道具库升级
+    result: 返还品质上限提高，精确上限未公开
+    status: partial
+  world_events:
+  - event: 大道神碑提前现世
+    result: 远古战场由三千年后开启改为一年后开启
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    combat_display: 四柄神剑发挥化神层级法宝威能
+    strategic_deterrent: 最后一张炼虚顶级九天神雷符
+    status: partial
+  pending:
+  - 猿罡完整身份与境界
+  - 道具库升级后的精确品质上限
+  - 九天神雷符是否实际消耗
+  - 一年备战完整状态变化
+  document: docs/01-timeline/node-0027.md
+  evidence: sources/evidence/chapters-185-191.yaml
+- id: NODE-0028
+  title: 上官倩结缘与远古战场初战
+  chapters:
+    start: 192
+    end: 199
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第192—200章标题、顺序和边界；第192—199章正文由可访问镜像交叉核验
+  boundary_reason: 第199章完成远古战场入场及炼虚中期尸灵击杀；第200章转入新的气运之敌任务
+  characters:
+  - 徐霄
+  - 上官倩
+  - 段红绫
+  - 诸葛无方
+  - 水云
+  - 水柔
+  - 花怜惜
+  - 陆文涛
+  system_events:
+  - gift_id: GIFT-0035
+    recipient: 上官倩
+    gift: 两张化神九重玄冰剑雨符
+    returns:
+    - 合体九重混沌极冰符
+    - 炼虚九重天道冰剑符
+    status: partial
+  - gift_id: GIFT-0036
+    recipient: 水云
+    gift: 绝品悟道丹
+    reward: 血牛猛虎丹
+    status: partial
+  conflict_events:
+  - event: 远古战场入场途中遭遇炼虚中期尸灵
+    result: 诸葛无方正面牵制，徐霄以玄天八卦阵保护队伍并用五柄神剑完成击杀
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    new_resources:
+    - 合体九重混沌极冰符
+    - 炼虚九重天道冰剑符
+    - 血牛猛虎丹
+    combat_display: 玄天八卦阵与五柄神剑参与击杀炼虚中期尸灵
+    status: partial
+  pending:
+  - 上官倩完整面板
+  - 水云与花怜惜精确修为
+  - 陆文涛精确修为
+  - 尸灵生前身份与法宝归属
+  document: docs/01-timeline/node-0028.md
+  evidence: sources/evidence/chapters-192-199.yaml
