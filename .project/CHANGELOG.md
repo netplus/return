@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0031 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0023`; no completed task or canonical node was duplicated.
+- Examined Chapters 138—144 and resolved the adaptive boundary at Chapter 144; Chapter 145 begins the狐族白九儿 infiltration line.
+- Staged `NODE-0021`: 猿族夜袭、猿飞覆灭与声望逆转.
+- Recorded the猿族 night assault,猿飞's巨猿法相 and death,徐霄's玄天八卦阵 and high-grade talisman counterattack, and his reputation reversal among human cultivators.
+- Added `sources/evidence/chapters-138-144.yaml` with explicit source qualifications.
+- Preserved the incomplete Chapter 143 system-reward context and return list as `pending`.
+- Source traceability, arc coherence, materiality, duplicate-work, YAML structure and copyright gates passed.
+- Cross-index consistency is blocked because canonical timeline and material entity extension indexes are not yet promoted; recorded `BLOCK-0008` instead of completing the task.
+- Kept `TASK-0023` in progress for the next run.
+
 ## RUN-0030 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
