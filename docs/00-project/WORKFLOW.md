@@ -63,6 +63,8 @@
 - 一个 Task 完成后产生一个完整 Git Commit。
 - Commit 应同时包含：Timeline Node、必要的实体增量、结构化索引以及 Project OS 状态更新。
 - 禁止为同一剧情阶段拆成大量仅更新单文件的碎片提交。
+- “一个完整 Git Commit”约束的是目标分支最终历史，而不是中间传输方式。当 Git Data API 无法提供基础 Tree SHA 时，不得以 Commit SHA 冒充 Tree SHA；应从已核验的目标分支 HEAD 创建临时分支，完成全部文件写入后通过 squash merge 形成目标分支上的单一提交。
+- 使用临时分支回退路径时，必须在合并前校验目标分支未产生冲突性 Project OS Run，并以预期 Head SHA 执行合并；失败则登记 blocker，不得强推覆盖。
 
 ## 6. 输出要求
 
