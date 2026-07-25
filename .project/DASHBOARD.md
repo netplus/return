@@ -4,25 +4,25 @@
 - **Current milestone:** M6 — Chapters 251–300
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 259
-- **Current evidence exploration through:** Chapter 260
+- **Canonical coverage through:** Chapter 273
+- **Current evidence exploration through:** Chapter 274
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 35
+- **Completed timeline nodes:** 36
 - **Draft timeline nodes:** 0
-- **Documented characters:** 53
+- **Documented characters:** 54
 - **Gift events:** 47
-- **Artifact records:** 34
-- **Last run:** `RUN-0046`
-- **Last completed node:** `NODE-0035`
-- **Next task:** `TASK-0038` — 无妄仙宗内门大比 story arc
-- **Provisional exploration range:** Chapters 260–267
+- **Artifact records:** 35
+- **Last run:** `RUN-0047`
+- **Last completed node:** `NODE-0036`
+- **Next task:** `TASK-0039` — 传承坦白与天阵阁后续 story arc
+- **Provisional exploration range:** Chapters 274–281
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0035` covers Chapters 253—259. 徐霄让出年度宗门资源并向秦朋、程芷和程双各赠送五枚虚天丹，迅速建立天阵阁内部资源关系。程双与徐霄正式结为道侣，羁绊度升至 2。三个月后徐霄晋升炼虚一重，丹药返还库升级，鸿蒙真气增至七股，并补全金之大道的锋锐、金刚和粉碎三道。徐霄向花怜惜赠送五枚虚天丹，返还十枚合道丹；又向第一婵赠送一枚合道丹，返还大乘修炼资源蕴仙丹。第 259 章引出天运阁大师姐林婉，第 260 章正式进入内门大比。
+`NODE-0036` covers Chapters 260—273. 无妄仙宗内门大比开启后，程双依靠徐霄此前赠送的法宝越阶取胜，徐霄则连续击败多名炼虚巅峰弟子。林婉主动借比试窃取徐霄气运，系统按十倍返还；徐霄在淘汰赛中以通天神针击败唐天霸和天昊。决赛中，九天神龙甲抵挡剑辰的人剑合一与七剑法宝，天剑阁为保护先天剑丸主动认输。徐霄成为未来百年的无妄仙宗内门大师兄，并获得护心龙镜奖励。第 274 章转入传承坦白与宗门内部后续。
 
-## Quality gates — RUN-0046
+## Quality gates — RUN-0047
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 253—260 章标题、顺序和边界；第 253—259 章正文由 CP 小说网等可访问文本镜像交叉核验。程芷、程双完整气运面板，第 253 章赠送返还清单，第一婵系统面板，林婉精确修为以及炼虚阶段丹药返还库精确上限继续保持 `pending`。
+番茄小说官方目录确认第 260—274 章标题、顺序和边界；第 260—273 章正文由 CP 小说网等可访问文本镜像交叉核验。林婉完整系统面板、护心龙镜完整能力、剑辰先天剑丸后续状态及内门大比完整奖励清单继续保持 `pending`。
