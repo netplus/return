@@ -1,0 +1,30 @@
+schema_version: 1
+run_id: RUN-0044
+nodes:
+- id: NODE-0033
+  title: 凤青玄借体、远古战场脱困与海外来敌
+  chapters: {start: 236, end: 243}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第236—244章标题、顺序和边界；第236—243章正文由可访问镜像交叉核验
+  boundary_reason: 第243章完成返回缥缈宗后的关系与高层收束；第244章转入宇文浩及新的气运之子线
+  characters: [徐霄, 凤青玄, 妙玉, 独孤灵, 姬雪, 石刚烈, 诸葛无方, 魇女, 白九儿, 萧慕河, 黄龙飞]
+  conflict_events:
+  - event: 山海碑重开与远古战场脱困
+    result: 凤青玄重新炼化山海碑并开启传送门，各方修士返回盘龙大陆
+    status: partial
+  - event: 黄龙飞三人入侵盘龙岛
+    result: 徐霄以嗜血天魔刀击碎七星剑阵和多件法宝，两名炼虚修士气血被魔刀吸收
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    combat_resources_confirmed: [嗜血天魔刀, 六股鸿蒙真气]
+    role_change: 公开确立为盘龙大陆最强战力之一，并开始直接面对天元大陆势力
+    status: partial
+  pending:
+  - 凤青玄借体期限与妙玉肉身最终归还结果
+  - 黄龙飞最终生死及两名师弟身份
+  - 嗜血天魔刀来源与完整限制
+  - 萧慕河体内合体修士真实身份
+  document: docs/01-timeline/node-0033.md
+  evidence: sources/evidence/chapters-236-243.yaml
