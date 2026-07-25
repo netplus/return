@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 22
+  extension_files: 23
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1259,3 +1259,43 @@ nodes:
   - 萧慕河体内合体修士真实身份
   document: docs/01-timeline/node-0033.md
   evidence: sources/evidence/chapters-236-243.yaml
+- id: NODE-0034
+  title: 气运之子叶尘与初入无妄仙宗
+  chapters:
+    start: 244
+    end: 252
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第244—253章标题、顺序和边界；第244—252章正文由可访问镜像交叉核验
+  boundary_reason: 第252章完成徐霄进入天阵阁及新师门成员引入；第253章转入连续赠送返还
+  characters:
+  - 徐霄
+  - 叶尘
+  - 姬雪
+  - 玉冰
+  - 第一婵
+  - 魇女
+  - 秦朋
+  - 程芷
+  - 程双
+  - 宇文浩
+  - 宇文良恭
+  system_events:
+  - event: 识别其他规则系统
+    result: 确认叶尘绑定一级收徒就变强系统，一级为最低等级规则系统
+    status: partial
+  conflict_events:
+  - event: 无妄仙宗千年大招与收徒竞争
+    result: 姬雪拜玉冰为师，徐霄拜第一婵为师并进入天阵阁
+    status: partial
+  protagonist_state:
+    realm: 化神九重巅峰
+    role_change: 成为无妄仙宗天阵阁第四弟子并建立天元大陆落脚点
+    status: partial
+  pending:
+  - 叶尘任务完整奖励
+  - 玉冰精确境界
+  - 徐霄返送第一婵法宝明细
+  - 秦朋程芷程双精确修为
+  document: docs/01-timeline/node-0034.md
+  evidence: sources/evidence/chapters-244-252.yaml
