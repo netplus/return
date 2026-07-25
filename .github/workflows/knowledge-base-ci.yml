@@ -89,13 +89,14 @@ jobs:
           python scripts/knowledge_base.py build --output-dir data/generated
           python scripts/knowledge_base.py validate --generated-dir data/generated
 
-      - name: Commit refreshed indexes
+      - name: Commit and push refreshed indexes
         shell: bash
         env:
           TARGET_BRANCH: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
         run: |
+          mkdir -p build
           if git diff --quiet -- data/generated; then
-            echo 'Generated indexes are already current.'
+            echo 'Generated indexes are already current.' | tee build/push.log
             exit 0
           fi
 
@@ -104,6 +105,14 @@ jobs:
           git add data/generated
           git commit -m 'chore(data): refresh generated canonical indexes'
 
-          if ! git push origin HEAD:"${TARGET_BRANCH}"; then
-            echo '::warning::target branch advanced during index refresh; a later run will retry automatically.'
-          fi
+          set -o pipefail
+          git push origin HEAD:"${TARGET_BRANCH}" 2>&1 | tee build/push.log
+
+      - name: Upload generated-index push report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-index-push-${{ github.sha }}
+          path: build/push.log
+          if-no-files-found: warn
+          retention-days: 14
