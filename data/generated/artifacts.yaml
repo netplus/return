@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 24
+  extension_files: 25
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -498,6 +498,17 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0028
+  - NODE-0038
+  current_state: 已消耗
+  final_user: 徐霄
+  consumption_event:
+    chapter: 284
+    event: 清算玉石宗伏杀阵营并摧毁其合体层级围攻力量
+    status: partial
+  combat_record: 第284章用于处理玉石宗伏杀，形成合体巅峰冰系范围清算效果
+  source_chapters:
+  - 284
+  - 287
 - id: ART-0027
   name: 天道冰剑符
   category: 术法符箓

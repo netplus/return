@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 25
+  extension_files: 26
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -100,6 +100,7 @@ characters:
   - NODE-0035
   - NODE-0036
   - NODE-0037
+  - NODE-0038
   source_chapters:
   - 1
   - 2
@@ -347,6 +348,11 @@ characters:
   - 280
   - 281
   - 282
+  - 283
+  - 284
+  - 285
+  - 286
+  - 287
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -399,6 +405,7 @@ characters:
   - 黑锋山首轮尸潮战中独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝
   - 以嗜血天魔刀击碎黄龙飞七星剑阵及多件法宝，并使魔刀吸收两名炼虚修士气血
   - 内门大比中以通天神针击败唐天霸、天昊，并以九天神龙甲压制剑辰人剑合一与七剑法宝
+  - 以合体九重混沌极冰符摧毁玉石宗伏杀阵营并完成宗门外勤清算
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -419,6 +426,7 @@ characters:
   - 公开确立为盘龙大陆最强战力之一，并开始直接面对天元大陆势力
   - 建立盘龙岛修士在天元大陆无妄仙宗的长期落脚点
   - 成为未来百年的无妄仙宗内门弟子第一人
+  - 以无妄仙宗内门大师兄身份独立处理玉石宗重大外勤危机
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -430,6 +438,7 @@ characters:
   body_resource: 向玉冰提供天龙血用于后续研究
   hongmeng_qi_strands: 8
   accepted_return: GIFT-0048返还的鸿蒙一气丹
+  condition_change: 天龙天凤血脉与长期服用神丹使噬骨销魂散失效
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2037,15 +2046,25 @@ characters:
   related_nodes:
   - NODE-0030
   - NODE-0031
+  - NODE-0038
   source_chapters:
   - 211
   - 214
   - 224
   - 225
   - 226
+  - 286
+  - 287
   combat_record:
   - 黑锋山遭尸灵围攻后由徐霄与联合队伍救援
-  relationship_change: 接受炼虚九重九天神雷符，狐族与徐霄的长期合作进一步加深
+  relationship_change:
+  - 接受炼虚九重九天神雷符，狐族与徐霄的长期合作进一步加深
+  - 公开到访天阵阁并进入徐霄在无妄仙宗的关系圈
+  system_interaction:
+  - trigger: 窃取一点精气
+    return_to_xuxiao: 二十点精气
+    chapter: 287
+    status: partial
 - id: CHAR-0041
   name: 白霞儿
   status: alive
@@ -2265,6 +2284,7 @@ characters:
   related_nodes:
   - NODE-0034
   - NODE-0037
+  - NODE-0038
   source_chapters:
   - 244
   - 247
@@ -2276,9 +2296,15 @@ characters:
   - 277
   - 280
   - 282
+  - 283
+  - 284
+  - 285
+  - 286
   document: null
   verification_status: partial
   conflict_change: 组织唐天霸、莫一剑等反对者形成持续反徐联盟，并推动集体告发与舆论攻击
+  conflict_escalation: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
+  current_action: 伏杀失败后继续维持宗门反徐舆论和敌对网络
 - id: CHAR-0048
   name: 玉冰
   status: alive
@@ -2562,5 +2588,41 @@ characters:
   - 271
   - 272
   - 273
+  document: null
+  verification_status: partial
+- id: CHAR-0055
+  name: 白玉龙
+  status: dead
+  role: antagonist
+  affiliations:
+  - 玉石宗
+  identities:
+  - 玉石宗掌门
+  - 玉石宗伏杀组织者
+  first_appearance:
+    chapter: 283
+    title: 玉石宗事变
+    node: NODE-0038
+  cultivation:
+    current: 合体境
+    status: partial
+  conspiracy:
+    partners:
+    - 无妄仙宗周执事
+    - 无妄仙宗钱执事
+    - 三名无妄仙宗外门弟子
+    method: 以扣押弟子事件诱骗徐霄入宗，使用噬骨销魂散并安排合体修士围杀
+    motive: 夺取徐霄所持大乘传承资源并在事后逃离
+    status: partial
+  conflict:
+    target: 徐霄
+    result: 伏杀失败，死于混沌极冰符清算，玉石宗随之覆灭
+    status: partial
+  related_nodes:
+  - NODE-0038
+  source_chapters:
+  - 283
+  - 284
+  - 287
   document: null
   verification_status: partial
