@@ -1,32 +1,32 @@
 schema_version: 2
-updated_at: '2026-07-25'
-run_id: RUN-0045
+updated_at: '2026-07-26'
+run_id: RUN-0046
 coverage:
-  chapters_covered_through: 252
-  chapters_promoted_in_run: [244, 245, 246, 247, 248, 249, 250, 251, 252]
-  timeline_nodes: 34
+  chapters_covered_through: 259
+  chapters_promoted_in_run: [253, 254, 255, 256, 257, 258, 259]
+  timeline_nodes: 35
   draft_nodes: 0
-  story_arc_nodes: 31
-  characters_documented: 52
+  story_arc_nodes: 32
+  characters_documented: 53
   characters_staged: 0
   system_records: 1
-  gift_events: 43
-  artifact_records: 33
+  gift_events: 47
+  artifact_records: 34
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [244, 245, 246, 247, 248, 249, 250, 251, 252, 253]
-    cross_checked_mirror_chapters: [244, 245, 246, 247, 248, 249, 250, 251, 252]
-    pending_fields: [叶尘任务完整奖励, 玉冰精确境界与龙族身份, 徐霄返送第一婵法宝明细与系统结算, 秦朋程芷程双精确修为, 宇文父子后续去向]
+    official_catalog_chapters: [253, 254, 255, 256, 257, 258, 259, 260]
+    cross_checked_mirror_chapters: [253, 254, 255, 256, 257, 258, 259]
+    pending_fields: [程芷程双完整气运面板, 第253章赠送完整返还清单, 第一婵系统有效性和完整面板, 林婉精确修为与气运面板, 丹药返还库炼虚阶段精确上限]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第252章完成徐霄进入天阵阁及新师门成员引入；第253章转入连续赠送返还}
-  materiality: {status: passed, entity_updates: [NODE-0034, CHAR-0047叶尘, CHAR-0048玉冰, CHAR-0049第一婵, CHAR-0050秦朋, CHAR-0051程芷, CHAR-0052程双, 徐霄化神九重巅峰, 姬雪拜玉冰为师, SYS-0001外部规则系统识别]}
+  arc_coherence: {status: passed, boundary: 第259章完成天阵阁关系稳定并引出林婉；第260章正式进入宗门内门大比}
+  materiality: {status: passed, entity_updates: [NODE-0035, 徐霄晋升炼虚一重, CHAR-0052程双羁绊度2, CHAR-0053林婉, GIFT-0044, GIFT-0045, GIFT-0046, GIFT-0047, ART-0034蕴仙丹]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0034.md, data/extensions/timeline/run-0045.yaml, data/extensions/characters/run-0045.yaml, data/extensions/system/run-0045.yaml]
+    files_checked: [docs/01-timeline/node-0035.md, data/extensions/timeline/run-0046.yaml, data/extensions/characters/run-0046.yaml, data/extensions/system/run-0046.yaml, data/extensions/artifacts/run-0046.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0045.yaml, data/extensions/characters/run-0045.yaml, data/extensions/system/run-0045.yaml, sources/evidence/chapters-244-252.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0046.yaml, data/extensions/characters/run-0046.yaml, data/extensions/system/run-0046.yaml, data/extensions/artifacts/run-0046.yaml, sources/evidence/chapters-253-259.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
