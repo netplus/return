@@ -1,0 +1,120 @@
+schema_version: 2
+run_id: RUN-0040
+task_id: TASK-0031
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 200
+  chapter_end: 210
+  node: NODE-0029
+  status: promoted
+  canonical_document: docs/01-timeline/node-0029.md
+  boundary_reason: 第210章完成猿洪任务结算、返还库升级与狐族交易兑现；第211章转入灵宝探查及战场异况
+chapters:
+- chapter: 200
+  title: 新的气运之敌
+  facts:
+  - 徐霄进入黑石城阶段并确认新的气运之敌任务
+  - 猿洪、宇文浩与萧慕河被列入远古战场内的击杀优先级
+  official_catalog: true
+  readable_mirrors: [小说之家, CP小说网]
+  status: partial
+- chapter: 201
+  title: 净玉瓶返场
+  facts:
+  - 黑石城各势力集中驻扎且城内禁止直接交战
+  - 净玉瓶再次出现在徐霄资源体系中
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 202
+  title: 黑石城规矩
+  facts:
+  - 黑石城内禁止动手的规则约束萧慕河等敌对修士
+  - 徐霄明确离城后优先处理猿洪与宇文浩
+  - 巫瓶儿吸收气运时系统按一点返还二十点气运
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 203
+  title: 收获颇丰
+  facts:
+  - 缥缈宗分队进入碎石谷探索尸灵石窟
+  - 徐霄以破邪庚金剑击杀尸灵并展现金之大道锋锐分支
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 204
+  title: 与白九儿叙旧
+  facts:
+  - 徐霄与白九儿在碎石谷重逢
+  - 白九儿已借助炼神丹与精气晋升炼虚境
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 205
+  title: 打通妖族关系
+  facts:
+  - 白九儿接受五枚虚天丹
+  - 系统返还十五枚合道丹
+  - 徐霄向白九儿提出协助击杀猿洪的利益交换
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 206
+  title: 狐族主母，白茹
+  facts:
+  - 狐族主母白茹以炼虚后期修为进入主线
+  - 徐霄提出碧水流光剑、灵石与虚天丹作为合作报酬
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 207
+  title: 猿洪恶心了
+  facts:
+  - 白茹接受五枚虚天丹
+  - 首次赠送千倍暴击返还鸿蒙一气丹
+  - 狐族以虚假情报将猿洪引向预设伏击区域
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 208
+  title: 再见通天神棍阵
+  facts:
+  - 白霞儿确认为化神九重巅峰、C级气运之女
+  - 白霞儿接受三枚虚天丹，千倍暴击返还天凤神元丹
+  - 猿洪启动通天神棍阵伏击徐霄与白霞儿
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 209
+  title: 白茹的担忧
+  facts:
+  - 徐霄以玄天八卦戒、五神剑和天木盾抵挡通天神棍阵
+  - 九天神雷符击破阵法并击杀十二名化神猿族长老
+  - 猿洪遭受重创但短暂撑过神雷
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 210
+  title: 两件灵宝，极品灵石
+  facts:
+  - 猿洪死亡，系统确认击杀任务完成
+  - 法宝返还库升级为最高可返还灵宝
+  - 白九儿接受碧水流光剑并返还灵宝三光分水剑
+  - 徐霄兑现狐族合作报酬
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 211
+  next_title: 徐霄的好奇
+  transition: 转入灵宝能力探查、狐族后续策略与远古战场异况
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

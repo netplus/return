@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0039
+run_id: RUN-0040
 coverage:
-  chapters_covered_through: 199
-  chapters_promoted_in_run: [192, 193, 194, 195, 196, 197, 198, 199]
-  timeline_nodes: 28
+  chapters_covered_through: 210
+  chapters_promoted_in_run: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
+  timeline_nodes: 29
   draft_nodes: 0
-  story_arc_nodes: 25
-  characters_documented: 39
+  story_arc_nodes: 26
+  characters_documented: 41
   characters_staged: 0
   system_records: 1
-  gift_events: 36
-  artifact_records: 28
+  gift_events: 40
+  artifact_records: 31
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [192, 193, 194, 195, 196, 197, 198, 199, 200]
-    cross_checked_mirror_chapters: [192, 193, 194, 195, 196, 197, 198, 199]
-    pending_fields: [上官倩完整修为与羁绊面板, 水云和花怜惜精确修为, 陆文涛精确修为与虚天丹用途, 炼虚尸灵生前身份及法宝归属]
+    official_catalog_chapters: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211]
+    cross_checked_mirror_chapters: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
+    pending_fields: [新气运之敌完整系统面板, 白茹完整气运与羁绊面板, 白霞儿基础倍率与羁绊度, 猿洪最后一击与通天如意棍最终归属, 三光分水剑完整能力]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第199章完成远古战场入场与炼虚中期尸灵击杀；第200章转入新的气运之敌任务}
-  materiality: {status: passed, entity_updates: [NODE-0028, CHAR-0036上官倩, CHAR-0037水云, CHAR-0038花怜惜, CHAR-0039陆文涛, GIFT-0035, GIFT-0036, ART-0026至ART-0028, 徐霄远古战场初战]}
+  arc_coherence: {status: passed, boundary: 第210章完成猿洪任务结算、返还库升级与狐族交易兑现；第211章转入灵宝探查及战场异况}
+  materiality: {status: passed, entity_updates: [NODE-0029, CHAR-0040白茹, CHAR-0041白霞儿, 白九儿晋升炼虚, 猿洪死亡, GIFT-0037至GIFT-0040, ART-0029至ART-0031, 法宝返还库升级]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0028.md, docs/02-characters/上官倩.md, docs/02-characters/水云.md, docs/02-characters/花怜惜.md, docs/02-characters/陆文涛.md, data/extensions/timeline/run-0039.yaml, data/extensions/characters/run-0039.yaml, data/extensions/system/run-0039.yaml, data/extensions/artifacts/run-0039.yaml]
+    files_checked: [docs/01-timeline/node-0029.md, docs/02-characters/白茹.md, docs/02-characters/白霞儿.md, data/extensions/timeline/run-0040.yaml, data/extensions/characters/run-0040.yaml, data/extensions/system/run-0040.yaml, data/extensions/artifacts/run-0040.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0039.yaml, data/extensions/characters/run-0039.yaml, data/extensions/system/run-0039.yaml, data/extensions/artifacts/run-0039.yaml, sources/evidence/chapters-192-199.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0040.yaml, data/extensions/characters/run-0040.yaml, data/extensions/system/run-0040.yaml, data/extensions/artifacts/run-0040.yaml, sources/evidence/chapters-200-210.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

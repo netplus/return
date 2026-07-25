@@ -1,0 +1,93 @@
+schema_version: 1
+run_id: RUN-0040
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    resource_add:
+    - 十五枚合道丹
+    - 鸿蒙一气丹
+    - 天凤神元丹
+    - 灵宝三光分水剑
+    ability_add:
+    - 金之大道·锋锐
+    system_progress_add: 法宝返还库最高可返还灵宝
+    combat_record_add: 联合狐族破解通天神棍阵并击杀猿洪
+    related_nodes_add:
+    - NODE-0029
+    source_chapters_add: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
+- id: CHAR-0027
+  name: 白九儿
+  update:
+    realm: 炼虚境
+    accepted_gifts_add:
+    - gift_id: GIFT-0037
+      item: 五枚虚天丹
+      status: partial
+    - gift_id: GIFT-0040
+      item: 碧水流光剑
+      status: partial
+    relationship_change: 成为狐族与徐霄之间的主要联络者并参与猿洪伏杀合作
+    related_nodes_add:
+    - NODE-0029
+    source_chapters_add: [204, 205, 206, 207, 208, 209, 210]
+- id: CHAR-0032
+  name: 猿洪
+  update:
+    status: dead
+    death:
+      chapter: 210
+      event: 通天神棍阵伏击失败后被徐霄与狐族合作击杀
+      status: partial
+    related_nodes_add:
+    - NODE-0029
+    source_chapters_add: [207, 208, 209, 210]
+- id: CHAR-0040
+  name: 白茹
+  status: alive
+  role: supporting
+  affiliations:
+  - 白狐族
+  identities:
+  - 狐族主母
+  - 狐族族长
+  realm:
+    value: 炼虚后期
+    status: partial
+  first_appearance:
+    chapter: 206
+    title: 狐族主母，白茹
+    node: NODE-0029
+  accepted_gifts:
+  - gift_id: GIFT-0038
+    item: 五枚虚天丹
+    status: partial
+  document: docs/02-characters/白茹.md
+  verification_status: partial
+- id: CHAR-0041
+  name: 白霞儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 白狐族
+  identities:
+  - 白茹三孙女
+  - 白九儿之姐
+  - 狐族天才
+  realm:
+    value: 化神九重巅峰
+    status: partial
+  luck_grade:
+    value: C
+    base_multiplier: pending
+    status: partial
+  first_appearance:
+    chapter: 208
+    title: 再见通天神棍阵
+    node: NODE-0029
+  accepted_gifts:
+  - gift_id: GIFT-0039
+    item: 三枚虚天丹
+    status: partial
+  document: docs/02-characters/白霞儿.md
+  verification_status: partial

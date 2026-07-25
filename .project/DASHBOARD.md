@@ -1,28 +1,28 @@
 # Project dashboard
 
 - **Status:** Active
-- **Current milestone:** M4 — Chapters 151–200
+- **Current milestone:** M5 — Chapters 201–250
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 199
-- **Current evidence exploration through:** Chapter 200
+- **Canonical coverage through:** Chapter 210
+- **Current evidence exploration through:** Chapter 211
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 28
+- **Completed timeline nodes:** 29
 - **Draft timeline nodes:** 0
-- **Documented characters:** 39
-- **Gift events:** 36
-- **Artifact records:** 28
-- **Last run:** `RUN-0039`
-- **Last completed node:** `NODE-0028`
-- **Next task:** `TASK-0031` — 新气运之敌与黑石城 story arc
-- **Provisional exploration range:** Chapters 200–207
+- **Documented characters:** 41
+- **Gift events:** 40
+- **Artifact records:** 31
+- **Last run:** `RUN-0040`
+- **Last completed node:** `NODE-0029`
+- **Next task:** `TASK-0032` — 灵宝探查与远古战场异况 story arc
+- **Provisional exploration range:** Chapters 211–218
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0028` covers Chapters 192—199. 徐霄与 A 级气运之女上官倩建立首次有效赠送关系，获得合体九重混沌极冰符和炼虚九重天道冰剑符；随后结识水云、花怜惜与陆文涛，水云首次赠送返还血牛猛虎丹。大道神碑开启后，缥缈宗进入远古战场，徐霄与诸葛无方协作击杀炼虚中期尸灵。第 200 章转入新的气运之敌任务。
+`NODE-0029` covers Chapters 200—210. 徐霄在黑石城与碎石谷阶段重新接触已晋升炼虚的白九儿，并以虚天丹、法宝和灵石报酬推动狐族协助伏杀猿洪。白茹和白霞儿成为新的有效赠送对象；白霞儿配合诱敌后，徐霄以多件防御法宝和九天神雷符破解通天神棍阵，猿洪及其随行猿族长老死亡。任务结算将法宝返还库升级至灵宝级，碧水流光剑赠送返还三光分水剑。第 211 章转入灵宝探查与战场异况。
 
-## Quality gates — RUN-0039
+## Quality gates — RUN-0040
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 192—200 章标题、顺序和边界；第 192—199 章正文由小说之家、CP 小说网等可访问文本镜像交叉核验。上官倩完整面板、水云与花怜惜精确修为、陆文涛精确修为与虚天丹用途、炼虚尸灵生前身份及法宝归属继续保持 `pending`。
+番茄小说官方目录确认第 200—211 章标题、顺序和边界；第 200—210 章正文由 CP 小说网、小说之家等可访问文本镜像交叉核验。新气运之敌完整面板、白茹和白霞儿未完整显示的系统字段、通天如意棍最终归属及三光分水剑完整能力继续保持 `pending`。

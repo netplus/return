@@ -1,0 +1,42 @@
+schema_version: 1
+run_id: RUN-0040
+artifacts:
+- id: ART-0029
+  name: 合道丹
+  category: 丹药
+  first_chapter: 205
+  current_holder: 徐霄
+  acquisition: GIFT-0037返还十五枚
+  effect: 用途与完整药效待后续正文确认
+  status: partial
+  related_nodes:
+  - NODE-0029
+- id: ART-0030
+  name: 天凤神元丹
+  category: 丹药
+  first_chapter: 208
+  current_holder: 徐霄
+  acquisition: GIFT-0039千倍暴击返还
+  effect: 增加千年寿元并赋予一丝九天神凤血脉，强化肉身恢复力
+  status: partial
+  related_nodes:
+  - NODE-0029
+- id: ART-0031
+  name: 三光分水剑
+  category: 灵宝神剑
+  grade: 灵宝
+  first_chapter: 210
+  current_holder: 徐霄
+  acquisition: GIFT-0040返还
+  effect: 剑体带有三光神水，完整能力待后续确认
+  status: partial
+  related_nodes:
+  - NODE-0029
+artifact_updates:
+- name: 碧水流光剑
+  update:
+    current_holder: 白九儿
+    transferred_in_chapter: 210
+    transfer_event: GIFT-0040
+    related_nodes_add:
+    - NODE-0029

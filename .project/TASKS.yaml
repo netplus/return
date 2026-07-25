@@ -43,7 +43,17 @@ tasks:
 - id: TASK-0031
   title: Build the 新气运之敌与黑石城 story arc from Chapter 200 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 200, provisional_chapter_end: 207, node: NODE-0029, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0040
+  target: {chapter_start: 200, chapter_end: 210, node: NODE-0029, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0029.md, docs/02-characters/白茹.md, docs/02-characters/白霞儿.md, data/extensions/timeline/run-0040.yaml, data/extensions/characters/run-0040.yaml, data/extensions/system/run-0040.yaml, data/extensions/artifacts/run-0040.yaml, sources/evidence/chapters-200-210.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0030]
+- id: TASK-0032
+  title: Build the 灵宝探查与远古战场异况 story arc from Chapter 211 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 211, provisional_chapter_end: 218, node: NODE-0030, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0031]

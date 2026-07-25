@@ -1,0 +1,72 @@
+schema_version: 1
+run_id: RUN-0040
+gift_events:
+- id: GIFT-0037
+  chapter: 205
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白九儿
+  recipient_luck_grade: S
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 十五枚合道丹
+  status: partial
+- id: GIFT-0038
+  chapter: 207
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白茹
+  gift: 五枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 鸿蒙一气丹
+  status: partial
+- id: GIFT-0039
+  chapter: 208
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白霞儿
+  recipient_luck_grade: C
+  gift: 三枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 天凤神元丹
+  status: partial
+- id: GIFT-0040
+  chapter: 210
+  node: NODE-0029
+  giver: 徐霄
+  recipient: 白九儿
+  recipient_luck_grade: S
+  gift: 碧水流光剑
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 灵宝三光分水剑
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add:
+    - 白茹
+    - 白霞儿
+    gift_ids_add:
+    - GIFT-0037
+    - GIFT-0038
+    - GIFT-0039
+    - GIFT-0040
+    rule_instances_add:
+    - trigger: 击杀猿洪并完成气运之敌任务
+      effect: 法宝返还库升级，最高可返还灵宝
+      chapter: 210
+      status: partial
+    related_nodes_add:
+    - NODE-0029
+    source_chapters_add: [205, 207, 208, 210]

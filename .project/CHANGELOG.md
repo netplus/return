@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0040 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0031`; no completed task or canonical node was duplicated.
+- Extended the adaptive boundary through Chapter 210 so the arc includes the猿洪伏杀、任务结算、返还库升级 and狐族交易兑现; Chapter 211 begins灵宝探查 and new battlefield anomalies.
+- Created `NODE-0029`: 狐族合作、猿洪伏杀与灵宝返还库解锁, covering Chapters 200—210.
+- Added 白茹 and 白霞儿 as `CHAR-0040` and `CHAR-0041`; updated 白九儿 to炼虚境 and猿洪 to dead.
+- Added `GIFT-0037`—`GIFT-0040`, returning十五枚合道丹、鸿蒙一气丹、天凤神元丹 and灵宝三光分水剑.
+- Recorded the system upgrade that the artifact return library can now return items up to灵宝 grade.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0031`, advanced to milestone M5, and queued `TASK-0032` beginning at Chapter 211.
+
 ## RUN-0039 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
