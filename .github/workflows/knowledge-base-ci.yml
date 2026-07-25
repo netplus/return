@@ -95,7 +95,7 @@ jobs:
           TARGET_BRANCH: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
         run: |
           mkdir -p build
-          if git diff --quiet -- data/generated; then
+          if [ -z "$(git status --porcelain -- data/generated)" ]; then
             echo 'Generated indexes are already current.' | tee build/push.log
             exit 0
           fi
