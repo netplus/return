@@ -1,0 +1,40 @@
+schema_version: 1
+run_id: RUN-0053
+artifacts:
+- id: ART-0039
+  name: 天凤精血
+  category: 血脉资源
+  first_chapter: 317
+  current_holder: 徐霄系统空间
+  acquisition: GIFT-0055返还
+  effect: 用途与完整效果待后续正文确认
+  status: partial
+  related_nodes: [NODE-0042]
+- id: ART-0040
+  name: 四象斩天剑
+  category: 先天灵宝神剑
+  grade: 先天灵宝
+  first_chapter: 322
+  current_holder: 徐霄
+  acquisition: GIFT-0056返还
+  effect: 完整能力与炼化状态待后续正文确认
+  status: partial
+  related_nodes: [NODE-0042]
+- id: ART-0041
+  name: 九转运天丹
+  category: 丹药
+  first_chapter: 323
+  final_user: 徐霄
+  current_state: 已服用
+  acquisition: GIFT-0057千倍暴击返还
+  effect: 凝练九天气运，使气运更加磅礴、极致凝练
+  status: partial
+  related_nodes: [NODE-0042]
+artifact_updates:
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    consumption_add:
+    - {chapter: 324, user: 徐霄, result: 鸿蒙真气总量增至十股, status: partial}
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [324]
