@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0046
+run_id: RUN-0047
 coverage:
-  chapters_covered_through: 259
-  chapters_promoted_in_run: [253, 254, 255, 256, 257, 258, 259]
-  timeline_nodes: 35
+  chapters_covered_through: 273
+  chapters_promoted_in_run: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273]
+  timeline_nodes: 36
   draft_nodes: 0
-  story_arc_nodes: 32
-  characters_documented: 53
+  story_arc_nodes: 33
+  characters_documented: 54
   characters_staged: 0
   system_records: 1
   gift_events: 47
-  artifact_records: 34
+  artifact_records: 35
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [253, 254, 255, 256, 257, 258, 259, 260]
-    cross_checked_mirror_chapters: [253, 254, 255, 256, 257, 258, 259]
-    pending_fields: [程芷程双完整气运面板, 第253章赠送完整返还清单, 第一婵系统有效性和完整面板, 林婉精确修为与气运面板, 丹药返还库炼虚阶段精确上限]
+    official_catalog_chapters: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274]
+    cross_checked_mirror_chapters: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273]
+    pending_fields: [林婉完整气运等级羁绊度与累计窃取量, 护心龙镜完整品阶能力与炼化状态, 剑辰先天剑丸最终品阶与后续状态, 内门大比完整名次伤亡与奖励清单]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第259章完成天阵阁关系稳定并引出林婉；第260章正式进入宗门内门大比}
-  materiality: {status: passed, entity_updates: [NODE-0035, 徐霄晋升炼虚一重, CHAR-0052程双羁绊度2, CHAR-0053林婉, GIFT-0044, GIFT-0045, GIFT-0046, GIFT-0047, ART-0034蕴仙丹]}
+  arc_coherence: {status: passed, boundary: 第273章完成内门大比冠军决出与护心龙镜奖励；第274章转入传承坦白和天阵阁内部后续}
+  materiality: {status: passed, entity_updates: [NODE-0036, CHAR-0054剑辰, CHAR-0053林婉气运互动, 徐霄成为内门大师兄, ART-0035护心龙镜]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0035.md, data/extensions/timeline/run-0046.yaml, data/extensions/characters/run-0046.yaml, data/extensions/system/run-0046.yaml, data/extensions/artifacts/run-0046.yaml]
+    files_checked: [docs/01-timeline/node-0036.md, data/extensions/timeline/run-0047.yaml, data/extensions/characters/run-0047.yaml, data/extensions/system/run-0047.yaml, data/extensions/artifacts/run-0047.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0046.yaml, data/extensions/characters/run-0046.yaml, data/extensions/system/run-0046.yaml, data/extensions/artifacts/run-0046.yaml, sources/evidence/chapters-253-259.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0047.yaml, data/extensions/characters/run-0047.yaml, data/extensions/system/run-0047.yaml, data/extensions/artifacts/run-0047.yaml, sources/evidence/chapters-260-273.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
