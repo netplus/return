@@ -1,0 +1,28 @@
+schema_version: 1
+run_id: RUN-0046
+artifacts:
+- id: ART-0034
+  name: 蕴仙丹
+  category: 丹药
+  grade: 大乘修炼资源
+  first_chapter: 257
+  current_holder: 徐霄
+  acquisition: GIFT-0047返还
+  effect: 蕴含大乘灵力，大乘修士服用后可大幅提升修为
+  status: partial
+  related_nodes: [NODE-0035]
+artifact_updates:
+- id: ART-0021
+  name: 虚天丹
+  update:
+    transfers_add:
+    - {gift_id: GIFT-0044, recipient: 程双, quantity: 5, chapter: 253, status: partial}
+    - {gift_id: GIFT-0045, recipient: 程芷, quantity: 5, chapter: 253, status: partial}
+    - {gift_id: GIFT-0046, recipient: 花怜惜, quantity: 5, chapter: 258, status: partial}
+    related_nodes_add: [NODE-0035]
+- id: ART-0029
+  name: 合道丹
+  update:
+    acquisition_add: {gift_id: GIFT-0046, chapter: 258, quantity: 10, status: partial}
+    transfer_add: {gift_id: GIFT-0047, recipient: 第一婵, quantity: 1, chapter: 257, status: partial}
+    related_nodes_add: [NODE-0035]
