@@ -1,0 +1,117 @@
+schema_version: 1
+run_id: RUN-0045
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 化神九重巅峰
+    affiliation_add: 无妄仙宗天阵阁
+    identity_add: 天阵阁第四弟子
+    role_change_add: 建立盘龙岛修士在天元大陆无妄仙宗的长期落脚点
+    related_nodes_add: [NODE-0034]
+    source_chapters_add: [244, 245, 246, 247, 248, 249, 250, 251, 252]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 炼虚九重
+    constitution_add: 元灵圣体
+    identity_add: 玉冰首徒
+    affiliation_add: 无妄仙宗
+    related_nodes_add: [NODE-0034]
+    source_chapters_add: [249, 250]
+- id: CHAR-0018
+  name: 宇文浩
+  update:
+    status_change: 与父亲宇文良恭逃离盘龙岛
+    related_nodes_add: [NODE-0034]
+    source_chapters_add: [244]
+- id: CHAR-0025
+  name: 魇女
+  update:
+    cultivation_change: 炼虚九重
+    constitution_add: 先天阴体
+    affiliation_add: 无妄仙宗先遣参选者
+    related_nodes_add: [NODE-0034]
+    source_chapters_add: [248]
+- id: CHAR-0047
+  name: 叶尘
+  status: alive
+  role: antagonist
+  affiliations: [无妄仙宗]
+  identities: [无妄仙宗内门长老, 气运之子, 收徒就变强系统宿主]
+  first_appearance: {chapter: 244, title: 新的气运之子, node: NODE-0034}
+  cultivation: {current: 合体境, status: partial}
+  system:
+    name: 收徒就变强系统
+    level: 1
+    cost_to_disciples: 减慢徒弟修炼速度
+    status: partial
+  current_conflict: 徐霄阻止盘龙岛修士拜入其门下
+  related_nodes: [NODE-0034]
+  source_chapters: [244, 247, 248, 249, 250, 251, 252]
+  document: null
+  verification_status: partial
+- id: CHAR-0048
+  name: 玉冰
+  status: alive
+  role: major_supporting
+  affiliations: [无妄仙宗, 龙族]
+  identities: [无妄仙宗掌门, SSS级气运之女, 姬雪师父]
+  first_appearance: {chapter: 250, title: 第一婵, node: NODE-0034}
+  cultivation: {current: pending, status: pending}
+  luck_grade: {value: SSS, base_multiplier: 100, bond_level: 1, status: partial}
+  accepted_disciples: [姬雪]
+  related_nodes: [NODE-0034]
+  source_chapters: [250]
+  document: null
+  verification_status: partial
+- id: CHAR-0049
+  name: 第一婵
+  status: alive
+  role: major_supporting
+  affiliations: [无妄仙宗, 天阵阁]
+  identities: [无妄仙宗内门长老, 天阵阁首座, 徐霄师父]
+  first_appearance: {chapter: 250, title: 第一婵, node: NODE-0034}
+  cultivation: {current: 合体七重, status: partial}
+  specialty: 阵法
+  disciples: [秦朋, 程芷, 程双, 徐霄]
+  related_nodes: [NODE-0034]
+  source_chapters: [250, 251, 252]
+  document: null
+  verification_status: partial
+- id: CHAR-0050
+  name: 秦朋
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 天阵阁]
+  identities: [天阵阁大师兄]
+  first_appearance: {chapter: 252, title: 懵逼的师兄妹, node: NODE-0034}
+  cultivation: {current: pending, status: pending}
+  related_nodes: [NODE-0034]
+  source_chapters: [252]
+  document: null
+  verification_status: partial
+- id: CHAR-0051
+  name: 程芷
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 天阵阁]
+  identities: [天阵阁二师姐]
+  first_appearance: {chapter: 252, title: 懵逼的师兄妹, node: NODE-0034}
+  cultivation: {current: pending, status: pending}
+  related_nodes: [NODE-0034]
+  source_chapters: [252]
+  document: null
+  verification_status: partial
+- id: CHAR-0052
+  name: 程双
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 天阵阁]
+  identities: [天阵阁三师姐]
+  first_appearance: {chapter: 252, title: 懵逼的师兄妹, node: NODE-0034}
+  cultivation: {current: pending, status: pending}
+  related_nodes: [NODE-0034]
+  source_chapters: [252]
+  document: null
+  verification_status: partial
