@@ -4,25 +4,25 @@
 - **Current milestone:** M6 — Chapters 251–300
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 287
-- **Current evidence exploration through:** Chapter 288
+- **Canonical coverage through:** Chapter 295
+- **Current evidence exploration through:** Chapter 296
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 38
+- **Completed timeline nodes:** 39
 - **Draft timeline nodes:** 0
-- **Documented characters:** 55
-- **Gift events:** 48
-- **Artifact records:** 35
-- **Last run:** `RUN-0049`
-- **Last completed node:** `NODE-0038`
-- **Next task:** `TASK-0041` — 黑风气运之敌与血气灵宝争夺 story arc
-- **Provisional exploration range:** Chapters 288–295
+- **Documented characters:** 56
+- **Gift events:** 49
+- **Artifact records:** 36
+- **Last run:** `RUN-0050`
+- **Last completed node:** `NODE-0039`
+- **Next task:** `TASK-0042` — 黑风任务结算与先天灵宝返还 story arc
+- **Provisional exploration range:** Chapters 296–303
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0038` covers Chapters 283—287. 徐霄以无妄仙宗内门大师兄身份前往玉石宗处理外门弟子扣押事件，却发现三名外门弟子、周钱两名执事及玉石宗掌门白玉龙共同设置噬骨销魂散和合体围杀陷阱。徐霄依靠天龙、天凤血脉与神丹积累免疫毒素，并使用合体九重混沌极冰符摧毁伏杀阵营，玉石宗随之覆灭。叶尘主导的反徐行动由舆论告发升级为直接谋杀但再次失败。白茹随后公开到访天阵阁，并验证一点精气返还二十点的系统实例。第 288 章正式识别黑风为气运之敌并转入银鳞城血气灵宝追踪。
+`NODE-0039` covers Chapters 288—295. 系统识别银鳞城城主、黑魔宗掌门黑风为气运之敌，并发布击杀任务。徐霄随第一婵、秦朋进入血林沼泽追踪血气灵宝，嗜血天魔刀斩杀三棵合体血藤树并继续增强。第一婵遭合体九重修士伪装伏击时，徐霄以混沌神雷符解围；随后将缴获法宝神剑赠予第一婵，返还灵宝玄天艮土剑，补齐五行灵宝神剑体系。三大仙宗围攻庇护黑风的合体巅峰血藤树，萧慕河与血云魔尊也在现场确认徐霄已抵达天元大陆。第 295 章完成黑风死亡、血气灵宝易手与徐霄一方脱离围攻；第 296 章转入任务结算、灵宝赠送和先天灵宝返还。
 
-## Quality gates — RUN-0049
+## Quality gates — RUN-0050
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 283—288 章标题、顺序和边界；第 283—287 章正文由 CP 小说网等可访问正文镜像交叉核验。周钱两名执事与三名外门弟子的完整身份、混沌极冰符逐人击杀映射、叶尘完整内应网络以及黑风任务结算继续保持 `pending`。
+番茄小说官方目录确认第 288—296 章标题、顺序和边界；第 288—295 章正文由 CP 小说网、小说之家等可访问正文镜像交叉核验。黑风血气灵宝正式名称、黑风最终致命者、混沌神雷符消耗状态、萧慕河与血云魔尊完整行动及第 296 章正式任务结算继续保持 `pending`。
