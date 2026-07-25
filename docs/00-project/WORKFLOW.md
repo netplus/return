@@ -92,3 +92,21 @@
 - `NODE-0001` 至 `NODE-0003` 作为早期细粒度历史节点保留。
 - 自 `TASK-0006` 起采用本标准。
 - 下一任务覆盖第 4 章起的首个完整剧情阶段，暂定探索窗口为第 4—10 章；最终结束章节由剧情边界决定。
+
+## 9. Canonical index maintenance
+
+结构化数据采用三层模型：基础索引、追加扩展和生成索引。
+
+- 每个剧情 Task 继续把新增记录和既有实体更新写入 `data/extensions/`。
+- `data/generated/` 是基础索引与全部扩展合并后的机器可消费完整视图，不得手工修改。
+- 提交前必须运行：
+
+```bash
+python scripts/knowledge_base.py validate
+python scripts/knowledge_base.py build
+python scripts/knowledge_base.py validate --generated-dir data/generated
+```
+
+- 校验必须覆盖 YAML 解析、ID 唯一性、Timeline 区间、文档和证据引用、跨索引节点引用，以及 `.project/STATE.yaml` / `.project/METRICS.yaml` 统计一致性。
+- GitHub Actions 在 `main` 更新后刷新生成索引，并每周将扩展合并回基础索引。
+- compaction 不删除扩展文件；扩展文件继续作为每次 Run 的不可变审计记录。
