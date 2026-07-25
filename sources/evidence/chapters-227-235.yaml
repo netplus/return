@@ -1,0 +1,79 @@
+schema_version: 2
+run_id: RUN-0043
+task_id: TASK-0034
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 227
+  chapter_end: 235
+  node: NODE-0032
+  status: promoted
+  canonical_document: docs/01-timeline/node-0032.md
+  boundary_reason: 第235章完成凤青玄接受三光分水剑、停止现场杀戮并承诺开启出口；第236章转入凤青玄借妙玉肉身实施后续计划
+chapters:
+- chapter: 227
+  title: 小露锋芒
+  facts: [魇女确认黑魂堡方向有数以千计尸灵外扩且炼虚尸灵明显增多, 尸潮预计五日左右抵达三处据点, 徐霄提出据点防守后组织精锐深入西部调查]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 228
+  title: 新的尸灵
+  facts: [各方采纳徐霄的尸潮防守与主动调查方案, 系统重新检测到魇女并确认其为气运之女, 宇文父子暂时停止公开冲突]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 229
+  title: 崩溃的独孤灵
+  facts: [外界大修确认远古战场问题来自内部且暂时无法重开传送门, 独孤灵与姬雪只能等待场内自行破局, 独孤灵获知徐霄与玉玲珑巫瓶儿的长期关系]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 230
+  title: 魇女的往届道侣
+  facts: [魇女与徐霄确认长期道侣关系, 魇女开始展示历任道侣炼成的僵尸资源, 破天魔宗谋划在深入西部行动中对付徐霄]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 231
+  title: 诸葛无方的震惊
+  facts: [魇女共保存二十七具历任道侣僵尸, 其中三具达到炼虚层级, 魇女公开要求天尸宗将徐霄视为其道侣并予以尊重]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 232
+  title: 尸灵大战
+  facts: [黑锋山进入全面尸潮战, 徐霄独自牵制十余名炼虚后期尸灵且不落下风, 联合防线依托多重阵法消耗数以千计尸灵]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 233
+  title: sss级气运之女
+  facts: [徐霄累计击杀二十余名炼虚后期尸灵并获得五件法宝, 五行炼体丹使其五脏形成五行灵力循环, 联合势力击退首轮尸潮, 凤青玄以SSS级气运之女身份现身]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 234
+  title: 赠送灵宝
+  facts: [凤青玄释放至少合体层级威压并率大量炼虚尸灵出现, 她询问外界经过年数并关联山海碑与无妄仙宗, 徐霄向其赠送三光分水剑]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 235
+  title: 无妄仙宗，凤青玄
+  facts: [凤青玄接受三光分水剑并停止现场杀戮, 她承诺之后开启出口并要求徐霄同行, 凤青玄确认沉睡约二十万年且全身法器已失, 她开始关注妙玉但具体安排尚未完成]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 236
+  next_title: 凤青玄的如意算盘
+  transition: 转入凤青玄收徒并借妙玉肉身实施后续脱困与返回计划
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
