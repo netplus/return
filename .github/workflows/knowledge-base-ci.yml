@@ -30,6 +30,9 @@ jobs:
       - name: Install validator dependency
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
 
+      - name: Run knowledge-base unit tests
+        run: python scripts/test_knowledge_base.py
+
       - name: Validate base and extension indexes
         shell: bash
         run: |
@@ -67,14 +70,13 @@ jobs:
     if: >-
       github.event_name == 'push' ||
       github.event_name == 'schedule' ||
-      github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+      github.event_name == 'workflow_dispatch'
     needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
+          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -91,8 +93,6 @@ jobs:
 
       - name: Commit and push refreshed indexes
         shell: bash
-        env:
-          TARGET_BRANCH: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
         run: |
           mkdir -p build
           if [ -z "$(git status --porcelain -- data/generated)" ]; then
@@ -106,7 +106,7 @@ jobs:
           git commit -m 'chore(data): refresh generated canonical indexes'
 
           set -o pipefail
-          git push origin HEAD:"${TARGET_BRANCH}" 2>&1 | tee build/push.log
+          git push origin HEAD:main 2>&1 | tee build/push.log
 
       - name: Upload generated-index push report
         if: always()
