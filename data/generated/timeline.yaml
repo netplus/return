@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 29
+  extension_files: 30
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1570,3 +1570,47 @@ nodes:
   - 外宗调查后的完整行动链
   document: docs/01-timeline/node-0040.md
   evidence: sources/evidence/chapters-296-303.yaml
+- id: NODE-0041
+  title: 凤族寿宴赠礼、凤山界清剿与凤族回归选择
+  chapters:
+    start: 304
+    end: 316
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第304—317章标题、顺序和边界；第304—316章正文由可访问镜像交叉核验
+  boundary_reason: 第316章完成凤山界主要凶兽清剿、凤族态度逆转与回归方向确认；第317章转入返宗汇报和凤青玄精血交付
+  characters:
+  - 徐霄
+  - 方达飞
+  - 凤仪
+  - 凤青玄
+  - 妙玉
+  - 赤霞
+  - 蛮天
+  - 秦朋
+  system_events:
+  - event: 方达飞气运之子任务
+    trigger: 系统识别方达飞拥有大乘修士传承
+    reward: 击杀后返还道具库升级
+    status: partial
+  - event: 凤仪综合赠送返还
+    trigger: 合道丹、绝品驻颜丹、七件法宝及极品灵石赠送被接受
+    reward: 三千大道丹、五十七枚蕴仙丹、鸿蒙一气丹、七件灵宝及三万六千枚极品灵石
+    gift_id: GIFT-0054
+    status: partial
+  conflict_events:
+  - event: 三宗争取凤族与凤山界清剿
+    result: 玉鼎仙宗和天煞魔宗队伍受挫；徐霄、赤霞、蛮天清除主要凶兽威胁，凤族转向回归无妄仙宗
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    resource_change: 获得多类高阶返还资源并公开五行灵宝神剑体系
+    role_change: 以天阵阁临时首座身份实质促成凤族回归
+    status: partial
+  pending:
+  - 方达飞大乘传承完整内容
+  - 凤仪完整系统面板
+  - 七件返还灵宝逐件名称与对应关系
+  - 凤山界五色神光完整数量与分配
+  document: docs/01-timeline/node-0041.md
+  evidence: sources/evidence/chapters-304-316.yaml

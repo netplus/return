@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 27
+  extension_files: 28
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -145,6 +145,7 @@ artifacts:
   - NODE-0010
   - NODE-0020
   - NODE-0023
+  - NODE-0041
   acquisitions:
   - gift_id: GIFT-0008
     chapter: 23
@@ -172,6 +173,10 @@ artifacts:
   - gift_id: GIFT-0031
     chapter: 156
     result: 净水之道
+    status: partial
+  - gift_id: GIFT-0054
+    chapter: 306
+    result: 待服用
     status: partial
   instances_acquired_total: 4
   instances_consumed_total: 4
@@ -281,6 +286,9 @@ artifacts:
   - gift_id: GIFT-0048
     chapter: 281
     status: partial
+  - gift_id: GIFT-0054
+    chapter: 306
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -288,6 +296,7 @@ artifacts:
   - NODE-0012
   - NODE-0025
   - NODE-0037
+  - NODE-0041
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -681,11 +690,16 @@ artifacts:
     quantity: 1
     chapter: 300
     status: partial
+  - gift_id: GIFT-0054
+    chapter: 306
+    quantity: 57
+    status: partial
   effect: 蕴含大乘灵力，大乘修士服用后可大幅提升修为
   status: partial
   related_nodes:
   - NODE-0035
   - NODE-0040
+  - NODE-0041
   source_chapters:
   - 298
   - 300
@@ -735,3 +749,39 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0040
+  - NODE-0041
+  combat_record: 在凤山界合体巅峰凶兽密集区域承担飞行、防御和作战平台功能
+  source_chapters:
+  - 309
+  - 312
+  - 313
+  - 316
+- id: ART-0038
+  name: 五行灵宝神剑组
+  category: 灵宝神剑组合
+  grade: 灵宝
+  first_chapter: 308
+  current_holder: 徐霄
+  acquisition: GIFT-0054七件灵宝返还中的已确认组成部分
+  composition:
+    confirmed_count: 5
+    attributes:
+    - 金
+    - 木
+    - 水
+    - 火
+    - 土
+    exact_item_mapping: pending
+  effect:
+  - 可由鸿蒙真气协同驱动
+  - 五行属性配合可重创合体巅峰凶兽
+  - 可与九天神龙甲、神木飞舟形成高阶攻防体系
+  status: partial
+  related_nodes:
+  - NODE-0041
+  source_chapters:
+  - 308
+  - 309
+  - 313
+  - 314
+  - 315

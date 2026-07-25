@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 22
+  extension_files: 23
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -769,4 +769,33 @@ gifts:
   accepted: true
   system_valid: true
   reward: 一枚蕴仙丹
+  status: partial
+- id: GIFT-0054
+  chapter: 306
+  node: NODE-0041
+  giver: 徐霄
+  recipient: 凤仪
+  gift:
+    items:
+    - 二十枚合道丹
+    - 一枚绝品驻颜丹
+    - 七件法宝
+    - 一千二百枚极品灵石
+    context: 凤仪万年寿宴的宗门及私人综合礼单
+  accepted: true
+  system_valid: true
+  first_gift: true
+  returns:
+  - source: 第一枚合道丹
+    multiplier: 10000
+    reward: 三千大道丹
+  - source: 其余十九枚合道丹
+    reward: 五十七枚蕴仙丹
+  - source: 绝品驻颜丹
+    reward: 鸿蒙一气丹
+  - source: 七件法宝
+    reward: 七件灵宝
+  - source: 一千二百枚极品灵石
+    reward: 三万六千枚极品灵石
+  relationship_result: 凤仪及凤族对徐霄和无妄仙宗态度显著改善
   status: partial

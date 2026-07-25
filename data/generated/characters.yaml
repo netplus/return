@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 28
+  extension_files: 29
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -103,6 +103,7 @@ characters:
   - NODE-0038
   - NODE-0039
   - NODE-0040
+  - NODE-0041
   source_chapters:
   - 1
   - 2
@@ -371,6 +372,19 @@ characters:
   - 301
   - 302
   - 303
+  - 304
+  - 305
+  - 306
+  - 307
+  - 308
+  - 309
+  - 310
+  - 311
+  - 312
+  - 313
+  - 314
+  - 315
+  - 316
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -426,6 +440,7 @@ characters:
   - 以合体九重混沌极冰符摧毁玉石宗伏杀阵营并完成宗门外勤清算
   - 在血林沼泽以嗜血天魔刀斩杀三棵合体血藤树并持续吸收血气
   - 以混沌神雷符解除合体九重修士伏击，并参与完成黑风与血气灵宝争夺
+  - 以神木飞舟、五行灵宝神剑和高阶符箓清剿凤山界大量合体凶兽及血凤头领
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -439,6 +454,10 @@ characters:
   - 玄天艮土剑
   - 黑风所持血气灵宝（名称pending）
   - ART-0037
+  - 三千大道丹
+  - 五十七枚蕴仙丹
+  - 七件返还灵宝
+  - 三万六千枚极品灵石
   ability:
   - 金之大道·锋锐
   system_progress: 法宝返还库最高可返还灵宝
@@ -451,6 +470,7 @@ characters:
   - 成为未来百年的无妄仙宗内门弟子第一人
   - 以无妄仙宗内门大师兄身份独立处理玉石宗重大外勤危机
   - 以天阵阁临时首座身份代表无妄仙宗参加凤族族长万年寿宴
+  - 以天阵阁临时首座身份实质推动凤族回归无妄仙宗
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -1431,7 +1451,7 @@ characters:
     title: 诸葛无方的算盘
     node: NODE-0018
   cultivation:
-    current: 炼虚境
+    current: 合体初期
     status: partial
   accepted_gifts:
   - GIFT-0027
@@ -1442,6 +1462,7 @@ characters:
   - NODE-0019
   - NODE-0024
   - NODE-0033
+  - NODE-0041
   source_chapters:
   - 110
   - 114
@@ -1462,6 +1483,7 @@ characters:
   - 241
   - 242
   - 243
+  - 307
   verification_status: partial
   gift_resolution:
     gift_id: GIFT-0027
@@ -1475,6 +1497,7 @@ characters:
   major_action: 与魇女共同阻止妖族炼虚修士越界杀死徐霄
   body_status: 肉身暂由凤青玄神魂控制，本人神魂留在识海修炼
   relationship_cover: 凤青玄以妙玉身份与徐霄宣称进入道侣考察期，以掩饰真实身份
+  current_condition: 凤青玄神魂继续借用其肉身活动，妙玉本人在识海修炼
 - id: CHAR-0025
   name: 魇女
   status: alive
@@ -2240,6 +2263,7 @@ characters:
   related_nodes:
   - NODE-0032
   - NODE-0033
+  - NODE-0041
   source_chapters:
   - 233
   - 234
@@ -2252,6 +2276,7 @@ characters:
   - 241
   - 242
   - 243
+  - 307
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -2259,6 +2284,7 @@ characters:
   - 收妙玉为徒并暂借其肉身，承诺返回天元大陆后重塑肉身归还
   - 重新炼化山海碑并开启传送门，使远古战场修士脱困
   concealment_plan: 以妙玉身份跟随徐霄进入缥缈宗并隐藏真实身份
+  strategic_goal: 推动凤族重回无妄仙宗，以利用宗门条件加快肉身恢复
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -2737,5 +2763,89 @@ characters:
   - 289
   - 294
   - 295
+  document: null
+  verification_status: partial
+- id: CHAR-0057
+  name: 方达飞
+  status: alive
+  role: antagonist
+  affiliations:
+  - 玉鼎仙宗
+  identities:
+  - 玉鼎仙宗长老
+  - 气运之子
+  - 大乘修士传承持有者
+  first_appearance:
+    chapter: 304
+    title: 开始送礼
+    node: NODE-0041
+  cultivation:
+    current: 合体巅峰
+    status: partial
+  system_task:
+    target: 击杀方达飞
+    reward: 返还道具库升级
+    completion: pending
+    status: partial
+  conflict:
+    target: 徐霄与无妄仙宗
+    current_result: 凤山界竞争中受创并公开敌视无妄仙宗，击杀任务尚未完成
+    status: partial
+  related_nodes:
+  - NODE-0041
+  source_chapters:
+  - 304
+  - 305
+  - 308
+  - 309
+  - 310
+  - 311
+  - 313
+  - 314
+  - 316
+  document: null
+  verification_status: partial
+- id: CHAR-0058
+  name: 凤仪
+  status: alive
+  role: supporting
+  affiliations:
+  - 凤族
+  identities:
+  - 凤族族长
+  - 准大乘修士
+  - 徐霄有效赠送对象
+  first_appearance:
+    chapter: 304
+    title: 开始送礼
+    node: NODE-0041
+  cultivation:
+    current: 合体巅峰以上且接近大乘
+    status: partial
+  accepted_gifts:
+  - GIFT-0054
+  relationship_context:
+    徐霄: 接受重礼并因其清剿凤山界将其列为凤族最尊贵客人
+    无妄仙宗: 由观望转向支持凤族回归
+    status: partial
+  system_profile:
+    luck_grade: pending
+    base_multiplier: pending
+    bond: pending
+    status: pending
+  related_nodes:
+  - NODE-0041
+  source_chapters:
+  - 304
+  - 305
+  - 306
+  - 308
+  - 310
+  - 311
+  - 312
+  - 313
+  - 314
+  - 315
+  - 316
   document: null
   verification_status: partial
