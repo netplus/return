@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0037
+artifacts:
+- id: ART-0017
+  name: 九火琉璃罩
+  update: {current_state: 第七道强化雷劫中损毁, related_nodes_add: [NODE-0026], source_chapters_add: [183], status: partial}
+- id: ART-0023
+  name: 净玉瓶
+  update: {current_state: 第七道强化雷劫中损毁, related_nodes_add: [NODE-0026], source_chapters_add: [183], status: partial}
+- id: ART-0014
+  name: 须臾五极山
+  update:
+    latest_use: 用于抵挡第八道强化雷劫
+    post_tribulation_state: 渡劫后是否保留仍为pending；第184章仅确认最终仅余四柄神剑
+    related_nodes_add: [NODE-0026]
+    source_chapters_add: [183, 184]
+    status: partial
+- name: 雷劫法宝损耗组
+  update:
+    summary: 渡劫前十一件主要法宝，渡劫后仅保留四柄神剑；防御、治疗、束缚类法宝损失殆尽
+    exact_item_mapping: pending
+    related_nodes_add: [NODE-0026]
+    source_chapters_add: [180, 181, 182, 183, 184]
+    status: partial

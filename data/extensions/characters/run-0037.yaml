@@ -1,0 +1,32 @@
+schema_version: 1
+run_id: RUN-0037
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change_add: 成功渡过第二次化神雷劫，由元婴九重重返化神境
+    tribulation_record_add: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
+    artifact_loss_add: 渡劫后十一件主要法宝仅余四柄神剑
+    related_nodes_add: [NODE-0026]
+    source_chapters_add: [175, 176, 177, 178, 179, 180, 181, 182, 183, 184]
+- id: CHAR-0034
+  name: 巫瓶儿
+  update:
+    accepted_gifts_add: [GIFT-0034]
+    relationship_change_add: 接受绝品驻颜丹并与徐霄形成稳定赠送及气运互动关系
+    current_action_add: 陪同前往远古战场并为二次雷劫护法
+    related_nodes_add: [NODE-0026]
+    source_chapters_add: [175, 178, 180, 181, 182, 183, 184]
+- id: CHAR-0035
+  name: 慕容龙城
+  status: alive_unknown
+  role: antagonist
+  affiliations: [北风国]
+  identities: [北风国太上皇]
+  first_appearance: {chapter: 178, node: NODE-0026}
+  cultivation: {current: null, status: pending}
+  conflict: {target: 徐霄, result: 渡劫前被捆龙绳、三光神水和四柄神剑压制, life_status: pending, status: partial}
+  documents: {profile: docs/02-characters/慕容龙城.md}
+  related_nodes: [NODE-0026]
+  source_chapters: [178, 179]
+  verification_status: partial

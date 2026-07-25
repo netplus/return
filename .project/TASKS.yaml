@@ -40,7 +40,17 @@ tasks:
 - id: TASK-0028
   title: Build the 远古战场二次化神雷劫 story arc from Chapter 175 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 175, provisional_chapter_end: 183, node: NODE-0026, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0037
+  target: {chapter_start: 175, chapter_end: 184, node: NODE-0026, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0026.md, docs/02-characters/徐霄.md, docs/02-characters/巫瓶儿.md, docs/02-characters/慕容龙城.md, data/extensions/timeline/run-0037.yaml, data/extensions/characters/run-0037.yaml, data/extensions/system/run-0037.yaml, data/extensions/artifacts/run-0037.yaml, sources/evidence/chapters-175-184.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0027]
+- id: TASK-0029
+  title: Build the 妖族突袭与远古神碑现世 story arc from Chapter 185 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 185, provisional_chapter_end: 192, node: NODE-0027, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0028]

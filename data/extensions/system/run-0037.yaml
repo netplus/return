@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0037
+gift_events:
+- id: GIFT-0034
+  chapter: 175
+  node: NODE-0026
+  giver: 徐霄
+  recipient: 巫瓶儿
+  recipient_luck_grade: A
+  gift: 绝品驻颜丹
+  accepted: true
+  consumed_immediately: true
+  system_valid: true
+  triggered_multiplier: null
+  reward: null
+  status: partial
+  pending: [精确触发倍率, 返还奖励及数量]
+rule_updates:
+- {rule: 气运吸取返还, instance: 巫瓶儿吸取徐霄气运时系统继续执行返还, exact_multiplier: null, status: partial}

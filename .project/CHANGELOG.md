@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0037 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0028`; no completed task or canonical node was duplicated.
+- Extended the adaptive boundary through Chapter 184 so the arc includes both the nine thunder strikes and the resulting heavenly wash; Chapter 185 begins the demon-clan assault.
+- Created `NODE-0026`: 远古战场二次化神雷劫与重返仙途, covering Chapters 175—184.
+- Added `GIFT-0034`: an accepted absolute-grade appearance-preserving pill to 巫瓶儿; exact multiplier and reward remain `pending`.
+- Added 慕容龙城 (`CHAR-0035`) and recorded his pre-tribulation conflict with 徐霄 without inferring his final life status.
+- Updated 徐霄 to 化神境 after completing the second化神雷劫 despite nine sacrificial cultivators amplifying it.
+- Recorded major artifact attrition: only four divine swords remained from eleven principal artifacts after the tribulation.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0028` and queued `TASK-0029` beginning at Chapter 185.
+
 ## RUN-0036 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

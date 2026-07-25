@@ -1,0 +1,24 @@
+schema_version: 2
+run_id: RUN-0037
+task_id: TASK-0028
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 175
+  chapter_end: 184
+  node: NODE-0026
+  status: promoted
+  canonical_document: docs/01-timeline/node-0026.md
+  boundary_reason: 第184章完成天道洗礼与晋升化神；第185章转入妖族突然动手
+chapters:
+- {chapter: 175, title: 前往远古战场, facts: [巫瓶儿吸取徐霄气运, 徐霄赠送巫瓶儿绝品驻颜丹并被接受服用, 正式启程前往远古战场], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 176, title: 各方算计, facts: [萧慕河、宇文浩等策划以多名元婴巅峰修士叠加雷劫, 魔道准备九名可引动雷劫的修士], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 177, title: 段红绫的心意, facts: [众人抵达东海之滨远古战场, 远古战场大道之力强烈, 段红绫说明远古战场机缘与风险], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 178, title: 北风国太上皇，慕容龙城, facts: [正魔妖及散修齐聚观劫, 北风国太上皇慕容龙城登场并与徐霄发生冲突], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 179, title: 法宝之威, facts: [徐霄以捆龙绳束缚慕容龙城, 三光神水侵蚀其肉身神魂, 四柄神剑进一步压制], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 180, title: 连扛天雷, facts: [二次化神雷劫正式开始, 紫色天雷威力超过普通炼虚雷劫观感, 徐霄以法宝连续抵挡], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 181, title: 越发强大的天雷, facts: [魔道开始投入受控制的元婴巅峰修士叠加雷劫, 第三道雷劫因多人渡劫显著增强], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 182, title: 魔宗孤注一掷, facts: [魔道继续投入多名元婴巅峰修士, 雷劫数量与威力继续升级, 正魔妖各方围绕徐霄生死形成对立], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 183, title: 渡过雷劫, facts: [雷劫达到九道, 净玉瓶与九火琉璃罩等法宝在抵雷中损毁, 须臾五极山用于抵挡后续天雷, 徐霄成功渡过雷劫], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+- {chapter: 184, title: 惊天帅容, facts: [天道规则转为洗礼并认可徐霄重返仙途, 徐霄正式由元婴晋升化神, 十一件主要法宝渡劫后仅余四柄神剑], official_catalog: true, readable_mirrors: [小说之家, CP小说网], status: partial}
+boundary_check: {next_chapter: 185, next_title: 妖族突然动手, transition: 转入渡劫后妖族突袭与多方炼虚介入}
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}

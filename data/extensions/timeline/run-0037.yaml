@@ -1,0 +1,21 @@
+schema_version: 1
+run_id: RUN-0037
+nodes:
+- id: NODE-0026
+  title: 远古战场二次化神雷劫与重返仙途
+  chapters: {start: 175, end: 184}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第175—185章标题、顺序和边界；第175—184章正文由可访问镜像交叉核验
+  boundary_reason: 第184章完成九道二次化神雷劫、天道洗礼与晋升化神；第185章转入妖族突然动手
+  characters: [徐霄, 巫瓶儿, 段红绫, 水柔, 萧慕河, 宇文浩, 慕容龙城, 诸葛无方, 妙玉, 魇女]
+  system_events:
+  - {gift_id: GIFT-0034, recipient: 巫瓶儿, gift: 绝品驻颜丹, reward: null, triggered_multiplier: null, status: partial}
+  - {event: 巫瓶儿吸取徐霄气运后触发系统返还, multiplier: null, status: partial}
+  conflict_events:
+  - {event: 慕容龙城在渡劫前与徐霄冲突, result: 徐霄以捆龙绳、三光神水和四柄神剑将其压制, status: partial}
+  - {event: 魔道安排九名元婴巅峰修士同时引动雷劫, result: 雷劫被强化为九道，徐霄仍成功渡过, status: partial}
+  protagonist_state: {realm_start: 元婴九重, realm_end: 化神境, tribulation_result: 成功渡过第二次化神雷劫并接受天道洗礼, artifact_attrition: 十一件主要法宝仅余四柄神剑，防御、治疗与控制类法宝大幅损毁, status: partial}
+  pending: [GIFT-0034精确返还倍率与奖励, 慕容龙城最终生死, 雷劫中全部损毁法宝逐件对应关系]
+  document: docs/01-timeline/node-0026.md
+  evidence: sources/evidence/chapters-175-184.yaml
