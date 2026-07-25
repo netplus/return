@@ -1,0 +1,39 @@
+schema_version: 2
+run_id: RUN-0047
+task_id: TASK-0038
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 260
+  chapter_end: 273
+  node: NODE-0036
+  status: promoted
+  canonical_document: docs/01-timeline/node-0036.md
+  boundary_reason: 第273章完成内门大比冠军决出与奖励结算；第274章转入传承坦白和天阵阁内部后续
+chapters:
+- {chapter: 260, title: 大比开始, facts: [无妄仙宗内门大比开启, 各阁核心弟子与长老到场], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 261, title: 接连失利, facts: [天阵阁前三名弟子首轮遭遇强敌, 徐霄被普遍视为炼虚一重陪跑者], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 262, title: 牛刀小试, facts: [程双以两件法宝和五行阵法击败炼虚六重对手, 徐霄资源支持形成实战价值], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 263, title: 心态转变的程芷, facts: [徐霄击败崔一凡并展现炼虚后期以上战力, 程芷与第一婵重新评价其能力], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 264, title: 又装到了, facts: [徐霄继续晋级并扩大宗门声望, 天阵阁大比表现显著改善], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 265, title: 一顿暴打, facts: [徐霄晋级十五强, 第一婵计划未来传其天阵阁首座之位, 剑辰等夺冠热门进入十五强], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 266, title: 魇女到来，众人破防, facts: [魇女到天阵阁与徐霄重聚, 魇女以新结识道侣身份公开进入无妄仙宗关系网], official_catalog: true, readable_mirrors: [CP小说网, 思兔阅读], status: partial}
+- {chapter: 267, title: 林婉的天大机缘, facts: [决赛日开始, 林婉与徐霄在十五强阶段交手], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 268, title: 大家又懵逼了, facts: [林婉主动假借灵力逆流接触徐霄, 林婉窃取一点气运时系统返还十点, 林婉主动认输], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 269, title: 通天神针之威, facts: [内门大比八强形成, 徐霄进入八进四阶段, 通天神针开始用于对付炼虚巅峰对手], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 270, title: 一招败敌, facts: [通天神针两息内击伤唐天霸, 徐霄以捆龙绳和神剑结束战斗], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 271, title: 大家心态逐渐崩溃, facts: [通天神针突破天昊多件法宝防御, 徐霄晋级决赛, 宗门长老判断其隐蔽攻击手段可能是灵宝], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 272, title: 剑丸, facts: [徐霄与剑辰决赛, 九天神龙甲抵挡人剑合一与七剑法宝, 剑辰准备动用先天剑丸], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 273, title: 奖励，护心龙镜, facts: [天剑阁首座为保护剑辰先天剑丸代为认输, 徐霄夺得内门大比冠军并成为百年内门大师兄, 徐霄获得护心龙镜奖励], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 274
+  next_title: 坦白传承
+  transition: 转入徐霄传承来源坦白、天阵阁内部认知和宗门后续处置
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

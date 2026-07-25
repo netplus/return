@@ -1,0 +1,14 @@
+schema_version: 1
+run_id: RUN-0047
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [林婉]
+    rule_instances_add:
+    - trigger: 林婉窃取一点气运
+      effect: 徐霄获得十点气运返还
+      chapter: 268
+      status: partial
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [268]
