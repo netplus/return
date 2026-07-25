@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 25
+  extension_files: 26
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -607,6 +607,11 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0031
+  - NODE-0039
+  combat_record: 第292章用于解除血林沼泽合体九重修士伏击
+  consumption_status: pending
+  source_chapters:
+  - 292
 - id: ART-0033
   name: 嗜血天魔刀
   category: 灵宝魔器
@@ -621,13 +626,18 @@ artifacts:
   combat_record:
   - 第240—241章迎战黄龙飞三人，摧毁七星剑阵及多件法宝
   - 第242章确认已吸收两名炼虚修士气血并增强
+  - 第289—290章斩杀三棵合体血藤树并吸收其血气
   status: partial
   related_nodes:
   - NODE-0033
+  - NODE-0039
   source_chapters:
   - 240
   - 241
   - 242
+  - 289
+  - 290
+  growth_change: 吸收合体血藤树血气后猩红威能进一步增强
 - id: ART-0034
   name: 蕴仙丹
   category: 丹药
@@ -659,3 +669,14 @@ artifacts:
   communication_target: 玉冰
   source_chapters:
   - 279
+- id: ART-0036
+  name: 玄天艮土剑
+  category: 灵宝神剑
+  grade: 灵宝
+  first_chapter: 293
+  current_holder: 徐霄
+  acquisition: GIFT-0049返还
+  effect: 土属性灵宝神剑；与既有灵宝神剑共同补齐五行体系，完整能力待后续确认
+  status: partial
+  related_nodes:
+  - NODE-0039

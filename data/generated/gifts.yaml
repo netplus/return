@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 20
+  extension_files: 21
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -717,4 +717,15 @@ gifts:
   triggered_multiplier: 1000
   reward: 鸿蒙一气丹
   relationship_result: 建立长期资源和情感关系
+  status: partial
+- id: GIFT-0049
+  chapter: 293
+  node: NODE-0039
+  giver: 徐霄
+  recipient: 第一婵
+  gift: 缴获的法宝神剑
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 灵宝玄天艮土剑
   status: partial

@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 26
+  extension_files: 27
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -101,6 +101,7 @@ characters:
   - NODE-0036
   - NODE-0037
   - NODE-0038
+  - NODE-0039
   source_chapters:
   - 1
   - 2
@@ -353,6 +354,14 @@ characters:
   - 285
   - 286
   - 287
+  - 288
+  - 289
+  - 290
+  - 291
+  - 292
+  - 293
+  - 294
+  - 295
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -406,6 +415,8 @@ characters:
   - 以嗜血天魔刀击碎黄龙飞七星剑阵及多件法宝，并使魔刀吸收两名炼虚修士气血
   - 内门大比中以通天神针击败唐天霸、天昊，并以九天神龙甲压制剑辰人剑合一与七剑法宝
   - 以合体九重混沌极冰符摧毁玉石宗伏杀阵营并完成宗门外勤清算
+  - 在血林沼泽以嗜血天魔刀斩杀三棵合体血藤树并持续吸收血气
+  - 以混沌神雷符解除合体九重修士伏击，并参与完成黑风与血气灵宝争夺
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -416,6 +427,8 @@ characters:
   - 鸿蒙一气丹
   - 天凤神元丹
   - 灵宝三光分水剑
+  - 玄天艮土剑
+  - 黑风所持血气灵宝（名称pending）
   ability:
   - 金之大道·锋锐
   system_progress: 法宝返还库最高可返还灵宝
@@ -439,6 +452,9 @@ characters:
   hongmeng_qi_strands: 8
   accepted_return: GIFT-0048返还的鸿蒙一气丹
   condition_change: 天龙天凤血脉与长期服用神丹使噬骨销魂散失效
+  enemy_relation:
+  - 黑风
+  - 萧慕河与血云魔尊（天元大陆重逢）
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -985,6 +1001,7 @@ characters:
   - NODE-0010
   - NODE-0019
   - NODE-0033
+  - NODE-0039
   source_chapters:
   - 43
   - 44
@@ -1002,6 +1019,9 @@ characters:
   - 127
   - 241
   - 242
+  - 293
+  - 294
+  - 295
   verification_status: partial
   latest_conflict:
     chapter_range: 241-242
@@ -1011,6 +1031,8 @@ characters:
   possible_external_affiliation:
     value: 弑天血宗
     status: inferred
+  current_action: 与血云魔尊出现在血林沼泽灵宝争夺现场，确认徐霄已抵达天元大陆后继续逃离
+  conflict_change: 与徐霄在天元大陆重新形成明确敌对追踪线
 - id: CHAR-0015
   name: 水月
   status: alive
@@ -2371,6 +2393,7 @@ characters:
   - NODE-0035
   - NODE-0036
   - NODE-0037
+  - NODE-0039
   source_chapters:
   - 250
   - 251
@@ -2384,13 +2407,23 @@ characters:
   - 276
   - 277
   - 280
+  - 288
+  - 291
+  - 292
+  - 293
+  - 294
+  - 295
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0047
-  relationship_change: 接受合道丹后认可徐霄与程双的长期道侣关系
+  - GIFT-0049
+  relationship_change:
+  - 接受合道丹后认可徐霄与程双的长期道侣关系
+  - 在血林沼泽争夺中进一步确认徐霄的合体巅峰符箓和多灵宝底牌，并形成更深的师徒资源合作
   disciple_evaluation_change: 确认徐霄是天阵阁历来最出众弟子并计划未来传其首座之位
   evaluation_change: 得知徐霄与程芷关系后重新评估其长期行为，但因资源与弟子机缘未直接切断关系
+  combat_record: 使用多枚合体阵盘应对血林沼泽伏击并参与追杀黑风
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -2411,19 +2444,31 @@ characters:
   - NODE-0034
   - NODE-0035
   - NODE-0037
+  - NODE-0039
   source_chapters:
   - 252
   - 253
   - 256
   - 275
   - 276
+  - 288
+  - 289
+  - 290
+  - 291
+  - 292
+  - 293
+  - 294
+  - 295
   document: null
   verification_status: partial
   accepted_resources:
   - 五枚虚天丹
   - 每年三枚极品灵石
-  relationship_change: 与徐霄形成稳定同门互助关系
+  relationship_change:
+  - 与徐霄形成稳定同门互助关系
+  - 对徐霄真实底牌与第一婵资源关系的认知继续升级
   relationship_context: 发现徐霄与程芷关系后接受保密，并继续维持天阵阁师兄弟关系
+  role_change: 驾驶天阵阁木舟完成银鳞城至血林沼泽追击及争夺后的脱离
 - id: CHAR-0051
   name: 程芷
   status: alive
@@ -2624,5 +2669,44 @@ characters:
   - 283
   - 284
   - 287
+  document: null
+  verification_status: partial
+- id: CHAR-0056
+  name: 黑风
+  status: dead
+  role: antagonist
+  affiliations:
+  - 黑魔宗
+  - 银鳞城
+  identities:
+  - 黑魔宗掌门
+  - 银鳞城城主
+  - 气运之敌
+  first_appearance:
+    chapter: 288
+    title: 赶到银鳞城
+    node: NODE-0039
+  cultivation:
+    current: 合体七重
+    status: partial
+  crimes:
+    event: 以银鳞城百万生灵炼制血气灵宝
+    status: partial
+  system_task:
+    target: 击杀黑风
+    reward: 下一次赠送灵宝突破限制并返还先天灵宝
+    completion_confirmation_chapter: 296
+    status: partial
+  conflict:
+    target: 徐霄、第一婵与西岚域三大仙宗追击者
+    result: 血林沼泽灵宝争夺尾声死亡，血气灵宝被徐霄一方取得
+    status: partial
+  related_nodes:
+  - NODE-0039
+  source_chapters:
+  - 288
+  - 289
+  - 294
+  - 295
   document: null
   verification_status: partial
