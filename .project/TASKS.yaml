@@ -65,7 +65,17 @@ tasks:
 - id: TASK-0035
   title: Build the 凤青玄借体与远古战场脱困 story arc from Chapter 236 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 236, provisional_chapter_end: 243, node: NODE-0033, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0044
+  target: {chapter_start: 236, chapter_end: 243, node: NODE-0033, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0033.md, data/extensions/timeline/run-0044.yaml, data/extensions/characters/run-0044.yaml, data/extensions/artifacts/run-0044.yaml, sources/evidence/chapters-236-243.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0034]
+- id: TASK-0036
+  title: Build the 新气运之子与初到天元大陆 story arc from Chapter 244 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 244, provisional_chapter_end: 251, node: NODE-0034, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0035]
