@@ -1,0 +1,63 @@
+schema_version: 1
+run_id: RUN-0046
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 晋升炼虚一重
+    age_set: {value: 1016, status: partial}
+    lifespan_set: {remaining_years: 3293, status: partial}
+    hongmeng_qi_set: 7
+    dao_comprehension_add: [金之大道·金刚, 金之大道·粉碎]
+    array_ability_add: 可制作炼虚初级五行阵盘并在十息内现场布阵
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [253, 254, 255, 256, 257, 258, 259]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    accepted_gifts_add: [GIFT-0047]
+    relationship_change: 接受合道丹后认可徐霄与程双的长期道侣关系
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [257, 259]
+- id: CHAR-0050
+  name: 秦朋
+  update:
+    accepted_resources_add: [五枚虚天丹, 每年三枚极品灵石]
+    relationship_change: 与徐霄形成稳定同门互助关系
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [253, 256]
+- id: CHAR-0051
+  name: 程芷
+  update:
+    accepted_gifts_add: [GIFT-0045]
+    relationship_change: 对徐霄的态度由排斥转为有条件认可，并继续保护程双利益
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [253, 255, 256, 259]
+- id: CHAR-0052
+  name: 程双
+  update:
+    bond_level_set: 2
+    accepted_gifts_add: [GIFT-0044]
+    relationship_change: 与徐霄正式结为道侣并获得持续修炼资源承诺
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [253, 254, 255, 256, 257, 258, 259]
+- id: CHAR-0038
+  name: 花怜惜
+  update:
+    accepted_gifts_add: [GIFT-0046]
+    relationship_change: 与程双建立可持续共处关系，并继续获得徐霄长期资源支持
+    related_nodes_add: [NODE-0035]
+    source_chapters_add: [258, 259]
+- id: CHAR-0053
+  name: 林婉
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 天运阁]
+  identities: [天运阁大师姐]
+  first_appearance: {chapter: 259, title: 天运阁大师姐，林婉, node: NODE-0035}
+  cultivation: {current: pending, status: pending}
+  system_profile: {luck_grade: pending, base_multiplier: pending, bond: pending, status: pending}
+  related_nodes: [NODE-0035]
+  source_chapters: [259]
+  document: null
+  verification_status: partial
