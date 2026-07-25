@@ -1,0 +1,58 @@
+name: Compact Base Indexes
+
+on:
+  schedule:
+    - cron: '23 4 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: canonical-index-maintenance
+  cancel-in-progress: false
+
+jobs:
+  compact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install compaction dependency
+        run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
+
+      - name: Validate before compaction
+        run: python scripts/knowledge_base.py validate
+
+      - name: Compact extensions into base indexes
+        run: python scripts/knowledge_base.py compact
+
+      - name: Validate compacted indexes
+        run: |
+          python scripts/knowledge_base.py validate
+          git diff --check
+
+      - name: Commit compacted base indexes
+        shell: bash
+        run: |
+          if git diff --quiet -- data/timeline/nodes.yaml data/characters/characters.yaml data/system/gifts.yaml data/artifacts/artifacts.yaml; then
+            echo 'Base indexes are already compacted.'
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/timeline/nodes.yaml data/characters/characters.yaml data/system/gifts.yaml data/artifacts/artifacts.yaml
+          git commit -m 'chore(data): compact canonical base indexes'
+
+          if ! git push origin HEAD:main; then
+            echo '::warning::main advanced during compaction; the next scheduled run will retry.'
+          fi
