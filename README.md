@@ -54,7 +54,7 @@ python scripts/knowledge_base.py build
 python scripts/knowledge_base.py validate --generated-dir data/generated
 ```
 
-`Knowledge Base CI` 会检查 YAML、全局 ID、跨索引引用、Timeline 区间及 Project OS 统计，并在 `main` 更新后刷新 `data/generated/`。`Compact Base Indexes` 每周将扩展安全合并回基础索引；扩展文件继续保留为增量审计记录。
+`Knowledge Base CI` 会检查 YAML、全局 ID、跨索引引用、Timeline 区间及 Project OS 统计，并在 `main` 更新后刷新 `data/generated/`。任何改变 canonical data 的 `main` 提交都会触发这一重建流程。`Compact Base Indexes` 每周将扩展安全合并回基础索引；扩展文件继续保留为增量审计记录。
 
 ## 核验状态
 
