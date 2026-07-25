@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 19
+  extension_files: 20
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -92,6 +92,7 @@ characters:
   - NODE-0029
   - NODE-0030
   - NODE-0031
+  - NODE-0032
   source_chapters:
   - 1
   - 2
@@ -286,6 +287,14 @@ characters:
   - 224
   - 225
   - 226
+  - 227
+  - 228
+  - 230
+  - 231
+  - 232
+  - 233
+  - 234
+  - 235
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -333,6 +342,7 @@ characters:
   - 联合狐族破解通天神棍阵并击杀猿洪
   - 以三光分水剑清剿外扩尸灵，并在三族伏击中击杀虎奔、狼烈与蛇大同
   - 以三光分水剑主导碎石谷与黑锋山清剿并推动三处据点反攻
+  - 黑锋山首轮尸潮战中独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -349,6 +359,8 @@ characters:
   role_change:
   - 远古战场传送门关闭后成为缥缈宗驻地核心战力
   - 成为联合前线主要攻坚者并提出深入战场西部调查
+  - 以赠送三光分水剑化解凤青玄的现场杀戮并争取到开启出口承诺
+  body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -378,12 +390,14 @@ characters:
   - NODE-0001
   - NODE-0002
   - NODE-0031
+  - NODE-0032
   source_chapters:
   - 1
   - 2
   - 219
+  - 229
   verification_status: verified
-  status_change: 提前结束闭关并参与远古战场外部响应
+  status_change: 与外界大修确认暂时无法重开大道神碑传送门，只能等待场内破局
   relationship_change: 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
 - id: CHAR-0003
   name: 独孤灵
@@ -431,6 +445,7 @@ characters:
   - NODE-0008
   - NODE-0009
   - NODE-0031
+  - NODE-0032
   source_chapters:
   - 1
   - 2
@@ -443,10 +458,12 @@ characters:
   - 40
   - 41
   - 219
+  - 229
   verification_status: partial
   realm: 炼虚境
   condition_change: 已完成炼虚突破并结束闭关
   relationship_change: 因徐霄被困远古战场而明显担忧，但继续受到师门约束
+  status_change: 在外界等待远古战场出口恢复，并因徐霄与多名女修关系进一步担忧和愤怒
 - id: CHAR-0004
   name: 陆大年
   status: alive
@@ -1331,7 +1348,7 @@ characters:
     current: 炼虚境
     status: partial
   system_classification:
-    value: 未被识别为气运之女
+    value: 气运之女
     status: partial
   accepted_gifts:
   - GIFT-0028
@@ -1340,6 +1357,7 @@ characters:
   related_nodes:
   - NODE-0019
   - NODE-0024
+  - NODE-0032
   source_chapters:
   - 117
   - 118
@@ -1349,8 +1367,26 @@ characters:
   - 161
   - 162
   - 166
+  - 227
+  - 228
+  - 230
+  - 231
+  - 232
+  - 233
   verification_status: partial
   major_action: 以三具炼虚游尸参与制衡并形成围绕徐霄渡劫的新谋划
+  luck_grade:
+    value: pending
+    status: pending
+  base_return_multiplier:
+    value: pending
+    status: pending
+  relationship_change: 与徐霄确认长期道侣关系
+  controlled_corpses:
+    total: 27
+    refining_virtual_level: 3
+    source: 历任道侣遗体
+    status: partial
 - id: CHAR-0026
   name: 慕容云河
   status: dead
@@ -1995,5 +2031,47 @@ characters:
     value: pending
     status: pending
   current_action: 与姬雪、独孤灵在外界关注远古战场传送门关闭
+  document: null
+  verification_status: partial
+- id: CHAR-0045
+  name: 凤青玄
+  status: alive
+  role: major_supporting_antagonistic
+  affiliations:
+  - 无妄仙宗
+  - 山海碑
+  identities:
+  - SSS级气运之女
+  - 远古战场尸灵统领
+  - 无妄仙宗相关强者
+  first_appearance:
+    chapter: 233
+    title: sss级气运之女
+    node: NODE-0032
+  cultivation:
+    current: 至少合体层级
+    status: partial
+  luck_grade:
+    value: SSS
+    base_multiplier: pending
+    status: partial
+  history:
+    sleep_duration: 约二十万年
+    lost_artifacts: true
+    status: partial
+  accepted_gifts:
+  - GIFT-0043
+  current_artifacts:
+  - 三光分水剑
+  relationship_context:
+    徐霄: 接受其灵宝后停止现场杀戮，承诺之后开启出口并要求徐霄同行
+    妙玉: 第235章开始关注，后续具体安排从第236章展开
+    status: partial
+  related_nodes:
+  - NODE-0032
+  source_chapters:
+  - 233
+  - 234
+  - 235
   document: null
   verification_status: partial
