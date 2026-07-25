@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 22
+  extension_files: 23
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -617,3 +617,18 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0035
+- id: ART-0035
+  name: 护心龙镜
+  category: 法宝
+  grade:
+    value: pending
+    status: pending
+  first_chapter: 273
+  current_holder: 徐霄
+  acquisition: 无妄仙宗内门大比冠军奖励
+  effect:
+    value: pending
+    status: pending
+  status: partial
+  related_nodes:
+  - NODE-0036

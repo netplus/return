@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 24
+  extension_files: 25
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1349,3 +1349,50 @@ nodes:
   - 丹药返还库精确上限
   document: docs/01-timeline/node-0035.md
   evidence: sources/evidence/chapters-253-259.yaml
+- id: NODE-0036
+  title: 无妄仙宗内门大比与大师兄易主
+  chapters:
+    start: 260
+    end: 273
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第260—274章标题顺序和边界；第260—273章正文由可访问镜像交叉核验
+  boundary_reason: 第273章完成内门大比冠军决出与护心龙镜奖励；第274章转入传承坦白和天阵阁内部后续
+  characters:
+  - 徐霄
+  - 第一婵
+  - 秦朋
+  - 程芷
+  - 程双
+  - 魇女
+  - 林婉
+  - 叶尘
+  - 剑辰
+  - 唐天霸
+  - 天昊
+  system_events:
+  - event: 林婉气运返还实例
+    trigger: 林婉窃取一点气运
+    reward: 徐霄获得十点气运
+    chapter: 268
+    status: partial
+  conflict_events:
+  - event: 无妄仙宗内门大比
+    result: 徐霄击败多名炼虚巅峰弟子并成为未来百年的内门大师兄
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    title_change: 无妄仙宗内门大师兄
+    confirmed_combat_resources:
+    - 通天神针
+    - 九天神龙甲
+    - 三柄法宝神剑
+    - 捆龙绳
+    status: partial
+  pending:
+  - 林婉完整气运面板
+  - 护心龙镜完整能力
+  - 剑辰先天剑丸最终状态
+  - 内门大比完整名次与奖励清单
+  document: docs/01-timeline/node-0036.md
+  evidence: sources/evidence/chapters-260-273.yaml

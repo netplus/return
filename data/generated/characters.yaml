@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 23
+  extension_files: 24
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -98,6 +98,7 @@ characters:
   - NODE-0033
   - NODE-0034
   - NODE-0035
+  - NODE-0036
   source_chapters:
   - 1
   - 2
@@ -322,6 +323,20 @@ characters:
   - 257
   - 258
   - 259
+  - 260
+  - 261
+  - 262
+  - 263
+  - 264
+  - 265
+  - 266
+  - 267
+  - 268
+  - 269
+  - 270
+  - 271
+  - 272
+  - 273
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -371,6 +386,7 @@ characters:
   - 以三光分水剑主导碎石谷与黑锋山清剿并推动三处据点反攻
   - 黑锋山首轮尸潮战中独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝
   - 以嗜血天魔刀击碎黄龙飞七星剑阵及多件法宝，并使魔刀吸收两名炼虚修士气血
+  - 内门大比中以通天神针击败唐天霸、天昊，并以九天神龙甲压制剑辰人剑合一与七剑法宝
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -390,11 +406,13 @@ characters:
   - 以赠送三光分水剑化解凤青玄的现场杀戮并争取到开启出口承诺
   - 公开确立为盘龙大陆最强战力之一，并开始直接面对天元大陆势力
   - 建立盘龙岛修士在天元大陆无妄仙宗的长期落脚点
+  - 成为未来百年的无妄仙宗内门弟子第一人
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
   hongmeng_qi: 7
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
+  title: 无妄仙宗内门大师兄
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -1424,6 +1442,7 @@ characters:
   - NODE-0024
   - NODE-0032
   - NODE-0034
+  - NODE-0036
   source_chapters:
   - 117
   - 118
@@ -1440,6 +1459,8 @@ characters:
   - 232
   - 233
   - 248
+  - 266
+  - 267
   verification_status: partial
   major_action: 以三具炼虚游尸参与制衡并形成围绕徐霄渡劫的新谋划
   luck_grade:
@@ -1457,6 +1478,7 @@ characters:
   cultivation_change: 炼虚九重
   constitution: 先天阴体
   affiliation: 无妄仙宗先遣参选者
+  public_relationship_change: 以徐霄新结识道侣身份公开进入无妄仙宗天阵阁关系网
 - id: CHAR-0026
   name: 慕容云河
   status: dead
@@ -2291,17 +2313,23 @@ characters:
   related_nodes:
   - NODE-0034
   - NODE-0035
+  - NODE-0036
   source_chapters:
   - 250
   - 251
   - 252
   - 257
   - 259
+  - 263
+  - 265
+  - 266
+  - 273
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0047
   relationship_change: 接受合道丹后认可徐霄与程双的长期道侣关系
+  disciple_evaluation_change: 确认徐霄是天阵阁历来最出众弟子并计划未来传其首座之位
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -2350,17 +2378,23 @@ characters:
   related_nodes:
   - NODE-0034
   - NODE-0035
+  - NODE-0036
   source_chapters:
   - 252
   - 253
   - 255
   - 256
   - 259
+  - 261
+  - 263
+  - 264
+  - 265
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0045
   relationship_change: 对徐霄的态度由排斥转为有条件认可，并继续保护程双利益
+  attitude_change: 由轻视和复杂情绪转为承认徐霄远超炼虚初期的实力与长期价值
 - id: CHAR-0052
   name: 程双
   status: alive
@@ -2380,6 +2414,7 @@ characters:
   related_nodes:
   - NODE-0034
   - NODE-0035
+  - NODE-0036
   source_chapters:
   - 252
   - 253
@@ -2389,12 +2424,17 @@ characters:
   - 257
   - 258
   - 259
+  - 261
+  - 262
+  - 266
+  - 267
   document: null
   verification_status: partial
   bond_level: 2
   accepted_gifts:
   - GIFT-0044
   relationship_change: 与徐霄正式结为道侣并获得持续修炼资源承诺
+  combat_record: 依靠徐霄赠送的两件法宝与五行阵法击败炼虚六重对手
 - id: CHAR-0053
   name: 林婉
   status: alive
@@ -2409,8 +2449,8 @@ characters:
     title: 天运阁大师姐，林婉
     node: NODE-0035
   cultivation:
-    current: pending
-    status: pending
+    current: 炼虚巅峰
+    status: partial
   system_profile:
     luck_grade: pending
     base_multiplier: pending
@@ -2418,7 +2458,55 @@ characters:
     status: pending
   related_nodes:
   - NODE-0035
+  - NODE-0036
   source_chapters:
   - 259
+  - 267
+  - 268
+  - 269
+  document: null
+  verification_status: partial
+  system_interaction:
+  - trigger: 窃取徐霄一点气运
+    return_to_xuxiao: 十点气运
+    chapter: 268
+    status: partial
+  relationship_change: 主动借内门大比接触徐霄并建立持续气运互动
+- id: CHAR-0054
+  name: 剑辰
+  status: alive
+  role: rival
+  affiliations:
+  - 无妄仙宗
+  - 天剑阁
+  identities:
+  - 上届内门大师兄
+  - 天剑阁核心弟子
+  - 先天剑体
+  first_appearance:
+    chapter: 265
+    title: 一顿暴打
+    node: NODE-0036
+  cultivation:
+    current: 炼虚巅峰
+    status: partial
+  abilities:
+  - 人剑合一
+  - 七剑法宝
+  - 先天剑丸
+  conflict:
+    target: 徐霄
+    result: 决赛中由天剑阁首座代为认输并失去内门大师兄头衔
+    status: partial
+  related_nodes:
+  - NODE-0036
+  source_chapters:
+  - 265
+  - 266
+  - 267
+  - 269
+  - 271
+  - 272
+  - 273
   document: null
   verification_status: partial
