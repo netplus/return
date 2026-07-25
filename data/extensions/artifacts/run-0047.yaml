@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-0047
+artifacts:
+- id: ART-0035
+  name: 护心龙镜
+  category: 法宝
+  grade: {value: pending, status: pending}
+  first_chapter: 273
+  current_holder: 徐霄
+  acquisition: 无妄仙宗内门大比冠军奖励
+  effect: {value: pending, status: pending}
+  status: partial
+  related_nodes: [NODE-0036]
+artifact_updates:
+- name: 通天神针
+  update:
+    effect_add: [速度与穿透突出, 可在两息内完成隐蔽攻击与回收]
+    combat_record_add: 第269—271章先后击伤并击败唐天霸、天昊
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [269, 270, 271]
+- name: 九天神龙甲
+  update:
+    combat_record_add: 第272—273章以七股鸿蒙真气驱动，抵挡剑辰人剑合一与七剑法宝联合攻击
+    related_nodes_add: [NODE-0036]
+    source_chapters_add: [272, 273]
