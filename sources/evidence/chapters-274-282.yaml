@@ -1,0 +1,79 @@
+schema_version: 2
+run_id: RUN-0048
+task_id: TASK-0039
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 274
+  chapter_end: 282
+  node: NODE-0037
+  status: promoted
+  canonical_document: docs/01-timeline/node-0037.md
+  boundary_reason: 第282章完成林婉关系曝光、反徐联盟升级及徐霄离宗转场；第283章转入玉石宗外勤冲突
+chapters:
+- chapter: 274
+  title: 坦白传承
+  facts: [徐霄以获得缥缈仙宗道元真人部分传承解释大量灵宝法宝来源, 无妄仙宗高层接受解释并将传承信息列为宗门机密]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 275
+  title: 彻底懵逼的秦朋
+  facts: [程芷主动感谢徐霄此前赠送的五枚虚天丹, 秦朋发现徐霄与程芷的长期关系]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 276
+  title: 第一婵想多了
+  facts: [秦朋接受保密并继续维持师兄弟关系, 第一婵得知程芷与徐霄关系后重新评估徐霄行为]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 277
+  title: 众人告发举报
+  facts: [叶尘联合唐天霸莫一剑等反对弟子策划集体告发, 目标是推动玉冰惩处徐霄并限制其大师兄身份]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 278
+  title: 惊呆的玉冰
+  facts: [玉冰以宗门风气问题召见徐霄并提出长期禁闭威胁, 玉冰转而要求徐霄提供天龙血作为将功赎罪条件]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 279
+  title: 出师姬雪
+  facts: [玉冰取得徐霄天龙血, 玉冰在护心龙镜刻入可直接联系自己的传讯阵, 姬雪继续劝徐霄收敛行为]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 280
+  title: 林婉的心思
+  facts: [徐霄返回天阵阁且未被立即执行禁闭, 叶尘继续扩大反徐联盟, 林婉开始主动接近徐霄]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 281
+  title: 灵航真人
+  facts: [徐霄向林婉赠送五枚虚天丹, 首次赠送触发千倍暴击并返还鸿蒙一气丹, 徐霄承诺长期提供林婉修炼资源]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 282
+  title: 长老们的认知
+  facts: [徐霄服用鸿蒙一气丹后鸿蒙真气增至八股, 林婉与徐霄关系在宗门传播, 叶尘组织的反徐联盟进一步扩大, 徐霄离宗返回青山域]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 283
+  next_title: 玉石宗事变
+  transition: 转入无妄仙宗外门弟子被扣与玉石宗交涉冲突
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

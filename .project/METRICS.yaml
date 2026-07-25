@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0047
+run_id: RUN-0048
 coverage:
-  chapters_covered_through: 273
-  chapters_promoted_in_run: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273]
-  timeline_nodes: 36
+  chapters_covered_through: 282
+  chapters_promoted_in_run: [274, 275, 276, 277, 278, 279, 280, 281, 282]
+  timeline_nodes: 37
   draft_nodes: 0
-  story_arc_nodes: 33
+  story_arc_nodes: 34
   characters_documented: 54
   characters_staged: 0
   system_records: 1
-  gift_events: 47
+  gift_events: 48
   artifact_records: 35
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274]
-    cross_checked_mirror_chapters: [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273]
-    pending_fields: [林婉完整气运等级羁绊度与累计窃取量, 护心龙镜完整品阶能力与炼化状态, 剑辰先天剑丸最终品阶与后续状态, 内门大比完整名次伤亡与奖励清单]
+    official_catalog_chapters: [274, 275, 276, 277, 278, 279, 280, 281, 282, 283]
+    cross_checked_mirror_chapters: [274, 275, 276, 277, 278, 279, 280, 281, 282]
+    pending_fields: [道元真人传承真实范围, 玉冰使用天龙血的完整目的与结果, 姬雪出师精确制度含义, 林婉完整气运等级羁绊度与累计窃取量, 灵航真人完整身份与本阶段行动, 叶尘反徐联盟完整成员]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第273章完成内门大比冠军决出与护心龙镜奖励；第274章转入传承坦白和天阵阁内部后续}
-  materiality: {status: passed, entity_updates: [NODE-0036, CHAR-0054剑辰, CHAR-0053林婉气运互动, 徐霄成为内门大师兄, ART-0035护心龙镜]}
+  arc_coherence: {status: passed, boundary: 第282章完成林婉关系曝光、叶尘反徐联盟升级及徐霄离宗转场；第283章转入玉石宗外勤冲突}
+  materiality: {status: passed, entity_updates: [NODE-0037, 徐霄道元传承解释与八股鸿蒙真气, 玉冰天龙血与护心龙镜传讯阵, 程芷关系公开化, 林婉长期资源关系, GIFT-0048]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0036.md, data/extensions/timeline/run-0047.yaml, data/extensions/characters/run-0047.yaml, data/extensions/system/run-0047.yaml, data/extensions/artifacts/run-0047.yaml]
+    files_checked: [docs/01-timeline/node-0037.md, data/extensions/timeline/run-0048.yaml, data/extensions/characters/run-0048.yaml, data/extensions/system/run-0048.yaml, data/extensions/artifacts/run-0048.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0047.yaml, data/extensions/characters/run-0047.yaml, data/extensions/system/run-0047.yaml, data/extensions/artifacts/run-0047.yaml, sources/evidence/chapters-260-273.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0048.yaml, data/extensions/characters/run-0048.yaml, data/extensions/system/run-0048.yaml, data/extensions/artifacts/run-0048.yaml, sources/evidence/chapters-274-282.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
