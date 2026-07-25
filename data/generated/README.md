@@ -17,4 +17,4 @@ python scripts/knowledge_base.py build
 python scripts/knowledge_base.py validate --generated-dir data/generated
 ```
 
-GitHub Actions 会在 `main` 更新后重新生成并提交这些文件。基础索引仍可通过定期 compaction 刷新，扩展文件作为不可变的增量审计记录继续保留。
+GitHub Actions 会在同仓库 PR、`main` 更新和每小时定时校验时重建这些文件；因此即使某类 App 提交没有触发 `push` 事件，定时校验也会进行自愈。基础索引仍通过定期 compaction 刷新，扩展文件作为不可变的增量审计记录继续保留。
