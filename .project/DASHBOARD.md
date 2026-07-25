@@ -4,25 +4,25 @@
 - **Current milestone:** M4 — Chapters 151–200
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 157
-- **Current evidence exploration through:** Chapter 158
+- **Canonical coverage through:** Chapter 166
+- **Current evidence exploration through:** Chapter 167
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 23
+- **Completed timeline nodes:** 24
 - **Draft timeline nodes:** 0
-- **Documented characters:** 31
-- **Gift events:** 32
+- **Documented characters:** 33
+- **Gift events:** 33
 - **Artifact records:** 25
-- **Last run:** `RUN-0034`
-- **Last completed node:** `NODE-0023`
-- **Next task:** `TASK-0026` — 八大妖族联合反应与炼虚来袭 story arc
-- **Provisional exploration range:** Chapters 158–165
+- **Last run:** `RUN-0035`
+- **Last completed node:** `NODE-0024`
+- **Next task:** `TASK-0027` — 段红绫报答与后续资源赠送 story arc
+- **Provisional exploration range:** Chapters 167–174
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0023` covers Chapters 153—157. 猿华以刘玲玲为诱饵布置通天神棍阵，徐霄使用玄天八卦阵保护刘玲玲，并以炼虚九重层级九天神雷符摧毁阵法，击杀猿华及八名猿族化神长老。刘玲玲获救后被安排前往缥缈宗、成为陆大年记名弟子；徐霄向她赠送十枚蕴金丹，消耗任务固定万倍暴击机会，返还三千大道丹并领悟净水之道。第 158 章转入八大妖族联合反应。
+`NODE-0024` covers Chapters 158—166. 猿华死亡引发八大妖族联合反应，猿洪、猿族元帅和虎奔以炼虚身份进入铁幕城追责。妙玉、魇女和诸葛无方形成炼虚层级制衡；徐霄以玄天八卦阵挡住炼虚一击，并交还通天如意棍使妖族暂退。返回驻地后，徐霄向木玉儿赠送六件法器，并公开准备再次冲击化神雷劫。第 167 章转入段红绫报答与新的资源赠送线。
 
-## Quality gates — RUN-0034
+## Quality gates — RUN-0035
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 153—158 章标题、顺序和边界；第 153—157 章正文事实由 CP 小说网、小说之家等可访问文本镜像交叉核验。第 153 章批量赠送的逐项事件、通天如意棍战后状态及水系三道合一结果继续保持 `pending`。
+番茄小说官方目录确认第 158—167 章标题、顺序和边界；第 158—166 章正文事实由 CP 小说网、小说之家等可访问文本镜像交叉核验。猿族元帅姓名、`GIFT-0032` 系统结算、徐霄精确当前境界和二次雷劫结果继续保持 `pending`。

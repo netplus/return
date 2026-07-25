@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0035
+nodes:
+- id: NODE-0024
+  title: 妖族炼虚来袭与二次雷劫宣言
+  chapters: {start: 158, end: 166}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第158—167章标题、顺序和边界；第158—166章正文由可访问镜像交叉核验
+  boundary_reason: 第166章完成妖族炼虚追责、通天如意棍归还、二次雷劫宣言及各方立场布局；第167章转入段红绫报答与资源赠送线
+  characters: [徐霄, 猿洪, 虎奔, 妙玉, 魇女, 诸葛无方, 木玉儿, 水柔]
+  system_events:
+  - {gift_id: GIFT-0032, recipient: 木玉儿, gift: 两件下品法器、两件中品法器、两件上品法器, settlement: pending, status: partial}
+  conflict_events:
+  - {event: 猿族与虎族三名炼虚修士进入铁幕城追责, result: 妙玉、魇女和诸葛无方制衡；徐霄交还通天如意棍，妖族暂退, status: partial}
+  - {event: 猿族元帅以炼虚攻击徐霄, result: 玄天八卦阵成功抵挡并反弹, status: partial}
+  protagonist_state: {public_plan: 准备再次冲击化神雷劫, artifact_update: 交还通天如意棍；玄天八卦阵新增炼虚防御实绩, status: partial}
+  pending: [猿族元帅正式姓名, GIFT-0032完整结算, 二次化神雷劫结果]
+  document: docs/01-timeline/node-0024.md
+  evidence: sources/evidence/chapters-158-166.yaml

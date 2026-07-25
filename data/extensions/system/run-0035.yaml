@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0035
+gifts:
+- id: GIFT-0032
+  chapter: 163
+  node: NODE-0024
+  giver: 徐霄
+  recipient: 木玉儿
+  gift: [两件下品法器, 两件中品法器, 两件上品法器]
+  accepted: true
+  system_valid: pending
+  triggered_multiplier: null
+  reward: null
+  status: partial
+system_updates:
+- subject: 万倍返还系统
+  update:
+    gift_range: GIFT-0001—GIFT-0032
+    pending_fields_add: [GIFT-0032的系统有效判定、精确倍率和完整返还清单]

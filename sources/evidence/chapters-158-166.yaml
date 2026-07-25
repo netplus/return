@@ -1,0 +1,24 @@
+schema_version: 2
+run_id: RUN-0035
+task_id: TASK-0026
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 158
+  chapter_end: 166
+  node: NODE-0024
+  status: promoted
+  canonical_document: docs/01-timeline/node-0024.md
+  boundary_reason: 第166章完成妖族炼虚追责、通天如意棍归还、二次雷劫宣言及各方立场布局；第167章转入段红绫报答与资源赠送线
+chapters:
+- {chapter: 158, title: 八大妖族, facts: [猿华死亡引发八大妖族联合讨论, 妖族将徐霄视为共同威胁], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 159, title: 妖族炼虚来袭, facts: [猿族与虎族炼虚修士进入铁幕城追责, 白九儿替身继续留在徐霄附近], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 160, title: 妙玉魇女出面, facts: [妙玉与魇女阻止妖族炼虚越界出手, 确认炼虚修士不得干预化神争斗的规则], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
+- {chapter: 161, title: 诸葛无方出场, facts: [玄天八卦阵挡住猿族元帅炼虚一击, 诸葛无方代表缥缈宗到场制衡], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 162, title: 天尸宗彻底破防, facts: [徐霄交还通天如意棍, 妖族炼虚修士暂退, 徐霄以虚天丹回报出面者], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
+- {chapter: 163, title: 爆炸消息, facts: [徐霄向木玉儿赠送六件不同品阶法器, 徐霄准备再次冲击化神雷劫], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
+- {chapter: 164, title: 魔道再次破防, facts: [二次化神雷劫消息传遍铁幕城和正魔宗门, 敌对人物关注渡劫计划], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+- {chapter: 165, title: 缥缈宗鼎立支持, facts: [缥缈宗与徐霄关系人公开支持渡劫, 水柔明确长期道侣立场], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
+- {chapter: 166, title: 魇女妙玉的如意算盘, facts: [妙玉和魇女评估渡劫成功可能, 各方围绕渡劫形成利益布局], official_catalog: true, readable_mirrors: [小说之家], status: partial}
+boundary_check: {next_chapter: 167, next_title: 段红绫的报答, transition: 转入段红绫报答、后续资源赠送与渡劫准备线}
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}
+pending: [猿族元帅正式姓名, GIFT-0032系统结算, 徐霄精确当前境界, 二次雷劫结果]

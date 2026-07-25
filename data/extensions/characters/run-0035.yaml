@@ -1,0 +1,40 @@
+schema_version: 1
+run_id: RUN-0035
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    major_conflict_add: 抵挡猿族元帅炼虚一击并在炼虚对峙中保住性命
+    public_plan_add: 准备再次冲击化神雷劫
+    artifact_changes_add: [交还通天如意棍, 玄天八卦阵确认可抵挡炼虚攻击]
+    related_nodes_add: [NODE-0024]
+    source_chapters_add: [158, 159, 160, 161, 162, 163, 164, 165, 166]
+- id: CHAR-0032
+  name: 猿洪
+  status: alive
+  role: antagonist
+  affiliations: [猿族, 八大妖族]
+  identities: [猿族族长, 猿华之父]
+  cultivation: {current: 炼虚境, status: partial}
+  first_appearance: {chapter: 158, node: NODE-0024}
+  conflict: {target: 徐霄, result: 铁幕城追责未果，取回通天如意棍后暂退, status: partial}
+  related_nodes: [NODE-0024]
+  source_chapters: [158, 159, 160, 161, 162]
+  verification_status: partial
+- id: CHAR-0033
+  name: 虎奔
+  status: alive
+  role: antagonist
+  affiliations: [虎族, 八大妖族]
+  identities: [虎族族长]
+  cultivation: {current: 炼虚境, status: partial}
+  first_appearance: {chapter: 159, node: NODE-0024}
+  conflict: {target: 徐霄, result: 参与铁幕城追责并在炼虚对峙后暂退, status: partial}
+  related_nodes: [NODE-0024]
+  source_chapters: [159, 160, 161, 162]
+  verification_status: partial
+- {id: CHAR-0024, name: 妙玉, update: {major_action_add: 与魇女共同阻止妖族炼虚修士越界杀死徐霄, related_nodes_add: [NODE-0024], source_chapters_add: [160, 161, 162, 166]}}
+- {id: CHAR-0025, name: 魇女, update: {major_action_add: 以三具炼虚游尸参与制衡并形成围绕徐霄渡劫的新谋划, related_nodes_add: [NODE-0024], source_chapters_add: [160, 161, 162, 166]}}
+- {id: CHAR-0012, name: 诸葛无方, update: {major_action_add: 代表缥缈宗保护徐霄并支持其尝试二次化神雷劫, related_nodes_add: [NODE-0024], source_chapters_add: [161, 162, 163, 165, 166]}}
+- {id: CHAR-0023, name: 木玉儿, update: {accepted_gifts_add: [GIFT-0032], relationship_change_add: 接受六件法器，长期资源支持关系继续加深, related_nodes_add: [NODE-0024], source_chapters_add: [163]}}
+- {id: CHAR-0020, name: 水柔, update: {relationship_change_add: 公开支持徐霄渡劫并确认长期道侣立场, related_nodes_add: [NODE-0024], source_chapters_add: [165]}}
