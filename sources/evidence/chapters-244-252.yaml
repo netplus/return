@@ -1,0 +1,79 @@
+schema_version: 2
+run_id: RUN-0045
+task_id: TASK-0036
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 244
+  chapter_end: 252
+  node: NODE-0034
+  status: promoted
+  canonical_document: docs/01-timeline/node-0034.md
+  boundary_reason: 第252章完成徐霄进入天阵阁及新师门成员引入；第253章转入持续赠送返还
+chapters:
+- chapter: 244
+  title: 新的气运之子
+  facts: [宇文浩与宇文良恭逃离盘龙岛, 系统识别叶尘为新的气运之子, 叶尘与徐霄形成长期潜在冲突]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 245
+  title: 初到天元大陆
+  facts: [盘龙岛三方组织炼虚先遣队前往天元大陆, 凤青玄与徐霄形成互助安排, 天元大陆成为新的长期发展目标]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 246
+  title: 仙门长老驾到
+  facts: [两年后徐霄修至化神九重巅峰, 徐霄持续往返盘龙岛, 先遣队参加无妄仙宗千年大招]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 247
+  title: 开始收徒
+  facts: [叶尘绑定一级收徒就变强系统, 一级系统被确认为最低等级规则系统, 叶尘收徒反馈会减慢徒弟修炼]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 248
+  title: 彻底懵逼的叶尘
+  facts: [徐霄提醒盘龙岛修士避免拜入叶尘门下, 魇女修为确认为炼虚九重且具先天阴体, 叶尘继续大量收徒]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 249
+  title: 众长老哄抢
+  facts: [姬雪修为炼虚九重, 姬雪具元灵圣体和极上资质, 多名内门长老争抢姬雪]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 250
+  title: 第一婵
+  facts: [玉冰收姬雪为首徒, 系统确认玉冰为SSS级气运之女且基础返还百倍羁绊度1, 徐霄开始选择师门]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 251
+  title: 返送拜师礼
+  facts: [徐霄拜合体七重阵法长老第一婵为师, 第一婵赠炼虚九重金光阵盘作为见面礼, 徐霄返送法宝但完整明细待核]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 252
+  title: 懵逼的师兄妹
+  facts: [徐霄正式进入天阵阁, 秦朋程芷程双作为师兄妹首次进入长期关系网, 叶尘完成本次大招的大量收徒]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 253
+  next_title: 再次赠送返还
+  transition: 转入天阵阁内部的连续资源赠送与关系发展
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
