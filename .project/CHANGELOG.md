@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0044 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0035`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 243; Chapter 244 begins the new luck-son and Tianyuan-continent line.
+- Created `NODE-0033`: 凤青玄借体、远古战场脱困与海外来敌, covering Chapters 236—243.
+- Updated 凤青玄 and 妙玉 for the temporary body-borrowing arrangement and the reopening of the山海碑 exit.
+- Added 黄龙飞 as `CHAR-0046`; recorded his炼虚巅峰 cultivation,缥缈仙宗 affiliation and invasion of盘龙岛.
+- Added `ART-0033` 嗜血天魔刀 and recorded its destruction of the七星剑阵, multiple artifacts and its blood-absorption growth behavior.
+- Updated 徐霄, 独孤灵 and 萧慕河 for the overseas battle, relationship stabilization and stolen positioning-array escape.
+- Added append-only Timeline, Character and Artifact extension indexes and promoted chapter evidence; no non-material System or Gift record was created.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0035` and queued `TASK-0036` beginning at Chapter 244.
+
 ## RUN-0043 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
