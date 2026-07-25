@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0032
+nodes:
+- id: NODE-0021
+  title: 猿族夜袭、猿飞覆灭与声望逆转
+  chapters: {start: 138, end: 144}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第138—145章标题、顺序和边界；第138—144章正文由可访问镜像交叉核验
+  boundary_reason: 第144章完成夜袭反击、猿飞死亡、九宗反应与猿族少主接管报复；第145章转入狐族白九儿渗透线
+  characters: [徐霄, 柳璃, 陈青儿, 猿飞, 猿华]
+  conflict_events:
+  - {event: 猿族夜袭百草宗灵矿, result: 徐霄守住矿区，猿飞及猿族主要化神战力死亡, status: partial}
+  - {event: 猿族后续报复决策, result: 猿华放弃正面硬拼并转向狐族渗透, status: partial}
+  protagonist_state: {battle_record_add: 以玄天八卦阵和化神九重符箓击杀猿飞及猿族主力, reputation_change: 在人族阵营中的负面声望开始逆转, status: partial}
+  pending: [第143章系统奖励完整上下文与返还清单, 猿华修为与系统分类]
+  document: docs/01-timeline/node-0021.md
+  evidence: sources/evidence/chapters-138-144.yaml

@@ -1,13 +1,14 @@
 schema_version: 2
 run_id: RUN-0031
+promotion_run_id: RUN-0032
 task_id: TASK-0023
 updated_at: '2026-07-25'
 arc:
   chapter_start: 138
   chapter_end: 144
   node: NODE-0021
-  status: staged
-  draft_document: docs/01-timeline/drafts/node-0021.md
+  status: promoted
+  canonical_document: docs/01-timeline/node-0021.md
   boundary_reason: 第144章完成猿族夜袭反击、猿飞死亡、九宗反应与猿族少主接管报复；第145章转入狐族白九儿渗透线
 chapters:
 - {chapter: 138, title: 黑夜降临, facts: [柳璃与陈青儿关系继续变化, 猿族夜袭前奏展开, 徐霄住处出现人为破坏迹象], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
@@ -15,8 +16,8 @@ chapters:
 - {chapter: 140, title: 惊恐的猿飞, facts: [猿飞被确认为猿族大将军与化神九重强者, 巨猿法相被描述为猿族顶级天赋神通, 徐霄成为灵矿守军核心], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
 - {chapter: 141, title: 徐霄的恐怖实力, facts: [徐霄以玄天八卦阵抵御猿飞攻击, 使用紫雷与玄冰类化神九重符箓压制猿飞, 猿飞最终死亡并引发猿族溃败], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
 - {chapter: 142, title: 逐渐洗白的徐霄, facts: [灵矿修士公开感谢徐霄救命, 徐霄在人族阵营的负面声望开始逆转, 柳璃对徐霄态度明显改善], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
-- {chapter: 143, title: 九宗驻地的反应, facts: [九宗与灵矿驻地获知猿飞及猿族多名化神死亡, 陈青儿与徐霄关系进一步固化, 本章出现系统奖励到账提示但完整结算上下文未稳定获取], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
+- {chapter: 143, title: 九宗驻地的反应, facts: [九宗与灵矿驻地获知猿飞及猿族多名化神死亡, 陈青儿与徐霄关系进一步固化, 系统奖励到账提示存在但完整结算上下文未稳定获取], official_catalog: true, readable_mirrors: [CP小说网, 小说之家], status: partial}
 - {chapter: 144, title: 万妖城，猿族少主, facts: [诸葛无方认可徐霄镇守灵矿的战略价值, 猿族少主猿华接管后续报复, 猿华决定避免正面硬拼并寻求间接手段], official_catalog: true, readable_mirrors: [小说之家], status: partial}
 boundary_check: {next_chapter: 145, next_title: 狐族驻地，白九儿, transition: 转入狐族白九儿渗透与新的气运之女线}
-quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: blocked, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}
-pending: [第143章系统奖励对应的完整赠送上下文与返还清单, 猿飞、猿大及参战猿族的完整结构化人物字段, 猿华的完整修为、身份层级及后续系统分类]
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}
+pending: [第143章系统奖励对应的完整赠送上下文与返还清单, 猿大及参战猿族的完整结构化人物字段, 猿华的完整修为、身份层级及系统分类]

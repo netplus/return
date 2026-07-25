@@ -35,10 +35,22 @@ tasks:
 - id: TASK-0023
   title: Build the 猿族夜袭与灵矿反击 story arc from Chapter 138 onward
   type: story_arc
-  status: in_progress
-  run_ids: [RUN-0031]
-  target: {chapter_start: 138, resolved_chapter_end: 144, node: NODE-0021, boundary: adaptive}
-  staged_outputs: [docs/01-timeline/drafts/node-0021.md, sources/evidence/chapters-138-144.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: blocked, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  blockers: [BLOCK-0008]
+  status: done
+  completed_at: '2026-07-25'
+  run_ids: [RUN-0031, RUN-0032]
+  target: {chapter_start: 138, chapter_end: 144, node: NODE-0021, boundary: adaptive}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
+  outputs: [docs/01-timeline/node-0021.md, docs/02-characters/猿飞.md, docs/02-characters/猿华.md, data/extensions/timeline/run-0032.yaml, data/extensions/characters/run-0032.yaml, sources/evidence/chapters-138-144.yaml]
+  closed_blockers: [BLOCK-0008]
   depends_on: [TASK-0022]
+- id: TASK-0024
+  title: Build the 狐族白九儿渗透 story arc from Chapter 145 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 145, provisional_chapter_end: 152, node: NODE-0022, boundary: adaptive}
+  rules:
+  - Read and verify each covered chapter as evidence.
+  - End at a coherent story-arc boundary.
+  - Update only material and persistent entity changes.
+  - Deliver the entire arc as one complete commit or record blockers.
+  depends_on: [TASK-0023]

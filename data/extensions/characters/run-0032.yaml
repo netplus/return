@@ -1,0 +1,50 @@
+schema_version: 1
+run_id: RUN-0032
+characters:
+- id: CHAR-0029
+  name: 猿飞
+  status: dead
+  role: antagonist
+  affiliations: [猿族]
+  identities: [猿族大将军]
+  first_appearance: {chapter: 139, title: 巨猿法相, node: NODE-0021}
+  cultivation: {current: 化神九重, status: partial}
+  abilities:
+  - {name: 巨猿法相, classification: 猿族顶级天赋神通, status: partial}
+  conflict: {target: 徐霄与三宗灵矿, result: 夜袭中被徐霄使用玄天八卦阵与高阶符箓击杀, status: partial}
+  documents: {profile: docs/02-characters/猿飞.md}
+  related_nodes: [NODE-0021]
+  source_chapters: [139, 140, 141, 142, 143, 144]
+  verification_status: partial
+- id: CHAR-0030
+  name: 猿华
+  status: alive
+  role: antagonist
+  affiliations: [猿族]
+  identities: [猿族少主]
+  first_appearance: {chapter: 144, title: 万妖城，猿族少主, node: NODE-0021}
+  cultivation: {current: null, status: pending}
+  current_action: {value: 接管对徐霄的报复并转向间接渗透, status: partial}
+  documents: {profile: docs/02-characters/猿华.md}
+  related_nodes: [NODE-0021]
+  source_chapters: [144]
+  verification_status: partial
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    battle_record_add: {chapter_range: 138-141, result: 以玄天八卦阵和化神九重符箓击杀猿飞及猿族主力, status: partial}
+    reputation_change: 在人族阵营中的负面声望开始逆转
+    related_nodes_add: [NODE-0021]
+    source_chapters_add: [138, 139, 140, 141, 142, 143, 144]
+- id: CHAR-0027
+  name: 柳璃
+  update:
+    relationship_change: 亲历灵矿获救后对徐霄的信任与认可进一步提高
+    related_nodes_add: [NODE-0021]
+    source_chapters_add: [138, 139, 140, 141, 142, 143, 144]
+- id: CHAR-0028
+  name: 陈青儿
+  update:
+    relationship_change: 与徐霄的长期资源和情感关系继续固化
+    related_nodes_add: [NODE-0021]
+    source_chapters_add: [138, 139, 140, 141, 142, 143]

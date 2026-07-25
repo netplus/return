@@ -1,14 +1,13 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0031
+run_id: RUN-0032
 coverage:
-  chapters_covered_through: 137
-  chapters_examined_in_run: [138, 139, 140, 141, 142, 143, 144]
-  draft_arc_end: 144
-  timeline_nodes: 20
-  draft_nodes: 1
-  story_arc_nodes: 17
-  characters_documented: 28
+  chapters_covered_through: 144
+  chapters_promoted_in_run: [138, 139, 140, 141, 142, 143, 144]
+  timeline_nodes: 21
+  draft_nodes: 0
+  story_arc_nodes: 18
+  characters_documented: 30
   characters_staged: 0
   system_records: 1
   gift_events: 30
@@ -19,22 +18,16 @@ quality_gates:
     status: passed_with_qualifications
     official_catalog_chapters: [138, 139, 140, 141, 142, 143, 144, 145]
     cross_checked_mirror_chapters: [138, 139, 140, 141, 142, 143, 144]
-    pending_fields: [第143章系统奖励的完整赠送上下文与返还清单, 猿飞及猿族参战人员完整身份清单, 猿华完整修为与系统分类]
+    pending_fields: [第143章系统奖励完整上下文与返还清单, 猿华完整修为与系统分类]
     failures: 0
-  arc_coherence:
-    status: passed
-    boundary: 第144章完成夜袭反击、猿飞死亡、九宗反应与猿族少主接管报复；第145章转入狐族白九儿渗透线
-  materiality:
-    status: passed
-    staged_entity_updates: [猿族夜袭与灵矿防线, 猿飞巨猿法相及死亡, 徐霄使用玄天八卦阵与化神符箓, 徐霄在人族阵营声望逆转, 猿华接管报复]
+  arc_coherence: {status: passed, boundary: 第144章完成夜袭反击、猿飞死亡、九宗反应与猿族少主接管报复；第145章转入狐族白九儿渗透线}
+  materiality: {status: passed, entity_updates: [NODE-0021, 猿飞, 猿华, 徐霄战绩与声望, 柳璃与陈青儿关系变化]}
   cross_index_consistency:
-    status: blocked
-    blocker: BLOCK-0008
-    reason: draft and evidence exist, canonical timeline and material entity extension indexes are not yet promoted
-  duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review:
     status: passed
-    files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, sources/evidence/chapters-138-144.yaml]
+    index_mode: base_plus_extensions
+    closed_blocker: BLOCK-0008
+    files_checked: [docs/01-timeline/node-0021.md, data/extensions/timeline/run-0032.yaml, data/extensions/characters/run-0032.yaml]
+  duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0032.yaml, data/extensions/characters/run-0032.yaml, sources/evidence/chapters-138-144.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
-blockers:
-- {id: BLOCK-0008, gate: cross_index_consistency, status: open}
+blockers: []
