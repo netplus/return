@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 17
+  extension_files: 18
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -518,7 +518,16 @@ artifacts:
   first_chapter: 210
   current_holder: 徐霄
   acquisition: GIFT-0040返还
-  effect: 剑体带有三光神水，完整能力待后续确认
+  effect:
+  - 剑体带有三光神水，完整能力待后续确认
+  - 释放三光神水，可快速腐蚀炼虚与化神尸灵
+  - 可从目标内部穿杀并腐蚀妖族肉身
   status: partial
   related_nodes:
   - NODE-0029
+  - NODE-0030
+  combat_record: 第215—217章用于清剿尸灵并击杀蛇大同、虎奔与狼烈
+  source_chapters:
+  - 215
+  - 216
+  - 217

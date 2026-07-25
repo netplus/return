@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 17
+  extension_files: 18
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -90,6 +90,7 @@ characters:
   - NODE-0027
   - NODE-0028
   - NODE-0029
+  - NODE-0030
   source_chapters:
   - 1
   - 2
@@ -269,6 +270,14 @@ characters:
   - 208
   - 209
   - 210
+  - 211
+  - 212
+  - 213
+  - 214
+  - 215
+  - 216
+  - 217
+  - 218
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -314,6 +323,7 @@ characters:
   - 渡过二次化神雷劫后以四柄神剑应对妖族炼虚突袭，并用九天神雷符形成战略威慑
   - 与诸葛无方协作击杀炼虚中期尸灵
   - 联合狐族破解通天神棍阵并击杀猿洪
+  - 以三光分水剑清剿外扩尸灵，并在三族伏击中击杀虎奔、狼烈与蛇大同
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -327,6 +337,7 @@ characters:
   ability:
   - 金之大道·锋锐
   system_progress: 法宝返还库最高可返还灵宝
+  role_change: 远古战场传送门关闭后成为缥缈宗驻地核心战力
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -460,7 +471,7 @@ characters:
   verification_status: partial
   disciple: 刘玲玲（记名弟子安排）
 - id: CHAR-0005
-  name: 紫韵
+  name: 段红绫
   status: alive
   role: supporting
   affiliations:
@@ -484,15 +495,22 @@ characters:
   - NODE-0004
   - NODE-0007
   - NODE-0016
+  - NODE-0030
   source_chapters:
   - 4
   - 5
   - 25
   - 92
   - 93
+  - 216
+  - 217
+  - 218
   verification_status: partial
   accepted_gifts:
   - GIFT-0020
+  combat_record:
+  - 被虎狼蛇三族炼虚修士围困后由徐霄救出
+  condition_change: 内伤经万年灵液治疗后基本恢复
 - id: CHAR-0006
   name: 林嫣儿
   status: alive
@@ -1607,7 +1625,7 @@ characters:
     status: partial
 - id: CHAR-0033
   name: 虎奔
-  status: alive
+  status: dead
   role: antagonist
   affiliations:
   - 虎族
@@ -1627,6 +1645,7 @@ characters:
   related_nodes:
   - NODE-0024
   - NODE-0027
+  - NODE-0030
   source_chapters:
   - 159
   - 160
@@ -1638,9 +1657,15 @@ characters:
   - 188
   - 189
   - 190
+  - 216
+  - 217
   verification_status: partial
   conflict_change: 率妖族炼虚修士拦截人族援手并参与对徐霄的高阶围杀
   strategic_plan: 主张妖魔结盟并在远古战场内优先击杀徐霄
+  death:
+    chapter: 217
+    event: 三族伏击失败后被徐霄以灵宝神剑击杀
+    status: partial
 - id: CHAR-0034
   name: 巫瓶儿
   status: alive
@@ -1815,6 +1840,12 @@ characters:
     status: partial
   document: docs/02-characters/白茹.md
   verification_status: partial
+  strategic_change: 决定白狐族尽量退出妖族联合行动，以长期交好徐霄和获取精气资源为优先
+  related_nodes:
+  - NODE-0030
+  source_chapters:
+  - 211
+  - 214
 - id: CHAR-0041
   name: 白霞儿
   status: alive
@@ -1841,4 +1872,61 @@ characters:
     item: 三枚虚天丹
     status: partial
   document: docs/02-characters/白霞儿.md
+  verification_status: partial
+  bond_level: 2
+  relationship_change: 继续承担狐族探查精气来源的任务，并获得徐霄长期修炼资源承诺
+  system_interaction:
+  - trigger: 窃取一股精气
+    return_to_xuxiao: 十股精气
+    status: partial
+  related_nodes:
+  - NODE-0030
+  source_chapters:
+  - 211
+  - 212
+  - 213
+  - 214
+- id: CHAR-0042
+  name: 狼烈
+  status: dead
+  role: antagonist
+  affiliations:
+  - 狼族
+  - 妖族
+  identities:
+  - 狼族族长
+  realm:
+    value: 炼虚七重
+    status: partial
+  first_appearance:
+    chapter: 216
+    title: 灵宝之威
+    node: NODE-0030
+  death:
+    chapter: 217
+    event: 三族伏击失败后被徐霄以灵宝神剑击杀
+    status: partial
+  document: null
+  verification_status: partial
+- id: CHAR-0043
+  name: 蛇大同
+  status: dead
+  role: antagonist
+  affiliations:
+  - 蛇族
+  - 妖族
+  identities:
+  - 蛇族族长
+  realm:
+    value: 炼虚七重
+    status: partial
+  first_appearance:
+    chapter: 216
+    title: 灵宝之威
+    node: NODE-0030
+  death:
+    chapter: 217
+    event: 三族伏击失败后被三光分水剑击杀并被三光神水腐蚀
+    status: partial
+  document: null
   verification_status: partial
