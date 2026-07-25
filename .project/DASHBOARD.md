@@ -4,25 +4,25 @@
 - **Current milestone:** M5 — Chapters 201–250
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 235
-- **Current evidence exploration through:** Chapter 236
+- **Canonical coverage through:** Chapter 243
+- **Current evidence exploration through:** Chapter 244
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 32
+- **Completed timeline nodes:** 33
 - **Draft timeline nodes:** 0
-- **Documented characters:** 45
+- **Documented characters:** 46
 - **Gift events:** 43
-- **Artifact records:** 32
-- **Last run:** `RUN-0043`
-- **Last completed node:** `NODE-0032`
-- **Next task:** `TASK-0035` — 凤青玄借体与远古战场脱困 story arc
-- **Provisional exploration range:** Chapters 236–243
+- **Artifact records:** 33
+- **Last run:** `RUN-0044`
+- **Last completed node:** `NODE-0033`
+- **Next task:** `TASK-0036` — 新气运之子与初到天元大陆 story arc
+- **Provisional exploration range:** Chapters 244–251
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0032` covers Chapters 227—235. 黑魂堡方向的组织化尸潮开始推进，各方采纳徐霄提出的三处据点防守与深入西部调查方案。系统重新确认魇女为气运之女，魇女与徐霄形成长期道侣关系，并公开二十七具历任道侣僵尸，其中三具达到炼虚层级。黑锋山首轮尸潮战中，徐霄独自牵制并击杀二十余名炼虚后期尸灵，取得五件法宝。随后至少具有合体层级威压的 SSS 级气运之女凤青玄率尸灵现身；徐霄赠出三光分水剑后，凤青玄停止现场杀戮并承诺之后开启出口。第 236 章转入凤青玄借妙玉肉身实施后续计划。
+`NODE-0033` covers Chapters 236—243. 凤青玄收妙玉为徒并暂借其肉身，重新炼化山海碑后开启远古战场出口，使各方修士返回盘龙大陆。天元大陆缥缈仙宗修士黄龙飞率两名师弟循阵盘抵达盘龙岛，杀死血魂、清虚并企图奴役当地修士；徐霄以六股鸿蒙真气驱动嗜血天魔刀，击碎七星剑阵和多件法宝，魔刀吸收两名炼虚修士气血后进一步增强。萧慕河与体内合体修士趁乱夺走定位阵盘并逃入无尽海域。返回缥缈宗后，徐霄安抚独孤灵并稳定宗门高层；第 244 章转入新的气运之子线。
 
-## Quality gates — RUN-0043
+## Quality gates — RUN-0044
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 227—236 章标题、顺序和边界；第 227—235 章正文由 CP 小说网等可访问文本镜像交叉核验。魇女精确系统面板、凤青玄精确境界和完整身份、`GIFT-0043` 返还结果、五件战利品法宝及山海碑异变完整因果继续保持 `pending`。
+番茄小说官方目录确认第 236—244 章标题、顺序和边界；第 236—243 章正文由 CP 小说网等可访问文本镜像交叉核验。凤青玄借体期限与妙玉肉身最终归还、黄龙飞最终生死、嗜血天魔刀来源与完整限制、萧慕河体内合体修士真实身份，以及血魂与清虚完整身份继续保持 `pending`。

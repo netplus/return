@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0044
+task_id: TASK-0035
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 236
+  chapter_end: 243
+  node: NODE-0033
+  status: promoted
+  canonical_document: docs/01-timeline/node-0033.md
+  boundary_reason: 第243章完成返回缥缈宗后的关系与高层收束；第244章转入宇文浩及新的气运之子线
+chapters:
+- chapter: 236
+  title: 凤青玄的如意算盘
+  facts: [凤青玄收妙玉为徒并暂借其肉身, 妙玉神魂留在识海修炼, 凤青玄承诺返回天元大陆后重塑肉身归还]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 237
+  title: 所有人麻了
+  facts: [徐霄与被凤青玄控制的妙玉返回黑石城, 对外宣称两人结为道侣以掩饰凤青玄身份, 各方确认传送门将重新开启]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 238
+  title: 白九儿到来
+  facts: [魇女公开与徐霄的道侣关系, 凤青玄继续以妙玉身份跟随徐霄, 凤青玄说明约十日后可重新开启山海碑传送门]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 239
+  title: 放飞自我，黄龙飞
+  facts: [黄龙飞三人循阵盘抵达盘龙岛并发现山海碑, 凤青玄完成阶段性炼化并开启传送门, 远古战场修士开始脱困]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 240
+  title: 出体，嗜血天魔刀
+  facts: [黄龙飞三人杀死血魂与清虚并企图奴役盘龙大陆修士, 徐霄与独孤灵重逢, 徐霄祭出嗜血天魔刀迎战]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 241
+  title: 情况突变
+  facts: [嗜血天魔刀击碎七星剑阵及多件法宝, 徐霄以六股鸿蒙真气驱动灵宝魔刀, 萧慕河与体内合体修士趁乱夺取定位阵盘]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 242
+  title: 逐渐破防的缥缈宗高层
+  facts: [萧慕河与体内合体修士逃入无尽海域, 妙玉判断对方可能来自弑天血宗, 嗜血天魔刀吸收两名炼虚修士气血后增强, 徐霄公开战力获得各方承认]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 243
+  title: 轻松安抚独孤灵
+  facts: [凤青玄以妙玉身份将道侣关系调整为考察期, 徐霄返回缥缈宗并安抚独孤灵, 宗门高层暂缓讨论海外修士与天元大陆问题]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 244
+  next_title: 新的气运之子
+  transition: 转入宇文浩与新的气运之子以及天元大陆后续线
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

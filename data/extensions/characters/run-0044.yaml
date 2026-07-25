@@ -1,0 +1,62 @@
+schema_version: 1
+run_id: RUN-0044
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add:
+    - 以嗜血天魔刀击碎黄龙飞七星剑阵及多件法宝，并使魔刀吸收两名炼虚修士气血
+    role_change_add: 公开确立为盘龙大陆最强战力之一，并开始直接面对天元大陆势力
+    related_nodes_add: [NODE-0033]
+    source_chapters_add: [237, 239, 240, 241, 242, 243]
+- id: CHAR-0003
+  name: 独孤灵
+  update:
+    relationship_change: 与徐霄重逢后经安抚继续维持核心道侣关系
+    related_nodes_add: [NODE-0033]
+    source_chapters_add: [240, 242, 243]
+- id: CHAR-0014
+  name: 萧慕河
+  update:
+    latest_conflict:
+      chapter_range: 241-242
+      event: 与体内合体修士趁徐霄迎战海外修士时夺走定位阵盘并逃入无尽海域
+      result: 成功逃离盘龙岛，系统击杀任务仍未完成
+      status: partial
+    possible_external_affiliation: {value: 弑天血宗, status: inferred}
+    related_nodes_add: [NODE-0033]
+    source_chapters_add: [241, 242]
+- id: CHAR-0024
+  name: 妙玉
+  update:
+    body_status: 肉身暂由凤青玄神魂控制，本人神魂留在识海修炼
+    relationship_cover: 凤青玄以妙玉身份与徐霄宣称进入道侣考察期，以掩饰真实身份
+    related_nodes_add: [NODE-0033]
+    source_chapters_add: [236, 237, 238, 239, 240, 241, 242, 243]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    current_vessel: 妙玉肉身
+    major_action_add:
+    - 收妙玉为徒并暂借其肉身，承诺返回天元大陆后重塑肉身归还
+    - 重新炼化山海碑并开启传送门，使远古战场修士脱困
+    concealment_plan: 以妙玉身份跟随徐霄进入缥缈宗并隐藏真实身份
+    related_nodes_add: [NODE-0033]
+    source_chapters_add: [236, 237, 238, 239, 240, 241, 242, 243]
+- id: CHAR-0046
+  name: 黄龙飞
+  status: pending
+  role: antagonist
+  affiliations: [天元大陆缥缈仙宗]
+  identities: [缥缈仙宗修士, 三人小队首领]
+  first_appearance: {chapter: 239, title: 放飞自我，黄龙飞, node: NODE-0033}
+  cultivation: {current: 炼虚巅峰, status: partial}
+  combat:
+    target: 盘龙大陆修士与山海碑
+    actions: [率两名师弟抵达盘龙岛, 杀害血魂与清虚, 企图奴役盘龙大陆修士, 使用七星剑阵攻击徐霄]
+    result: 七星剑阵及多件法宝被嗜血天魔刀摧毁；最终生死未稳定核验
+    status: partial
+  related_nodes: [NODE-0033]
+  source_chapters: [239, 240, 241]
+  document: null
+  verification_status: partial
