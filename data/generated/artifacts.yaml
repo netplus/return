@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 26
+  extension_files: 27
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -391,6 +391,7 @@ artifacts:
   - NODE-0018
   - NODE-0019
   - NODE-0035
+  - NODE-0040
   source_gift: GIFT-0021
   transfer:
     chapter: 116
@@ -404,6 +405,7 @@ artifacts:
   source_chapters:
   - 115
   - 116
+  - 300
   transfers:
   - gift_id: GIFT-0027
     recipient: 妙玉
@@ -427,6 +429,11 @@ artifacts:
     recipient: 花怜惜
     quantity: 5
     chapter: 258
+    status: partial
+  - gift_id: GIFT-0052
+    recipient: 林婉
+    quantity: 10
+    chapter: 300
     status: partial
 - id: ART-0022
   name: 金光护身坠
@@ -545,12 +552,32 @@ artifacts:
   related_nodes:
   - NODE-0029
   - NODE-0035
+  - NODE-0040
   transfer:
     gift_id: GIFT-0047
     recipient: 第一婵
     quantity: 1
     chapter: 257
     status: partial
+  transfers:
+  - gift_id: GIFT-0051
+    recipient: 第一婵
+    quantity: 5
+    chapter: 298
+    status: partial
+  - gift_id: GIFT-0053
+    recipient: 林婉
+    quantity: 1
+    chapter: 300
+    status: partial
+  acquisitions:
+  - gift_id: GIFT-0052
+    quantity: 10
+    chapter: 300
+    status: partial
+  source_chapters:
+  - 298
+  - 300
 - id: ART-0030
   name: 天凤神元丹
   category: 丹药
@@ -644,11 +671,24 @@ artifacts:
   grade: 大乘修炼资源
   first_chapter: 257
   current_holder: 徐霄
-  acquisition: GIFT-0047返还
+  acquisition:
+  - GIFT-0047返还
+  - gift_id: GIFT-0051
+    quantity: 5
+    chapter: 298
+    status: partial
+  - gift_id: GIFT-0053
+    quantity: 1
+    chapter: 300
+    status: partial
   effect: 蕴含大乘灵力，大乘修士服用后可大幅提升修为
   status: partial
   related_nodes:
   - NODE-0035
+  - NODE-0040
+  source_chapters:
+  - 298
+  - 300
 - id: ART-0035
   name: 护心龙镜
   category: 法宝
@@ -680,3 +720,18 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0039
+- id: ART-0037
+  name: 神木飞舟
+  category: 飞行与传送灵宝
+  grade: 先天灵宝
+  first_chapter: 296
+  current_holder: 徐霄
+  acquisition: GIFT-0050返还
+  capabilities:
+  - 可进行短距离传送以脱离围困
+  - 具备高速飞行能力
+  - 可启动顶级防御光阵
+  public_reveal: 第303章凤族出行前公开亮相
+  status: partial
+  related_nodes:
+  - NODE-0040

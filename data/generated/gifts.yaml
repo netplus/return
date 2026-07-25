@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 21
+  extension_files: 22
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -728,4 +728,45 @@ gifts:
   system_valid: true
   first_gift: false
   reward: 灵宝玄天艮土剑
+  status: partial
+- id: GIFT-0050
+  chapter: 296
+  node: NODE-0040
+  giver: 徐霄
+  recipient: 第一婵
+  gift: 血气灵宝剑
+  accepted: true
+  system_valid: true
+  task_bonus_applied: 黑风气运之敌任务奖励
+  reward: 先天灵宝神木飞舟
+  status: partial
+- id: GIFT-0051
+  chapter: 298
+  node: NODE-0040
+  giver: 徐霄
+  recipient: 第一婵
+  gift: 五枚合道丹
+  accepted: true
+  system_valid: true
+  reward: 五枚蕴仙丹
+  status: partial
+- id: GIFT-0052
+  chapter: 300
+  node: NODE-0040
+  giver: 徐霄
+  recipient: 林婉
+  gift: 十枚虚天丹
+  accepted: true
+  system_valid: true
+  reward: 十枚合道丹
+  status: partial
+- id: GIFT-0053
+  chapter: 300
+  node: NODE-0040
+  giver: 徐霄
+  recipient: 林婉
+  gift: 一枚合道丹
+  accepted: true
+  system_valid: true
+  reward: 一枚蕴仙丹
   status: partial
