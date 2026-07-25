@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0047 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0038`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 273 so the complete inner-sect tournament, championship and reward settlement remain in one story arc; Chapter 274 begins inheritance disclosure and internal follow-up.
+- Created `NODE-0036`: 无妄仙宗内门大比与大师兄易主, covering Chapters 260—273.
+- Updated 徐霄 as the new inner-sect senior brother for the next hundred years and recorded the tournament combat use of通天神针 and九天神龙甲.
+- Updated 魇女、第一婵、程芷、程双 and林婉 for persistent relationship, evaluation and system-interaction changes.
+- Added 剑辰 as `CHAR-0054` and recorded the protected withdrawal of his先天剑丸 and loss of the大师兄 title.
+- Added `ART-0035` 护心龙镜 as the tournament championship reward.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0038` and queued `TASK-0039` beginning at Chapter 274.
+
 ## RUN-0046 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
