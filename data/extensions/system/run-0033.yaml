@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0033
+gifts:
+- id: GIFT-0030
+  chapter: 146
+  node: NODE-0022
+  giver: 徐霄
+  recipient: 白九儿
+  recipient_luck_grade: S
+  gift: 化婴丹
+  accepted: true
+  system_valid: null
+  triggered_multiplier: null
+  reward: null
+  note: 第147章明确赠送后未即时返还；原因与后续结算均待核验
+  status: partial
+system_updates:
+- subject: 万倍返还系统
+  update:
+    recognized_target_add: {name: 白九儿, classification: 气运之女, luck_grade: S, base_multiplier: 30, bond: 1, status: partial}
+    non_gift_return_rule_add: {resource: 精气, trigger: 被系统识别对象以术法窃取, observed_multiplier: 30, status: partial}
+    gift_range: GIFT-0001—GIFT-0030
+    pending_fields_add: [GIFT-0030系统有效性与返还结算, 精气返还规则的适用边界]

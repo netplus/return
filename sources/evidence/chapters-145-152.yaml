@@ -1,0 +1,22 @@
+schema_version: 2
+run_id: RUN-0033
+task_id: TASK-0024
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 145
+  chapter_end: 152
+  node: NODE-0022
+  status: promoted
+  canonical_document: docs/01-timeline/node-0022.md
+  boundary_reason: 第152章完成白九儿渗透失败、柳璃关系变化与猿华诱杀布局；第153章进入刘玲玲绑架线
+chapters:
+- {chapter: 145, title: 狐族驻地，白九儿, facts: [猿华委托狐族渗透徐霄, 白九儿前往百草宗灵矿], status: partial}
+- {chapter: 146, title: s级气运之女, facts: [系统识别白九儿为S级气运之女, 基础倍率30, 羁绊度1, 徐霄赠送化婴丹], status: partial}
+- {chapter: 147, title: 白九儿的心思, facts: [白九儿主动接近徐霄, 化婴丹赠送未即时返还, 徐霄察觉异常], status: partial}
+- {chapter: 148, title: 狐族妖女, facts: [白九儿施展魅惑和吸精术, 系统执行30倍精气返还, 白九儿渗透失败], status: partial}
+- {chapter: 149, title: 魅惑之术后遗症, facts: [徐霄受魅术后遗影响, 柳璃与徐霄关系发生实质变化], status: partial}
+- {chapter: 150, title: 愤怒的猿华, facts: [白九儿断尾逃回狐族, 狐族停止继续直接介入, 猿华继续策划报复], status: partial}
+- {chapter: 151, title: 通天如意棍, facts: [徐霄承诺帮助柳璃和陈青儿晋级炼虚, 猿华取得通天如意棍], status: partial}
+- {chapter: 152, title: 陈青儿释然, facts: [猿华策划绑架诱杀, 陈青儿开始接受柳璃与徐霄的关系变化], status: partial}
+boundary_check: {next_chapter: 153, next_title: 被绑架的刘玲玲, transition: 转入绑架诱杀与猿族正面清算线}
+quality: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed, full_chapter_text_stored: false}

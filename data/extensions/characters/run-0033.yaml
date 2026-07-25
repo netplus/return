@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0033
+characters:
+- id: CHAR-0031
+  name: 白九儿
+  status: alive
+  role: antagonist_supporting
+  affiliations: [狐族]
+  identities: [狐族后辈, 气运之女, 受命渗透徐霄]
+  first_appearance: {chapter: 145, title: 狐族驻地，白九儿, node: NODE-0022}
+  cultivation: {current: 化神九重, status: partial}
+  luck_grade: {value: S, base_multiplier: 30, bond: 1, status: partial}
+  abilities:
+  - {name: 魅惑之术, status: partial}
+  - {name: 吸取精气, status: partial}
+  - {name: 身外替身, cost: 自断一条狐尾, status: partial}
+  conflict: {target: 徐霄, result: 渗透失败，断尾逃回狐族，修为暂时下降约两成, status: partial}
+  documents: {profile: docs/02-characters/白九儿.md}
+  related_nodes: [NODE-0022]
+  source_chapters: [145, 146, 147, 148, 149, 150]
+  verification_status: partial
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    system_behavior_add: 被白九儿窃取精气时系统按30倍返还
+    related_nodes_add: [NODE-0022]
+    source_chapters_add: [145, 146, 147, 148, 149, 150, 151, 152]
+- id: CHAR-0027
+  name: 柳璃
+  update:
+    relationship_change: 与徐霄关系发生长期实质变化；徐霄承诺帮助其与陈青儿晋级炼虚
+    related_nodes_add: [NODE-0022]
+    source_chapters_add: [149, 151, 152]
+- id: CHAR-0030
+  name: 猿华
+  update:
+    current_action: 取得通天如意棍并策划绑架徐霄关系人、布置通天神棍阵诱杀徐霄
+    related_nodes_add: [NODE-0022]
+    source_chapters_add: [150, 151, 152]

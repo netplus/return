@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0033
+nodes:
+- id: NODE-0022
+  title: 白九儿渗透失败与猿华诱杀布局
+  chapters: {start: 145, end: 152}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录确认第145—153章标题、顺序和边界；第145—152章正文由可访问镜像交叉核验
+  boundary_reason: 第152章完成白九儿渗透失败、精气返还实例、柳璃关系变化与猿华诱杀方案；第153章转入刘玲玲被绑架
+  characters: [徐霄, 柳璃, 陈青儿, 白九儿, 猿华]
+  system_events:
+  - {event: 白九儿窃取徐霄精气, result: 系统按每1点返还30点精气, status: partial}
+  - {gift_id: GIFT-0030, recipient: 白九儿, gift: 化婴丹, system_settlement: 未显示, status: partial}
+  conflict_events:
+  - {event: 白九儿受狐族委托渗透并施展魅惑与吸精术, result: 徐霄免疫并获得精气返还；白九儿断尾逃离, status: partial}
+  - {event: 猿华调整报复方案, result: 启用通天如意棍并策划绑架徐霄关系人诱入大阵, status: partial}
+  pending: [GIFT-0030为何未结算及后续是否补发, 白九儿完整族内身份与系统面板, 通天如意棍完整品阶与阵法限制]
+  document: docs/01-timeline/node-0022.md
+  evidence: sources/evidence/chapters-145-152.yaml
