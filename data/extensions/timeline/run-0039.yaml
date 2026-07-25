@@ -1,0 +1,53 @@
+schema_version: 1
+run_id: RUN-0039
+nodes:
+- id: NODE-0028
+  title: 上官倩结缘与远古战场初战
+  chapters:
+    start: 192
+    end: 199
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第192—200章标题、顺序和边界；第192—199章正文由可访问镜像交叉核验
+  boundary_reason: 第199章完成远古战场入场及炼虚中期尸灵击杀；第200章转入新的气运之敌任务
+  characters:
+  - 徐霄
+  - 上官倩
+  - 段红绫
+  - 诸葛无方
+  - 水云
+  - 水柔
+  - 花怜惜
+  - 陆文涛
+  system_events:
+  - gift_id: GIFT-0035
+    recipient: 上官倩
+    gift: 两张化神九重玄冰剑雨符
+    returns:
+    - 合体九重混沌极冰符
+    - 炼虚九重天道冰剑符
+    status: partial
+  - gift_id: GIFT-0036
+    recipient: 水云
+    gift: 绝品悟道丹
+    reward: 血牛猛虎丹
+    status: partial
+  conflict_events:
+  - event: 远古战场入场途中遭遇炼虚中期尸灵
+    result: 诸葛无方正面牵制，徐霄以玄天八卦阵保护队伍并用五柄神剑完成击杀
+    status: partial
+  protagonist_state:
+    realm: 化神境
+    new_resources:
+    - 合体九重混沌极冰符
+    - 炼虚九重天道冰剑符
+    - 血牛猛虎丹
+    combat_display: 玄天八卦阵与五柄神剑参与击杀炼虚中期尸灵
+    status: partial
+  pending:
+  - 上官倩完整面板
+  - 水云与花怜惜精确修为
+  - 陆文涛精确修为
+  - 尸灵生前身份与法宝归属
+  document: docs/01-timeline/node-0028.md
+  evidence: sources/evidence/chapters-192-199.yaml

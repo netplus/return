@@ -1,24 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-25'
-run_id: RUN-0038
+run_id: RUN-0039
 coverage:
-  chapters_covered_through: 191
-  chapters_promoted_in_run: [185, 186, 187, 188, 189, 190, 191]
-  timeline_nodes: 27
+  chapters_covered_through: 199
+  chapters_promoted_in_run: [192, 193, 194, 195, 196, 197, 198, 199]
+  timeline_nodes: 28
   draft_nodes: 0
-  story_arc_nodes: 24
-  characters_documented: 35
+  story_arc_nodes: 25
+  characters_documented: 39
   characters_staged: 0
   system_records: 1
-  gift_events: 35
-  artifact_records: 25
+  gift_events: 37
+  artifact_records: 28
   artifacts_staged: 0
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [185, 186, 187, 188, 189, 190, 191, 192], cross_checked_mirror_chapters: [185, 186, 187, 188, 189, 190, 191], pending_fields: [猿罡完整身份与境界, 徐霄返还道具库升级后的精确品质上限, 第191章一年备战期间的完整修为与资源变化], failures: 0}
-  arc_coherence: {status: passed, boundary: 第191章完成妖族突袭收束、远古神碑现世和一年备战；第192章转入上官倩的新赠送关系}
-  materiality: {status: passed, entity_updates: [NODE-0027, 徐霄化神实战与九天神雷符威慑, 返还道具库随境界升级, 大道神碑与远古战场提前开启, 猿罡死亡, 妖魔结盟伏线]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, files_checked: [docs/01-timeline/node-0027.md, data/extensions/timeline/run-0038.yaml, data/extensions/characters/run-0038.yaml, data/extensions/system/run-0038.yaml, data/extensions/artifacts/run-0038.yaml]}
+  source_traceability:
+    status: passed_with_qualifications
+    official_catalog_chapters: [192, 193, 194, 195, 196, 197, 198, 199, 200]
+    cross_checked_mirror_chapters: [192, 193, 194, 195, 196, 197, 198, 199]
+    pending_fields: [上官倩完整修为与羁绊面板, 水云和花怜惜精确修为, 陆文涛精确修为与虚天丹用途, 炼虚尸灵生前身份及法宝归属]
+    failures: 0
+  arc_coherence: {status: passed, boundary: 第199章完成远古战场入场与炼虚中期尸灵击杀；第200章转入新的气运之敌任务}
+  materiality: {status: passed, entity_updates: [NODE-0028, CHAR-0036上官倩, CHAR-0037水云, CHAR-0038花怜惜, CHAR-0039陆文涛, GIFT-0035, GIFT-0036, ART-0026至ART-0028, 徐霄远古战场初战]}
+  cross_index_consistency:
+    status: passed
+    index_mode: base_plus_extensions
+    files_checked: [docs/01-timeline/node-0028.md, docs/02-characters/上官倩.md, docs/02-characters/水云.md, docs/02-characters/花怜惜.md, docs/02-characters/陆文涛.md, data/extensions/timeline/run-0039.yaml, data/extensions/characters/run-0039.yaml, data/extensions/system/run-0039.yaml, data/extensions/artifacts/run-0039.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0038.yaml, data/extensions/characters/run-0038.yaml, data/extensions/system/run-0038.yaml, data/extensions/artifacts/run-0038.yaml, sources/evidence/chapters-185-191.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0039.yaml, data/extensions/characters/run-0039.yaml, data/extensions/system/run-0039.yaml, data/extensions/artifacts/run-0039.yaml, sources/evidence/chapters-192-199.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

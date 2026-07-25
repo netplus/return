@@ -1,0 +1,99 @@
+schema_version: 1
+run_id: RUN-0039
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    resource_add:
+    - 合体九重混沌极冰符
+    - 炼虚九重天道冰剑符
+    - 血牛猛虎丹
+    combat_record_add: 与诸葛无方协作击杀炼虚中期尸灵
+    related_nodes_add:
+    - NODE-0028
+    source_chapters_add:
+    - 192
+    - 193
+    - 194
+    - 195
+    - 196
+    - 197
+    - 198
+    - 199
+- id: CHAR-0036
+  name: 上官倩
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈宗
+  identities:
+  - 缥缈宗长老
+  - A 级气运之女
+  - 段红绫师妹
+  first_appearance:
+    chapter: 192
+    title: a级气运之女，上官倩
+    node: NODE-0028
+  luck_grade:
+    value: A
+    base_multiplier: pending
+    status: partial
+  accepted_gifts:
+  - gift_id: GIFT-0035
+    item: 两张化神九重玄冰剑雨符
+    status: partial
+  document: docs/02-characters/上官倩.md
+  verification_status: partial
+- id: CHAR-0037
+  name: 水云
+  status: alive
+  role: supporting
+  affiliations:
+  - 水家
+  identities:
+  - 水家掌舵人
+  - 水柔之母
+  - 水月祖母
+  - 有效赠送对象
+  first_appearance:
+    chapter: 196
+    title: 水云，花怜惜
+    node: NODE-0028
+  accepted_gifts:
+  - gift_id: GIFT-0036
+    item: 绝品悟道丹
+    status: partial
+  document: docs/02-characters/水云.md
+  verification_status: partial
+- id: CHAR-0038
+  name: 花怜惜
+  status: alive
+  role: supporting
+  affiliations:
+  - 合欢宗
+  identities:
+  - 合欢宗太上长老
+  first_appearance:
+    chapter: 196
+    title: 水云，花怜惜
+    node: NODE-0028
+  document: docs/02-characters/花怜惜.md
+  verification_status: partial
+- id: CHAR-0039
+  name: 陆文涛
+  status: alive
+  role: supporting
+  affiliations:
+  - 青山书院
+  identities:
+  - 青山书院老院长
+  - 儒家势力代表
+  first_appearance:
+    chapter: 197
+    title: 青山书院，陆文涛
+    node: NODE-0028
+  attitude_change:
+    event: 接受五枚虚天丹后公开修正对徐霄的评价
+    status: partial
+  document: docs/02-characters/陆文涛.md
+  verification_status: partial

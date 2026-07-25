@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0039
+artifacts:
+- id: ART-0026
+  name: 混沌极冰符
+  category: 术法符箓
+  grade: 合体九重
+  first_chapter: 193
+  current_holder: 徐霄
+  acquisition: GIFT-0035千倍暴击返还
+  status: partial
+  related_nodes:
+  - NODE-0028
+- id: ART-0027
+  name: 天道冰剑符
+  category: 术法符箓
+  grade: 炼虚九重
+  first_chapter: 193
+  current_holder: 徐霄
+  acquisition: GIFT-0035普通返还
+  status: partial
+  related_nodes:
+  - NODE-0028
+- id: ART-0028
+  name: 血牛猛虎丹
+  category: 丹药
+  first_chapter: 197
+  current_holder: 徐霄
+  acquisition: GIFT-0036千倍暴击返还
+  effect: 服用后获得九牛二虎之力，可强化肉身力量
+  status: partial
+  related_nodes:
+  - NODE-0028

@@ -29,20 +29,21 @@ tasks:
 - {id: TASK-0026, title: Build Chapters 158-166 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0035, target: {chapter_start: 158, chapter_end: 166, node: NODE-0024, boundary: adaptive}, depends_on: [TASK-0025]}
 - {id: TASK-0027, title: Build Chapters 167-174 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0036, target: {chapter_start: 167, chapter_end: 174, node: NODE-0025, boundary: adaptive}, depends_on: [TASK-0026]}
 - {id: TASK-0028, title: Build Chapters 175-184 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0037, target: {chapter_start: 175, chapter_end: 184, node: NODE-0026, boundary: adaptive}, depends_on: [TASK-0027]}
-- id: TASK-0029
-  title: Build the 妖族突袭与远古神碑现世 story arc from Chapter 185 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-25'
-  run_id: RUN-0038
-  target: {chapter_start: 185, chapter_end: 191, node: NODE-0027, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0027.md, data/extensions/timeline/run-0038.yaml, data/extensions/characters/run-0038.yaml, data/extensions/system/run-0038.yaml, data/extensions/artifacts/run-0038.yaml, sources/evidence/chapters-185-191.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0028]
+- {id: TASK-0029, title: Build Chapters 185-191 story arc, type: story_arc, status: done, completed_at: '2026-07-25', run_id: RUN-0038, target: {chapter_start: 185, chapter_end: 191, node: NODE-0027, boundary: adaptive}, depends_on: [TASK-0028]}
 - id: TASK-0030
   title: Build the 上官倩结缘与远古战场入场 story arc from Chapter 192 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 192, provisional_chapter_end: 199, node: NODE-0028, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-25'
+  run_id: RUN-0039
+  target: {chapter_start: 192, chapter_end: 199, node: NODE-0028, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0028.md, docs/02-characters/上官倩.md, docs/02-characters/水云.md, docs/02-characters/花怜惜.md, docs/02-characters/陆文涛.md, data/extensions/timeline/run-0039.yaml, data/extensions/characters/run-0039.yaml, data/extensions/system/run-0039.yaml, data/extensions/artifacts/run-0039.yaml, sources/evidence/chapters-192-199.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0029]
+- id: TASK-0031
+  title: Build the 新气运之敌与黑石城 story arc from Chapter 200 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 200, provisional_chapter_end: 207, node: NODE-0029, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0030]

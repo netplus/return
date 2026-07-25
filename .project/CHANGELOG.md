@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0039 — 2026-07-25
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0030`; no completed task or canonical node was duplicated.
+- Resolved the adaptive boundary at Chapter 199; Chapter 200 begins a new气运之敌 and black-stone-city line.
+- Created `NODE-0028`: 上官倩结缘与远古战场初战, covering Chapters 192—199.
+- Added 上官倩, 水云, 花怜惜 and 陆文涛 as `CHAR-0036`—`CHAR-0039`.
+- Added `GIFT-0035` and `GIFT-0036`, returning 混沌极冰符, 天道冰剑符 and 血牛猛虎丹.
+- Recorded the remote-battlefield entry and the joint defeat of a炼虚中期尸灵 by徐霄 and诸葛无方.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0030` and queued `TASK-0031` beginning at Chapter 200.
+
 ## RUN-0038 — 2026-07-25
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

@@ -1,0 +1,105 @@
+schema_version: 2
+run_id: RUN-0039
+task_id: TASK-0030
+updated_at: '2026-07-25'
+arc:
+  chapter_start: 192
+  chapter_end: 199
+  node: NODE-0028
+  status: promoted
+  canonical_document: docs/01-timeline/node-0028.md
+  boundary_reason: 第199章完成远古战场入场与炼虚中期尸灵击杀；第200章转入新的气运之敌任务
+chapters:
+- chapter: 192
+  title: a级气运之女，上官倩
+  facts:
+  - 缥缈宗高层集结前往远古战场
+  - 上官倩结束二十年闭关并被识别为A 级气运之女
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 193
+  title: 上官倩的心思
+  facts:
+  - 上官倩接受两张化神九重玄冰剑雨符
+  - 首次赠送千倍暴击返还合体九重混沌极冰符
+  - 第二张返还炼虚九重天道冰剑符
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 194
+  title: 再惹众怒的徐霄
+  facts:
+  - 各方在大道神碑前汇合
+  - 道天门与缥缈宗完成战场前会面
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  status: partial
+- chapter: 195
+  title: 当众送礼
+  facts:
+  - 合欢宗与水家队伍到场
+  - 各方围绕徐霄关系和战场内冲突形成公开反应
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 196
+  title: 水云，花怜惜
+  facts:
+  - 花怜惜和水云首次登场
+  - 花怜惜为合欢宗太上长老
+  - 水云为水家掌舵人、水柔之母和水月祖母
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  status: partial
+- chapter: 197
+  title: 青山书院，陆文涛
+  facts:
+  - 水云接受绝品悟道丹
+  - 首次赠送千倍暴击返还血牛猛虎丹
+  - 陆文涛接受五枚虚天丹后改变公开态度
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  - CP小说网
+  status: partial
+- chapter: 198
+  title: 进入远古战场
+  facts:
+  - 大道神碑开启远古战场通道
+  - 缥缈宗队伍正式进入并前往黑石城
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  status: partial
+- chapter: 199
+  title: 斩杀炼虚尸灵
+  facts:
+  - 队伍遭遇手持法宝神剑的炼虚中期尸灵
+  - 诸葛无方正面牵制
+  - 徐霄以玄天八卦阵保护众人并用五柄神剑完成击杀
+  official_catalog: true
+  readable_mirrors:
+  - 小说之家
+  status: partial
+boundary_check:
+  next_chapter: 200
+  next_title: 新的气运之敌
+  transition: 转入新的系统击杀任务与黑石城阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

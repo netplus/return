@@ -1,0 +1,49 @@
+schema_version: 1
+run_id: RUN-0039
+gift_events:
+- id: GIFT-0035
+  chapter: 193
+  node: NODE-0028
+  giver: 徐霄
+  recipient: 上官倩
+  recipient_luck_grade: A
+  gift:
+  - 一张化神九重玄冰剑雨符
+  - 一张化神九重玄冰剑雨符
+  accepted: true
+  system_valid: true
+  first_gift: true
+  returns:
+  - triggered_multiplier: 1000
+    reward: 一张合体九重混沌极冰符
+  - triggered_multiplier: ordinary_return
+    reward: 一张炼虚九重天道冰剑符
+  status: partial
+- id: GIFT-0036
+  chapter: 197
+  node: NODE-0028
+  giver: 徐霄
+  recipient: 水云
+  gift: 绝品悟道丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 血牛猛虎丹
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add:
+    - 上官倩
+    - 水云
+    gift_ids_add:
+    - GIFT-0035
+    - GIFT-0036
+    related_nodes_add:
+    - NODE-0028
+    source_chapters_add:
+    - 192
+    - 193
+    - 197
