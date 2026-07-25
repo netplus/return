@@ -1,0 +1,49 @@
+schema_version: 1
+run_id: RUN-0053
+gift_events:
+- id: GIFT-0055
+  chapter: 317
+  node: NODE-0042
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 一滴火凤精血
+  accepted: true
+  system_valid: true
+  reward: 一滴天凤精血
+  status: partial
+- id: GIFT-0056
+  chapter: 322
+  node: NODE-0042
+  giver: 徐霄
+  recipient: 灵航
+  gift: 一件灵宝（具体名称待核验）
+  accepted: true
+  system_valid: true
+  reward: 先天灵宝四象斩天剑
+  triggered_multiplier: pending
+  status: partial
+- id: GIFT-0057
+  chapter: 323
+  node: NODE-0042
+  giver: 徐霄
+  recipient: 灵航
+  gift: 绝品驻颜丹
+  accepted: true
+  system_valid: true
+  first_bond_increase: true
+  triggered_multiplier: 1000
+  reward: 九转运天丹
+  relationship_result: 羁绊度提升至2
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [灵航]
+    gift_ids_add: [GIFT-0055, GIFT-0056, GIFT-0057]
+    rule_instances_add:
+    - {trigger: 灵航窃取一点气运, effect: 徐霄获得十点气运返还, chapter: 322, status: partial}
+    unresolved_updates_add:
+    - {chapter: 320, issue: 标题确认返还道具库再次升级，但触发条件、升级类别与品质上限缺少稳定正文证据, status: pending}
+    related_nodes_add: [NODE-0042]
+    source_chapters_add: [317, 320, 322, 323]
