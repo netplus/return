@@ -1,0 +1,16 @@
+schema_version: 1
+run_id: RUN-0043
+artifact_updates:
+- id: ART-0031
+  name: 三光分水剑
+  update:
+    field_set:
+      current_holder: 凤青玄
+    transfer_event: GIFT-0043
+    transferred_from: 徐霄
+    transferred_to: 凤青玄
+    transferred_in_chapter: 234
+    acceptance_confirmed_in_chapter: 235
+    relationship_result: 凤青玄停止现场杀戮并承诺之后开启出口
+    related_nodes_add: [NODE-0032]
+    source_chapters_add: [234, 235]
