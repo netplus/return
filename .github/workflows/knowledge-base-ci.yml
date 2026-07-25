@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths-ignore:
       - 'data/generated/**'
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -62,13 +64,17 @@ jobs:
           retention-days: 14
 
   refresh-generated:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: >-
+      github.event_name == 'push' ||
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -85,6 +91,8 @@ jobs:
 
       - name: Commit refreshed indexes
         shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
         run: |
           if git diff --quiet -- data/generated; then
             echo 'Generated indexes are already current.'
@@ -96,6 +104,6 @@ jobs:
           git add data/generated
           git commit -m 'chore(data): refresh generated canonical indexes'
 
-          if ! git push origin HEAD:main; then
-            echo '::warning::main advanced during index refresh; a later push will retry automatically.'
+          if ! git push origin HEAD:"${TARGET_BRANCH}"; then
+            echo '::warning::target branch advanced during index refresh; a later run will retry automatically.'
           fi
