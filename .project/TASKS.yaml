@@ -45,20 +45,21 @@ tasks:
 - {id: TASK-0041, status: done}
 - {id: TASK-0042, status: done}
 - {id: TASK-0043, status: done}
-- id: TASK-0044
-  title: Build the 返宗汇报、凤族回归与方达飞后续 story arc from Chapter 317 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0053
-  target: {chapter_start: 317, chapter_end: 324, node: NODE-0042, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0042.md, data/extensions/timeline/run-0053.yaml, data/extensions/characters/run-0053.yaml, data/extensions/system/run-0053.yaml, data/extensions/artifacts/run-0053.yaml, sources/evidence/chapters-317-324.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0043]
+- {id: TASK-0044, status: done}
 - id: TASK-0045
   title: Build the 灵花岛、地月宗与灵田外勤 story arc from Chapter 325 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 325, provisional_chapter_end: 332, node: NODE-0043, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0054
+  target: {chapter_start: 325, chapter_end: 335, node: NODE-0043, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0043.md, data/extensions/timeline/run-0054.yaml, data/extensions/characters/run-0054.yaml, data/extensions/system/run-0054.yaml, data/extensions/artifacts/run-0054.yaml, sources/evidence/chapters-325-335.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0044]
+- id: TASK-0046
+  title: Build the 海底鲛人宫殿与海域冲突 story arc from Chapter 336 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 336, provisional_chapter_end: 343, node: NODE-0044, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0045]
