@@ -1,0 +1,32 @@
+schema_version: 2
+run_id: RUN-0074
+task_id: TASK-0065
+updated_at: '2026-07-27'
+arc:
+  chapter_start: 479
+  chapter_end: 485
+  node: NODE-0063
+  status: promoted
+  canonical_document: docs/01-timeline/node-0063.md
+  boundary_reason: 第485章完成龙矶渡劫后的长期资源与关系安排并引出蓬莱异变；第486章五年时间跳跃并转入第一婵渡大乘雷劫
+chapters:
+- {chapter: 479, title: 气运之女，龙矶, facts: [系统确认龙矶为有效气运对象, 龙矶长期准备第七次雷劫, 徐霄提出提供雷灵丹与防御灵宝], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 480, title: 龙矶的心思, facts: [徐霄赠送龙矶十枚雷灵丹, 首枚万倍返还仙牛神虎丹且其余返还九枚化仙丹, 九天神莲戒赠送返还仙莲玉戒], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 481, title: 返回盘龙岛, facts: [徐霄在无妄仙宗太上长老府邸建造期间处理玉冰与魔嬛关系, 乘九霄玉舟返回盘龙岛], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 482, title: 龙矶渡劫, facts: [徐霄在盘龙岛继续处理段红绫与陆大年资源关系, 龙矶开始第七次雷劫], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 483, title: 渡过雷劫，毫发无伤, facts: [龙矶使用雷灵丹与多件灵宝抵御第七次雷劫, 最终毫发无伤渡劫成功], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 484, title: 龙矶魔嬛争夺机缘, facts: [龙矶晋升渡劫七重, 徐霄承诺继续支持其第八与第九次雷劫, 龙矶与魔嬛围绕长期机缘形成竞争], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 485, title: 蓬莱事变, facts: [徐霄继续向龙矶与魔嬛提供雷灵丹, 龙矶公开确认与徐霄的长期关系期待, 蓬莱仙宗方向出现新事件], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 486
+  next_title: 五年之后
+  transition: 五年时间跳跃并转入第一婵渡大乘雷劫及新一轮宗门阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
