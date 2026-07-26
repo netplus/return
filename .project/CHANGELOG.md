@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0065 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0056`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 418; Chapter 419 begins the阴魂大军正式攻阵 and九宗外部救援 line.
+- Created `NODE-0054`: 陆雪瑶遇袭、先天神剑战与破界求援, covering Chapters 411—418.
+- Added 白无尘 as `CHAR-0078`; updated 徐霄、陆雪瑶、叶尘、赵无极、尹小倩 and玉冰 for persistent cultivation, combat, system, relationship and strategic changes.
+- Added `GIFT-0076`, recording ten蕴仙丹 to陆雪瑶 and the first-gift return of九天道元丹.
+- Added `ART-0050` 九天道元丹 and expanded噬魂封魔剑、混沌破金剑 and蕴仙丹 records.
+- Recorded徐霄's道元圣体、合体四重、十七股鸿蒙真气, the defeat of万剑尊者 and the九宗破界求援 plan.
+- Preserved万剑尊者夺舍细节、其余九枚返还、陆雪瑶系统面板、叶尘解封机制、赵无极地灵原人格状态、白无尘神魂损耗 and九宗准确伤亡 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0056` and queued `TASK-0057` beginning at Chapter 419.
+
 ## RUN-0064 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
