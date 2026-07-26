@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0061
+nodes:
+- id: NODE-0050
+  title: 陆雪瑶登场、拍卖会压制与阴煞界组队
+  chapters: {start: 381, end: 388}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第381—389章标题、顺序和边界；第381—388章正文由可访问镜像交叉核验
+  boundary_reason: 第388章完成魔姝邀请、徐霄入队与阴煞界行动队伍组建；第389章转入阴煞界阴谋和正式探索
+  characters: [徐霄, 玉冰, 尚水, 第一婵, 百里海棠, 陆雪瑶, 萧烬璃, 魔姝]
+  system_events:
+  - {event: 陆雪瑶气运识别, result: SSS级气运之女, status: partial}
+  - {event: 魔姝气运识别, result: C级气运之女, status: partial}
+  strategic_result: 徐霄取得九件压制法器强化无妄仙宗大乘阵容，随后加入魔姝队伍进入阴煞界行动阶段
+  pending: [陆雪瑶完整系统面板, 拍卖会完整竞品与总支出, 高价竞拍是否形成系统返还, 萧家黑市压制法器安排, 魔姝完整系统面板, 铁焰城完整法宝能力]
+  document: docs/01-timeline/node-0050.md
+  evidence: sources/evidence/chapters-381-388.yaml
