@@ -79,7 +79,17 @@ tasks:
 - id: TASK-0048
   title: Build the 三宗灭徐阴谋与地月城决战 story arc from Chapter 353 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 353, provisional_chapter_end: 360, node: NODE-0046, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0057
+  target: {chapter_start: 353, chapter_end: 360, node: NODE-0046, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0046.md, data/extensions/timeline/run-0057.yaml, data/extensions/characters/run-0057.yaml, data/extensions/system/run-0057.yaml, data/extensions/artifacts/run-0057.yaml, sources/evidence/chapters-353-360.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0047]
+- id: TASK-0049
+  title: Build the 地月城善后、返宗与玉冰关系 story arc from Chapter 361 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 361, provisional_chapter_end: 368, node: NODE-0047, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0048]
