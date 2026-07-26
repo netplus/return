@@ -73,7 +73,17 @@ tasks:
 - id: TASK-0051
   title: Build the 阴煞小界任务与铁焰城初战 story arc from Chapter 375 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 375, provisional_chapter_end: 382, node: NODE-0049, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0060
+  target: {chapter_start: 375, chapter_end: 380, node: NODE-0049, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0049.md, data/extensions/timeline/run-0060.yaml, data/extensions/characters/run-0060.yaml, data/extensions/system/run-0060.yaml, data/extensions/artifacts/run-0060.yaml, sources/evidence/chapters-375-380.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0050]
+- id: TASK-0052
+  title: Build the 陆雪瑶、铁焰城拍卖会与萧家邀请 story arc from Chapter 381 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 381, provisional_chapter_end: 388, node: NODE-0050, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0051]
