@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0062
+run_id: RUN-0063
 coverage:
-  chapters_covered_through: 397
-  chapters_promoted_in_run: [389, 390, 391, 392, 393, 394, 395, 396, 397]
-  timeline_nodes: 51
+  chapters_covered_through: 405
+  chapters_promoted_in_run: [398, 399, 400, 401, 402, 403, 404, 405]
+  timeline_nodes: 52
   draft_nodes: 0
-  story_arc_nodes: 48
-  characters_documented: 74
+  story_arc_nodes: 49
+  characters_documented: 76
   characters_staged: 0
   system_records: 1
-  gift_events: 72
+  gift_events: 73
   artifact_records: 49
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [389, 390, 391, 392, 393, 394, 395, 396, 397, 398]
-    cross_checked_mirror_chapters: [389, 390, 391, 392, 393, 394, 395, 396, 397]
-    pending_fields: [阴魂渗透完整规模, GIFT-0072精确倍率, 第396—397章魂丹与合道丹完整返还, 神木灵盾完整返还链条, 龙魂仙衣完整能力]
+    official_catalog_chapters: [398, 399, 400, 401, 402, 403, 404, 405, 406]
+    cross_checked_mirror_chapters: [398, 399, 400, 401, 402, 403, 404, 405]
+    pending_fields: [尹小倩完整系统面板, 阴煞天宗完整结构与夺舍规模, 兰若寺姥姥身份, 魂丹精确总数, 五行大道完整分支, 魂墟城三鬼身份境界, 萧四海夺舍时间与阴魂身份]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第397章完成铁焰城问罪善后、资源赠送与灵航关系互动；第398章转入尹小倩及阴煞界隐秘新人物线}
-  materiality: {status: passed, entity_updates: [NODE-0051, CHAR-0001徐霄, CHAR-0074魔姝, CHAR-0048玉冰, CHAR-0049第一婵, CHAR-0063百里海棠, CHAR-0059灵航, CHAR-0073陆雪瑶, GIFT-0072, ART-0049龙魂仙衣, ART-0046噬魂封魔剑]}
+  arc_coherence: {status: passed, boundary: 第405章完成萧四海及阴煞天宗夺舍阵营清算；第406章转入铁焰城回归、夺舍比例升级及善后}
+  materiality: {status: passed, entity_updates: [NODE-0052, CHAR-0001徐霄, CHAR-0074魔姝, CHAR-0071萧烬璃, CHAR-0072萧四海, CHAR-0075玄阴女尊, CHAR-0076尹小倩, GIFT-0073, ART-0046噬魂封魔剑, ART-0016鸿蒙一气丹, ART-0010三千大道丹]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0051.md, data/extensions/timeline/run-0062.yaml, data/extensions/characters/run-0062.yaml, data/extensions/system/run-0062.yaml, data/extensions/artifacts/run-0062.yaml]
+    files_checked: [docs/01-timeline/node-0052.md, data/extensions/timeline/run-0063.yaml, data/extensions/characters/run-0063.yaml, data/extensions/system/run-0063.yaml, data/extensions/artifacts/run-0063.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0062.yaml, data/extensions/characters/run-0062.yaml, data/extensions/system/run-0062.yaml, data/extensions/artifacts/run-0062.yaml, sources/evidence/chapters-389-397.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0063.yaml, data/extensions/characters/run-0063.yaml, data/extensions/system/run-0063.yaml, data/extensions/artifacts/run-0063.yaml, sources/evidence/chapters-398-405.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
