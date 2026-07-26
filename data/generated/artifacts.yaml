@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 31
+  extension_files: 32
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -311,6 +311,7 @@ artifacts:
   - NODE-0042
   - NODE-0043
   - NODE-0045
+  - NODE-0046
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -340,6 +341,11 @@ artifacts:
     result: 鸿蒙真气增至十二股
     source_instance: 此前库存实例
     status: partial
+  - chapter: 356
+    user: 徐霄
+    result: 鸿蒙真气总量增至十三股
+    source_gift: pending
+    status: partial
   source_chapters:
   - 281
   - 282
@@ -347,6 +353,7 @@ artifacts:
   - 327
   - 328
   - 335
+  - 356
 - id: ART-0017
   name: 九火琉璃罩
   category: 法宝
@@ -889,3 +896,7 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0045
+  - NODE-0046
+  combat_record: 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
+  source_chapters:
+  - 358

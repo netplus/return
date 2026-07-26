@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 34
+  extension_files: 35
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1808,3 +1808,51 @@ nodes:
   - 三宗调查队完整身份
   document: docs/01-timeline/node-0045.md
   evidence: sources/evidence/chapters-345-352.yaml
+- id: NODE-0046
+  title: 三宗围杀、地月城冰封与方达飞任务结算
+  chapters:
+    start: 353
+    end: 360
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第353—361章标题顺序与边界；第353—360章正文由可访问镜像交叉核验
+  boundary_reason: 第360章完成三名大乘与围杀阵营覆灭、方达飞任务结算及丹药库升级；第361章转入现场善后与返宗
+  characters:
+  - 徐霄
+  - 百里海棠
+  - 尚水
+  - 方达飞
+  - 魏无涯
+  - 玄魔
+  - 百里云天
+  - 玉冰
+  system_events:
+  - event: 方达飞气运之子任务结算
+    trigger: 击杀方达飞
+    reward: 丹药返还库普通返还上限提升至渡劫境
+    status: partial
+  - event: 百里海棠驻颜丹赠送
+    trigger: 赠送绝品驻颜丹
+    reward: pending
+    status: partial
+  conflict_events:
+  - event: 三宗舆论围杀与地月城冰封
+    result: 魏无涯、玄魔、百里云天、方达飞及主要围杀者死亡，地月城遭大乘九重冰系符箓覆盖
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    hongmeng_qi: 十三股
+    combat_resources_confirmed:
+    - 九天神莲戒
+    - 大乘九重混元天冰符
+    role_change: 以大乘顶级符箓终结三宗在地月城组织的公开围杀
+    status: partial
+  pending:
+  - GIFT-0064精确倍率与返还
+  - 鸿蒙一气丹具体返还来源
+  - 玄魔与百里云天精确大乘重数
+  - 地月城完整伤亡
+  - 七名合体巅峰修士完整身份
+  - 混元天冰符剩余库存
+  document: docs/01-timeline/node-0046.md
+  evidence: sources/evidence/chapters-353-360.yaml

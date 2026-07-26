@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 27
+  extension_files: 28
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -912,4 +912,16 @@ gifts:
   reward: 先天灵宝九天神莲戒
   triggered_multiplier: pending
   relationship_result: 获得用于长期防护的高阶资源支持
+  status: partial
+- id: GIFT-0064
+  chapter: 354
+  node: NODE-0046
+  giver: 徐霄
+  recipient: 百里海棠
+  gift: 绝品驻颜丹
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: pending
+  relationship_result: 长期资源与道侣关系继续稳定
   status: partial
