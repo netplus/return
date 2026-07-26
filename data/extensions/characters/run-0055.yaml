@@ -1,0 +1,56 @@
+schema_version: 1
+run_id: RUN-0055
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add: [以大乘层级混元天冰符冰封鲛人海域并摧毁鲛人族与三宗联合伏杀阵营]
+    relationship_change_add: [与娴月建立长期资源关系, 与百里海棠形成深海行动合作和共同保密关系]
+    related_nodes_add: [NODE-0044]
+    source_chapters_add: [336, 337, 338, 339, 340, 341, 342, 343, 344]
+- id: CHAR-0063
+  name: 百里海棠
+  update:
+    relationship_change: 请求徐霄协助寻找母亲并共同潜入鲛人海域；伏杀后与徐霄约定隐瞒真相
+    combat_record_add: [参与鲛人宫殿潜入与联合伏杀脱困]
+    related_nodes_add: [NODE-0044]
+    source_chapters_add: [338, 339, 340, 341, 342, 343, 344]
+- id: CHAR-0064
+  name: 百里敖
+  update:
+    status_set: dead
+    conflict_result: 在鲛人宫殿联合伏杀中被深海冰封击杀
+    related_nodes_add: [NODE-0044]
+    source_chapters_add: [336, 337, 341, 342, 343, 344]
+- id: CHAR-0065
+  name: 娴月
+  status: alive
+  role: supporting
+  affiliations: [灵猫族, 无妄仙宗]
+  identities: [灵猫族族长, 赤霞门下弟子, 有效气运赠送对象]
+  first_appearance: {chapter: 337, title: 娴月的忧虑, node: NODE-0044}
+  cultivation: {current: pending, status: pending}
+  system_profile: {luck_grade: pending, base_multiplier: pending, bond_level: pending, status: partial}
+  accepted_gifts: [GIFT-0061]
+  motivation: 为个人仙途与盘龙岛灵猫族前途主动寻求徐霄长期资源支持
+  related_nodes: [NODE-0044]
+  source_chapters: [337, 338, 339]
+  document: null
+  verification_status: partial
+- id: CHAR-0066
+  name: 百里长风
+  status: dead
+  role: antagonist
+  affiliations: [鲛人族]
+  identities: [鲛人族族长, 鲛人王宫统治者]
+  first_appearance: {chapter: 336, title: 海底鲛人宫殿, node: NODE-0044}
+  cultivation: {current: 合体巅峰, status: partial}
+  conflict:
+    target: 徐霄与百里海棠
+    action: 联合玉鼎仙宗天煞魔宗及云海域缥缈仙宗布置海底伏杀
+    result: 被混元天冰符深海冰封击杀
+    status: partial
+  related_nodes: [NODE-0044]
+  source_chapters: [336, 337, 341, 342, 343, 344]
+  document: null
+  verification_status: partial
