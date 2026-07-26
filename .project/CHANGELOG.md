@@ -1,5 +1,21 @@
 # Changelog
 
+## RUN-0077 — 2026-07-27
+
+- Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Audited the reader experience of the newly materialized `docs/02-characters/` and `docs/06-artifacts/` profiles after the user reported that the complete canonical projection was difficult to read.
+- Confirmed presentation defects: complex mappings were flattened into one-line code, long chapter and node lists dominated pages, machine field names leaked into the reader view, and full canonical YAML was expanded by default.
+- Inserted and completed maintenance task `TASK-0067R` without consuming or duplicating the pending Chapter 494 story task `TASK-0067`.
+- Upgraded the workflow standard to v2.2 and added the Entity-document readability quality gate.
+- Refactored `scripts/render_entity_docs.py` to generate concise overview tables and semantic sections for identity, cultivation and abilities, relationships, resources, major events, acquisition and transfer history, effects, usage, current state, sources and unresolved fields.
+- Changed complex dictionaries and lists into nested Markdown instead of compressed inline YAML.
+- Made complete source-chapter and node lists collapsible and moved the full canonical YAML into a default-collapsed audit appendix.
+- Added current-value resolution so `cultivation_change`, `age_change` and `lifespan_change` override older base fields in summaries.
+- Improved character and artifact directory indexes with current realm, major affiliation, category, grade and holder/state columns.
+- Expanded renderer tests to enforce semantic sections, current-value precedence, collapsed audit data, source-range compression, path collision behavior, stale detection and safe managed-file cleanup.
+- Preserved canonical counts and story coverage: 99 characters, 66 artifacts and Chapters covered through 493; no new story facts or Timeline node were added.
+- Left `TASK-0067` as the next unique pending task beginning at Chapter 494.
+
 ## RUN-0076 — 2026-07-27
 
 - Read Workflow, state, task queue, quality rules, metrics, changelog and dashboard before execution.
