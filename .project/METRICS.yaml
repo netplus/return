@@ -1,31 +1,31 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0076
+run_id: RUN-0077
 coverage:
-  chapters_covered_through: 493
-  chapters_promoted_in_run: []
-  timeline_nodes: 64
+  chapters_covered_through: 499
+  chapters_promoted_in_run: [494, 495, 496, 497, 498, 499]
+  timeline_nodes: 65
   draft_nodes: 0
-  story_arc_nodes: 61
-  characters_documented: 99
+  story_arc_nodes: 62
+  characters_documented: 102
   characters_staged: 0
   system_records: 1
-  gift_events: 104
-  artifact_records: 66
+  gift_events: 107
+  artifact_records: 68
   artifacts_staged: 0
 entity_documents:
-  character_records: 99
-  artifact_records: 66
-  expected_generated_documents: 165
+  character_records: 102
+  artifact_records: 68
+  expected_generated_documents: 170
   generator: scripts/render_entity_docs.py
   manifest: docs/entity-docs-manifest.yaml
 quality_gates:
-  source_traceability: {status: passed, scope: existing_canonical_records, failures: 0}
-  arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
-  materiality: {status: passed, entity_updates: [canonical_entity_document_renderer, workflow_v2.1, CI_generated_view_refresh]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, projection_targets: [docs/02-characters, docs/06-artifacts]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [494, 495, 496, 497, 498, 499, 500], cross_checked_mirror_chapters: [494, 495, 496, 497, 498, 499], failures: 0}
+  arc_coherence: {status: passed, boundary: 第499章完成魔妖道侣和跨宗资源安排；第500章转入天元仙塔闯关}
+  materiality: {status: passed, entity_updates: [NODE-0065, CHAR-0100罗刹天魔, CHAR-0101魔妖, CHAR-0102神玉, GIFT-0105, GIFT-0106, GIFT-0107, ART-0067仙器神盾, ART-0068人仙巅峰魂丹]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md, .github/workflows/knowledge-base-ci.yml]}
-  entity_document_freshness: {status: passed, characters: 99, artifacts: 66, complete_canonical_record_embedded: true, manifest_required: true}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: structured_canonical_projection}
+  yaml_structure_review: {status: passed}
+  entity_document_freshness: {status: passed, characters: 102, artifacts: 68, complete_canonical_record_embedded: true}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
