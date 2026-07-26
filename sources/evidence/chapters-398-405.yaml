@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0063
+task_id: TASK-0054
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 398
+  chapter_end: 405
+  node: NODE-0052
+  status: promoted
+  canonical_document: docs/01-timeline/node-0052.md
+  boundary_reason: 第405章完成萧四海及阴煞天宗夺舍阵营清算；第406章转入铁焰城回归、夺舍比例升级及善后
+chapters:
+- {chapter: 398, title: 尹小倩, facts: [玄阴女尊恢复年轻容貌并被确认是A级气运之女且返还倍率为10, 徐霄与魔姝队伍探索兰若寺, 尹小倩作为阴魂登场], official_catalog: true, readable_mirrors: [CP小说网, 笔趣阁镜像], status: partial}
+- {chapter: 399, title: 阴煞界隐秘, facts: [尹小倩尝试吸收徐霄阳气, 阳气损失触发十倍返还, 尹小倩说明阴煞大陆高阶修士转化阴魂并谋求夺舍天元修士], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 400, title: 大家震惊麻了, facts: [徐霄主动允许尹小倩继续吸收阳气, 赠送合体中期魂丹返还大乘中期魂丹, 尹小倩接受长期资源与重塑肉身承诺并进入养魂袋随行], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 401, title: 秒杀大乘阴魂, facts: [魔姝提供养魂袋, 徐霄识破兰若寺内被阴魂夺舍的同行修士, 噬魂封魔剑清除潜伏大乘阴魂], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 402, title: 五道圆满, facts: [徐霄离队进入黑土平原独立猎魂, 噬魂封魔剑清除十五具合体层级阴魂, 服用鸿蒙一气丹后鸿蒙真气增至十六股, 服用三千大道丹补全土之大道并形成五行大道阶段性圆满], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 403, title: 魂丹丰收，遇到萧家, facts: [尹小倩进入养魂袋修炼并获得持续魂丹承诺, 徐霄在魂墟城清除大量阴魂, 魂墟城出现三名大乘阴魂, 徐霄与萧烬璃率领的萧家队伍相遇], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 404, title: 四剑齐出, facts: [徐霄确认萧四海及十余名萧家长老已被阴煞天宗阴魂夺舍, 萧四海计划围杀徐霄并控制萧烬璃, 徐霄同时驱动四柄先天灵宝神剑反击], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 405, title: 解决大乘战斗, facts: [混沌破金剑击溃萧四海多件法宝, 四象斩天剑清除十余名夺舍长老肉身, 噬魂封魔剑吞噬逃逸阴魂, 萧四海及夺舍阵营覆灭], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 406
+  next_title: 各种被嫌弃
+  transition: 返回铁焰城并确认更大比例修士遭夺舍，进入全面渗透与人员收缩阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
