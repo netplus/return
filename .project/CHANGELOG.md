@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0060 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0051`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 380; Chapter 381 begins the陆雪瑶 and铁焰城拍卖会 stage.
+- Created `NODE-0049`: 阴煞小界任务、铁焰城立威与混沌破金剑, covering Chapters 375—380.
+- Added 萧烬璃 and萧四海 as `CHAR-0071` and `CHAR-0072`; updated 徐霄、玉冰、第一婵、叶尘 and赵无极 for persistent task, conflict, cultivation and strategic changes.
+- Added `GIFT-0070` and `GIFT-0071`, recording萧烬璃's合道丹 acceptance and the破灭天金剑 return of先天灵宝混沌破金剑.
+- Added `ART-0047` 混沌破金剑 and expanded合道丹 and神木飞舟 records.
+- Recorded the active赵无极 luck-enemy task, the铁焰城萧焰 killing,玉冰's protective intervention and萧家's temporary retreat.
+- Preserved阴煞小界 full rules,赵无极 exact realm and task settlement, `GIFT-0070` return, `GIFT-0071` multiplier,破灭天金剑 provenance and混沌破金剑 full abilities as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0051` and queued `TASK-0052` beginning at Chapter 381.
+
 ## RUN-0059 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
