@@ -1,0 +1,28 @@
+schema_version: 1
+run_id: RUN-0055
+nodes:
+- id: NODE-0044
+  title: 鲛人宫殿伏杀与深海冰封
+  chapters: {start: 336, end: 344}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第336—345章标题、顺序和边界；第336—344章正文由可访问镜像交叉核验
+  boundary_reason: 第344章完成深海冰封、联合伏杀阵营覆灭与徐霄百里海棠撤离；第345章转入三宗外部震荡
+  characters: [徐霄, 娴月, 百里海棠, 百里长风, 百里敖]
+  system_events:
+  - event: 娴月首次赠送返还
+    trigger: 赠送十枚虚天丹
+    reward: 三千大道丹
+    multiplier: 1000
+    status: partial
+  conflict_events:
+  - event: 鲛人宫殿联合伏杀
+    result: 徐霄以大乘层级混元天冰符冰封深海，鲛人高层及三宗代表死亡
+    status: partial
+  protagonist_state:
+    realm: 炼虚一重
+    role_change: 摧毁海底联合伏杀阵营，并与百里海棠建立深海行动合作关系
+    status: partial
+  pending: [娴月完整系统面板, 百里海棠母亲真实下落, 百里锦百里官完整面板, 三宗代表精确身份, 混元天冰符完整品阶来源与剩余数量, 鲛人普通族人伤亡规模]
+  document: docs/01-timeline/node-0044.md
+  evidence: sources/evidence/chapters-336-344.yaml

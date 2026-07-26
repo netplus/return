@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0054
+run_id: RUN-0055
 coverage:
-  chapters_covered_through: 335
-  chapters_promoted_in_run: [325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335]
-  timeline_nodes: 43
+  chapters_covered_through: 344
+  chapters_promoted_in_run: [336, 337, 338, 339, 340, 341, 342, 343, 344]
+  timeline_nodes: 44
   draft_nodes: 0
-  story_arc_nodes: 40
-  characters_documented: 64
+  story_arc_nodes: 41
+  characters_documented: 66
   characters_staged: 0
   system_records: 1
-  gift_events: 60
+  gift_events: 61
   artifact_records: 43
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336]
-    cross_checked_mirror_chapters: [325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335]
-    pending_fields: [赵无极精确境界与后续行动, 苏小韵苏瑶百里海棠完整系统面板, 百里敖与百里海棠是否存在血缘关系, 九天灵土剑完整能力, 九天精元长期效果]
+    official_catalog_chapters: [336, 337, 338, 339, 340, 341, 342, 343, 344, 345]
+    cross_checked_mirror_chapters: [336, 337, 338, 339, 340, 341, 342, 343, 344]
+    pending_fields: [娴月完整系统面板, 百里海棠母亲真实下落, 百里锦百里官完整面板, 三宗代表精确身份, 混元天冰符完整品阶来源与剩余数量, 鲛人普通族人伤亡规模]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第335章完成灵田防守、百里海棠赠送结算与阶段性舆论扩散；第336章转入海底鲛人宫殿}
-  materiality: {status: passed, entity_updates: [NODE-0043, CHAR-0060赵无极, CHAR-0061苏瑶, CHAR-0062苏小韵, CHAR-0063百里海棠, CHAR-0064百里敖, GIFT-0058, GIFT-0059, GIFT-0060, ART-0042九天灵土剑, ART-0043九天精元丹]}
+  arc_coherence: {status: passed, boundary: 第344章完成深海冰封、联合伏杀阵营覆灭与撤离；第345章转入三宗外部震荡}
+  materiality: {status: passed, entity_updates: [NODE-0044, CHAR-0065娴月, CHAR-0066百里长风, CHAR-0063百里海棠, CHAR-0064百里敖, GIFT-0061]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0043.md, data/extensions/timeline/run-0054.yaml, data/extensions/characters/run-0054.yaml, data/extensions/system/run-0054.yaml, data/extensions/artifacts/run-0054.yaml]
+    files_checked: [docs/01-timeline/node-0044.md, data/extensions/timeline/run-0055.yaml, data/extensions/characters/run-0055.yaml, data/extensions/system/run-0055.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0054.yaml, data/extensions/characters/run-0054.yaml, data/extensions/system/run-0054.yaml, data/extensions/artifacts/run-0054.yaml, sources/evidence/chapters-325-335.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0055.yaml, data/extensions/characters/run-0055.yaml, data/extensions/system/run-0055.yaml, sources/evidence/chapters-336-344.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

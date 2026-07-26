@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0055 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0046`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 344 so the鲛人宫殿联盟、娴月首次赠送、百里海棠潜入、联合伏杀 and深海冰封 remain one coherent arc; Chapter 345 begins三宗外部震荡.
+- Created `NODE-0044`: 鲛人宫殿伏杀与深海冰封, covering Chapters 336—344.
+- Added 娴月 and百里长风 as `CHAR-0065` and `CHAR-0066`; updated 徐霄、百里海棠 and百里敖 for persistent relationship, conflict and status changes.
+- Added `GIFT-0061`: ten虚天丹 to娴月, first-gift thousandfold return of三千大道丹.
+- Recorded the联合使用禁魔阵、困魔阵 and七星剑阵, and徐霄's大乘层级混元天冰符深海冰封反击.
+- Recorded the deaths of百里长风、百里敖 and the three-sect representatives; kept incomplete identities, casualty totals and符箓 inventory fields pending.
+- Added append-only Timeline, Character and System extension indexes and promoted chapter evidence; no empty Artifact extension was created.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0046` and queued `TASK-0047` beginning at Chapter 345.
+
 ## RUN-0054 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
