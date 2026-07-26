@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 40
+  extension_files: 41
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -117,6 +117,7 @@ characters:
   - NODE-0050
   - NODE-0051
   - NODE-0052
+  - NODE-0053
   source_chapters:
   - 1
   - 2
@@ -485,6 +486,11 @@ characters:
   - 403
   - 404
   - 405
+  - 406
+  - 407
+  - 408
+  - 409
+  - 410
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -600,6 +606,7 @@ characters:
   - 返回盘龙岛与铁幕城处理旧关系并完成阶段性告别后，继续以无妄仙宗为主要行动中心
   - 在八宗问罪中证明死亡修士已被夺舍并取得公开正当性
   - 掌握阴煞大陆高阶修士转化阴魂并夺舍天元修士的长期计划
+  - 掌握萧彭春执掌阴煞天宗及利用铁焰城修士重建阴煞大陆的核心阴谋
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -618,9 +625,13 @@ characters:
   system_task_completion: 黑风气运之敌任务完成，下一次灵宝赠送可返还先天灵宝
   essence_state: 九天精元
   system_task:
-    target: 赵无极
+  - target: 赵无极
     type: 气运之敌
     reward: 一次万倍暴击机会
+    status: active
+  - target: 萧彭春
+    type: 气运之子击杀任务
+    reward: 道具返还库随机升级
     status: active
   strategic_change:
   - 以个人灵石竞得九件压制法器并交由玉冰管理
@@ -631,6 +642,9 @@ characters:
   - 噬魂封魔剑成为阴煞界核心清剿手段
   - 尹小倩吸收一点阳气时可获得十点阳气返还
   - 五行大道体系形成阶段性圆满
+  resource_change:
+  - 获得GIFT-0074返还的鸿蒙一气丹
+  - 获得GIFT-0075返还的十枚渡劫初期魂丹
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2576,6 +2590,7 @@ characters:
   - NODE-0049
   - NODE-0050
   - NODE-0051
+  - NODE-0053
   source_chapters:
   - 250
   - 278
@@ -2605,6 +2620,9 @@ characters:
   - 395
   - 396
   - 397
+  - 407
+  - 409
+  - 410
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
@@ -2618,11 +2636,14 @@ characters:
   - GIFT-0066
   - GIFT-0067
   - GIFT-0072
+  - GIFT-0075
   public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
   strategic_change:
   - 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
   - 组织无妄仙宗大乘修士进入阴煞界并管理徐霄竞得的压制法器
+  - 获知阴煞天宗夺舍阴谋后收缩无妄仙宗探索队，只保留大乘修士与少量合体巅峰长老
   resource: 九件压制法器
+  relationship_network_change: 接纳尹小倩作为临时侍女并继续推进其天元大陆安置
 - id: CHAR-0049
   name: 第一婵
   status: alive
@@ -3622,6 +3643,7 @@ characters:
   accepted_gifts:
   - GIFT-0070
   - GIFT-0071
+  - GIFT-0074
   relationship_context:
     徐霄: 由警惕敌视转为接受资源并保留传讯接触，但长期立场尚未稳定
     萧四海: 萧家大长老，对徐霄强烈敌视
@@ -3630,6 +3652,7 @@ characters:
   - NODE-0049
   - NODE-0050
   - NODE-0052
+  - NODE-0053
   source_chapters:
   - 378
   - 379
@@ -3644,14 +3667,20 @@ characters:
   - 403
   - 404
   - 405
+  - 406
+  - 408
+  - 409
   document: null
   verification_status: partial
   relationship_change:
   - 因灵宝与拍卖会灵石收益主动私下邀请徐霄，双方形成持续利益接触
   - 对徐霄的资源与安全依赖进一步增强
+  - 与徐霄形成稳定道侣和资源依赖关系
   strategic_change:
   - 对萧家内部继续宣称与徐霄逢场作戏以获取长期资源
   - 在魂墟城确认萧四海及多名萧家长老已被阴魂夺舍，并在徐霄清算中获救
+  - 确认萧家合体以上修士大面积失联或被阴魂夺舍，并接受徐霄长期安全与魂丹支持
+  bond_level: 2
 - id: CHAR-0072
   name: 萧四海
   status: dead
@@ -3854,6 +3883,7 @@ characters:
     status: partial
   related_nodes:
   - NODE-0052
+  - NODE-0053
   source_chapters:
   - 398
   - 399
@@ -3861,5 +3891,43 @@ characters:
   - 401
   - 402
   - 403
+  - 407
+  - 409
+  - 410
+  document: null
+  verification_status: partial
+  identity: 玉冰身边侍女
+  affiliation: 无妄仙宗临时随行
+  relationship_change: 由养魂袋随行转为公开照料玉冰起居，并继续等待重塑肉身
+- id: CHAR-0077
+  name: 萧彭春
+  status: alive
+  role: antagonist
+  affiliations:
+  - 萧家
+  - 阴煞天宗
+  identities:
+  - 萧家老祖
+  - 阴煞天宗掌控者
+  - 气运之子
+  first_appearance:
+    chapter: 408
+    title: 惊天阴谋
+    node: NODE-0053
+  cultivation:
+    current: 大乘后期肉身与大乘九重神魂之力
+    status: partial
+  possessions:
+  - 先天灵宝铁焰神炉
+  strategic_plan: 夺舍铁焰城数万天元大陆修士，以其肉身重建阴煞大陆
+  system_task:
+    targeted_by: 徐霄
+    reward: 道具返还库随机升级
+    status: active
+  related_nodes:
+  - NODE-0053
+  source_chapters:
+  - 408
+  - 409
   document: null
   verification_status: partial

@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 33
+  extension_files: 34
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1034,4 +1034,28 @@ gifts:
   triggered_multiplier: pending
   reward: 一枚大乘中期魂丹
   relationship_result: 尹小倩接受长期阳气与魂丹支持并进入养魂袋随行
+  status: partial
+- id: GIFT-0074
+  chapter: 409
+  node: NODE-0053
+  giver: 徐霄
+  recipient: 萧烬璃
+  gift: 绝品驻颜丹
+  accepted: true
+  system_valid: true
+  first_bond_upgrade: true
+  triggered_multiplier: 1000
+  reward: 鸿蒙一气丹
+  relationship_result: 羁绊度提升至2并形成稳定道侣与资源关系
+  status: partial
+- id: GIFT-0075
+  chapter: 410
+  node: NODE-0053
+  giver: 徐霄
+  recipient: 玉冰
+  gift: 一枚大乘初期魂丹
+  accepted: true
+  system_valid: true
+  reward: 十枚渡劫初期魂丹
+  relationship_result: 玉冰获得用于大道修炼的高阶魂丹资源
   status: partial

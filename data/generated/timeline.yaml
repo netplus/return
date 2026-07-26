@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 41
+  extension_files: 42
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2074,3 +2074,42 @@ nodes:
   - 萧四海夺舍时间与阴魂身份
   document: docs/01-timeline/node-0052.md
   evidence: sources/evidence/chapters-398-405.yaml
+- id: NODE-0053
+  title: 铁焰城夺舍扩散、尹小倩新身份与九宗收缩
+  chapters:
+    start: 406
+    end: 410
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第406—411章标题、顺序和边界；第406—410章正文由可访问镜像交叉核验
+  boundary_reason: 第410章完成萧彭春阴谋确认、赠送结算及九宗行动队收缩；第411章转入陆雪瑶遇袭与驰援战斗
+  characters:
+  - 徐霄
+  - 萧烬璃
+  - 尹小倩
+  - 玉冰
+  - 萧彭春
+  - 魔姝
+  - 尚水
+  - 赵无极
+  - 叶尘
+  system_events:
+  - event: 识别新的气运之子萧彭春
+    task: 击杀萧彭春
+    reward: 道具返还库随机升级
+    status: partial
+  - event: 首次羁绊提升赠送萧烬璃绝品驻颜丹
+    reward: 鸿蒙一气丹
+    status: partial
+  - event: 赠送玉冰大乘初期魂丹
+    reward: 十枚渡劫初期魂丹
+    status: partial
+  relationship_result: 萧烬璃羁绊度提升至2；尹小倩转为玉冰身边侍女并继续随徐霄行动
+  pending:
+  - 萧彭春夺舍时间与原阴魂身份
+  - 铁焰神炉完整能力
+  - 铁焰城准确夺舍规模
+  - 尹小倩完整系统面板
+  - 渡劫初期魂丹完整药效
+  document: docs/01-timeline/node-0053.md
+  evidence: sources/evidence/chapters-406-410.yaml
