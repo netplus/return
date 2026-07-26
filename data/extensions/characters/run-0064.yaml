@@ -1,0 +1,51 @@
+schema_version: 1
+run_id: RUN-0064
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    role_change_add: 掌握萧彭春执掌阴煞天宗及利用铁焰城修士重建阴煞大陆的核心阴谋
+    system_task_add: {target: 萧彭春, type: 气运之子击杀任务, reward: 道具返还库随机升级, status: active}
+    resource_change_add: [获得GIFT-0074返还的鸿蒙一气丹, 获得GIFT-0075返还的十枚渡劫初期魂丹]
+    related_nodes_add: [NODE-0053]
+    source_chapters_add: [406, 407, 408, 409, 410]
+- id: CHAR-0071
+  name: 萧烬璃
+  update:
+    bond_level_set: 2
+    accepted_gifts_add: [GIFT-0074]
+    strategic_change_add: 确认萧家合体以上修士大面积失联或被阴魂夺舍，并接受徐霄长期安全与魂丹支持
+    relationship_change_add: 与徐霄形成稳定道侣和资源依赖关系
+    related_nodes_add: [NODE-0053]
+    source_chapters_add: [406, 408, 409]
+- id: CHAR-0076
+  name: 尹小倩
+  update:
+    identity_add: 玉冰身边侍女
+    affiliation_add: 无妄仙宗临时随行
+    relationship_change_add: 由养魂袋随行转为公开照料玉冰起居，并继续等待重塑肉身
+    related_nodes_add: [NODE-0053]
+    source_chapters_add: [407, 409, 410]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    accepted_gifts_add: [GIFT-0075]
+    strategic_change_add: 获知阴煞天宗夺舍阴谋后收缩无妄仙宗探索队，只保留大乘修士与少量合体巅峰长老
+    relationship_network_change_add: 接纳尹小倩作为临时侍女并继续推进其天元大陆安置
+    related_nodes_add: [NODE-0053]
+    source_chapters_add: [407, 409, 410]
+- id: CHAR-0077
+  name: 萧彭春
+  status: alive
+  role: antagonist
+  affiliations: [萧家, 阴煞天宗]
+  identities: [萧家老祖, 阴煞天宗掌控者, 气运之子]
+  first_appearance: {chapter: 408, title: 惊天阴谋, node: NODE-0053}
+  cultivation: {current: 大乘后期肉身与大乘九重神魂之力, status: partial}
+  possessions: [先天灵宝铁焰神炉]
+  strategic_plan: 夺舍铁焰城数万天元大陆修士，以其肉身重建阴煞大陆
+  system_task: {targeted_by: 徐霄, reward: 道具返还库随机升级, status: active}
+  related_nodes: [NODE-0053]
+  source_chapters: [408, 409]
+  document: null
+  verification_status: partial
