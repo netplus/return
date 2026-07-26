@@ -74,7 +74,17 @@ tasks:
 - id: TASK-0061
   title: Build the 独孤浩冲突、惊虹仙子赠礼与气运任务 story arc from Chapter 449 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 449, provisional_chapter_end: 456, node: NODE-0059, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0070
+  target: {chapter_start: 449, chapter_end: 454, node: NODE-0059, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0059.md, data/extensions/timeline/run-0070.yaml, data/extensions/characters/run-0070.yaml, data/extensions/system/run-0070.yaml, data/extensions/artifacts/run-0070.yaml, sources/evidence/chapters-449-454.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0060]
+- id: TASK-0062
+  title: Build the 黑蛇渗透、黑无忌迎亲与关系公开 story arc from Chapter 455 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 455, provisional_chapter_end: 462, node: NODE-0060, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0061]
