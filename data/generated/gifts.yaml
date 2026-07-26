@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 36
+  extension_files: 37
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1085,4 +1085,39 @@ gifts:
   triggered_multiplier: 10000
   reward: 仙器山河灵图
   relationship_result: 公开道侣与长期高阶资源关系进一步稳定
+  status: partial
+- id: GIFT-0078
+  chapter: 430
+  node: NODE-0056
+  giver: 徐霄
+  recipient: 凤仪
+  gift: 通天神针
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 凤仪接受长期资源承诺并同行东海
+  status: partial
+- id: GIFT-0079
+  chapter: 433
+  node: NODE-0056
+  giver: 徐霄
+  recipient: 妙玉
+  gift: 十枚合道丹
+  accepted: true
+  system_valid: true
+  reward: 一百枚蕴仙丹
+  triggered_multiplier: 10
+  status: partial
+- id: GIFT-0080
+  chapter: 433
+  node: NODE-0056
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 四象斩天剑
+  accepted: true
+  system_valid: true
+  reward: 仙器九天荡魔剑
+  triggered_multiplier: pending
+  relationship_result: 凤青玄涅槃防护资源升级
   status: partial

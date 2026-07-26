@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 44
+  extension_files: 45
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2190,3 +2190,44 @@ nodes:
   - 山河灵图完整空间规则
   document: docs/01-timeline/node-0055.md
   evidence: sources/evidence/chapters-419-424.yaml
+- id: NODE-0056
+  title: 独孤灵入宗、灵航晋升与东海仙器返还
+  chapters:
+    start: 425
+    end: 433
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第425—434章标题、顺序和边界；第425—433章正文由可访问镜像交叉核验
+  boundary_reason: 第433章完成妙玉与凤青玄连续赠送及仙器九天荡魔剑返还；第434章转入气运之子敖三与龙族正面冲突
+  characters:
+  - 徐霄
+  - 独孤灵
+  - 姬雪
+  - 玉冰
+  - 东方素华
+  - 灵航
+  - 凤青玄
+  - 凤仪
+  - 妙玉
+  - 秦朋
+  - 程芷
+  - 程双
+  system_events:
+  - event: 妙玉合道丹赠送
+    trigger: 十枚合道丹
+    reward: 一百枚蕴仙丹
+    status: partial
+  - event: 凤青玄先天灵宝赠送
+    trigger: 四象斩天剑
+    reward: 仙器九天荡魔剑
+    status: partial
+  relationship_result: 独孤灵进入无妄仙宗修炼体系，灵航晋升大乘，凤仪与凤青玄的资源关系进一步绑定徐霄
+  pending:
+  - 独孤灵完整系统面板
+  - 东方素华首次赠送链
+  - GIFT-0078返还
+  - 凤青玄涅槃完整机制
+  - 山河灵图活体控制规则
+  - 九天荡魔剑完整能力
+  document: docs/01-timeline/node-0056.md
+  evidence: sources/evidence/chapters-425-433.yaml

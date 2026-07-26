@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 40
+  extension_files: 41
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -784,6 +784,10 @@ artifacts:
     chapter: 306
     quantity: 57
     status: partial
+  - gift_id: GIFT-0079
+    quantity: 100
+    chapter: 433
+    status: partial
   effect: 蕴含大乘灵力，大乘修士服用后可大幅提升修为
   status: partial
   related_nodes:
@@ -791,10 +795,12 @@ artifacts:
   - NODE-0040
   - NODE-0041
   - NODE-0054
+  - NODE-0056
   source_chapters:
   - 298
   - 300
   - 414
+  - 433
   transfer:
     gift_id: GIFT-0076
     recipient: 陆雪瑶
@@ -913,11 +919,16 @@ artifacts:
   related_nodes:
   - NODE-0042
   - NODE-0043
+  - NODE-0056
   combat_record: 第332—334章在灵花岛海水环境中击杀大量合体与炼虚鲛人、击裂弱水神珠并击退百里敖
   source_chapters:
   - 332
   - 333
   - 334
+  - 433
+  transfer_event: GIFT-0080
+  transferred_to: 凤青玄
+  transferred_in_chapter: 433
 - id: ART-0041
   name: 九转运天丹
   category: 丹药
@@ -1141,5 +1152,19 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0055
+  - NODE-0056
   source_chapters:
   - 424
+  - 432
+  combat_record: 第432章控制并收纳两名合体龙族
+- id: ART-0054
+  name: 九天荡魔剑
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 433
+  current_holder: 徐霄
+  acquisition: GIFT-0080返还
+  effect: 完整能力、法阵机制与使用上限待后续确认
+  status: partial
+  related_nodes:
+  - NODE-0056
