@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0064
+run_id: RUN-0065
 coverage:
-  chapters_covered_through: 410
-  chapters_promoted_in_run: [406, 407, 408, 409, 410]
-  timeline_nodes: 53
+  chapters_covered_through: 418
+  chapters_promoted_in_run: [411, 412, 413, 414, 415, 416, 417, 418]
+  timeline_nodes: 54
   draft_nodes: 0
-  story_arc_nodes: 50
-  characters_documented: 77
+  story_arc_nodes: 51
+  characters_documented: 78
   characters_staged: 0
   system_records: 1
-  gift_events: 75
-  artifact_records: 49
+  gift_events: 76
+  artifact_records: 50
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [406, 407, 408, 409, 410, 411]
-    cross_checked_mirror_chapters: [406, 407, 408, 409, 410]
-    pending_fields: [萧彭春夺舍时间与原阴魂身份, 铁焰神炉完整能力, 铁焰城准确夺舍规模, 尹小倩完整系统面板, 渡劫初期魂丹完整药效, 萧烬璃完整系统面板]
+    official_catalog_chapters: [411, 412, 413, 414, 415, 416, 417, 418, 419]
+    cross_checked_mirror_chapters: [411, 412, 413, 414, 415, 416, 417, 418]
+    pending_fields: [万剑尊者夺舍细节, GIFT-0076其余九枚返还, 陆雪瑶完整系统面板, 叶尘系统解封机制, 赵无极与地灵原人格状态, 白无尘神魂损耗, 九宗准确伤亡与阵法名称]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第410章完成萧彭春阴谋确认、赠送结算及九宗行动队收缩；第411章转入陆雪瑶遇袭与徐霄驰援}
-  materiality: {status: passed, entity_updates: [NODE-0053, CHAR-0001徐霄, CHAR-0071萧烬璃, CHAR-0076尹小倩, CHAR-0048玉冰, CHAR-0077萧彭春, GIFT-0074, GIFT-0075]}
+  arc_coherence: {status: passed, boundary: 第418章完成九宗防御阵布置和白无尘破界求援启动；第419章转入阴魂大军正式攻阵}
+  materiality: {status: passed, entity_updates: [NODE-0054, CHAR-0001徐霄, CHAR-0073陆雪瑶, CHAR-0047叶尘, CHAR-0060赵无极, CHAR-0076尹小倩, CHAR-0048玉冰, CHAR-0078白无尘, GIFT-0076, ART-0050九天道元丹, ART-0046噬魂封魔剑, ART-0047混沌破金剑]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0053.md, data/extensions/timeline/run-0064.yaml, data/extensions/characters/run-0064.yaml, data/extensions/system/run-0064.yaml]
+    files_checked: [docs/01-timeline/node-0054.md, data/extensions/timeline/run-0065.yaml, data/extensions/characters/run-0065.yaml, data/extensions/system/run-0065.yaml, data/extensions/artifacts/run-0065.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0064.yaml, data/extensions/characters/run-0064.yaml, data/extensions/system/run-0064.yaml, sources/evidence/chapters-406-410.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0065.yaml, data/extensions/characters/run-0065.yaml, data/extensions/system/run-0065.yaml, data/extensions/artifacts/run-0065.yaml, sources/evidence/chapters-411-418.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
