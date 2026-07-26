@@ -1,0 +1,29 @@
+schema_version: 1
+run_id: RUN-0060
+artifacts:
+- id: ART-0047
+  name: 混沌破金剑
+  category: 先天灵宝神剑
+  grade: 先天灵宝
+  first_chapter: 380
+  current_holder: 徐霄
+  acquisition: GIFT-0071返还
+  abilities:
+  - 利破万法，可击穿法宝和护体防御
+  - 可与徐霄其他先天灵宝神剑协同驱动
+  - 完整法阵机制和威力上限待后续确认
+  status: partial
+  related_nodes: [NODE-0049]
+artifact_updates:
+- id: ART-0029
+  name: 合道丹
+  update:
+    transfer_add: {gift_id: GIFT-0070, recipient: 萧烬璃, quantity: 10, chapter: 378, status: partial}
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [378]
+- id: ART-0037
+  name: 神木飞舟
+  update:
+    transport_record_add: {chapters: [377], route: 无妄仙宗至黑木岭铁焰城, passengers: 无妄仙宗阴煞小界行动队伍, status: partial}
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [377]
