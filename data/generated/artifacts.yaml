@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 49
+  extension_files: 50
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1398,6 +1398,10 @@ artifacts:
     chapter: 488
     quantity: 9
     status: partial
+  - gift_id: GIFT-0105
+    chapter: 494
+    quantity: 10
+    status: partial
   effect: 完整药效与服用条件待后续确认
   status: partial
   related_nodes:
@@ -1405,6 +1409,9 @@ artifacts:
   - NODE-0062
   - NODE-0063
   - NODE-0064
+  - NODE-0065
+  source_chapters:
+  - 494
 - id: ART-0061
   name: 九幽惊魂剑
   category: 仙器神剑
@@ -1480,3 +1487,30 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0064
+- id: ART-0067
+  name: 仙器神盾（正式名称待确认）
+  category: 防御仙器
+  grade: 仙器
+  first_chapter: 494
+  current_holder: 徐霄
+  acquisition: GIFT-0105返还
+  effect: 完整防御机制与能力上限待后续正文确认
+  status: partial
+  related_nodes:
+  - NODE-0065
+  source_chapters:
+  - 494
+- id: ART-0068
+  name: 人仙巅峰魂丹
+  category: 神魂丹药
+  grade: 人仙巅峰
+  first_chapter: 494
+  current_holder: 徐霄
+  acquisition: GIFT-0105返还
+  effect: 蕴含高阶神魂修为与感悟；完整药效和使用限制待确认
+  current_state: 未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0065
+  source_chapters:
+  - 494

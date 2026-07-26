@@ -2,7 +2,7 @@
 
 <!-- AUTO-GENERATED FROM CANONICAL INDEX. DO NOT EDIT BY HAND. -->
 
-- Canonical 记录数：**99**
+- Canonical 记录数：**102**
 - 每个条目均包含可读摘要及完整 canonical YAML 记录。
 - 文档由 `scripts/render_entity_docs.py` 自动生成；应修改基础索引或追加扩展，而不是直接编辑生成文件。
 
@@ -107,3 +107,6 @@
 | `CHAR-0097` | 海岚 | partial | [海岚](海岚.md) |
 | `CHAR-0098` | 葬花 | partial | [葬花](葬花.md) |
 | `CHAR-0099` | 北风 | partial | [北风](北风.md) |
+| `CHAR-0100` | 罗刹天魔 | partial | [罗刹天魔](罗刹天魔.md) |
+| `CHAR-0101` | 魔妖 | partial | [魔妖](魔妖.md) |
+| `CHAR-0102` | 神玉 | partial | [神玉](神玉.md) |

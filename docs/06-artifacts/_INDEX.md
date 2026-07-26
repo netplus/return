@@ -2,7 +2,7 @@
 
 <!-- AUTO-GENERATED FROM CANONICAL INDEX. DO NOT EDIT BY HAND. -->
 
-- Canonical 记录数：**66**
+- Canonical 记录数：**68**
 - 每个条目均包含可读摘要及完整 canonical YAML 记录。
 - 文档由 `scripts/render_entity_docs.py` 自动生成；应修改基础索引或追加扩展，而不是直接编辑生成文件。
 
@@ -74,3 +74,5 @@
 | `ART-0064` | 仙牛神虎丹 | partial | [仙牛神虎丹](仙牛神虎丹.md) |
 | `ART-0065` | 仙莲玉戒 | partial | [仙莲玉戒](仙莲玉戒.md) |
 | `ART-0066` | 佛陀金身丹 | partial | [佛陀金身丹](佛陀金身丹.md) |
+| `ART-0067` | 仙器神盾（正式名称待确认） | partial | [仙器神盾（正式名称待确认）](仙器神盾（正式名称待确认）.md) |
+| `ART-0068` | 人仙巅峰魂丹 | partial | [人仙巅峰魂丹](人仙巅峰魂丹.md) |

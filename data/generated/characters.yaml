@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 52
+  extension_files: 53
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -132,6 +132,7 @@ characters:
   - NODE-0062
   - NODE-0063
   - NODE-0064
+  - NODE-0065
   source_chapters:
   - 1
   - 2
@@ -588,6 +589,12 @@ characters:
   - 491
   - 492
   - 493
+  - 494
+  - 495
+  - 496
+  - 497
+  - 498
+  - 499
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -635,6 +642,8 @@ characters:
   - 与玉冰结为公开道侣并将资源体系与无妄仙宗最高权力层绑定
   - 与黑蛇形成稳定道侣和长期资源关系
   - 冷若云与黑蛇关系分别获得两宗渡劫话事人公开推动或认可
+  - 与月幽冥形成稳定道侣及长期渡劫资源关系
+  - 与魔妖敲定道侣及长期资源关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -642,6 +651,7 @@ characters:
   - 服用仙魂神魄丹后神魂凝成仙神魂胎
   - 道元圣体可炼化天蛇神毒并转化为修炼灵力
   - 仙神魂胎神识随大乘境增强，可隐蔽识别渡劫修士识海中的夺舍阴灵
+  - 仙神魂胎可在识海内直接击溃并清除渡劫二重冰寒阴灵
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
   cultivation_change: 大乘境
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
@@ -720,6 +730,7 @@ characters:
   - 间接完成敖海气运之敌任务
   - 往返盘龙岛完成旧关系与资源安置，并承诺长期支持龙矶后续雷劫
   - 代表无妄仙宗参加天元仙宗天山论剑
+  - 进入天煞魔宗渡劫话事人和大乘天才的跨宗资源网络
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -810,6 +821,7 @@ characters:
   - NODE-0037
   - NODE-0056
   - NODE-0064
+  - NODE-0065
   source_chapters:
   - 1
   - 2
@@ -822,12 +834,13 @@ characters:
   - 488
   - 489
   - 490
+  - 495
   verification_status: verified
   status_change: 继续劝告徐霄收敛行为并关注盘龙岛关系人后续安置；出师精确含义待确认
   relationship_change:
   - 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
   - 与独孤灵在无妄仙宗重聚并继续承担其师父身份
-  cultivation_change: 大乘上境
+  cultivation_change: 大乘三重（仙术压制后外显大乘一重）
   constitution:
   - 元灵圣体
   - 元灵仙体
@@ -839,6 +852,7 @@ characters:
   - 恢复部分前世记忆
   - 须臾空间激活
   - 自带仙界法器重新显现
+  - 元灵仙体与雪瑶仙帝前世记忆继续觉醒
   accepted_resources:
   - 先天冰系神剑
   - 十枚蕴仙丹
@@ -4761,6 +4775,7 @@ characters:
   - GIFT-0093
   - GIFT-0094
   - GIFT-0097
+  - GIFT-0105
   relationship_context:
     徐霄: 由问责和敌视转为认可黑蛇关系、接受渡劫资源并公开维护徐霄
     黑蛇: 以宗门话事人身份接受其与徐霄的关系
@@ -4769,6 +4784,7 @@ characters:
   related_nodes:
   - NODE-0061
   - NODE-0062
+  - NODE-0065
   source_chapters:
   - 465
   - 466
@@ -4780,9 +4796,14 @@ characters:
   - 472
   - 473
   - 474
+  - 494
+  - 495
+  - 497
+  - 499
   document: null
   verification_status: partial
   authority_action: 代表黑魔圣宗确认与无妄仙宗、灵霄仙宗结盟
+  relationship_change: 与徐霄形成稳定道侣和长期渡劫资源关系
 - id: CHAR-0091
   name: 敖海
   status: dead
@@ -5010,11 +5031,16 @@ characters:
     status: partial
   related_nodes:
   - NODE-0064
+  - NODE-0065
   source_chapters:
   - 492
   - 493
+  - 494
+  - 496
+  - 499
   document: null
   verification_status: partial
+  conflict_change: 所属冰寒阴灵阵营开始直接派遣渡劫阴灵刺杀并夺舍徐霄
 - id: CHAR-0098
   name: 葬花
   status: unknown
@@ -5037,11 +5063,16 @@ characters:
     status: partial
   related_nodes:
   - NODE-0064
+  - NODE-0065
   source_chapters:
   - 492
   - 493
+  - 494
+  - 496
+  - 499
   document: null
   verification_status: partial
+  conflict_change: 所属冰寒阴灵阵营开始直接派遣渡劫阴灵刺杀并夺舍徐霄
 - id: CHAR-0099
   name: 北风
   status: unknown
@@ -5064,8 +5095,97 @@ characters:
     status: partial
   related_nodes:
   - NODE-0064
+  - NODE-0065
   source_chapters:
   - 492
   - 493
+  - 494
+  - 496
+  - 499
+  document: null
+  verification_status: partial
+  conflict_change: 所属冰寒阴灵阵营开始直接派遣渡劫阴灵刺杀并夺舍徐霄
+- id: CHAR-0100
+  name: 罗刹天魔
+  status: alive
+  role: supporting
+  affiliations:
+  - 天煞魔宗
+  identities:
+  - 天煞魔宗话事人
+  - 魔妖师父
+  first_appearance:
+    chapter: 497
+    title: 罗刹天魔，魔妖
+    node: NODE-0065
+  cultivation:
+    current: 渡劫境
+    exact_level: pending
+    status: partial
+  strategic_role: 推动魔妖与徐霄结缘并将天煞魔宗纳入跨宗资源联盟
+  accepted_resources:
+  - GIFT-0107中的五枚雷灵丹
+  related_nodes:
+  - NODE-0065
+  source_chapters:
+  - 497
+  - 498
+  - 499
+  document: null
+  verification_status: partial
+- id: CHAR-0101
+  name: 魔妖
+  status: alive
+  role: supporting
+  affiliations:
+  - 天煞魔宗
+  identities:
+  - 罗刹天魔弟子
+  - 天煞魔宗大乘天才
+  - 徐霄道侣
+  first_appearance:
+    chapter: 497
+    title: 罗刹天魔，魔妖
+    node: NODE-0065
+  cultivation:
+    current: 大乘境
+    exact_level: pending
+    status: partial
+  accepted_gifts:
+  - GIFT-0106
+  relationship_context:
+    徐霄: 经宗门高层推动敲定道侣关系并接受长期资源支持
+    status: partial
+  related_nodes:
+  - NODE-0065
+  source_chapters:
+  - 497
+  - 498
+  - 499
+  document: null
+  verification_status: partial
+- id: CHAR-0102
+  name: 神玉
+  status: alive
+  role: supporting
+  affiliations:
+  - 天元仙宗
+  identities:
+  - 天元仙宗话事人
+  - 天元大陆当前唯一渡劫八重修士
+  first_appearance:
+    chapter: 497
+    title: 罗刹天魔，魔妖
+    node: NODE-0065
+  cultivation:
+    current: 渡劫八重
+    status: partial
+  strategic_role: 主持天元仙宗高层与天元仙塔试炼并观察徐霄资源和战力
+  related_nodes:
+  - NODE-0065
+  source_chapters:
+  - 497
+  - 498
+  - 499
   document: null
   verification_status: partial

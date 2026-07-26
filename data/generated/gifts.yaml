@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 45
+  extension_files: 46
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1422,4 +1422,44 @@ gifts:
   triggered_multiplier: 10000
   reward: 一枚佛陀金身丹及九枚化仙丹
   relationship_result: 云心月接受资源但仍对徐霄保持明显负面评价
+  status: partial
+- id: GIFT-0105
+  chapter: 494
+  node: NODE-0065
+  giver: 徐霄
+  recipient: 月幽冥
+  gift: 先天灵盾、十枚雷灵丹及一枚渡劫巅峰魂丹
+  accepted: true
+  system_valid: true
+  reward: 仙器神盾、十枚化仙丹及一枚人仙巅峰魂丹
+  triggered_multiplier: pending
+  relationship_result: 形成稳定道侣和长期渡劫资源关系
+  status: partial
+- id: GIFT-0106
+  chapter: 498
+  node: NODE-0065
+  giver: 徐霄
+  recipient: 魔妖
+  gift: 十枚雷灵丹及一柄先天灵宝神剑
+  accepted: true
+  system_valid: true
+  first_gift: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 敲定道侣关系并进入长期资源网络
+  status: partial
+- id: GIFT-0107
+  chapter: 499
+  node: NODE-0065
+  giver: 徐霄
+  recipient:
+  - 长眉
+  - 天阁
+  - 真灵
+  - 罗刹天魔
+  gift: 二十枚雷灵丹（每人五枚）
+  accepted: true
+  system_valid: pending
+  reward: pending
+  relationship_result: 跨宗撮合与资源合作关系进一步制度化
   status: partial

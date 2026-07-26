@@ -3,7 +3,7 @@ generator: scripts/render_entity_docs.py
 source: data/generated
 groups:
   characters:
-    count: 99
+    count: 102
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -205,8 +205,14 @@ groups:
       path: docs/02-characters/葬花.md
     - id: CHAR-0099
       path: docs/02-characters/北风.md
+    - id: CHAR-0100
+      path: docs/02-characters/罗刹天魔.md
+    - id: CHAR-0101
+      path: docs/02-characters/魔妖.md
+    - id: CHAR-0102
+      path: docs/02-characters/神玉.md
   artifacts:
-    count: 66
+    count: 68
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -342,3 +348,7 @@ groups:
       path: docs/06-artifacts/仙莲玉戒.md
     - id: ART-0066
       path: docs/06-artifacts/佛陀金身丹.md
+    - id: ART-0067
+      path: docs/06-artifacts/仙器神盾（正式名称待确认）.md
+    - id: ART-0068
+      path: docs/06-artifacts/人仙巅峰魂丹.md
