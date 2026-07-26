@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0068
+task_id: TASK-0059
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 434
+  chapter_end: 441
+  node: NODE-0057
+  status: promoted
+  canonical_document: docs/01-timeline/node-0057.md
+  boundary_reason: 第441章完成白霜霜关系稳定并启动李茂失踪后的灵虚城搜查；第442章转入冷若云直接交涉及赠送结算
+chapters:
+- {chapter: 434, title: 气运之子，敖三, facts: [徐霄晋升合体七重并确认十八股鸿蒙真气, 凤仪接受徐霄长期资源关系, 敖三确认为东海龙族气运之子并逼近涅槃地点], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 435, title: 敖三带大军杀到, facts: [凤青玄接受天凤精血并重新启动涅槃, 赠送返还十枚天凤血丹, 敖三率龙族大军抵达], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 436, title: 秒杀众人, facts: [山河灵图瞬间收纳五名合体巅峰元帅及上千龙修, 九天荡魔剑绞碎敖三灵宝长枪, 敖三被收入山河灵图], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 437, title: 彻底拿捏凤族, facts: [徐霄确认涅槃地点未被更多龙族知晓, 徐霄在山河灵图内击杀敖三, 凤族对徐霄安全与资源能力的依赖加深], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 438, title: 气运之女白霜霜, facts: [凤仪获得天凤血丹与长期血脉提升承诺, 绝品驻颜丹返还三千大道丹, 绝品悟道丹万倍暴击返还两枚鸿蒙一气丹, 凤仪羁绊度提升至2, 白霜霜登场], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 439, title: 李茂找茬, facts: [白霜霜确认为虎力亲传弟子及白虎族天才, 李茂在无妄当铺制造纠纷并针对徐霄], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 440, title: 白霜霜的情况, facts: [李茂勒索极品灵石并被徐霄引入山河灵图, 白霜霜接受徐霄长期资源支持], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 441, title: 灵虚城主，冷若云, facts: [白霜霜与徐霄形成稳定道侣关系并将羁绊度提升至2, 李茂失踪引发灵虚城卫搜查, 灵虚城主冷若云正式登场], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 442
+  next_title: 十颗蕴仙丹打懵
+  transition: 转入冷若云直接问责、蕴仙丹赠送结算及灵虚城权力关系调整
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
