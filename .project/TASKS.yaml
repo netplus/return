@@ -114,7 +114,17 @@ tasks:
 - id: TASK-0065
   title: Build the 龙矶结缘、渡劫准备与盘龙岛返程 story arc from Chapter 479 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 479, provisional_chapter_end: 486, node: NODE-0063, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0074
+  target: {chapter_start: 479, chapter_end: 485, node: NODE-0063, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0063.md, data/extensions/timeline/run-0074.yaml, data/extensions/characters/run-0074.yaml, data/extensions/system/run-0074.yaml, data/extensions/artifacts/run-0074.yaml, sources/evidence/chapters-479-485.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0064]
+- id: TASK-0066
+  title: Build the 五年跃迁、第一婵晋升与天元仙宗启程 story arc from Chapter 486 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 486, provisional_chapter_end: 493, node: NODE-0064, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0065]
