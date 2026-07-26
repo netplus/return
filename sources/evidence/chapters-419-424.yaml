@@ -1,0 +1,31 @@
+schema_version: 2
+run_id: RUN-0066
+task_id: TASK-0057
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 419
+  chapter_end: 424
+  node: NODE-0055
+  status: promoted
+  canonical_document: docs/01-timeline/node-0055.md
+  boundary_reason: 第424章完成萧彭春任务结算、铁焰神炉赠送和仙器山河灵图返还；第425章转入独孤灵出岛线
+chapters:
+- {chapter: 419, title: 阴魂攻阵，太一赶到, facts: [萧彭春率阴魂军团强攻九宗防御阵, 白无尘求援促使九宗太上长老抵达空间裂缝, 太一携传送仙阵阵盘进入阴煞界组织救援], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 420, title: 全部传送, facts: [九宗修士按修为资历分批传送, 防御阵在阴魂进攻下持续崩解, 徐霄留在队伍最后并让第一婵灵航百里海棠等人先行撤离], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 421, title: 噬灵灭魂阵, facts: [九宗幸存者返回天元大陆后得知徐霄留守, 徐霄在阴煞界启动噬灵灭魂阵, 玉冰判断徐霄留守另有脱身安排], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 422, title: 徐霄回归, facts: [噬灵灭魂阵吞噬萧彭春及阴魂军团, 徐霄取得大量魂丹和铁焰神炉, 萧彭春气运之子任务完成并使法器返还库上限升级至仙器, 徐霄清理残余阴魂后独自破界回归], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 423, title: 先天灵宝，铁焰神炉, facts: [徐霄安全返回无妄仙宗, 第一婵百里海棠灵航魔姝等确认其回归, 徐霄公开展示从萧彭春处取得的铁焰神炉], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 424, title: 返还，仙器山河灵图, facts: [徐霄将铁焰神炉赠送玉冰, 任务万倍暴击返还仙器山河灵图, 山河灵图内含灵力循环的小世界且持有者拥有图内主宰权], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 425
+  next_title: 孤独灵出岛
+  transition: 转入独孤灵离开盘龙岛、纯阴之体与后续东海行动准备
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0065
+run_id: RUN-0066
 coverage:
-  chapters_covered_through: 418
-  chapters_promoted_in_run: [411, 412, 413, 414, 415, 416, 417, 418]
-  timeline_nodes: 54
+  chapters_covered_through: 424
+  chapters_promoted_in_run: [419, 420, 421, 422, 423, 424]
+  timeline_nodes: 55
   draft_nodes: 0
-  story_arc_nodes: 51
+  story_arc_nodes: 52
   characters_documented: 78
   characters_staged: 0
   system_records: 1
-  gift_events: 76
-  artifact_records: 50
+  gift_events: 77
+  artifact_records: 53
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [411, 412, 413, 414, 415, 416, 417, 418, 419]
-    cross_checked_mirror_chapters: [411, 412, 413, 414, 415, 416, 417, 418]
-    pending_fields: [万剑尊者夺舍细节, GIFT-0076其余九枚返还, 陆雪瑶完整系统面板, 叶尘系统解封机制, 赵无极与地灵原人格状态, 白无尘神魂损耗, 九宗准确伤亡与阵法名称]
+    official_catalog_chapters: [419, 420, 421, 422, 423, 424, 425]
+    cross_checked_mirror_chapters: [419, 420, 421, 422, 423, 424]
+    pending_fields: [太一传送阵完整机制, 阴魂军团与九宗准确人数伤亡, 噬灵灭魂阵盘来源品阶与使用限制, 魂丹精确总数与分配, 铁焰神炉完整能力, 山河灵图完整空间规则]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第418章完成九宗防御阵布置和白无尘破界求援启动；第419章转入阴魂大军正式攻阵}
-  materiality: {status: passed, entity_updates: [NODE-0054, CHAR-0001徐霄, CHAR-0073陆雪瑶, CHAR-0047叶尘, CHAR-0060赵无极, CHAR-0076尹小倩, CHAR-0048玉冰, CHAR-0078白无尘, GIFT-0076, ART-0050九天道元丹, ART-0046噬魂封魔剑, ART-0047混沌破金剑]}
+  arc_coherence: {status: passed, boundary: 第424章完成萧彭春任务结算、铁焰神炉赠送及仙器山河灵图返还；第425章转入独孤灵出岛线}
+  materiality: {status: passed, entity_updates: [NODE-0055, CHAR-0001徐霄, CHAR-0077萧彭春, CHAR-0048玉冰, CHAR-0078白无尘, GIFT-0077, ART-0051噬灵灭魂阵盘, ART-0052铁焰神炉, ART-0053山河灵图]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0054.md, data/extensions/timeline/run-0065.yaml, data/extensions/characters/run-0065.yaml, data/extensions/system/run-0065.yaml, data/extensions/artifacts/run-0065.yaml]
+    files_checked: [docs/01-timeline/node-0055.md, data/extensions/timeline/run-0066.yaml, data/extensions/characters/run-0066.yaml, data/extensions/system/run-0066.yaml, data/extensions/artifacts/run-0066.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0065.yaml, data/extensions/characters/run-0065.yaml, data/extensions/system/run-0065.yaml, data/extensions/artifacts/run-0065.yaml, sources/evidence/chapters-411-418.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0066.yaml, data/extensions/characters/run-0066.yaml, data/extensions/system/run-0066.yaml, data/extensions/artifacts/run-0066.yaml, sources/evidence/chapters-419-424.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

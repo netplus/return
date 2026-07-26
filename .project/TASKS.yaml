@@ -133,7 +133,17 @@ tasks:
 - id: TASK-0057
   title: Build the 阴魂攻阵、九宗救援与铁焰城撤离 story arc from Chapter 419 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 419, provisional_chapter_end: 426, node: NODE-0055, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0066
+  target: {chapter_start: 419, chapter_end: 424, node: NODE-0055, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0055.md, data/extensions/timeline/run-0066.yaml, data/extensions/characters/run-0066.yaml, data/extensions/system/run-0066.yaml, data/extensions/artifacts/run-0066.yaml, sources/evidence/chapters-419-424.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0056]
+- id: TASK-0058
+  title: Build the 独孤灵出岛、纯阴之体与东海出发 story arc from Chapter 425 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 425, provisional_chapter_end: 432, node: NODE-0056, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0057]

@@ -4,25 +4,25 @@
 - **Current milestone:** M9 — Chapters 401–450
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 418
-- **Current evidence exploration through:** Chapter 419
+- **Canonical coverage through:** Chapter 424
+- **Current evidence exploration through:** Chapter 425
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 54
+- **Completed timeline nodes:** 55
 - **Draft timeline nodes:** 0
 - **Documented characters:** 78
-- **Gift events:** 76
-- **Artifact records:** 50
-- **Last run:** `RUN-0065`
-- **Last completed node:** `NODE-0054`
-- **Next task:** `TASK-0057` — 阴魂攻阵、九宗救援与铁焰城撤离 story arc
-- **Provisional exploration range:** Chapters 419–426
+- **Gift events:** 77
+- **Artifact records:** 53
+- **Last run:** `RUN-0066`
+- **Last completed node:** `NODE-0055`
+- **Next task:** `TASK-0058` — 独孤灵出岛、纯阴之体与东海出发 story arc
+- **Provisional exploration range:** Chapters 425–432
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0054` covers Chapters 411—418. 陆雪瑶遭被夺舍的万剑尊者和大乘阴魂伏击，徐霄驾驶神木飞舟驰援，以噬魂封魔剑和五柄先天灵宝神剑击杀追兵。徐霄首次向陆雪瑶赠送十枚蕴仙丹，万倍暴击返还九天道元丹；服用后获得道元圣体，境界升至合体四重，并形成自动吸纳灵气修炼能力。叶尘系统预警赵无极、地灵已遭夺舍并帮助其逃离。九宗确认超过半数大乘修士及大量队伍失联，幸存者收缩至三四百人，最终叠加大乘防御阵并由白无尘分裂神魂破界求援。第 419 章转入阴魂大军正式攻阵。
+`NODE-0055` covers Chapters 419—424. 白无尘破界求援后，九宗太上长老在空间裂缝外组织救援，太一携传送仙阵阵盘进入阴煞界。九宗幸存者在阴魂持续攻阵时分批撤离，徐霄留到最后主持阵法。众人撤回天元大陆后，徐霄启动噬灵灭魂阵，吞噬萧彭春及阴魂军团并取得大量魂丹和铁焰神炉。萧彭春任务完成后，法器返还库上限升级至仙器。徐霄独自回归无妄仙宗，将铁焰神炉赠送玉冰，任务万倍暴击返还空间类仙器山河灵图。第 425 章转入独孤灵出岛线。
 
-## Quality gates — RUN-0065
+## Quality gates — RUN-0066
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 411—419 章标题、顺序和边界；第 411—418 章正文由 CP 小说网等可访问正文镜像交叉核验。万剑尊者夺舍细节、`GIFT-0076` 其余九枚返还、陆雪瑶完整系统面板、叶尘系统解封机制、赵无极与地灵原人格状态、白无尘神魂损耗及九宗准确伤亡继续保持 `pending`。
+番茄小说官方目录确认第 419—425 章标题、顺序和边界；第 419—424 章正文由 CP 小说网等可访问正文镜像交叉核验。太一传送阵完整机制、阴魂军团与九宗准确人数伤亡、噬灵灭魂阵盘来源品阶与限制、魂丹精确总数与分配、铁焰神炉完整能力及山河灵图完整空间规则继续保持 `pending`。

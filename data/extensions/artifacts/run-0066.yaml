@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0066
+artifacts:
+- id: ART-0051
+  name: 噬灵灭魂阵盘
+  category: 阵盘
+  first_chapter: 421
+  current_holder: 徐霄
+  acquisition: 来源待后续正文确认
+  abilities:
+  - 形成具有强大吸力的阵眼黑洞
+  - 吞噬并绞杀合体及大乘层级阴魂
+  - 将被清除阴魂转化为魂丹
+  status: partial
+  related_nodes: [NODE-0055]
+  source_chapters: [421, 422]
+- id: ART-0052
+  name: 铁焰神炉
+  category: 先天灵宝
+  grade: 先天灵宝
+  first_chapter: 408
+  current_holder: 玉冰
+  prior_holder: 萧彭春
+  acquisition: 萧彭春死亡后由徐霄取得
+  transfer:
+    gift_id: GIFT-0077
+    chapter: 424
+    from: 徐霄
+    to: 玉冰
+    status: partial
+  abilities: [完整攻击、防御及空间能力待后续确认]
+  status: partial
+  related_nodes: [NODE-0053, NODE-0055]
+  source_chapters: [408, 422, 423, 424]
+- id: ART-0053
+  name: 山河灵图
+  category: 仙器
+  grade: 仙器
+  first_chapter: 424
+  current_holder: 徐霄
+  acquisition: GIFT-0077任务万倍暴击返还
+  abilities:
+  - 内含一方山河小世界
+  - 小世界内灵力循环往复
+  - 持有者在图内拥有绝对主宰权
+  status: partial
+  related_nodes: [NODE-0055]
+  source_chapters: [424]

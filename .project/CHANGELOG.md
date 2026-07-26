@@ -1,5 +1,21 @@
 # Changelog
 
+## RUN-0066 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0057`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 424; Chapter 425 begins the独孤灵出岛、纯阴之体 and后续东海行动 line.
+- Created `NODE-0055`: 阴魂攻阵、破界撤离与仙器返还, covering Chapters 419—424.
+- Updated 徐霄、萧彭春、玉冰 and白无尘 for persistent combat, task, relationship and strategic changes.
+- Added `GIFT-0077`, recording先天灵宝铁焰神炉 to玉冰 and the task-ten-thousandfold return of仙器山河灵图.
+- Added `ART-0051` 噬灵灭魂阵盘, `ART-0052` 铁焰神炉 and `ART-0053` 山河灵图.
+- Completed the萧彭春 luck-child task and recorded the法器返还库 cap upgrade to仙器.
+- Recorded the nine-sect cross-boundary evacuation, 徐霄's留守反杀, large魂丹 harvest and safe return.
+- Preserved太一传送阵机制、准确人数伤亡、阵盘来源限制、魂丹精确总数、铁焰神炉完整能力 and山河灵图完整空间规则 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0057` and queued `TASK-0058` beginning at Chapter 425.
+
 ## RUN-0065 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
