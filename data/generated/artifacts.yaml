@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 30
+  extension_files: 31
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -297,6 +297,9 @@ artifacts:
     chapter: 306
     status: partial
   - GIFT-0058返还
+  - gift_id: GIFT-0062
+    chapter: 347
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -307,6 +310,7 @@ artifacts:
   - NODE-0041
   - NODE-0042
   - NODE-0043
+  - NODE-0045
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -314,6 +318,8 @@ artifacts:
   - 鸿蒙真气完整能力
   - GIFT-0033原始赠送物品与精确倍率
   - 鸿蒙一气丹累计实例数
+  - GIFT-0062精确倍率
+  - 本次鸿蒙一气丹服用时间与效果
   consumption:
   - chapter: 172
     user: 徐霄
@@ -870,3 +876,16 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0043
+- id: ART-0044
+  name: 九天神莲戒
+  category: 先天灵宝
+  grade: 先天灵宝
+  first_chapter: 347
+  current_holder: 徐霄
+  acquisition: GIFT-0063返还
+  effect: 激活后形成九天金莲护体，侧重防御
+  complete_defense_limit: pending
+  refinement_status: pending
+  status: partial
+  related_nodes:
+  - NODE-0045

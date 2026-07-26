@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 26
+  extension_files: 27
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -886,4 +886,30 @@ gifts:
   triggered_multiplier: 1000
   reward: 三千大道丹
   relationship_result: 建立长期资源支持关系
+  status: partial
+- id: GIFT-0062
+  chapter: 347
+  node: NODE-0045
+  giver: 徐霄
+  recipient: 百里海棠
+  gift: 十枚合道丹
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 鸿蒙一气丹
+  triggered_multiplier: pending
+  relationship_result: 羁绊度提升至2并形成长期资源关系
+  status: partial
+- id: GIFT-0063
+  chapter: 347
+  node: NODE-0045
+  giver: 徐霄
+  recipient: 百里海棠
+  gift: 防御灵宝（名称待确认）
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 先天灵宝九天神莲戒
+  triggered_multiplier: pending
+  relationship_result: 获得用于长期防护的高阶资源支持
   status: partial

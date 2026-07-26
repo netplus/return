@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 33
+  extension_files: 34
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1760,3 +1760,51 @@ nodes:
   - 鲛人普通族人伤亡规模
   document: docs/01-timeline/node-0044.md
   evidence: sources/evidence/chapters-336-344.yaml
+- id: NODE-0045
+  title: 三宗震荡、百里海棠结缘与九天神莲戒
+  chapters:
+    start: 345
+    end: 352
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第345—353章标题、顺序和边界；第345—352章正文由可访问镜像交叉核验
+  boundary_reason: 第352章完成尚水真人问责、蕴仙丹利益平衡与百里海棠关系稳定；第353章转入三宗正式灭徐阴谋
+  characters:
+  - 徐霄
+  - 百里海棠
+  - 尚水
+  - 丹阳
+  - 清风
+  - 苏瑶
+  - 苏小韵
+  - 娴月
+  - 方达飞
+  - 魏无涯
+  system_events:
+  - event: 百里海棠资源赠送返还
+    trigger: 接受十枚合道丹与防御灵宝
+    reward: 鸿蒙一气丹与先天灵宝九天神莲戒
+    status: partial
+  conflict_events:
+  - event: 三宗人员魂灯熄灭与秘密调查
+    result: 玉鼎仙宗、天煞魔宗和云海域缥缈仙宗将徐霄列为重点调查对象
+    status: partial
+  - event: 尚水真人问责
+    result: 在百里海棠意愿、长期资源承诺和蕴仙丹影响下暂缓直接冲突
+    status: partial
+  protagonist_state:
+    realm: 炼虚境
+    new_resources:
+    - 鸿蒙一气丹
+    - 九天神莲戒
+    relationship_change: 与百里海棠形成稳定道侣和长期资源关系
+    status: partial
+  pending:
+  - GIFT-0062精确倍率
+  - GIFT-0063原始灵宝名称与精确倍率
+  - 九天神莲戒完整能力
+  - 尚水精确境界
+  - 鲛人老祖动向
+  - 三宗调查队完整身份
+  document: docs/01-timeline/node-0045.md
+  evidence: sources/evidence/chapters-345-352.yaml
