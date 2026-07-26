@@ -1,0 +1,31 @@
+schema_version: 2
+run_id: RUN-0070
+task_id: TASK-0061
+updated_at: '2026-07-27'
+arc:
+  chapter_start: 449
+  chapter_end: 454
+  node: NODE-0059
+  status: promoted
+  canonical_document: docs/01-timeline/node-0059.md
+  boundary_reason: 第454章完成黑魔圣宗情报节点控制及持续赠送阶段；第455章转入黑蛇执行婚约渗透的新人物线
+chapters:
+- {chapter: 449, title: 惊虹仙子, facts: [独孤浩以大乘六重攻击徐霄, 山河灵图挡下攻击, 系统识别独孤浩为气运之子并发布击杀任务, 欧阳惊虹正式登场], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 450, title: 魔爪连伸, facts: [徐霄向欧阳惊虹赠送蕴仙丹魂丹与合道丹, 独孤浩再次试图强制带走徐霄, 灵霄仙宗大乘修士因徐霄底牌与资源暂缓行动], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 451, title: 打发四名大乘, facts: [欧阳惊虹综合赠送完成结算, 首枚蕴仙丹万倍返还鸿蒙一气丹, 其余赠送返还雷灵丹大乘魂丹与蕴仙丹, 四名大乘修士离开无妄当铺], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 452, title: 气运之敌，黑无忌, facts: [萧烬璃披露黑无忌婚约并请求徐霄保护, 黑无忌被确认为气运之敌, 徐霄经萧烬璃向冷若云与欧阳惊虹转交两枚大乘中期魂丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 453, title: 黑魔圣宗, facts: [两枚大乘中期魂丹返还两枚渡劫中期魂丹, 黑无忌与黑魔圣宗准备介入灵虚城婚约冲突, 黑石客栈被确认是黑魔圣宗情报节点], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 454, title: 继续送礼, facts: [徐霄识破黑石客栈监控记录, 山河灵图收纳一名合体巅峰与五名炼虚情报人员, 独孤浩继续推动萧烬璃与黑无忌婚约], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 455
+  next_title: 黑蛇
+  transition: 黑魔圣宗改由黑蛇进入灵虚城执行婚约与渗透行动
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
