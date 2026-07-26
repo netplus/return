@@ -1,0 +1,17 @@
+schema_version: 1
+run_id: RUN-0062
+nodes:
+- id: NODE-0051
+  title: 阴魂夺舍、八宗问罪与龙魂仙衣
+  chapters: {start: 389, end: 397}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第389—398章标题、顺序和边界；第389—397章正文由可访问镜像交叉核验
+  boundary_reason: 第397章完成铁焰城问罪善后、连续资源赠送与灵航关系互动；第398章转入尹小倩及阴煞界隐秘新人物线
+  characters: [徐霄, 魔姝, 玉冰, 第一婵, 百里海棠, 灵航, 公孙飞龙, 陆雪瑶]
+  system_events:
+  - {event: 九天神龙甲赠送, trigger: 九天神龙甲, reward: 先天灵宝龙魂仙衣, status: partial}
+  relationship_result: 魔姝、玉冰、第一婵、百里海棠与灵航的探索、公开维护和长期资源关系进一步稳定
+  pending: [阴魂渗透完整规模, GIFT-0072精确倍率, 第396—397章魂丹与合道丹完整返还, 神木灵盾完整返还链条, 龙魂仙衣完整能力]
+  document: docs/01-timeline/node-0051.md
+  evidence: sources/evidence/chapters-389-397.yaml
