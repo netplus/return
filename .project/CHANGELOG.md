@@ -1,5 +1,21 @@
 # Changelog
 
+## RUN-0068 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0059`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 441; Chapter 442 begins冷若云直接交涉、蕴仙丹赠送结算 and灵虚城权力关系调整.
+- Created `NODE-0057`: 敖三清算、凤族关系深化与白霜霜结缘, covering Chapters 434—441.
+- Added 敖三、白霜霜、李茂 and冷若云 as `CHAR-0080`—`CHAR-0083`; updated 徐霄、凤青玄、凤仪 and妙玉 for persistent cultivation, recovery, relationship and combat changes.
+- Added `GIFT-0081`—`GIFT-0083`, returning ten天凤血丹、三千大道丹 and two鸿蒙一气丹.
+- Added `ART-0055` 天凤血丹 and expanded天凤精血、山河灵图、九天荡魔剑、三千大道丹 and鸿蒙一气丹 records.
+- Recorded徐霄's合体七重 and十八股鸿蒙真气, the destruction of敖三's attack force, 凤仪 bond level 2 and白霜霜's entry into the long-term resource network.
+- Preserved敖三完整系统面板与任务奖励、先天灵珠、龙族军团最终处置、凤青玄重新涅槃结果、白霜霜完整面板与逐笔赠送、李茂最终状态 and冷若云赠送结算 as pending.
+- Removed one empty character update during pre-CI materiality review.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0059` and queued `TASK-0060` beginning at Chapter 442.
+
 ## RUN-0067 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
