@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0062
+artifacts:
+- id: ART-0049
+  name: 龙魂仙衣
+  category: 先天灵宝
+  grade: 先天灵宝
+  first_chapter: 396
+  current_holder: 徐霄
+  acquisition: GIFT-0072返还
+  abilities: [内含完整天龙之魂, 攻防兼备]
+  status: partial
+  related_nodes: [NODE-0051]
+artifact_updates:
+- id: ART-0046
+  name: 噬魂封魔剑
+  update:
+    combat_record_add: [识破并清除夺舍阴魂, 吞噬二十七具合体阴魂并形成魂丹]
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [390, 391, 392, 394]

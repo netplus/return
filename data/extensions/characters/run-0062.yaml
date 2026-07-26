@@ -1,0 +1,51 @@
+schema_version: 1
+run_id: RUN-0062
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [强化神识可识破阴魂夺舍, 噬魂封魔剑成为阴煞界核心清剿手段]
+    combat_record_add: [幽暗森林连续清除合体阴魂并取得魂丹, 铁焰城当众清除无妄仙宗队伍八具夺舍阴魂]
+    role_change_add: 在八宗问罪中证明死亡修士已被夺舍并取得公开正当性
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [389, 390, 391, 392, 393, 394, 395, 396, 397]
+- id: CHAR-0074
+  name: 魔姝
+  update:
+    relationship_change_add: 公开保护徐霄并形成稳定亲密关系和阴煞界探索联盟
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [389, 390, 391, 392]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    accepted_gifts_add: [GIFT-0072]
+    relationship_change_add: 在八宗问罪现场公开维护徐霄并进一步绑定道元传承与双方道侣关系
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [393, 394, 395, 396, 397]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    received_resources_add: [合体层级魂丹, 合道丹]
+    strategic_change_add: 接受徐霄要求暂留铁焰城规避阴煞界风险
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [396, 397]
+- id: CHAR-0063
+  name: 百里海棠
+  update:
+    received_resources_add: [合体层级魂丹, 合道丹]
+    strategic_change_add: 接受徐霄要求暂留铁焰城规避阴煞界风险
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [396, 397]
+- id: CHAR-0059
+  name: 灵航
+  update:
+    system_interaction_add: {trigger: 窃取徐霄一点气运, return_to_xuxiao: 二十点气运, chapter: 397, status: partial}
+    relationship_change_add: 与徐霄的气运互动和公开亲密关系进一步稳定
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [397]
+- id: CHAR-0073
+  name: 陆雪瑶
+  update:
+    attitude_change_add: 参与八宗问罪并继续对徐霄保持负面评价
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [393, 394, 395, 396]

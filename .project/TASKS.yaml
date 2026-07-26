@@ -93,7 +93,17 @@ tasks:
 - id: TASK-0053
   title: Build the 阴煞界阴谋、灭杀阴魂与铁焰城惊变 story arc from Chapter 389 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 389, provisional_chapter_end: 396, node: NODE-0051, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0062
+  target: {chapter_start: 389, chapter_end: 397, node: NODE-0051, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0051.md, data/extensions/timeline/run-0062.yaml, data/extensions/characters/run-0062.yaml, data/extensions/system/run-0062.yaml, data/extensions/artifacts/run-0062.yaml, sources/evidence/chapters-389-397.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0052]
+- id: TASK-0054
+  title: Build the 尹小倩、阴煞界隐秘与大乘阴魂初战 story arc from Chapter 398 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 398, provisional_chapter_end: 405, node: NODE-0052, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0053]
