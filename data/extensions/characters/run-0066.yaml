@@ -1,0 +1,34 @@
+schema_version: 1
+run_id: RUN-0066
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    combat_record_add: 以噬灵灭魂阵清除萧彭春及阴魂军团，并独自完成阴煞界撤离
+    resource_change_add: [获得大量魂丹, 取得ART-0052铁焰神炉, 通过GIFT-0077获得ART-0053山河灵图]
+    system_interaction_add: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
+    reputation_change_add: 因留守主持撤离和安全回归，九宗对其评价出现阶段性正向修正
+    related_nodes_add: [NODE-0055]
+    source_chapters_add: [419, 420, 421, 422, 423, 424]
+- id: CHAR-0077
+  name: 萧彭春
+  update:
+    status_change: 死亡
+    final_conflict_add: 率阴魂军团强攻九宗防御阵，最终被徐霄的噬灵灭魂阵吞噬
+    task_status_change: 对应气运之子击杀任务已完成
+    related_nodes_add: [NODE-0055]
+    source_chapters_add: [419, 420, 421, 422]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    accepted_gifts_add: [GIFT-0077]
+    resource_change_add: 获得先天灵宝铁焰神炉
+    relationship_change_add: 与徐霄的公开道侣和长期高阶资源关系进一步稳定
+    related_nodes_add: [NODE-0055]
+    source_chapters_add: [421, 423, 424]
+- id: CHAR-0078
+  name: 白无尘
+  update:
+    strategic_result_add: 破界求援成功促使九宗太上长老组织跨界传送救援
+    related_nodes_add: [NODE-0055]
+    source_chapters_add: [419]
