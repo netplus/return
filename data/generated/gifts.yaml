@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 31
+  extension_files: 32
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1009,4 +1009,16 @@ gifts:
   triggered_multiplier: pending
   reward: 先天灵宝混沌破金剑
   relationship_result: 萧烬璃接受灵宝并留下传讯渠道，双方形成持续接触可能
+  status: partial
+- id: GIFT-0072
+  chapter: 396
+  node: NODE-0051
+  giver: 徐霄
+  recipient: 玉冰
+  gift: 九天神龙甲
+  accepted: true
+  system_valid: true
+  reward: 先天灵宝龙魂仙衣
+  triggered_multiplier: pending
+  relationship_result: 公开道侣与长期资源关系进一步强化
   status: partial

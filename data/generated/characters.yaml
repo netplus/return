@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 38
+  extension_files: 39
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -115,6 +115,7 @@ characters:
   - NODE-0048
   - NODE-0049
   - NODE-0050
+  - NODE-0051
   source_chapters:
   - 1
   - 2
@@ -466,6 +467,15 @@ characters:
   - 386
   - 387
   - 388
+  - 389
+  - 390
+  - 391
+  - 392
+  - 393
+  - 394
+  - 395
+  - 396
+  - 397
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -538,6 +548,8 @@ characters:
   - 以大乘层级混元天冰符冰封鲛人海域并摧毁鲛人族与三宗联合伏杀阵营
   - 以大乘九重混元天冰符冰封地月城并覆灭三宗围杀阵营
   - 在铁焰城以神剑当场击杀合体初期萧焰并形成至少合体巅峰层级威慑
+  - 幽暗森林连续清除合体阴魂并取得魂丹
+  - 铁焰城当众清除无妄仙宗队伍八具夺舍阴魂
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -572,6 +584,7 @@ characters:
   - 以天阵阁临时首座身份实质推动凤族回归无妄仙宗
   - 晋升内门执事并继续兼任内门大师兄，宗门公开宣传其促成凤族回归的功绩
   - 返回盘龙岛与铁幕城处理旧关系并完成阶段性告别后，继续以无妄仙宗为主要行动中心
+  - 在八宗问罪中证明死亡修士已被夺舍并取得公开正当性
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -598,6 +611,9 @@ characters:
   - 以个人灵石竞得九件压制法器并交由玉冰管理
   - 加入魔姝带领的阴煞界行动队伍
   relationship_network_change: 与萧烬璃由资源赠送转为持续利益接触
+  ability_change:
+  - 强化神识可识破阴魂夺舍
+  - 噬魂封魔剑成为阴煞界核心清剿手段
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2542,6 +2558,7 @@ characters:
   - NODE-0047
   - NODE-0049
   - NODE-0050
+  - NODE-0051
   source_chapters:
   - 250
   - 278
@@ -2566,16 +2583,24 @@ characters:
   - 386
   - 387
   - 388
+  - 393
+  - 394
+  - 395
+  - 396
+  - 397
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
   artifact_action: 在护心龙镜刻入可直接联系自己的传讯阵
-  relationship_change: 与徐霄结为公开道侣，接受长期蕴仙丹、极品灵石及灵宝支持
+  relationship_change:
+  - 与徐霄结为公开道侣，接受长期蕴仙丹、极品灵石及灵宝支持
+  - 在八宗问罪现场公开维护徐霄并进一步绑定道元传承与双方道侣关系
   major_action: 继续取得徐霄天龙血用于研究，并要求执法体系压制针对徐霄的宗门舆论
   accepted_gifts:
   - GIFT-0065
   - GIFT-0066
   - GIFT-0067
+  - GIFT-0072
   public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
   strategic_change:
   - 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
@@ -2615,6 +2640,7 @@ characters:
   - NODE-0048
   - NODE-0049
   - NODE-0050
+  - NODE-0051
   source_chapters:
   - 250
   - 251
@@ -2649,6 +2675,8 @@ characters:
   - 386
   - 387
   - 388
+  - 396
+  - 397
   document: null
   verification_status: partial
   accepted_gifts:
@@ -2672,6 +2700,10 @@ characters:
   action_change:
   - 作为阴煞小界行动参与者随徐霄前往铁焰城
   - 作为无妄仙宗阴煞界行动成员完成出发和队伍安排
+  received_resources:
+  - 合体层级魂丹
+  - 合道丹
+  strategic_change: 接受徐霄要求暂留铁焰城规避阴煞界风险
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -3113,6 +3145,10 @@ characters:
     return_to_xuxiao: 十点气运
     chapter: 322
     status: partial
+  - trigger: 窃取徐霄一点气运
+    return_to_xuxiao: 二十点气运
+    chapter: 397
+    status: partial
   accepted_gifts:
   - GIFT-0056
   - GIFT-0057
@@ -3123,6 +3159,7 @@ characters:
   related_nodes:
   - NODE-0037
   - NODE-0042
+  - NODE-0051
   source_chapters:
   - 281
   - 282
@@ -3132,8 +3169,10 @@ characters:
   - 322
   - 323
   - 324
+  - 397
   document: null
   verification_status: partial
+  relationship_change: 与徐霄的气运互动和公开亲密关系进一步稳定
 - id: CHAR-0060
   name: 赵无极
   status: alive
@@ -3269,6 +3308,7 @@ characters:
   - NODE-0046
   - NODE-0047
   - NODE-0050
+  - NODE-0051
   source_chapters:
   - 331
   - 332
@@ -3297,6 +3337,8 @@ characters:
   - 386
   - 387
   - 388
+  - 396
+  - 397
   document: null
   verification_status: partial
   relationship_change:
@@ -3308,6 +3350,10 @@ characters:
   bond_level: 2
   conflict_change: 与师父尚水因选择徐霄产生公开冲突，后在资源利益下暂时缓和
   action_change: 作为无妄仙宗阴煞界行动成员完成出发和队伍安排
+  received_resources:
+  - 合体层级魂丹
+  - 合道丹
+  strategic_change: 接受徐霄要求暂留铁焰城规避阴煞界风险
 - id: CHAR-0064
   name: 百里敖
   status: dead
@@ -3642,13 +3688,19 @@ characters:
     status: partial
   related_nodes:
   - NODE-0050
+  - NODE-0051
   source_chapters:
   - 381
   - 382
   - 383
   - 384
+  - 393
+  - 394
+  - 395
+  - 396
   document: null
   verification_status: partial
+  attitude_change: 参与八宗问罪并继续对徐霄保持负面评价
 - id: CHAR-0074
   name: 魔姝
   status: alive
@@ -3681,8 +3733,14 @@ characters:
     status: partial
   related_nodes:
   - NODE-0050
+  - NODE-0051
   source_chapters:
   - 387
   - 388
+  - 389
+  - 390
+  - 391
+  - 392
   document: null
   verification_status: partial
+  relationship_change: 公开保护徐霄并形成稳定亲密关系和阴煞界探索联盟

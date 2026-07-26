@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 36
+  extension_files: 37
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -968,6 +968,15 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0048
+  - NODE-0051
+  combat_record:
+  - 识破并清除夺舍阴魂
+  - 吞噬二十七具合体阴魂并形成魂丹
+  source_chapters:
+  - 390
+  - 391
+  - 392
+  - 394
 - id: ART-0047
   name: 混沌破金剑
   category: 先天灵宝神剑
@@ -1005,3 +1014,16 @@ artifacts:
   - 385
   - 386
   document: null
+- id: ART-0049
+  name: 龙魂仙衣
+  category: 先天灵宝
+  grade: 先天灵宝
+  first_chapter: 396
+  current_holder: 徐霄
+  acquisition: GIFT-0072返还
+  abilities:
+  - 内含完整天龙之魂
+  - 攻防兼备
+  status: partial
+  related_nodes:
+  - NODE-0051
