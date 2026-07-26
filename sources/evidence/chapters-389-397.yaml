@@ -1,0 +1,34 @@
+schema_version: 2
+run_id: RUN-0062
+task_id: TASK-0053
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 389
+  chapter_end: 397
+  node: NODE-0051
+  status: promoted
+  canonical_document: docs/01-timeline/node-0051.md
+  boundary_reason: 第397章完成铁焰城问罪善后、资源赠送与灵航关系互动；第398章转入尹小倩及阴煞界隐秘新人物线
+chapters:
+- {chapter: 389, title: 阴煞界，恐怖阴谋, facts: [队伍采集灵植, 徐霄与魔姝关系继续靠近, 阴魂夺舍阴谋开始显露], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 390, title: 崩溃的黑山众人, facts: [合体阴魂试图夺舍徐霄, 徐霄强化神魂压制并灭杀阴魂], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 391, title: 灭杀阴魂, facts: [徐霄识破孟长义等人已被阴魂夺舍, 使用神魂锁链控制并清除夺舍者], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 392, title: 回城惊变, facts: [噬魂封魔剑清除二十七具合体阴魂, 徐霄取得多枚魂丹, 队伍返回铁焰城], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 393, title: 八大仙宗上门讨伐, facts: [八宗以缥缈仙宗人员死亡为由上门问罪, 徐霄发现无妄仙宗队伍中存在八名夺舍阴魂], official_catalog: true, readable_mirrors: [笔趣阁, CP小说网], status: partial}
+- {chapter: 394, title: 斩杀八具阴魂, facts: [徐霄当众证明死者已被夺舍, 清除无妄仙宗队伍八具阴魂, 问罪逻辑发生反转], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 395, title: 玉冰出手，全体破防, facts: [玉冰公开维护徐霄, 八宗失去问罪依据, 徐霄的阴魂识别和清剿能力获得公开确认], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 396, title: 返还，大乘巅峰魂丹, facts: [徐霄向玉冰赠送九天神龙甲, 系统返还先天灵宝龙魂仙衣, 八宗陆续撤离], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 397, title: 返还，神木灵盾, facts: [徐霄继续向第一婵和百里海棠提供魂丹与合道丹, 灵航继续气运互动, 徐霄要求核心关系人物暂留铁焰城], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 398
+  next_title: 尹小倩
+  transition: 转入新气运人物、阴煞界隐秘及更深层探索
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
