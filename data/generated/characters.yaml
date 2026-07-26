@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 50
+  extension_files: 51
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -130,6 +130,7 @@ characters:
   - NODE-0060
   - NODE-0061
   - NODE-0062
+  - NODE-0063
   source_chapters:
   - 1
   - 2
@@ -571,6 +572,13 @@ characters:
   - 476
   - 477
   - 478
+  - 479
+  - 480
+  - 481
+  - 482
+  - 483
+  - 484
+  - 485
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -700,6 +708,7 @@ characters:
   - 完成东海护法地点阶段性清场并转入灵虚城无妄当铺行动
   - 建立与灵霄仙宗及黑魔圣宗渡劫话事人的直接资源关系
   - 间接完成敖海气运之敌任务
+  - 往返盘龙岛完成旧关系与资源安置，并承诺长期支持龙矶后续雷劫
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -1032,7 +1041,7 @@ characters:
     chapter: 56
     status: partial
 - id: CHAR-0007
-  name: 金柳香
+  name: 段红绫
   status: alive
   role: supporting
   affiliations:
@@ -1067,6 +1076,7 @@ characters:
   - NODE-0006
   - NODE-0008
   - NODE-0011
+  - NODE-0063
   source_chapters:
   - 11
   - 12
@@ -1081,12 +1091,14 @@ characters:
   - 35
   - 36
   - 56
+  - 482
   verification_status: partial
   protection:
     protector: 徐霄
     scope: 公开保护与持续资源支持
     chapter: 56
     status: partial
+  relationship_change: 与徐霄关系继续稳定，暂留盘龙岛管理缥缈宗并等待后续接引
 - id: CHAR-0008
   name: 周啸
   status: dead
@@ -1144,7 +1156,7 @@ characters:
   - 32
   verification_status: partial
 - id: CHAR-0010
-  name: 李天霸
+  name: 陆大年
   status: dead
   role: antagonist
   affiliations:
@@ -1168,11 +1180,14 @@ characters:
     profile: docs/02-characters/李天霸.md
   related_nodes:
   - NODE-0008
+  - NODE-0063
   source_chapters:
   - 32
   - 33
   - 34
+  - 482
   verification_status: partial
+  resource_support: 徐霄重新提供修炼资源，完整清单待确认
 - id: CHAR-0011
   name: 玉玲珑
   status: alive
@@ -4787,11 +4802,24 @@ characters:
     status: partial
   related_nodes:
   - NODE-0062
+  - NODE-0063
   source_chapters:
   - 476
   - 477
+  - 479
+  - 480
+  - 482
+  - 483
+  - 484
+  - 485
   document: null
   verification_status: partial
+  cultivation_change: 渡劫七重
+  accepted_gifts:
+  - GIFT-0102
+  - GIFT-0103
+  relationship_change: 与徐霄形成稳定道侣及长期渡劫资源支持关系
+  role_change: 第七次雷劫毫发无伤通过，成为无妄仙宗渡劫后期核心战力
 - id: CHAR-0093
   name: 魔嬛
   status: alive
@@ -4822,8 +4850,14 @@ characters:
     status: partial
   related_nodes:
   - NODE-0062
+  - NODE-0063
   source_chapters:
   - 477
   - 478
+  - 481
+  - 483
+  - 484
+  - 485
   document: null
   verification_status: partial
+  relationship_change: 与龙矶围绕徐霄的长期资源与机缘形成公开竞争

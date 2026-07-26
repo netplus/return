@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 43
+  extension_files: 44
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1384,4 +1384,29 @@ gifts:
   accepted: true
   system_valid: true
   reward: 仙器仙灵天火剑
+  status: partial
+- id: GIFT-0102
+  chapter: 480
+  node: NODE-0063
+  giver: 徐霄
+  recipient: 龙矶
+  gift: 十枚雷灵丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 10000
+  reward: 一枚仙牛神虎丹与九枚化仙丹
+  relationship_result: 龙矶获得第七次雷劫核心资源并明确长期关系期待
+  status: partial
+- id: GIFT-0103
+  chapter: 480
+  node: NODE-0063
+  giver: 徐霄
+  recipient: 龙矶
+  gift: 先天灵宝九天神莲戒
+  accepted: true
+  system_valid: true
+  reward: 防御仙器仙莲玉戒
+  triggered_multiplier: pending
+  relationship_result: 龙矶获得渡劫防御保障并进入长期资源支持关系
   status: partial

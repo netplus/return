@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 47
+  extension_files: 48
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1016,9 +1016,18 @@ artifacts:
   related_nodes:
   - NODE-0045
   - NODE-0046
-  combat_record: 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
+  - NODE-0063
+  combat_record:
+  - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
+  - 第482—483章作为龙矶第七次雷劫防御依仗之一
   source_chapters:
   - 358
+  - 480
+  - 482
+  - 483
+  transfer_event: GIFT-0103
+  transferred_to: 龙矶
+  transferred_in_chapter: 480
 - id: ART-0045
   name: 雷灵丹
   category: 丹药
@@ -1051,6 +1060,7 @@ artifacts:
   - NODE-0060
   - NODE-0061
   - NODE-0062
+  - NODE-0063
   source_chapters:
   - 451
   - 455
@@ -1074,10 +1084,15 @@ artifacts:
   - 466
   - 470
   transfer:
-    gift_id: GIFT-0100
+  - gift_id: GIFT-0100
     chapter: 478
     recipient: 魔嬛
     quantity: 5
+    status: partial
+  - gift_id: GIFT-0102
+    chapter: 480
+    recipient: 龙矶
+    quantity: 10
     status: partial
 - id: ART-0046
   name: 噬魂封魔剑
@@ -1370,11 +1385,16 @@ artifacts:
     chapter: 478
     quantity: 5
     status: partial
+  - gift_id: GIFT-0102
+    chapter: 480
+    quantity: 9
+    status: partial
   effect: 完整药效与服用条件待后续确认
   status: partial
   related_nodes:
   - NODE-0061
   - NODE-0062
+  - NODE-0063
 - id: ART-0061
   name: 九幽惊魂剑
   category: 仙器神剑
@@ -1415,3 +1435,27 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0062
+- id: ART-0064
+  name: 仙牛神虎丹
+  category: 丹药
+  grade: 仙级丹药
+  first_chapter: 480
+  current_holder: 徐霄
+  acquisition: GIFT-0102万倍暴击返还
+  effect: 服用后强化肉身并获得仙牛神虎之力，完整增幅待确认
+  status: partial
+  related_nodes:
+  - NODE-0063
+- id: ART-0065
+  name: 仙莲玉戒
+  category: 防御仙器
+  grade: 仙器
+  first_chapter: 480
+  current_holder: 徐霄
+  acquisition: GIFT-0103返还
+  abilities:
+  - 形成九叶仙莲护体
+  - 针对高阶攻击提供防御
+  status: partial
+  related_nodes:
+  - NODE-0063
