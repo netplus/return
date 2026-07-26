@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-26'
-last_run_id: RUN-0067
+last_run_id: RUN-0068
 milestone: M9
 workflow:
   standard_version: 2.0
@@ -16,22 +16,22 @@ scope:
   chapter_start: 401
   chapter_end: 450
 progress:
-  chapters_covered_through: 433
-  chapters_examined_through: 434
+  chapters_covered_through: 441
+  chapters_examined_through: 442
   chapters_verified_through: 16
   source_qualified_chapter_ranges:
   - {start: 12, end: 42}
-  - {start: 44, end: 433}
+  - {start: 44, end: 441}
   source_qualification_exceptions: [43]
-  nodes_completed: 56
+  nodes_completed: 57
   nodes_drafted: 0
-  characters_documented: 79
+  characters_documented: 83
   characters_staged: 0
   system_records: 1
-  gift_events: 80
-  artifact_records: 54
+  gift_events: 83
+  artifact_records: 55
   artifacts_staged: 0
-  last_completed_node: NODE-0056
-current: {next_task: TASK-0059, task_status: pending, next_chapter: 434, provisional_arc_end: 441}
+  last_completed_node: NODE-0057
+current: {next_task: TASK-0060, task_status: pending, next_chapter: 442, provisional_arc_end: 449}
 status: active
 blockers: []
