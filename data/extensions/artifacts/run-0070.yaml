@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0070
+artifact_updates:
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: {gift_id: GIFT-0086, chapter: 451, result: 未确认服用, status: partial}
+    related_nodes_add: [NODE-0059]
+    source_chapters_add: [451]
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    acquisition_add: {gift_id: GIFT-0086, chapter: 451, quantity: 90, status: partial}
+    related_nodes_add: [NODE-0059]
+    source_chapters_add: [451]
+- id: ART-0053
+  name: 山河灵图
+  update:
+    combat_record_add:
+    - 第449—450章挡下独孤浩大乘六重攻击并公开形成大乘层级防御威慑
+    - 第454章收纳黑魔圣宗黑石客栈一名合体巅峰和五名炼虚情报人员
+    related_nodes_add: [NODE-0059]
+    source_chapters_add: [449, 450, 454]
