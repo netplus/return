@@ -1,0 +1,41 @@
+schema_version: 1
+run_id: RUN-0067
+artifacts:
+- id: ART-0054
+  name: 九天荡魔剑
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 433
+  current_holder: 徐霄
+  acquisition: GIFT-0080返还
+  effect: 完整能力、法阵机制与使用上限待后续确认
+  status: partial
+  related_nodes: [NODE-0056]
+artifact_updates:
+- name: 通天神针
+  update:
+    transfer_event_add: GIFT-0078
+    transferred_to_add: 凤仪
+    transferred_in_chapter_add: 430
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [430]
+- id: ART-0040
+  name: 四象斩天剑
+  update:
+    transfer_event_add: GIFT-0080
+    transferred_to_add: 凤青玄
+    transferred_in_chapter_add: 433
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [433]
+- id: ART-0034
+  name: 蕴仙丹
+  update:
+    acquisition_add: {gift_id: GIFT-0079, quantity: 100, chapter: 433, status: partial}
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [433]
+- id: ART-0053
+  name: 山河灵图
+  update:
+    combat_record_add: 第432章控制并收纳两名合体龙族
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [432]
