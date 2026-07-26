@@ -94,7 +94,17 @@ tasks:
 - id: TASK-0063
   title: Build the 灵霄渡劫话事人、魔宗来访与仙器返还 story arc from Chapter 463 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 463, provisional_chapter_end: 470, node: NODE-0061, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0072
+  target: {chapter_start: 463, chapter_end: 470, node: NODE-0061, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0061.md, data/extensions/timeline/run-0072.yaml, data/extensions/characters/run-0072.yaml, data/extensions/system/run-0072.yaml, data/extensions/artifacts/run-0072.yaml, sources/evidence/chapters-463-470.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0062]
+- id: TASK-0064
+  title: Build the 天阁来访、三宗关系公开与返宗善后 story arc from Chapter 471 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 471, provisional_chapter_end: 478, node: NODE-0062, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0063]

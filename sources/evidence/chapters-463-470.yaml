@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0072
+task_id: TASK-0063
+updated_at: '2026-07-27'
+arc:
+  chapter_start: 463
+  chapter_end: 470
+  node: NODE-0061
+  status: promoted
+  canonical_document: docs/01-timeline/node-0061.md
+  boundary_reason: 第470章完成敖海任务结算、丹药返还库升级和渡劫话事人答谢；第471章转入天阁来访与跨宗善后
+chapters:
+- {chapter: 463, title: 灵霄仙宗话事人，渡劫长老, facts: [真灵抵达灵虚城, 撤销对徐霄相关事件的公开怀疑, 推动冷若云与徐霄关系正式化], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 464, title: 魔宗来人, facts: [黑魔圣宗因黑无忌失踪来访问责, 真灵继续维护徐霄并推进两宗关系], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 465, title: 月幽冥的愤怒, facts: [月幽冥作为黑魔圣宗渡劫话事人登场, 系统确认其为SSS级气运之女, 其最初以渡劫威压追责], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 466, title: 雷灵丹, facts: [黑蛇展示徐霄提供的先天灵宝与长期资源, 月幽冥态度由问责转为争取关系绑定, 徐霄向月幽冥提供雷灵丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 467, title: 返还，九天玉骨丹, facts: [雷灵丹赠送返还九天玉骨丹, 真灵与月幽冥围绕徐霄资源价值竞争, 黑无忌失踪问责被资源议题压过], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 468, title: 东海龙族前来问罪, facts: [敖海与两名皇子率东海雷龙族抵达, 追查敖三死亡与雷灵珠易主], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 469, title: 三人懵逼当场, facts: [敖海秘法锁定徐霄与冷若云身上的雷灵珠气息, 系统识别敖海为气运之敌并发布击杀任务], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 470, title: 返还，化仙丹, facts: [真灵与月幽冥共同击杀敖海及其两名儿子, 徐霄间接完成敖海任务, 丹药返还库上限升级至人仙境, 徐霄将十枚雷灵丹分赠两名渡劫修士并形成化仙丹返还], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 471
+  next_title: 正在悠悠前来的天阁
+  transition: 转入无妄仙宗天阁抵达、跨宗关系公开及徐霄返宗善后
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

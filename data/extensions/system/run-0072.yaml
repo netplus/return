@@ -1,0 +1,52 @@
+schema_version: 1
+run_id: RUN-0072
+gift_events:
+- id: GIFT-0093
+  chapter: 466
+  node: NODE-0061
+  giver: 徐霄
+  recipient: 月幽冥
+  gift: 雷灵丹（数量待确认）
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: pending
+  reward: 九天玉骨丹
+  relationship_result: 月幽冥由问责转为争取徐霄与黑蛇的长期关系
+  status: partial
+- id: GIFT-0094
+  chapter: 470
+  node: NODE-0061
+  giver: 徐霄
+  recipient: 月幽冥
+  gift: 五枚雷灵丹
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: 化仙丹（逐笔数量待确认）
+  relationship_result: 月幽冥公开维护徐霄并下令清剿东海雷龙族后续力量
+  status: partial
+- id: GIFT-0095
+  chapter: 470
+  node: NODE-0061
+  giver: 徐霄
+  recipient: 真灵
+  gift: 五枚雷灵丹
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: 化仙丹返还链条待确认
+  relationship_result: 真灵与徐霄建立直接渡劫资源关系并继续公开维护
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0093, GIFT-0094, GIFT-0095]
+    confirmed_objects_add: [月幽冥]
+    task_update_add:
+    - {target: 敖海, type: 气运之敌, result: 间接完成, reward: 丹药返还库随机升级, chapter: 470, status: partial}
+    return_library_update_add:
+    - {category: 丹药, ordinary_return_cap: 人仙境, chapter: 470, status: partial}
+    related_nodes_add: [NODE-0061]
+    source_chapters_add: [463, 464, 465, 466, 467, 468, 469, 470]
