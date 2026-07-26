@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 48
+  extension_files: 49
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1061,6 +1061,7 @@ artifacts:
   - NODE-0061
   - NODE-0062
   - NODE-0063
+  - NODE-0064
   source_chapters:
   - 451
   - 455
@@ -1068,6 +1069,7 @@ artifacts:
   - 466
   - 467
   - 470
+  - 488
   acquisition_additional:
     gift_id: GIFT-0088
     chapter: 456
@@ -1077,12 +1079,15 @@ artifacts:
   - GIFT-0093
   - GIFT-0094
   - GIFT-0095
+  - GIFT-0104
   transferred_to:
   - 月幽冥
   - 真灵
+  - 云心月
   transferred_in_chapter:
   - 466
   - 470
+  - 488
   transfer:
   - gift_id: GIFT-0100
     chapter: 478
@@ -1389,12 +1394,17 @@ artifacts:
     chapter: 480
     quantity: 9
     status: partial
+  - gift_id: GIFT-0104
+    chapter: 488
+    quantity: 9
+    status: partial
   effect: 完整药效与服用条件待后续确认
   status: partial
   related_nodes:
   - NODE-0061
   - NODE-0062
   - NODE-0063
+  - NODE-0064
 - id: ART-0061
   name: 九幽惊魂剑
   category: 仙器神剑
@@ -1459,3 +1469,14 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0063
+- id: ART-0066
+  name: 佛陀金身丹
+  category: 丹药
+  grade: pending
+  first_chapter: 488
+  current_holder: 徐霄
+  acquisition: GIFT-0104万倍暴击返还
+  effect: 服用后推动血肉蜕变并铸就血肉金身，具备万法难侵与高阶肉身防御特征；完整上限待确认
+  status: partial
+  related_nodes:
+  - NODE-0064
