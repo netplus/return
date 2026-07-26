@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0059 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0050`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 374; Chapter 375 begins the 阴煞小界 task, 叶尘 system action and new cross-domain operation.
+- Created `NODE-0048`: 盘龙岛告别、合体晋升与第一婵返还, covering Chapters 370—374.
+- Updated 徐霄、上官倩、第一婵、秦朋、程芷 and程双 for persistent cultivation, bond, relationship and resource changes.
+- Added `GIFT-0068` and `GIFT-0069`, returning先天灵宝噬魂封魔剑 and鸿蒙一气丹.
+- Added `ART-0046` 噬魂封魔剑 and expanded `ART-0016` 鸿蒙一气丹 and `ART-0021` 虚天丹.
+- Recorded 徐霄's promotion to合体境, 第一婵's promotion to合体九重 and bond level 2, and the three-sect plan to use阴煞小界 for another ambush.
+- Preserved the full farewell list, 第一婵 system panel, `GIFT-0068` exact multiplier, 噬魂封魔剑 full abilities and Chapter 371 return list as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0050` and queued `TASK-0051` beginning at Chapter 375.
+
 ## RUN-0058 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
