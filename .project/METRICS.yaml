@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0060
+run_id: RUN-0061
 coverage:
-  chapters_covered_through: 380
-  chapters_promoted_in_run: [375, 376, 377, 378, 379, 380]
-  timeline_nodes: 49
+  chapters_covered_through: 388
+  chapters_promoted_in_run: [381, 382, 383, 384, 385, 386, 387, 388]
+  timeline_nodes: 50
   draft_nodes: 0
-  story_arc_nodes: 46
-  characters_documented: 72
+  story_arc_nodes: 47
+  characters_documented: 74
   characters_staged: 0
   system_records: 1
   gift_events: 71
-  artifact_records: 47
+  artifact_records: 48
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [375, 376, 377, 378, 379, 380, 381]
-    cross_checked_mirror_chapters: [375, 376, 377, 378, 379, 380]
-    pending_fields: [阴煞小界完整规则, 赵无极精确境界与任务结算, GIFT-0070返还, GIFT-0071精确倍率, 破灭天金剑来源, 混沌破金剑完整能力]
+    official_catalog_chapters: [381, 382, 383, 384, 385, 386, 387, 388, 389]
+    cross_checked_mirror_chapters: [381, 382, 383, 384, 385, 386, 387, 388]
+    pending_fields: [陆雪瑶完整系统面板, 拍卖会完整竞品与总支出, 高价竞拍是否形成系统返还, 萧家黑市压制法器安排, 魔姝完整系统面板, 铁焰城完整法宝能力]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第380章完成萧家冲突、破灭天金剑赠送与混沌破金剑返还；第381章转入陆雪瑶和拍卖会阶段}
-  materiality: {status: passed, entity_updates: [NODE-0049, CHAR-0001徐霄, CHAR-0048玉冰, CHAR-0049第一婵, CHAR-0047叶尘, CHAR-0060赵无极, CHAR-0071萧烬璃, CHAR-0072萧四海, GIFT-0070, GIFT-0071, ART-0047混沌破金剑, ART-0029合道丹, ART-0037神木飞舟]}
+  arc_coherence: {status: passed, boundary: 第388章完成魔姝邀请、徐霄入队与阴煞界行动队伍组建；第389章转入阴煞界阴谋和正式探索}
+  materiality: {status: passed, entity_updates: [NODE-0050, CHAR-0001徐霄, CHAR-0048玉冰, CHAR-0049第一婵, CHAR-0063百里海棠, CHAR-0071萧烬璃, CHAR-0073陆雪瑶, CHAR-0074魔姝, ART-0048压制法器]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0049.md, data/extensions/timeline/run-0060.yaml, data/extensions/characters/run-0060.yaml, data/extensions/system/run-0060.yaml, data/extensions/artifacts/run-0060.yaml]
+    files_checked: [docs/01-timeline/node-0050.md, data/extensions/timeline/run-0061.yaml, data/extensions/characters/run-0061.yaml, data/extensions/system/run-0061.yaml, data/extensions/artifacts/run-0061.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0060.yaml, data/extensions/characters/run-0060.yaml, data/extensions/system/run-0060.yaml, data/extensions/artifacts/run-0060.yaml, sources/evidence/chapters-375-380.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0061.yaml, data/extensions/characters/run-0061.yaml, data/extensions/system/run-0061.yaml, data/extensions/artifacts/run-0061.yaml, sources/evidence/chapters-381-388.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
