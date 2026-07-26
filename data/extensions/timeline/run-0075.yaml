@@ -1,0 +1,17 @@
+schema_version: 1
+run_id: RUN-0075
+nodes:
+- id: NODE-0064
+  title: 五年跃迁、天元仙宗启程与蓬莱夺舍疑云
+  chapters: {start: 486, end: 493}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第486—494章标题、顺序和边界；第486—493章正文由可访问镜像交叉核验
+  boundary_reason: 第493章完成蓬莱仙宗全队遭冰寒阴灵夺舍的识别并形成潜在危机；第494章转入月幽冥赠送与新的关系推进
+  characters: [徐霄, 第一婵, 姬雪, 楚霄, 云心月, 素青, 苏瑶, 海岚, 葬花, 北风]
+  system_events:
+  - {event: 首次赠送云心月雷灵丹, trigger: 十枚雷灵丹, reward: 佛陀金身丹与九枚化仙丹, status: partial}
+  relationship_result: 苏瑶羁绊度提升至2；楚霄与徐霄形成持续竞争敌意
+  pending: [第一婵雷劫细节, 楚霄与云心月完整系统面板, 姬雪赠送返还链, 苏瑶灵宝赠送映射, 蓬莱阴灵来源与目的]
+  document: docs/01-timeline/node-0064.md
+  evidence: sources/evidence/chapters-486-493.yaml
