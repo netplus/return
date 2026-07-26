@@ -1,0 +1,115 @@
+schema_version: 1
+run_id: RUN-0075
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 大乘境
+    power_change_add: [仙神魂胎神识随大乘境增强，可隐蔽识别渡劫修士识海中的夺舍阴灵]
+    role_change_add: 代表无妄仙宗参加天元仙宗天山论剑
+    related_nodes_add: [NODE-0064]
+    source_chapters_add: [486, 487, 488, 489, 490, 491, 492, 493]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    cultivation_change: 大乘境
+    role_change_add: 五年后成功渡过大乘雷劫，成为无妄仙宗太上层级战力
+    related_nodes_add: [NODE-0064]
+    source_chapters_add: [486, 487]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 大乘上境
+    constitution_add: 元灵仙体
+    identity_add: 雪瑶仙帝转世
+    power_change_add: [恢复部分前世记忆, 须臾空间激活, 自带仙界法器重新显现]
+    accepted_resources_add: [先天冰系神剑, 十枚蕴仙丹]
+    related_nodes_add: [NODE-0064]
+    source_chapters_add: [488, 489, 490]
+- id: CHAR-0061
+  name: 苏瑶
+  update:
+    bond_level_set: 2
+    accepted_resources_add: [灵宝神剑, 长期修炼资源与后续先天灵宝承诺]
+    relationship_change: 与徐霄形成稳定道侣及长期资源关系
+    related_nodes_add: [NODE-0064]
+    source_chapters_add: [490, 491]
+- id: CHAR-0094
+  name: 楚霄
+  status: alive
+  role: antagonist
+  affiliations: [天元仙宗]
+  identities: [天元仙宗神子, 天元大陆第一天才自称]
+  first_appearance: {chapter: 487, title: 第一天才，楚霄, node: NODE-0064}
+  cultivation: {current: 大乘巅峰, status: partial}
+  conflict_context: 因徐霄的名声、实力及接近云心月而形成持续竞争敌意
+  related_nodes: [NODE-0064]
+  source_chapters: [487, 488, 489, 490, 491, 492]
+  document: null
+  verification_status: partial
+- id: CHAR-0095
+  name: 云心月
+  status: alive
+  role: supporting
+  affiliations: [天元仙宗]
+  identities: [天元仙宗神女, 徐霄有效赠送对象]
+  first_appearance: {chapter: 487, title: 第一天才，楚霄, node: NODE-0064}
+  cultivation: {current: 大乘巅峰, status: partial}
+  accepted_gifts: [GIFT-0104]
+  relationship_context: {徐霄: 接受十枚雷灵丹但保持明显负面评价, status: partial}
+  related_nodes: [NODE-0064]
+  source_chapters: [487, 488, 489, 490, 491, 492]
+  document: null
+  verification_status: partial
+- id: CHAR-0096
+  name: 素青
+  status: alive
+  role: supporting
+  affiliations: [天元仙宗]
+  identities: [天元仙宗太上长老, 天山论剑邀请使者]
+  first_appearance: {chapter: 487, title: 第一天才，楚霄, node: NODE-0064}
+  cultivation: {current: 渡劫七重, status: partial}
+  strategic_role: 代表天元仙宗邀请无妄仙宗参加天山论剑
+  related_nodes: [NODE-0064]
+  source_chapters: [487, 488, 489, 490, 491, 492]
+  document: null
+  verification_status: partial
+- id: CHAR-0097
+  name: 海岚
+  status: unknown
+  role: antagonist
+  affiliations: [蓬莱仙宗]
+  identities: [蓬莱仙宗太上长老, 被冰寒阴灵夺舍者]
+  first_appearance: {chapter: 492, title: 蓬莱仙宗到场, node: NODE-0064}
+  cultivation: {current: 渡劫境, status: partial}
+  possession_status: {state: 识海被冰寒阴灵占据, original_soul: pending, status: partial}
+  related_nodes: [NODE-0064]
+  source_chapters: [492, 493]
+  document: null
+  verification_status: partial
+- id: CHAR-0098
+  name: 葬花
+  status: unknown
+  role: antagonist
+  affiliations: [蓬莱仙宗]
+  identities: [蓬莱仙宗太上长老, 被冰寒阴灵夺舍者]
+  first_appearance: {chapter: 492, title: 蓬莱仙宗到场, node: NODE-0064}
+  cultivation: {current: 渡劫境, status: partial}
+  possession_status: {state: 识海被冰寒阴灵占据, original_soul: pending, status: partial}
+  related_nodes: [NODE-0064]
+  source_chapters: [492, 493]
+  document: null
+  verification_status: partial
+- id: CHAR-0099
+  name: 北风
+  status: unknown
+  role: antagonist
+  affiliations: [蓬莱仙宗]
+  identities: [蓬莱仙宗太上长老, 被冰寒阴灵夺舍者]
+  first_appearance: {chapter: 492, title: 蓬莱仙宗到场, node: NODE-0064}
+  cultivation: {current: 渡劫境, status: partial}
+  possession_status: {state: 识海被冰寒阴灵占据, original_soul: pending, status: partial}
+  related_nodes: [NODE-0064]
+  source_chapters: [492, 493]
+  document: null
+  verification_status: partial
