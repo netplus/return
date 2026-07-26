@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0071 — 2026-07-27
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0062`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 462 so the黑蛇渗透反转、迎亲队清算、关系公开、聘礼赠送 and强制婚约解除 remain one coherent arc; Chapter 463 begins灵霄仙宗渡劫话事人 and new sect-level negotiations.
+- Created `NODE-0060`: 黑蛇渗透反转、迎亲队清算与婚约解除, covering Chapters 455—462.
+- Added 黑蛇 as `CHAR-0089`; updated 徐霄、萧烬璃、冷若云、欧阳惊虹 and黑无忌 for persistent cultivation, relationship, conflict and status changes.
+- Added `GIFT-0088`—`GIFT-0092`, recording黑蛇's first-gift returns,九天灵土剑 and神木灵盾 transfers,雷灵珠仙器返还 and混沌地灵剑 transfer.
+- Added `ART-0058` 九天仙雷珠 and expanded九天灵土剑、雷灵丹 and山河灵图 records.
+- Recorded徐霄's promotion to合体九重, 黑蛇 bond level 2, the capture of the black-demon wedding party and the cancellation of黑无忌's forced marriage with萧烬璃.
+- Preserved黑蛇完整系统面板、three incomplete return chains、黑无忌 task settlement and final status、Chapter 455 雷灵丹 source mapping and九天仙雷珠 limits as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0062` and queued `TASK-0063` beginning at Chapter 463.
+
 ## RUN-0070 — 2026-07-27
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

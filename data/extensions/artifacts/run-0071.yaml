@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0071
+artifacts:
+- id: ART-0058
+  name: 九天仙雷珠
+  category: 仙器
+  grade: 仙器
+  first_chapter: 462
+  current_holder: 徐霄
+  acquisition: GIFT-0091返还
+  abilities: [阵盘类仙器, 内含九天仙雷阵, 可释放大范围毁灭性雷霆]
+  status: partial
+  related_nodes: [NODE-0060]
+artifact_updates:
+- id: ART-0042
+  name: 九天灵土剑
+  update:
+    transfer_event_add: GIFT-0089
+    transferred_to_add: 黑蛇
+    transferred_in_chapter_add: 456
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [456]
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    acquisition_add: {chapter: 455, quantity: 130, source: 系统批量返还, detailed_gift_mapping: pending, status: partial}
+    acquisition_additional: {gift_id: GIFT-0088, chapter: 456, quantity: 45, status: partial}
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [455, 456]
+- id: ART-0053
+  name: 山河灵图
+  update:
+    combat_record_add: [第459章快速收纳黑魔圣宗八名合体巅峰长老、上百门人及其法器, 第460章用于囚禁黑无忌与迎亲队并公开黑蛇关系]
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [459, 460]
