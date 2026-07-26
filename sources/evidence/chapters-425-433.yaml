@@ -1,0 +1,34 @@
+schema_version: 2
+run_id: RUN-0067
+task_id: TASK-0058
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 425
+  chapter_end: 433
+  node: NODE-0056
+  status: promoted
+  canonical_document: docs/01-timeline/node-0056.md
+  boundary_reason: 第433章完成妙玉与凤青玄连续赠送及仙器九天荡魔剑返还；第434章转入气运之子敖三与龙族冲突
+chapters:
+- {chapter: 425, title: 孤独灵出岛, facts: [徐霄继续向玉冰提供天龙血, 尹小倩交由玉冰负责重塑肉身, 徐霄向程芷程双秦朋继续提供虚天丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 426, title: 纯阴之体独孤灵, facts: [独孤灵进入无妄仙宗, 纯阴之体得到确认, 独孤灵拜玉冰为师], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 427, title: 东方素华来访, facts: [独孤灵与姬雪重聚, 姬雪修为确认合体五重, 东方素华进入徐霄长期资源关系网络], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 428, title: 灵航突破大乘, facts: [东方素华确认为C级气运之女, 秦朋晋升合体一重, 灵航成功晋升大乘境], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 429, title: 出发准备, facts: [凤青玄请求徐霄前往天光域东海协助涅槃护法, 徐霄向玉冰辞行并准备跨域行动], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 430, title: 谈好条件，出发, facts: [徐霄向凤仪赠送通天神针, 承诺长期提供丹药, 凤仪同意同行东海], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 431, title: 东海海底, facts: [凤仪登上神木飞舟, 徐霄与凤仪及蛮天队伍前往天光域东海, 无妄仙宗因灵航晋升大乘引发外部反应], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 432, title: 开诚布公, facts: [徐霄抵达凤青玄涅槃地点, 山河灵图控制两名合体龙族, 凤青玄进一步确认徐霄传承说法存在隐瞒], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 433, title: 返还仙器，九天荡魔剑, facts: [十枚合道丹赠送妙玉返还一百枚蕴仙丹, 四象斩天剑赠送凤青玄, 系统返还仙器九天荡魔剑], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 434
+  next_title: 气运之子，敖三
+  transition: 转入敖三及龙族正面冲突的新阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
