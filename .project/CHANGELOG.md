@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0064 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0055`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 410; Chapter 411 begins the陆雪瑶遇袭、徐霄驰援 and先天神剑战 line.
+- Created `NODE-0053`: 铁焰城夺舍扩散、尹小倩新身份与九宗收缩, covering Chapters 406—410.
+- Added 萧彭春 as `CHAR-0077`; updated 徐霄、萧烬璃、尹小倩 and玉冰 for persistent task, relationship, identity and strategic changes.
+- Added `GIFT-0074` and `GIFT-0075`, returning鸿蒙一气丹 and十枚渡劫初期魂丹.
+- Recorded the active萧彭春气运之子 task, with道具返还库随机升级 as reward.
+- Recorded iron-city possession expansion to roughly one third of returning cultivators and the nine-sect decision to contract exploration teams.
+- Preserved萧彭春夺舍时间、铁焰神炉完整能力、准确夺舍规模、尹小倩完整系统面板 and渡劫魂丹完整药效 as pending.
+- Added append-only Timeline, Character and System extension indexes and promoted chapter evidence; no empty Artifact extension was created.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0055` and queued `TASK-0056` beginning at Chapter 411.
+
 ## RUN-0063 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
