@@ -99,7 +99,17 @@ tasks:
 - id: TASK-0067
   title: Build the 月幽冥赠礼、蓬莱阴灵与天山论剑前哨 story arc from Chapter 494 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 494, provisional_chapter_end: 501, node: NODE-0065, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0077
+  target: {chapter_start: 494, chapter_end: 499, node: NODE-0065, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0065.md, data/extensions/timeline/run-0077.yaml, data/extensions/characters/run-0077.yaml, data/extensions/system/run-0077.yaml, data/extensions/artifacts/run-0077.yaml, sources/evidence/chapters-494-499.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, copyright_boundary: passed}
   depends_on: [TASK-0067M]
+- id: TASK-0068
+  title: Build the 天元仙塔闯关与极致肉身战 story arc from Chapter 500 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 500, provisional_chapter_end: 507, node: NODE-0066, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0067]

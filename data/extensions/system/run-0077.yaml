@@ -1,0 +1,47 @@
+schema_version: 1
+run_id: RUN-0077
+gift_events:
+- id: GIFT-0105
+  chapter: 494
+  node: NODE-0065
+  giver: 徐霄
+  recipient: 月幽冥
+  gift: 先天灵盾、十枚雷灵丹及一枚渡劫巅峰魂丹
+  accepted: true
+  system_valid: true
+  reward: 仙器神盾、十枚化仙丹及一枚人仙巅峰魂丹
+  triggered_multiplier: pending
+  relationship_result: 形成稳定道侣和长期渡劫资源关系
+  status: partial
+- id: GIFT-0106
+  chapter: 498
+  node: NODE-0065
+  giver: 徐霄
+  recipient: 魔妖
+  gift: 十枚雷灵丹及一柄先天灵宝神剑
+  accepted: true
+  system_valid: true
+  first_gift: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 敲定道侣关系并进入长期资源网络
+  status: partial
+- id: GIFT-0107
+  chapter: 499
+  node: NODE-0065
+  giver: 徐霄
+  recipient: [长眉, 天阁, 真灵, 罗刹天魔]
+  gift: 二十枚雷灵丹（每人五枚）
+  accepted: true
+  system_valid: pending
+  reward: pending
+  relationship_result: 跨宗撮合与资源合作关系进一步制度化
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0105, GIFT-0106, GIFT-0107]
+    confirmed_objects_add: [月幽冥, 魔妖]
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [494, 498, 499]

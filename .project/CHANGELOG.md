@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0077 — 2026-07-27
+
+- Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0067`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 499; Chapter 500 begins the天元仙塔闯关 and public combat-display stage.
+- Created `NODE-0065`: 月幽冥赠礼、蓬莱阴灵暴露与魔妖结缘, covering Chapters 494—499.
+- Added 罗刹天魔、魔妖 and神玉 as `CHAR-0100`—`CHAR-0102`; updated 徐霄、月幽冥、姬雪、海岚、葬花 and北风.
+- Added `GIFT-0105`—`GIFT-0107`, recording月幽冥复合赠送、魔妖初次高阶赠送 and四名跨宗撮合者的雷灵丹答谢.
+- Added `ART-0067` 仙器神盾（正式名称pending） and `ART-0068` 人仙巅峰魂丹; expanded化仙丹 records.
+- Recorded仙神魂胎清除渡劫二重阴灵、姬雪实际大乘三重 and天煞魔宗进入跨宗资源网络.
+- Preserved仙器神盾正式名称、魔妖完整返还、罗刹天魔完整面板、阴灵领主身份 and逐笔撮合返还 as pending.
+- Source traceability passed with qualifications; all other quality gates including entity-document freshness passed.
+- Completed `TASK-0067` and queued `TASK-0068` beginning at Chapter 500.
+
 ## RUN-0076 — 2026-07-27
 
 - Read Workflow, state, task queue, quality rules, metrics, changelog and dashboard before execution.

@@ -1,0 +1,85 @@
+schema_version: 1
+run_id: RUN-0077
+characters:
+- id: CHAR-0100
+  name: 罗刹天魔
+  status: alive
+  role: supporting
+  affiliations: [天煞魔宗]
+  identities: [天煞魔宗话事人, 魔妖师父]
+  first_appearance: {chapter: 497, title: 罗刹天魔，魔妖, node: NODE-0065}
+  cultivation: {current: 渡劫境, exact_level: pending, status: partial}
+  strategic_role: 推动魔妖与徐霄结缘并将天煞魔宗纳入跨宗资源联盟
+  accepted_resources: [GIFT-0107中的五枚雷灵丹]
+  related_nodes: [NODE-0065]
+  source_chapters: [497, 498, 499]
+  document: null
+  verification_status: partial
+- id: CHAR-0101
+  name: 魔妖
+  status: alive
+  role: supporting
+  affiliations: [天煞魔宗]
+  identities: [罗刹天魔弟子, 天煞魔宗大乘天才, 徐霄道侣]
+  first_appearance: {chapter: 497, title: 罗刹天魔，魔妖, node: NODE-0065}
+  cultivation: {current: 大乘境, exact_level: pending, status: partial}
+  accepted_gifts: [GIFT-0106]
+  relationship_context: {徐霄: 经宗门高层推动敲定道侣关系并接受长期资源支持, status: partial}
+  related_nodes: [NODE-0065]
+  source_chapters: [497, 498, 499]
+  document: null
+  verification_status: partial
+- id: CHAR-0102
+  name: 神玉
+  status: alive
+  role: supporting
+  affiliations: [天元仙宗]
+  identities: [天元仙宗话事人, 天元大陆当前唯一渡劫八重修士]
+  first_appearance: {chapter: 497, title: 罗刹天魔，魔妖, node: NODE-0065}
+  cultivation: {current: 渡劫八重, status: partial}
+  strategic_role: 主持天元仙宗高层与天元仙塔试炼并观察徐霄资源和战力
+  related_nodes: [NODE-0065]
+  source_chapters: [497, 498, 499]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    power_change_add: [仙神魂胎可在识海内直接击溃并清除渡劫二重冰寒阴灵]
+    relationship_change_add: [与月幽冥形成稳定道侣及长期渡劫资源关系, 与魔妖敲定道侣及长期资源关系]
+    role_change_add: [进入天煞魔宗渡劫话事人和大乘天才的跨宗资源网络]
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [494, 495, 496, 497, 498, 499]
+- id: CHAR-0090
+  name: 月幽冥
+  update:
+    accepted_gifts_add: [GIFT-0105]
+    relationship_change: 与徐霄形成稳定道侣和长期渡劫资源关系
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [494, 495, 497, 499]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 大乘三重（仙术压制后外显大乘一重）
+    power_change_add: [元灵仙体与雪瑶仙帝前世记忆继续觉醒]
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [495]
+- id: CHAR-0097
+  name: 海岚
+  update:
+    conflict_change: 所属冰寒阴灵阵营开始直接派遣渡劫阴灵刺杀并夺舍徐霄
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [494, 496, 499]
+- id: CHAR-0098
+  name: 葬花
+  update:
+    conflict_change: 所属冰寒阴灵阵营开始直接派遣渡劫阴灵刺杀并夺舍徐霄
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [494, 496, 499]
+- id: CHAR-0099
+  name: 北风
+  update:
+    conflict_change: 所属冰寒阴灵阵营开始直接派遣渡劫阴灵刺杀并夺舍徐霄
+    related_nodes_add: [NODE-0065]
+    source_chapters_add: [494, 496, 499]
