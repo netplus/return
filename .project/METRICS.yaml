@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0056
+run_id: RUN-0057
 coverage:
-  chapters_covered_through: 352
-  chapters_promoted_in_run: [345, 346, 347, 348, 349, 350, 351, 352]
-  timeline_nodes: 45
+  chapters_covered_through: 360
+  chapters_promoted_in_run: [353, 354, 355, 356, 357, 358, 359, 360]
+  timeline_nodes: 46
   draft_nodes: 0
-  story_arc_nodes: 42
-  characters_documented: 67
+  story_arc_nodes: 43
+  characters_documented: 70
   characters_staged: 0
   system_records: 1
-  gift_events: 63
+  gift_events: 64
   artifact_records: 44
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [345, 346, 347, 348, 349, 350, 351, 352, 353]
-    cross_checked_mirror_chapters: [345, 346, 347, 348, 349, 350, 351, 352]
-    pending_fields: [GIFT-0062精确倍率, GIFT-0063原始灵宝名称与精确倍率, 九天神莲戒完整能力与炼化状态, 尚水精确大乘重数, 鲛人老祖动向, 三宗调查队完整身份]
+    official_catalog_chapters: [353, 354, 355, 356, 357, 358, 359, 360, 361]
+    cross_checked_mirror_chapters: [353, 354, 355, 356, 357, 358, 359, 360]
+    pending_fields: [GIFT-0064精确倍率与返还, 鸿蒙一气丹具体返还来源, 玄魔与百里云天精确大乘重数, 地月城完整伤亡, 七名合体巅峰修士完整身份, 混元天冰符剩余库存]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第352章完成尚水真人问责、蕴仙丹利益平衡与百里海棠关系稳定；第353章转入三宗正式灭徐阴谋}
-  materiality: {status: passed, entity_updates: [NODE-0045, CHAR-0063百里海棠, CHAR-0067尚水, GIFT-0062, GIFT-0063, ART-0044九天神莲戒]}
+  arc_coherence: {status: passed, boundary: 第360章完成三名大乘与围杀阵营覆灭、方达飞任务结算及丹药库升级；第361章转入现场善后与返宗}
+  materiality: {status: passed, entity_updates: [NODE-0046, CHAR-0057方达飞, CHAR-0063百里海棠, CHAR-0067尚水, CHAR-0068魏无涯, CHAR-0069玄魔, CHAR-0070百里云天, GIFT-0064, SYS-0001丹药库升级, ART-0016鸿蒙一气丹, ART-0044九天神莲戒]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0045.md, data/extensions/timeline/run-0056.yaml, data/extensions/characters/run-0056.yaml, data/extensions/system/run-0056.yaml, data/extensions/artifacts/run-0056.yaml]
+    files_checked: [docs/01-timeline/node-0046.md, data/extensions/timeline/run-0057.yaml, data/extensions/characters/run-0057.yaml, data/extensions/system/run-0057.yaml, data/extensions/artifacts/run-0057.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0056.yaml, data/extensions/characters/run-0056.yaml, data/extensions/system/run-0056.yaml, data/extensions/artifacts/run-0056.yaml, sources/evidence/chapters-345-352.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0057.yaml, data/extensions/characters/run-0057.yaml, data/extensions/system/run-0057.yaml, data/extensions/artifacts/run-0057.yaml, sources/evidence/chapters-353-360.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

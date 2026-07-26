@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0057
+task_id: TASK-0048
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 353
+  chapter_end: 360
+  node: NODE-0046
+  status: promoted
+  canonical_document: docs/01-timeline/node-0046.md
+  boundary_reason: 第360章完成三名大乘与围杀阵营覆灭、方达飞任务结算及丹药库升级；第361章转入现场善后与返宗
+chapters:
+- chapter: 353
+  title: 三宗灭徐阴谋
+  facts: [三宗利用海底冰封事件策动地月城舆论围杀, 无妄仙宗高层要求徐霄彻底辟谣后再离开]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 354
+  title: 群情激愤，城民震怒
+  facts: [地月城舆论全面爆发, 百里海棠公开维持与徐霄的长期关系, 徐霄赠送百里海棠绝品驻颜丹]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 355
+  title: 辟谣的弟子
+  facts: [无妄仙宗弟子辟谣失败并遭围攻, 百里海棠通过传讯为徐霄作证, 宗门判断离城会坐实邪修指控]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 356
+  title: 扣名邪修
+  facts: [徐霄服用新的鸿蒙一气丹后鸿蒙真气增至十三股, 地月城散修围堵驻地并公开要求诛杀徐霄, 徐霄击杀一名炼虚巅峰修士]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 357
+  title: 两大掌门到场
+  facts: [尚水到场试图平息冲突, 徐霄以蕴仙丹促使尚水公开辟谣, 魏无涯玄魔及百里云天等围杀力量到场]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 358
+  title: 被吓死了的尚水真人
+  facts: [魏无涯玄魔百里云天形成三名大乘围杀阵营, 方达飞等七名合体巅峰修士参与, 徐霄以十三股鸿蒙真气驱动九天神莲戒并准备大乘九重混元天冰符]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 359
+  title: 地月城覆灭
+  facts: [尚水带走无妄仙宗与地月宗核心人员撤离, 徐霄释放大乘九重混元天冰符, 地月城开始整体冰封]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 360
+  title: 团灭众人
+  facts: [魏无涯玄魔百里云天及主要围杀者死亡, 方达飞死亡并完成气运之子任务, 丹药返还库普通返还上限提升至渡劫境]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 361
+  next_title: 返回宗门
+  transition: 转入玉冰抵达现场、统一口径与返宗善后
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
