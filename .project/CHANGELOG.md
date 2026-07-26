@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0067 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0058`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 433 so the独孤灵入宗、灵航晋升、东海护法 and仙器返还 remain one coherent arc; Chapter 434 begins the敖三 and龙族 conflict.
+- Created `NODE-0056`: 独孤灵入宗、灵航晋升与东海仙器返还, covering Chapters 425—433.
+- Added 东方素华 as `CHAR-0079`; updated 徐霄、独孤灵、姬雪、玉冰、灵航、凤仪、凤青玄、妙玉、秦朋、程芷 and程双 for persistent cultivation, identity, relationship and strategic changes.
+- Added `GIFT-0078`—`GIFT-0080`, recording通天神针 to凤仪, ten合道丹 to妙玉 with one hundred蕴仙丹 return, and四象斩天剑 to凤青玄 with仙器九天荡魔剑 return.
+- Added `ART-0054` 九天荡魔剑 and expanded通天神针、四象斩天剑、蕴仙丹 and山河灵图 records.
+- Recorded独孤灵拜玉冰为师、东方素华C级气运身份、灵航晋升大乘 and徐霄's东海护法行动.
+- Preserved独孤灵完整系统面板、东方素华首次赠送链、GIFT-0078返还、凤青玄涅槃机制、山河灵图活体控制规则 and九天荡魔剑完整能力 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0058` and queued `TASK-0059` beginning at Chapter 434.
+
 ## RUN-0066 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

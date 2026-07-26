@@ -143,7 +143,17 @@ tasks:
 - id: TASK-0058
   title: Build the 独孤灵出岛、纯阴之体与东海出发 story arc from Chapter 425 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 425, provisional_chapter_end: 432, node: NODE-0056, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0067
+  target: {chapter_start: 425, chapter_end: 433, node: NODE-0056, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0056.md, data/extensions/timeline/run-0067.yaml, data/extensions/characters/run-0067.yaml, data/extensions/system/run-0067.yaml, data/extensions/artifacts/run-0067.yaml, sources/evidence/chapters-425-433.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0057]
+- id: TASK-0059
+  title: Build the 敖三来袭、凤族震慑与白霜霜登场 story arc from Chapter 434 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 434, provisional_chapter_end: 441, node: NODE-0057, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0058]

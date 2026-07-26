@@ -1,0 +1,46 @@
+schema_version: 1
+run_id: RUN-0067
+gift_events:
+- id: GIFT-0078
+  chapter: 430
+  node: NODE-0056
+  giver: 徐霄
+  recipient: 凤仪
+  gift: 通天神针
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 凤仪接受长期资源承诺并同行东海
+  status: partial
+- id: GIFT-0079
+  chapter: 433
+  node: NODE-0056
+  giver: 徐霄
+  recipient: 妙玉
+  gift: 十枚合道丹
+  accepted: true
+  system_valid: true
+  reward: 一百枚蕴仙丹
+  triggered_multiplier: 10
+  status: partial
+- id: GIFT-0080
+  chapter: 433
+  node: NODE-0056
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 四象斩天剑
+  accepted: true
+  system_valid: true
+  reward: 仙器九天荡魔剑
+  triggered_multiplier: pending
+  relationship_result: 凤青玄涅槃防护资源升级
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0078, GIFT-0079, GIFT-0080]
+    confirmed_objects_add: [东方素华]
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [428, 430, 433]
