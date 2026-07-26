@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 39
+  extension_files: 40
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -116,6 +116,7 @@ characters:
   - NODE-0049
   - NODE-0050
   - NODE-0051
+  - NODE-0052
   source_chapters:
   - 1
   - 2
@@ -476,6 +477,14 @@ characters:
   - 395
   - 396
   - 397
+  - 398
+  - 399
+  - 400
+  - 401
+  - 402
+  - 403
+  - 404
+  - 405
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -529,6 +538,8 @@ characters:
   - 服用新的鸿蒙一气丹后鸿蒙真气增至十三股
   - 两年修炼后由炼虚境晋升合体境
   - 合体境稳固并开始冲击合体二重
+  - 服用鸿蒙一气丹后鸿蒙真气增至十六股
+  - 服用三千大道丹补全土之大道
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -550,6 +561,9 @@ characters:
   - 在铁焰城以神剑当场击杀合体初期萧焰并形成至少合体巅峰层级威慑
   - 幽暗森林连续清除合体阴魂并取得魂丹
   - 铁焰城当众清除无妄仙宗队伍八具夺舍阴魂
+  - 兰若寺清除潜伏大乘阴魂
+  - 魂墟城连续清除合体与大乘阴魂
+  - 四柄先天灵宝神剑协同击杀萧四海及十余名夺舍长老
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -585,6 +599,7 @@ characters:
   - 晋升内门执事并继续兼任内门大师兄，宗门公开宣传其促成凤族回归的功绩
   - 返回盘龙岛与铁幕城处理旧关系并完成阶段性告别后，继续以无妄仙宗为主要行动中心
   - 在八宗问罪中证明死亡修士已被夺舍并取得公开正当性
+  - 掌握阴煞大陆高阶修士转化阴魂并夺舍天元修士的长期计划
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -614,6 +629,8 @@ characters:
   ability_change:
   - 强化神识可识破阴魂夺舍
   - 噬魂封魔剑成为阴煞界核心清剿手段
+  - 尹小倩吸收一点阳气时可获得十点阳气返还
+  - 五行大道体系形成阶段性圆满
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -3612,6 +3629,7 @@ characters:
   related_nodes:
   - NODE-0049
   - NODE-0050
+  - NODE-0052
   source_chapters:
   - 378
   - 379
@@ -3623,13 +3641,20 @@ characters:
   - 385
   - 386
   - 387
+  - 403
+  - 404
+  - 405
   document: null
   verification_status: partial
-  relationship_change: 因灵宝与拍卖会灵石收益主动私下邀请徐霄，双方形成持续利益接触
-  strategic_change: 对萧家内部继续宣称与徐霄逢场作戏以获取长期资源
+  relationship_change:
+  - 因灵宝与拍卖会灵石收益主动私下邀请徐霄，双方形成持续利益接触
+  - 对徐霄的资源与安全依赖进一步增强
+  strategic_change:
+  - 对萧家内部继续宣称与徐霄逢场作戏以获取长期资源
+  - 在魂墟城确认萧四海及多名萧家长老已被阴魂夺舍，并在徐霄清算中获救
 - id: CHAR-0072
   name: 萧四海
-  status: alive
+  status: dead
   role: antagonist
   affiliations:
   - 萧家
@@ -3652,12 +3677,18 @@ characters:
     status: partial
   related_nodes:
   - NODE-0049
+  - NODE-0052
   source_chapters:
   - 378
   - 379
   - 380
+  - 403
+  - 404
+  - 405
   document: null
   verification_status: partial
+  hidden_identity: 被阴煞天宗阴魂夺舍的萧家大长老
+  conflict_result: 试图围杀徐霄并控制萧烬璃，肉身被先天灵宝神剑击败，逃逸阴魂被噬魂封魔剑吞噬
 - id: CHAR-0073
   name: 陆雪瑶
   status: alive
@@ -3734,6 +3765,7 @@ characters:
   related_nodes:
   - NODE-0050
   - NODE-0051
+  - NODE-0052
   source_chapters:
   - 387
   - 388
@@ -3741,6 +3773,93 @@ characters:
   - 390
   - 391
   - 392
+  - 398
+  - 400
+  - 401
+  - 402
   document: null
   verification_status: partial
-  relationship_change: 公开保护徐霄并形成稳定亲密关系和阴煞界探索联盟
+  relationship_change:
+  - 公开保护徐霄并形成稳定亲密关系和阴煞界探索联盟
+  - 提供养魂袋并接受尹小倩随徐霄同行，继续维持阴煞界探索与稳定亲密关系
+- id: CHAR-0075
+  name: 玄阴女尊
+  status: alive
+  role: supporting
+  affiliations:
+  - 魔道宗门
+  - 阴煞界行动队
+  identities:
+  - 合体巅峰修士
+  - A级气运之女
+  first_appearance:
+    chapter: 398
+    title: 尹小倩
+    node: NODE-0052
+  cultivation:
+    current: 合体巅峰
+    status: partial
+  age:
+    value: 一万岁以上
+    status: partial
+  system_profile:
+    luck_grade: A
+    base_multiplier: 10
+    bond: pending
+    status: partial
+  appearance_change: 以魔功恢复至约二十岁年轻容貌
+  related_nodes:
+  - NODE-0052
+  source_chapters:
+  - 398
+  - 401
+  - 402
+  document: null
+  verification_status: partial
+- id: CHAR-0076
+  name: 尹小倩
+  status: active_undead
+  role: supporting
+  affiliations:
+  - 阴煞界
+  - 徐霄随行
+  identities:
+  - 兰若寺阴魂
+  - 有效系统互动对象
+  - 有效赠送对象
+  first_appearance:
+    chapter: 398
+    title: 尹小倩
+    node: NODE-0052
+  cultivation:
+    current: 合体以下或合体层级待确认
+    status: pending
+  system_profile:
+    luck_grade: pending
+    base_multiplier: pending
+    bond: pending
+    status: pending
+  system_interactions:
+  - trigger: 吸收徐霄一点阳气
+    return_to_xuxiao: 十点阳气
+    chapters:
+    - 399
+    - 400
+    status: partial
+  accepted_gifts:
+  - GIFT-0073
+  relationship_context:
+    徐霄: 接受持续阳气与魂丹支持，进入养魂袋随行并获得未来重塑肉身承诺
+    阴煞界: 揭示高阶修士转化阴魂及夺舍天元大陆修士的长期计划
+    status: partial
+  related_nodes:
+  - NODE-0052
+  source_chapters:
+  - 398
+  - 399
+  - 400
+  - 401
+  - 402
+  - 403
+  document: null
+  verification_status: partial

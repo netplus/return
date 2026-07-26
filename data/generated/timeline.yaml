@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 40
+  extension_files: 41
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2037,3 +2037,40 @@ nodes:
   - 龙魂仙衣完整能力
   document: docs/01-timeline/node-0051.md
   evidence: sources/evidence/chapters-389-397.yaml
+- id: NODE-0052
+  title: 尹小倩结缘、阴煞隐秘与魂墟城清算
+  chapters:
+    start: 398
+    end: 405
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第398—406章标题、顺序和边界；第398—405章正文由可访问镜像交叉核验
+  boundary_reason: 第405章完成萧四海夺舍阵营清算；第406章转入铁焰城回归、渗透规模确认及善后
+  characters:
+  - 徐霄
+  - 玄阴女尊
+  - 尹小倩
+  - 魔姝
+  - 萧烬璃
+  - 萧四海
+  system_events:
+  - event: 尹小倩阳气互动
+    trigger: 吸收徐霄一点阳气
+    reward: 返还十点阳气
+    status: partial
+  - event: 尹小倩魂丹赠送
+    trigger: 合体中期魂丹
+    reward: 大乘中期魂丹
+    status: partial
+  cultivation_result: 徐霄鸿蒙真气增至十六股并补全土之大道，五行大道体系阶段性圆满
+  conflict_result: 徐霄清除魂墟城大乘阴魂及萧四海等阴煞天宗夺舍阵营
+  pending:
+  - 尹小倩完整系统面板
+  - 阴煞天宗完整结构与夺舍规模
+  - 兰若寺姥姥身份
+  - 魂丹精确总数
+  - 五行大道完整分支
+  - 魂墟城三鬼身份境界
+  - 萧四海夺舍时间与阴魂身份
+  document: docs/01-timeline/node-0052.md
+  evidence: sources/evidence/chapters-398-405.yaml

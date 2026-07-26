@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 37
+  extension_files: 38
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -148,6 +148,7 @@ artifacts:
   - NODE-0041
   - NODE-0043
   - NODE-0047
+  - NODE-0052
   acquisitions:
   - gift_id: GIFT-0008
     chapter: 23
@@ -192,6 +193,12 @@ artifacts:
     status: partial
   source_chapters:
   - 328
+  - 402
+  consumption:
+    chapter: 402
+    user: 徐霄
+    result: 补全土之大道并形成五行大道阶段性圆满
+    status: partial
 - id: ART-0011
   name: 紫霄雷符
   category: 术法符箓
@@ -321,6 +328,7 @@ artifacts:
   - NODE-0045
   - NODE-0046
   - NODE-0048
+  - NODE-0052
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -355,6 +363,10 @@ artifacts:
     result: 鸿蒙真气总量增至十三股
     source_gift: pending
     status: partial
+  - chapter: 402
+    user: 徐霄
+    result: 鸿蒙真气增至十六股
+    status: partial
   source_chapters:
   - 281
   - 282
@@ -363,6 +375,7 @@ artifacts:
   - 328
   - 335
   - 356
+  - 402
 - id: ART-0017
   name: 九火琉璃罩
   category: 法宝
@@ -969,14 +982,27 @@ artifacts:
   related_nodes:
   - NODE-0048
   - NODE-0051
+  - NODE-0052
   combat_record:
   - 识破并清除夺舍阴魂
   - 吞噬二十七具合体阴魂并形成魂丹
+  - 兰若寺清除潜伏大乘阴魂
+  - 黑土平原与魂墟城连续清除合体及大乘阴魂
+  - 吞噬萧四海与十余名萧家长老体内逃逸阴魂
   source_chapters:
   - 390
   - 391
   - 392
   - 394
+  - 401
+  - 402
+  - 403
+  - 404
+  - 405
+  abilities:
+  - 可吞噬大乘阴魂
+  - 被吞噬阴魂可形成对应层级魂丹
+  - 可拦截肉身死亡后逃逸的夺舍阴魂
 - id: ART-0047
   name: 混沌破金剑
   category: 先天灵宝神剑

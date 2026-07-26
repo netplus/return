@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 32
+  extension_files: 33
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1021,4 +1021,17 @@ gifts:
   reward: 先天灵宝龙魂仙衣
   triggered_multiplier: pending
   relationship_result: 公开道侣与长期资源关系进一步强化
+  status: partial
+- id: GIFT-0073
+  chapter: 400
+  node: NODE-0052
+  giver: 徐霄
+  recipient: 尹小倩
+  gift: 一枚合体中期魂丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: pending
+  reward: 一枚大乘中期魂丹
+  relationship_result: 尹小倩接受长期阳气与魂丹支持并进入养魂袋随行
   status: partial
