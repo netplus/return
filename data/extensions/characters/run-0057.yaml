@@ -1,0 +1,76 @@
+schema_version: 1
+run_id: RUN-0057
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change_add: 服用新的鸿蒙一气丹后鸿蒙真气增至十三股
+    combat_record_add: 以大乘九重混元天冰符冰封地月城并覆灭三宗围杀阵营
+    related_nodes_add: [NODE-0046]
+    source_chapters_add: [353, 354, 355, 356, 357, 358, 359, 360]
+- id: CHAR-0057
+  name: 方达飞
+  update:
+    status_set: dead
+    system_task:
+      completion_set: completed
+      result: 死于地月城冰封，任务奖励丹药返还库升级
+      status: partial
+    conflict:
+      current_result_set: 参与三宗围杀并在地月城冰封中死亡
+      status: partial
+    related_nodes_add: [NODE-0046]
+    source_chapters_add: [353, 356, 357, 358, 359, 360]
+- id: CHAR-0063
+  name: 百里海棠
+  update:
+    accepted_gifts_add: [GIFT-0064]
+    relationship_change_add: 公开为徐霄辟谣并继续维持长期资源与道侣关系
+    related_nodes_add: [NODE-0046]
+    source_chapters_add: [354, 355, 357, 358, 359]
+- id: CHAR-0067
+  name: 尚水
+  update:
+    major_action_add: 识别徐霄的大乘顶级符箓后撤离无妄仙宗与地月宗核心人员
+    knowledge_state_add: 成为地月城冰封真相的关键知情者
+    related_nodes_add: [NODE-0046]
+    source_chapters_add: [357, 358, 359]
+- id: CHAR-0068
+  name: 魏无涯
+  status: dead
+  role: antagonist
+  affiliations: [玉鼎仙宗]
+  identities: [玉鼎仙宗掌门, 三宗围杀主导者]
+  first_appearance: {chapter: 357, title: 两大掌门到场, node: NODE-0046}
+  cultivation: {current: 大乘四重, status: partial}
+  conflict: {target: 徐霄, result: 地月城冰封中死亡, status: partial}
+  related_nodes: [NODE-0046]
+  source_chapters: [357, 358, 359, 360]
+  document: null
+  verification_status: partial
+- id: CHAR-0069
+  name: 玄魔
+  status: dead
+  role: antagonist
+  affiliations: [天煞魔宗]
+  identities: [天煞魔宗掌门, 三宗围杀主导者]
+  first_appearance: {chapter: 357, title: 两大掌门到场, node: NODE-0046}
+  cultivation: {current: 大乘境, status: partial}
+  conflict: {target: 徐霄, result: 地月城冰封中死亡, status: partial}
+  related_nodes: [NODE-0046]
+  source_chapters: [357, 358, 359, 360]
+  document: null
+  verification_status: partial
+- id: CHAR-0070
+  name: 百里云天
+  status: dead
+  role: antagonist
+  affiliations: [鲛人族]
+  identities: [鲛人老祖, 三宗围杀参与者]
+  first_appearance: {chapter: 357, title: 两大掌门到场, node: NODE-0046}
+  cultivation: {current: 大乘境, status: partial}
+  conflict: {target: 徐霄, result: 地月城冰封中死亡, status: partial}
+  related_nodes: [NODE-0046]
+  source_chapters: [357, 358, 359, 360]
+  document: null
+  verification_status: partial
