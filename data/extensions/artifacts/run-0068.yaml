@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0068
+artifacts:
+- id: ART-0055
+  name: 天凤血丹
+  category: 丹药
+  first_chapter: 435
+  current_holder: 徐霄
+  quantity: 10
+  acquisition: GIFT-0081返还十枚
+  effect: 服用后可逐渐获得天凤血脉
+  intended_recipient: 凤仪
+  status: partial
+  related_nodes: [NODE-0057]
+artifact_updates:
+- id: ART-0039
+  name: 天凤精血
+  update:
+    transfer_event_add: GIFT-0081
+    transferred_to_add: 凤青玄
+    transferred_in_chapter_add: 435
+    current_state_add: 已用于凤青玄重新启动涅槃
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [435]
+- id: ART-0053
+  name: 山河灵图
+  update:
+    combat_record_add: 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
+    ability_add: [可抽离被收纳目标灵力, 可在内部形成灵气锁链和雷霆清算]
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [436, 437, 440]
+- id: ART-0054
+  name: 九天荡魔剑
+  update:
+    combat_record_add: 第436章开启荡魔仙阵并绞碎敖三的大乘灵宝长枪
+    ability_add: 荡魔仙阵可正面压制并摧毁大乘层级灵宝攻势
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [436]
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    acquisition_add: {gift_id: GIFT-0082, chapter: 438, result: 未确认服用, status: partial}
+    related_nodes_add: [NODE-0057]
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: {gift_id: GIFT-0083, chapter: 438, quantity: 2, result: 未确认服用, status: partial}
+    related_nodes_add: [NODE-0057]
