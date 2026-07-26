@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 34
+  extension_files: 35
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -111,6 +111,7 @@ characters:
   - NODE-0044
   - NODE-0045
   - NODE-0046
+  - NODE-0047
   source_chapters:
   - 1
   - 2
@@ -434,6 +435,15 @@ characters:
   - 358
   - 359
   - 360
+  - 361
+  - 362
+  - 363
+  - 364
+  - 365
+  - 366
+  - 367
+  - 368
+  - 369
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -476,6 +486,7 @@ characters:
   - 与娴月建立长期资源关系
   - 与百里海棠形成深海行动合作和共同保密关系
   - 与百里海棠形成稳定道侣关系并承诺长期承担其修炼资源
+  - 与玉冰结为公开道侣并将资源体系与无妄仙宗最高权力层绑定
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -2423,6 +2434,7 @@ characters:
   - NODE-0037
   - NODE-0038
   - NODE-0043
+  - NODE-0047
   source_chapters:
   - 244
   - 247
@@ -2440,9 +2452,13 @@ characters:
   - 286
   - 325
   - 326
+  - 362
+  - 363
+  - 364
+  - 369
   document: null
   verification_status: partial
-  conflict_change: 组织唐天霸、莫一剑等反对者形成持续反徐联盟，并推动集体告发与舆论攻击
+  conflict_change: 因徐霄平安返宗并与玉冰结缘，反徐立场进一步强化
   conflict_escalation: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
   current_action: 伏杀失败后继续维持宗门反徐舆论和敌对网络
   antagonist_network: 说服师父赵无极关注并介入徐霄及道元传承问题
@@ -2475,6 +2491,7 @@ characters:
   - NODE-0034
   - NODE-0037
   - NODE-0040
+  - NODE-0047
   source_chapters:
   - 250
   - 278
@@ -2482,12 +2499,22 @@ characters:
   - 297
   - 298
   - 302
+  - 361
+  - 366
+  - 367
+  - 368
+  - 369
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
   artifact_action: 在护心龙镜刻入可直接联系自己的传讯阵
-  relationship_change: 以宗门惩戒为名召见徐霄，实际建立持续血液研究和直接通讯关系
+  relationship_change: 与徐霄结为公开道侣，接受长期蕴仙丹、极品灵石及灵宝支持
   major_action: 继续取得徐霄天龙血用于研究，并要求执法体系压制针对徐霄的宗门舆论
+  accepted_gifts:
+  - GIFT-0065
+  - GIFT-0066
+  - GIFT-0067
+  public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
 - id: CHAR-0049
   name: 第一婵
   status: alive
@@ -3117,13 +3144,15 @@ characters:
   - GIFT-0063
   - GIFT-0064
   relationship_context:
-    徐霄: 由警惕其恶名转为确认其对灵花岛防务的关键价值并接受合道丹
+  - 徐霄: 由警惕其恶名转为确认其对灵花岛防务的关键价值并接受合道丹
     status: partial
+  - 与徐霄关系被玉冰直接知晓，未来进入无妄仙宗后的关系结构发生变化
   related_nodes:
   - NODE-0043
   - NODE-0044
   - NODE-0045
   - NODE-0046
+  - NODE-0047
   source_chapters:
   - 331
   - 332
@@ -3148,6 +3177,7 @@ characters:
   - 357
   - 358
   - 359
+  - 366
   document: null
   verification_status: partial
   relationship_change:
@@ -3286,6 +3316,7 @@ characters:
   related_nodes:
   - NODE-0045
   - NODE-0046
+  - NODE-0047
   source_chapters:
   - 350
   - 351
@@ -3293,10 +3324,13 @@ characters:
   - 357
   - 358
   - 359
+  - 361
+  - 365
   document: null
   verification_status: partial
   major_action: 识别徐霄的大乘顶级符箓后撤离无妄仙宗与地月宗核心人员
   knowledge_state: 成为地月城冰封真相的关键知情者
+  reputation_change: 公开承担预判地月城冰灾的责任，在西岚域声誉严重受损
 - id: CHAR-0068
   name: 魏无涯
   status: dead
