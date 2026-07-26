@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 47
+  extension_files: 48
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -125,6 +125,7 @@ characters:
   - NODE-0057
   - NODE-0058
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 1
   - 2
@@ -542,6 +543,14 @@ characters:
   - 452
   - 453
   - 454
+  - 455
+  - 456
+  - 457
+  - 458
+  - 459
+  - 460
+  - 461
+  - 462
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -587,13 +596,15 @@ characters:
   - 与百里海棠形成深海行动合作和共同保密关系
   - 与百里海棠形成稳定道侣关系并承诺长期承担其修炼资源
   - 与玉冰结为公开道侣并将资源体系与无妄仙宗最高权力层绑定
+  - 与黑蛇形成稳定道侣和长期资源关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
   - 服用九转运天丹后气运凝练为九天气运
   - 服用仙魂神魄丹后神魂凝成仙神魂胎
+  - 道元圣体可炼化天蛇神毒并转化为修炼灵力
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 合体七重
+  cultivation_change: 合体九重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -625,6 +636,7 @@ characters:
   - 使用山河灵图收纳并清除柯无量离体大乘神魂
   - 以山河灵图挡下独孤浩大乘六重攻击
   - 控制黑魔圣宗黑石客栈一名合体巅峰和五名炼虚修士
+  - 以山河灵图快速收纳黑魔圣宗八名合体巅峰长老、上百门人及其法器
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -3836,6 +3848,7 @@ characters:
   - NODE-0052
   - NODE-0053
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 378
   - 379
@@ -3858,6 +3871,9 @@ characters:
   - 452
   - 453
   - 454
+  - 460
+  - 461
+  - 462
   document: null
   verification_status: partial
   relationship_change:
@@ -3865,6 +3881,7 @@ characters:
   - 对徐霄的资源与安全依赖进一步增强
   - 与徐霄形成稳定道侣和资源依赖关系
   - 明确拒绝黑无忌婚约并请求徐霄保护既有道侣关系
+  - 黑无忌未按时到场后，欧阳惊虹宣布原强制婚约无效，既有徐霄道侣关系获得公开保护
   strategic_change:
   - 对萧家内部继续宣称与徐霄逢场作戏以获取长期资源
   - 在魂墟城确认萧四海及多名萧家长老已被阴魂夺舍，并在徐霄清算中获救
@@ -4330,6 +4347,7 @@ characters:
   - NODE-0057
   - NODE-0058
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 441
   - 442
@@ -4344,13 +4362,18 @@ characters:
   - 452
   - 453
   - 454
+  - 461
+  - 462
   document: null
   verification_status: partial
   cultivation_change: 大乘境
   accepted_gifts:
   - GIFT-0084
   - GIFT-0085
-  relationship_change: 由调查压制徐霄转为接受长期资源，并承诺在无直接证据时保护徐霄
+  - GIFT-0091
+  relationship_change:
+  - 由调查压制徐霄转为接受长期资源，并承诺在无直接证据时保护徐霄
+  - 接受雷灵珠作为萧烬璃婚事相关聘礼资源，进一步进入徐霄长期资源网络
   strategic_change: 奉真灵之命继续接近徐霄，争取建立公开关系以保留其资源
   received_resources:
   - GIFT-0087大乘中期魂丹
@@ -4431,12 +4454,14 @@ characters:
   accepted_gifts:
   - GIFT-0086
   - GIFT-0087
+  - GIFT-0092
   relationship_context:
     徐霄: 由调查与排斥转为认可其资源和合作价值
     萧烬璃: 师徒关系
     status: partial
   related_nodes:
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 449
   - 450
@@ -4444,8 +4469,12 @@ characters:
   - 452
   - 453
   - 454
+  - 461
+  - 462
   document: null
   verification_status: partial
+  authority_action: 以萧烬璃师父身份宣布黑无忌与萧烬璃婚约无效
+  relationship_change: 接受混沌地灵剑后，对徐霄与萧烬璃关系的立场进一步软化
 - id: CHAR-0087
   name: 独孤浩
   status: alive
@@ -4504,9 +4533,67 @@ characters:
     status: active
   related_nodes:
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 452
   - 453
   - 454
+  - 455
+  - 458
+  - 459
+  - 460
+  - 461
+  - 462
+  document: null
+  verification_status: partial
+  status_change: 被山河灵图收纳囚禁，生死未确认
+  conflict_change: 迎亲队被徐霄清算，与萧烬璃的婚约被欧阳惊虹宣布无效
+  system_task_status: active
+- id: CHAR-0089
+  name: 黑蛇
+  status: alive
+  role: major_supporting
+  affiliations:
+  - 黑魔圣宗
+  - 黑蛇族
+  identities:
+  - 黑魔圣宗太上长老
+  - 黑蛇族族长
+  - SS级气运之女
+  first_appearance:
+    chapter: 455
+    title: 黑蛇
+    node: NODE-0060
+  cultivation:
+    current: 大乘六重
+    status: partial
+  constitution_or_ability:
+    name: 天蛇神毒
+    description: 自出生觉醒并长期积蓄的剧毒，可被徐霄道元圣体炼化
+    status: partial
+  system_profile:
+    luck_grade: SS
+    base_return_multiplier: pending
+    bond: 2
+    status: partial
+  accepted_gifts:
+  - GIFT-0088
+  - GIFT-0089
+  - GIFT-0090
+  relationship_context:
+    徐霄: 由执行渗透暗杀转为稳定道侣，并获得长期蕴仙丹、魂丹和防护资源承诺
+    黑无忌: 反对其与萧烬璃的强制婚约，并在其被囚后公开站在徐霄一方
+    status: partial
+  related_nodes:
+  - NODE-0060
+  source_chapters:
+  - 455
+  - 456
+  - 457
+  - 458
+  - 459
+  - 460
+  - 461
+  - 462
   document: null
   verification_status: partial

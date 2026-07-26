@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 44
+  extension_files: 45
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -975,6 +975,12 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0043
+  - NODE-0060
+  transfer_event: GIFT-0089
+  transferred_to: 黑蛇
+  transferred_in_chapter: 456
+  source_chapters:
+  - 456
 - id: ART-0043
   name: 九天精元丹
   category: 丹药
@@ -1014,13 +1020,26 @@ artifacts:
     chapter: 451
     quantity: 90
     status: partial
+  - chapter: 455
+    quantity: 130
+    source: 系统批量返还
+    detailed_gift_mapping: pending
+    status: partial
   effect: 徐霄判断可能用于渡劫阶段修炼；正式用途待后续确认
   status: partial
   related_nodes:
   - NODE-0047
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 451
+  - 455
+  - 456
+  acquisition_additional:
+    gift_id: GIFT-0088
+    chapter: 456
+    quantity: 45
+    status: partial
 - id: ART-0046
   name: 噬魂封魔剑
   category: 先天灵宝魔剑
@@ -1188,6 +1207,7 @@ artifacts:
   - NODE-0057
   - NODE-0058
   - NODE-0059
+  - NODE-0060
   source_chapters:
   - 424
   - 432
@@ -1198,12 +1218,16 @@ artifacts:
   - 449
   - 450
   - 454
+  - 459
+  - 460
   combat_record:
   - 第432章控制并收纳两名合体龙族
   - 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
   - 第444章收纳并隔绝柯无量离体大乘神魂，协助完成神魂清除
   - 第449—450章挡下独孤浩大乘六重攻击并公开形成大乘层级防御威慑
   - 第454章收纳黑魔圣宗黑石客栈一名合体巅峰和五名炼虚情报人员
+  - 第459章快速收纳黑魔圣宗八名合体巅峰长老、上百门人及其法器
+  - 第460章用于囚禁黑无忌与迎亲队并公开黑蛇关系
   ability:
   - 可抽离被收纳目标灵力
   - 可在内部形成灵气锁链和雷霆清算
@@ -1265,3 +1289,17 @@ artifacts:
   - NODE-0058
   source_chapters:
   - 448
+- id: ART-0058
+  name: 九天仙雷珠
+  category: 仙器
+  grade: 仙器
+  first_chapter: 462
+  current_holder: 徐霄
+  acquisition: GIFT-0091返还
+  abilities:
+  - 阵盘类仙器
+  - 内含九天仙雷阵
+  - 可释放大范围毁灭性雷霆
+  status: partial
+  related_nodes:
+  - NODE-0060

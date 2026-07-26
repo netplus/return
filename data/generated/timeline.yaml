@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 48
+  extension_files: 49
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2348,3 +2348,45 @@ nodes:
   - GIFT-0087逐枚对应关系
   document: docs/01-timeline/node-0059.md
   evidence: sources/evidence/chapters-449-454.yaml
+- id: NODE-0060
+  title: 黑蛇渗透反转、迎亲队清算与婚约解除
+  chapters:
+    start: 455
+    end: 462
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第455—463章标题、顺序和边界；第455—462章正文由可访问镜像交叉核验
+  boundary_reason: 第462章完成聘礼赠送、仙器返还与黑无忌婚约解除；第463章转入灵霄仙宗渡劫话事人及新一轮宗门交涉
+  characters:
+  - 徐霄
+  - 黑蛇
+  - 黑无忌
+  - 萧烬璃
+  - 冷若云
+  - 欧阳惊虹
+  - 独孤浩
+  system_events:
+  - event: 首次赠送黑蛇蕴仙丹
+    trigger: 十枚蕴仙丹
+    reward: 三千大道丹与四十五枚雷灵丹
+    status: partial
+  - event: 赠送黑蛇九天灵土剑与神木灵盾
+    reward: pending
+    status: partial
+  - event: 赠送冷若云雷灵珠
+    reward: 仙器九天仙雷珠
+    status: partial
+  - event: 赠送欧阳惊虹混沌地灵剑
+    reward: pending
+    status: partial
+  relationship_result: 黑蛇由渗透执行者转为徐霄稳定道侣，萧烬璃与黑无忌的强制婚约被宣布无效
+  pending:
+  - 黑蛇完整系统面板
+  - GIFT-0089返还
+  - GIFT-0090返还
+  - GIFT-0092返还
+  - 黑无忌任务结算
+  - 迎亲队最终状态
+  - 第455章雷灵丹来源
+  document: docs/01-timeline/node-0060.md
+  evidence: sources/evidence/chapters-455-462.yaml

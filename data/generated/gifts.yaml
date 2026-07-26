@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 40
+  extension_files: 41
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1224,4 +1224,65 @@ gifts:
   reward: 两枚渡劫中期魂丹
   triggered_multiplier: pending
   allocation: 两名受赠者逐枚对应关系待确认
+  status: partial
+- id: GIFT-0088
+  chapter: 456
+  node: NODE-0060
+  giver: 徐霄
+  recipient: 黑蛇
+  gift: 十枚蕴仙丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 10000
+  reward: 一枚三千大道丹及四十五枚雷灵丹
+  relationship_result: 黑蛇对徐霄资源能力与长期支持产生明确认可
+  status: partial
+- id: GIFT-0089
+  chapter: 456
+  node: NODE-0060
+  giver: 徐霄
+  recipient: 黑蛇
+  gift: 九天灵土剑
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: pending
+  relationship_result: 黑蛇由短期渗透转向接受持续资源关系
+  status: partial
+- id: GIFT-0090
+  chapter: 458
+  node: NODE-0060
+  giver: 徐霄
+  recipient: 黑蛇
+  gift: 神木灵盾
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: pending
+  relationship_result: 黑蛇获得长期防护资源并与徐霄形成稳定道侣关系
+  status: partial
+- id: GIFT-0091
+  chapter: 462
+  node: NODE-0060
+  giver: 徐霄
+  recipient: 冷若云
+  gift: 先天灵宝雷灵珠
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: 仙器九天仙雷珠
+  relationship_result: 冷若云以萧烬璃婚事相关聘礼名义接受高阶资源
+  status: partial
+- id: GIFT-0092
+  chapter: 462
+  node: NODE-0060
+  giver: 徐霄
+  recipient: 欧阳惊虹
+  gift: 先天灵宝混沌地灵剑
+  accepted: true
+  system_valid: true
+  triggered_multiplier: pending
+  reward: pending
+  relationship_result: 欧阳惊虹接受聘礼资源并宣布黑无忌婚约无效
   status: partial
