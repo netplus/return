@@ -1,0 +1,9 @@
+schema_version: 1
+run_id: RUN-0061
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [陆雪瑶, 魔姝]
+    related_nodes_add: [NODE-0050]
+    source_chapters_add: [381, 387, 388]

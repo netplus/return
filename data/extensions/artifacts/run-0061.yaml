@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0061
+artifacts:
+- id: ART-0048
+  name: 压制法器
+  category: 跨界辅助法器
+  first_chapter: 381
+  current_holder: 玉冰
+  quantity: 9
+  acquisition: 徐霄在铁焰城拍卖会竞得并交由玉冰管理
+  abilities:
+  - 与铁焰城跨界机制匹配
+  - 使大乘六重及以下修士能够随铁焰城进入阴煞界
+  limitations:
+  - 对大乘六重以上修士不生效
+  - 需配合铁焰城跨界行动使用
+  status: partial
+  related_nodes: [NODE-0050]
+  source_chapters: [381, 383, 384, 385, 386]
+  document: null

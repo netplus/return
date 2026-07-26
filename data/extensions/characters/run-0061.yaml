@@ -1,0 +1,71 @@
+schema_version: 1
+run_id: RUN-0061
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    strategic_change_add: [以个人灵石竞得九件压制法器并交由玉冰管理, 加入魔姝带领的阴煞界行动队伍]
+    relationship_network_change_add: 与萧烬璃由资源赠送转为持续利益接触
+    related_nodes_add: [NODE-0050]
+    source_chapters_add: [381, 382, 383, 384, 385, 386, 387, 388]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    resource_add: 九件压制法器
+    strategic_change_add: 组织无妄仙宗大乘修士进入阴煞界并管理徐霄竞得的压制法器
+    related_nodes_add: [NODE-0050]
+    source_chapters_add: [381, 382, 383, 384, 385, 386, 387, 388]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    action_change_add: 作为无妄仙宗阴煞界行动成员完成出发和队伍安排
+    related_nodes_add: [NODE-0050]
+    source_chapters_add: [381, 386, 387, 388]
+- id: CHAR-0063
+  name: 百里海棠
+  update:
+    action_change_add: 作为无妄仙宗阴煞界行动成员完成出发和队伍安排
+    related_nodes_add: [NODE-0050]
+    source_chapters_add: [386, 387, 388]
+- id: CHAR-0071
+  name: 萧烬璃
+  update:
+    relationship_change_add: 因灵宝与拍卖会灵石收益主动私下邀请徐霄，双方形成持续利益接触
+    strategic_change_add: 对萧家内部继续宣称与徐霄逢场作戏以获取长期资源
+    related_nodes_add: [NODE-0050]
+    source_chapters_add: [381, 382, 383, 384, 385, 386, 387]
+- id: CHAR-0073
+  name: 陆雪瑶
+  status: alive
+  role: major_supporting
+  affiliations: [青云仙宗, 青山域]
+  identities: [青云仙宗掌门, SSS级气运之女, 冰系大道修士]
+  first_appearance: {chapter: 381, title: sss级气运之女，陆雪瑶, node: NODE-0050}
+  cultivation: {current: 大乘境, exact_level: pending, status: partial}
+  system_profile: {luck_grade: SSS, base_multiplier: pending, bond: pending, status: partial}
+  relationship_context:
+    玉冰: 同修冰系大道并被四域修士长期并列比较的绝代天才
+    徐霄: 首次接触阶段，对其名声和行为保持明显负面评价
+    status: partial
+  related_nodes: [NODE-0050]
+  source_chapters: [381, 382, 383, 384]
+  document: null
+  verification_status: partial
+- id: CHAR-0074
+  name: 魔姝
+  status: alive
+  role: supporting
+  affiliations: [魔道宗门, 阴煞界行动队]
+  identities: [C级气运之女, 太上长老, 阴煞界行动队伍组织者]
+  first_appearance: {chapter: 387, title: c级气运之女魔姝, node: NODE-0050}
+  cultivation: {current: 大乘六重, status: partial}
+  age: {value: 约六万岁, status: partial}
+  system_profile: {luck_grade: C, base_multiplier: pending, bond: pending, status: partial}
+  relationship_context:
+    徐霄: 主动邀请其加入阴煞界行动队伍并承诺提供保护
+    长眉太上长老: 受到长期重点照拂，精确关系定义待确认
+    status: partial
+  related_nodes: [NODE-0050]
+  source_chapters: [387, 388]
+  document: null
+  verification_status: partial
