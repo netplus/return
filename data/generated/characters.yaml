@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 36
+  extension_files: 37
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -113,6 +113,7 @@ characters:
   - NODE-0046
   - NODE-0047
   - NODE-0048
+  - NODE-0049
   source_chapters:
   - 1
   - 2
@@ -450,6 +451,12 @@ characters:
   - 372
   - 373
   - 374
+  - 375
+  - 376
+  - 377
+  - 378
+  - 379
+  - 380
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -502,6 +509,7 @@ characters:
   - 晋升炼虚一重
   - 服用新的鸿蒙一气丹后鸿蒙真气增至十三股
   - 两年修炼后由炼虚境晋升合体境
+  - 合体境稳固并开始冲击合体二重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -520,6 +528,7 @@ characters:
   - 在灵花岛海水环境中以四象斩天剑击杀大量鲛人并两剑击退合体巅峰百里敖
   - 以大乘层级混元天冰符冰封鲛人海域并摧毁鲛人族与三宗联合伏杀阵营
   - 以大乘九重混元天冰符冰封地月城并覆灭三宗围杀阵营
+  - 在铁焰城以神剑当场击杀合体初期萧焰并形成至少合体巅峰层级威慑
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -538,6 +547,7 @@ characters:
   - 七件返还灵宝
   - 三万六千枚极品灵石
   - 九天神莲戒
+  - 混沌破金剑
   ability:
   - 金之大道·锋锐
   system_progress: 法宝返还库最高可返还灵宝
@@ -570,6 +580,11 @@ characters:
   - 萧慕河与血云魔尊（天元大陆重逢）
   system_task_completion: 黑风气运之敌任务完成，下一次灵宝赠送可返还先天灵宝
   essence_state: 九天精元
+  system_task:
+    target: 赵无极
+    type: 气运之敌
+    reward: 一次万倍暴击机会
+    status: active
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2449,6 +2464,7 @@ characters:
   - NODE-0038
   - NODE-0043
   - NODE-0047
+  - NODE-0049
   source_chapters:
   - 244
   - 247
@@ -2470,12 +2486,17 @@ characters:
   - 363
   - 364
   - 369
+  - 376
+  - 377
+  - 378
+  - 379
   document: null
   verification_status: partial
   conflict_change: 因徐霄平安返宗并与玉冰结缘，反徐立场进一步强化
   conflict_escalation: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
   current_action: 伏杀失败后继续维持宗门反徐舆论和敌对网络
   antagonist_network: 说服师父赵无极关注并介入徐霄及道元传承问题
+  strategic_change: 随赵无极参加阴煞小界行动并继续把徐霄视为主要敌对目标
 - id: CHAR-0048
   name: 玉冰
   status: alive
@@ -2506,6 +2527,7 @@ characters:
   - NODE-0037
   - NODE-0040
   - NODE-0047
+  - NODE-0049
   source_chapters:
   - 250
   - 278
@@ -2518,6 +2540,10 @@ characters:
   - 367
   - 368
   - 369
+  - 376
+  - 377
+  - 378
+  - 379
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
@@ -2529,6 +2555,7 @@ characters:
   - GIFT-0066
   - GIFT-0067
   public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
+  strategic_change: 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
 - id: CHAR-0049
   name: 第一婵
   status: alive
@@ -2561,6 +2588,7 @@ characters:
   - NODE-0039
   - NODE-0040
   - NODE-0048
+  - NODE-0049
   source_chapters:
   - 250
   - 251
@@ -2587,6 +2615,10 @@ characters:
   - 372
   - 373
   - 374
+  - 375
+  - 376
+  - 377
+  - 379
   document: null
   verification_status: partial
   accepted_gifts:
@@ -2606,6 +2638,8 @@ characters:
   bond_level: 2
   current_artifacts:
   - 九火龙鳞剑
+  resource: 合体九重混沌极冰符
+  action_change: 作为阴煞小界行动参与者随徐霄前往铁焰城
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -3084,13 +3118,20 @@ characters:
   cultivation:
     current: pending
     status: pending
-  current_action: 听取叶尘对徐霄的负面汇报后，开始关注徐霄、玉冰与道元传承
+  current_action: 作为无妄仙宗阴煞小界行动带队大乘之一前往铁焰城
   related_nodes:
   - NODE-0043
+  - NODE-0049
   source_chapters:
   - 326
+  - 376
+  - 377
+  - 378
+  - 379
   document: null
   verification_status: partial
+  system_status: 被万倍返还系统确认作气运之敌，击杀任务奖励为一次万倍暴击机会
+  conflict_change: 对徐霄保持明确敌意并等待阴煞小界行动机会
 - id: CHAR-0061
   name: 苏瑶
   status: alive
@@ -3458,5 +3499,69 @@ characters:
   - 358
   - 359
   - 360
+  document: null
+  verification_status: partial
+- id: CHAR-0071
+  name: 萧烬璃
+  status: alive
+  role: supporting_antagonistic
+  affiliations:
+  - 萧家
+  - 铁焰城
+  identities:
+  - 萧家家主
+  - 铁焰城拍卖会主持人
+  - 有效气运赠送对象
+  first_appearance:
+    chapter: 378
+    title: 杀鸡儆猴，震惊全场
+    node: NODE-0049
+  cultivation:
+    current: 合体巅峰
+    status: partial
+  accepted_gifts:
+  - GIFT-0070
+  - GIFT-0071
+  relationship_context:
+    徐霄: 由警惕敌视转为接受资源并保留传讯接触，但长期立场尚未稳定
+    萧四海: 萧家大长老，对徐霄强烈敌视
+    status: partial
+  related_nodes:
+  - NODE-0049
+  source_chapters:
+  - 378
+  - 379
+  - 380
+  document: null
+  verification_status: partial
+- id: CHAR-0072
+  name: 萧四海
+  status: alive
+  role: antagonist
+  affiliations:
+  - 萧家
+  - 铁焰城
+  identities:
+  - 萧家大长老
+  - 大乘修士
+  first_appearance:
+    chapter: 378
+    title: 杀鸡儆猴，震惊全场
+    node: NODE-0049
+  cultivation:
+    current: 大乘境
+    exact_level: pending
+    status: partial
+  conflict:
+    target: 徐霄
+    action: 示意萧焰公开挑衅徐霄，并在萧焰死亡后保持强烈杀意
+    result: 因无妄仙宗多名大乘在场而暂时压下冲突
+    status: partial
+  related_nodes:
+  - NODE-0049
+  source_chapters:
+  - 378
+  - 379
+  - 380
   document: null
   verification_status: partial

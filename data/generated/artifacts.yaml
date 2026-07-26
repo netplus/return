@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 34
+  extension_files: 35
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -623,11 +623,17 @@ artifacts:
   - NODE-0029
   - NODE-0035
   - NODE-0040
+  - NODE-0049
   transfer:
-    gift_id: GIFT-0047
+  - gift_id: GIFT-0047
     recipient: 第一婵
     quantity: 1
     chapter: 257
+    status: partial
+  - gift_id: GIFT-0070
+    recipient: 萧烬璃
+    quantity: 10
+    chapter: 378
     status: partial
   transfers:
   - gift_id: GIFT-0051
@@ -648,6 +654,7 @@ artifacts:
   source_chapters:
   - 298
   - 300
+  - 378
 - id: ART-0030
   name: 天凤神元丹
   category: 丹药
@@ -820,12 +827,20 @@ artifacts:
   related_nodes:
   - NODE-0040
   - NODE-0041
+  - NODE-0049
   combat_record: 在凤山界合体巅峰凶兽密集区域承担飞行、防御和作战平台功能
   source_chapters:
   - 309
   - 312
   - 313
   - 316
+  - 377
+  transport_record:
+    chapters:
+    - 377
+    route: 无妄仙宗至黑木岭铁焰城
+    passengers: 无妄仙宗阴煞小界行动队伍
+    status: partial
 - id: ART-0038
   name: 五行灵宝神剑组
   category: 灵宝神剑组合
@@ -953,3 +968,17 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0048
+- id: ART-0047
+  name: 混沌破金剑
+  category: 先天灵宝神剑
+  grade: 先天灵宝
+  first_chapter: 380
+  current_holder: 徐霄
+  acquisition: GIFT-0071返还
+  abilities:
+  - 利破万法，可击穿法宝和护体防御
+  - 可与徐霄其他先天灵宝神剑协同驱动
+  - 完整法阵机制和威力上限待后续确认
+  status: partial
+  related_nodes:
+  - NODE-0049
