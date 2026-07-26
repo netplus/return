@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0071
+task_id: TASK-0062
+updated_at: '2026-07-27'
+arc:
+  chapter_start: 455
+  chapter_end: 462
+  node: NODE-0060
+  status: promoted
+  canonical_document: docs/01-timeline/node-0060.md
+  boundary_reason: 第462章完成聘礼赠送、仙器返还与黑无忌婚约解除；第463章转入灵霄仙宗渡劫话事人及新的宗门交涉
+chapters:
+- {chapter: 455, title: 黑蛇, facts: [白霜霜相关持续赠送触发一百三十枚雷灵丹返还, 黑无忌确认灵虚城情报节点失联并亲自推进婚约, 黑蛇受命接近徐霄], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 456, title: 黑蛇的心态转变, facts: [黑蛇以天蛇神毒实施近身渗透, 徐霄向黑蛇赠送十枚蕴仙丹, 首次赠送返还三千大道丹且其余返还四十五枚雷灵丹, 徐霄继续赠送九天灵土剑], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 457, title: 蛇毒能助我修行？, facts: [黑蛇承认伪装身份且为黑魔圣宗太上长老和黑蛇族族长, 徐霄道元圣体可炼化天蛇神毒, 黑蛇被确认为SS级气运之女], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 458, title: 拦截, facts: [徐霄炼化黑蛇积蓄蛇毒并晋升合体九重, 黑蛇羁绊度提升至2, 双方建立长期资源关系, 徐霄向黑蛇赠送神木灵盾], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 459, title: 迎亲队全军覆没, facts: [黑无忌率八名合体巅峰长老和上百门人前往灵虚城, 徐霄使用山河灵图收纳迎亲队及其法器, 黑魔圣宗迎亲行动失败], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 460, title: 和蛇蛇妹公开关系, facts: [黑蛇在山河灵图内向黑无忌及黑魔圣宗门人公开与徐霄的道侣关系, 黑无忌等人被灵力锁链囚禁, 黑蛇公开反对萧烬璃婚约], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 461, title: 城主府送聘礼, facts: [黑蛇在城主府公开展示神木灵盾和长期资源关系, 萧烬璃婚约争议转入聘礼与宗门决策阶段, 徐霄准备向冷若云和欧阳惊虹提供先天灵宝聘礼], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 462, title: 上古仙藏, facts: [冷若云接受先天灵宝雷灵珠并返还仙器九天仙雷珠, 欧阳惊虹接受混沌地灵剑, 欧阳惊虹宣布黑无忌与萧烬璃婚约无效, 徐霄以传承资源解释高阶赠送能力], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 463
+  next_title: 灵霄仙宗话事人，渡劫长老
+  transition: 转入灵霄仙宗渡劫层级话事人、新宗门交涉与后续魔宗来人阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
