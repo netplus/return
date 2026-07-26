@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0055
+gift_events:
+- id: GIFT-0061
+  chapter: 338
+  node: NODE-0044
+  giver: 徐霄
+  recipient: 娴月
+  gift: 十枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 三千大道丹
+  relationship_result: 建立长期资源支持关系
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [娴月]
+    gift_ids_add: [GIFT-0061]
+    related_nodes_add: [NODE-0044]
+    source_chapters_add: [338]
