@@ -4,25 +4,25 @@
 - **Current milestone:** M10 — Chapters 451–500
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 485
-- **Current evidence exploration through:** Chapter 486
+- **Canonical coverage through:** Chapter 493
+- **Current evidence exploration through:** Chapter 494
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 63
+- **Completed timeline nodes:** 64
 - **Draft timeline nodes:** 0
-- **Documented characters:** 93
-- **Gift events:** 103
-- **Artifact records:** 65
-- **Last run:** `RUN-0074`
-- **Last completed node:** `NODE-0063`
-- **Next task:** `TASK-0066` — 五年跃迁、第一婵晋升与天元仙宗启程 story arc
-- **Provisional exploration range:** Chapters 486–493
+- **Documented characters:** 99
+- **Gift events:** 104
+- **Artifact records:** 66
+- **Last run:** `RUN-0075`
+- **Last completed node:** `NODE-0064`
+- **Next task:** `TASK-0067` — 月幽冥赠礼、蓬莱阴灵与天山论剑前哨 story arc
+- **Provisional exploration range:** Chapters 494–501
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0063` covers Chapters 479—485. 系统识别龙矶为有效气运对象；徐霄向其赠送十枚雷灵丹和九天神莲戒，返还仙牛神虎丹、九枚化仙丹和防御仙器仙莲玉戒。徐霄乘九霄玉舟返回盘龙岛处理段红绫、陆大年等旧关系后返宗。龙矶凭雷灵丹、九天神莲戒及既有灵宝毫发无伤通过第七次雷劫，晋升渡劫七重；徐霄承诺继续支持其第八、第九次雷劫，龙矶与魔嬛围绕长期机缘形成竞争。第 485 章引出蓬莱异变，第 486 章五年时间跳跃并转入第一婵渡大乘雷劫。
+`NODE-0064` covers Chapters 486—493. 五年后徐霄与第一婵进入大乘层级，无妄仙宗高阶战力继续扩张。天元仙宗素青携神子楚霄、神女云心月邀请无妄仙宗参加天山论剑；徐霄首次向云心月赠送十枚雷灵丹，返还佛陀金身丹和九枚化仙丹。姬雪觉醒元灵仙体与雪瑶仙帝前世记忆，须臾空间和仙界法器重新激活并晋升大乘上境。队伍抵达天元仙宗后，苏瑶羁绊度升至 2。蓬莱仙宗到场时，徐霄以仙神魂胎神识识破海岚、葬花、北风及同行二十余人均被冰寒阴灵夺舍。第 494 章转入月幽冥赠送与新的关系推进。
 
-## Quality gates — RUN-0074
+## Quality gates — RUN-0075
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 479—486 章标题、顺序和边界；第 479—485 章正文由 CP 小说网等可访问正文镜像交叉核验。龙矶完整系统面板、仙牛神虎丹是否服用、仙莲玉戒完整能力、盘龙岛完整资源清单、第七次雷劫法宝损耗及蓬莱事变完整细节继续保持 `pending`。
+番茄小说官方目录确认第 486—494 章标题、顺序和边界；第 486—493 章正文由 CP 小说网等可访问正文镜像交叉核验。第一婵雷劫细节、楚霄与云心月完整系统面板、姬雪赠送返还链、苏瑶灵宝赠送映射及蓬莱阴灵来源和目的继续保持 `pending`。

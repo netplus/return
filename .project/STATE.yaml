@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-27'
-last_run_id: RUN-0074
+last_run_id: RUN-0075
 milestone: M10
 workflow:
   standard_version: 2.0
@@ -16,22 +16,22 @@ scope:
   chapter_start: 451
   chapter_end: 500
 progress:
-  chapters_covered_through: 485
-  chapters_examined_through: 486
+  chapters_covered_through: 493
+  chapters_examined_through: 494
   chapters_verified_through: 16
   source_qualified_chapter_ranges:
   - {start: 12, end: 42}
-  - {start: 44, end: 485}
+  - {start: 44, end: 493}
   source_qualification_exceptions: [43]
-  nodes_completed: 63
+  nodes_completed: 64
   nodes_drafted: 0
-  characters_documented: 93
+  characters_documented: 99
   characters_staged: 0
   system_records: 1
-  gift_events: 103
-  artifact_records: 65
+  gift_events: 104
+  artifact_records: 66
   artifacts_staged: 0
-  last_completed_node: NODE-0063
-current: {next_task: TASK-0066, task_status: pending, next_chapter: 486, provisional_arc_end: 493}
+  last_completed_node: NODE-0064
+current: {next_task: TASK-0067, task_status: pending, next_chapter: 494, provisional_arc_end: 501}
 status: active
 blockers: []
