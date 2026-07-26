@@ -1,9 +1,9 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0075
+run_id: RUN-0076
 coverage:
   chapters_covered_through: 493
-  chapters_promoted_in_run: [486, 487, 488, 489, 490, 491, 492, 493]
+  chapters_promoted_in_run: []
   timeline_nodes: 64
   draft_nodes: 0
   story_arc_nodes: 61
@@ -13,20 +13,19 @@ coverage:
   gift_events: 104
   artifact_records: 66
   artifacts_staged: 0
+entity_documents:
+  character_records: 99
+  artifact_records: 66
+  expected_generated_documents: 165
+  generator: scripts/render_entity_docs.py
+  manifest: docs/entity-docs-manifest.yaml
 quality_gates:
-  source_traceability:
-    status: passed_with_qualifications
-    official_catalog_chapters: [486, 487, 488, 489, 490, 491, 492, 493, 494]
-    cross_checked_mirror_chapters: [486, 487, 488, 489, 490, 491, 492, 493]
-    pending_fields: [第一婵雷劫细节, 楚霄与云心月完整系统面板, 姬雪赠送返还链, 苏瑶灵宝赠送映射, 蓬莱阴灵来源与目的]
-    failures: 0
-  arc_coherence: {status: passed, boundary: 第493章完成蓬莱仙宗全队遭冰寒阴灵夺舍的识别并形成潜在危机；第494章转入月幽冥赠送与新的关系推进}
-  materiality: {status: passed, entity_updates: [NODE-0064, CHAR-0001徐霄, CHAR-0049第一婵, CHAR-0002姬雪, CHAR-0061苏瑶, CHAR-0094楚霄, CHAR-0095云心月, CHAR-0096素青, CHAR-0097海岚, CHAR-0098葬花, CHAR-0099北风, GIFT-0104, ART-0066佛陀金身丹, ART-0045雷灵丹, ART-0060化仙丹]}
-  cross_index_consistency:
-    status: passed
-    index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0064.md, data/extensions/timeline/run-0075.yaml, data/extensions/characters/run-0075.yaml, data/extensions/system/run-0075.yaml, data/extensions/artifacts/run-0075.yaml]
+  source_traceability: {status: passed, scope: existing_canonical_records, failures: 0}
+  arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
+  materiality: {status: passed, entity_updates: [canonical_entity_document_renderer, workflow_v2.1, CI_generated_view_refresh]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, projection_targets: [docs/02-characters, docs/06-artifacts]}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0075.yaml, data/extensions/characters/run-0075.yaml, data/extensions/system/run-0075.yaml, data/extensions/artifacts/run-0075.yaml, sources/evidence/chapters-486-493.yaml]}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md, .github/workflows/knowledge-base-ci.yml]}
+  entity_document_freshness: {status: passed, characters: 99, artifacts: 66, complete_canonical_record_embedded: true, manifest_required: true}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: structured_canonical_projection}
 blockers: []

@@ -1,9 +1,9 @@
 schema_version: 2
 updated_at: '2026-07-27'
-last_run_id: RUN-0075
+last_run_id: RUN-0076
 milestone: M10
 workflow:
-  standard_version: 2.0
+  standard_version: 2.1
   unit: story_arc
   default_chapter_window: 5-10
   boundary_mode: adaptive
@@ -12,6 +12,12 @@ workflow:
 indexing:
   mode: base_plus_extensions
   extension_document: data/extensions/README.md
+entity_documents:
+  mode: canonical_materialized
+  generator: scripts/render_entity_docs.py
+  manifest: docs/entity-docs-manifest.yaml
+  character_documents: 99
+  artifact_documents: 66
 scope:
   chapter_start: 451
   chapter_end: 500

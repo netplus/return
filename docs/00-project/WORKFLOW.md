@@ -1,6 +1,6 @@
 # 剧情知识库工作标准
 
-版本：2.0  
+版本：2.1  
 生效范围：自第 4 章起；第 1—3 章既有节点保留，不回溯拆改。
 
 ## 1. 核心原则
@@ -65,6 +65,7 @@
 - 禁止为同一剧情阶段拆成大量仅更新单文件的碎片提交。
 - “一个完整 Git Commit”约束的是目标分支最终历史，而不是中间传输方式。当 Git Data API 无法提供基础 Tree SHA 时，不得以 Commit SHA 冒充 Tree SHA；应从已核验的目标分支 HEAD 创建临时分支，完成全部文件写入后通过 squash merge 形成目标分支上的单一提交。
 - 使用临时分支回退路径时，必须在合并前校验目标分支未产生冲突性 Project OS Run，并以预期 Head SHA 执行合并；失败则登记 blocker，不得强推覆盖。
+- `data/generated/` 与实体 Markdown 是自动物化视图，GitHub Actions 的后续刷新提交不视为拆分业务 Task；其内容必须可由同一 Task 的 canonical 增量完全重建。
 
 ## 6. 输出要求
 
@@ -87,6 +88,7 @@
 - Materiality：只登记具有长期价值的变化；
 - Cross-index consistency：Markdown 与 YAML 索引一致；
 - Duplicate-work check：避免重复节点和重复实体记录；
+- Entity-document freshness：人物与物品 Markdown 能从最新 canonical 索引完整重建，数量、ID 和完整记录不得缺失；
 - Copyright boundary：不保存大段或整章原文。
 
 ## 8. 当前迁移规则
@@ -112,3 +114,21 @@ python scripts/knowledge_base.py validate --generated-dir data/generated
 - 校验必须覆盖 YAML 解析、ID 唯一性、Timeline 区间、文档和证据引用、跨索引节点引用，以及 `.project/STATE.yaml` / `.project/METRICS.yaml` 统计一致性。
 - GitHub Actions 在 `main` 更新后刷新生成索引，并每周将扩展合并回基础索引。
 - compaction 不删除扩展文件；扩展文件继续作为每次 Run 的不可变审计记录。
+
+## 10. Entity document materialization
+
+`docs/02-characters/` 和 `docs/06-artifacts/` 是 canonical 索引的人类可读完整投影，不再作为独立手工事实源。
+
+- 每个 canonical 人物和物品记录必须对应一个 Markdown 文档。
+- 每份文档必须包含可读摘要和完整 canonical YAML 记录，确保追加扩展中的后续身份、境界、关系、持有状态、能力、来源章节、`pending` 字段和连续性警告不会遗漏。
+- 文档由 `scripts/render_entity_docs.py` 生成；事实修正应写入基础索引或追加扩展，不得直接修改自动生成档案。
+- `docs/entity-docs-manifest.yaml` 记录生成器、canonical 来源、记录数量和 ID 到文档路径的映射。
+- 生成与复验命令：
+
+```bash
+python scripts/render_entity_docs.py --generated-dir data/generated
+python scripts/render_entity_docs.py --generated-dir data/generated --check
+```
+
+- PR CI 必须从临时 canonical 索引生成并复验实体文档产物；`main` 刷新任务必须将生成索引、人物档案、物品档案和 manifest 一并提交。
+- 自动刷新提交必须通过路径忽略避免递归触发工作流。

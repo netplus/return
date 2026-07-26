@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0076 — 2026-07-27
+
+- Read Workflow, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Audited `docs/02-characters/` and `docs/06-artifacts/` against the materialized canonical indexes after the user reported substantial omissions.
+- Confirmed systemic drift: Markdown profiles were early manually maintained snapshots while canonical indexes continued to absorb append-only updates through Chapter 493.
+- Inserted and completed maintenance task `TASK-0067M` without consuming or duplicating the pending Chapter 494 story task `TASK-0067`.
+- Upgraded the workflow standard to v2.1 and added the Entity-document freshness quality gate.
+- Added `scripts/render_entity_docs.py`, which generates one complete Markdown profile per canonical character and artifact, plus directory indexes and `docs/entity-docs-manifest.yaml`.
+- Each generated profile contains a readable summary and the complete merged canonical YAML record, preserving later identities, cultivation, relationships, ownership, abilities, source chapters, pending fields, conflicts and continuity warnings.
+- Added renderer unit tests covering explicit paths, filename sanitization, collisions, stale detection and deletion limited to previously managed files.
+- Updated Knowledge Base CI to build and verify the full entity-document projection in PRs and refresh generated indexes plus entity documents together on `main`.
+- Configured generated-view path ignores to prevent recursive workflow runs.
+- Preserved canonical counts and story coverage: 99 characters, 66 artifacts and Chapters covered through 493; no new story facts or Timeline node were added.
+- Left `TASK-0067` as the next unique pending task beginning at Chapter 494.
+
 ## RUN-0075 — 2026-07-27
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

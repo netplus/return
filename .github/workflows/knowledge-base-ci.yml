@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths-ignore:
       - 'data/generated/**'
+      - 'docs/02-characters/**'
+      - 'docs/06-artifacts/**'
+      - 'docs/entity-docs-manifest.yaml'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
@@ -33,6 +36,9 @@ jobs:
       - name: Run knowledge-base unit tests
         run: python scripts/test_knowledge_base.py
 
+      - name: Run entity-document renderer tests
+        run: python scripts/test_render_entity_docs.py
+
       - name: Validate base and extension indexes
         shell: bash
         run: |
@@ -55,6 +61,16 @@ jobs:
       - name: Validate materialized indexes
         run: python scripts/knowledge_base.py validate --generated-dir build/canonical-indexes
 
+      - name: Render complete entity-document projection
+        run: |
+          python scripts/render_entity_docs.py \
+            --generated-dir build/canonical-indexes \
+            --output-root build/entity-docs
+          python scripts/render_entity_docs.py \
+            --generated-dir build/canonical-indexes \
+            --output-root build/entity-docs \
+            --check
+
       - name: Check whitespace errors
         run: git diff --check
 
@@ -63,6 +79,17 @@ jobs:
         with:
           name: canonical-indexes-${{ github.sha }}
           path: build/canonical-indexes/*.yaml
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload entity-document artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: entity-documents-${{ github.sha }}
+          path: |
+            build/entity-docs/docs/02-characters
+            build/entity-docs/docs/06-artifacts
+            build/entity-docs/docs/entity-docs-manifest.yaml
           if-no-files-found: error
           retention-days: 14
 
@@ -86,33 +113,35 @@ jobs:
       - name: Install generator dependency
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
 
-      - name: Rebuild tracked generated indexes
+      - name: Rebuild tracked generated indexes and entity documents
         run: |
           python scripts/knowledge_base.py build --output-dir data/generated
           python scripts/knowledge_base.py validate --generated-dir data/generated
+          python scripts/render_entity_docs.py --generated-dir data/generated
+          python scripts/render_entity_docs.py --generated-dir data/generated --check
 
-      - name: Commit and push refreshed indexes
+      - name: Commit and push refreshed generated views
         shell: bash
         run: |
           mkdir -p build
-          if [ -z "$(git status --porcelain -- data/generated)" ]; then
-            echo 'Generated indexes are already current.' | tee build/push.log
+          if [ -z "$(git status --porcelain -- data/generated docs/02-characters docs/06-artifacts docs/entity-docs-manifest.yaml)" ]; then
+            echo 'Generated indexes and entity documents are already current.' | tee build/push.log
             exit 0
           fi
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/generated
-          git commit -m 'chore(data): refresh generated canonical indexes'
+          git add data/generated docs/02-characters docs/06-artifacts docs/entity-docs-manifest.yaml
+          git commit -m 'chore(data): refresh generated indexes and entity docs'
 
           set -o pipefail
           git push origin HEAD:main 2>&1 | tee build/push.log
 
-      - name: Upload generated-index push report
+      - name: Upload generated-view push report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: generated-index-push-${{ github.sha }}
+          name: generated-view-push-${{ github.sha }}
           path: build/push.log
           if-no-files-found: warn
           retention-days: 14
