@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-0063
+gift_events:
+- id: GIFT-0073
+  chapter: 400
+  node: NODE-0052
+  giver: 徐霄
+  recipient: 尹小倩
+  gift: 一枚合体中期魂丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: pending
+  reward: 一枚大乘中期魂丹
+  relationship_result: 尹小倩接受长期阳气与魂丹支持并进入养魂袋随行
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0073]
+    confirmed_objects_add: [玄阴女尊, 尹小倩]
+    interaction_rules_add: [尹小倩吸收徐霄一点阳气时系统返还十点阳气]
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [398, 399, 400]
