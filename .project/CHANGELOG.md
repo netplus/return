@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0072 — 2026-07-27
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0063`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 470; Chapter 471 begins the天阁来访、跨宗关系公开 and返宗善后 stage.
+- Created `NODE-0061`: 渡劫话事人争夺、龙族问罪与敖海结算, covering Chapters 463—470.
+- Added 月幽冥 and 敖海 as `CHAR-0090` and `CHAR-0091`; updated 徐霄、冷若云、真灵、独孤浩、黑无忌 and黑蛇 for persistent relationship, conflict and authority changes.
+- Added `GIFT-0093`—`GIFT-0095`, recording雷灵丹赠送、九天玉骨丹返还 and化仙丹返还链.
+- Added `ART-0059` 九天玉骨丹 and `ART-0060` 化仙丹; expanded雷灵丹 transfer records.
+- Recorded敖海气运之敌任务的间接完成 and丹药返还库普通返还上限升级至人仙境.
+- Preserved渡劫话事人完整面板、gift数量与倍率、丹药完整药效、黑无忌最终状态 and东海龙族完整伤亡 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0063` and queued `TASK-0064` beginning at Chapter 471.
+
 ## RUN-0071 — 2026-07-27
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
