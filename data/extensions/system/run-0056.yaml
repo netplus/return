@@ -1,0 +1,36 @@
+schema_version: 1
+run_id: RUN-0056
+gift_events:
+- id: GIFT-0062
+  chapter: 347
+  node: NODE-0045
+  giver: 徐霄
+  recipient: 百里海棠
+  gift: 十枚合道丹
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 鸿蒙一气丹
+  triggered_multiplier: pending
+  relationship_result: 羁绊度提升至2并形成长期资源关系
+  status: partial
+- id: GIFT-0063
+  chapter: 347
+  node: NODE-0045
+  giver: 徐霄
+  recipient: 百里海棠
+  gift: 防御灵宝（名称待确认）
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 先天灵宝九天神莲戒
+  triggered_multiplier: pending
+  relationship_result: 获得用于长期防护的高阶资源支持
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0062, GIFT-0063]
+    related_nodes_add: [NODE-0045]
+    source_chapters_add: [347]
