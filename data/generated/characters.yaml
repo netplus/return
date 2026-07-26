@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 41
+  extension_files: 42
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -37,10 +37,10 @@ characters:
     level: 元婴九重
     status: partial
   age:
-    value: 1018
+    value: 1019
     status: partial
   lifespan:
-    remaining_years: 3293
+    remaining_years: 40290
     status: partial
   dao_comprehension:
   - current:
@@ -60,6 +60,7 @@ characters:
     source: 九转乾元丹
     status: partial
   - 天玉骨
+  - 道元圣体
   public_combat_record:
     result: 击杀化神九重魔极天
     chapter: 50
@@ -118,6 +119,7 @@ characters:
   - NODE-0051
   - NODE-0052
   - NODE-0053
+  - NODE-0054
   source_chapters:
   - 1
   - 2
@@ -491,6 +493,14 @@ characters:
   - 408
   - 409
   - 410
+  - 411
+  - 412
+  - 413
+  - 414
+  - 415
+  - 416
+  - 417
+  - 418
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -539,13 +549,7 @@ characters:
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
   - 服用九转运天丹后气运凝练为九天气运
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change:
-  - 晋升炼虚一重
-  - 服用新的鸿蒙一气丹后鸿蒙真气增至十三股
-  - 两年修炼后由炼虚境晋升合体境
-  - 合体境稳固并开始冲击合体二重
-  - 服用鸿蒙一气丹后鸿蒙真气增至十六股
-  - 服用三千大道丹补全土之大道
+  cultivation_change: 合体四重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -570,6 +574,7 @@ characters:
   - 兰若寺清除潜伏大乘阴魂
   - 魂墟城连续清除合体与大乘阴魂
   - 四柄先天灵宝神剑协同击杀萧四海及十余名夺舍长老
+  - 以五柄先天灵宝神剑和噬魂封魔剑击杀万剑尊者及大乘阴魂，救援陆雪瑶
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -591,6 +596,7 @@ characters:
   - 混沌破金剑
   ability:
   - 金之大道·锋锐
+  - 自动吸纳并炼化周围灵气修炼
   system_progress: 法宝返还库最高可返还灵宝
   role_change:
   - 远古战场传送门关闭后成为缥缈宗驻地核心战力
@@ -610,7 +616,7 @@ characters:
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
-  hongmeng_qi: 十二股
+  hongmeng_qi: 17
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
   title: 无妄仙宗内门大师兄
   public_resource_explanation: 获得缥缈仙宗道元真人部分传承
@@ -645,6 +651,7 @@ characters:
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
+  - 获得并服用ART-0050九天道元丹
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2525,6 +2532,7 @@ characters:
   - NODE-0043
   - NODE-0047
   - NODE-0049
+  - NODE-0054
   source_chapters:
   - 244
   - 247
@@ -2550,13 +2558,20 @@ characters:
   - 377
   - 378
   - 379
+  - 413
+  - 414
+  - 415
   document: null
   verification_status: partial
   conflict_change: 因徐霄平安返宗并与玉冰结缘，反徐立场进一步强化
   conflict_escalation: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
   current_action: 伏杀失败后继续维持宗门反徐舆论和敌对网络
   antagonist_network: 说服师父赵无极关注并介入徐霄及道元传承问题
-  strategic_change: 随赵无极参加阴煞小界行动并继续把徐霄视为主要敌对目标
+  strategic_change:
+  - 随赵无极参加阴煞小界行动并继续把徐霄视为主要敌对目标
+  - 与徐霄、陆雪瑶会合后返回铁焰城汇报夺舍危机
+  cultivation_change: 系统解除限制后短期展现大乘境力量
+  system_interaction: 收徒就变强系统识别赵无极与地灵已遭阴魂夺舍并强制预警逃离
 - id: CHAR-0048
   name: 玉冰
   status: alive
@@ -2591,6 +2606,7 @@ characters:
   - NODE-0050
   - NODE-0051
   - NODE-0053
+  - NODE-0054
   source_chapters:
   - 250
   - 278
@@ -2623,6 +2639,10 @@ characters:
   - 407
   - 409
   - 410
+  - 415
+  - 416
+  - 417
+  - 418
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
@@ -2642,6 +2662,7 @@ characters:
   - 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
   - 组织无妄仙宗大乘修士进入阴煞界并管理徐霄竞得的压制法器
   - 获知阴煞天宗夺舍阴谋后收缩无妄仙宗探索队，只保留大乘修士与少量合体巅峰长老
+  - 成为九宗危机会议核心组织者，推动大乘防御阵和破界求援方案
   resource: 九件压制法器
   relationship_network_change: 接纳尹小倩作为临时侍女并继续推进其天元大陆安置
 - id: CHAR-0049
@@ -3231,16 +3252,20 @@ characters:
   related_nodes:
   - NODE-0043
   - NODE-0049
+  - NODE-0054
   source_chapters:
   - 326
   - 376
   - 377
   - 378
   - 379
+  - 413
+  - 415
   document: null
   verification_status: partial
   system_status: 被万倍返还系统确认作气运之敌，击杀任务奖励为一次万倍暴击机会
   conflict_change: 对徐霄保持明确敌意并等待阴煞小界行动机会
+  status_change: 遭阴魂夺舍，原人格与最终状态待确认
 - id: CHAR-0061
   name: 苏瑶
   status: alive
@@ -3749,6 +3774,7 @@ characters:
   related_nodes:
   - NODE-0050
   - NODE-0051
+  - NODE-0054
   source_chapters:
   - 381
   - 382
@@ -3758,9 +3784,20 @@ characters:
   - 394
   - 395
   - 396
+  - 411
+  - 412
+  - 413
+  - 414
+  - 415
+  - 416
   document: null
   verification_status: partial
   attitude_change: 参与八宗问罪并继续对徐霄保持负面评价
+  accepted_gifts:
+  - GIFT-0076
+  combat_change: 遭万剑尊者与大乘阴魂伏击后以精血冰封突围，并由徐霄驰援脱险
+  relationship_change: 对徐霄由持续负面评价转为保留戒备下的资源合作
+  strategic_change: 将阴煞天宗全面夺舍行动带回铁焰城并参与九宗危机会议
 - id: CHAR-0074
   name: 魔姝
   status: alive
@@ -3884,6 +3921,7 @@ characters:
   related_nodes:
   - NODE-0052
   - NODE-0053
+  - NODE-0054
   source_chapters:
   - 398
   - 399
@@ -3894,11 +3932,16 @@ characters:
   - 407
   - 409
   - 410
+  - 416
+  - 417
   document: null
   verification_status: partial
   identity: 玉冰身边侍女
   affiliation: 无妄仙宗临时随行
-  relationship_change: 由养魂袋随行转为公开照料玉冰起居，并继续等待重塑肉身
+  relationship_change:
+  - 由养魂袋随行转为公开照料玉冰起居，并继续等待重塑肉身
+  - 在铁焰城危机中继续受到徐霄、第一婵等无妄仙宗关系网络公开保护
+  system_interaction: 再次吸收徐霄一点阳气并返还十点阳气
 - id: CHAR-0077
   name: 萧彭春
   status: alive
@@ -3929,5 +3972,29 @@ characters:
   source_chapters:
   - 408
   - 409
+  document: null
+  verification_status: partial
+- id: CHAR-0078
+  name: 白无尘
+  status: alive
+  role: supporting
+  affiliations:
+  - 太上仙宗
+  identities:
+  - 太上仙宗掌门
+  - 九宗破界求援执行者
+  first_appearance:
+    chapter: 418
+    title: 破界通知
+    node: NODE-0054
+  cultivation:
+    current: 大乘六重
+    status: partial
+  specialty: 神魂修炼
+  strategic_action: 分裂大半神魂穿越空间裂缝，向天元大陆九宗强者求援
+  related_nodes:
+  - NODE-0054
+  source_chapters:
+  - 418
   document: null
   verification_status: partial

@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 42
+  extension_files: 43
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2113,3 +2113,43 @@ nodes:
   - 渡劫初期魂丹完整药效
   document: docs/01-timeline/node-0053.md
   evidence: sources/evidence/chapters-406-410.yaml
+- id: NODE-0054
+  title: 陆雪瑶遇袭、先天神剑战与破界求援
+  chapters:
+    start: 411
+    end: 418
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第411—419章标题、顺序和边界；第411—418章正文由可访问镜像交叉核验
+  boundary_reason: 第418章完成九宗防御阵布置和白无尘破界求援启动；第419章转入阴魂大军正式攻阵
+  characters:
+  - 徐霄
+  - 陆雪瑶
+  - 叶尘
+  - 赵无极
+  - 地灵
+  - 尹小倩
+  - 玉冰
+  - 白无尘
+  - 万剑尊者
+  system_events:
+  - event: 首次赠送陆雪瑶蕴仙丹
+    trigger: 十枚蕴仙丹
+    reward: 九天道元丹
+    status: partial
+  - event: 叶尘系统紧急预警
+    trigger: 赵无极与地灵遭阴魂夺舍
+    result: 解除限制并逃离
+    status: partial
+  cultivation_result: 徐霄服用九天道元丹后获得道元圣体并晋升合体四重
+  strategic_result: 九宗幸存者收缩至约三四百人，叠加大乘防御阵并由白无尘破界求援
+  pending:
+  - 万剑尊者夺舍细节
+  - GIFT-0076其余九枚返还
+  - 陆雪瑶完整系统面板
+  - 叶尘系统解封机制
+  - 赵无极与地灵原人格状态
+  - 白无尘神魂损耗
+  - 九宗准确伤亡与阵法名称
+  document: docs/01-timeline/node-0054.md
+  evidence: sources/evidence/chapters-411-418.yaml
