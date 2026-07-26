@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0068
+nodes:
+- id: NODE-0057
+  title: 敖三清算、凤族关系深化与白霜霜结缘
+  chapters: {start: 434, end: 441}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第434—442章标题、顺序和边界；第434—441章正文由可访问镜像交叉核验
+  boundary_reason: 第441章完成白霜霜羁绊提升并启动李茂失踪后的灵虚城搜查；第442章转入冷若云直接交涉及赠送结算
+  characters: [徐霄, 凤青玄, 凤仪, 妙玉, 敖三, 白霜霜, 虎力, 蛮天, 李茂, 冷若云]
+  system_events:
+  - {event: 凤青玄天凤精血赠送, trigger: 天凤精血, reward: 十枚天凤血丹, status: partial}
+  - {event: 凤仪连续丹药赠送, trigger: 绝品驻颜丹与绝品悟道丹, reward: 三千大道丹与两枚鸿蒙一气丹, status: partial}
+  relationship_result: 凤仪与白霜霜分别形成稳定道侣和长期资源关系，凤族安全与血脉升级进一步绑定徐霄
+  pending: [敖三完整系统面板与任务奖励, 敖三先天灵珠, 龙族军团最终处置, 凤青玄重新涅槃完整结果, 白霜霜完整系统面板与逐笔赠送, 李茂最终状态, 冷若云赠送结算]
+  document: docs/01-timeline/node-0057.md
+  evidence: sources/evidence/chapters-434-441.yaml
