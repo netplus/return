@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0060
+nodes:
+- id: NODE-0049
+  title: 阴煞小界任务、铁焰城立威与混沌破金剑
+  chapters: {start: 375, end: 380}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第375—381章标题、顺序和边界；第375—380章正文由可访问镜像交叉核验
+  boundary_reason: 第380章完成萧家冲突、破灭天金剑赠送与混沌破金剑返还；第381章转入陆雪瑶与拍卖会阶段
+  characters: [徐霄, 第一婵, 玉冰, 尚水, 赵无极, 叶尘, 萧烬璃, 萧四海]
+  system_events:
+  - {event: 赵无极气运之敌任务, trigger: 系统检测到赵无极对徐霄的敌意, reward: 一次万倍暴击机会, status: partial}
+  - {event: 萧烬璃合道丹赠送, trigger: 十枚合道丹, reward: pending, status: partial}
+  - {event: 萧烬璃灵宝赠送, trigger: 破灭天金剑, reward: 先天灵宝混沌破金剑, status: partial}
+  conflict_result: 徐霄在铁焰城击杀萧焰并形成合体巅峰层级威慑，萧家因无妄仙宗力量暂时压下冲突
+  pending: [阴煞小界完整规则, 赵无极精确境界与任务结算, GIFT-0070返还, GIFT-0071精确倍率, 破灭天金剑来源, 混沌破金剑完整能力]
+  document: docs/01-timeline/node-0049.md
+  evidence: sources/evidence/chapters-375-380.yaml

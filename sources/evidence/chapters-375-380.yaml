@@ -1,0 +1,31 @@
+schema_version: 2
+run_id: RUN-0060
+task_id: TASK-0051
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 375
+  chapter_end: 380
+  node: NODE-0049
+  status: promoted
+  canonical_document: docs/01-timeline/node-0049.md
+  boundary_reason: 第380章完成萧家冲突、破灭天金剑赠送和混沌破金剑返还；第381章转入陆雪瑶与拍卖会新阶段
+chapters:
+- {chapter: 375, title: 阴煞小界, facts: [徐霄稳固合体境并开始冲击合体二重, 第一婵获赠合体九重混沌极冰符, 无妄仙宗准备阴煞小界行动], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 376, title: 叶尘收徒就变强系统, facts: [阴煞小界行动仅合体境及以上门人参加, 玉冰尚水赵无极作为主要带队大乘, 系统发布击杀赵无极任务并奖励一次万倍暴击机会], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 377, title: 初到铁焰城, facts: [无妄仙宗六七十人乘神木飞舟前往铁焰城, 第一婵百里海棠与玉冰关系网络公开碰撞, 阴煞小界队伍抵达萧家地盘], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 378, title: 杀鸡儆猴，震惊全场, facts: [徐霄初见萧家家主萧烬璃, 向萧烬璃赠送十枚合道丹并被接受, 萧四海推动萧焰公开挑衅徐霄], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 379, title: 再次赠送，全场懵逼, facts: [徐霄当场击杀合体初期萧焰, 玉冰公开问责但实际保护徐霄, 萧家因无妄仙宗大乘力量暂时压下冲突], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 380, title: 返还，混沌破金剑, facts: [徐霄向萧烬璃赠送灵宝破灭天金剑, 系统返还先天灵宝混沌破金剑, 萧烬璃留下传讯渠道并转为资源利益驱动接触], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 381
+  next_title: sss级气运之女，陆雪瑶
+  transition: 转入陆雪瑶系统识别、铁焰城拍卖会及新的赠送竞争阶段
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

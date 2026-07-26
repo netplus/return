@@ -4,25 +4,25 @@
 - **Current milestone:** M8 — Chapters 351–400
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 374
-- **Current evidence exploration through:** Chapter 375
+- **Canonical coverage through:** Chapter 380
+- **Current evidence exploration through:** Chapter 381
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 48
+- **Completed timeline nodes:** 49
 - **Draft timeline nodes:** 0
-- **Documented characters:** 70
-- **Gift events:** 69
-- **Artifact records:** 46
-- **Last run:** `RUN-0059`
-- **Last completed node:** `NODE-0048`
-- **Next task:** `TASK-0051` — 阴煞小界任务与铁焰城初战 story arc
-- **Provisional exploration range:** Chapters 375–382
+- **Documented characters:** 72
+- **Gift events:** 71
+- **Artifact records:** 47
+- **Last run:** `RUN-0060`
+- **Last completed node:** `NODE-0049`
+- **Next task:** `TASK-0052` — 陆雪瑶、铁焰城拍卖会与萧家邀请 story arc
+- **Provisional exploration range:** Chapters 381–388
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0048` covers Chapters 370—374. 三宗反徐阵营将下一轮围杀转移到两年后的阴煞小界。徐霄返回盘龙岛与铁幕城完成阶段性告别，上官倩羁绊度升至 2；随后回到天阵阁，继续向秦朋、程芷和程双提供虚天丹。两年后徐霄晋升合体境，第一婵出关并晋升合体九重。徐霄向第一婵赠送九火龙鳞剑和绝品驻颜丹，分别返还先天灵宝噬魂封魔剑与鸿蒙一气丹；第一婵羁绊度升至 2，并以真实容貌公开进入天阵阁关系网络。第 375 章转入阴煞小界任务。
+`NODE-0049` covers Chapters 375—380. 无妄仙宗准备阴煞小界行动，系统确认赵无极为新的气运之敌并发布击杀任务，奖励一次万倍暴击机会。徐霄随玉冰、尚水、赵无极及宗门合体修士乘神木飞舟抵达铁焰城，初见萧家家主萧烬璃并赠送十枚合道丹。萧四海推动萧焰公开挑衅，徐霄将其当场击杀；玉冰公开问责但实际保护徐霄，萧家暂时退让。徐霄随后向萧烬璃赠送破灭天金剑，返还先天灵宝混沌破金剑。第 381 章转入陆雪瑶与拍卖会阶段。
 
-## Quality gates — RUN-0059
+## Quality gates — RUN-0060
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 370—375 章标题、顺序和边界；第 370—374 章正文由 CP 小说网及其他可访问正文镜像交叉核验。第 370 章完整告别对象、第一婵完整系统面板、`GIFT-0068` 精确倍率、噬魂封魔剑完整能力及第 371 章批量虚天丹返还清单继续保持 `pending`。
+番茄小说官方目录确认第 375—381 章标题、顺序和边界；第 375—380 章正文由 CP 小说网等可访问正文镜像交叉核验。阴煞小界完整规则、赵无极精确境界与任务结算、`GIFT-0070` 返还、`GIFT-0071` 精确倍率、破灭天金剑来源及混沌破金剑完整能力继续保持 `pending`。

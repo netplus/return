@@ -1,0 +1,73 @@
+schema_version: 1
+run_id: RUN-0060
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change_add: 合体境稳固并开始冲击合体二重
+    system_task_add: {target: 赵无极, type: 气运之敌, reward: 一次万倍暴击机会, status: active}
+    combat_record_add: 在铁焰城以神剑当场击杀合体初期萧焰并形成至少合体巅峰层级威慑
+    resource_add: [混沌破金剑]
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [375, 376, 377, 378, 379, 380]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    strategic_change_add: 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [376, 377, 378, 379]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    resource_add: 合体九重混沌极冰符
+    action_change_add: 作为阴煞小界行动参与者随徐霄前往铁焰城
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [375, 376, 377, 379]
+- id: CHAR-0047
+  name: 叶尘
+  update:
+    strategic_change_add: 随赵无极参加阴煞小界行动并继续把徐霄视为主要敌对目标
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [376, 377, 378, 379]
+- id: CHAR-0060
+  name: 赵无极
+  update:
+    system_status_add: 被万倍返还系统确认作气运之敌，击杀任务奖励为一次万倍暴击机会
+    current_action_set: 作为无妄仙宗阴煞小界行动带队大乘之一前往铁焰城
+    conflict_change_add: 对徐霄保持明确敌意并等待阴煞小界行动机会
+    related_nodes_add: [NODE-0049]
+    source_chapters_add: [376, 377, 378, 379]
+- id: CHAR-0071
+  name: 萧烬璃
+  status: alive
+  role: supporting_antagonistic
+  affiliations: [萧家, 铁焰城]
+  identities: [萧家家主, 铁焰城拍卖会主持人, 有效气运赠送对象]
+  first_appearance: {chapter: 378, title: 杀鸡儆猴，震惊全场, node: NODE-0049}
+  cultivation: {current: 合体巅峰, status: partial}
+  accepted_gifts: [GIFT-0070, GIFT-0071]
+  relationship_context:
+    徐霄: 由警惕敌视转为接受资源并保留传讯接触，但长期立场尚未稳定
+    萧四海: 萧家大长老，对徐霄强烈敌视
+    status: partial
+  related_nodes: [NODE-0049]
+  source_chapters: [378, 379, 380]
+  document: null
+  verification_status: partial
+- id: CHAR-0072
+  name: 萧四海
+  status: alive
+  role: antagonist
+  affiliations: [萧家, 铁焰城]
+  identities: [萧家大长老, 大乘修士]
+  first_appearance: {chapter: 378, title: 杀鸡儆猴，震惊全场, node: NODE-0049}
+  cultivation: {current: 大乘境, exact_level: pending, status: partial}
+  conflict:
+    target: 徐霄
+    action: 示意萧焰公开挑衅徐霄，并在萧焰死亡后保持强烈杀意
+    result: 因无妄仙宗多名大乘在场而暂时压下冲突
+    status: partial
+  related_nodes: [NODE-0049]
+  source_chapters: [378, 379, 380]
+  document: null
+  verification_status: partial
