@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0074
+nodes:
+- id: NODE-0063
+  title: 龙矶赠礼、盘龙返程与第七雷劫
+  chapters: {start: 479, end: 485}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第479—486章标题、顺序和边界；第479—485章正文由可访问镜像交叉核验
+  boundary_reason: 第485章完成龙矶渡劫后的长期关系与资源安排并引出蓬莱异变；第486章五年时间跳跃并转入第一婵渡大乘雷劫
+  characters: [徐霄, 龙矶, 魔嬛, 玉冰, 段红绫, 陆大年]
+  system_events:
+  - {event: 龙矶雷灵丹首次赠送, reward: 仙牛神虎丹与九枚化仙丹, status: partial}
+  - {event: 九天神莲戒赠送龙矶, reward: 防御仙器仙莲玉戒, status: partial}
+  cultivation_result: 龙矶成功渡过第七次雷劫并晋升渡劫七重
+  pending: [龙矶完整系统面板, 仙牛神虎丹是否服用, 仙莲玉戒完整能力, 盘龙岛完整资源清单, 雷劫法宝损耗, 蓬莱事变完整细节]
+  document: docs/01-timeline/node-0063.md
+  evidence: sources/evidence/chapters-479-485.yaml

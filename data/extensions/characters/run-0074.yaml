@@ -1,0 +1,36 @@
+schema_version: 1
+run_id: RUN-0074
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    role_change_add: 往返盘龙岛完成旧关系与资源安置，并承诺长期支持龙矶后续雷劫
+    related_nodes_add: [NODE-0063]
+    source_chapters_add: [479, 480, 481, 482, 483, 484, 485]
+- id: CHAR-0092
+  name: 龙矶
+  update:
+    cultivation_change: 渡劫七重
+    accepted_gifts_add: [GIFT-0102, GIFT-0103]
+    relationship_change_add: 与徐霄形成稳定道侣及长期渡劫资源支持关系
+    role_change_add: 第七次雷劫毫发无伤通过，成为无妄仙宗渡劫后期核心战力
+    related_nodes_add: [NODE-0063]
+    source_chapters_add: [479, 480, 482, 483, 484, 485]
+- id: CHAR-0093
+  name: 魔嬛
+  update:
+    relationship_change_add: 与龙矶围绕徐霄的长期资源与机缘形成公开竞争
+    related_nodes_add: [NODE-0063]
+    source_chapters_add: [481, 483, 484, 485]
+- id: CHAR-0007
+  name: 段红绫
+  update:
+    relationship_change_add: 与徐霄关系继续稳定，暂留盘龙岛管理缥缈宗并等待后续接引
+    related_nodes_add: [NODE-0063]
+    source_chapters_add: [482]
+- id: CHAR-0010
+  name: 陆大年
+  update:
+    resource_support_add: 徐霄重新提供修炼资源，完整清单待确认
+    related_nodes_add: [NODE-0063]
+    source_chapters_add: [482]

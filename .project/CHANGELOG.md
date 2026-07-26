@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0074 — 2026-07-27
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0065`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 485; Chapter 486 introduces a five-year time skip and begins the 第一婵大乘雷劫 stage.
+- Created `NODE-0063`: 龙矶赠礼、盘龙返程与第七雷劫, covering Chapters 479—485.
+- Updated 徐霄、龙矶、魔嬛、段红绫 and陆大年 for persistent cultivation, relationship and resource changes.
+- Added `GIFT-0102` and `GIFT-0103`, returning仙牛神虎丹、九枚化仙丹 and防御仙器仙莲玉戒.
+- Added `ART-0064` 仙牛神虎丹 and `ART-0065` 仙莲玉戒; expanded九天神莲戒、雷灵丹 and化仙丹 records.
+- Recorded龙矶's successful seventh tribulation and promotion to渡劫七重, plus徐霄's commitment to support later tribulations.
+- Preserved龙矶完整系统面板、丹药服用、仙器能力、盘龙岛资源清单、雷劫法宝损耗 and蓬莱事变细节 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0065` and queued `TASK-0066` beginning at Chapter 486.
+
 ## RUN-0073 — 2026-07-27
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

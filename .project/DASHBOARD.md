@@ -4,25 +4,25 @@
 - **Current milestone:** M10 — Chapters 451–500
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 478
-- **Current evidence exploration through:** Chapter 479
+- **Canonical coverage through:** Chapter 485
+- **Current evidence exploration through:** Chapter 486
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 62
+- **Completed timeline nodes:** 63
 - **Draft timeline nodes:** 0
 - **Documented characters:** 93
-- **Gift events:** 101
-- **Artifact records:** 63
-- **Last run:** `RUN-0073`
-- **Last completed node:** `NODE-0062`
-- **Next task:** `TASK-0065` — 龙矶结缘、渡劫准备与盘龙岛返程 story arc
-- **Provisional exploration range:** Chapters 479–486
+- **Gift events:** 103
+- **Artifact records:** 65
+- **Last run:** `RUN-0074`
+- **Last completed node:** `NODE-0063`
+- **Next task:** `TASK-0066` — 五年跃迁、第一婵晋升与天元仙宗启程 story arc
+- **Provisional exploration range:** Chapters 486–493
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0062` covers Chapters 471—478. 灵霄仙宗公开冷若云、黑蛇和萧烬璃与徐霄的关系，消息扩散至天元大陆；灵霄仙宗与黑魔圣宗分别授予徐霄荣誉太上长老身份，三宗关系转为公开同盟。徐霄继续向冷若云和月幽冥赠送高阶资源后随天阁返回无妄仙宗。返程途中，天阁说明渡劫九重、雷劫间隔和失败后果。返宗后，龙矶推动玉冰确认长期道侣关系；玉冰的蕴仙丹与神木飞舟赠送返还雷灵丹和九霄玉舟。系统识别魔嬛为 A 级气运之女，雷灵丹与混沌神火剑赠送返还化仙丹和仙灵天火剑。第 479 章转入龙矶直接关系线。
+`NODE-0063` covers Chapters 479—485. 系统识别龙矶为有效气运对象；徐霄向其赠送十枚雷灵丹和九天神莲戒，返还仙牛神虎丹、九枚化仙丹和防御仙器仙莲玉戒。徐霄乘九霄玉舟返回盘龙岛处理段红绫、陆大年等旧关系后返宗。龙矶凭雷灵丹、九天神莲戒及既有灵宝毫发无伤通过第七次雷劫，晋升渡劫七重；徐霄承诺继续支持其第八、第九次雷劫，龙矶与魔嬛围绕长期机缘形成竞争。第 485 章引出蓬莱异变，第 486 章五年时间跳跃并转入第一婵渡大乘雷劫。
 
-## Quality gates — RUN-0073
+## Quality gates — RUN-0074
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 471—479 章标题、顺序和边界；第 471—478 章正文由 CP 小说网等可访问正文镜像交叉核验。各宗完整舆论反应、冷若云与月幽冥赠送倍率、天阁雷灵丹赠送返还、龙矶完整系统面板、魔嬛完整渡劫层级及三件仙器完整能力继续保持 `pending`。
+番茄小说官方目录确认第 479—486 章标题、顺序和边界；第 479—485 章正文由 CP 小说网等可访问正文镜像交叉核验。龙矶完整系统面板、仙牛神虎丹是否服用、仙莲玉戒完整能力、盘龙岛完整资源清单、第七次雷劫法宝损耗及蓬莱事变完整细节继续保持 `pending`。

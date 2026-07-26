@@ -1,0 +1,43 @@
+schema_version: 1
+run_id: RUN-0074
+artifacts:
+- id: ART-0064
+  name: 仙牛神虎丹
+  category: 丹药
+  grade: 仙级丹药
+  first_chapter: 480
+  current_holder: 徐霄
+  acquisition: GIFT-0102万倍暴击返还
+  effect: 服用后强化肉身并获得仙牛神虎之力，完整增幅待确认
+  status: partial
+  related_nodes: [NODE-0063]
+- id: ART-0065
+  name: 仙莲玉戒
+  category: 防御仙器
+  grade: 仙器
+  first_chapter: 480
+  current_holder: 徐霄
+  acquisition: GIFT-0103返还
+  abilities: [形成九叶仙莲护体, 针对高阶攻击提供防御]
+  status: partial
+  related_nodes: [NODE-0063]
+artifact_updates:
+- id: ART-0044
+  name: 九天神莲戒
+  update:
+    transfer_event_add: GIFT-0103
+    transferred_to_add: 龙矶
+    transferred_in_chapter_add: 480
+    combat_record_add: 第482—483章作为龙矶第七次雷劫防御依仗之一
+    related_nodes_add: [NODE-0063]
+    source_chapters_add: [480, 482, 483]
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    transfer_add: {gift_id: GIFT-0102, chapter: 480, recipient: 龙矶, quantity: 10, status: partial}
+    related_nodes_add: [NODE-0063]
+- id: ART-0060
+  name: 化仙丹
+  update:
+    acquisition_add: {gift_id: GIFT-0102, chapter: 480, quantity: 9, status: partial}
+    related_nodes_add: [NODE-0063]
