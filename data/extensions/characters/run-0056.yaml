@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0056
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: 与百里海棠形成稳定道侣关系并承诺长期承担其修炼资源
+    resource_add: [鸿蒙一气丹, 九天神莲戒]
+    related_nodes_add: [NODE-0045]
+    source_chapters_add: [345, 346, 347, 348, 349, 350, 351, 352]
+- id: CHAR-0063
+  name: 百里海棠
+  update:
+    bond_level_set: 2
+    accepted_gifts_add: [GIFT-0062, GIFT-0063]
+    relationship_change_add: 接受徐霄长期资源支持并形成稳定道侣关系
+    conflict_change_add: 与师父尚水因选择徐霄产生公开冲突，后在资源利益下暂时缓和
+    related_nodes_add: [NODE-0045]
+    source_chapters_add: [346, 347, 348, 350, 351, 352]
+- id: CHAR-0067
+  name: 尚水
+  status: alive
+  role: supporting_antagonistic
+  affiliations: [地月宗, 地月城]
+  identities: [地月宗太上长老, 百里海棠师父, 大乘修士]
+  first_appearance: {chapter: 350, title: 大乘之怒, node: NODE-0045}
+  cultivation: {current: 大乘境, exact_level: pending, status: partial}
+  relationship_context:
+    百里海棠: 师徒关系；反对其与徐霄交往，但重视其仙途收益
+    徐霄: 由愤怒问责转为在蕴仙丹和长期资源承诺下暂缓直接冲突
+    status: partial
+  related_nodes: [NODE-0045]
+  source_chapters: [350, 351, 352]
+  document: null
+  verification_status: partial
