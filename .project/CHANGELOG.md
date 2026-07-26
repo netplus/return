@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0070 — 2026-07-27
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0061`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 454; Chapter 455 begins the black-snake infiltration and forced-marriage operation.
+- Created `NODE-0059`: 独孤浩冲突、惊虹赠礼与黑魔暗线, covering Chapters 449—454.
+- Added 欧阳惊虹、独孤浩 and 黑无忌 as `CHAR-0086`—`CHAR-0088`; updated 徐霄、萧烬璃 and 冷若云 for persistent conflict, relationship and resource changes.
+- Added `GIFT-0086` and `GIFT-0087`, returning鸿蒙一气丹、雷灵丹、大乘巅峰魂丹、蕴仙丹 and渡劫中期魂丹.
+- Expanded山河灵图 with大乘六重防御 and黑魔圣宗情报人员收纳 records; expanded鸿蒙一气丹 and雷灵丹 acquisitions.
+- Recorded the active独孤浩 luck-child task and the emerging黑无忌 luck-enemy conflict.
+- Preserved欧阳惊虹完整系统面板、独孤浩底牌名称、黑无忌完整任务奖励与境界、黑石客栈人员最终处置 and魂丹逐枚分配 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0061`, advanced to milestone M10 and queued `TASK-0062` beginning at Chapter 455.
+
 ## RUN-0069 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
