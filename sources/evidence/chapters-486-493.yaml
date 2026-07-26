@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0075
+task_id: TASK-0066
+updated_at: '2026-07-27'
+arc:
+  chapter_start: 486
+  chapter_end: 493
+  node: NODE-0064
+  status: promoted
+  canonical_document: docs/01-timeline/node-0064.md
+  boundary_reason: 第493章完成蓬莱仙宗全队遭冰寒阴灵夺舍的识别并形成潜在危机；第494章转入月幽冥赠送与新的关系推进
+chapters:
+- {chapter: 486, title: 五年之后, facts: [时间推进五年, 徐霄已晋升大乘, 第一婵成功渡过大乘雷劫, 凤仪玄阴女尊百里海棠萧烬璃等先后晋升大乘], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 487, title: 第一天才，楚霄, facts: [素青携楚霄云心月邀请无妄仙宗参加天山论剑, 素青为渡劫七重, 楚霄与云心月均为大乘巅峰, 楚霄对徐霄形成竞争敌意], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 488, title: 姬雪的气运波动, facts: [徐霄向云心月赠送十枚雷灵丹, 首枚万倍暴击返还佛陀金身丹, 其余九枚返还九枚化仙丹, 姬雪气运与体质出现显著变化], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 489, title: 到达天元仙宗, facts: [姬雪觉醒元灵仙体并恢复部分前世记忆, 姬雪确认为雪瑶仙帝转世, 须臾空间与仙界法器激活, 姬雪晋升大乘上境, 姬雪接受先天冰系神剑和十枚蕴仙丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 490, title: 先来个下马威, facts: [无妄仙宗队伍抵达天元仙宗, 徐霄与苏瑶关系进一步推进, 天元仙宗人员对徐霄保持警惕与敌意], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 491, title: 迎接蛇蛇妹三人, facts: [苏瑶接受灵宝神剑和长期资源承诺, 系统返还一件先天灵宝神剑但名称未确认, 苏瑶羁绊度提升至2, 灵霄仙宗与黑魔圣宗队伍抵达], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 492, title: 蓬莱仙宗到场, facts: [蓬莱仙宗三名渡劫太上长老及二十余名大乘合体修士到场, 海岚葬花北风成为徐霄观察重点], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 493, title: 阴灵夺舍, facts: [徐霄以仙神魂胎神识识破海岚葬花北风被冰寒阴灵夺舍, 蓬莱仙宗同行二十余人均遭夺舍, 冰寒阴灵与阴煞界阴魂形态不同, 徐霄决定等待其暴露目的], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 494
+  next_title: 月月爱霄霄
+  transition: 转入月幽冥赠送与关系推进，并继续观察蓬莱阴灵阴谋
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
