@@ -1,0 +1,96 @@
+schema_version: 1
+run_id: RUN-0067
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    role_change_add: [启动天光域东海护法行动并以仙器山河灵图控制两名合体龙族]
+    resource_change_add: [GIFT-0079返还一百枚蕴仙丹, GIFT-0080返还仙器九天荡魔剑]
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [425, 426, 427, 428, 429, 430, 431, 432, 433]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 合体五重
+    relationship_change_add: 与独孤灵在无妄仙宗重聚并继续承担其师父身份
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [427]
+- id: CHAR-0003
+  name: 独孤灵
+  update:
+    affiliation_add: 无妄仙宗
+    identity_add: 玉冰弟子
+    constitution_set: {value: 纯阴之体, status: partial}
+    status_change_add: 离开盘龙岛并进入无妄仙宗长期修炼体系
+    relationship_change_add: 与徐霄及姬雪重聚，继续维持核心道侣和师徒关系
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [425, 426, 427]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    disciples_add: [独孤灵]
+    strategic_change_add: 接收尹小倩养魂袋并负责后续重塑肉身安排
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [425, 426, 427, 429]
+- id: CHAR-0050
+  name: 秦朋
+  update:
+    cultivation_change: 合体一重
+    accepted_resources_add: [十枚虚天丹]
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [425, 428]
+- id: CHAR-0051
+  name: 程芷
+  update:
+    accepted_resources_add: [十枚虚天丹]
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [425]
+- id: CHAR-0052
+  name: 程双
+  update:
+    accepted_resources_add: [十枚虚天丹]
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [425]
+- id: CHAR-0059
+  name: 灵航
+  update:
+    cultivation_change: 大乘境
+    role_change_add: 成为无妄仙宗新增大乘战力
+    relationship_change_add: 长期资源支持与道侣关系被其突破结果进一步验证
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [428, 429]
+- id: CHAR-0058
+  name: 凤仪
+  update:
+    accepted_gifts_add: [GIFT-0078]
+    relationship_change_add: 接受长期丹药承诺并陪同徐霄前往天光域东海
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [430, 431, 432, 433]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    accepted_gifts_add: [GIFT-0080]
+    recovery_plan_add: 东海涅槃进入护法阶段并获得四象斩天剑加强防护
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [429, 432, 433]
+- id: CHAR-0024
+  name: 妙玉
+  update:
+    accepted_gifts_add: [GIFT-0079]
+    recovery_plan_add: 继续承载凤青玄神魂并参与东海涅槃流程
+    related_nodes_add: [NODE-0056]
+    source_chapters_add: [432, 433]
+- id: CHAR-0079
+  name: 东方素华
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗]
+  identities: [C级气运之女, 徐霄长期资源关系对象]
+  first_appearance: {chapter: 427, title: 东方素华来访, node: NODE-0056}
+  cultivation: {current: pending, status: pending}
+  system_profile: {luck_grade: C, base_multiplier: pending, bond: pending, status: partial}
+  relationship_context: {徐霄: 建立长期道侣与资源关系, status: partial}
+  related_nodes: [NODE-0056]
+  source_chapters: [427, 428]
+  document: null
+  verification_status: partial
