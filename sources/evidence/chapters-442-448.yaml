@@ -1,0 +1,32 @@
+schema_version: 2
+run_id: RUN-0069
+task_id: TASK-0060
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 442
+  chapter_end: 448
+  node: NODE-0058
+  status: promoted
+  canonical_document: docs/01-timeline/node-0058.md
+  boundary_reason: 第448章完成冷若云第二次赠送及有条件保护立场；第449章转入独孤浩正面冲突和新气运之子任务
+chapters:
+- {chapter: 442, title: 十颗蕴仙丹打懵, facts: [冷若云率城卫搜查无妄当铺, 徐霄否认李茂失踪与当铺有关, 徐霄向冷若云赠送十枚蕴仙丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 443, title: 仙神魂胎, facts: [冷若云接受十枚蕴仙丹并暂缓强制处置, 首次赠送触发万倍暴击返还仙魂神魄丹, 徐霄服丹后神魂凝成仙神魂胎], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 444, title: 蛮天虎力被吓懵了, facts: [柯无量以大乘神魂潜入无妄当铺调查, 徐霄使用山河灵图收纳并清除其神魂, 柯无量魂灯随后熄灭], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 445, title: 灵霄仙宗密谈, facts: [灵霄仙宗确认柯无量魂灯熄灭, 李茂与柯无量死亡被关联调查, 真灵主持太上长老会议], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 446, title: 真灵长老的完美计划, facts: [真灵判断徐霄大概率杀死李茂与柯无量, 真灵将徐霄视为巨量资源目标, 真灵要求冷若云与徐霄建立公开关系以长期留存资源], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 447, title: 冷若云亲自上门, facts: [无妄仙宗得知灵霄仙宗追责与资源拉拢动向, 冷若云再次前往无妄当铺交涉, 灵霄仙宗要求徐霄留在灵虚城接受调查], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 448, title: 再遇萧烬璃, facts: [徐霄向冷若云赠送枯荣天木剑, 系统返还先天灵宝混沌天木剑, 冷若云承诺在无直接证据时保护徐霄, 灵霄仙宗掌门及其他大乘修士抵达], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 449
+  next_title: 惊虹仙子
+  transition: 转入独孤浩正面冲突、山河灵图公开防御及新的气运之子任务
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
