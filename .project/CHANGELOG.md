@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0073 — 2026-07-27
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0064`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 478; Chapter 479 begins the龙矶 direct relationship and渡劫 preparation stage.
+- Created `NODE-0062`: 三宗关系公开、返宗渡劫秘事与魔嬛赠礼, covering Chapters 471—478.
+- Added 龙矶 and 魔嬛 as `CHAR-0092` and `CHAR-0093`; updated 徐霄、冷若云、月幽冥、玉冰 and白霜霜 for persistent identity, relationship and resource changes.
+- Added `GIFT-0096`—`GIFT-0101`, recording冷若云、月幽冥、玉冰 and魔嬛 high-level gifts and returns.
+- Added `ART-0061` 九幽惊魂剑, `ART-0062` 九霄玉舟 and `ART-0063` 仙灵天火剑; expanded噬魂封魔剑、神木飞舟、鸿蒙一气丹、雷灵丹 and化仙丹 records.
+- Recorded徐霄's荣誉太上长老 identities in灵霄仙宗 and黑魔圣宗, the public three-sect alliance, and stable渡劫九重 rules.
+- Preserved complete public reaction, gift multipliers,天阁 gift settlement,龙矶 system panel,魔嬛渡劫 level and仙器 limits as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0064` and queued `TASK-0065` beginning at Chapter 479.
+
 ## RUN-0072 — 2026-07-27
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
