@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 29
+  extension_files: 30
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -146,6 +146,7 @@ artifacts:
   - NODE-0020
   - NODE-0023
   - NODE-0041
+  - NODE-0043
   acquisitions:
   - gift_id: GIFT-0008
     chapter: 23
@@ -180,6 +181,12 @@ artifacts:
     status: partial
   instances_acquired_total: 4
   instances_consumed_total: 4
+  acquisition_result:
+  - chapter: 328
+    result: 木之大道·新生
+    status: partial
+  source_chapters:
+  - 328
 - id: ART-0011
   name: 紫霄雷符
   category: 术法符箓
@@ -289,6 +296,7 @@ artifacts:
   - gift_id: GIFT-0054
     chapter: 306
     status: partial
+  - GIFT-0058返还
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -298,6 +306,7 @@ artifacts:
   - NODE-0037
   - NODE-0041
   - NODE-0042
+  - NODE-0043
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -318,10 +327,20 @@ artifacts:
     user: 徐霄
     result: 鸿蒙真气总量增至十股
     status: partial
+  - chapter: 328
+    result: 鸿蒙真气增至十一股
+    status: partial
+  - chapter: 335
+    result: 鸿蒙真气增至十二股
+    source_instance: 此前库存实例
+    status: partial
   source_chapters:
   - 281
   - 282
   - 324
+  - 327
+  - 328
+  - 335
 - id: ART-0017
   name: 九火琉璃罩
   category: 法宝
@@ -812,6 +831,12 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0042
+  - NODE-0043
+  combat_record: 第332—334章在灵花岛海水环境中击杀大量合体与炼虚鲛人、击裂弱水神珠并击退百里敖
+  source_chapters:
+  - 332
+  - 333
+  - 334
 - id: ART-0041
   name: 九转运天丹
   category: 丹药
@@ -823,3 +848,25 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0042
+- id: ART-0042
+  name: 九天灵土剑
+  category: 灵宝神剑
+  grade: 灵宝
+  first_chapter: 329
+  current_holder: 徐霄
+  acquisition: GIFT-0059返还
+  effect: 土属性及完整能力待后续正文确认
+  status: partial
+  related_nodes:
+  - NODE-0043
+- id: ART-0043
+  name: 九天精元丹
+  category: 丹药
+  first_chapter: 335
+  final_user: 徐霄
+  current_state: 已服用
+  acquisition: GIFT-0060千倍暴击返还
+  effect: 凝练周身精气，化为九天精元
+  status: partial
+  related_nodes:
+  - NODE-0043

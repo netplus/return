@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 24
+  extension_files: 25
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -832,4 +832,45 @@ gifts:
   triggered_multiplier: 1000
   reward: 九转运天丹
   relationship_result: 羁绊度提升至2
+  status: partial
+- id: GIFT-0058
+  chapter: 327
+  node: NODE-0043
+  giver: 徐霄
+  recipient: 苏小韵
+  gift: 十枚虚天丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 1000
+  reward: 鸿蒙一气丹
+  status: partial
+- id: GIFT-0059
+  chapter: 329
+  node: NODE-0043
+  giver: 徐霄
+  recipient: 苏小韵
+  gift: 法宝乾坤艮土剑
+  accepted: true
+  system_valid: true
+  first_gift: false
+  reward: 灵宝九天灵土剑
+  status: partial
+- id: GIFT-0060
+  chapter: 335
+  node: NODE-0043
+  giver: 徐霄
+  recipient: 百里海棠
+  gift: 十枚合道丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  settlement:
+    first_item:
+      quantity: 1
+      multiplier: 1000
+      reward: 九天精元丹
+    remaining_items:
+      quantity: 9
+      reward: 九枚蕴仙丹
   status: partial

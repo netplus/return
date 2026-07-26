@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 30
+  extension_files: 31
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -31,7 +31,7 @@ characters:
   cultivation:
     before_tribulation: 元婴九重
     attempted_realm: 化神境
-    current: 元婴九重
+    current: 炼虚境
     status: partial
   retained_spiritual_sense:
     level: 元婴九重
@@ -54,6 +54,7 @@ characters:
   - 净水之道
   - 金之大道·金刚
   - 金之大道·粉碎
+  - 木之大道·新生
   constitution:
   - current: 道体
     source: 九转乾元丹
@@ -106,6 +107,7 @@ characters:
   - NODE-0040
   - NODE-0041
   - NODE-0042
+  - NODE-0043
   source_chapters:
   - 1
   - 2
@@ -393,6 +395,17 @@ characters:
   - 322
   - 323
   - 324
+  - 325
+  - 326
+  - 327
+  - 328
+  - 329
+  - 330
+  - 331
+  - 332
+  - 333
+  - 334
+  - 335
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -431,6 +444,7 @@ characters:
   relationship_change:
   - 木玉儿正式成为道侣
   - 与林婉建立长期资源和情感关系
+  - 承诺长期承担苏小韵及苏瑶的修炼资源
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -452,6 +466,7 @@ characters:
   - 在血林沼泽以嗜血天魔刀斩杀三棵合体血藤树并持续吸收血气
   - 以混沌神雷符解除合体九重修士伏击，并参与完成黑风与血气灵宝争夺
   - 以神木飞舟、五行灵宝神剑和高阶符箓清剿凤山界大量合体凶兽及血凤头领
+  - 在灵花岛海水环境中以四象斩天剑击杀大量鲛人并两剑击退合体巅峰百里敖
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -486,7 +501,7 @@ characters:
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
-  hongmeng_qi: 7
+  hongmeng_qi: 十二股
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
   title: 无妄仙宗内门大师兄
   public_resource_explanation: 获得缥缈仙宗道元真人部分传承
@@ -499,6 +514,7 @@ characters:
   - 黑风
   - 萧慕河与血云魔尊（天元大陆重逢）
   system_task_completion: 黑风气运之敌任务完成，下一次灵宝赠送可返还先天灵宝
+  essence_state: 九天精元
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2370,6 +2386,7 @@ characters:
   - NODE-0034
   - NODE-0037
   - NODE-0038
+  - NODE-0043
   source_chapters:
   - 244
   - 247
@@ -2385,11 +2402,14 @@ characters:
   - 284
   - 285
   - 286
+  - 325
+  - 326
   document: null
   verification_status: partial
   conflict_change: 组织唐天霸、莫一剑等反对者形成持续反徐联盟，并推动集体告发与舆论攻击
   conflict_escalation: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
   current_action: 伏杀失败后继续维持宗门反徐舆论和敌对网络
+  antagonist_network: 说服师父赵无极关注并介入徐霄及道元传承问题
 - id: CHAR-0048
   name: 玉冰
   status: alive
@@ -2933,5 +2953,160 @@ characters:
   - 322
   - 323
   - 324
+  document: null
+  verification_status: partial
+- id: CHAR-0060
+  name: 赵无极
+  status: alive
+  role: antagonist
+  affiliations:
+  - 无妄仙宗
+  identities:
+  - 无妄仙宗太上长老
+  - 叶尘师父
+  first_appearance:
+    chapter: 326
+    title: 初到灵花岛
+    node: NODE-0043
+  cultivation:
+    current: pending
+    status: pending
+  current_action: 听取叶尘对徐霄的负面汇报后，开始关注徐霄、玉冰与道元传承
+  related_nodes:
+  - NODE-0043
+  source_chapters:
+  - 326
+  document: null
+  verification_status: partial
+- id: CHAR-0061
+  name: 苏瑶
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  - 狐族
+  identities:
+  - 无妄仙宗长老
+  - 苏小韵师父
+  first_appearance:
+    chapter: 326
+    title: 初到灵花岛
+    node: NODE-0043
+  cultivation:
+    current: pending
+    status: pending
+  relationship_context:
+    徐霄: 推动苏小韵建立资源关系，并获得徐霄长期承担师徒修炼资源的承诺
+    苏小韵: 长期培养的狐族后辈与弟子
+    status: partial
+  related_nodes:
+  - NODE-0043
+  source_chapters:
+  - 326
+  - 327
+  - 329
+  - 330
+  - 335
+  document: null
+  verification_status: partial
+- id: CHAR-0062
+  name: 苏小韵
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  - 狐族
+  identities:
+  - 无妄仙宗弟子
+  - 苏瑶弟子
+  - 徐霄有效赠送对象
+  first_appearance:
+    chapter: 326
+    title: 初到灵花岛
+    node: NODE-0043
+  cultivation:
+    current: pending
+    status: pending
+  system_profile:
+    luck_grade: pending
+    base_multiplier: pending
+    bond: pending
+    status: pending
+  accepted_gifts:
+  - GIFT-0058
+  - GIFT-0059
+  relationship_context:
+    徐霄: 建立稳定道侣与长期修炼资源支持关系
+    苏瑶: 师徒关系及资源共同体
+    status: partial
+  related_nodes:
+  - NODE-0043
+  source_chapters:
+  - 326
+  - 327
+  - 329
+  - 330
+  - 335
+  document: null
+  verification_status: partial
+- id: CHAR-0063
+  name: 百里海棠
+  status: alive
+  role: supporting
+  affiliations:
+  - 地月宗
+  - 灵花岛
+  identities:
+  - 地月宗掌门
+  - 灵花岛防务负责人
+  - 徐霄有效赠送对象
+  first_appearance:
+    chapter: 331
+    title: 百里海棠
+    node: NODE-0043
+  cultivation:
+    current: 合体巅峰附近
+    status: partial
+  accepted_gifts:
+  - GIFT-0060
+  relationship_context:
+    徐霄: 由警惕其恶名转为确认其对灵花岛防务的关键价值并接受合道丹
+    status: partial
+  related_nodes:
+  - NODE-0043
+  source_chapters:
+  - 331
+  - 332
+  - 333
+  - 334
+  - 335
+  document: null
+  verification_status: partial
+- id: CHAR-0064
+  name: 百里敖
+  status: alive
+  role: antagonist
+  affiliations:
+  - 鲛人族
+  identities:
+  - 鲛人族将领
+  - 灵花岛袭击指挥者
+  first_appearance:
+    chapter: 332
+    title: 先天灵宝，初露锋芒
+    node: NODE-0043
+  cultivation:
+    current: 合体巅峰
+    status: partial
+  conflict:
+    target: 灵花岛高品灵田与徐霄
+    result: 袭击中被四象斩天剑击退，弱水神珠受损后撤回深海
+    status: partial
+  related_nodes:
+  - NODE-0043
+  source_chapters:
+  - 332
+  - 333
+  - 334
   document: null
   verification_status: partial

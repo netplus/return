@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 31
+  extension_files: 32
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -1670,3 +1670,55 @@ nodes:
   - 灵航完整气运等级与系统面板
   document: docs/01-timeline/node-0042.md
   evidence: sources/evidence/chapters-317-324.yaml
+- id: NODE-0043
+  title: 灵花岛外勤、苏小韵结缘与鲛人退潮
+  chapters:
+    start: 325
+    end: 335
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第325—336章标题顺序和边界；第325—335章正文由可访问镜像交叉核验
+  boundary_reason: 第335章完成灵田防守、百里海棠赠送结算与阶段性舆论扩散；第336章转入海底鲛人宫殿
+  characters:
+  - 徐霄
+  - 叶尘
+  - 赵无极
+  - 苏瑶
+  - 苏小韵
+  - 丹阳
+  - 清风
+  - 百里海棠
+  - 百里敖
+  system_events:
+  - event: 苏小韵首次丹药赠送
+    trigger: 十枚虚天丹
+    reward: 鸿蒙一气丹
+    multiplier: 1000
+    status: partial
+  - event: 苏小韵法宝赠送
+    trigger: 乾坤艮土剑
+    reward: 九天灵土剑
+    status: partial
+  - event: 百里海棠合道丹赠送
+    trigger: 十枚合道丹
+    reward: 九天精元丹及九枚蕴仙丹
+    status: partial
+  conflict_events:
+  - event: 灵花岛西部灵田防守战
+    result: 徐霄击杀大量鲛人并两剑击退百里敖，守住无瑕仙草与虚灵草灵田
+    status: partial
+  protagonist_state:
+    realm: 炼虚境
+    hongmeng_qi: 十二股
+    dao_add: 木之大道·新生
+    essence_state: 九天精元
+    role_change: 成为灵花岛防守的决定性战力
+    status: partial
+  pending:
+  - 赵无极精确境界与后续行动
+  - 苏小韵苏瑶百里海棠完整系统面板
+  - 百里敖与百里海棠是否存在血缘关系
+  - 九天灵土剑完整能力
+  - 九天精元长期效果
+  document: docs/01-timeline/node-0043.md
+  evidence: sources/evidence/chapters-325-335.yaml
