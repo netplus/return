@@ -4,25 +4,25 @@
 - **Current milestone:** M9 — Chapters 401–450
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 441
-- **Current evidence exploration through:** Chapter 442
+- **Canonical coverage through:** Chapter 448
+- **Current evidence exploration through:** Chapter 449
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 57
+- **Completed timeline nodes:** 58
 - **Draft timeline nodes:** 0
-- **Documented characters:** 83
-- **Gift events:** 83
-- **Artifact records:** 55
-- **Last run:** `RUN-0068`
-- **Last completed node:** `NODE-0057`
-- **Next task:** `TASK-0060` — 冷若云赠礼、仙神魂胎与灵霄仙宗密谈 story arc
-- **Provisional exploration range:** Chapters 442–449
+- **Documented characters:** 85
+- **Gift events:** 85
+- **Artifact records:** 57
+- **Last run:** `RUN-0069`
+- **Last completed node:** `NODE-0058`
+- **Next task:** `TASK-0061` — 独孤浩冲突、惊虹仙子赠礼与气运任务 story arc
+- **Provisional exploration range:** Chapters 449–456
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0057` covers Chapters 434—441. 徐霄在东海护法期间晋升合体七重并达到十八股鸿蒙真气；凤青玄接受天凤精血、重新启动天凤之躯涅槃，系统返还十枚天凤血丹。敖三率五名合体巅峰元帅及上千龙修来袭，徐霄以山河灵图收纳大军、以九天荡魔剑压制灵宝攻势并在图内击杀敖三。凤仪获得天凤血丹及连续丹药资源，羁绊度升至 2。徐霄随后抵达灵虚城，与白霜霜建立稳定资源和道侣关系；李茂勒索无妄当铺后失踪，冷若云带城卫启动搜查。第 442 章转入冷若云直接交涉及赠送结算。
+`NODE-0058` covers Chapters 442—448. 冷若云因李茂失踪搜查无妄当铺，接受徐霄赠送的十枚蕴仙丹后暂缓强制处置；首次赠送返还仙魂神魄丹，徐霄服用后凝成仙神魂胎。柯无量以大乘神魂潜入调查，被徐霄用山河灵图收纳清除。灵霄仙宗话事人真灵判断徐霄掌握巨量战略资源，要求冷若云继续接近并争取公开关系。冷若云再次上门接受枯荣天木剑，返还先天灵宝混沌天木剑，并转为在无直接证据时保护徐霄。第 449 章转入独孤浩正面冲突。
 
-## Quality gates — RUN-0068
+## Quality gates — RUN-0069
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 434—442 章标题、顺序和边界；第 434—441 章正文由 CP 小说网等可访问正文镜像交叉核验。敖三完整系统面板与任务奖励、先天灵珠、龙族军团最终处置、凤青玄重新涅槃完整结果、白霜霜完整系统面板与逐笔赠送、李茂最终状态及冷若云赠送结算继续保持 `pending`。
+番茄小说官方目录确认第 442—449 章标题、顺序和边界；第 442—448 章正文由 CP 小说网等可访问正文镜像交叉核验。冷若云完整系统面板、蕴仙丹其余返还、仙神魂胎能力边界、柯无量肉身处置、李茂完整死亡过程、混沌天木剑能力及真灵完整境界继续保持 `pending`。

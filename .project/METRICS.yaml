@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0068
+run_id: RUN-0069
 coverage:
-  chapters_covered_through: 441
-  chapters_promoted_in_run: [434, 435, 436, 437, 438, 439, 440, 441]
-  timeline_nodes: 57
+  chapters_covered_through: 448
+  chapters_promoted_in_run: [442, 443, 444, 445, 446, 447, 448]
+  timeline_nodes: 58
   draft_nodes: 0
-  story_arc_nodes: 54
-  characters_documented: 83
+  story_arc_nodes: 55
+  characters_documented: 85
   characters_staged: 0
   system_records: 1
-  gift_events: 83
-  artifact_records: 55
+  gift_events: 85
+  artifact_records: 57
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [434, 435, 436, 437, 438, 439, 440, 441, 442]
-    cross_checked_mirror_chapters: [434, 435, 436, 437, 438, 439, 440, 441]
-    pending_fields: [敖三完整系统面板与任务奖励, 敖三先天灵珠, 龙族军团最终处置, 凤青玄重新涅槃完整结果, 白霜霜完整系统面板与逐笔赠送, 李茂最终状态, 冷若云赠送结算]
+    official_catalog_chapters: [442, 443, 444, 445, 446, 447, 448, 449]
+    cross_checked_mirror_chapters: [442, 443, 444, 445, 446, 447, 448]
+    pending_fields: [冷若云完整系统面板与羁绊度, GIFT-0084其余九枚返还, 仙神魂胎完整能力, 柯无量肉身最终处置, 李茂完整死亡过程, GIFT-0085精确倍率, 混沌天木剑完整能力, 真灵完整境界]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第441章完成白霜霜羁绊提升并启动李茂失踪后的灵虚城搜查；第442章转入冷若云直接交涉及赠送结算}
-  materiality: {status: passed, entity_updates: [NODE-0057, CHAR-0001徐霄, CHAR-0045凤青玄, CHAR-0058凤仪, CHAR-0024妙玉, CHAR-0080敖三, CHAR-0081白霜霜, CHAR-0082李茂, CHAR-0083冷若云, GIFT-0081, GIFT-0082, GIFT-0083, ART-0055天凤血丹, ART-0039天凤精血, ART-0053山河灵图, ART-0054九天荡魔剑]}
+  arc_coherence: {status: passed, boundary: 第448章完成冷若云第二次赠送及有条件保护立场；第449章转入独孤浩正面冲突和新气运之子任务}
+  materiality: {status: passed, entity_updates: [NODE-0058, CHAR-0001徐霄, CHAR-0082李茂, CHAR-0083冷若云, CHAR-0084柯无量, CHAR-0085真灵, GIFT-0084, GIFT-0085, ART-0056仙魂神魄丹, ART-0057混沌天木剑, ART-0053山河灵图]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0057.md, data/extensions/timeline/run-0068.yaml, data/extensions/characters/run-0068.yaml, data/extensions/system/run-0068.yaml, data/extensions/artifacts/run-0068.yaml]
+    files_checked: [docs/01-timeline/node-0058.md, data/extensions/timeline/run-0069.yaml, data/extensions/characters/run-0069.yaml, data/extensions/system/run-0069.yaml, data/extensions/artifacts/run-0069.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0068.yaml, data/extensions/characters/run-0068.yaml, data/extensions/system/run-0068.yaml, data/extensions/artifacts/run-0068.yaml, sources/evidence/chapters-434-441.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0069.yaml, data/extensions/characters/run-0069.yaml, data/extensions/system/run-0069.yaml, data/extensions/artifacts/run-0069.yaml, sources/evidence/chapters-442-448.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

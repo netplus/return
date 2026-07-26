@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0069
+artifacts:
+- id: ART-0056
+  name: 仙魂神魄丹
+  category: 丹药
+  first_chapter: 443
+  current_holder: 徐霄
+  acquisition: GIFT-0084万倍暴击返还
+  current_state: 已服用
+  final_user: 徐霄
+  effects: [神魂凝成仙神魂胎, 显著强化神魂强度与神识能力]
+  status: partial
+  related_nodes: [NODE-0058]
+  source_chapters: [443, 444]
+- id: ART-0057
+  name: 混沌天木剑
+  category: 先天灵宝神剑
+  grade: 先天灵宝
+  first_chapter: 448
+  current_holder: 徐霄
+  acquisition: GIFT-0085返还
+  effect: 完整能力、法阵机制与使用上限待后续确认
+  status: partial
+  related_nodes: [NODE-0058]
+  source_chapters: [448]
+artifact_updates:
+- id: ART-0053
+  name: 山河灵图
+  update:
+    combat_record_add: 第444章收纳并隔绝柯无量离体大乘神魂，协助完成神魂清除
+    related_nodes_add: [NODE-0058]
+    source_chapters_add: [444]

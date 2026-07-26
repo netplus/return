@@ -1,0 +1,55 @@
+schema_version: 1
+run_id: RUN-0069
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    power_change_add: [服用仙魂神魄丹后神魂凝成仙神魂胎]
+    combat_record_add: [使用山河灵图收纳并清除柯无量离体大乘神魂]
+    resource_change_add: [GIFT-0084返还仙魂神魄丹, GIFT-0085返还先天灵宝混沌天木剑]
+    related_nodes_add: [NODE-0058]
+    source_chapters_add: [442, 443, 444, 445, 446, 447, 448]
+- id: CHAR-0082
+  name: 李茂
+  update:
+    status_change: dead
+    current_state_set: 灵霄仙宗内部按死亡处理；完整死亡过程与山河灵图内处置待确认
+    related_nodes_add: [NODE-0058]
+    source_chapters_add: [442, 443, 445, 446]
+- id: CHAR-0083
+  name: 冷若云
+  update:
+    identities_add: [灵霄仙宗太上长老]
+    cultivation_change: 大乘境
+    accepted_gifts_add: [GIFT-0084, GIFT-0085]
+    relationship_change_add: 由调查压制徐霄转为接受长期资源，并承诺在无直接证据时保护徐霄
+    strategic_change_add: 奉真灵之命继续接近徐霄，争取建立公开关系以保留其资源
+    related_nodes_add: [NODE-0058]
+    source_chapters_add: [442, 443, 445, 446, 447, 448]
+- id: CHAR-0084
+  name: 柯无量
+  status: dead
+  role: antagonist
+  affiliations: [灵霄仙宗]
+  identities: [灵霄仙宗太上长老, 李茂师父, 神魂修士]
+  first_appearance: {chapter: 444, title: 蛮天虎力被吓懵了, node: NODE-0058}
+  cultivation: {current: 大乘境, status: partial}
+  conflict: 以离体神魂潜入无妄当铺调查李茂失踪
+  death: {chapter: 444, killer: 徐霄, method: 神魂被山河灵图收纳并清除，魂灯熄灭, status: partial}
+  related_nodes: [NODE-0058]
+  source_chapters: [444, 445, 446]
+  document: null
+  verification_status: partial
+- id: CHAR-0085
+  name: 真灵
+  status: alive
+  role: antagonist
+  affiliations: [灵霄仙宗]
+  identities: [灵霄仙宗话事人, 冷若云师父]
+  first_appearance: {chapter: 445, title: 灵霄仙宗密谈, node: NODE-0058}
+  cultivation: {current: pending, status: pending}
+  strategy: 判断徐霄掌握巨量战略资源，要求冷若云建立公开关系以长期留存资源
+  related_nodes: [NODE-0058]
+  source_chapters: [445, 446, 447, 448]
+  document: null
+  verification_status: partial
