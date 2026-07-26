@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 49
+  extension_files: 50
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -24,6 +24,8 @@ characters:
   - 独孤灵师兄
   - 穿越者
   - 无妄仙宗内门执事
+  - 灵霄仙宗荣誉太上长老
+  - 黑魔圣宗荣誉太上长老
   first_appearance:
     chapter: 1
     title: 万倍返还系统
@@ -127,6 +129,7 @@ characters:
   - NODE-0059
   - NODE-0060
   - NODE-0061
+  - NODE-0062
   source_chapters:
   - 1
   - 2
@@ -560,6 +563,14 @@ characters:
   - 468
   - 469
   - 470
+  - 471
+  - 472
+  - 473
+  - 474
+  - 475
+  - 476
+  - 477
+  - 478
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -741,6 +752,10 @@ characters:
   - GIFT-0084返还仙魂神魄丹
   - GIFT-0085返还先天灵宝混沌天木剑
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
+  knowledge:
+  - 渡劫九重规则
+  - 两次雷劫间隔极限约两万年
+  - 渡劫失败通常身死道消
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2739,6 +2754,7 @@ characters:
   - NODE-0054
   - NODE-0055
   - NODE-0056
+  - NODE-0062
   source_chapters:
   - 250
   - 278
@@ -2782,6 +2798,9 @@ characters:
   - 426
   - 427
   - 429
+  - 476
+  - 477
+  - 478
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
@@ -2790,6 +2809,7 @@ characters:
   - 与徐霄结为公开道侣，接受长期蕴仙丹、极品灵石及灵宝支持
   - 在八宗问罪现场公开维护徐霄并进一步绑定道元传承与双方道侣关系
   - 与徐霄的公开道侣和长期高阶资源关系进一步稳定
+  - 受龙矶推动进一步确认与徐霄的长期道侣关系
   major_action: 继续取得徐霄天龙血用于研究，并要求执法体系压制针对徐霄的宗门舆论
   accepted_gifts:
   - GIFT-0065
@@ -2798,6 +2818,8 @@ characters:
   - GIFT-0072
   - GIFT-0075
   - GIFT-0077
+  - GIFT-0098
+  - GIFT-0099
   public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
   strategic_change:
   - 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
@@ -4302,13 +4324,17 @@ characters:
     status: partial
   related_nodes:
   - NODE-0057
+  - NODE-0062
   source_chapters:
   - 438
   - 439
   - 440
   - 441
+  - 474
+  - 475
   document: null
   verification_status: partial
+  current_action: 随徐霄返回无妄仙宗修行
 - id: CHAR-0082
   name: 李茂
   status: pending
@@ -4361,6 +4387,7 @@ characters:
   - NODE-0059
   - NODE-0060
   - NODE-0061
+  - NODE-0062
   source_chapters:
   - 441
   - 442
@@ -4380,6 +4407,10 @@ characters:
   - 463
   - 464
   - 467
+  - 471
+  - 472
+  - 473
+  - 474
   document: null
   verification_status: partial
   cultivation_change: 大乘境
@@ -4387,10 +4418,12 @@ characters:
   - GIFT-0084
   - GIFT-0085
   - GIFT-0091
+  - GIFT-0096
   relationship_change:
   - 由调查压制徐霄转为接受长期资源，并承诺在无直接证据时保护徐霄
   - 接受雷灵珠作为萧烬璃婚事相关聘礼资源，进一步进入徐霄长期资源网络
   - 真灵公开推动其与徐霄结为道侣，关系获得灵霄仙宗话事人层级承认
+  - 与徐霄的道侣关系获灵霄仙宗及天元大陆范围公开确认
   strategic_change: 奉真灵之命继续接近徐霄，争取建立公开关系以保留其资源
   received_resources:
   - GIFT-0087大乘中期魂丹
@@ -4673,6 +4706,7 @@ characters:
   accepted_gifts:
   - GIFT-0093
   - GIFT-0094
+  - GIFT-0097
   relationship_context:
     徐霄: 由问责和敌视转为认可黑蛇关系、接受渡劫资源并公开维护徐霄
     黑蛇: 以宗门话事人身份接受其与徐霄的关系
@@ -4680,6 +4714,7 @@ characters:
   combat_record: 与真灵共同击杀敖海及其两名儿子
   related_nodes:
   - NODE-0061
+  - NODE-0062
   source_chapters:
   - 465
   - 466
@@ -4687,8 +4722,13 @@ characters:
   - 468
   - 469
   - 470
+  - 471
+  - 472
+  - 473
+  - 474
   document: null
   verification_status: partial
+  authority_action: 代表黑魔圣宗确认与无妄仙宗、灵霄仙宗结盟
 - id: CHAR-0091
   name: 敖海
   status: dead
@@ -4721,5 +4761,69 @@ characters:
   - 468
   - 469
   - 470
+  document: null
+  verification_status: partial
+- id: CHAR-0092
+  name: 龙矶
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  - 龙族
+  identities:
+  - 无妄仙宗老祖
+  - 渡劫修士
+  - 玉冰长辈
+  first_appearance:
+    chapter: 476
+    title: 宗门渡劫修士
+    node: NODE-0062
+  cultivation:
+    current: 渡劫境
+    status: partial
+  current_state: 长期闭关准备后续雷劫
+  relationship_context:
+    玉冰: 推动其确认与徐霄的长期道侣关系
+    status: partial
+  related_nodes:
+  - NODE-0062
+  source_chapters:
+  - 476
+  - 477
+  document: null
+  verification_status: partial
+- id: CHAR-0093
+  name: 魔嬛
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  identities:
+  - 无妄仙宗魔道领袖
+  - 渡劫长老
+  - A级气运之女
+  first_appearance:
+    chapter: 477
+    title: 气运之女，魔嬛
+    node: NODE-0062
+  cultivation:
+    current: 渡劫境
+    status: partial
+  system_profile:
+    luck_grade: A
+    base_return_multiplier: 10
+    bond: 1
+    status: partial
+  accepted_gifts:
+  - GIFT-0100
+  - GIFT-0101
+  relationship_context:
+    徐霄: 建立直接高阶丹药与仙器资源关系
+    status: partial
+  related_nodes:
+  - NODE-0062
+  source_chapters:
+  - 477
+  - 478
   document: null
   verification_status: partial

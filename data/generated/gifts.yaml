@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 42
+  extension_files: 43
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1322,4 +1322,66 @@ gifts:
   triggered_multiplier: pending
   reward: 化仙丹返还链条待确认
   relationship_result: 真灵与徐霄建立直接渡劫资源关系并继续公开维护
+  status: partial
+- id: GIFT-0096
+  chapter: 473
+  node: NODE-0062
+  giver: 徐霄
+  recipient: 冷若云
+  gift: 十枚蕴仙丹
+  accepted: true
+  system_valid: true
+  reward: 九枚雷灵丹与一枚鸿蒙一气丹
+  triggered_multiplier: pending
+  status: partial
+- id: GIFT-0097
+  chapter: 473
+  node: NODE-0062
+  giver: 徐霄
+  recipient: 月幽冥
+  gift: 先天灵宝噬魂封魔剑
+  accepted: true
+  system_valid: true
+  reward: 仙器九幽惊魂剑
+  triggered_multiplier: pending
+  status: partial
+- id: GIFT-0098
+  chapter: 477
+  node: NODE-0062
+  giver: 徐霄
+  recipient: 玉冰
+  gift: 十枚蕴仙丹
+  accepted: true
+  system_valid: true
+  reward: 一百枚雷灵丹
+  status: partial
+- id: GIFT-0099
+  chapter: 477
+  node: NODE-0062
+  giver: 徐霄
+  recipient: 玉冰
+  gift: 先天灵宝神木飞舟
+  accepted: true
+  system_valid: true
+  reward: 仙器九霄玉舟
+  status: partial
+- id: GIFT-0100
+  chapter: 478
+  node: NODE-0062
+  giver: 徐霄
+  recipient: 魔嬛
+  gift: 五枚雷灵丹
+  accepted: true
+  system_valid: true
+  reward: 五枚化仙丹
+  status: partial
+- id: GIFT-0101
+  chapter: 478
+  node: NODE-0062
+  giver: 徐霄
+  recipient: 魔嬛
+  gift: 先天灵宝混沌神火剑
+  accepted: true
+  system_valid: true
+  reward: 仙器仙灵天火剑
   status: partial

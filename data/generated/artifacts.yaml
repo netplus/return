@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 46
+  extension_files: 47
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -329,6 +329,10 @@ artifacts:
     chapter: 451
     result: 未确认服用
     status: partial
+  - gift_id: GIFT-0096
+    chapter: 473
+    result: 未确认服用
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -345,6 +349,7 @@ artifacts:
   - NODE-0052
   - NODE-0057
   - NODE-0059
+  - NODE-0062
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -872,6 +877,7 @@ artifacts:
   - NODE-0040
   - NODE-0041
   - NODE-0049
+  - NODE-0062
   combat_record: 在凤山界合体巅峰凶兽密集区域承担飞行、防御和作战平台功能
   source_chapters:
   - 309
@@ -879,12 +885,16 @@ artifacts:
   - 313
   - 316
   - 377
+  - 477
   transport_record:
     chapters:
     - 377
     route: 无妄仙宗至黑木岭铁焰城
     passengers: 无妄仙宗阴煞小界行动队伍
     status: partial
+  transfer_event: GIFT-0099
+  transferred_to: 玉冰
+  transferred_in_chapter: 477
 - id: ART-0038
   name: 五行灵宝神剑组
   category: 灵宝神剑组合
@@ -1025,6 +1035,14 @@ artifacts:
     source: 系统批量返还
     detailed_gift_mapping: pending
     status: partial
+  - gift_id: GIFT-0096
+    chapter: 473
+    quantity: 9
+    status: partial
+  - gift_id: GIFT-0098
+    chapter: 477
+    quantity: 100
+    status: partial
   effect: 徐霄判断可能用于渡劫阶段修炼；正式用途待后续确认
   status: partial
   related_nodes:
@@ -1032,6 +1050,7 @@ artifacts:
   - NODE-0059
   - NODE-0060
   - NODE-0061
+  - NODE-0062
   source_chapters:
   - 451
   - 455
@@ -1054,6 +1073,12 @@ artifacts:
   transferred_in_chapter:
   - 466
   - 470
+  transfer:
+    gift_id: GIFT-0100
+    chapter: 478
+    recipient: 魔嬛
+    quantity: 5
+    status: partial
 - id: ART-0046
   name: 噬魂封魔剑
   category: 先天灵宝魔剑
@@ -1068,6 +1093,7 @@ artifacts:
   - NODE-0051
   - NODE-0052
   - NODE-0054
+  - NODE-0062
   combat_record:
   - 识破并清除夺舍阴魂
   - 吞噬二十七具合体阴魂并形成魂丹
@@ -1086,10 +1112,15 @@ artifacts:
   - 404
   - 405
   - 412
+  - 473
+  - 474
   abilities:
   - 可吞噬大乘阴魂
   - 被吞噬阴魂可形成对应层级魂丹
   - 可拦截肉身死亡后逃逸的夺舍阴魂
+  transfer_event: GIFT-0097
+  transferred_to: 月幽冥
+  transferred_in_chapter: 473
 - id: ART-0047
   name: 混沌破金剑
   category: 先天灵宝神剑
@@ -1333,8 +1364,54 @@ artifacts:
   grade: 人仙层级返还资源
   first_chapter: 470
   current_holder: 徐霄
-  acquisition: 第470章雷灵丹赠送返还，逐笔数量映射待确认
+  acquisition:
+  - 第470章雷灵丹赠送返还，逐笔数量映射待确认
+  - gift_id: GIFT-0100
+    chapter: 478
+    quantity: 5
+    status: partial
   effect: 完整药效与服用条件待后续确认
   status: partial
   related_nodes:
   - NODE-0061
+  - NODE-0062
+- id: ART-0061
+  name: 九幽惊魂剑
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 474
+  current_holder: 徐霄
+  acquisition: GIFT-0097返还
+  abilities:
+  - 内含破魂仙阵
+  - 针对仙鬼神魂与邪祟形成毁灭攻击
+  status: partial
+  related_nodes:
+  - NODE-0062
+- id: ART-0062
+  name: 九霄玉舟
+  category: 飞行仙器
+  grade: 仙器
+  first_chapter: 477
+  current_holder: 徐霄
+  acquisition: GIFT-0099返还
+  abilities:
+  - 上古仙玉构造
+  - 内含破界仙阵
+  - 可破界瞬移
+  status: partial
+  related_nodes:
+  - NODE-0062
+- id: ART-0063
+  name: 仙灵天火剑
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 478
+  current_holder: 徐霄
+  acquisition: GIFT-0101返还
+  abilities:
+  - 内含仙灵神火
+  - 形成高阶焚灭攻击
+  status: partial
+  related_nodes:
+  - NODE-0062
