@@ -1,6 +1,6 @@
 schema_version: 2
 workflow: {standard_version: 2.0, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
-history_note: Full task metadata through RUN-0050 remains auditable in Git history and .project/CHANGELOG.md.
+history_note: Full task metadata through RUN-0068 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
 - {id: TASK-0002, status: done}
@@ -50,120 +50,31 @@ tasks:
 - {id: TASK-0046, status: done}
 - {id: TASK-0047, status: done}
 - {id: TASK-0048, status: done}
-- id: TASK-0049
-  title: Build the 地月城善后、返宗与玉冰关系 story arc from Chapter 361 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0058
-  target: {chapter_start: 361, chapter_end: 369, node: NODE-0047, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0047.md, data/extensions/timeline/run-0058.yaml, data/extensions/characters/run-0058.yaml, data/extensions/system/run-0058.yaml, data/extensions/artifacts/run-0058.yaml, sources/evidence/chapters-361-369.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0048]
-- id: TASK-0050
-  title: Build the 盘龙岛铁幕城告别与第一婵返还 story arc from Chapter 370 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0059
-  target: {chapter_start: 370, chapter_end: 374, node: NODE-0048, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0048.md, data/extensions/timeline/run-0059.yaml, data/extensions/characters/run-0059.yaml, data/extensions/system/run-0059.yaml, data/extensions/artifacts/run-0059.yaml, sources/evidence/chapters-370-374.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0049]
-- id: TASK-0051
-  title: Build the 阴煞小界任务与铁焰城初战 story arc from Chapter 375 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0060
-  target: {chapter_start: 375, chapter_end: 380, node: NODE-0049, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0049.md, data/extensions/timeline/run-0060.yaml, data/extensions/characters/run-0060.yaml, data/extensions/system/run-0060.yaml, data/extensions/artifacts/run-0060.yaml, sources/evidence/chapters-375-380.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0050]
-- id: TASK-0052
-  title: Build the 陆雪瑶、铁焰城拍卖会与萧家邀请 story arc from Chapter 381 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0061
-  target: {chapter_start: 381, chapter_end: 388, node: NODE-0050, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0050.md, data/extensions/timeline/run-0061.yaml, data/extensions/characters/run-0061.yaml, data/extensions/system/run-0061.yaml, data/extensions/artifacts/run-0061.yaml, sources/evidence/chapters-381-388.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0051]
-- id: TASK-0053
-  title: Build the 阴煞界阴谋、灭杀阴魂与铁焰城惊变 story arc from Chapter 389 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0062
-  target: {chapter_start: 389, chapter_end: 397, node: NODE-0051, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0051.md, data/extensions/timeline/run-0062.yaml, data/extensions/characters/run-0062.yaml, data/extensions/system/run-0062.yaml, data/extensions/artifacts/run-0062.yaml, sources/evidence/chapters-389-397.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0052]
-- id: TASK-0054
-  title: Build the 尹小倩、阴煞界隐秘与大乘阴魂初战 story arc from Chapter 398 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0063
-  target: {chapter_start: 398, chapter_end: 405, node: NODE-0052, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0052.md, data/extensions/timeline/run-0063.yaml, data/extensions/characters/run-0063.yaml, data/extensions/system/run-0063.yaml, data/extensions/artifacts/run-0063.yaml, sources/evidence/chapters-398-405.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0053]
-- id: TASK-0055
-  title: Build the 铁焰城夺舍扩散、尹小倩身份与九宗收缩 story arc from Chapter 406 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0064
-  target: {chapter_start: 406, chapter_end: 410, node: NODE-0053, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0053.md, data/extensions/timeline/run-0064.yaml, data/extensions/characters/run-0064.yaml, data/extensions/system/run-0064.yaml, sources/evidence/chapters-406-410.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0054]
-- id: TASK-0056
-  title: Build the 陆雪瑶遇袭、先天神剑战与叶尘逃亡 story arc from Chapter 411 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0065
-  target: {chapter_start: 411, chapter_end: 418, node: NODE-0054, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0054.md, data/extensions/timeline/run-0065.yaml, data/extensions/characters/run-0065.yaml, data/extensions/system/run-0065.yaml, data/extensions/artifacts/run-0065.yaml, sources/evidence/chapters-411-418.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0055]
-- id: TASK-0057
-  title: Build the 阴魂攻阵、九宗救援与铁焰城撤离 story arc from Chapter 419 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0066
-  target: {chapter_start: 419, chapter_end: 424, node: NODE-0055, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0055.md, data/extensions/timeline/run-0066.yaml, data/extensions/characters/run-0066.yaml, data/extensions/system/run-0066.yaml, data/extensions/artifacts/run-0066.yaml, sources/evidence/chapters-419-424.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0056]
-- id: TASK-0058
-  title: Build the 独孤灵出岛、纯阴之体与东海出发 story arc from Chapter 425 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0067
-  target: {chapter_start: 425, chapter_end: 433, node: NODE-0056, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0056.md, data/extensions/timeline/run-0067.yaml, data/extensions/characters/run-0067.yaml, data/extensions/system/run-0067.yaml, data/extensions/artifacts/run-0067.yaml, sources/evidence/chapters-425-433.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0057]
-- id: TASK-0059
-  title: Build the 敖三来袭、凤族震慑与白霜霜登场 story arc from Chapter 434 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-26'
-  run_id: RUN-0068
-  target: {chapter_start: 434, chapter_end: 441, node: NODE-0057, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0057.md, data/extensions/timeline/run-0068.yaml, data/extensions/characters/run-0068.yaml, data/extensions/system/run-0068.yaml, data/extensions/artifacts/run-0068.yaml, sources/evidence/chapters-434-441.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0058]
+- {id: TASK-0049, status: done}
+- {id: TASK-0050, status: done}
+- {id: TASK-0051, status: done}
+- {id: TASK-0052, status: done}
+- {id: TASK-0053, status: done}
+- {id: TASK-0054, status: done}
+- {id: TASK-0055, status: done}
+- {id: TASK-0056, status: done}
+- {id: TASK-0057, status: done}
+- {id: TASK-0058, status: done}
+- {id: TASK-0059, status: done}
 - id: TASK-0060
   title: Build the 冷若云赠礼、仙神魂胎与灵霄仙宗密谈 story arc from Chapter 442 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 442, provisional_chapter_end: 449, node: NODE-0058, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0069
+  target: {chapter_start: 442, chapter_end: 448, node: NODE-0058, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0058.md, data/extensions/timeline/run-0069.yaml, data/extensions/characters/run-0069.yaml, data/extensions/system/run-0069.yaml, data/extensions/artifacts/run-0069.yaml, sources/evidence/chapters-442-448.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0059]
+- id: TASK-0061
+  title: Build the 独孤浩冲突、惊虹仙子赠礼与气运任务 story arc from Chapter 449 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 449, provisional_chapter_end: 456, node: NODE-0059, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0060]
