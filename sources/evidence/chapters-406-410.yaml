@@ -1,0 +1,30 @@
+schema_version: 2
+run_id: RUN-0064
+task_id: TASK-0055
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 406
+  chapter_end: 410
+  node: NODE-0053
+  status: promoted
+  canonical_document: docs/01-timeline/node-0053.md
+  boundary_reason: 第410章完成萧彭春阴谋确认、赠送结算及九宗行动队收缩；第411章转入陆雪瑶遇袭与徐霄驰援
+chapters:
+- {chapter: 406, title: 各种被嫌弃, facts: [徐霄将萧四海受损灵宝火剑交给萧烬璃但未触发返还, 返回铁焰城的各宗修士被夺舍比例接近三分之一, 徐霄承诺继续保护并供给萧烬璃魂丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 407, title: 尹小倩的新身份, facts: [尹小倩以侍女身份照料玉冰并继续随徐霄行动, 玉冰接受其临时安置与未来重塑肉身方向], official_catalog: true, readable_mirrors: [正文镜像], status: partial}
+- {chapter: 408, title: 惊天阴谋, facts: [萧家合体以上修士大面积失联, 系统识别萧彭春为气运之子, 萧彭春持有铁焰神炉与大乘九重神魂之力并执掌阴煞天宗, 发布击杀萧彭春任务并奖励道具返还库随机升级], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 409, title: 收缩人员, facts: [阴煞天宗计划夺舍铁焰城数万修士重建阴煞大陆, 萧烬璃与徐霄羁绊度提升至2, 绝品驻颜丹赠送返还鸿蒙一气丹, 九宗开始收缩外出人员], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 410, title: 徐霄的恶臭名声, facts: [徐霄赠送玉冰一枚大乘初期魂丹并返还十枚渡劫初期魂丹, 无妄仙宗将探索队缩减为大乘修士与少量合体巅峰长老, 徐霄继续与魔姝队行动], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 411
+  next_title: 陆雪瑶逃命
+  transition: 转入陆雪瑶遭夺舍阵营伏击及徐霄驰援战斗
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
