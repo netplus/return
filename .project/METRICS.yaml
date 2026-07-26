@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0071
+run_id: RUN-0072
 coverage:
-  chapters_covered_through: 462
-  chapters_promoted_in_run: [455, 456, 457, 458, 459, 460, 461, 462]
-  timeline_nodes: 60
+  chapters_covered_through: 470
+  chapters_promoted_in_run: [463, 464, 465, 466, 467, 468, 469, 470]
+  timeline_nodes: 61
   draft_nodes: 0
-  story_arc_nodes: 57
-  characters_documented: 89
+  story_arc_nodes: 58
+  characters_documented: 91
   characters_staged: 0
   system_records: 1
-  gift_events: 92
-  artifact_records: 58
+  gift_events: 95
+  artifact_records: 60
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [455, 456, 457, 458, 459, 460, 461, 462, 463]
-    cross_checked_mirror_chapters: [455, 456, 457, 458, 459, 460, 461, 462]
-    pending_fields: [黑蛇完整系统面板, GIFT-0089返还, GIFT-0090返还, GIFT-0092返还, 黑无忌任务结算与最终状态, 第455章雷灵丹逐笔来源, 九天仙雷珠完整能力]
+    official_catalog_chapters: [463, 464, 465, 466, 467, 468, 469, 470, 471]
+    cross_checked_mirror_chapters: [463, 464, 465, 466, 467, 468, 469, 470]
+    pending_fields: [真灵与月幽冥完整系统面板, GIFT-0093数量与倍率, 第470章化仙丹逐笔映射, 九天玉骨丹完整效果, 黑无忌最终状态, 东海龙族完整伤亡]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第462章完成聘礼赠送、仙器返还与黑无忌婚约解除；第463章转入灵霄仙宗渡劫话事人及新一轮宗门交涉}
-  materiality: {status: passed, entity_updates: [NODE-0060, CHAR-0001徐霄, CHAR-0071萧烬璃, CHAR-0083冷若云, CHAR-0086欧阳惊虹, CHAR-0088黑无忌, CHAR-0089黑蛇, GIFT-0088, GIFT-0089, GIFT-0090, GIFT-0091, GIFT-0092, ART-0058九天仙雷珠, ART-0042九天灵土剑, ART-0045雷灵丹, ART-0053山河灵图]}
+  arc_coherence: {status: passed, boundary: 第470章完成敖海任务结算、丹药返还库升级与雷灵丹答谢；第471章转入天阁来访和跨宗善后}
+  materiality: {status: passed, entity_updates: [NODE-0061, CHAR-0001徐霄, CHAR-0083冷若云, CHAR-0085真灵, CHAR-0087独孤浩, CHAR-0088黑无忌, CHAR-0089黑蛇, CHAR-0090月幽冥, CHAR-0091敖海, GIFT-0093, GIFT-0094, GIFT-0095, ART-0059九天玉骨丹, ART-0060化仙丹, ART-0045雷灵丹]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0060.md, data/extensions/timeline/run-0071.yaml, data/extensions/characters/run-0071.yaml, data/extensions/system/run-0071.yaml, data/extensions/artifacts/run-0071.yaml]
+    files_checked: [docs/01-timeline/node-0061.md, data/extensions/timeline/run-0072.yaml, data/extensions/characters/run-0072.yaml, data/extensions/system/run-0072.yaml, data/extensions/artifacts/run-0072.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0071.yaml, data/extensions/characters/run-0071.yaml, data/extensions/system/run-0071.yaml, data/extensions/artifacts/run-0071.yaml, sources/evidence/chapters-455-462.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0072.yaml, data/extensions/characters/run-0072.yaml, data/extensions/system/run-0072.yaml, data/extensions/artifacts/run-0072.yaml, sources/evidence/chapters-463-470.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
