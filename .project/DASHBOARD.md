@@ -4,25 +4,25 @@
 - **Current milestone:** M8 — Chapters 351–400
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 388
-- **Current evidence exploration through:** Chapter 389
+- **Canonical coverage through:** Chapter 397
+- **Current evidence exploration through:** Chapter 398
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 50
+- **Completed timeline nodes:** 51
 - **Draft timeline nodes:** 0
 - **Documented characters:** 74
-- **Gift events:** 71
-- **Artifact records:** 48
-- **Last run:** `RUN-0061`
-- **Last completed node:** `NODE-0050`
-- **Next task:** `TASK-0053` — 阴煞界阴谋、灭杀阴魂与铁焰城惊变 story arc
-- **Provisional exploration range:** Chapters 389–396
+- **Gift events:** 72
+- **Artifact records:** 49
+- **Last run:** `RUN-0062`
+- **Last completed node:** `NODE-0051`
+- **Next task:** `TASK-0054` — 尹小倩、阴煞界隐秘与大乘阴魂初战 story arc
+- **Provisional exploration range:** Chapters 398–405
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0050` covers Chapters 381—388. 徐霄在铁焰城首次确认青云仙宗掌门陆雪瑶为 SSS 级气运之女，并在拍卖会上以资源优势竞得九件压制法器，强化无妄仙宗进入阴煞界的大乘阵容，同时激怒四域顶级宗门。萧烬璃因灵宝和灵石收益私下邀请徐霄，双方形成持续利益接触；萧家随后通过黑市重新出售压制法器。铁焰城由萧家老祖操纵跨界进入阴煞界，系统确认大乘六重魔姝为 C 级气运之女。魔姝主动邀请徐霄组队，第 388 章完成行动队伍组建；第 389 章转入阴煞界阴谋和正式探索。
+`NODE-0051` covers Chapters 389—397. 徐霄在阴煞界识破阴魂通过夺舍修士渗透铁焰城的阴谋，凭强化神识、噬魂封魔剑与神魂锁链连续清除合体阴魂并取得魂丹。八大仙宗随后以缥缈仙宗人员死亡为由上门问罪；徐霄当众证明死者已被夺舍，并从无妄仙宗队伍中清除八具潜伏阴魂，使问罪逻辑反转。玉冰公开维护徐霄，八宗最终撤离。徐霄向玉冰赠送九天神龙甲，返还先天灵宝龙魂仙衣，并继续向第一婵、百里海棠提供魂丹与合道丹。第 398 章转入尹小倩与阴煞界隐秘新人物线。
 
-## Quality gates — RUN-0061
+## Quality gates — RUN-0062
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 381—389 章标题、顺序和边界；第 381—388 章正文由 CP 小说网等可访问正文镜像交叉核验。陆雪瑶完整系统面板、拍卖会完整竞品与总支出、高价竞拍是否形成系统返还、萧家黑市压制法器安排、魔姝完整系统面板及铁焰城完整法宝能力继续保持 `pending`。
+番茄小说官方目录确认第 389—398 章标题、顺序和边界；第 389—397 章正文由 CP 小说网等可访问正文镜像交叉核验。阴魂渗透完整规模、`GIFT-0072` 精确倍率、第 396—397 章魂丹与合道丹完整返还、神木灵盾完整返还链条及龙魂仙衣完整能力继续保持 `pending`。
