@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 49
+  extension_files: 50
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2390,3 +2390,43 @@ nodes:
   - 第455章雷灵丹来源
   document: docs/01-timeline/node-0060.md
   evidence: sources/evidence/chapters-455-462.yaml
+- id: NODE-0061
+  title: 渡劫话事人争夺、龙族问罪与敖海结算
+  chapters:
+    start: 463
+    end: 470
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第463—471章标题、顺序和边界；第463—470章正文由可访问镜像交叉核验
+  boundary_reason: 第470章完成敖海任务结算、丹药返还库升级及雷灵丹答谢；第471章转入天阁来访和跨宗善后
+  characters:
+  - 徐霄
+  - 真灵
+  - 冷若云
+  - 黑蛇
+  - 月幽冥
+  - 敖海
+  - 独孤浩
+  - 黑无忌
+  system_events:
+  - event: 敖海气运之敌任务
+    result: 间接完成
+    reward: 丹药返还库上限升级至人仙境
+    status: partial
+  - event: 月幽冥雷灵丹赠送
+    reward: 九天玉骨丹
+    status: partial
+  - event: 渡劫话事人答谢赠送
+    trigger: 十枚雷灵丹分赠月幽冥与真灵
+    reward: 化仙丹
+    status: partial
+  relationship_result: 灵霄仙宗与黑魔圣宗渡劫话事人由问责转为公开维护并争取徐霄资源关系
+  pending:
+  - 真灵与月幽冥完整系统面板
+  - 雷灵丹与返还逐笔映射
+  - 九天玉骨丹完整效果
+  - 化仙丹数量与药效
+  - 黑无忌最终状态
+  - 东海龙族完整伤亡
+  document: docs/01-timeline/node-0061.md
+  evidence: sources/evidence/chapters-463-470.yaml

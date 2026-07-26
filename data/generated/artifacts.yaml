@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 45
+  extension_files: 46
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1031,15 +1031,29 @@ artifacts:
   - NODE-0047
   - NODE-0059
   - NODE-0060
+  - NODE-0061
   source_chapters:
   - 451
   - 455
   - 456
+  - 466
+  - 467
+  - 470
   acquisition_additional:
     gift_id: GIFT-0088
     chapter: 456
     quantity: 45
     status: partial
+  transfer_event:
+  - GIFT-0093
+  - GIFT-0094
+  - GIFT-0095
+  transferred_to:
+  - 月幽冥
+  - 真灵
+  transferred_in_chapter:
+  - 466
+  - 470
 - id: ART-0046
   name: 噬魂封魔剑
   category: 先天灵宝魔剑
@@ -1303,3 +1317,24 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0060
+- id: ART-0059
+  name: 九天玉骨丹
+  category: 丹药
+  first_chapter: 467
+  current_holder: 徐霄
+  acquisition: GIFT-0093返还
+  effect: 高阶炼体资源；完整效果及是否立即服用待后续确认
+  status: partial
+  related_nodes:
+  - NODE-0061
+- id: ART-0060
+  name: 化仙丹
+  category: 丹药
+  grade: 人仙层级返还资源
+  first_chapter: 470
+  current_holder: 徐霄
+  acquisition: 第470章雷灵丹赠送返还，逐笔数量映射待确认
+  effect: 完整药效与服用条件待后续确认
+  status: partial
+  related_nodes:
+  - NODE-0061

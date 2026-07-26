@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 48
+  extension_files: 49
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -126,6 +126,7 @@ characters:
   - NODE-0058
   - NODE-0059
   - NODE-0060
+  - NODE-0061
   source_chapters:
   - 1
   - 2
@@ -551,6 +552,14 @@ characters:
   - 460
   - 461
   - 462
+  - 463
+  - 464
+  - 465
+  - 466
+  - 467
+  - 468
+  - 469
+  - 470
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -597,6 +606,7 @@ characters:
   - 与百里海棠形成稳定道侣关系并承诺长期承担其修炼资源
   - 与玉冰结为公开道侣并将资源体系与无妄仙宗最高权力层绑定
   - 与黑蛇形成稳定道侣和长期资源关系
+  - 冷若云与黑蛇关系分别获得两宗渡劫话事人公开推动或认可
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -677,6 +687,8 @@ characters:
   - 掌握萧彭春执掌阴煞天宗及利用铁焰城修士重建阴煞大陆的核心阴谋
   - 启动天光域东海护法行动并以仙器山河灵图控制两名合体龙族
   - 完成东海护法地点阶段性清场并转入灵虚城无妄当铺行动
+  - 建立与灵霄仙宗及黑魔圣宗渡劫话事人的直接资源关系
+  - 间接完成敖海气运之敌任务
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -4348,6 +4360,7 @@ characters:
   - NODE-0058
   - NODE-0059
   - NODE-0060
+  - NODE-0061
   source_chapters:
   - 441
   - 442
@@ -4364,6 +4377,9 @@ characters:
   - 454
   - 461
   - 462
+  - 463
+  - 464
+  - 467
   document: null
   verification_status: partial
   cultivation_change: 大乘境
@@ -4374,6 +4390,7 @@ characters:
   relationship_change:
   - 由调查压制徐霄转为接受长期资源，并承诺在无直接证据时保护徐霄
   - 接受雷灵珠作为萧烬璃婚事相关聘礼资源，进一步进入徐霄长期资源网络
+  - 真灵公开推动其与徐霄结为道侣，关系获得灵霄仙宗话事人层级承认
   strategic_change: 奉真灵之命继续接近徐霄，争取建立公开关系以保留其资源
   received_resources:
   - GIFT-0087大乘中期魂丹
@@ -4427,13 +4444,30 @@ characters:
   strategy: 判断徐霄掌握巨量战略资源，要求冷若云建立公开关系以长期留存资源
   related_nodes:
   - NODE-0058
+  - NODE-0061
   source_chapters:
   - 445
   - 446
   - 447
   - 448
+  - 463
+  - 464
+  - 465
+  - 466
+  - 467
+  - 468
+  - 469
+  - 470
   document: null
   verification_status: partial
+  cultivation_change: 渡劫境
+  authority_action:
+  - 撤销对徐霄涉及柯无量与李茂事件的公开怀疑
+  - 推动冷若云与徐霄关系正式化
+  - 与月幽冥共同击杀敖海及其两名儿子
+  accepted_gifts:
+  - GIFT-0095
+  relationship_change: 由资源拉拢转为公开维护徐霄并建立直接高阶丹药关系
 - id: CHAR-0086
   name: 欧阳惊虹
   status: alive
@@ -4503,13 +4537,20 @@ characters:
   conflict: 以柯无量之死为由强行带走徐霄并首先发动大乘攻击
   related_nodes:
   - NODE-0059
+  - NODE-0061
   source_chapters:
   - 449
   - 450
   - 451
   - 454
+  - 463
+  - 464
+  - 466
+  - 467
+  - 470
   document: null
   verification_status: partial
+  conflict_change: 真灵公开推动冷若云与徐霄关系后，其反徐敌意和道心受挫进一步加深
 - id: CHAR-0088
   name: 黑无忌
   status: alive
@@ -4534,6 +4575,7 @@ characters:
   related_nodes:
   - NODE-0059
   - NODE-0060
+  - NODE-0061
   source_chapters:
   - 452
   - 453
@@ -4544,9 +4586,13 @@ characters:
   - 460
   - 461
   - 462
+  - 464
+  - 465
+  - 466
+  - 467
   document: null
   verification_status: partial
-  status_change: 被山河灵图收纳囚禁，生死未确认
+  status_change: 仍被山河灵图收纳，黑魔圣宗来访问责但未确认其最终生死
   conflict_change: 迎亲队被徐霄清算，与萧烬璃的婚约被欧阳惊虹宣布无效
   system_task_status: active
 - id: CHAR-0089
@@ -4586,6 +4632,7 @@ characters:
     status: partial
   related_nodes:
   - NODE-0060
+  - NODE-0061
   source_chapters:
   - 455
   - 456
@@ -4595,5 +4642,84 @@ characters:
   - 460
   - 461
   - 462
+  - 464
+  - 465
+  - 466
+  - 467
+  document: null
+  verification_status: partial
+  relationship_change: 通过展示徐霄提供的先天灵宝、符箓与长期资源，促使月幽冥接受并推动双方关系
+- id: CHAR-0090
+  name: 月幽冥
+  status: alive
+  role: major_supporting
+  affiliations:
+  - 黑魔圣宗
+  identities:
+  - 黑魔圣宗渡劫话事人
+  - SSS级气运之女
+  first_appearance:
+    chapter: 465
+    title: 月幽冥的愤怒
+    node: NODE-0061
+  cultivation:
+    current: 渡劫境
+    status: partial
+  system_profile:
+    luck_grade: SSS
+    base_return_multiplier: pending
+    bond: pending
+    status: partial
+  accepted_gifts:
+  - GIFT-0093
+  - GIFT-0094
+  relationship_context:
+    徐霄: 由问责和敌视转为认可黑蛇关系、接受渡劫资源并公开维护徐霄
+    黑蛇: 以宗门话事人身份接受其与徐霄的关系
+    status: partial
+  combat_record: 与真灵共同击杀敖海及其两名儿子
+  related_nodes:
+  - NODE-0061
+  source_chapters:
+  - 465
+  - 466
+  - 467
+  - 468
+  - 469
+  - 470
+  document: null
+  verification_status: partial
+- id: CHAR-0091
+  name: 敖海
+  status: dead
+  role: antagonist
+  affiliations:
+  - 东海雷龙族
+  identities:
+  - 东海雷龙族龙王
+  - 气运之敌
+  first_appearance:
+    chapter: 468
+    title: 东海龙族前来问罪
+    node: NODE-0061
+  cultivation:
+    current: 大乘巅峰
+    status: partial
+  system_task:
+    objective: 击杀敖海
+    reward: 丹药返还库随机升级
+    result: 间接完成
+    status: partial
+  conflict_context: 为敖三死亡、雷灵珠易主及龙族军团失踪前来问罪
+  death_event:
+    chapter: 470
+    cause: 被真灵与月幽冥共同击杀
+    status: partial
+  related_nodes:
+  - NODE-0061
+  source_chapters:
+  - 468
+  - 469
+  - 470
   document: null
   verification_status: partial
