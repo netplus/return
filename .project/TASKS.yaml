@@ -113,7 +113,17 @@ tasks:
 - id: TASK-0055
   title: Build the 铁焰城夺舍扩散、尹小倩身份与九宗收缩 story arc from Chapter 406 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 406, provisional_chapter_end: 413, node: NODE-0053, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0064
+  target: {chapter_start: 406, chapter_end: 410, node: NODE-0053, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0053.md, data/extensions/timeline/run-0064.yaml, data/extensions/characters/run-0064.yaml, data/extensions/system/run-0064.yaml, sources/evidence/chapters-406-410.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0054]
+- id: TASK-0056
+  title: Build the 陆雪瑶遇袭、先天神剑战与叶尘逃亡 story arc from Chapter 411 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 411, provisional_chapter_end: 418, node: NODE-0054, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0055]

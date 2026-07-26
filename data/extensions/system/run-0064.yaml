@@ -1,0 +1,36 @@
+schema_version: 1
+run_id: RUN-0064
+gift_events:
+- id: GIFT-0074
+  chapter: 409
+  node: NODE-0053
+  giver: 徐霄
+  recipient: 萧烬璃
+  gift: 绝品驻颜丹
+  accepted: true
+  system_valid: true
+  first_bond_upgrade: true
+  triggered_multiplier: 1000
+  reward: 鸿蒙一气丹
+  relationship_result: 羁绊度提升至2并形成稳定道侣与资源关系
+  status: partial
+- id: GIFT-0075
+  chapter: 410
+  node: NODE-0053
+  giver: 徐霄
+  recipient: 玉冰
+  gift: 一枚大乘初期魂丹
+  accepted: true
+  system_valid: true
+  reward: 十枚渡劫初期魂丹
+  relationship_result: 玉冰获得用于大道修炼的高阶魂丹资源
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0074, GIFT-0075]
+    task_add: {target: 萧彭春, target_type: 气运之子, objective: 击杀, reward: 道具返还库随机升级, chapter: 408, status: active}
+    invalid_gift_examples_add: {chapter: 406, item: 萧四海受损灵宝火剑, recipient: 萧烬璃, result: 未触发返还, possible_reasons: [物品原属萧家, 受赠人尚未炼化此前灵宝], status: partial}
+    related_nodes_add: [NODE-0053]
+    source_chapters_add: [406, 408, 409, 410]
