@@ -69,7 +69,17 @@ tasks:
 - id: TASK-0047
   title: Build the 三宗震荡与灵花岛后续 story arc from Chapter 345 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 345, provisional_chapter_end: 352, node: NODE-0045, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0056
+  target: {chapter_start: 345, chapter_end: 352, node: NODE-0045, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0045.md, data/extensions/timeline/run-0056.yaml, data/extensions/characters/run-0056.yaml, data/extensions/system/run-0056.yaml, data/extensions/artifacts/run-0056.yaml, sources/evidence/chapters-345-352.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0046]
+- id: TASK-0048
+  title: Build the 三宗灭徐阴谋与地月城决战 story arc from Chapter 353 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 353, provisional_chapter_end: 360, node: NODE-0046, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0047]

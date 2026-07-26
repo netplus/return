@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0056
+artifacts:
+- id: ART-0044
+  name: 九天神莲戒
+  category: 先天灵宝
+  grade: 先天灵宝
+  first_chapter: 347
+  current_holder: 徐霄
+  acquisition: GIFT-0063返还
+  effect: 激活后形成九天金莲护体，侧重防御
+  complete_defense_limit: pending
+  refinement_status: pending
+  status: partial
+  related_nodes: [NODE-0045]
+artifact_updates:
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0062, chapter: 347, status: partial}
+    related_nodes_add: [NODE-0045]
+    pending_fields_add: [GIFT-0062精确倍率, 本次鸿蒙一气丹服用时间与效果]

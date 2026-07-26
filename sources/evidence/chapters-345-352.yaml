@@ -1,0 +1,73 @@
+schema_version: 2
+run_id: RUN-0056
+task_id: TASK-0047
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 345
+  chapter_end: 352
+  node: NODE-0045
+  status: promoted
+  canonical_document: docs/01-timeline/node-0045.md
+  boundary_reason: 第352章完成尚水真人问责、蕴仙丹利益平衡与百里海棠关系稳定；第353章转入三宗正式灭徐阴谋
+chapters:
+- chapter: 345
+  title: 三宗彻底炸了
+  facts: [深海冰封后的鲛人残骸漂到灵花岛, 玉鼎仙宗天煞魔宗与云海域缥缈仙宗确认派出人员魂灯熄灭, 三宗将徐霄列为重点调查对象]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 346
+  title: 百里海棠再次到来
+  facts: [百里海棠因救命与寻母承诺再次拜访徐霄, 她试图归还既有合道丹并停止接受资源, 徐霄提出长期承担其修炼资源]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 347
+  title: 先天灵宝，九天神莲戒
+  facts: [百里海棠接受十枚合道丹与防御灵宝, 系统返还鸿蒙一气丹和先天灵宝九天神莲戒, 原始防御灵宝名称与精确倍率未稳定核验]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 348
+  title: 灵花岛庙太小，装不下
+  facts: [百里海棠与徐霄形成稳定道侣关系, 羁绊度提升至2, 双方建立长期资源支持关系, 关系公开引发无妄仙宗驻地与地月城舆论震荡]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 349
+  title: 三宗算计
+  facts: [玉鼎仙宗天煞魔宗与云海域缥缈仙宗派出七名合体巅峰长老秘密进入西海调查, 三宗联合鲛人的旧事继续被隐瞒, 地月城对百里海棠关系的反应扩大]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 350
+  title: 大乘之怒
+  facts: [尚水真人正式以地月宗太上长老和百里海棠师父身份出场, 尚水为大乘修士, 因百里海棠与徐霄关系公开前往问责]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 351
+  title: 蕴仙丹
+  facts: [尚水真人以大乘法相问责徐霄, 百里海棠公开维护徐霄并强调自身意愿, 徐霄以蕴仙丹与长期资源承诺说明百里海棠获得的仙途收益]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+- chapter: 352
+  title: 修真界危险了
+  facts: [尚水真人收下蕴仙丹并暂时停止直接冲突, 百里海棠的长期资源关系获得事实上的缓冲空间, 三宗敌意仍在累积并进入下一阶段]
+  official_catalog: true
+  readable_mirrors: [CP小说网]
+  status: partial
+boundary_check:
+  next_chapter: 353
+  next_title: 三宗灭徐阴谋
+  transition: 转入三宗正式制定围杀徐霄的阴谋与地月城舆论操纵
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
