@@ -1,0 +1,27 @@
+schema_version: 1
+run_id: RUN-0058
+artifacts:
+- id: ART-0045
+  name: 雷灵丹
+  category: 丹药
+  first_chapter: 367
+  current_holder: 徐霄
+  acquisition: GIFT-0065返还四十枚
+  effect: 徐霄判断可能用于渡劫阶段修炼；正式用途待后续确认
+  status: partial
+  related_nodes: [NODE-0047]
+artifact_updates:
+- id: ART-0031
+  name: 三光分水剑
+  update:
+    transfer_event_add: GIFT-0067
+    transferred_to_add: 玉冰
+    transferred_in_chapter_add: 368
+    related_nodes_add: [NODE-0047]
+    source_chapters_add: [368]
+    continuity_warning_add: 此前持有人记录与本次赠送之间的归还过程缺少稳定证据，不覆盖current_holder
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    acquisition_add: {gift_id: GIFT-0065, chapter: 367, result: 未确认服用, status: partial}
+    related_nodes_add: [NODE-0047]
