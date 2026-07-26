@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 42
+  extension_files: 43
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -120,6 +120,7 @@ characters:
   - NODE-0052
   - NODE-0053
   - NODE-0054
+  - NODE-0055
   source_chapters:
   - 1
   - 2
@@ -501,6 +502,12 @@ characters:
   - 416
   - 417
   - 418
+  - 419
+  - 420
+  - 421
+  - 422
+  - 423
+  - 424
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -527,7 +534,9 @@ characters:
   relationship_updates:
     水柔: 关系确认
   cultivation_goal: 准备第二次化神雷劫
-  reputation_change: 在人族阵营中的负面声望开始逆转
+  reputation_change:
+  - 在人族阵营中的负面声望开始逆转
+  - 因留守主持撤离和安全回归，九宗对其评价出现阶段性正向修正
   system_behavior: 被白九儿窃取精气时系统按30倍返还
   major_conflict:
   - 使用九天神雷符摧毁通天神棍阵并击杀猿华及八名猿族长老
@@ -575,6 +584,7 @@ characters:
   - 魂墟城连续清除合体与大乘阴魂
   - 四柄先天灵宝神剑协同击杀萧四海及十余名夺舍长老
   - 以五柄先天灵宝神剑和噬魂封魔剑击杀万剑尊者及大乘阴魂，救援陆雪瑶
+  - 以噬灵灭魂阵清除萧彭春及阴魂军团，并独自完成阴煞界撤离
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -652,6 +662,10 @@ characters:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
   - 获得并服用ART-0050九天道元丹
+  - 获得大量魂丹
+  - 取得ART-0052铁焰神炉
+  - 通过GIFT-0077获得ART-0053山河灵图
+  system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -2607,6 +2621,7 @@ characters:
   - NODE-0051
   - NODE-0053
   - NODE-0054
+  - NODE-0055
   source_chapters:
   - 250
   - 278
@@ -2643,6 +2658,9 @@ characters:
   - 416
   - 417
   - 418
+  - 421
+  - 423
+  - 424
   document: null
   verification_status: partial
   resource_acquisition: 徐霄天龙血
@@ -2650,6 +2668,7 @@ characters:
   relationship_change:
   - 与徐霄结为公开道侣，接受长期蕴仙丹、极品灵石及灵宝支持
   - 在八宗问罪现场公开维护徐霄并进一步绑定道元传承与双方道侣关系
+  - 与徐霄的公开道侣和长期高阶资源关系进一步稳定
   major_action: 继续取得徐霄天龙血用于研究，并要求执法体系压制针对徐霄的宗门舆论
   accepted_gifts:
   - GIFT-0065
@@ -2657,6 +2676,7 @@ characters:
   - GIFT-0067
   - GIFT-0072
   - GIFT-0075
+  - GIFT-0077
   public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
   strategic_change:
   - 作为阴煞小界行动带队大乘之一抵达铁焰城，并在萧焰事件中公开问责但实际保护徐霄
@@ -2665,6 +2685,7 @@ characters:
   - 成为九宗危机会议核心组织者，推动大乘防御阵和破界求援方案
   resource: 九件压制法器
   relationship_network_change: 接纳尹小倩作为临时侍女并继续推进其天元大陆安置
+  resource_change: 获得先天灵宝铁焰神炉
 - id: CHAR-0049
   name: 第一婵
   status: alive
@@ -3969,11 +3990,19 @@ characters:
     status: active
   related_nodes:
   - NODE-0053
+  - NODE-0055
   source_chapters:
   - 408
   - 409
+  - 419
+  - 420
+  - 421
+  - 422
   document: null
   verification_status: partial
+  status_change: 死亡
+  final_conflict: 率阴魂军团强攻九宗防御阵，最终被徐霄的噬灵灭魂阵吞噬
+  task_status_change: 对应气运之子击杀任务已完成
 - id: CHAR-0078
   name: 白无尘
   status: alive
@@ -3994,7 +4023,10 @@ characters:
   strategic_action: 分裂大半神魂穿越空间裂缝，向天元大陆九宗强者求援
   related_nodes:
   - NODE-0054
+  - NODE-0055
   source_chapters:
   - 418
+  - 419
   document: null
   verification_status: partial
+  strategic_result: 破界求援成功促使九宗太上长老组织跨界传送救援
