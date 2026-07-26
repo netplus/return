@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0065
+artifacts:
+- id: ART-0050
+  name: 九天道元丹
+  category: 丹药
+  grade: 高阶体质与修炼资源
+  first_chapter: 414
+  current_holder: 徐霄
+  acquisition: GIFT-0076万倍暴击返还
+  current_state: 已服用
+  effects:
+  - 获得道元圣体
+  - 自动吸纳并炼化周围灵气修炼
+  - 推动境界升至合体四重
+  status: partial
+  related_nodes: [NODE-0054]
+  source_chapters: [414, 416]
+artifact_updates:
+- id: ART-0046
+  name: 噬魂封魔剑
+  update:
+    combat_record_add: 第412章用于压制并吞噬追击陆雪瑶的大乘阴魂
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [412]
+- id: ART-0047
+  name: 混沌破金剑
+  update:
+    combat_record_add: 第413章作为五柄先天神剑主攻，击破万剑尊者天地剑阵和护体法宝
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [413]
+- id: ART-0034
+  name: 蕴仙丹
+  update:
+    transfer_add: {gift_id: GIFT-0076, recipient: 陆雪瑶, quantity: 10, chapter: 414, status: partial}
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [414]

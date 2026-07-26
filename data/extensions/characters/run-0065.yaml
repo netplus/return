@@ -1,0 +1,66 @@
+schema_version: 1
+run_id: RUN-0065
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 合体四重
+    age_set: {value: 1019, status: partial}
+    lifespan_set: {remaining_years: 40290, status: partial}
+    hongmeng_qi_set: 17
+    constitution_add: 道元圣体
+    ability_add: 自动吸纳并炼化周围灵气修炼
+    combat_record_add: 以五柄先天灵宝神剑和噬魂封魔剑击杀万剑尊者及大乘阴魂，救援陆雪瑶
+    resource_change_add: [获得并服用ART-0050九天道元丹]
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [411, 412, 413, 414, 415, 416, 417, 418]
+- id: CHAR-0073
+  name: 陆雪瑶
+  update:
+    accepted_gifts_add: [GIFT-0076]
+    combat_change_add: 遭万剑尊者与大乘阴魂伏击后以精血冰封突围，并由徐霄驰援脱险
+    relationship_change_add: 对徐霄由持续负面评价转为保留戒备下的资源合作
+    strategic_change_add: 将阴煞天宗全面夺舍行动带回铁焰城并参与九宗危机会议
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [411, 412, 413, 414, 415, 416]
+- id: CHAR-0047
+  name: 叶尘
+  update:
+    cultivation_change_add: 系统解除限制后短期展现大乘境力量
+    system_interaction_add: 收徒就变强系统识别赵无极与地灵已遭阴魂夺舍并强制预警逃离
+    strategic_change_add: 与徐霄、陆雪瑶会合后返回铁焰城汇报夺舍危机
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [413, 414, 415]
+- id: CHAR-0060
+  name: 赵无极
+  update:
+    status_change: 遭阴魂夺舍，原人格与最终状态待确认
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [413, 415]
+- id: CHAR-0076
+  name: 尹小倩
+  update:
+    relationship_change_add: 在铁焰城危机中继续受到徐霄、第一婵等无妄仙宗关系网络公开保护
+    system_interaction_add: 再次吸收徐霄一点阳气并返还十点阳气
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [416, 417]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    strategic_change_add: 成为九宗危机会议核心组织者，推动大乘防御阵和破界求援方案
+    related_nodes_add: [NODE-0054]
+    source_chapters_add: [415, 416, 417, 418]
+- id: CHAR-0078
+  name: 白无尘
+  status: alive
+  role: supporting
+  affiliations: [太上仙宗]
+  identities: [太上仙宗掌门, 九宗破界求援执行者]
+  first_appearance: {chapter: 418, title: 破界通知, node: NODE-0054}
+  cultivation: {current: 大乘六重, status: partial}
+  specialty: 神魂修炼
+  strategic_action: 分裂大半神魂穿越空间裂缝，向天元大陆九宗强者求援
+  related_nodes: [NODE-0054]
+  source_chapters: [418]
+  document: null
+  verification_status: partial
