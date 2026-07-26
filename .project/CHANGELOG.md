@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0075 — 2026-07-27
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0066`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 493; Chapter 494 begins the月幽冥赠送 and new relationship-progression stage.
+- Created `NODE-0064`: 五年跃迁、天元仙宗启程与蓬莱夺舍疑云, covering Chapters 486—493.
+- Updated 徐霄、第一婵、姬雪 and苏瑶 for persistent cultivation, constitution, relationship and role changes.
+- Added 楚霄、云心月、素青、海岚、葬花 and北风 as `CHAR-0094`—`CHAR-0099`.
+- Added `GIFT-0104`, returning佛陀金身丹 and nine化仙丹; added `ART-0066` 佛陀金身丹 and expanded雷灵丹、化仙丹 records.
+- Recorded姬雪's元灵仙体 awakening and雪瑶仙帝 previous-life memory, plus蓬莱仙宗全队冰寒阴灵夺舍 anomaly.
+- Preserved第一婵雷劫细节、楚霄与云心月完整面板、姬雪赠送返还、苏瑶灵宝映射 and蓬莱阴灵来源目的 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0066` and queued `TASK-0067` beginning at Chapter 494.
+
 ## RUN-0074 — 2026-07-27
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
