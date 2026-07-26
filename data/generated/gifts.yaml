@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 39
+  extension_files: 40
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1183,4 +1183,45 @@ gifts:
   triggered_multiplier: pending
   reward: 先天灵宝混沌天木剑
   relationship_result: 冷若云承诺在无直接证据时保护徐霄
+  status: partial
+- id: GIFT-0086
+  chapter: 450
+  settlement_chapter: 451
+  node: NODE-0059
+  giver: 徐霄
+  recipient: 欧阳惊虹
+  gift: 十枚蕴仙丹、一枚合体巅峰魂丹、十枚合道丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 10000
+  reward: 一枚鸿蒙一气丹、九十枚雷灵丹、一枚大乘巅峰魂丹、十枚蕴仙丹
+  settlement_breakdown:
+  - gift: 第一枚蕴仙丹
+    reward: 鸿蒙一气丹
+    multiplier: 10000
+  - gift: 其余九枚蕴仙丹
+    reward: 九十枚雷灵丹
+    multiplier: 10
+  - gift: 一枚合体巅峰魂丹
+    reward: 一枚大乘巅峰魂丹
+    multiplier: pending
+  - gift: 十枚合道丹
+    reward: 十枚蕴仙丹
+    multiplier: pending
+  relationship_result: 欧阳惊虹由调查排斥转为认可徐霄的资源与合作价值
+  status: partial
+- id: GIFT-0087
+  chapter: 452
+  settlement_chapter: 453
+  node: NODE-0059
+  giver: 徐霄
+  recipient: 冷若云与欧阳惊虹
+  delivery_intermediary: 萧烬璃
+  gift: 两枚大乘中期魂丹
+  accepted: true
+  system_valid: true
+  reward: 两枚渡劫中期魂丹
+  triggered_multiplier: pending
+  allocation: 两名受赠者逐枚对应关系待确认
   status: partial

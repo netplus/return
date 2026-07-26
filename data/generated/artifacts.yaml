@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 43
+  extension_files: 44
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -325,6 +325,10 @@ artifacts:
     quantity: 2
     result: 未确认服用
     status: partial
+  - gift_id: GIFT-0086
+    chapter: 451
+    result: 未确认服用
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -340,6 +344,7 @@ artifacts:
   - NODE-0048
   - NODE-0052
   - NODE-0057
+  - NODE-0059
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -387,6 +392,7 @@ artifacts:
   - 335
   - 356
   - 402
+  - 451
 - id: ART-0017
   name: 九火琉璃罩
   category: 法宝
@@ -1002,11 +1008,19 @@ artifacts:
   category: 丹药
   first_chapter: 367
   current_holder: 徐霄
-  acquisition: GIFT-0065返还四十枚
+  acquisition:
+  - GIFT-0065返还四十枚
+  - gift_id: GIFT-0086
+    chapter: 451
+    quantity: 90
+    status: partial
   effect: 徐霄判断可能用于渡劫阶段修炼；正式用途待后续确认
   status: partial
   related_nodes:
   - NODE-0047
+  - NODE-0059
+  source_chapters:
+  - 451
 - id: ART-0046
   name: 噬魂封魔剑
   category: 先天灵宝魔剑
@@ -1173,6 +1187,7 @@ artifacts:
   - NODE-0056
   - NODE-0057
   - NODE-0058
+  - NODE-0059
   source_chapters:
   - 424
   - 432
@@ -1180,10 +1195,15 @@ artifacts:
   - 437
   - 440
   - 444
+  - 449
+  - 450
+  - 454
   combat_record:
   - 第432章控制并收纳两名合体龙族
   - 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
   - 第444章收纳并隔绝柯无量离体大乘神魂，协助完成神魂清除
+  - 第449—450章挡下独孤浩大乘六重攻击并公开形成大乘层级防御威慑
+  - 第454章收纳黑魔圣宗黑石客栈一名合体巅峰和五名炼虚情报人员
   ability:
   - 可抽离被收纳目标灵力
   - 可在内部形成灵气锁链和雷霆清算

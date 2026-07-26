@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 46
+  extension_files: 47
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -124,6 +124,7 @@ characters:
   - NODE-0056
   - NODE-0057
   - NODE-0058
+  - NODE-0059
   source_chapters:
   - 1
   - 2
@@ -535,6 +536,12 @@ characters:
   - 446
   - 447
   - 448
+  - 449
+  - 450
+  - 451
+  - 452
+  - 453
+  - 454
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -616,6 +623,8 @@ characters:
   - 以山河灵图收纳东海龙族千人军团
   - 以九天荡魔剑压制敖三灵宝攻势并在山河灵图内击杀敖三
   - 使用山河灵图收纳并清除柯无量离体大乘神魂
+  - 以山河灵图挡下独孤浩大乘六重攻击
+  - 控制黑魔圣宗黑石客栈一名合体巅峰和五名炼虚修士
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -685,6 +694,8 @@ characters:
   strategic_change:
   - 以个人灵石竞得九件压制法器并交由玉冰管理
   - 加入魔姝带领的阴煞界行动队伍
+  - 将独孤浩列为系统击杀目标
+  - 承诺阻止萧烬璃与黑无忌的强制婚约
   relationship_network_change: 与萧烬璃由资源赠送转为持续利益接触
   ability_change:
   - 强化神识可识破阴魂夺舍
@@ -3824,6 +3835,7 @@ characters:
   - NODE-0050
   - NODE-0052
   - NODE-0053
+  - NODE-0059
   source_chapters:
   - 378
   - 379
@@ -3841,17 +3853,24 @@ characters:
   - 406
   - 408
   - 409
+  - 449
+  - 450
+  - 452
+  - 453
+  - 454
   document: null
   verification_status: partial
   relationship_change:
   - 因灵宝与拍卖会灵石收益主动私下邀请徐霄，双方形成持续利益接触
   - 对徐霄的资源与安全依赖进一步增强
   - 与徐霄形成稳定道侣和资源依赖关系
+  - 明确拒绝黑无忌婚约并请求徐霄保护既有道侣关系
   strategic_change:
   - 对萧家内部继续宣称与徐霄逢场作戏以获取长期资源
   - 在魂墟城确认萧四海及多名萧家长老已被阴魂夺舍，并在徐霄清算中获救
   - 确认萧家合体以上修士大面积失联或被阴魂夺舍，并接受徐霄长期安全与魂丹支持
   bond_level: 2
+  strategic_role: 作为中介向冷若云与欧阳惊虹转交两枚大乘中期魂丹
 - id: CHAR-0072
   name: 萧四海
   status: dead
@@ -4310,6 +4329,7 @@ characters:
   related_nodes:
   - NODE-0057
   - NODE-0058
+  - NODE-0059
   source_chapters:
   - 441
   - 442
@@ -4318,6 +4338,12 @@ characters:
   - 446
   - 447
   - 448
+  - 449
+  - 450
+  - 451
+  - 452
+  - 453
+  - 454
   document: null
   verification_status: partial
   cultivation_change: 大乘境
@@ -4326,6 +4352,8 @@ characters:
   - GIFT-0085
   relationship_change: 由调查压制徐霄转为接受长期资源，并承诺在无直接证据时保护徐霄
   strategic_change: 奉真灵之命继续接近徐霄，争取建立公开关系以保留其资源
+  received_resources:
+  - GIFT-0087大乘中期魂丹
 - id: CHAR-0084
   name: 柯无量
   status: dead
@@ -4381,5 +4409,104 @@ characters:
   - 446
   - 447
   - 448
+  document: null
+  verification_status: partial
+- id: CHAR-0086
+  name: 欧阳惊虹
+  status: alive
+  role: supporting
+  affiliations:
+  - 灵霄仙宗
+  identities:
+  - 灵霄仙宗太上长老
+  - 萧烬璃师父
+  - 惊虹仙子
+  first_appearance:
+    chapter: 449
+    title: 惊虹仙子
+    node: NODE-0059
+  cultivation:
+    current: 大乘境
+    status: partial
+  accepted_gifts:
+  - GIFT-0086
+  - GIFT-0087
+  relationship_context:
+    徐霄: 由调查与排斥转为认可其资源和合作价值
+    萧烬璃: 师徒关系
+    status: partial
+  related_nodes:
+  - NODE-0059
+  source_chapters:
+  - 449
+  - 450
+  - 451
+  - 452
+  - 453
+  - 454
+  document: null
+  verification_status: partial
+- id: CHAR-0087
+  name: 独孤浩
+  status: alive
+  role: antagonist
+  affiliations:
+  - 灵霄仙宗
+  identities:
+  - 灵霄仙宗掌门
+  - 气运之子
+  first_appearance:
+    chapter: 449
+    title: 惊虹仙子
+    node: NODE-0059
+  cultivation:
+    current: 大乘六重
+    status: partial
+  possessions:
+  - 渡劫修士传承
+  - 先天灵宝一件
+  - 大乘巅峰一次性防御法器一件
+  system_task:
+    targeted_by: 徐霄
+    task: 击杀独孤浩
+    reward: 返还道具库随机升级
+    status: active
+  conflict: 以柯无量之死为由强行带走徐霄并首先发动大乘攻击
+  related_nodes:
+  - NODE-0059
+  source_chapters:
+  - 449
+  - 450
+  - 451
+  - 454
+  document: null
+  verification_status: partial
+- id: CHAR-0088
+  name: 黑无忌
+  status: alive
+  role: antagonist
+  affiliations:
+  - 黑魔圣宗
+  identities:
+  - 黑魔圣宗掌门
+  - 气运之敌
+  first_appearance:
+    chapter: 452
+    title: 气运之敌，黑无忌
+    node: NODE-0059
+  cultivation:
+    current: 大乘境
+    status: partial
+  conflict: 接受灵霄仙宗安排与萧烬璃结为道侣，并通过黑石客栈监控萧烬璃和无妄当铺
+  system_task:
+    targeted_by: 徐霄
+    reward: pending
+    status: active
+  related_nodes:
+  - NODE-0059
+  source_chapters:
+  - 452
+  - 453
+  - 454
   document: null
   verification_status: partial

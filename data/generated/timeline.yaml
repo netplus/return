@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 47
+  extension_files: 48
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2309,3 +2309,42 @@ nodes:
   - 真灵完整境界
   document: docs/01-timeline/node-0058.md
   evidence: sources/evidence/chapters-442-448.yaml
+- id: NODE-0059
+  title: 独孤浩冲突、惊虹赠礼与黑魔暗线
+  chapters:
+    start: 449
+    end: 454
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第449—455章标题、顺序和边界；第449—454章正文由可访问镜像交叉核验
+  boundary_reason: 第454章完成黑魔圣宗情报节点控制及持续赠送阶段；第455章转入黑蛇执行婚约渗透的新人物线
+  characters:
+  - 徐霄
+  - 萧烬璃
+  - 冷若云
+  - 欧阳惊虹
+  - 独孤浩
+  - 黑无忌
+  - 白霜霜
+  system_events:
+  - event: 识别独孤浩为气运之子
+    task: 击杀独孤浩
+    reward: 返还道具库随机升级
+    status: active
+  - event: 欧阳惊虹首次综合赠送
+    trigger: 蕴仙丹、合体巅峰魂丹与合道丹
+    reward: 鸿蒙一气丹、雷灵丹、大乘巅峰魂丹与蕴仙丹
+    status: partial
+  - event: 经萧烬璃转交两枚大乘中期魂丹
+    recipients: 冷若云与欧阳惊虹
+    reward: 两枚渡劫中期魂丹
+    status: partial
+  conflict_result: 徐霄以山河灵图挡下独孤浩大乘六重攻击，并控制黑魔圣宗在灵虚城的情报节点
+  pending:
+  - 欧阳惊虹完整系统面板
+  - 独孤浩三项底牌名称
+  - 黑无忌完整任务奖励与精确境界
+  - 黑石客栈六人最终处置
+  - GIFT-0087逐枚对应关系
+  document: docs/01-timeline/node-0059.md
+  evidence: sources/evidence/chapters-449-454.yaml
