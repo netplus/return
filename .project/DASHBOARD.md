@@ -4,25 +4,25 @@
 - **Current milestone:** M8 — Chapters 351–400
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 352
-- **Current evidence exploration through:** Chapter 353
+- **Canonical coverage through:** Chapter 360
+- **Current evidence exploration through:** Chapter 361
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 45
+- **Completed timeline nodes:** 46
 - **Draft timeline nodes:** 0
-- **Documented characters:** 67
-- **Gift events:** 63
+- **Documented characters:** 70
+- **Gift events:** 64
 - **Artifact records:** 44
-- **Last run:** `RUN-0056`
-- **Last completed node:** `NODE-0045`
-- **Next task:** `TASK-0048` — 三宗灭徐阴谋与地月城决战 story arc
-- **Provisional exploration range:** Chapters 353–360
+- **Last run:** `RUN-0057`
+- **Last completed node:** `NODE-0046`
+- **Next task:** `TASK-0049` — 地月城善后、返宗与玉冰关系 story arc
+- **Provisional exploration range:** Chapters 361–368
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0045` covers Chapters 345—352. 深海冰封后的鲛人残骸和三宗人员魂灯熄灭引发玉鼎仙宗、天煞魔宗及云海域缥缈仙宗同步震荡，三宗将徐霄列为重点调查对象。百里海棠因救命与寻母承诺再次拜访徐霄，接受十枚合道丹和防御灵宝，系统返还鸿蒙一气丹及先天灵宝九天神莲戒；双方形成稳定道侣关系，羁绊度提升至 2。地月宗太上长老尚水以大乘威压问责，但在百里海棠意愿、长期资源承诺和蕴仙丹影响下暂缓直接冲突。第 353 章转入三宗正式制定灭徐阴谋。
+`NODE-0046` covers Chapters 353—360. 玉鼎仙宗、天煞魔宗与云海域缥缈仙宗利用海底冰封事件在地月城推动邪修指控，散修围堵无妄仙宗驻地。魏无涯、玄魔、百里云天及方达飞等围杀力量到场后，尚水撤走无妄仙宗与地月宗核心人员。徐霄以大乘九重混元天冰符冰封地月城，三名大乘修士、方达飞及主要围杀者死亡。方达飞气运之子任务完成，丹药返还库普通返还上限提升至渡劫境。第 361 章转入现场善后与返宗。
 
-## Quality gates — RUN-0056
+## Quality gates — RUN-0057
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 345—353 章标题、顺序和边界；第 345—352 章正文由 CP 小说网等可访问正文镜像交叉核验。赠送精确倍率、原始防御灵宝名称、九天神莲戒完整能力、尚水精确大乘重数、鲛人老祖动向及三宗调查队完整身份继续保持 `pending`。
+番茄小说官方目录确认第 353—361 章标题、顺序和边界；第 353—360 章正文由 CP 小说网等可访问正文镜像交叉核验。驻颜丹赠送精确结算、鸿蒙一气丹返还来源、两名大乘修士精确重数、地月城完整伤亡、围杀队完整身份及符箓库存继续保持 `pending`。
