@@ -4,25 +4,25 @@
 - **Current milestone:** M9 — Chapters 401–450
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 433
-- **Current evidence exploration through:** Chapter 434
+- **Canonical coverage through:** Chapter 441
+- **Current evidence exploration through:** Chapter 442
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 56
+- **Completed timeline nodes:** 57
 - **Draft timeline nodes:** 0
-- **Documented characters:** 79
-- **Gift events:** 80
-- **Artifact records:** 54
-- **Last run:** `RUN-0067`
-- **Last completed node:** `NODE-0056`
-- **Next task:** `TASK-0059` — 敖三来袭、凤族震慑与白霜霜登场 story arc
-- **Provisional exploration range:** Chapters 434–441
+- **Documented characters:** 83
+- **Gift events:** 83
+- **Artifact records:** 55
+- **Last run:** `RUN-0068`
+- **Last completed node:** `NODE-0057`
+- **Next task:** `TASK-0060` — 冷若云赠礼、仙神魂胎与灵霄仙宗密谈 story arc
+- **Provisional exploration range:** Chapters 442–449
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0056` covers Chapters 425—433. 独孤灵离开盘龙岛、拜玉冰为师并进入无妄仙宗修炼体系，与姬雪重聚；东方素华确认为 C 级气运之女并进入徐霄的长期资源网络，灵航成功晋升大乘。凤青玄随后请求徐霄前往天光域东海护法，徐霄以通天神针和长期丹药承诺邀请凤仪同行。抵达涅槃地点后，山河灵图控制两名合体龙族；十枚合道丹赠送妙玉返还一百枚蕴仙丹，四象斩天剑赠送凤青玄返还仙器九天荡魔剑。第 434 章转入敖三及龙族冲突。
+`NODE-0057` covers Chapters 434—441. 徐霄在东海护法期间晋升合体七重并达到十八股鸿蒙真气；凤青玄接受天凤精血、重新启动天凤之躯涅槃，系统返还十枚天凤血丹。敖三率五名合体巅峰元帅及上千龙修来袭，徐霄以山河灵图收纳大军、以九天荡魔剑压制灵宝攻势并在图内击杀敖三。凤仪获得天凤血丹及连续丹药资源，羁绊度升至 2。徐霄随后抵达灵虚城，与白霜霜建立稳定资源和道侣关系；李茂勒索无妄当铺后失踪，冷若云带城卫启动搜查。第 442 章转入冷若云直接交涉及赠送结算。
 
-## Quality gates — RUN-0067
+## Quality gates — RUN-0068
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 425—434 章标题、顺序和边界；第 425—433 章正文由 CP 小说网等可访问正文镜像交叉核验。独孤灵完整系统面板、东方素华首次赠送链、`GIFT-0078` 返还、凤青玄涅槃完整机制、山河灵图活体控制规则及九天荡魔剑完整能力继续保持 `pending`。
+番茄小说官方目录确认第 434—442 章标题、顺序和边界；第 434—441 章正文由 CP 小说网等可访问正文镜像交叉核验。敖三完整系统面板与任务奖励、先天灵珠、龙族军团最终处置、凤青玄重新涅槃完整结果、白霜霜完整系统面板与逐笔赠送、李茂最终状态及冷若云赠送结算继续保持 `pending`。

@@ -153,7 +153,17 @@ tasks:
 - id: TASK-0059
   title: Build the 敖三来袭、凤族震慑与白霜霜登场 story arc from Chapter 434 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 434, provisional_chapter_end: 441, node: NODE-0057, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0068
+  target: {chapter_start: 434, chapter_end: 441, node: NODE-0057, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0057.md, data/extensions/timeline/run-0068.yaml, data/extensions/characters/run-0068.yaml, data/extensions/system/run-0068.yaml, data/extensions/artifacts/run-0068.yaml, sources/evidence/chapters-434-441.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0058]
+- id: TASK-0060
+  title: Build the 冷若云赠礼、仙神魂胎与灵霄仙宗密谈 story arc from Chapter 442 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 442, provisional_chapter_end: 449, node: NODE-0058, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0059]
