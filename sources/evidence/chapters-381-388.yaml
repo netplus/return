@@ -1,0 +1,33 @@
+schema_version: 2
+run_id: RUN-0061
+task_id: TASK-0052
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 381
+  chapter_end: 388
+  node: NODE-0050
+  status: promoted
+  canonical_document: docs/01-timeline/node-0050.md
+  boundary_reason: 第388章完成魔姝邀请、徐霄入队与阴煞界行动队伍组建；第389章转入阴煞界阴谋和正式探索
+chapters:
+- {chapter: 381, title: sss级气运之女，陆雪瑶, facts: [徐霄首次确认陆雪瑶为SSS级气运之女, 陆雪瑶是青云仙宗掌门与冰系大道修士, 压制法器需与铁焰城匹配且可扩大大乘入界阵容], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 382, title: 拍卖会略微出手, facts: [萧烬璃主持铁焰城拍卖会, 徐霄高价竞拍普通法宝并向萧烬璃输送灵石收益, 陆雪瑶与玉冰被视为两域冰系绝代天才], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 383, title: 气懵仙宗掌门, facts: [徐霄在压制法器竞拍中持续高价出价, 压制法器可使大乘六重及以下修士进入阴煞界, 血云魔尊隐藏身份混入弑天血宗队伍], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 384, title: 各宗怒骂, facts: [徐霄继续竞拍压制法器并激怒四域顶级宗门, 无妄仙宗取得九件压制法器, 玉冰与尚水避免将宗门卷入公开争执], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 385, title: 萧烬璃的邀请, facts: [玉冰收好九件压制法器, 萧烬璃派人私下邀请徐霄, 萧烬璃与徐霄的关系转为持续利益接触], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 386, title: 萧家背刺，即将出发, facts: [萧烬璃向家族解释与徐霄接触是为获取资源, 萧家通过黑市继续向其他仙门提供压制法器, 铁焰城即将整体跨界], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 387, title: c级气运之女魔姝, facts: [铁焰城化为小型天地法宝并进入空间裂缝, 系统确认魔姝为C级气运之女, 魔姝是大乘六重修士并主动接触徐霄], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 388, title: 组好队伍, facts: [魔姝邀请徐霄加入阴煞界行动队伍, 徐霄接受邀请并完成组队, 第一婵与百里海棠要求徐霄谨慎处理与魔姝关系], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 389
+  next_title: 阴煞界，恐怖阴谋
+  transition: 转入阴煞界内部阴谋、灵植资源和正式战斗探索
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
