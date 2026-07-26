@@ -1,0 +1,28 @@
+schema_version: 1
+run_id: RUN-0059
+artifacts:
+- id: ART-0046
+  name: 噬魂封魔剑
+  category: 先天灵宝魔剑
+  grade: 先天灵宝
+  first_chapter: 373
+  current_holder: 徐霄
+  acquisition: GIFT-0068返还
+  effect: 针对神魂与阴魂的攻击型灵宝；完整法阵机制与能力边界待后续正文确认
+  status: partial
+  related_nodes: [NODE-0048]
+artifact_updates:
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: {gift_id: GIFT-0069, chapter: 374, status: partial}
+    related_nodes_add: [NODE-0048]
+- id: ART-0021
+  name: 虚天丹
+  update:
+    transfers_add:
+    - {recipient: 秦朋, quantity: 5, chapter: 371, status: partial}
+    - {recipient: 程芷, quantity: 10, chapter: 371, status: partial}
+    - {recipient: 程双, quantity: 10, chapter: 371, status: partial}
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [371]
