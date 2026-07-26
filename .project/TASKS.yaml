@@ -1,5 +1,5 @@
 schema_version: 2
-workflow: {standard_version: 2.1, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
+workflow: {standard_version: 2.2, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0068 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
@@ -96,10 +96,20 @@ tasks:
   outputs: [scripts/render_entity_docs.py, scripts/test_render_entity_docs.py, .github/workflows/knowledge-base-ci.yml, docs/00-project/WORKFLOW.md, docs/entity-docs-manifest.yaml, docs/02-characters/_INDEX.md, docs/06-artifacts/_INDEX.md]
   quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, copyright_boundary: passed}
   depends_on: [TASK-0066]
+- id: TASK-0067R
+  title: Redesign character and artifact profiles for reader-friendly presentation
+  type: maintenance
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0077
+  target: {character_directory: docs/02-characters, artifact_directory: docs/06-artifacts, presentation: reader_friendly_with_collapsed_canonical_appendix}
+  outputs: [scripts/render_entity_docs.py, scripts/test_render_entity_docs.py, docs/00-project/WORKFLOW.md, docs/entity-docs-manifest.yaml, docs/02-characters/_INDEX.md, docs/06-artifacts/_INDEX.md]
+  quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, copyright_boundary: passed}
+  depends_on: [TASK-0067M]
 - id: TASK-0067
   title: Build the 月幽冥赠礼、蓬莱阴灵与天山论剑前哨 story arc from Chapter 494 onward
   type: story_arc
   status: pending
   target: {chapter_start: 494, provisional_chapter_end: 501, node: NODE-0065, boundary: adaptive}
   rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0067M]
+  depends_on: [TASK-0067R]
