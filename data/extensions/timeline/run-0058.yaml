@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0058
+nodes:
+- id: NODE-0047
+  title: 地月城善后、玉冰结缘与西岚域震荡
+  chapters: {start: 361, end: 369}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第361—370章标题、顺序和边界；第361—369章正文由可访问镜像交叉核验
+  boundary_reason: 第369章完成玉冰与徐霄道侣关系公开及西岚域舆论爆发；第370章转入盘龙岛与铁幕城告别
+  characters: [徐霄, 玉冰, 尚水, 赵无极, 叶尘, 秦朋, 百里海棠]
+  system_events:
+  - {event: 首次赠送玉冰蕴仙丹, trigger: 五枚蕴仙丹, reward: 三千大道丹与四十枚雷灵丹, status: partial}
+  - {event: 玉冰极品灵石赠送, trigger: 一千枚极品灵石, reward: 三万枚极品灵石, status: partial}
+  relationship_result: 玉冰与徐霄成为公开道侣并建立长期资源关系
+  pending: [玉冰完整系统面板, GIFT-0067返还结果, 三光分水剑持有状态衔接, 雷灵丹完整药效, 地月城完整伤亡]
+  document: docs/01-timeline/node-0047.md
+  evidence: sources/evidence/chapters-361-369.yaml

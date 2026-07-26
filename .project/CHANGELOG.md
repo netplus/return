@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0058 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0049`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 369 so the地月城善后、返宗反应、玉冰结缘、连续赠送 and公开舆论震荡 remain one coherent arc; Chapter 370 begins盘龙岛与铁幕城告别.
+- Created `NODE-0047`: 地月城善后、玉冰结缘与西岚域震荡, covering Chapters 361—369.
+- Updated 徐霄、玉冰、尚水、叶尘 and百里海棠 for persistent relationship, reputation and conflict changes.
+- Added `GIFT-0065`—`GIFT-0067`, recording玉冰's first-gift三千大道丹与雷灵丹 return,极品灵石 return and三光分水剑 transfer.
+- Added `ART-0045` 雷灵丹 and expanded三千大道丹、三光分水剑 records without overwriting unresolved continuity.
+- Recorded the public玉冰—徐霄道侣 announcement and the resulting宗门及西岚域舆论震荡.
+- Preserved玉冰完整系统面板、GIFT-0067返还、三光分水剑持有衔接、雷灵丹正式药效 and地月城后续追责 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0049` and queued `TASK-0050` beginning at Chapter 370.
+
 ## RUN-0057 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

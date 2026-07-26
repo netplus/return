@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0058
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: 与玉冰结为公开道侣并将资源体系与无妄仙宗最高权力层绑定
+    related_nodes_add: [NODE-0047]
+    source_chapters_add: [361, 362, 363, 364, 365, 366, 367, 368, 369]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    relationship_change: 与徐霄结为公开道侣，接受长期蕴仙丹、极品灵石及灵宝支持
+    accepted_gifts_add: [GIFT-0065, GIFT-0066, GIFT-0067]
+    public_status_change: 无妄仙宗正式公告其与徐霄结为道侣
+    related_nodes_add: [NODE-0047]
+    source_chapters_add: [361, 366, 367, 368, 369]
+- id: CHAR-0067
+  name: 尚水
+  update:
+    reputation_change: 公开承担预判地月城冰灾的责任，在西岚域声誉严重受损
+    related_nodes_add: [NODE-0047]
+    source_chapters_add: [361, 365]
+- id: CHAR-0047
+  name: 叶尘
+  update:
+    conflict_change: 因徐霄平安返宗并与玉冰结缘，反徐立场进一步强化
+    related_nodes_add: [NODE-0047]
+    source_chapters_add: [362, 363, 364, 369]
+- id: CHAR-0063
+  name: 百里海棠
+  update:
+    relationship_context_add: 与徐霄关系被玉冰直接知晓，未来进入无妄仙宗后的关系结构发生变化
+    related_nodes_add: [NODE-0047]
+    source_chapters_add: [366]
