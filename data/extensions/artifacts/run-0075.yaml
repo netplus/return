@@ -1,0 +1,27 @@
+schema_version: 1
+run_id: RUN-0075
+artifacts:
+- id: ART-0066
+  name: 佛陀金身丹
+  category: 丹药
+  grade: pending
+  first_chapter: 488
+  current_holder: 徐霄
+  acquisition: GIFT-0104万倍暴击返还
+  effect: 服用后推动血肉蜕变并铸就血肉金身，具备万法难侵与高阶肉身防御特征；完整上限待确认
+  status: partial
+  related_nodes: [NODE-0064]
+artifact_updates:
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    transfer_event_add: GIFT-0104
+    transferred_to_add: 云心月
+    transferred_in_chapter_add: 488
+    related_nodes_add: [NODE-0064]
+    source_chapters_add: [488]
+- id: ART-0060
+  name: 化仙丹
+  update:
+    acquisition_add: {gift_id: GIFT-0104, chapter: 488, quantity: 9, status: partial}
+    related_nodes_add: [NODE-0064]
