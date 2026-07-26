@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0061 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0052`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 388; Chapter 389 begins the阴煞界内部阴谋 and formal exploration stage.
+- Created `NODE-0050`: 陆雪瑶登场、拍卖会压制与阴煞界组队, covering Chapters 381—388.
+- Added 陆雪瑶 and魔姝 as `CHAR-0073` and `CHAR-0074`; updated 徐霄、玉冰、第一婵、百里海棠 and萧烬璃 for persistent strategic, relationship and resource changes.
+- Added `ART-0048` 压制法器, recording the nine devices acquired by徐霄 and managed by玉冰 for the阴煞界 operation.
+- Recorded陆雪瑶 as an SSS-grade luck woman,魔姝 as a C-grade luck woman and大乘六重 cultivator, and铁焰城's cross-domain transport role.
+- Recorded the拍卖会 buyout, four-domain sect backlash,萧烬璃's private invitation,萧家 black-market resale and魔姝 team formation.
+- Preserved陆雪瑶 and魔姝 full system panels, full auction spending, gift-validity of auction overpayment, black-market arrangements and铁焰城 full artifact abilities as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0052` and queued `TASK-0053` beginning at Chapter 389.
+
 ## RUN-0060 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
