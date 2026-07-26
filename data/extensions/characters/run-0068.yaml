@@ -1,0 +1,99 @@
+schema_version: 1
+run_id: RUN-0068
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 合体七重
+    age_set: {value: 1021, status: partial}
+    lifespan_set: {remaining_years: 40288, status: partial}
+    hongmeng_qi_set: 18
+    combat_record_add: [以山河灵图收纳东海龙族千人军团, 以九天荡魔剑压制敖三灵宝攻势并在山河灵图内击杀敖三]
+    role_change_add: [完成东海护法地点阶段性清场并转入灵虚城无妄当铺行动]
+    resource_change_add: [GIFT-0081返还十枚天凤血丹, GIFT-0082返还三千大道丹, GIFT-0083返还两枚鸿蒙一气丹]
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [434, 435, 436, 437, 438, 439, 440, 441]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    accepted_gifts_add: [GIFT-0081]
+    recovery_plan_add: 接受天凤精血并放弃即将完成的普通涅槃，重新孕育天凤之躯
+    relationship_change_add: 对徐霄的安全与资源能力形成更深长期依赖
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [434, 435, 436, 437]
+- id: CHAR-0058
+  name: 凤仪
+  update:
+    bond_level_set: 2
+    accepted_gifts_add: [GIFT-0082, GIFT-0083]
+    accepted_resources_add: [天凤血丹]
+    relationship_change_add: 与徐霄形成稳定道侣关系并获得天凤血脉与长期修炼资源承诺
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [434, 435, 436, 437, 438]
+- id: CHAR-0024
+  name: 妙玉
+  update:
+    strategic_change_add: 继续承载凤青玄神魂并见证其改用天凤精血重新涅槃
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [434, 435, 436, 437]
+- id: CHAR-0070
+  name: 百里云天
+  update:
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: []
+- id: CHAR-0080
+  name: 敖三
+  status: dead
+  role: antagonist
+  affiliations: [东海龙族]
+  identities: [东海龙族三皇子, 东海第一天才, 气运之子]
+  first_appearance: {chapter: 434, title: 气运之子，敖三, node: NODE-0057}
+  cultivation: {current: 大乘四重, status: partial}
+  equipment: [灵宝长枪, 先天灵珠（名称待确认）]
+  conflict: 率五名合体巅峰元帅及上千龙修进攻凤青玄涅槃地点
+  death: {chapter: 437, killer: 徐霄, method: 山河灵图世界内雷霆清算, status: partial}
+  related_nodes: [NODE-0057]
+  source_chapters: [434, 435, 436, 437]
+  document: null
+  verification_status: partial
+- id: CHAR-0081
+  name: 白霜霜
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 天虎阁, 白虎族]
+  identities: [虎力亲传弟子, 白虎族天才, 气运之女]
+  first_appearance: {chapter: 438, title: 气运之女白霜霜, node: NODE-0057}
+  cultivation: {current: pending, status: pending}
+  bloodline: {value: 白虎血脉, status: partial}
+  system_profile: {luck_grade: pending, base_multiplier: pending, bond: 2, status: partial}
+  relationship_context: {徐霄: 建立稳定道侣与长期资源关系, 虎力: 亲传弟子与虎族接班人, status: partial}
+  related_nodes: [NODE-0057]
+  source_chapters: [438, 439, 440, 441]
+  document: null
+  verification_status: partial
+- id: CHAR-0082
+  name: 李茂
+  status: pending
+  role: antagonist
+  affiliations: [灵霄仙宗]
+  identities: [灵霄仙宗修士]
+  first_appearance: {chapter: 439, title: 李茂找茬, node: NODE-0057}
+  conflict: 以损坏当铺物品为由勒索极品灵石并针对徐霄与无妄当铺
+  current_state: 被徐霄引入山河灵图后失踪，最终状态待确认
+  related_nodes: [NODE-0057]
+  source_chapters: [439, 440, 441]
+  document: null
+  verification_status: partial
+- id: CHAR-0083
+  name: 冷若云
+  status: alive
+  role: supporting
+  affiliations: [灵虚城, 灵霄仙宗]
+  identities: [灵虚城主]
+  first_appearance: {chapter: 441, title: 灵虚城主，冷若云, node: NODE-0057}
+  cultivation: {current: pending, status: pending}
+  current_action: 因李茂失踪带领城卫搜查无妄当铺
+  related_nodes: [NODE-0057]
+  source_chapters: [441]
+  document: null
+  verification_status: partial
