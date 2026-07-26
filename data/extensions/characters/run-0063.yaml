@@ -1,0 +1,68 @@
+schema_version: 1
+run_id: RUN-0063
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [尹小倩吸收一点阳气时可获得十点阳气返还, 五行大道体系形成阶段性圆满]
+    cultivation_change_add: [服用鸿蒙一气丹后鸿蒙真气增至十六股, 服用三千大道丹补全土之大道]
+    combat_record_add: [兰若寺清除潜伏大乘阴魂, 魂墟城连续清除合体与大乘阴魂, 四柄先天灵宝神剑协同击杀萧四海及十余名夺舍长老]
+    role_change_add: 掌握阴煞大陆高阶修士转化阴魂并夺舍天元修士的长期计划
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [398, 399, 400, 401, 402, 403, 404, 405]
+- id: CHAR-0074
+  name: 魔姝
+  update:
+    relationship_change_add: 提供养魂袋并接受尹小倩随徐霄同行，继续维持阴煞界探索与稳定亲密关系
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [398, 400, 401, 402]
+- id: CHAR-0071
+  name: 萧烬璃
+  update:
+    strategic_change_add: 在魂墟城确认萧四海及多名萧家长老已被阴魂夺舍，并在徐霄清算中获救
+    relationship_change_add: 对徐霄的资源与安全依赖进一步增强
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [403, 404, 405]
+- id: CHAR-0072
+  name: 萧四海
+  update:
+    status_set: dead
+    hidden_identity_add: 被阴煞天宗阴魂夺舍的萧家大长老
+    conflict_result_set: 试图围杀徐霄并控制萧烬璃，肉身被先天灵宝神剑击败，逃逸阴魂被噬魂封魔剑吞噬
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [403, 404, 405]
+- id: CHAR-0075
+  name: 玄阴女尊
+  status: alive
+  role: supporting
+  affiliations: [魔道宗门, 阴煞界行动队]
+  identities: [合体巅峰修士, A级气运之女]
+  first_appearance: {chapter: 398, title: 尹小倩, node: NODE-0052}
+  cultivation: {current: 合体巅峰, status: partial}
+  age: {value: 一万岁以上, status: partial}
+  system_profile: {luck_grade: A, base_multiplier: 10, bond: pending, status: partial}
+  appearance_change: 以魔功恢复至约二十岁年轻容貌
+  related_nodes: [NODE-0052]
+  source_chapters: [398, 401, 402]
+  document: null
+  verification_status: partial
+- id: CHAR-0076
+  name: 尹小倩
+  status: active_undead
+  role: supporting
+  affiliations: [阴煞界, 徐霄随行]
+  identities: [兰若寺阴魂, 有效系统互动对象, 有效赠送对象]
+  first_appearance: {chapter: 398, title: 尹小倩, node: NODE-0052}
+  cultivation: {current: 合体以下或合体层级待确认, status: pending}
+  system_profile: {luck_grade: pending, base_multiplier: pending, bond: pending, status: pending}
+  system_interactions:
+  - {trigger: 吸收徐霄一点阳气, return_to_xuxiao: 十点阳气, chapters: [399, 400], status: partial}
+  accepted_gifts: [GIFT-0073]
+  relationship_context:
+    徐霄: 接受持续阳气与魂丹支持，进入养魂袋随行并获得未来重塑肉身承诺
+    阴煞界: 揭示高阶修士转化阴魂及夺舍天元大陆修士的长期计划
+    status: partial
+  related_nodes: [NODE-0052]
+  source_chapters: [398, 399, 400, 401, 402, 403]
+  document: null
+  verification_status: partial

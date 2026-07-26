@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0063
+artifact_updates:
+- id: ART-0046
+  name: 噬魂封魔剑
+  update:
+    abilities_add: [可吞噬大乘阴魂, 被吞噬阴魂可形成对应层级魂丹, 可拦截肉身死亡后逃逸的夺舍阴魂]
+    combat_record_add: [兰若寺清除潜伏大乘阴魂, 黑土平原与魂墟城连续清除合体及大乘阴魂, 吞噬萧四海与十余名萧家长老体内逃逸阴魂]
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [401, 402, 403, 404, 405]
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    consumption_add: {chapter: 402, user: 徐霄, result: 鸿蒙真气增至十六股, status: partial}
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [402]
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    consumption_add: {chapter: 402, user: 徐霄, result: 补全土之大道并形成五行大道阶段性圆满, status: partial}
+    related_nodes_add: [NODE-0052]
+    source_chapters_add: [402]

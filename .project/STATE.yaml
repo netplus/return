@@ -1,7 +1,7 @@
 schema_version: 2
 updated_at: '2026-07-26'
-last_run_id: RUN-0062
-milestone: M8
+last_run_id: RUN-0063
+milestone: M9
 workflow:
   standard_version: 2.0
   unit: story_arc
@@ -13,25 +13,25 @@ indexing:
   mode: base_plus_extensions
   extension_document: data/extensions/README.md
 scope:
-  chapter_start: 351
-  chapter_end: 400
+  chapter_start: 401
+  chapter_end: 450
 progress:
-  chapters_covered_through: 397
-  chapters_examined_through: 398
+  chapters_covered_through: 405
+  chapters_examined_through: 406
   chapters_verified_through: 16
   source_qualified_chapter_ranges:
   - {start: 12, end: 42}
-  - {start: 44, end: 397}
+  - {start: 44, end: 405}
   source_qualification_exceptions: [43]
-  nodes_completed: 51
+  nodes_completed: 52
   nodes_drafted: 0
-  characters_documented: 74
+  characters_documented: 76
   characters_staged: 0
   system_records: 1
-  gift_events: 72
+  gift_events: 73
   artifact_records: 49
   artifacts_staged: 0
-  last_completed_node: NODE-0051
-current: {next_task: TASK-0054, task_status: pending, next_chapter: 398, provisional_arc_end: 405}
+  last_completed_node: NODE-0052
+current: {next_task: TASK-0055, task_status: pending, next_chapter: 406, provisional_arc_end: 413}
 status: active
 blockers: []
