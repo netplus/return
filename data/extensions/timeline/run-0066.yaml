@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0066
+nodes:
+- id: NODE-0055
+  title: 阴魂攻阵、破界撤离与仙器返还
+  chapters: {start: 419, end: 424}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第419—425章标题、顺序和边界；第419—424章正文由可访问镜像交叉核验
+  boundary_reason: 第424章完成铁焰神炉赠送、仙器山河灵图返还及阴煞界结算；第425章转入独孤灵出岛线
+  characters: [徐霄, 萧彭春, 玉冰, 第一婵, 灵航, 百里海棠, 白无尘, 太一]
+  system_events:
+  - {event: 萧彭春气运之子任务完成, trigger: 噬灵灭魂阵清除萧彭春, reward: 法器返还库上限升级至仙器, status: partial}
+  - {event: 铁焰神炉赠送, trigger: 先天灵宝铁焰神炉赠送玉冰, reward: 仙器山河灵图, status: partial}
+  strategic_result: 九宗幸存者完成跨界撤离，徐霄留守反杀阴魂军团并独自返回天元大陆
+  pending: [太一传送阵完整机制, 阴魂军团与九宗准确人数伤亡, 噬灵灭魂阵盘来源品阶与使用限制, 魂丹精确总数与分配, 铁焰神炉完整能力, 山河灵图完整空间规则]
+  document: docs/01-timeline/node-0055.md
+  evidence: sources/evidence/chapters-419-424.yaml
