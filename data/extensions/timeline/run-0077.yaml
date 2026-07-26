@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0077
+nodes:
+- id: NODE-0065
+  title: 月幽冥赠礼、蓬莱阴灵暴露与魔妖结缘
+  chapters: {start: 494, end: 499}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第494—500章标题顺序和边界；第494—499章正文由可访问镜像交叉核验
+  boundary_reason: 第499章完成魔妖道侣与跨宗资源安排；第500章转入天元仙塔闯关
+  characters: [徐霄, 月幽冥, 姬雪, 海岚, 葬花, 北风, 罗刹天魔, 魔妖, 神玉, 真灵, 长眉, 天阁]
+  system_events:
+  - {event: 月幽冥复合赠送, trigger: 先天灵盾十枚雷灵丹及渡劫巅峰魂丹, reward: 仙器神盾十枚化仙丹及人仙巅峰魂丹, status: partial}
+  - {event: 魔妖初次高阶赠送, trigger: 十枚雷灵丹及先天灵宝神剑, reward: pending, status: partial}
+  relationship_result: 月幽冥与徐霄关系稳定；魔妖与徐霄敲定道侣关系；天煞魔宗进入徐霄跨宗资源网络
+  pending: [仙器神盾正式名称与能力, 人仙巅峰魂丹用途, 魔妖完整面板与返还, 罗刹天魔完整境界与面板, 冰寒阴灵领主身份, 四名撮合者逐笔返还]
+  document: docs/01-timeline/node-0065.md
+  evidence: sources/evidence/chapters-494-499.yaml
