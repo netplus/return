@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0068
+gift_events:
+- id: GIFT-0081
+  chapter: 435
+  node: NODE-0057
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 天凤精血
+  accepted: true
+  system_valid: true
+  reward: 十枚天凤血丹
+  triggered_multiplier: 10
+  relationship_result: 凤青玄重新启动涅槃并以天凤之躯为目标
+  status: partial
+- id: GIFT-0082
+  chapter: 438
+  node: NODE-0057
+  giver: 徐霄
+  recipient: 凤仪
+  gift: 绝品驻颜丹
+  accepted: true
+  system_valid: true
+  reward: 三千大道丹
+  triggered_multiplier: pending
+  relationship_result: 凤仪与徐霄关系转为稳定道侣关系
+  status: partial
+- id: GIFT-0083
+  chapter: 438
+  node: NODE-0057
+  giver: 徐霄
+  recipient: 凤仪
+  gift: 绝品悟道丹
+  accepted: true
+  system_valid: true
+  first_bond_upgrade: true
+  reward: 两枚鸿蒙一气丹
+  triggered_multiplier: 10000
+  relationship_result: 凤仪羁绊度提升至2并获得长期资源支持
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0081, GIFT-0082, GIFT-0083]
+    confirmed_objects_add: [白霜霜]
+    related_nodes_add: [NODE-0057]
+    source_chapters_add: [434, 435, 438, 441]
