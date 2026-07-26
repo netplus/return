@@ -1,0 +1,47 @@
+schema_version: 1
+run_id: RUN-0070
+gift_events:
+- id: GIFT-0086
+  chapter: 450
+  settlement_chapter: 451
+  node: NODE-0059
+  giver: 徐霄
+  recipient: 欧阳惊虹
+  gift: 十枚蕴仙丹、一枚合体巅峰魂丹、十枚合道丹
+  accepted: true
+  system_valid: true
+  first_gift: true
+  triggered_multiplier: 10000
+  reward: 一枚鸿蒙一气丹、九十枚雷灵丹、一枚大乘巅峰魂丹、十枚蕴仙丹
+  settlement_breakdown:
+  - {gift: 第一枚蕴仙丹, reward: 鸿蒙一气丹, multiplier: 10000}
+  - {gift: 其余九枚蕴仙丹, reward: 九十枚雷灵丹, multiplier: 10}
+  - {gift: 一枚合体巅峰魂丹, reward: 一枚大乘巅峰魂丹, multiplier: pending}
+  - {gift: 十枚合道丹, reward: 十枚蕴仙丹, multiplier: pending}
+  relationship_result: 欧阳惊虹由调查排斥转为认可徐霄的资源与合作价值
+  status: partial
+- id: GIFT-0087
+  chapter: 452
+  settlement_chapter: 453
+  node: NODE-0059
+  giver: 徐霄
+  recipient: 冷若云与欧阳惊虹
+  delivery_intermediary: 萧烬璃
+  gift: 两枚大乘中期魂丹
+  accepted: true
+  system_valid: true
+  reward: 两枚渡劫中期魂丹
+  triggered_multiplier: pending
+  allocation: 两名受赠者逐枚对应关系待确认
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0086, GIFT-0087]
+    confirmed_objects_add: [欧阳惊虹]
+    active_tasks_add:
+    - {target: 独孤浩, target_type: 气运之子, task: 击杀独孤浩, reward: 返还道具库随机升级, status: active}
+    - {target: 黑无忌, target_type: 气运之敌, task: pending, reward: pending, status: active}
+    related_nodes_add: [NODE-0059]
+    source_chapters_add: [449, 450, 451, 452, 453]
