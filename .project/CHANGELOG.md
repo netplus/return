@@ -1,5 +1,21 @@
 # Changelog
 
+## RUN-0063 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0054`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 405; Chapter 406 begins the铁焰城回归、夺舍比例升级 and善后 line.
+- Created `NODE-0052`: 尹小倩结缘、阴煞隐秘与魂墟城清算, covering Chapters 398—405.
+- Added 玄阴女尊 and尹小倩 as `CHAR-0075` and `CHAR-0076`; updated 徐霄、魔姝、萧烬璃 and萧四海 for persistent system, cultivation, relationship and conflict changes.
+- Added `GIFT-0073`, recording one合体中期魂丹 to尹小倩 and return of one大乘中期魂丹.
+- Recorded the verified interaction that尹小倩吸收一点阳气 returns ten points of阳气 to徐霄.
+- Expanded噬魂封魔剑、鸿蒙一气丹 and三千大道丹 records; recorded徐霄's十六股鸿蒙真气 and五行大道阶段性圆满.
+- Recorded the阴煞大陆阴魂夺舍 plan, the魂墟城 hunt and the destruction of萧四海's possessed faction.
+- Preserved尹小倩完整系统面板、阴煞天宗结构与夺舍规模、兰若寺姥姥身份、魂丹总数、五行大道完整分支、魂墟城三鬼身份境界 and萧四海夺舍细节 as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0054`, advanced to milestone M9 and queued `TASK-0055` beginning at Chapter 406.
+
 ## RUN-0062 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
