@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0062
+gift_events:
+- id: GIFT-0072
+  chapter: 396
+  node: NODE-0051
+  giver: 徐霄
+  recipient: 玉冰
+  gift: 九天神龙甲
+  accepted: true
+  system_valid: true
+  reward: 先天灵宝龙魂仙衣
+  triggered_multiplier: pending
+  relationship_result: 公开道侣与长期资源关系进一步强化
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0072]
+    related_nodes_add: [NODE-0051]
+    source_chapters_add: [396]
