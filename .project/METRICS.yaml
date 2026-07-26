@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0076
+run_id: RUN-0077
 coverage:
   chapters_covered_through: 493
   chapters_promoted_in_run: []
@@ -19,13 +19,15 @@ entity_documents:
   expected_generated_documents: 165
   generator: scripts/render_entity_docs.py
   manifest: docs/entity-docs-manifest.yaml
+  presentation: reader_friendly_with_collapsed_canonical_appendix
 quality_gates:
   source_traceability: {status: passed, scope: existing_canonical_records, failures: 0}
   arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
-  materiality: {status: passed, entity_updates: [canonical_entity_document_renderer, workflow_v2.1, CI_generated_view_refresh]}
+  materiality: {status: passed, entity_updates: [reader_friendly_entity_renderer, semantic_sections, collapsed_audit_appendix, current_value_resolution]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions, projection_targets: [docs/02-characters, docs/06-artifacts]}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md, .github/workflows/knowledge-base-ci.yml]}
-  entity_document_freshness: {status: passed, characters: 99, artifacts: 66, complete_canonical_record_embedded: true, manifest_required: true}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: structured_canonical_projection}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md]}
+  entity_document_freshness: {status: passed, characters: 99, artifacts: 66, complete_canonical_record_preserved: true, manifest_required: true}
+  entity_document_readability: {status: passed, semantic_sections: true, complex_fields_rendered_as_nested_markdown: true, sources_collapsed: true, canonical_appendix_collapsed: true, latest_change_values_preferred: true}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: reader_friendly_structured_projection}
 blockers: []
