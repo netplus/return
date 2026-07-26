@@ -1,0 +1,36 @@
+schema_version: 2
+run_id: RUN-0054
+task_id: TASK-0045
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 325
+  chapter_end: 335
+  node: NODE-0043
+  status: promoted
+  canonical_document: docs/01-timeline/node-0043.md
+  boundary_reason: 第335章完成灵田防守、百里海棠赠送结算与阶段性舆论扩散；第336章转入海底鲛人宫殿
+chapters:
+- {chapter: 325, title: 灵花岛，地月宗, facts: [徐霄接受灵花岛外勤任务并准备协助地月宗抵御鲛人, 叶尘与反徐联盟继续传播灵航事件], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 326, title: 初到灵花岛, facts: [赵无极作为叶尘师父正式出场并听取对徐霄的负面汇报, 徐霄抵达灵花岛无妄仙宗驻地], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 327, title: 丹阳清风，双标破防, facts: [徐霄向苏小韵赠送十枚虚天丹, 首次赠送触发千倍暴击并返还鸿蒙一气丹], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 328, title: 气懵缥缈仙宗调查队, facts: [徐霄服用鸿蒙一气丹后鸿蒙真气增至十一股, 服用三千大道丹领悟木之大道新生, 外宗调查人员进入地月城], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 329, title: 苏小韵来访, facts: [苏小韵主动确认长期资源关系, 徐霄赠送乾坤艮土剑并返还九天灵土剑, 徐霄承诺长期提供苏小韵修炼资源], official_catalog: true, readable_mirrors: [笔趣阁], status: partial}
+- {chapter: 330, title: 巡视灵田, facts: [苏小韵与徐霄关系在驻地公开, 徐霄承诺承担苏小韵及苏瑶后续修炼资源, 队伍开始巡视灵花岛高品灵田], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 331, title: 百里海棠, facts: [徐霄了解地月宗与鲛人族围绕灵田和海域的长期冲突, 地月宗掌门百里海棠正式出场], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 332, title: 先天灵宝，初露锋芒, facts: [鲛人族以巨浪突袭灵花岛西部灵田, 百里敖带队进犯, 徐霄以四象斩天剑参与防守], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 333, title: 实力显露，惊呆众人, facts: [徐霄在海水中发挥完整水系大道优势, 以十一股鸿蒙真气驱动四象斩天剑击杀大量鲛人, 守军确认其至少拥有合体顶级战力], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 334, title: 再次伸出魔爪, facts: [徐霄两剑击退百里敖, 弱水神珠出现裂纹, 鲛人撤退且灵花岛西部灵田全部保住], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 335, title: 臭名传开, facts: [百里海棠接受十枚合道丹, 首枚千倍返还九天精元丹且其余九枚返还九枚蕴仙丹, 徐霄服丹后鸿蒙真气增至十二股并凝练九天精元], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 336
+  next_title: 海底鲛人宫殿
+  transition: 转入鲛人族内部响应、海底宫殿和下一轮海域冲突
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

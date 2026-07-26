@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0054 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0045`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 335 so the灵花岛外勤、苏小韵赠送、鲛人袭击、百里海棠赠送结算 and阶段性舆论扩散 remain in one coherent arc; Chapter 336 begins the海底鲛人宫殿 line.
+- Created `NODE-0043`: 灵花岛外勤、苏小韵结缘与鲛人退潮, covering Chapters 325—335.
+- Added 赵无极、苏瑶、苏小韵、百里海棠 and百里敖 as `CHAR-0060`—`CHAR-0064`; updated 徐霄 and叶尘 for persistent cultivation, relationship, combat and antagonist-network changes.
+- Added `GIFT-0058`—`GIFT-0060`, returning鸿蒙一气丹、灵宝九天灵土剑、九天精元丹 and九枚蕴仙丹.
+- Added `ART-0042` 九天灵土剑 and `ART-0043` 九天精元丹; expanded三千大道丹、鸿蒙一气丹 and四象斩天剑 records.
+- Recorded 徐霄's twelve strands of鸿蒙真气, 木之大道·新生, 九天精元 and decisive role in the灵花岛 defense.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0045` and queued `TASK-0046` beginning at Chapter 336.
+
 ## RUN-0053 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.

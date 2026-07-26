@@ -1,0 +1,46 @@
+schema_version: 1
+run_id: RUN-0054
+artifacts:
+- id: ART-0042
+  name: 九天灵土剑
+  category: 灵宝神剑
+  grade: 灵宝
+  first_chapter: 329
+  current_holder: 徐霄
+  acquisition: GIFT-0059返还
+  effect: 土属性及完整能力待后续正文确认
+  status: partial
+  related_nodes: [NODE-0043]
+- id: ART-0043
+  name: 九天精元丹
+  category: 丹药
+  first_chapter: 335
+  final_user: 徐霄
+  current_state: 已服用
+  acquisition: GIFT-0060千倍暴击返还
+  effect: 凝练周身精气，化为九天精元
+  status: partial
+  related_nodes: [NODE-0043]
+artifact_updates:
+- id: ART-0010
+  name: 三千大道丹
+  update:
+    acquisition_result_add:
+    - {chapter: 328, result: 木之大道·新生, status: partial}
+    related_nodes_add: [NODE-0043]
+    source_chapters_add: [328]
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: [GIFT-0058返还]
+    consumption_add:
+    - {chapter: 328, result: 鸿蒙真气增至十一股, status: partial}
+    - {chapter: 335, result: 鸿蒙真气增至十二股, source_instance: 此前库存实例, status: partial}
+    related_nodes_add: [NODE-0043]
+    source_chapters_add: [327, 328, 335]
+- id: ART-0040
+  name: 四象斩天剑
+  update:
+    combat_record_add: 第332—334章在灵花岛海水环境中击杀大量合体与炼虚鲛人、击裂弱水神珠并击退百里敖
+    related_nodes_add: [NODE-0043]
+    source_chapters_add: [332, 333, 334]

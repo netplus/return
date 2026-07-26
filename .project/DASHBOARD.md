@@ -4,25 +4,25 @@
 - **Current milestone:** M7 — Chapters 301–350
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 324
-- **Current evidence exploration through:** Chapter 325
+- **Canonical coverage through:** Chapter 335
+- **Current evidence exploration through:** Chapter 336
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 42
+- **Completed timeline nodes:** 43
 - **Draft timeline nodes:** 0
-- **Documented characters:** 59
-- **Gift events:** 57
-- **Artifact records:** 41
-- **Last run:** `RUN-0053`
-- **Last completed node:** `NODE-0042`
-- **Next task:** `TASK-0045` — 灵花岛、地月宗与灵田外勤 story arc
-- **Provisional exploration range:** Chapters 325–332
+- **Documented characters:** 64
+- **Gift events:** 60
+- **Artifact records:** 43
+- **Last run:** `RUN-0054`
+- **Last completed node:** `NODE-0043`
+- **Next task:** `TASK-0046` — 海底鲛人宫殿与海域冲突 story arc
+- **Provisional exploration range:** Chapters 336–343
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0042` covers Chapters 317—324. 徐霄交付火凤精血并返还天凤精血，凤族回归安排进入执行；玉冰将徐霄提升为内门执事并推动宗门公开宣传其功绩。灵航突破合体巅峰后确认徐霄的庞大气运，建立长期气运、资源与道侣关系；灵宝赠送返还先天灵宝四象斩天剑，绝品驻颜丹赠送返还九转运天丹。徐霄服丹后鸿蒙真气增至十股，气运凝练为九天气运。第 325 章转入灵花岛和地月宗外勤。
+`NODE-0043` covers Chapters 325—335. 徐霄接受灵花岛外勤任务后进入地月宗与鲛人冲突前线；赵无极作为叶尘师父开始介入反徐线。徐霄向苏小韵赠送虚天丹和乾坤艮土剑，返还鸿蒙一气丹与九天灵土剑，并形成长期资源关系。鲛人族由百里敖率队袭击灵花岛西部灵田，徐霄以四象斩天剑和完整水系大道击退对方、保住高品灵田。战后向百里海棠赠送十枚合道丹，返还九天精元丹和九枚蕴仙丹；徐霄鸿蒙真气增至十二股，并凝练九天精元。第 336 章转入海底鲛人宫殿。
 
-## Quality gates — RUN-0053
+## Quality gates — RUN-0054
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 317—325 章标题、顺序和边界；第 317—324 章正文由 CP 小说网等可访问正文镜像交叉核验。第 320 章返还道具库升级细节、灵航首次灵宝原名、四象斩天剑完整能力、天凤精血使用结果及灵航完整系统面板继续保持 `pending`。
+番茄小说官方目录确认第 325—336 章标题、顺序和边界；第 325—335 章正文由 CP 小说网、笔趣阁等可访问正文镜像交叉核验。赵无极精确境界、苏小韵与百里海棠完整系统面板、百里敖与百里海棠是否存在血缘关系、九天灵土剑完整能力及九天精元长期效果继续保持 `pending`。
