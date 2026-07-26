@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0057 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0048`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 360; Chapter 361 begins the地月城现场善后 and返宗 line.
+- Created `NODE-0046`: 三宗围杀、地月城冰封与方达飞任务结算, covering Chapters 353—360.
+- Added 魏无涯、玄魔 and百里云天 as `CHAR-0068`—`CHAR-0070`; updated 徐霄、方达飞、百里海棠 and尚水 for persistent cultivation, status, relationship and conflict changes.
+- Added `GIFT-0064`: 绝品驻颜丹 to百里海棠; preserved multiplier and return as pending.
+- Completed the方达飞 luck-child task and recorded the丹药返还库 ordinary return cap upgrade to渡劫境.
+- Updated鸿蒙一气丹 and九天神莲戒 records; recorded徐霄's十三股鸿蒙真气 and the地月城大乘九重冰封 battle.
+- Preserved unsupported gift settlement, source-gift mapping, exact realms, casualty totals, participant identities and符箓 inventory as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0048` and queued `TASK-0049` beginning at Chapter 361.
+
 ## RUN-0056 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
