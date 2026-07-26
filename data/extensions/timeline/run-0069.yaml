@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0069
+nodes:
+- id: NODE-0058
+  title: 冷若云赠礼、仙神魂胎与灵霄仙宗密谈
+  chapters: {start: 442, end: 448}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第442—449章标题、顺序和边界；第442—448章正文由可访问镜像交叉核验
+  boundary_reason: 第448章完成冷若云第二次赠送及有条件保护立场；第449章转入独孤浩正面冲突和新气运之子任务
+  characters: [徐霄, 冷若云, 李茂, 柯无量, 真灵, 虎力, 蛮天]
+  system_events:
+  - {event: 首次赠送冷若云蕴仙丹, trigger: 十枚蕴仙丹, reward: 仙魂神魄丹, status: partial}
+  - {event: 冷若云灵宝赠送, trigger: 枯荣天木剑, reward: 先天灵宝混沌天木剑, status: partial}
+  relationship_result: 冷若云由调查压制转为接受资源并承诺在无直接证据时保护徐霄
+  pending: [冷若云完整系统面板与羁绊度, GIFT-0084其余九枚返还, 仙神魂胎完整能力, 柯无量肉身最终处置, 李茂完整死亡过程, GIFT-0085精确倍率, 混沌天木剑完整能力, 真灵完整境界]
+  document: docs/01-timeline/node-0058.md
+  evidence: sources/evidence/chapters-442-448.yaml
