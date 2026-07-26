@@ -1,0 +1,56 @@
+schema_version: 1
+run_id: RUN-0059
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation:
+      current_set: 合体境
+      status_set: partial
+    age:
+      value_set: 1018
+      status_set: partial
+    cultivation_change_add: 两年修炼后由炼虚境晋升合体境
+    role_change_add: 返回盘龙岛与铁幕城处理旧关系并完成阶段性告别后，继续以无妄仙宗为主要行动中心
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [370, 371, 372, 373, 374]
+- id: CHAR-0036
+  name: 上官倩
+  update:
+    bond_level_set: 2
+    relationship_change_add: 铁幕城告别阶段与徐霄羁绊度提升至2，长期情感与资源关系进一步确认
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [370]
+- id: CHAR-0049
+  name: 第一婵
+  update:
+    cultivation:
+      current_set: 合体九重
+      status_set: partial
+    bond_level_set: 2
+    accepted_gifts_add: [GIFT-0068, GIFT-0069]
+    current_artifacts_add: [九火龙鳞剑]
+    relationship_change_add: 接受徐霄的灵宝与驻颜丹后正式建立稳定道侣关系，并以真实容貌重新面对天阵阁弟子
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [371, 372, 373, 374]
+- id: CHAR-0050
+  name: 秦朋
+  update:
+    accepted_resources_add: [五枚虚天丹]
+    relationship_change_add: 继续作为徐霄在天阵阁的稳定同门支持者并承担看守事务
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [371, 374]
+- id: CHAR-0051
+  name: 程芷
+  update:
+    accepted_resources_add: [十枚虚天丹]
+    relationship_change_add: 与徐霄的天阵阁同门及长期资源支持关系继续稳定
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [371]
+- id: CHAR-0052
+  name: 程双
+  update:
+    accepted_resources_add: [十枚虚天丹]
+    relationship_change_add: 与徐霄的道侣及长期资源支持关系继续稳定
+    related_nodes_add: [NODE-0048]
+    source_chapters_add: [371]

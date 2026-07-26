@@ -1,0 +1,30 @@
+schema_version: 2
+run_id: RUN-0059
+task_id: TASK-0050
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 370
+  chapter_end: 374
+  node: NODE-0048
+  status: promoted
+  canonical_document: docs/01-timeline/node-0048.md
+  boundary_reason: 第374章完成第一婵羁绊提升、驻颜丹返还与天阵阁关系公开；第375章转入阴煞小界任务及新的跨域行动
+chapters:
+- {chapter: 370, title: 盘龙岛，铁幕城之别, facts: [玉鼎仙宗天煞魔宗与云海域缥缈仙宗计划利用两年后的阴煞小界继续围杀徐霄, 徐霄返回盘龙岛铁幕城处理旧关系与告别, 上官倩羁绊度提升至2], official_catalog: true, readable_mirrors: [CP小说网, 笔趣阁镜像], status: partial}
+- {chapter: 371, title: 第一婵出关, facts: [徐霄返回天阵阁并向秦朋赠送五枚虚天丹, 向程芷程双各赠送十枚虚天丹, 两年后徐霄晋升合体境], official_catalog: true, readable_mirrors: [笔趣阁镜像], status: partial}
+- {chapter: 372, title: 被幸福砸晕的第一婵, facts: [第一婵出关并晋升合体九重, 确认血气灵宝与合道丹资源显著提升其战力, 第一婵与徐霄的长期关系发生明确转折], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 373, title: 返还，噬魂封魔剑, facts: [徐霄向第一婵赠送灵宝九火龙鳞剑, 第一婵接受灵宝并确认长期关系, 系统返还先天灵宝噬魂封魔剑], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 374, title: 忠实小弟秦朋, facts: [徐霄向第一婵赠送绝品驻颜丹, 首次羁绊提升触发千倍暴击并返还鸿蒙一气丹, 第一婵羁绊度提升至2并公开真实容貌], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 375
+  next_title: 阴煞小界
+  transition: 转入阴煞小界开启前的宗门部署、叶尘系统行动与跨域任务
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false

@@ -63,7 +63,17 @@ tasks:
 - id: TASK-0050
   title: Build the 盘龙岛铁幕城告别与第一婵返还 story arc from Chapter 370 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 370, provisional_chapter_end: 377, node: NODE-0048, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-26'
+  run_id: RUN-0059
+  target: {chapter_start: 370, chapter_end: 374, node: NODE-0048, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0048.md, data/extensions/timeline/run-0059.yaml, data/extensions/characters/run-0059.yaml, data/extensions/system/run-0059.yaml, data/extensions/artifacts/run-0059.yaml, sources/evidence/chapters-370-374.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0049]
+- id: TASK-0051
+  title: Build the 阴煞小界任务与铁焰城初战 story arc from Chapter 375 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 375, provisional_chapter_end: 382, node: NODE-0049, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0050]

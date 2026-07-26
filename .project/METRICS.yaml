@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-26'
-run_id: RUN-0058
+run_id: RUN-0059
 coverage:
-  chapters_covered_through: 369
-  chapters_promoted_in_run: [361, 362, 363, 364, 365, 366, 367, 368, 369]
-  timeline_nodes: 47
+  chapters_covered_through: 374
+  chapters_promoted_in_run: [370, 371, 372, 373, 374]
+  timeline_nodes: 48
   draft_nodes: 0
-  story_arc_nodes: 44
+  story_arc_nodes: 45
   characters_documented: 70
   characters_staged: 0
   system_records: 1
-  gift_events: 67
-  artifact_records: 45
+  gift_events: 69
+  artifact_records: 46
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [361, 362, 363, 364, 365, 366, 367, 368, 369, 370]
-    cross_checked_mirror_chapters: [361, 362, 363, 364, 365, 366, 367, 368, 369]
-    pending_fields: [玉冰完整系统面板与羁绊度, GIFT-0067返还结果, 三光分水剑持有状态衔接, 雷灵丹完整药效, 地月城完整伤亡与追责]
+    official_catalog_chapters: [370, 371, 372, 373, 374, 375]
+    cross_checked_mirror_chapters: [370, 371, 372, 373, 374]
+    pending_fields: [第370章完整告别对象与资源安排, 第一婵完整系统面板, GIFT-0068精确倍率, 噬魂封魔剑完整法阵能力, 第371章批量虚天丹返还清单]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第369章完成玉冰与徐霄道侣关系公开及西岚域舆论爆发；第370章转入盘龙岛与铁幕城告别}
-  materiality: {status: passed, entity_updates: [NODE-0047, CHAR-0001徐霄, CHAR-0048玉冰, CHAR-0067尚水, CHAR-0047叶尘, CHAR-0063百里海棠, GIFT-0065, GIFT-0066, GIFT-0067, ART-0045雷灵丹]}
+  arc_coherence: {status: passed, boundary: 第374章完成第一婵羁绊提升、驻颜丹返还与天阵阁关系公开；第375章转入阴煞小界任务及新的跨域行动}
+  materiality: {status: passed, entity_updates: [NODE-0048, CHAR-0001徐霄, CHAR-0036上官倩, CHAR-0049第一婵, CHAR-0050秦朋, CHAR-0051程芷, CHAR-0052程双, GIFT-0068, GIFT-0069, ART-0046噬魂封魔剑, ART-0016鸿蒙一气丹, ART-0021虚天丹]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0047.md, data/extensions/timeline/run-0058.yaml, data/extensions/characters/run-0058.yaml, data/extensions/system/run-0058.yaml, data/extensions/artifacts/run-0058.yaml]
+    files_checked: [docs/01-timeline/node-0048.md, data/extensions/timeline/run-0059.yaml, data/extensions/characters/run-0059.yaml, data/extensions/system/run-0059.yaml, data/extensions/artifacts/run-0059.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0058.yaml, data/extensions/characters/run-0058.yaml, data/extensions/system/run-0058.yaml, data/extensions/artifacts/run-0058.yaml, sources/evidence/chapters-361-369.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0059.yaml, data/extensions/characters/run-0059.yaml, data/extensions/system/run-0059.yaml, data/extensions/artifacts/run-0059.yaml, sources/evidence/chapters-370-374.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

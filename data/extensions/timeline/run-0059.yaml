@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0059
+nodes:
+- id: NODE-0048
+  title: 盘龙岛告别、合体晋升与第一婵返还
+  chapters: {start: 370, end: 374}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第370—375章标题、顺序和边界；第370—374章正文由可访问镜像交叉核验
+  boundary_reason: 第374章完成第一婵羁绊提升、驻颜丹返还与天阵阁关系公开；第375章转入阴煞小界任务及新的跨域行动
+  characters: [徐霄, 上官倩, 第一婵, 秦朋, 程芷, 程双, 玉冰, 叶尘]
+  system_events:
+  - {event: 第一婵灵宝赠送返还, trigger: 九火龙鳞剑, reward: 先天灵宝噬魂封魔剑, status: partial}
+  - {event: 第一婵首次羁绊提升赠送, trigger: 绝品驻颜丹, reward: 鸿蒙一气丹, multiplier: 1000, relationship_result: 羁绊度提升至2, status: partial}
+  relationship_result: 徐霄完成盘龙岛旧关系告别，并与第一婵建立公开稳定的长期道侣与资源关系
+  pending: [第370章完整告别对象与资源安排, 第一婵完整系统面板, GIFT-0068精确倍率, 噬魂封魔剑完整法阵能力, 第371章批量虚天丹返还清单]
+  document: docs/01-timeline/node-0048.md
+  evidence: sources/evidence/chapters-370-374.yaml
