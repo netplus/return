@@ -1,0 +1,344 @@
+schema_version: 1
+generator: scripts/render_entity_docs.py
+source: data/generated
+groups:
+  characters:
+    count: 99
+    index: data/generated/characters.yaml
+    index_document: docs/02-characters/_INDEX.md
+    documents:
+    - id: CHAR-0001
+      path: docs/02-characters/徐霄.md
+    - id: CHAR-0002
+      path: docs/02-characters/姬雪.md
+    - id: CHAR-0003
+      path: docs/02-characters/独孤灵.md
+    - id: CHAR-0004
+      path: docs/02-characters/陆大年.md
+    - id: CHAR-0005
+      path: docs/02-characters/紫韵.md
+    - id: CHAR-0006
+      path: docs/02-characters/林嫣儿.md
+    - id: CHAR-0007
+      path: docs/02-characters/金柳香.md
+    - id: CHAR-0008
+      path: docs/02-characters/周啸.md
+    - id: CHAR-0009
+      path: docs/02-characters/李九夜.md
+    - id: CHAR-0010
+      path: docs/02-characters/李天霸.md
+    - id: CHAR-0011
+      path: docs/02-characters/玉玲珑.md
+    - id: CHAR-0012
+      path: docs/02-characters/诸葛无方.md
+    - id: CHAR-0013
+      path: docs/02-characters/魔极天.md
+    - id: CHAR-0014
+      path: docs/02-characters/萧慕河.md
+    - id: CHAR-0015
+      path: docs/02-characters/白巧巧.md
+    - id: CHAR-0016
+      path: docs/02-characters/梦丹.md
+    - id: CHAR-0017
+      path: docs/02-characters/水月.md
+    - id: CHAR-0018
+      path: docs/02-characters/宇文浩.md
+    - id: CHAR-0019
+      path: docs/02-characters/苏媚儿.md
+    - id: CHAR-0020
+      path: docs/02-characters/水柔.md
+    - id: CHAR-0021
+      path: docs/02-characters/段红绫.md
+    - id: CHAR-0022
+      path: docs/02-characters/刘玲玲.md
+    - id: CHAR-0023
+      path: docs/02-characters/木玉儿.md
+    - id: CHAR-0024
+      path: docs/02-characters/妙玉.md
+    - id: CHAR-0025
+      path: docs/02-characters/魇女.md
+    - id: CHAR-0026
+      path: docs/02-characters/慕容云河.md
+    - id: CHAR-0027
+      path: docs/02-characters/柳璃.md
+    - id: CHAR-0028
+      path: docs/02-characters/陈青儿.md
+    - id: CHAR-0029
+      path: docs/02-characters/猿飞.md
+    - id: CHAR-0030
+      path: docs/02-characters/猿华.md
+    - id: CHAR-0031
+      path: docs/02-characters/白九儿.md
+    - id: CHAR-0032
+      path: docs/02-characters/猿洪.md
+    - id: CHAR-0033
+      path: docs/02-characters/虎奔.md
+    - id: CHAR-0034
+      path: docs/02-characters/巫瓶儿.md
+    - id: CHAR-0035
+      path: docs/02-characters/慕容龙城.md
+    - id: CHAR-0036
+      path: docs/02-characters/上官倩.md
+    - id: CHAR-0037
+      path: docs/02-characters/水云.md
+    - id: CHAR-0038
+      path: docs/02-characters/花怜惜.md
+    - id: CHAR-0039
+      path: docs/02-characters/陆文涛.md
+    - id: CHAR-0040
+      path: docs/02-characters/白茹.md
+    - id: CHAR-0041
+      path: docs/02-characters/白霞儿.md
+    - id: CHAR-0042
+      path: docs/02-characters/狼烈.md
+    - id: CHAR-0043
+      path: docs/02-characters/蛇大同.md
+    - id: CHAR-0044
+      path: docs/02-characters/石刚烈.md
+    - id: CHAR-0045
+      path: docs/02-characters/凤青玄.md
+    - id: CHAR-0046
+      path: docs/02-characters/黄龙飞.md
+    - id: CHAR-0047
+      path: docs/02-characters/叶尘.md
+    - id: CHAR-0048
+      path: docs/02-characters/玉冰.md
+    - id: CHAR-0049
+      path: docs/02-characters/第一婵.md
+    - id: CHAR-0050
+      path: docs/02-characters/秦朋.md
+    - id: CHAR-0051
+      path: docs/02-characters/程芷.md
+    - id: CHAR-0052
+      path: docs/02-characters/程双.md
+    - id: CHAR-0053
+      path: docs/02-characters/林婉.md
+    - id: CHAR-0054
+      path: docs/02-characters/剑辰.md
+    - id: CHAR-0055
+      path: docs/02-characters/白玉龙.md
+    - id: CHAR-0056
+      path: docs/02-characters/黑风.md
+    - id: CHAR-0057
+      path: docs/02-characters/方达飞.md
+    - id: CHAR-0058
+      path: docs/02-characters/凤仪.md
+    - id: CHAR-0059
+      path: docs/02-characters/灵航.md
+    - id: CHAR-0060
+      path: docs/02-characters/赵无极.md
+    - id: CHAR-0061
+      path: docs/02-characters/苏瑶.md
+    - id: CHAR-0062
+      path: docs/02-characters/苏小韵.md
+    - id: CHAR-0063
+      path: docs/02-characters/百里海棠.md
+    - id: CHAR-0064
+      path: docs/02-characters/百里敖.md
+    - id: CHAR-0065
+      path: docs/02-characters/娴月.md
+    - id: CHAR-0066
+      path: docs/02-characters/百里长风.md
+    - id: CHAR-0067
+      path: docs/02-characters/尚水.md
+    - id: CHAR-0068
+      path: docs/02-characters/魏无涯.md
+    - id: CHAR-0069
+      path: docs/02-characters/玄魔.md
+    - id: CHAR-0070
+      path: docs/02-characters/百里云天.md
+    - id: CHAR-0071
+      path: docs/02-characters/萧烬璃.md
+    - id: CHAR-0072
+      path: docs/02-characters/萧四海.md
+    - id: CHAR-0073
+      path: docs/02-characters/陆雪瑶.md
+    - id: CHAR-0074
+      path: docs/02-characters/魔姝.md
+    - id: CHAR-0075
+      path: docs/02-characters/玄阴女尊.md
+    - id: CHAR-0076
+      path: docs/02-characters/尹小倩.md
+    - id: CHAR-0077
+      path: docs/02-characters/萧彭春.md
+    - id: CHAR-0078
+      path: docs/02-characters/白无尘.md
+    - id: CHAR-0079
+      path: docs/02-characters/东方素华.md
+    - id: CHAR-0080
+      path: docs/02-characters/敖三.md
+    - id: CHAR-0081
+      path: docs/02-characters/白霜霜.md
+    - id: CHAR-0082
+      path: docs/02-characters/李茂.md
+    - id: CHAR-0083
+      path: docs/02-characters/冷若云.md
+    - id: CHAR-0084
+      path: docs/02-characters/柯无量.md
+    - id: CHAR-0085
+      path: docs/02-characters/真灵.md
+    - id: CHAR-0086
+      path: docs/02-characters/欧阳惊虹.md
+    - id: CHAR-0087
+      path: docs/02-characters/独孤浩.md
+    - id: CHAR-0088
+      path: docs/02-characters/黑无忌.md
+    - id: CHAR-0089
+      path: docs/02-characters/黑蛇.md
+    - id: CHAR-0090
+      path: docs/02-characters/月幽冥.md
+    - id: CHAR-0091
+      path: docs/02-characters/敖海.md
+    - id: CHAR-0092
+      path: docs/02-characters/龙矶.md
+    - id: CHAR-0093
+      path: docs/02-characters/魔嬛.md
+    - id: CHAR-0094
+      path: docs/02-characters/楚霄.md
+    - id: CHAR-0095
+      path: docs/02-characters/云心月.md
+    - id: CHAR-0096
+      path: docs/02-characters/素青.md
+    - id: CHAR-0097
+      path: docs/02-characters/海岚.md
+    - id: CHAR-0098
+      path: docs/02-characters/葬花.md
+    - id: CHAR-0099
+      path: docs/02-characters/北风.md
+  artifacts:
+    count: 66
+    index: data/generated/artifacts.yaml
+    index_document: docs/06-artifacts/_INDEX.md
+    documents:
+    - id: ART-0001
+      path: docs/06-artifacts/寿元丹.md
+    - id: ART-0002
+      path: docs/06-artifacts/内藏下品法剑的细木杖.md
+    - id: ART-0003
+      path: docs/06-artifacts/南明离火剑.md
+    - id: ART-0004
+      path: docs/06-artifacts/上品灵石.md
+    - id: ART-0005
+      path: docs/06-artifacts/九天神凤钗.md
+    - id: ART-0006
+      path: docs/06-artifacts/绝品驻颜丹.md
+    - id: ART-0007
+      path: docs/06-artifacts/三件中品法器返还组.md
+    - id: ART-0008
+      path: docs/06-artifacts/绝品寿元丹.md
+    - id: ART-0009
+      path: docs/06-artifacts/四海升平坠.md
+    - id: ART-0010
+      path: docs/06-artifacts/三千大道丹.md
+    - id: ART-0011
+      path: docs/06-artifacts/紫霄雷符.md
+    - id: ART-0012
+      path: docs/06-artifacts/九天神雷符.md
+    - id: ART-0013
+      path: docs/06-artifacts/九转乾元丹.md
+    - id: ART-0014
+      path: docs/06-artifacts/须臾五极山.md
+    - id: ART-0015
+      path: docs/06-artifacts/绝品悟道丹.md
+    - id: ART-0016
+      path: docs/06-artifacts/鸿蒙一气丹.md
+    - id: ART-0017
+      path: docs/06-artifacts/九火琉璃罩.md
+    - id: ART-0018
+      path: docs/06-artifacts/流光星陨戒.md
+    - id: ART-0019
+      path: docs/06-artifacts/九阳龙血丹.md
+    - id: ART-0020
+      path: docs/06-artifacts/大道神丹.md
+    - id: ART-0021
+      path: docs/06-artifacts/虚天丹.md
+    - id: ART-0022
+      path: docs/06-artifacts/金光护身坠.md
+    - id: ART-0023
+      path: docs/06-artifacts/净玉瓶.md
+    - id: ART-0024
+      path: docs/06-artifacts/万锻玉骨丹.md
+    - id: ART-0025
+      path: docs/06-artifacts/血肉金身丹.md
+    - id: ART-0026
+      path: docs/06-artifacts/混沌极冰符.md
+    - id: ART-0027
+      path: docs/06-artifacts/天道冰剑符.md
+    - id: ART-0028
+      path: docs/06-artifacts/血牛猛虎丹.md
+    - id: ART-0029
+      path: docs/06-artifacts/合道丹.md
+    - id: ART-0030
+      path: docs/06-artifacts/天凤神元丹.md
+    - id: ART-0031
+      path: docs/06-artifacts/三光分水剑.md
+    - id: ART-0032
+      path: docs/06-artifacts/混沌神雷符.md
+    - id: ART-0033
+      path: docs/06-artifacts/嗜血天魔刀.md
+    - id: ART-0034
+      path: docs/06-artifacts/蕴仙丹.md
+    - id: ART-0035
+      path: docs/06-artifacts/护心龙镜.md
+    - id: ART-0036
+      path: docs/06-artifacts/玄天艮土剑.md
+    - id: ART-0037
+      path: docs/06-artifacts/神木飞舟.md
+    - id: ART-0038
+      path: docs/06-artifacts/五行灵宝神剑组.md
+    - id: ART-0039
+      path: docs/06-artifacts/天凤精血.md
+    - id: ART-0040
+      path: docs/06-artifacts/四象斩天剑.md
+    - id: ART-0041
+      path: docs/06-artifacts/九转运天丹.md
+    - id: ART-0042
+      path: docs/06-artifacts/九天灵土剑.md
+    - id: ART-0043
+      path: docs/06-artifacts/九天精元丹.md
+    - id: ART-0044
+      path: docs/06-artifacts/九天神莲戒.md
+    - id: ART-0045
+      path: docs/06-artifacts/雷灵丹.md
+    - id: ART-0046
+      path: docs/06-artifacts/噬魂封魔剑.md
+    - id: ART-0047
+      path: docs/06-artifacts/混沌破金剑.md
+    - id: ART-0048
+      path: docs/06-artifacts/压制法器.md
+    - id: ART-0049
+      path: docs/06-artifacts/龙魂仙衣.md
+    - id: ART-0050
+      path: docs/06-artifacts/九天道元丹.md
+    - id: ART-0051
+      path: docs/06-artifacts/噬灵灭魂阵盘.md
+    - id: ART-0052
+      path: docs/06-artifacts/铁焰神炉.md
+    - id: ART-0053
+      path: docs/06-artifacts/山河灵图.md
+    - id: ART-0054
+      path: docs/06-artifacts/九天荡魔剑.md
+    - id: ART-0055
+      path: docs/06-artifacts/天凤血丹.md
+    - id: ART-0056
+      path: docs/06-artifacts/仙魂神魄丹.md
+    - id: ART-0057
+      path: docs/06-artifacts/混沌天木剑.md
+    - id: ART-0058
+      path: docs/06-artifacts/九天仙雷珠.md
+    - id: ART-0059
+      path: docs/06-artifacts/九天玉骨丹.md
+    - id: ART-0060
+      path: docs/06-artifacts/化仙丹.md
+    - id: ART-0061
+      path: docs/06-artifacts/九幽惊魂剑.md
+    - id: ART-0062
+      path: docs/06-artifacts/九霄玉舟.md
+    - id: ART-0063
+      path: docs/06-artifacts/仙灵天火剑.md
+    - id: ART-0064
+      path: docs/06-artifacts/仙牛神虎丹.md
+    - id: ART-0065
+      path: docs/06-artifacts/仙莲玉戒.md
+    - id: ART-0066
+      path: docs/06-artifacts/佛陀金身丹.md
