@@ -1,32 +1,32 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0074
+run_id: RUN-0075
 coverage:
-  chapters_covered_through: 485
-  chapters_promoted_in_run: [479, 480, 481, 482, 483, 484, 485]
-  timeline_nodes: 63
+  chapters_covered_through: 493
+  chapters_promoted_in_run: [486, 487, 488, 489, 490, 491, 492, 493]
+  timeline_nodes: 64
   draft_nodes: 0
-  story_arc_nodes: 60
-  characters_documented: 93
+  story_arc_nodes: 61
+  characters_documented: 99
   characters_staged: 0
   system_records: 1
-  gift_events: 103
-  artifact_records: 65
+  gift_events: 104
+  artifact_records: 66
   artifacts_staged: 0
 quality_gates:
   source_traceability:
     status: passed_with_qualifications
-    official_catalog_chapters: [479, 480, 481, 482, 483, 484, 485, 486]
-    cross_checked_mirror_chapters: [479, 480, 481, 482, 483, 484, 485]
-    pending_fields: [龙矶完整系统面板, 仙牛神虎丹是否服用, 仙莲玉戒完整能力, 盘龙岛完整资源清单, 雷劫法宝损耗, 蓬莱事变完整细节]
+    official_catalog_chapters: [486, 487, 488, 489, 490, 491, 492, 493, 494]
+    cross_checked_mirror_chapters: [486, 487, 488, 489, 490, 491, 492, 493]
+    pending_fields: [第一婵雷劫细节, 楚霄与云心月完整系统面板, 姬雪赠送返还链, 苏瑶灵宝赠送映射, 蓬莱阴灵来源与目的]
     failures: 0
-  arc_coherence: {status: passed, boundary: 第485章完成龙矶渡劫后的长期关系与资源安排并引出蓬莱异变；第486章五年时间跳跃并转入第一婵渡大乘雷劫}
-  materiality: {status: passed, entity_updates: [NODE-0063, CHAR-0001徐霄, CHAR-0092龙矶, CHAR-0093魔嬛, CHAR-0007段红绫, CHAR-0010陆大年, GIFT-0102, GIFT-0103, ART-0064仙牛神虎丹, ART-0065仙莲玉戒, ART-0044九天神莲戒, ART-0045雷灵丹, ART-0060化仙丹]}
+  arc_coherence: {status: passed, boundary: 第493章完成蓬莱仙宗全队遭冰寒阴灵夺舍的识别并形成潜在危机；第494章转入月幽冥赠送与新的关系推进}
+  materiality: {status: passed, entity_updates: [NODE-0064, CHAR-0001徐霄, CHAR-0049第一婵, CHAR-0002姬雪, CHAR-0061苏瑶, CHAR-0094楚霄, CHAR-0095云心月, CHAR-0096素青, CHAR-0097海岚, CHAR-0098葬花, CHAR-0099北风, GIFT-0104, ART-0066佛陀金身丹, ART-0045雷灵丹, ART-0060化仙丹]}
   cross_index_consistency:
     status: passed
     index_mode: base_plus_extensions
-    files_checked: [docs/01-timeline/node-0063.md, data/extensions/timeline/run-0074.yaml, data/extensions/characters/run-0074.yaml, data/extensions/system/run-0074.yaml, data/extensions/artifacts/run-0074.yaml]
+    files_checked: [docs/01-timeline/node-0064.md, data/extensions/timeline/run-0075.yaml, data/extensions/characters/run-0075.yaml, data/extensions/system/run-0075.yaml, data/extensions/artifacts/run-0075.yaml]
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0074.yaml, data/extensions/characters/run-0074.yaml, data/extensions/system/run-0074.yaml, data/extensions/artifacts/run-0074.yaml, sources/evidence/chapters-479-485.yaml]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/timeline/run-0075.yaml, data/extensions/characters/run-0075.yaml, data/extensions/system/run-0075.yaml, data/extensions/artifacts/run-0075.yaml, sources/evidence/chapters-486-493.yaml]}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
