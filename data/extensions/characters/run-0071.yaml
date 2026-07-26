@@ -1,0 +1,60 @@
+schema_version: 1
+run_id: RUN-0071
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 合体九重
+    power_change_add: [道元圣体可炼化天蛇神毒并转化为修炼灵力]
+    combat_record_add: [以山河灵图快速收纳黑魔圣宗八名合体巅峰长老、上百门人及其法器]
+    relationship_change_add: [与黑蛇形成稳定道侣和长期资源关系]
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [455, 456, 457, 458, 459, 460, 461, 462]
+- id: CHAR-0071
+  name: 萧烬璃
+  update:
+    relationship_change_add: 黑无忌未按时到场后，欧阳惊虹宣布原强制婚约无效，既有徐霄道侣关系获得公开保护
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [460, 461, 462]
+- id: CHAR-0083
+  name: 冷若云
+  update:
+    accepted_gifts_add: [GIFT-0091]
+    relationship_change_add: 接受雷灵珠作为萧烬璃婚事相关聘礼资源，进一步进入徐霄长期资源网络
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [461, 462]
+- id: CHAR-0086
+  name: 欧阳惊虹
+  update:
+    accepted_gifts_add: [GIFT-0092]
+    authority_action_add: 以萧烬璃师父身份宣布黑无忌与萧烬璃婚约无效
+    relationship_change_add: 接受混沌地灵剑后，对徐霄与萧烬璃关系的立场进一步软化
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [461, 462]
+- id: CHAR-0088
+  name: 黑无忌
+  update:
+    status_change: 被山河灵图收纳囚禁，生死未确认
+    conflict_change_add: 迎亲队被徐霄清算，与萧烬璃的婚约被欧阳惊虹宣布无效
+    system_task_status_set: active
+    related_nodes_add: [NODE-0060]
+    source_chapters_add: [455, 458, 459, 460, 461, 462]
+- id: CHAR-0089
+  name: 黑蛇
+  status: alive
+  role: major_supporting
+  affiliations: [黑魔圣宗, 黑蛇族]
+  identities: [黑魔圣宗太上长老, 黑蛇族族长, SS级气运之女]
+  first_appearance: {chapter: 455, title: 黑蛇, node: NODE-0060}
+  cultivation: {current: 大乘六重, status: partial}
+  constitution_or_ability: {name: 天蛇神毒, description: 自出生觉醒并长期积蓄的剧毒，可被徐霄道元圣体炼化, status: partial}
+  system_profile: {luck_grade: SS, base_return_multiplier: pending, bond: 2, status: partial}
+  accepted_gifts: [GIFT-0088, GIFT-0089, GIFT-0090]
+  relationship_context:
+    徐霄: 由执行渗透暗杀转为稳定道侣，并获得长期蕴仙丹、魂丹和防护资源承诺
+    黑无忌: 反对其与萧烬璃的强制婚约，并在其被囚后公开站在徐霄一方
+    status: partial
+  related_nodes: [NODE-0060]
+  source_chapters: [455, 456, 457, 458, 459, 460, 461, 462]
+  document: null
+  verification_status: partial
