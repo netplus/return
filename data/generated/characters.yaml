@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 31
+  extension_files: 32
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -108,6 +108,7 @@ characters:
   - NODE-0041
   - NODE-0042
   - NODE-0043
+  - NODE-0044
   source_chapters:
   - 1
   - 2
@@ -406,6 +407,15 @@ characters:
   - 333
   - 334
   - 335
+  - 336
+  - 337
+  - 338
+  - 339
+  - 340
+  - 341
+  - 342
+  - 343
+  - 344
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -445,6 +455,8 @@ characters:
   - 木玉儿正式成为道侣
   - 与林婉建立长期资源和情感关系
   - 承诺长期承担苏小韵及苏瑶的修炼资源
+  - 与娴月建立长期资源关系
+  - 与百里海棠形成深海行动合作和共同保密关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -467,6 +479,7 @@ characters:
   - 以混沌神雷符解除合体九重修士伏击，并参与完成黑风与血气灵宝争夺
   - 以神木飞舟、五行灵宝神剑和高阶符箓清剿凤山界大量合体凶兽及血凤头领
   - 在灵花岛海水环境中以四象斩天剑击杀大量鲛人并两剑击退合体巅峰百里敖
+  - 以大乘层级混元天冰符冰封鲛人海域并摧毁鲛人族与三宗联合伏杀阵营
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -3074,17 +3087,28 @@ characters:
     status: partial
   related_nodes:
   - NODE-0043
+  - NODE-0044
   source_chapters:
   - 331
   - 332
   - 333
   - 334
   - 335
+  - 338
+  - 339
+  - 340
+  - 341
+  - 342
+  - 343
+  - 344
   document: null
   verification_status: partial
+  relationship_change: 请求徐霄协助寻找母亲并共同潜入鲛人海域；伏杀后与徐霄约定隐瞒真相
+  combat_record:
+  - 参与鲛人宫殿潜入与联合伏杀脱困
 - id: CHAR-0064
   name: 百里敖
-  status: alive
+  status: dead
   role: antagonist
   affiliations:
   - 鲛人族
@@ -3104,9 +3128,83 @@ characters:
     status: partial
   related_nodes:
   - NODE-0043
+  - NODE-0044
   source_chapters:
   - 332
   - 333
   - 334
+  - 336
+  - 337
+  - 341
+  - 342
+  - 343
+  - 344
+  document: null
+  verification_status: partial
+  conflict_result: 在鲛人宫殿联合伏杀中被深海冰封击杀
+- id: CHAR-0065
+  name: 娴月
+  status: alive
+  role: supporting
+  affiliations:
+  - 灵猫族
+  - 无妄仙宗
+  identities:
+  - 灵猫族族长
+  - 赤霞门下弟子
+  - 有效气运赠送对象
+  first_appearance:
+    chapter: 337
+    title: 娴月的忧虑
+    node: NODE-0044
+  cultivation:
+    current: pending
+    status: pending
+  system_profile:
+    luck_grade: pending
+    base_multiplier: pending
+    bond_level: pending
+    status: partial
+  accepted_gifts:
+  - GIFT-0061
+  motivation: 为个人仙途与盘龙岛灵猫族前途主动寻求徐霄长期资源支持
+  related_nodes:
+  - NODE-0044
+  source_chapters:
+  - 337
+  - 338
+  - 339
+  document: null
+  verification_status: partial
+- id: CHAR-0066
+  name: 百里长风
+  status: dead
+  role: antagonist
+  affiliations:
+  - 鲛人族
+  identities:
+  - 鲛人族族长
+  - 鲛人王宫统治者
+  first_appearance:
+    chapter: 336
+    title: 海底鲛人宫殿
+    node: NODE-0044
+  cultivation:
+    current: 合体巅峰
+    status: partial
+  conflict:
+    target: 徐霄与百里海棠
+    action: 联合玉鼎仙宗天煞魔宗及云海域缥缈仙宗布置海底伏杀
+    result: 被混元天冰符深海冰封击杀
+    status: partial
+  related_nodes:
+  - NODE-0044
+  source_chapters:
+  - 336
+  - 337
+  - 341
+  - 342
+  - 343
+  - 344
   document: null
   verification_status: partial
