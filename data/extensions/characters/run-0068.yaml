@@ -36,11 +36,6 @@ characters:
     strategic_change_add: 继续承载凤青玄神魂并见证其改用天凤精血重新涅槃
     related_nodes_add: [NODE-0057]
     source_chapters_add: [434, 435, 436, 437]
-- id: CHAR-0070
-  name: 百里云天
-  update:
-    related_nodes_add: [NODE-0057]
-    source_chapters_add: []
 - id: CHAR-0080
   name: 敖三
   status: dead
