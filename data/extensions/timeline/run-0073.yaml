@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0073
+nodes:
+- id: NODE-0062
+  title: 三宗关系公开、返宗渡劫秘事与魔嬛赠礼
+  chapters: {start: 471, end: 478}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第471—479章标题、顺序和边界；第471—478章正文由可访问镜像交叉核验
+  boundary_reason: 第478章完成魔嬛识别、雷灵丹与混沌神火剑赠送及仙器返还；第479章转入龙矶直接关系线
+  characters: [徐霄, 冷若云, 真灵, 月幽冥, 独孤浩, 天阁, 玉冰, 白霜霜, 龙矶, 魔嬛]
+  system_events:
+  - {event: 冷若云蕴仙丹赠送, reward: 九枚雷灵丹与一枚鸿蒙一气丹, status: partial}
+  - {event: 月幽冥先天灵宝赠送, reward: 九幽惊魂剑, status: partial}
+  - {event: 玉冰蕴仙丹与神木飞舟赠送, reward: 一百枚雷灵丹与九霄玉舟, status: partial}
+  - {event: 魔嬛雷灵丹与神剑赠送, reward: 五枚化仙丹与仙灵天火剑, status: partial}
+  pending: [各宗完整舆论反应, 冷若云与月幽冥赠送倍率, 天阁雷灵丹赠送返还, 龙矶完整系统面板, 魔嬛完整渡劫层级, 三件仙器完整能力]
+  document: docs/01-timeline/node-0062.md
+  evidence: sources/evidence/chapters-471-478.yaml

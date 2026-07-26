@@ -104,7 +104,17 @@ tasks:
 - id: TASK-0064
   title: Build the 天阁来访、三宗关系公开与返宗善后 story arc from Chapter 471 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 471, provisional_chapter_end: 478, node: NODE-0062, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0073
+  target: {chapter_start: 471, chapter_end: 478, node: NODE-0062, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0062.md, data/extensions/timeline/run-0073.yaml, data/extensions/characters/run-0073.yaml, data/extensions/system/run-0073.yaml, data/extensions/artifacts/run-0073.yaml, sources/evidence/chapters-471-478.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
   depends_on: [TASK-0063]
+- id: TASK-0065
+  title: Build the 龙矶结缘、渡劫准备与盘龙岛返程 story arc from Chapter 479 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 479, provisional_chapter_end: 486, node: NODE-0063, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0064]

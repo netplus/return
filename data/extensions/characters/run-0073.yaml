@@ -1,0 +1,66 @@
+schema_version: 1
+run_id: RUN-0073
+characters:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    identities_add: [灵霄仙宗荣誉太上长老, 黑魔圣宗荣誉太上长老]
+    knowledge_add: [渡劫九重规则, 两次雷劫间隔极限约两万年, 渡劫失败通常身死道消]
+    related_nodes_add: [NODE-0062]
+    source_chapters_add: [471, 472, 473, 474, 475, 476, 477, 478]
+- id: CHAR-0083
+  name: 冷若云
+  update:
+    accepted_gifts_add: [GIFT-0096]
+    relationship_change_add: 与徐霄的道侣关系获灵霄仙宗及天元大陆范围公开确认
+    related_nodes_add: [NODE-0062]
+    source_chapters_add: [471, 472, 473, 474]
+- id: CHAR-0090
+  name: 月幽冥
+  update:
+    accepted_gifts_add: [GIFT-0097]
+    authority_action_add: 代表黑魔圣宗确认与无妄仙宗、灵霄仙宗结盟
+    related_nodes_add: [NODE-0062]
+    source_chapters_add: [471, 472, 473, 474]
+- id: CHAR-0048
+  name: 玉冰
+  update:
+    accepted_gifts_add: [GIFT-0098, GIFT-0099]
+    relationship_change_add: 受龙矶推动进一步确认与徐霄的长期道侣关系
+    related_nodes_add: [NODE-0062]
+    source_chapters_add: [476, 477, 478]
+- id: CHAR-0081
+  name: 白霜霜
+  update:
+    current_action_set: 随徐霄返回无妄仙宗修行
+    related_nodes_add: [NODE-0062]
+    source_chapters_add: [474, 475]
+- id: CHAR-0092
+  name: 龙矶
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗, 龙族]
+  identities: [无妄仙宗老祖, 渡劫修士, 玉冰长辈]
+  first_appearance: {chapter: 476, title: 宗门渡劫修士, node: NODE-0062}
+  cultivation: {current: 渡劫境, status: partial}
+  current_state: 长期闭关准备后续雷劫
+  relationship_context: {玉冰: 推动其确认与徐霄的长期道侣关系, status: partial}
+  related_nodes: [NODE-0062]
+  source_chapters: [476, 477]
+  document: null
+  verification_status: partial
+- id: CHAR-0093
+  name: 魔嬛
+  status: alive
+  role: supporting
+  affiliations: [无妄仙宗]
+  identities: [无妄仙宗魔道领袖, 渡劫长老, A级气运之女]
+  first_appearance: {chapter: 477, title: 气运之女，魔嬛, node: NODE-0062}
+  cultivation: {current: 渡劫境, status: partial}
+  system_profile: {luck_grade: A, base_return_multiplier: 10, bond: 1, status: partial}
+  accepted_gifts: [GIFT-0100, GIFT-0101]
+  relationship_context: {徐霄: 建立直接高阶丹药与仙器资源关系, status: partial}
+  related_nodes: [NODE-0062]
+  source_chapters: [477, 478]
+  document: null
+  verification_status: partial
