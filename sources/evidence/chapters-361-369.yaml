@@ -1,0 +1,34 @@
+schema_version: 2
+run_id: RUN-0058
+task_id: TASK-0049
+updated_at: '2026-07-26'
+arc:
+  chapter_start: 361
+  chapter_end: 369
+  node: NODE-0047
+  status: promoted
+  canonical_document: docs/01-timeline/node-0047.md
+  boundary_reason: 第369章完成玉冰与徐霄道侣关系公开及西岚域舆论爆发；第370章转入盘龙岛与铁幕城告别
+chapters:
+- {chapter: 361, title: 返回宗门, facts: [玉冰抵达冰封后的地月城, 尚水与徐霄统一天降冰灾口径, 玉冰带无妄仙宗人员返宗], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 362, title: 气炸赵无极, facts: [赵无极得知徐霄平安返回后继续强化反徐立场], official_catalog: true, readable_mirrors: [正文镜像], status: partial}
+- {chapter: 363, title: 气懵叶尘师徒, facts: [叶尘师徒因方达飞死亡与徐霄返宗受到打击], official_catalog: true, readable_mirrors: [正文镜像], status: partial}
+- {chapter: 364, title: 再次懵逼的秦朋, facts: [叶尘要求反徐联盟继续监控天阵阁并传播负面舆论, 徐霄返宗后的关系网络继续扩大], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 365, title: 缥缈仙宗的愤怒, facts: [地月城覆灭在西岚域引发震荡, 尚水成为公开责任承担者, 云海域缥缈仙宗因调查队覆灭进一步敌视徐霄], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 366, title: 玉冰抓包, facts: [玉冰撞见徐霄与百里海棠, 百里海棠与徐霄关系被玉冰直接知晓, 玉冰单独处理徐霄相关事务], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 367, title: 和玉冰道侣之事, facts: [徐霄向玉冰赠送五枚蕴仙丹, 首次赠送返还三千大道丹且其余返还四十枚雷灵丹, 玉冰同意与徐霄结为道侣], official_catalog: true, readable_mirrors: [番茄小说, CP小说网], status: partial}
+- {chapter: 368, title: 疯狂送礼, facts: [徐霄承诺长期承担玉冰修炼资源, 赠送一千枚极品灵石返还三万枚, 向玉冰赠送三光分水剑], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+- {chapter: 369, title: 西岚域爆炸, facts: [无妄仙宗正式公告徐霄与玉冰结为道侣, 宗门与西岚域舆论强烈震荡], official_catalog: true, readable_mirrors: [CP小说网], status: partial}
+boundary_check:
+  next_chapter: 370
+  next_title: 盘龙岛，铁幕城之别
+  transition: 转入盘龙岛、铁幕城故地告别和旧关系处理
+quality:
+  source_traceability: passed_with_qualifications
+  arc_coherence: passed
+  materiality: passed
+  cross_index_consistency: passed
+  duplicate_work_check: passed
+  yaml_structure_review: passed
+  copyright_boundary: passed
+  full_chapter_text_stored: false
