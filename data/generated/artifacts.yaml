@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 33
+  extension_files: 34
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -305,6 +305,9 @@ artifacts:
   - gift_id: GIFT-0062
     chapter: 347
     status: partial
+  - gift_id: GIFT-0069
+    chapter: 374
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -317,6 +320,7 @@ artifacts:
   - NODE-0043
   - NODE-0045
   - NODE-0046
+  - NODE-0048
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -444,6 +448,7 @@ artifacts:
   - NODE-0019
   - NODE-0035
   - NODE-0040
+  - NODE-0048
   source_gift: GIFT-0021
   transfer:
     chapter: 116
@@ -458,6 +463,7 @@ artifacts:
   - 115
   - 116
   - 300
+  - 371
   transfers:
   - gift_id: GIFT-0027
     recipient: 妙玉
@@ -486,6 +492,18 @@ artifacts:
     recipient: 林婉
     quantity: 10
     chapter: 300
+    status: partial
+  - recipient: 秦朋
+    quantity: 5
+    chapter: 371
+    status: partial
+  - recipient: 程芷
+    quantity: 10
+    chapter: 371
+    status: partial
+  - recipient: 程双
+    quantity: 10
+    chapter: 371
     status: partial
 - id: ART-0022
   name: 金光护身坠
@@ -924,3 +942,14 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0047
+- id: ART-0046
+  name: 噬魂封魔剑
+  category: 先天灵宝魔剑
+  grade: 先天灵宝
+  first_chapter: 373
+  current_holder: 徐霄
+  acquisition: GIFT-0068返还
+  effect: 针对神魂与阴魂的攻击型灵宝；完整法阵机制与能力边界待后续正文确认
+  status: partial
+  related_nodes:
+  - NODE-0048

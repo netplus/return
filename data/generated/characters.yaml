@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 35
+  extension_files: 36
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -31,13 +31,13 @@ characters:
   cultivation:
     before_tribulation: 元婴九重
     attempted_realm: 化神境
-    current: 炼虚境
+    current: 合体境
     status: partial
   retained_spiritual_sense:
     level: 元婴九重
     status: partial
   age:
-    value: 1016
+    value: 1018
     status: partial
   lifespan:
     remaining_years: 3293
@@ -112,6 +112,7 @@ characters:
   - NODE-0045
   - NODE-0046
   - NODE-0047
+  - NODE-0048
   source_chapters:
   - 1
   - 2
@@ -444,6 +445,11 @@ characters:
   - 367
   - 368
   - 369
+  - 370
+  - 371
+  - 372
+  - 373
+  - 374
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -495,6 +501,7 @@ characters:
   cultivation_change:
   - 晋升炼虚一重
   - 服用新的鸿蒙一气丹后鸿蒙真气增至十三股
+  - 两年修炼后由炼虚境晋升合体境
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -545,6 +552,7 @@ characters:
   - 以天阵阁临时首座身份代表无妄仙宗参加凤族族长万年寿宴
   - 以天阵阁临时首座身份实质推动凤族回归无妄仙宗
   - 晋升内门执事并继续兼任内门大师兄，宗门公开宣传其促成凤族回归的功绩
+  - 返回盘龙岛与铁幕城处理旧关系并完成阶段性告别后，继续以无妄仙宗为主要行动中心
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -2083,6 +2091,12 @@ characters:
     status: partial
   document: docs/02-characters/上官倩.md
   verification_status: partial
+  bond_level: 2
+  relationship_change: 铁幕城告别阶段与徐霄羁绊度提升至2，长期情感与资源关系进一步确认
+  related_nodes:
+  - NODE-0048
+  source_chapters:
+  - 370
 - id: CHAR-0037
   name: 水云
   status: alive
@@ -2531,7 +2545,7 @@ characters:
     title: 第一婵
     node: NODE-0034
   cultivation:
-    current: 合体七重
+    current: 合体九重
     status: partial
   specialty: 阵法
   disciples:
@@ -2546,6 +2560,7 @@ characters:
   - NODE-0037
   - NODE-0039
   - NODE-0040
+  - NODE-0048
   source_chapters:
   - 250
   - 251
@@ -2568,6 +2583,10 @@ characters:
   - 296
   - 297
   - 298
+  - 371
+  - 372
+  - 373
+  - 374
   document: null
   verification_status: partial
   accepted_gifts:
@@ -2575,11 +2594,18 @@ characters:
   - GIFT-0049
   - GIFT-0050
   - GIFT-0051
-  relationship_change: 获得徐霄赠送的灵宝和持续合道丹支持，师徒资源与信任关系进一步固化
+  - GIFT-0068
+  - GIFT-0069
+  relationship_change:
+  - 获得徐霄赠送的灵宝和持续合道丹支持，师徒资源与信任关系进一步固化
+  - 接受徐霄的灵宝与驻颜丹后正式建立稳定道侣关系，并以真实容貌重新面对天阵阁弟子
   disciple_evaluation_change: 确认徐霄是天阵阁历来最出众弟子并计划未来传其首座之位
   evaluation_change: 得知徐霄与程芷关系后重新评估其长期行为，但因资源与弟子机缘未直接切断关系
   combat_record: 使用多枚合体阵盘应对血林沼泽伏击并参与追杀黑风
   current_artifact: 血气灵宝剑
+  bond_level: 2
+  current_artifacts:
+  - 九火龙鳞剑
 - id: CHAR-0050
   name: 秦朋
   status: alive
@@ -2601,6 +2627,7 @@ characters:
   - NODE-0035
   - NODE-0037
   - NODE-0039
+  - NODE-0048
   source_chapters:
   - 252
   - 253
@@ -2615,6 +2642,8 @@ characters:
   - 293
   - 294
   - 295
+  - 371
+  - 374
   document: null
   verification_status: partial
   accepted_resources:
@@ -2623,6 +2652,7 @@ characters:
   relationship_change:
   - 与徐霄形成稳定同门互助关系
   - 对徐霄真实底牌与第一婵资源关系的认知继续升级
+  - 继续作为徐霄在天阵阁的稳定同门支持者并承担看守事务
   relationship_context: 发现徐霄与程芷关系后接受保密，并继续维持天阵阁师兄弟关系
   role_change: 驾驶天阵阁木舟完成银鳞城至血林沼泽追击及争夺后的脱离
 - id: CHAR-0051
@@ -2646,6 +2676,7 @@ characters:
   - NODE-0035
   - NODE-0036
   - NODE-0037
+  - NODE-0048
   source_chapters:
   - 252
   - 253
@@ -2660,12 +2691,17 @@ characters:
   - 276
   - 277
   - 280
+  - 371
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0045
-  relationship_change: 与徐霄的长期道侣关系在天阵阁和内门范围进一步公开化
+  relationship_change:
+  - 与徐霄的长期道侣关系在天阵阁和内门范围进一步公开化
+  - 与徐霄的天阵阁同门及长期资源支持关系继续稳定
   attitude_change: 由轻视和复杂情绪转为承认徐霄远超炼虚初期的实力与长期价值
+  accepted_resources:
+  - 十枚虚天丹
 - id: CHAR-0052
   name: 程双
   status: alive
@@ -2686,6 +2722,7 @@ characters:
   - NODE-0034
   - NODE-0035
   - NODE-0036
+  - NODE-0048
   source_chapters:
   - 252
   - 253
@@ -2699,13 +2736,18 @@ characters:
   - 262
   - 266
   - 267
+  - 371
   document: null
   verification_status: partial
   bond_level: 2
   accepted_gifts:
   - GIFT-0044
-  relationship_change: 与徐霄正式结为道侣并获得持续修炼资源承诺
+  relationship_change:
+  - 与徐霄正式结为道侣并获得持续修炼资源承诺
+  - 与徐霄的道侣及长期资源支持关系继续稳定
   combat_record: 依靠徐霄赠送的两件法宝与五行阵法击败炼虚六重对手
+  accepted_resources:
+  - 十枚虚天丹
 - id: CHAR-0053
   name: 林婉
   status: alive
