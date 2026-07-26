@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0056 — 2026-07-26
+
+- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0047`; no completed task, node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 352; Chapter 353 begins the formal three-sect plot to kill 徐霄.
+- Created `NODE-0045`: 三宗震荡、百里海棠结缘与九天神莲戒, covering Chapters 345—352.
+- Added 尚水 as `CHAR-0067`; updated 徐霄 and百里海棠 for persistent relationship, resource and conflict changes.
+- Added `GIFT-0062` and `GIFT-0063`, returning鸿蒙一气丹 and先天灵宝九天神莲戒.
+- Added `ART-0044` 九天神莲戒 and linked the new鸿蒙一气丹 acquisition to `ART-0016`.
+- Recorded the three-sect soul-lamp shock, secret investigation,百里海棠 bond level 2 and尚水's shift from direct confrontation to conditional tolerance.
+- Preserved unsupported multiplier, original-gift, exact-realm and investigation-team fields as pending.
+- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
+- Source traceability passed with qualifications; all other quality gates passed.
+- Completed `TASK-0047`, advanced to milestone M8 and queued `TASK-0048` beginning at Chapter 353.
+
 ## RUN-0055 — 2026-07-26
 
 - Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
