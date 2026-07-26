@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 41
+  extension_files: 42
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -149,6 +149,7 @@ artifacts:
   - NODE-0043
   - NODE-0047
   - NODE-0052
+  - NODE-0057
   acquisitions:
   - gift_id: GIFT-0008
     chapter: 23
@@ -183,6 +184,10 @@ artifacts:
     status: partial
   - gift_id: GIFT-0065
     chapter: 367
+    result: 未确认服用
+    status: partial
+  - gift_id: GIFT-0082
+    chapter: 438
     result: 未确认服用
     status: partial
   instances_acquired_total: 4
@@ -315,6 +320,11 @@ artifacts:
   - gift_id: GIFT-0069
     chapter: 374
     status: partial
+  - gift_id: GIFT-0083
+    chapter: 438
+    quantity: 2
+    result: 未确认服用
+    status: partial
   effect: 获得鸿蒙真气
   status: partial
   document: docs/06-artifacts/鸿蒙一气丹.md
@@ -329,6 +339,7 @@ artifacts:
   - NODE-0046
   - NODE-0048
   - NODE-0052
+  - NODE-0057
   pending_fields:
   - 原始赠送物品
   - 触发倍率
@@ -907,6 +918,13 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0042
+  - NODE-0057
+  transfer_event: GIFT-0081
+  transferred_to: 凤青玄
+  transferred_in_chapter: 435
+  current_state: 已用于凤青玄重新启动涅槃
+  source_chapters:
+  - 435
 - id: ART-0040
   name: 四象斩天剑
   category: 先天灵宝神剑
@@ -1153,10 +1171,19 @@ artifacts:
   related_nodes:
   - NODE-0055
   - NODE-0056
+  - NODE-0057
   source_chapters:
   - 424
   - 432
-  combat_record: 第432章控制并收纳两名合体龙族
+  - 436
+  - 437
+  - 440
+  combat_record:
+  - 第432章控制并收纳两名合体龙族
+  - 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
+  ability:
+  - 可抽离被收纳目标灵力
+  - 可在内部形成灵气锁链和雷霆清算
 - id: ART-0054
   name: 九天荡魔剑
   category: 仙器神剑
@@ -1168,3 +1195,20 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0056
+  - NODE-0057
+  combat_record: 第436章开启荡魔仙阵并绞碎敖三的大乘灵宝长枪
+  ability: 荡魔仙阵可正面压制并摧毁大乘层级灵宝攻势
+  source_chapters:
+  - 436
+- id: ART-0055
+  name: 天凤血丹
+  category: 丹药
+  first_chapter: 435
+  current_holder: 徐霄
+  quantity: 10
+  acquisition: GIFT-0081返还十枚
+  effect: 服用后可逐渐获得天凤血脉
+  intended_recipient: 凤仪
+  status: partial
+  related_nodes:
+  - NODE-0057

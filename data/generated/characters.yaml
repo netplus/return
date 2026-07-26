@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 44
+  extension_files: 45
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -37,10 +37,10 @@ characters:
     level: 元婴九重
     status: partial
   age:
-    value: 1019
+    value: 1021
     status: partial
   lifespan:
-    remaining_years: 40290
+    remaining_years: 40288
     status: partial
   dao_comprehension:
   - current:
@@ -122,6 +122,7 @@ characters:
   - NODE-0054
   - NODE-0055
   - NODE-0056
+  - NODE-0057
   source_chapters:
   - 1
   - 2
@@ -518,6 +519,14 @@ characters:
   - 431
   - 432
   - 433
+  - 434
+  - 435
+  - 436
+  - 437
+  - 438
+  - 439
+  - 440
+  - 441
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -568,7 +577,7 @@ characters:
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
   - 服用九转运天丹后气运凝练为九天气运
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 合体四重
+  cultivation_change: 合体七重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -595,6 +604,8 @@ characters:
   - 四柄先天灵宝神剑协同击杀萧四海及十余名夺舍长老
   - 以五柄先天灵宝神剑和噬魂封魔剑击杀万剑尊者及大乘阴魂，救援陆雪瑶
   - 以噬灵灭魂阵清除萧彭春及阴魂军团，并独自完成阴煞界撤离
+  - 以山河灵图收纳东海龙族千人军团
+  - 以九天荡魔剑压制敖三灵宝攻势并在山河灵图内击杀敖三
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -634,10 +645,11 @@ characters:
   - 掌握阴煞大陆高阶修士转化阴魂并夺舍天元修士的长期计划
   - 掌握萧彭春执掌阴煞天宗及利用铁焰城修士重建阴煞大陆的核心阴谋
   - 启动天光域东海护法行动并以仙器山河灵图控制两名合体龙族
+  - 完成东海护法地点阶段性清场并转入灵虚城无妄当铺行动
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
-  hongmeng_qi: 17
+  hongmeng_qi: 18
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
   title: 无妄仙宗内门大师兄
   public_resource_explanation: 获得缥缈仙宗道元真人部分传承
@@ -678,6 +690,9 @@ characters:
   - 通过GIFT-0077获得ART-0053山河灵图
   - GIFT-0079返还一百枚蕴仙丹
   - GIFT-0080返还仙器九天荡魔剑
+  - GIFT-0081返还十枚天凤血丹
+  - GIFT-0082返还三千大道丹
+  - GIFT-0083返还两枚鸿蒙一气丹
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
 - id: CHAR-0002
   name: 姬雪
@@ -1674,6 +1689,7 @@ characters:
   - NODE-0041
   - NODE-0042
   - NODE-0056
+  - NODE-0057
   source_chapters:
   - 110
   - 114
@@ -1698,6 +1714,10 @@ characters:
   - 317
   - 432
   - 433
+  - 434
+  - 435
+  - 436
+  - 437
   verification_status: partial
   gift_resolution:
     gift_id: GIFT-0027
@@ -1712,7 +1732,9 @@ characters:
   body_status: 肉身暂由凤青玄神魂控制，本人神魂留在识海修炼
   relationship_cover: 凤青玄以妙玉身份与徐霄宣称进入道侣考察期，以掩饰真实身份
   current_condition: 凤青玄神魂继续借用其肉身活动，妙玉本人在识海修炼
-  strategic_change: 继续承载凤青玄神魂并准备随凤族回归无妄仙宗
+  strategic_change:
+  - 继续承载凤青玄神魂并准备随凤族回归无妄仙宗
+  - 继续承载凤青玄神魂并见证其改用天凤精血重新涅槃
   recovery_plan: 继续承载凤青玄神魂并参与东海涅槃流程
 - id: CHAR-0025
   name: 魇女
@@ -2480,6 +2502,7 @@ characters:
   accepted_gifts:
   - GIFT-0043
   - GIFT-0080
+  - GIFT-0081
   current_artifacts:
   - 三光分水剑
   relationship_context:
@@ -2492,6 +2515,7 @@ characters:
   - NODE-0041
   - NODE-0042
   - NODE-0056
+  - NODE-0057
   source_chapters:
   - 233
   - 234
@@ -2509,6 +2533,10 @@ characters:
   - 429
   - 432
   - 433
+  - 434
+  - 435
+  - 436
+  - 437
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -2522,6 +2550,8 @@ characters:
   recovery_plan:
   - 取得火凤精血并形成天凤精血返还，涅槃恢复计划继续推进
   - 东海涅槃进入护法阶段并获得四象斩天剑加强防护
+  - 接受天凤精血并放弃即将完成的普通涅槃，重新孕育天凤之躯
+  relationship_change: 对徐霄的安全与资源能力形成更深长期依赖
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -3222,6 +3252,8 @@ characters:
   accepted_gifts:
   - GIFT-0054
   - GIFT-0078
+  - GIFT-0082
+  - GIFT-0083
   relationship_context:
     徐霄: 接受重礼并因其清剿凤山界将其列为凤族最尊贵客人
     无妄仙宗: 由观望转向支持凤族回归
@@ -3235,6 +3267,7 @@ characters:
   - NODE-0041
   - NODE-0042
   - NODE-0056
+  - NODE-0057
   source_chapters:
   - 304
   - 305
@@ -3253,10 +3286,20 @@ characters:
   - 431
   - 432
   - 433
+  - 434
+  - 435
+  - 436
+  - 437
+  - 438
   document: null
   verification_status: partial
   affiliation_change: 凤族回归后拟任无妄仙宗内门长老与凤阁首座
-  relationship_change: 接受长期丹药承诺并陪同徐霄前往天光域东海
+  relationship_change:
+  - 接受长期丹药承诺并陪同徐霄前往天光域东海
+  - 与徐霄形成稳定道侣关系并获得天凤血脉与长期修炼资源承诺
+  bond_level: 2
+  accepted_resources:
+  - 天凤血丹
 - id: CHAR-0059
   name: 灵航
   status: alive
@@ -4129,5 +4172,125 @@ characters:
   source_chapters:
   - 427
   - 428
+  document: null
+  verification_status: partial
+- id: CHAR-0080
+  name: 敖三
+  status: dead
+  role: antagonist
+  affiliations:
+  - 东海龙族
+  identities:
+  - 东海龙族三皇子
+  - 东海第一天才
+  - 气运之子
+  first_appearance:
+    chapter: 434
+    title: 气运之子，敖三
+    node: NODE-0057
+  cultivation:
+    current: 大乘四重
+    status: partial
+  equipment:
+  - 灵宝长枪
+  - 先天灵珠（名称待确认）
+  conflict: 率五名合体巅峰元帅及上千龙修进攻凤青玄涅槃地点
+  death:
+    chapter: 437
+    killer: 徐霄
+    method: 山河灵图世界内雷霆清算
+    status: partial
+  related_nodes:
+  - NODE-0057
+  source_chapters:
+  - 434
+  - 435
+  - 436
+  - 437
+  document: null
+  verification_status: partial
+- id: CHAR-0081
+  name: 白霜霜
+  status: alive
+  role: supporting
+  affiliations:
+  - 无妄仙宗
+  - 天虎阁
+  - 白虎族
+  identities:
+  - 虎力亲传弟子
+  - 白虎族天才
+  - 气运之女
+  first_appearance:
+    chapter: 438
+    title: 气运之女白霜霜
+    node: NODE-0057
+  cultivation:
+    current: pending
+    status: pending
+  bloodline:
+    value: 白虎血脉
+    status: partial
+  system_profile:
+    luck_grade: pending
+    base_multiplier: pending
+    bond: 2
+    status: partial
+  relationship_context:
+    徐霄: 建立稳定道侣与长期资源关系
+    虎力: 亲传弟子与虎族接班人
+    status: partial
+  related_nodes:
+  - NODE-0057
+  source_chapters:
+  - 438
+  - 439
+  - 440
+  - 441
+  document: null
+  verification_status: partial
+- id: CHAR-0082
+  name: 李茂
+  status: pending
+  role: antagonist
+  affiliations:
+  - 灵霄仙宗
+  identities:
+  - 灵霄仙宗修士
+  first_appearance:
+    chapter: 439
+    title: 李茂找茬
+    node: NODE-0057
+  conflict: 以损坏当铺物品为由勒索极品灵石并针对徐霄与无妄当铺
+  current_state: 被徐霄引入山河灵图后失踪，最终状态待确认
+  related_nodes:
+  - NODE-0057
+  source_chapters:
+  - 439
+  - 440
+  - 441
+  document: null
+  verification_status: partial
+- id: CHAR-0083
+  name: 冷若云
+  status: alive
+  role: supporting
+  affiliations:
+  - 灵虚城
+  - 灵霄仙宗
+  identities:
+  - 灵虚城主
+  first_appearance:
+    chapter: 441
+    title: 灵虚城主，冷若云
+    node: NODE-0057
+  cultivation:
+    current: pending
+    status: pending
+  current_action: 因李茂失踪带领城卫搜查无妄当铺
+  related_nodes:
+  - NODE-0057
+  source_chapters:
+  - 441
   document: null
   verification_status: partial
