@@ -4,25 +4,25 @@
 - **Current milestone:** M8 — Chapters 351–400
 - **Workflow standard:** v2.0 — Story-arc aggregation
 - **Canonical index mode:** Base indexes plus append-only extensions
-- **Canonical coverage through:** Chapter 369
-- **Current evidence exploration through:** Chapter 370
+- **Canonical coverage through:** Chapter 374
+- **Current evidence exploration through:** Chapter 375
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 47
+- **Completed timeline nodes:** 48
 - **Draft timeline nodes:** 0
 - **Documented characters:** 70
-- **Gift events:** 67
-- **Artifact records:** 45
-- **Last run:** `RUN-0058`
-- **Last completed node:** `NODE-0047`
-- **Next task:** `TASK-0050` — 盘龙岛铁幕城告别与第一婵返还 story arc
-- **Provisional exploration range:** Chapters 370–377
+- **Gift events:** 69
+- **Artifact records:** 46
+- **Last run:** `RUN-0059`
+- **Last completed node:** `NODE-0048`
+- **Next task:** `TASK-0051` — 阴煞小界任务与铁焰城初战 story arc
+- **Provisional exploration range:** Chapters 375–382
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0047` covers Chapters 361—369. 玉冰抵达冰封后的地月城后，无妄仙宗与尚水统一采用“天降冰灾”口径并返宗。赵无极、叶尘及反徐联盟因徐霄平安返回继续升级敌意，云海域缥缈仙宗也因调查队覆灭进一步愤怒。玉冰在天阵阁撞见徐霄与百里海棠后介入其关系与资源体系；徐霄首次向玉冰赠送五枚蕴仙丹，返还三千大道丹与四十枚雷灵丹，并继续赠送极品灵石和三光分水剑。玉冰最终与徐霄结为公开道侣，无妄仙宗的正式公告引发全宗及西岚域舆论震荡。第 370 章转入盘龙岛、铁幕城告别。
+`NODE-0048` covers Chapters 370—374. 三宗反徐阵营将下一轮围杀转移到两年后的阴煞小界。徐霄返回盘龙岛与铁幕城完成阶段性告别，上官倩羁绊度升至 2；随后回到天阵阁，继续向秦朋、程芷和程双提供虚天丹。两年后徐霄晋升合体境，第一婵出关并晋升合体九重。徐霄向第一婵赠送九火龙鳞剑和绝品驻颜丹，分别返还先天灵宝噬魂封魔剑与鸿蒙一气丹；第一婵羁绊度升至 2，并以真实容貌公开进入天阵阁关系网络。第 375 章转入阴煞小界任务。
 
-## Quality gates — RUN-0058
+## Quality gates — RUN-0059
 
 | Gate | Result |
 |---|---|
@@ -36,4 +36,4 @@
 
 ## Source qualification
 
-番茄小说官方目录确认第 361—370 章标题、顺序和边界；第 361—369 章正文由 CP 小说网等可访问正文镜像交叉核验。玉冰完整系统面板、三光分水剑持有状态衔接与返还结果、雷灵丹完整药效及地月城后续追责继续保持 `pending`。
+番茄小说官方目录确认第 370—375 章标题、顺序和边界；第 370—374 章正文由 CP 小说网及其他可访问正文镜像交叉核验。第 370 章完整告别对象、第一婵完整系统面板、`GIFT-0068` 精确倍率、噬魂封魔剑完整能力及第 371 章批量虚天丹返还清单继续保持 `pending`。
