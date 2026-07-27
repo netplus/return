@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0087 — 2026-07-27
+
+- Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only the unique pending `TASK-0073`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 544:外门长老问罪、符箓威慑、柳清浅与南宫嫣拜师安排、矿区资源交代 and司空浩南伏击清算 form one coherent arc; Chapter 545 begins阴阳仙门外门舆论与内部冲突.
+- Created `NODE-0071`, covering Chapters 537—544.
+- Added 柳清浅、南宫嫣 and云鹤 as `CHAR-0113`—`CHAR-0115`; updated 徐霄、韩烟、李香香、司空浩南、西门恨天 and邹蒙 with timed `growth_event_add` records.
+- Recorded柳清浅 S级气运、基础倍率30、羁绊度1 and人仙巅峰境界; recorded徐霄拜入其门下 and李香香拜南宫嫣为师.
+- Added `GIFT-0115`—`GIFT-0117`, covering柳清浅拜师礼、南宫嫣照顾李香香见面礼 and矿区告别雷灵丹赠送; incomplete return mappings remain pending.
+- Added `ART-0074` 人仙巅峰神霄仙火符 and expanded山河灵图、化仙丹 and雷灵丹 records.
+- Recorded徐霄渡劫四重 and山河灵图清除司空浩南及数十名伏击者;司空浩南 status changed to dead.
+- Source traceability passed with qualifications; all remaining gates including character growth continuity and temporal accuracy passed.
+- Completed `TASK-0073` and queued `TASK-0074` beginning at Chapter 545.
+
 ## RUN-0086 — 2026-07-27
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
