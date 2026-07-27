@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 53
+  extension_files: 54
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -979,7 +979,7 @@ characters:
   verification_status: partial
   disciple: 刘玲玲（记名弟子安排）
 - id: CHAR-0005
-  name: 段红绫
+  name: 紫韵
   status: alive
   role: supporting
   affiliations:
@@ -1081,7 +1081,7 @@ characters:
     chapter: 56
     status: partial
 - id: CHAR-0007
-  name: 段红绫
+  name: 金柳香
   status: alive
   role: supporting
   affiliations:
@@ -1196,7 +1196,7 @@ characters:
   - 32
   verification_status: partial
 - id: CHAR-0010
-  name: 陆大年
+  name: 李天霸
   status: dead
   role: antagonist
   affiliations:
@@ -1406,7 +1406,7 @@ characters:
   current_action: 与血云魔尊抵达弑天血宗收徒现场，谋求加入新宗门并恢复复仇能力
   conflict_change: 与徐霄在天元大陆重新形成明确敌对追踪线
 - id: CHAR-0015
-  name: 水月
+  name: 白巧巧
   status: alive
   role: supporting
   affiliations:
@@ -1950,7 +1950,7 @@ characters:
   - 126
   verification_status: partial
 - id: CHAR-0027
-  name: 白九儿
+  name: 柳璃
   status: alive
   role: supporting
   affiliations:
