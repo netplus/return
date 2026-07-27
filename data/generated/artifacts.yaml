@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 56
+  extension_files: 57
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1091,6 +1091,7 @@ artifacts:
   - NODE-0066
   - NODE-0069
   - NODE-0071
+  - NODE-0072
   source_chapters:
   - 451
   - 455
@@ -1103,6 +1104,9 @@ artifacts:
   - 525
   - 526
   - 543
+  - 545
+  - 546
+  - 552
   acquisition_additional:
     gift_id: GIFT-0088
     chapter: 456
@@ -1167,8 +1171,25 @@ artifacts:
       邹蒙: 10
       陈念: 2
     status: partial
+  - gift_id: GIFT-0118
+    chapter: 545
+    recipients:
+    - 陈玉
+    - 李薇
+    quantity: pending
+    status: partial
+  - gift_id: GIFT-0120
+    chapter: 546
+    recipient: 李香香
+    quantity: 10
+    status: partial
+  - gift_id: GIFT-0124
+    chapter: 552
+    recipient: 陈玉
+    quantity: 10
+    status: partial
 - id: ART-0046
-  name: 噬魂封魔剑
+  name: 仙元丹
   category: 先天灵宝魔剑
   grade: 先天灵宝
   first_chapter: 373
@@ -1182,6 +1203,7 @@ artifacts:
   - NODE-0052
   - NODE-0054
   - NODE-0062
+  - NODE-0072
   combat_record:
   - 识破并清除夺舍阴魂
   - 吞噬二十七具合体阴魂并形成魂丹
@@ -1202,6 +1224,7 @@ artifacts:
   - 412
   - 473
   - 474
+  - 548
   abilities:
   - 可吞噬大乘阴魂
   - 被吞噬阴魂可形成对应层级魂丹
@@ -1209,6 +1232,11 @@ artifacts:
   transfer_event: GIFT-0097
   transferred_to: 月幽冥
   transferred_in_chapter: 473
+  acquisition_records:
+  - gift_id: GIFT-0121
+    chapter: 548
+    quantity: 30
+    status: partial
 - id: ART-0047
   name: 混沌破金剑
   category: 先天灵宝神剑
@@ -1492,6 +1520,7 @@ artifacts:
   - NODE-0068
   - NODE-0070
   - NODE-0071
+  - NODE-0072
   source_chapters:
   - 494
   - 517
@@ -1503,10 +1532,18 @@ artifacts:
   - 535
   - 541
   - 542
+  - 546
+  - 548
+  - 549
+  - 552
   acquisition_records:
   - gift_id: GIFT-0111
     chapter: 517
     quantity: 9
+    status: partial
+  - gift_id: GIFT-0124
+    chapter: 552
+    quantity: 20
     status: partial
   transfer_records:
   - gift_id: GIFT-0113
@@ -1528,6 +1565,28 @@ artifacts:
     chapter: 542
     quantity: 10
     recipient: 南宫嫣
+    status: partial
+  - gift_id: GIFT-0119
+    chapter: 546
+    recipient: 云鹤
+    quantity: pending
+    status: partial
+  - gift_id: GIFT-0120
+    chapter: 546
+    recipient: 韩烟
+    quantity: 10
+    status: partial
+  - gift_id: GIFT-0121
+    chapter: 548
+    recipient: 柳清浅
+    quantity: 10
+    status: partial
+  - gift_id: GIFT-0122
+    chapter: 549
+    recipients:
+    - 莫问书
+    - 凌白烟
+    quantity: 2
     status: partial
 - id: ART-0061
   name: 九幽惊魂剑
@@ -1729,3 +1788,17 @@ artifacts:
   source_chapters:
   - 539
   - 540
+- id: ART-0075
+  name: 陈玉返还仙器神剑（正式名称待确认）
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 551
+  current_holder: 徐霄
+  acquisition: GIFT-0123系统返还
+  effect: 正式名称、属性、能力、使用限制与后续分配待确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes:
+  - NODE-0072
+  source_chapters:
+  - 551

@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 115
+    count: 119
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -229,7 +229,7 @@ groups:
     - id: CHAR-0110
       path: docs/02-characters/韩烟.md
     - id: CHAR-0111
-      path: docs/02-characters/司空浩南.md
+      path: docs/02-characters/韩烟-CHAR-0111.md
     - id: CHAR-0112
       path: docs/02-characters/西门恨天.md
     - id: CHAR-0113
@@ -238,8 +238,16 @@ groups:
       path: docs/02-characters/南宫嫣.md
     - id: CHAR-0115
       path: docs/02-characters/云鹤.md
+    - id: CHAR-0116
+      path: docs/02-characters/陈玉.md
+    - id: CHAR-0117
+      path: docs/02-characters/李薇.md
+    - id: CHAR-0118
+      path: docs/02-characters/莫问书.md
+    - id: CHAR-0119
+      path: docs/02-characters/凌白烟.md
   artifacts:
-    count: 74
+    count: 75
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -334,7 +342,7 @@ groups:
     - id: ART-0045
       path: docs/06-artifacts/雷灵丹.md
     - id: ART-0046
-      path: docs/06-artifacts/噬魂封魔剑.md
+      path: docs/06-artifacts/仙元丹.md
     - id: ART-0047
       path: docs/06-artifacts/混沌破金剑.md
     - id: ART-0048
@@ -391,10 +399,12 @@ groups:
       path: docs/06-artifacts/万龙鎏金甲.md
     - id: ART-0074
       path: docs/06-artifacts/人仙巅峰神霄仙火符.md
+    - id: ART-0075
+      path: docs/06-artifacts/陈玉返还仙器神剑（正式名称待确认）.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 115
-  growth_events: 468
+  characters_with_growth_line: 119
+  growth_events: 482
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
