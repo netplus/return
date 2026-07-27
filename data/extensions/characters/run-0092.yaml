@@ -1,0 +1,98 @@
+schema_version: 1
+run_id: RUN-0092
+characters:
+- id: CHAR-0132
+  name: 厉红魅
+  status: alive
+  role: supporting
+  affiliations: [玄阴仙宗, 阴阳仙门势力范围]
+  identities: [玄阴仙宗掌门, B级气运之女]
+  first_appearance: {chapter: 584, title: 到达云隐城, node: NODE-0076}
+  cultivation: {current: 人仙七重, status: verified}
+  relationship_context: {南宫嫣: 上宗任务负责人, 徐霄: 初次合作并对其资源与行事方式保持警惕, status: partial}
+  related_nodes: [NODE-0076]
+  source_chapters: [584, 585, 586, 587, 588]
+  document: null
+  verification_status: verified
+- id: CHAR-0133
+  name: 南宫化极
+  status: alive
+  role: supporting
+  affiliations: [云隐城, 阴阳仙门势力范围]
+  identities: [云隐城城主, 南宫嫣祖父]
+  first_appearance: {chapter: 584, title: 到达云隐城, node: NODE-0076}
+  cultivation: {current: 人仙一重, status: verified}
+  relationship_context: {南宫嫣: 祖孙, 徐霄: 对其与南宫嫣关系及高阶资源投入感到震惊, status: partial}
+  related_nodes: [NODE-0076]
+  source_chapters: [584, 585, 586, 587, 588]
+  document: null
+  verification_status: verified
+- id: CHAR-0134
+  name: 金大友
+  status: alive
+  role: antagonist
+  affiliations: [金蟾族, 纯阳仙门]
+  identities: [金蟾族分支族长]
+  first_appearance: {chapter: 588, title: 额外的传送仙台, node: NODE-0076}
+  cultivation: {current: 人仙九重, status: verified}
+  conflict_context: {阴阳仙门: 拒绝让出海底灵矿, 纯阳仙门: 秘密投靠并依赖其支持, status: verified}
+  related_nodes: [NODE-0076]
+  source_chapters: [588]
+  document: null
+  verification_status: verified
+- id: CHAR-0135
+  name: 青锋
+  status: alive
+  role: antagonist
+  affiliations: [纯阳仙门]
+  identities: [纯阳仙门内门执事, 气运之敌]
+  first_appearance: {chapter: 588, title: 额外的传送仙台, node: NODE-0076}
+  cultivation: {current: 地仙境, exact_level: pending, status: partial}
+  conflict_context: {徐霄: 系统发布击杀任务, 柳清浅: 借灵矿谈判谋求接触, status: verified}
+  related_nodes: [NODE-0076]
+  source_chapters: [588]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 渡劫七重
+    age_change: 1034岁
+    ability_change_add: [服用三千天道丹并完美领悟剑之大道]
+    task_change_add: [击杀气运之敌青锋并获取额外传送仙台]
+    related_nodes_add: [NODE-0076]
+    source_chapters_add: [581, 582, 583, 584, 585, 586, 587, 588]
+    growth_event_add:
+    - chapter_range: {start: 583, end: 588}
+      event: 完美领悟剑之大道并接取击杀青锋任务
+      core_ability: [渡劫七重, 剑之大道完美领悟, 仙神魂胎与多重体质保持]
+      impact: [灵矿争端升级为系统任务, 额外传送仙台成为资源网络扩展目标]
+      status: verified
+- id: CHAR-0121
+  name: 东方青
+  update:
+    system_behavior_add: [三级做好事就变强系统以善行积分兑换丹药, 系统一至十级处于天道规则范围]
+    identity_change_add: [被万倍返还系统识别为气运之子]
+    related_nodes_add: [NODE-0076]
+    source_chapters_add: [581, 582, 583]
+    growth_event_add:
+    - chapter_range: {start: 581, end: 583}
+      event: 公开执行做好事策略并确认系统规则
+      core_ability: [天仙一重, 三级做好事就变强系统]
+      impact: [善行积分兑换丹药成为其长期成长路径, 气运之子身份获得系统确认]
+      status: verified
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    cultivation_change: 人仙巅峰
+    accepted_gifts_add: [GIFT-0129, GIFT-0130]
+    resource_change_add: [十颗化仙丹, 两张人仙九重神霄玄冰符]
+    related_nodes_add: [NODE-0076]
+    source_chapters_add: [581, 582, 583, 584, 585, 586, 587, 588]
+    growth_event_add:
+    - chapter_range: {start: 583, end: 588}
+      event: 晋升人仙巅峰并负责云隐城海底灵矿任务
+      core_ability: [人仙巅峰, 获得丹药与高阶寒冰符支持]
+      impact: [道伤修复资源线继续推进, 代表阴阳仙门处理南海势力争端]
+      status: verified

@@ -1,28 +1,30 @@
 # Changelog
 
-## RUN-0091 — 2026-07-27
+## RUN-0092 — 2026-07-27
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only the unique pending `TASK-0077`; no completed task, Timeline node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 580:南宫嫣道伤、三千天道丹返还、万青罗方问责转认可 and东方青挽回策略 form one coherent arc; Chapter 581 begins the public execution of the做好事 system strategy.
-- Created `NODE-0075`, covering Chapters 573—580.
-- Added 万青 and罗方 as `CHAR-0130` and `CHAR-0131` with chapter-anchored first appearances.
-- Updated 徐霄、南宫嫣、罗素、东方青、柳清浅、莫问书 and凌白烟 with timed `growth_event_add` records.
-- Added `GIFT-0128`, `ART-0078` 三千天道丹 and `ART-0079` 罗素获赠顶级仙器（正式名称待确认）.
-- Recorded三千天道丹可完美领悟一条上位大道，并与三千大道丹同属随机出现的三千大道体系.
-- Preserved南宫嫣最终修复、三千天道丹原始触发链、顶级仙器正式名称能力、万青罗方完整面板 and东方青系统完整规则 as pending.
-- Source traceability passed with qualifications; all generated-document, identity and growth gates must pass in repository CI before merge.
-- Completed `TASK-0077` and queued `TASK-0078` beginning at Chapter 581.
+- Resumed only the unique pending `TASK-0078`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 588: 东方青系统确认、云隐城抵达、灵矿情报、青锋识别和任务发布 form one coherent arc; Chapter 589 begins direct combat and task execution.
+- Created `NODE-0076`, covering Chapters 581—588.
+- Added 厉红魅、南宫化极、金大友 and青锋 as `CHAR-0132`—`CHAR-0135` with chapter-anchored first appearances.
+- Updated 徐霄、东方青 and南宫嫣 with timed `growth_event_add` records.
+- Added `GIFT-0129`—`GIFT-0130`, updated `ART-0078` 三千天道丹 and added `ART-0080` 极道万冰符.
+- Recorded东方青三级做好事系统、徐霄完美剑之大道 and击杀青锋奖励额外传送仙台任务.
+- Source traceability passed using the archived whole-file and per-chapter hashes; full chapter text was not committed.
+- Completed `TASK-0078` and queued `TASK-0079` beginning at Chapter 589.
+
+## RUN-0091 — 2026-07-27
+
+- Created `NODE-0075`, covering Chapters 573—580; completed `TASK-0077` and queued `TASK-0078`.
+- Added万青罗方、三千天道丹 and太上长老关系认可.
 
 ## RUN-0090 — 2026-07-27
 
 - Created `NODE-0074`, covering Chapters 565—572; completed `TASK-0076` and queued `TASK-0077`.
-- Added凤青玄姬雪仙界现状、柳清浅凤青玄罗素资源关系 and神御黑冰符、至尊神火剑返还.
 
 ## RUN-0089 — 2026-07-27
 
 - Created `NODE-0073`, covering Chapters 553—564; completed `TASK-0075` and queued `TASK-0076`.
-- Added 罗素、东方青、上官无双、剑天、战狂、梦琳、云姑心、绝柔、苍松 and浑天.
 
 ## RUN-0088 — 2026-07-27
 

@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0092
+artifacts:
+- id: ART-0080
+  name: 极道万冰符
+  category: 符箓
+  grade: 地仙九重
+  first_chapter: 587
+  current_holder: 徐霄
+  acquisition: GIFT-0130返还两张
+  effect: 高阶寒冰类符箓；完整攻击、防御和使用限制待后续确认
+  current_state: 两张已入徐霄空间库
+  status: partial
+  related_nodes: [NODE-0076]
+  source_chapters: [587]
+artifact_updates:
+- id: ART-0078
+  name: 三千天道丹
+  update:
+    current_holder: 已消耗
+    current_state: 第583章由徐霄服用
+    effect_change_add: [使徐霄完美领悟剑之大道]
+    related_nodes_add: [NODE-0076]
+    source_chapters_add: [583]

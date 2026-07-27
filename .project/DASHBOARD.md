@@ -5,47 +5,47 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 580
-- **Current evidence exploration through:** Chapter 581
+- **Canonical coverage through:** Chapter 588
+- **Current evidence exploration through:** Chapter 589
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 75
+- **Completed timeline nodes:** 76
 - **Draft timeline nodes:** 0
-- **Documented characters:** 131
-- **Generated character profiles:** 131
-- **Gift events:** 128
-- **Artifact records:** 79
-- **Generated artifact profiles:** 79
-- **Last run:** `RUN-0091`
-- **Last completed node:** `NODE-0075`
-- **Next task:** `TASK-0078` — 东方青做好事系统、仙界毒瘤与云隐城出发 story arc
-- **Provisional exploration range:** Chapters 581–588
+- **Documented characters:** 135
+- **Generated character profiles:** 135
+- **Gift events:** 130
+- **Artifact records:** 80
+- **Generated artifact profiles:** 80
+- **Last run:** `RUN-0092`
+- **Last completed node:** `NODE-0076`
+- **Next task:** `TASK-0079` — 海底灵矿、厉红魅与青锋击杀 story arc
+- **Provisional exploration range:** Chapters 589–597
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0075` covers Chapters 573—580. 南宫嫣道伤并发症公开恶化，晋升地仙并以五行之气重塑三花成为明确根治方向。徐霄获得可完美领悟上位大道的三千天道丹，并以高品质仙元丹和顶级仙器证明对罗素的长期资源承诺。罗素父母、阴阳仙门太上长老万青与罗方由高层问责转为公开认可两人关系。东方青确认旧道侣关系变化后，启动借做好事系统提升修为并挽回罗素的长期策略。第581章转入该策略的公开执行。
+`NODE-0076` covers Chapters 581—588. 东方青被确认是绑定三级“做好事就变强系统”的气运之子；徐霄服用三千天道丹并完美领悟剑之大道。徐霄随南宫嫣一行抵达云隐城，确认海底灵矿规模、金蟾族秘密投靠纯阳仙门及青锋借灵矿争端谋求接触柳清浅。系统随后发布击杀青锋任务，奖励额外传送仙台。
 
 ## Character growth updates
 
-`RUN-0091` adds timed growth events for 徐霄、南宫嫣、罗素、东方青、柳清浅、莫问书 and凌白烟, and adds chapter-anchored first appearances for 万青 and罗方. Incomplete gift triggers, exact multipliers, artifact naming and system rules remain pending.
+`RUN-0092` adds timed growth events for 徐霄、东方青 and南宫嫣, and chapter-anchored first appearances for 厉红魅、南宫化极、金大友 and青锋.
 
-## Quality gates — RUN-0091
+## Quality gates — RUN-0092
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed with qualifications |
+| Source traceability | Passed — archived chapter hashes verified |
 | Arc coherence | Passed |
 | Materiality | Passed |
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 131 character and 79 artifact records |
+| Entity-document freshness | Passed — 135 character and 80 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 7 timed material updates and 2 new first appearances |
+| Character growth continuity | Passed — 3 timed material updates and 4 new first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第573—581章标题、顺序和阶段边界；第573—580章正文由CP小说网可访问镜像交叉核验。南宫嫣最终修复、三千天道丹原始触发链、罗素获赠仙器正式名称、万青罗方完整面板以及东方青做好事系统完整规则继续保持 `pending`。
+The user-supplied Internet Archive source is fixed by whole-file SHA-256 plus per-chapter title, offset and hash metadata. Chapters 581—588 were reviewed from a transient evidence artifact; no full chapter text is stored in Git history. The exact limits of 东方青's system, the full ability of 极道万冰符 and the final mine/青锋 outcome remain pending.
