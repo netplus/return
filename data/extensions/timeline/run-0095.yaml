@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0095
+nodes:
+- id: NODE-0079
+  title: 柳清浅入地仙、集体晋升内门与刘爱花会面
+  chapters: {start: 604, end: 609}
+  granularity: story_arc
+  status: verified
+  source_qualification: Internet Archive归档整文件及第604—609章标题偏移单章哈希已入库，正文在临时证据窗口逐章核验
+  boundary_reason: 第609章完成内门晋升、凤青玄和刘爱花资源会面及飞升会邀请；第610章转入丁静赠送与飞升会身份揭示
+  characters: [徐霄, 柳清浅, 凤青玄, 姬雪, 罗素, 东方青, 莫问书, 凌白烟, 梦琳, 云姑心, 陆道离, 孟凡]
+  system_events:
+  - {event: 柳清浅晋升赠送, result: 十颗仙元丹返还三十颗五行仙丹, status: verified}
+  - {event: 凤青玄和姬雪资源赠送, result: 各十颗化仙丹分别返还一百颗仙元丹, status: verified}
+  - {event: 易容身份识别, result: 系统直接确认刘爱花真实身份为姬雪, status: verified}
+  relationship_result: 柳清浅与徐霄建立保密关系；凤青玄允许改称青玄；姬雪以刘爱花身份进入长期赠送渠道
+  pending: [道元张大全完整仙界经历, 陆道离厉红魅旧关系结果, 阴阳飞升会完整成员]
+  document: docs/01-timeline/node-0079.md
+  evidence: sources/evidence/chapters-604-609.yaml
