@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0078
+run_id: RUN-0079
 coverage:
   chapters_covered_through: 499
   chapters_promoted_in_run: []
@@ -20,14 +20,16 @@ entity_documents:
   generator: scripts/render_entity_docs.py
   manifest: docs/entity-docs-manifest.yaml
   presentation: reader_friendly_with_collapsed_canonical_appendix
+  identity_alignment_validator: scripts/validate_entity_identity.py
 quality_gates:
-  source_traceability: {status: passed, scope: existing_canonical_records, failures: 0}
+  source_traceability: {status: passed, scope: existing_canonical_identity_metadata, failures: 0}
   arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
-  materiality: {status: passed, entity_updates: [reader_friendly_entity_renderer, semantic_sections, collapsed_audit_appendix, current_value_resolution]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, projection_targets: [docs/02-characters, docs/06-artifacts]}
+  materiality: {status: passed, entity_updates: [CHAR-0005紫韵, CHAR-0007金柳香, CHAR-0010李天霸, CHAR-0015白巧巧, CHAR-0027柳璃, character_identity_validator]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, profile_name_path_mismatches: 0}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md]}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, data/extensions/characters/run-0079.yaml, docs/00-project/WORKFLOW.md, .github/workflows/knowledge-base-ci.yml]}
   entity_document_freshness: {status: passed, characters: 102, artifacts: 68, complete_canonical_record_preserved: true, manifest_required: true}
-  entity_document_readability: {status: passed, semantic_sections: true, complex_fields_rendered_as_nested_markdown: true, sources_collapsed: true, canonical_appendix_collapsed: true, latest_change_values_preferred: true}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: reader_friendly_structured_projection}
+  entity_document_readability: {status: passed, semantic_sections: true, canonical_appendix_collapsed: true}
+  character_identity_alignment: {status: passed, audited_records: 102, mismatches_repaired: 5, remaining_mismatches: 0}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: canonical_identity_reconciliation}
 blockers: []
