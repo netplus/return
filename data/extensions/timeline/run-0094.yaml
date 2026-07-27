@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0094
+nodes:
+- id: NODE-0078
+  title: 南宫嫣关系修复、返宗调查与东方青转向
+  chapters: {start: 598, end: 603}
+  granularity: story_arc
+  status: verified
+  source_qualification: Internet Archive归档整文件及第598—603章标题偏移单章哈希已入库，正文在临时证据窗口逐章核验
+  boundary_reason: 第603章完成东方青立场转变、气运之子返还规则确认及厉红魅入宗批准；第604章转入内门飞升者与晋升内门阶段
+  characters: [徐霄, 南宫嫣, 东方青, 罗素, 厉红魅, 凌白烟, 莫问书, 吕玄一]
+  system_events:
+  - {event: 南宫嫣关系修复赠送, result: 九霄山河图和地仙巅峰魂丹, status: verified}
+  - {event: 气运之子赠送规则, result: 东方青获赠五颗五行仙丹并全部原样返还, status: verified}
+  relationship_result: 南宫嫣羁绊升至二；东方青由问责徐霄转为公开支持并批准厉红魅入宗
+  pending: [九霄山河图能力升级, 地仙巅峰魂丹使用结果, 纯阳仙门后续调查]
+  document: docs/01-timeline/node-0078.md
+  evidence: sources/evidence/chapters-598-603.yaml

@@ -1,0 +1,29 @@
+schema_version: 1
+run_id: RUN-0094
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 598, end: 603}
+source_gate: passed
+archive_source:
+  provider: Internet Archive
+  source_id: fanqienovel-7423641263695481880
+  manifest: sources/archive/fanqienovel-7423641263695481880/manifest.yaml
+  chapter_indexes: [sources/archive/fanqienovel-7423641263695481880/chapters-0551-0600.yaml, sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml]
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  storage_policy: metadata_only_no_full_chapter_text
+confirmed_chapters:
+- {chapter: 598, title: 南宫嫣不开心}
+- {chapter: 599, title: 南宫嫣很开心}
+- {chapter: 600, title: 回到阴阳仙门}
+- {chapter: 601, title: 纯阳仙门的调查}
+- {chapter: 602, title: 东方青不忍了}
+- {chapter: 603, title: 东方青态度巨变}
+chapter_facts:
+- {chapter: 598, facts: [徐霄对外维持海底地火解释, 以山河灵图尝试修复南宫嫣关系], status: verified}
+- {chapter: 599, facts: [南宫嫣接受山河灵图和人仙巅峰魂丹并确立关系, 系统返还九霄山河图和地仙巅峰魂丹], status: verified}
+- {chapter: 600, facts: [徐霄一行返回阴阳仙门, 吕玄一命令调查青锋死亡并将徐霄列为潜在目标, 莫问书凌白烟获得化仙丹], status: verified}
+- {chapter: 601, facts: [凌白烟三颗化仙丹返还三颗仙元丹, 南宫嫣羁绊升至2, 纯阳仙门调查未找到直接证据, 罗素十颗仙元丹返还十颗五行仙丹], status: verified}
+- {chapter: 602, facts: [东方青因徐霄与南宫嫣关系公开前来问责, 徐霄赠送三颗五行仙丹改变其行动], status: verified}
+- {chapter: 603, facts: [气运之子赠送原样返还规则确认, 东方青再收两颗五行仙丹后全面支持徐霄并批准厉红魅担任外门长老], status: verified}
+boundary_reason: 第603章完成关系修复、返宗调查、气运之子规则和东方青立场转变；第604章转入内门飞升者与晋升内门阶段
+pending: [九霄山河图完整能力, 地仙巅峰魂丹使用, 纯阳仙门后续调查]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts_and_source_hashes}

@@ -1,0 +1,110 @@
+schema_version: 1
+run_id: RUN-0094
+characters:
+- id: CHAR-0137
+  name: 吕玄一
+  status: alive
+  role: antagonist
+  affiliations: [纯阳仙门]
+  identities: [纯阳仙门掌门]
+  first_appearance: {chapter: 600, title: 回到阴阳仙门, node: NODE-0078}
+  cultivation: {current: 高阶仙境, exact_level: pending, status: pending}
+  conflict_context: {东方青: 长期竞争与敌对, 徐霄: 因青锋死亡及罗素关系将其列为潜在清除目标, status: verified}
+  related_nodes: [NODE-0078]
+  source_chapters: [600, 601]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: [与南宫嫣正式确立关系并将羁绊提升至2, 通过赠送资源促使东方青公开支持]
+    resource_change_add: [返还九霄山河图, 返还地仙巅峰魂丹, 五颗五行仙丹赠予东方青后原样返还]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [598, 599, 600, 601, 602, 603]
+    growth_event_add:
+    - chapter_range: {start: 598, end: 603}
+      event: 修复南宫嫣关系并改变东方青立场
+      core_ability: [长期资源网络, 系统气运之子原样返还规则]
+      impact: [南宫嫣羁绊升至二, 厉红魅获得入宗资格, 东方青转为支持者]
+      status: verified
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    accepted_gifts_add: [GIFT-0134, GIFT-0135]
+    relationship_change_add: [与徐霄正式确立关系, 羁绊度提升至2]
+    resource_change_add: [山河灵图, 人仙巅峰魂丹]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [598, 599, 600, 601, 602]
+    growth_event_add:
+    - chapter_range: {start: 598, end: 601}
+      event: 接受核心仙器和魂丹并与徐霄确立关系
+      core_ability: [人仙巅峰, 山河灵图, 人仙巅峰魂丹]
+      impact: [双方冲突完成修复, 羁绊升至二, 地仙与道伤修复资源路径进一步明确]
+      status: verified
+- id: CHAR-0121
+  name: 东方青
+  update:
+    accepted_gifts_add: [GIFT-0138, GIFT-0139]
+    resource_change_add: [五颗高品质五行仙丹]
+    relationship_change_add: [由公开问责徐霄转为全面支持, 批准厉红魅担任外门长老]
+    system_behavior_add: [赠送气运之子的物品原封不动返还]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [601, 602, 603]
+    growth_event_add:
+    - chapter_range: {start: 602, end: 603}
+      event: 接受五颗五行仙丹并改变对徐霄的立场
+      core_ability: [做好事就变强系统, 获得高品质五行仙丹]
+      impact: [由反对者转为支持者, 同意厉红魅以外门长老身份入宗]
+      status: verified
+- id: CHAR-0120
+  name: 罗素
+  update:
+    accepted_gifts_add: [GIFT-0137]
+    resource_change_add: [十颗仙元丹]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [601]
+    growth_event_add:
+    - chapter: 601
+      event: 接受十颗仙元丹并维持徐霄长期资源关系
+      core_ability: [地仙七重, 高品质仙元丹支持]
+      impact: [后续五行凝练资源继续积累]
+      status: verified
+- id: CHAR-0119
+  name: 凌白烟
+  update:
+    accepted_gifts_add: [GIFT-0136]
+    resource_change_add: [三颗化仙丹]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [600, 601]
+    growth_event_add:
+    - chapter_range: {start: 600, end: 601}
+      event: 接受返宗看守资源
+      core_ability: [化仙丹资源增加]
+      impact: [形成反对徐霄行为但持续接受其修炼资源的稳定模式]
+      status: verified
+- id: CHAR-0118
+  name: 莫问书
+  update:
+    resource_change_add: [三颗化仙丹]
+    role_change_add: [继续承担返程操舟与看守协助]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [600, 601]
+    growth_event_add:
+    - chapter_range: {start: 600, end: 601}
+      event: 返宗途中继续协助并获得三颗化仙丹
+      core_ability: [化仙丹资源增加]
+      impact: [与徐霄的资源协作关系进一步稳定]
+      status: verified
+- id: CHAR-0132
+  name: 厉红魅
+  update:
+    role_change_add: [获东方青批准以阴阳仙门外门长老身份入宗]
+    related_nodes_add: [NODE-0078]
+    source_chapters_add: [603]
+    growth_event_add:
+    - chapter: 603
+      event: 获批进入阴阳仙门担任外门长老
+      core_ability: [人仙七重, 徐霄长期资源支持]
+      impact: [从玄阴仙宗掌门线正式转入阴阳仙门修炼路径]
+      status: verified
