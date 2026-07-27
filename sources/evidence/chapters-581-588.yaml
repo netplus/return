@@ -1,0 +1,49 @@
+schema_version: 1
+run_id: RUN-0092
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 581, end: 588}
+source_gate: passed
+archive_source:
+  provider: Internet Archive
+  source_id: fanqienovel-7423641263695481880
+  manifest: sources/archive/fanqienovel-7423641263695481880/manifest.yaml
+  chapter_indexes: [sources/archive/fanqienovel-7423641263695481880/chapters-0551-0600.yaml]
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  storage_policy: metadata_only_no_full_chapter_text
+confirmed_chapters:
+- {chapter: 581, title: 仙界毒瘤}
+- {chapter: 582, title: 东方青拦路}
+- {chapter: 583, title: 做好事就变强系统}
+- {chapter: 584, title: 到达云隐城}
+- {chapter: 585, title: 徐霄的办法}
+- {chapter: 586, title: 毒瘤身份逐渐曝光}
+- {chapter: 587, title: 出发海底灵矿}
+- {chapter: 588, title: 额外的传送仙台}
+chapter_facts:
+- chapter: 581
+  facts: [徐霄仙界毒瘤名声持续扩散, 东方青一年间持续寻找系统认可的好事]
+  status: verified
+- chapter: 582
+  facts: [东方青向徐霄一行提供金蟾族投靠纯阳仙门情报、地图和传讯支持, 徐霄一行继续前往云隐城]
+  status: verified
+- chapter: 583
+  facts: [东方青被识别为气运之子并绑定三级做好事就变强系统, 南宫嫣晋升人仙巅峰并获十颗化仙丹, 徐霄服用三千天道丹完美领悟剑之大道]
+  status: verified
+- chapter: 584
+  facts: [徐霄南宫嫣莫问书凌白烟抵达云隐城, 厉红魅和南宫化极进入主线]
+  status: verified
+- chapter: 585
+  facts: [灵矿年产约八百至一千上品灵精并可开采千年以上, 金蟾族分支拥有一名人仙九重和两名人仙三重]
+  status: verified
+- chapter: 586
+  facts: [徐霄提出彻底清除金蟾族并收回灵矿的方案, 其仙界毒瘤身份在云隐城逐渐公开]
+  status: verified
+- chapter: 587
+  facts: [南宫嫣获两张神霄玄冰符并返还两张极道万冰符, 一行出发前往海底灵矿]
+  status: verified
+- chapter: 588
+  facts: [金大友拒绝让出灵矿, 纯阳仙门弟子要求柳清浅与青锋洽谈, 系统识别青锋为气运之敌并发布击杀任务]
+  status: verified
+boundary_reason: 第588章完成谈判破裂、青锋识别和系统任务发布；第589章开始直接战斗与任务执行
+pending: [东方青系统完整积分边界, 极道万冰符完整能力, 灵矿与青锋任务最终结果]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts_and_source_hashes}
