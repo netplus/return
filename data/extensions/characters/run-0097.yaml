@@ -1,0 +1,145 @@
+schema_version: 1
+run_id: RUN-0097
+characters:
+- id: CHAR-0145
+  name: 云花海
+  status: alive
+  role: supporting
+  affiliations: [五灵仙门]
+  identities: [五灵仙门掌门, 天仙上境, 罗素旧友, SSS级气运之女]
+  first_appearance: {chapter: 619, title: 交流大会开始, node: NODE-0081}
+  cultivation: {current: 天仙上境, status: verified}
+  luck_grade: {value: SSS, return_multiplier: 100, bond: 1, status: verified}
+  relationship_context: {罗素: 自幼相识的闺蜜并曾参加其婚礼, 徐霄: 初次见面后被系统识别为高阶有效对象, status: verified}
+  related_nodes: [NODE-0081]
+  source_chapters: [619, 620, 621]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    age_change: 1039岁
+    cultivation_change: 人仙三重
+    resource_change_add: [仙器六十余件, 至尊仙器六件, 仙元丹四千余颗, 五行仙丹五百四十余颗, 地仙符箓三十一张, 天仙符箓两张, 上品灵精一万八千余枚, 鸿蒙真气五十股]
+    role_change_add: [建立十余人的内门执法弟子与护院班底]
+    combat_record_add: [第617章以九霄山河图一击收纳血灵宗三名融合后达到人仙巅峰的长老]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617, 618, 619, 620, 621, 622]
+    growth_event_add:
+    - chapter_range: {start: 617, end: 622}
+      event: 五年执法成长并决定代南宫嫣参加三宗人仙大会
+      core_ability: [人仙三重, 九霄山河图可瞬间收纳人仙巅峰目标, 剑力两条上位大道]
+      impact: [建立内门执法班底, 完成血灵宗清剿, 进入三宗人仙大会主战线]
+      status: verified
+- id: CHAR-0138
+  name: 陆道离
+  update:
+    conflict_change_add: [携旧日凤钗挽回厉红魅时亲眼确认其与徐霄关系，旧情修复彻底失败]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617, 618, 622]
+    growth_event_add:
+    - chapter_range: {start: 617, end: 622}
+      event: 挽回厉红魅失败并形成对徐霄的持续私人敌意
+      impact: [旧情冲突由重启尝试转为长期对立]
+      status: verified
+- id: CHAR-0132
+  name: 厉红魅
+  update:
+    relationship_change_add: [明确拒绝陆道离并维持与徐霄的稳定关系]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617, 622]
+    growth_event_add:
+    - chapter_range: {start: 617, end: 622}
+      event: 拒绝陆道离旧情挽回并公开维持现有关系
+      impact: [与陆道离旧情线实质终止, 与徐霄关系进一步公开化]
+      status: verified
+- id: CHAR-0119
+  name: 凌白烟
+  update:
+    cultivation_change: 人仙四重
+    role_change_add: [徐霄直属内门执法弟子和护院成员]
+    accepted_gifts_add: [GIFT-0148]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617, 618, 619]
+    growth_event_add:
+    - chapter_range: {start: 617, end: 619}
+      event: 进入徐霄长期执法与护院体系并升至人仙四重
+      core_ability: [人仙四重]
+      impact: [资源供给和直属执法关系稳定]
+      status: verified
+- id: CHAR-0118
+  name: 莫问书
+  update:
+    cultivation_change: 人仙四重
+    role_change_add: [徐霄直属内门执法弟子和护院成员]
+    accepted_gifts_add: [GIFT-0148]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [618, 619]
+    growth_event_add:
+    - chapter_range: {start: 618, end: 619}
+      event: 转投徐霄麾下并升至人仙四重
+      core_ability: [人仙四重]
+      impact: [成为长期护院和执法班底成员]
+      status: verified
+- id: CHAR-0125
+  name: 梦琳
+  update:
+    role_change_add: [徐霄直属内门执法弟子]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617]
+    growth_event_add:
+    - chapter: 617
+      event: 随凌白烟进入徐霄执法队伍并参与血灵宗任务
+      impact: [由云鹤门下弟子转入稳定执法班底]
+      status: verified
+- id: CHAR-0126
+  name: 云姑心
+  update:
+    role_change_add: [徐霄直属内门执法弟子]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617]
+    growth_event_add:
+    - chapter: 617
+      event: 随凌白烟进入徐霄执法队伍并参与血灵宗任务
+      impact: [进入稳定执法班底]
+      status: verified
+- id: CHAR-0107
+  name: 邹蒙
+  update:
+    cultivation_change: 人仙一重
+    role_change_add: [徐霄护院守卫和内门执法弟子]
+    accepted_gifts_add: [GIFT-0148]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617, 618, 619]
+    growth_event_add:
+    - chapter_range: {start: 617, end: 619}
+      event: 辞去矿役后成为徐霄护院和执法弟子并升至人仙一重
+      core_ability: [人仙一重]
+      impact: [职业与资源路径由矿工转为长期直属班底]
+      status: verified
+- id: CHAR-0120
+  name: 罗素
+  update:
+    cultivation_change: 地仙八重
+    relationship_change_add: [向云花海公开徐霄持续提供仙元丹并支持未来天仙资源]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [619, 620, 621, 622]
+    growth_event_add:
+    - chapter_range: {start: 619, end: 622}
+      event: 以地仙八重身份参加三宗大会并公开长期资源关系
+      core_ability: [地仙八重]
+      impact: [与云花海的旧友关系重新接续, 与徐霄关系在三宗高层公开]
+      status: verified
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    role_change_add: [阴阳仙门人仙交流大会参赛者]
+    relationship_change_add: [获得罗素公开接受并由徐霄主动代战保护]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [622]
+    growth_event_add:
+    - chapter: 622
+      event: 参加三宗人仙大会并由徐霄决定代其迎战二气人仙
+      impact: [与罗素关系公开协调, 避免对阵实力明显超出的金刚丰]
+      status: verified
