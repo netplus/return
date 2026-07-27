@@ -70,7 +70,7 @@ character_updates:
       core_ability: [地仙七重, 高品质仙元丹支持]
       impact: [后续五行凝练资源继续积累]
       status: verified
-- id: CHAR-0124
+- id: CHAR-0119
   name: 凌白烟
   update:
     accepted_gifts_add: [GIFT-0136]
@@ -83,7 +83,7 @@ character_updates:
       core_ability: [化仙丹资源增加]
       impact: [形成反对徐霄行为但持续接受其修炼资源的稳定模式]
       status: verified
-- id: CHAR-0097
+- id: CHAR-0118
   name: 莫问书
   update:
     resource_change_add: [三颗化仙丹]
