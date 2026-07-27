@@ -39,11 +39,11 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Pending CI — expected 129 character and 75 artifact records |
-| Entity-document readability | Pending CI |
-| Character identity alignment | Pending CI |
-| Character growth continuity | Pending CI — 5 timed material updates and 10 anchored first appearances |
-| Growth temporal accuracy | Pending CI |
+| Entity-document freshness | Passed — 129 character and 75 artifact records |
+| Entity-document readability | Passed |
+| Character identity alignment | Passed — 0 mismatches |
+| Character growth continuity | Passed — 5 timed material updates and 10 anchored first appearances |
+| Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
