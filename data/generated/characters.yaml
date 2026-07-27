@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 70
+  extension_files: 71
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -150,6 +150,7 @@ characters:
   - NODE-0079
   - NODE-0080
   - NODE-0081
+  - NODE-0082
   source_chapters:
   - 1
   - 2
@@ -733,6 +734,16 @@ characters:
   - 620
   - 621
   - 622
+  - 623
+  - 624
+  - 625
+  - 626
+  - 627
+  - 628
+  - 629
+  - 630
+  - 631
+  - 632
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -916,7 +927,9 @@ characters:
   - 阴阳仙门掌门东方青亲传弟子
   hongmeng_qi: 18
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
-  title: 无妄仙宗内门大师兄
+  title:
+  - 无妄仙宗内门大师兄
+  - 天南第一人仙
   public_resource_explanation: 获得缥缈仙宗道元真人部分传承
   resource_support: 承诺长期提供林婉修炼资源
   body_resource: 向玉冰提供天龙血用于后续研究
@@ -959,6 +972,9 @@ characters:
   - 以完美剑之大道驱动双至尊仙剑形成人仙境压倒性战力
   - 服用三千天道丹并完美领悟力之大道
   - 力之大道全力出拳可短暂撕裂仙界空间
+  - 完美冰系大道公开
+  - 完美剑之大道形成大范围莲花剑气
+  - 法体剑三修战力公开达到压倒性地仙级表现
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1176,6 +1192,22 @@ characters:
     - 建立内门执法班底
     - 完成血灵宗清剿
     - 进入三宗人仙大会主战线
+    status: verified
+  - chapter_range:
+      start: 623
+      end: 632
+    event: 横扫三宗人仙交流大会并取得天南第一人仙称号
+    core_ability:
+    - 佛陀金身与九天玉骨炼体
+    - 完美冰系大道
+    - 完美剑之大道
+    - 万龙鎏金甲
+    - 九天神玉带
+    - 至尊神火剑
+    impact:
+    - 法体剑三修实力向三宗公开
+    - 获得天南第一人仙长期声望
+    - 纯阳与五灵仙门敌意升级
     status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
@@ -7842,11 +7874,36 @@ characters:
     status: verified
   related_nodes:
   - NODE-0078
+  - NODE-0082
   source_chapters:
   - 600
   - 601
+  - 626
+  - 629
+  - 630
+  - 631
+  - 632
   document: null
   verification_status: partial
+  system_identity:
+  - 气运之子
+  - 先天剑体
+  - 至尊仙剑传承者
+  conflict_change:
+  - 系统发布击杀任务
+  - 大会败北后对徐霄敌意显著升级
+  growth_event:
+  - chapter_range:
+      start: 626
+      end: 632
+    event: 被系统识别并在交流大会中全面败北
+    core_ability:
+    - 先天剑体
+    - 至尊仙剑传承
+    impact:
+    - 成为徐霄气运之敌任务目标
+    - 纯阳仙门与徐霄冲突长期化
+    status: partial
 - id: CHAR-0138
   name: 陆道离
   status: alive
@@ -8157,9 +8214,60 @@ characters:
     status: verified
   related_nodes:
   - NODE-0081
+  - NODE-0082
   source_chapters:
   - 619
   - 620
   - 621
+  - 625
+  - 626
+  - 627
+  - 628
+  - 629
+  - 630
+  - 631
+  - 632
+  document: null
+  verification_status: verified
+  conflict_change:
+  - 五灵仙门交流大会败北
+  - 对徐霄形成持续敌意并计划介入罗素关系
+  growth_event:
+  - chapter_range:
+      start: 625
+      end: 632
+    event: 五灵仙门在徐霄横扫下弃权
+    impact:
+    - 对徐霄敌意升级
+    - 计划从罗素关系线干预徐霄
+    status: partial
+- id: CHAR-0146
+  name: 焰灵
+  status: alive
+  role: supporting
+  affiliations:
+  - 五灵仙门
+  identities:
+  - 五气人仙
+  - 火灵道体
+  - SS级气运之女
+  first_appearance:
+    chapter: 627
+    title: 现场送丹
+    node: NODE-0082
+  cultivation:
+    current: 人仙巅峰
+    condensed_qi: 五气
+    status: verified
+  relationship_context:
+    徐霄: 由擂台敌手转为接受补偿并保留传讯联系
+    status: partial
+  accepted_gifts:
+  - GIFT-0149
+  related_nodes:
+  - NODE-0082
+  source_chapters:
+  - 627
+  - 628
   document: null
   verification_status: verified

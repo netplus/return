@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 70
+  extension_files: 71
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3216,3 +3216,34 @@ nodes:
   - 血灵宗长老最终处置
   document: docs/01-timeline/node-0081.md
   evidence: sources/evidence/chapters-617-622.yaml
+- id: NODE-0082
+  title: 擂台横扫、五气朝元丹与天南第一人仙
+  chapters:
+    start: 623
+    end: 632
+  granularity: story_arc
+  status: verified
+  source_qualification: 归档章节哈希与官方目录确认第623至632章；第631至632章另由可访问正文镜像交叉核验
+  boundary_reason: 第632章完成两宗弃权和天南第一人仙授名；第633章转入太上长老责令分手冲突
+  characters:
+  - 徐霄
+  - 焰灵
+  - 吕玄一
+  - 云花海
+  - 南宫嫣
+  - 罗素
+  - 东方青
+  system_events:
+  - event: 焰灵仙元丹赠送返还
+    result: 五气朝元丹及四十五颗五行仙丹
+    status: verified
+  - event: 吕玄一气运之敌任务
+    result: 击杀后返还道具库随机升级
+    status: pending
+  relationship_result: 焰灵对徐霄态度由敌对转为缓和；吕玄一和云花海对徐霄敌意升级
+  pending:
+  - 五气朝元丹完整效果与使用
+  - 吕玄一任务执行及奖励结果
+  - 云花海后续干预
+  document: docs/01-timeline/node-0082.md
+  evidence: sources/evidence/chapters-623-632.yaml

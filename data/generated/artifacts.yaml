@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 64
+  extension_files: 65
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2047,7 +2047,12 @@ artifacts:
   grade: 天仙境修炼资源
   first_chapter: 572
   current_holder: 徐霄
-  acquisition: 第572章罗素赠送返还首次确认；第612章GIFT-0144再次返还九颗
+  acquisition:
+  - 第572章罗素赠送返还首次确认；第612章GIFT-0144再次返还九颗
+  - chapter: 628
+    gift_id: GIFT-0149
+    quantity: 45
+    status: verified
   quantity: pending_total
   effects:
   - 用于天仙境五行体系修炼
@@ -2057,6 +2062,22 @@ artifacts:
   related_nodes:
   - NODE-0074
   - NODE-0080
+  - NODE-0082
   source_chapters:
   - 572
   - 612
+  - 628
+- id: ART-0086
+  name: 五气朝元丹
+  category: 丹药
+  grade: pending
+  first_chapter: 628
+  current_holder: 徐霄
+  acquisition: GIFT-0149返还
+  effect: 与五气凝练及地仙晋升相关的高阶丹药；完整效果与服用限制待确认
+  current_state: 未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0082
+  source_chapters:
+  - 628

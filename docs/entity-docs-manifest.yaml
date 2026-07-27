@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 145
+    count: 146
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -298,8 +298,10 @@ groups:
       path: docs/02-characters/阴萱.md
     - id: CHAR-0145
       path: docs/02-characters/云花海.md
+    - id: CHAR-0146
+      path: docs/02-characters/焰灵.md
   artifacts:
-    count: 85
+    count: 86
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -473,10 +475,12 @@ groups:
       path: docs/06-artifacts/地仙巅峰魂丹.md
     - id: ART-0085
       path: docs/06-artifacts/五行仙丹.md
+    - id: ART-0086
+      path: docs/06-artifacts/五气朝元丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 145
-  growth_events: 592
+  characters_with_growth_line: 146
+  growth_events: 597
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

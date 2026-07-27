@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 61
+  extension_files: 62
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1987,3 +1987,23 @@ gifts:
   triggered_multiplier: pending
   relationship_result: 三人继续作为徐霄护院与执法班底
   status: partial
+- id: GIFT-0149
+  chapter: 628
+  node: NODE-0082
+  giver: 徐霄
+  recipient: 焰灵
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward:
+  - 五气朝元丹
+  - 四十五颗五行仙丹
+  triggered_multiplier:
+  - gift_quantity: 1
+    result: 五气朝元丹
+    type: 万倍暴击
+  - gift_quantity: 9
+    result: 四十五颗五行仙丹
+    type: 五倍返还
+  relationship_result: 焰灵接受补偿与传讯符，对徐霄态度由敌对转为缓和
+  status: verified
