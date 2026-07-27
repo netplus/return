@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 136
+    count: 137
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -280,8 +280,10 @@ groups:
       path: docs/02-characters/青锋.md
     - id: CHAR-0136
       path: docs/02-characters/金幻.md
+    - id: CHAR-0137
+      path: docs/02-characters/吕玄一.md
   artifacts:
-    count: 82
+    count: 84
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -449,10 +451,14 @@ groups:
       path: docs/06-artifacts/九岳覆天剑.md
     - id: ART-0082
       path: docs/06-artifacts/额外传送仙台.md
+    - id: ART-0083
+      path: docs/06-artifacts/九霄山河图.md
+    - id: ART-0084
+      path: docs/06-artifacts/地仙巅峰魂丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 136
-  growth_events: 542
+  characters_with_growth_line: 137
+  growth_events: 551
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

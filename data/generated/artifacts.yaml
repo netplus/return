@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 61
+  extension_files: 62
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1371,6 +1371,7 @@ artifacts:
   - NODE-0060
   - NODE-0067
   - NODE-0071
+  - NODE-0078
   source_chapters:
   - 424
   - 432
@@ -1386,6 +1387,8 @@ artifacts:
   - 514
   - 515
   - 544
+  - 598
+  - 599
   combat_record:
   - 第432章控制并收纳两名合体龙族
   - 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
@@ -1403,6 +1406,13 @@ artifacts:
   - chapter: 544
     event: 收纳司空浩南及数十名伏击外门弟子，并在小世界内以天雷烈焰完成清剿
     status: partial
+  current_holder_change: 南宫嫣
+  transfer:
+  - gift_id: GIFT-0134
+    chapter: 599
+    recipient: 南宫嫣
+    status: verified
+  current_state_change: 已转赠南宫嫣作为空间仙器和防身资源
 - id: ART-0054
   name: 九天荡魔剑
   category: 仙器神剑
@@ -1933,3 +1943,31 @@ artifacts:
   - NODE-0077
   source_chapters:
   - 597
+- id: ART-0083
+  name: 九霄山河图
+  category: 空间仙器
+  grade: 至尊仙器
+  first_chapter: 599
+  current_holder: 徐霄
+  acquisition: GIFT-0134返还
+  effect: 山河灵图的至尊仙器返还形态；具体空间规模、法则强度和战斗能力待确认
+  current_state: 已入徐霄空间库
+  status: partial
+  related_nodes:
+  - NODE-0078
+  source_chapters:
+  - 599
+- id: ART-0084
+  name: 地仙巅峰魂丹
+  category: 丹药
+  grade: 地仙巅峰
+  first_chapter: 599
+  current_holder: 徐霄
+  acquisition: GIFT-0135返还
+  effect: 地仙巅峰神魂类丹药；具体服用效果和限制待确认
+  current_state: 尚未使用
+  status: partial
+  related_nodes:
+  - NODE-0078
+  source_chapters:
+  - 599
