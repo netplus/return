@@ -1,0 +1,46 @@
+schema_version: 1
+run_id: RUN-0096
+artifacts:
+- id: ART-0085
+  name: 五行仙丹
+  category: 丹药
+  grade: 天仙境修炼资源
+  first_chapter: 572
+  current_holder: 徐霄
+  acquisition: 第572章罗素赠送返还首次确认；第612章GIFT-0144再次返还九颗
+  quantity: pending_total
+  effects: [用于天仙境五行体系修炼, 完整药效与使用记录待后续确认]
+  current_state: 未确认服用
+  status: partial
+  related_nodes: [NODE-0074, NODE-0080]
+  source_chapters: [572, 612]
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_records_add:
+    - {gift_id: GIFT-0144, chapter: 612, quantity: 1, trigger: 首次赠送千倍暴击, status: verified}
+    usage_records_add:
+    - {chapter: 613, user: 徐霄, result: 鸿蒙真气累计至四十八股, status: verified}
+    related_nodes_add: [NODE-0080]
+    source_chapters_add: [612, 613]
+- id: ART-0046
+  name: 仙元丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0144, chapter: 612, recipient: 丁静, quantity: 10, status: verified}
+    - {gift_id: GIFT-0146, chapter: 615, recipient: 道元, quantity: 3, status: verified}
+    acquisition_records_add:
+    - {gift_id: GIFT-0145, chapter: 613, quantity: 20, status: verified}
+    - {gift_id: GIFT-0146, chapter: 615, quantity: 3, status: verified}
+    - {gift_id: GIFT-0147, chapter: 616, quantity: 20, status: verified}
+    related_nodes_add: [NODE-0080]
+    source_chapters_add: [612, 613, 615, 616]
+- id: ART-0060
+  name: 化仙丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0145, chapter: 613, recipient: 南宫嫣, quantity: 10, status: verified}
+    - {gift_id: GIFT-0147, chapter: 616, recipient: 厉红魅, quantity: 10, status: verified}
+    related_nodes_add: [NODE-0080]
+    source_chapters_add: [613, 616]

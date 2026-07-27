@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0096
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 610, end: 616}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_files: [sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml]
+chapters:
+- {chapter: 610, title: "气运之女，丁静", sha256: 64a1df9c6c30d58787973b99b5c3ea267dd90b89eadbd68ab20f3f6250796887, facts: [孟凡揭示飞升会与张大全安排, 丁静被识别为C级气运之女和地仙九重执法长老]}
+- {chapter: 611, title: "执法堂任务", sha256: aef070dd3c4362e45976082c31aff9b8c8f4c1f1e4323489bde74f30dca1ae6d, facts: [执法堂任务与势力治理规则公开, 丁静安排徐霄照料九叶仙王草药园, 徐霄提出以三十颗仙元丹替代百年产出]}
+- {chapter: 612, title: "收丹的丁静", sha256: fa8a96edf7f4d5428efce23d8acaf2b7f3626dee86cda43166ebb66214253363, facts: [丁静接受十颗仙元丹并免除当年任务, 首颗返还鸿蒙一气丹, 余九颗返还九颗五行仙丹]}
+- {chapter: 613, title: "参加阴阳飞升会", sha256: 354d653912462212017f84a5dc202122d09a191d0712c0b0f3066a494d4afba1, facts: [徐霄向南宫嫣赠送十颗化仙丹返还二十颗仙元丹, 服用鸿蒙一气丹后鸿蒙真气达到四十八股, 前往陆道离洞府参加飞升会]}
+- {chapter: 614, title: "飞升会人员", sha256: 8a648902456f7bef1b8fc1197014f37fbc5f1109294760fcd5f4ba183ce779e3, facts: [飞升会组织结构与下界抱团机制确认, 端木莹被识别为SS级气运之女, 张大全被确认是道元和气运之子]}
+- {chapter: 615, title: "八万年内门传功长老", sha256: 4ec3f9de23c1708c9f13ccc02c0f00952d2dc0817380e8bb8ecf0b473ede3756, facts: [道元缥缈宗祖师身份公开, 徐霄赠送三颗仙元丹并原样返还, 徐霄承诺协助道元取得传功长老席位]}
+- {chapter: 616, title: "幽冥界，阴萱", sha256: 46fccbe8d98fcb9bbfc4af7c74affba3d237a83508bba44d4cb2660f6b68ddff, facts: [陆道离柳怀南阴萱为飞升会三名核心长老, 阴萱被识别为S级气运之女, 厉红魅正式成为外门长老并获十颗化仙丹]}
+boundary_probe:
+  chapter: 617
+  title: 一晃五年
+  sha256: 17bfe612c61d3531ed207c47e5a75ca80d9142972635812c1fb94f03f6b12222
+  reason: 发生五年时间跳跃，转入陆道离厉红魅旧情冲突及徐霄执法队任务阶段
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_and_hashes}

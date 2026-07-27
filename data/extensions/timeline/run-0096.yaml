@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0096
+nodes:
+- id: NODE-0080
+  title: 丁静赠送、飞升会身份揭示与厉红魅入宗
+  chapters: {start: 610, end: 616}
+  granularity: story_arc
+  status: verified
+  source_qualification: 用户提供的Internet Archive全文归档以整文件及单章SHA-256固定；第610—616章由临时证据窗口逐章核验
+  boundary_reason: 第616章完成飞升会核心身份揭示、道元资源合作和厉红魅正式入宗；第617章发生五年时间跳跃并转入执法任务及陆道离旧情冲突
+  characters: [徐霄, 丁静, 南宫嫣, 孟凡, 端木莹, 道元, 陆道离, 柳怀南, 阴萱, 厉红魅]
+  system_events:
+  - {event: 丁静首次仙元丹赠送, result: 首颗千倍暴击返还鸿蒙一气丹、余九颗返还九颗五行仙丹, status: verified}
+  - {event: 道元气运之子识别, result: 气运根源为仙阵图录传承，赠送仙元丹原样返还, status: verified}
+  relationship_result: 徐霄加入飞升会并成为天元界飞升者资源关系核心；厉红魅完成阴阳仙门外门长老身份迁移
+  pending: [丁静后续二十颗仙元丹交付, 端木莹冲突后续, 道元地仙七重与传功长老兑现, 仙阵图录完整能力, 阴萱后续关系, 陆道离厉红魅旧情结果]
+  document: docs/01-timeline/node-0080.md
+  evidence: sources/evidence/chapters-610-616.yaml

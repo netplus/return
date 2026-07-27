@@ -90,30 +90,22 @@ tasks:
 - {id: TASK-0077, status: done, run_id: RUN-0091}
 - {id: TASK-0078, status: done, run_id: RUN-0092}
 - {id: TASK-0079, status: done, run_id: RUN-0093}
-- id: TASK-0080
-  title: Build the 南宫嫣关系修复、返回仙门与东方青态度转变 story arc from Chapter 598 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0094
-  target: {chapter_start: 598, chapter_end: 603, node: NODE-0078, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0078.md, data/extensions/timeline/run-0094.yaml, data/extensions/characters/run-0094.yaml, data/extensions/system/run-0094.yaml, data/extensions/artifacts/run-0094.yaml, sources/evidence/chapters-598-603.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0079]
-- id: TASK-0081
-  title: Build the 柳清浅出关、晋升内门与刘爱花会面 story arc from Chapter 604 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0095
-  target: {chapter_start: 604, chapter_end: 609, node: NODE-0079, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0079.md, data/extensions/timeline/run-0095.yaml, data/extensions/characters/run-0095.yaml, data/extensions/system/run-0095.yaml, sources/evidence/chapters-604-609.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0080]
+- {id: TASK-0080, status: done, run_id: RUN-0094}
+- {id: TASK-0081, status: done, run_id: RUN-0095}
 - id: TASK-0082
   title: Build the 丁静赠送、飞升会身份揭示与厉红魅入宗 story arc from Chapter 610 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 610, provisional_chapter_end: 616, node: NODE-0080, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0096
+  target: {chapter_start: 610, chapter_end: 616, node: NODE-0080, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0080.md, data/extensions/timeline/run-0096.yaml, data/extensions/characters/run-0096.yaml, data/extensions/system/run-0096.yaml, data/extensions/artifacts/run-0096.yaml, sources/evidence/chapters-610-616.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0081]
+- id: TASK-0083
+  title: Build the 五年执法成长、陆道离旧情冲突与九霄山河图实战 story arc from Chapter 617 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 617, provisional_chapter_end: 622, node: NODE-0081, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0082]
