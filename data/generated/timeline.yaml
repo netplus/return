@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 74
+  extension_files: 75
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3360,3 +3360,40 @@ nodes:
   - 无间地狱隐藏限制
   document: docs/01-timeline/node-0085.md
   evidence: sources/evidence/chapters-644-650.yaml
+- id: NODE-0086
+  title: 神御黑冰、青鸾赠丹与阿鼻地狱追捕
+  chapters:
+    start: 651
+    end: 658
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第651—659章标题顺序与边界；归档逐章哈希及可访问镜像交叉核验第651—658章
+  boundary_reason: 第658章完成邬秋被捕、地脉岩火剑取得和离开无间地狱；第659章转入徐霄公开保人及宗门外部冲突
+  characters:
+  - 徐霄
+  - 青鸾
+  - 吕玄一
+  - 金华
+  - 萧天
+  - 独孤惊云
+  - 邬秋
+  - 东方青
+  - 忌口
+  - 琉璃
+  - 洛银纱
+  system_events:
+  - event: 纯阳仙门三系统目标击杀
+    result: 阵法符箓与丹药返还库上限升至玄仙、法器返还库上限升至道器
+    status: verified
+  - event: 青鸾五行仙丹赠送
+    result: 万佛金身丹及九十颗玄元仙丹
+    status: verified
+  relationship_result: 邬秋被徐霄带出无间地狱并形成有缘人线索；琉璃与徐霄建立亲密联系
+  pending:
+  - 神御黑冰符库存状态
+  - 万佛金身丹和玄元仙丹完整效果
+  - 独孤惊云系统目标分类及奖励
+  - 忌口完整面板
+  - 邬秋有缘人线后续
+  document: docs/01-timeline/node-0086.md
+  evidence: sources/evidence/chapters-651-658.yaml

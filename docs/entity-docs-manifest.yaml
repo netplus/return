@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 153
+    count: 158
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -314,8 +314,18 @@ groups:
       path: docs/02-characters/洛银纱.md
     - id: CHAR-0153
       path: docs/02-characters/崔云.md
+    - id: CHAR-0154
+      path: docs/02-characters/青鸾.md
+    - id: CHAR-0155
+      path: docs/02-characters/萧天.md
+    - id: CHAR-0156
+      path: docs/02-characters/独孤惊云.md
+    - id: CHAR-0157
+      path: docs/02-characters/忌口.md
+    - id: CHAR-0158
+      path: docs/02-characters/琉璃.md
   artifacts:
-    count: 90
+    count: 93
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -499,10 +509,16 @@ groups:
       path: docs/06-artifacts/万峰青竹剑.md
     - id: ART-0090
       path: docs/06-artifacts/缚仙绳.md
+    - id: ART-0091
+      path: docs/06-artifacts/万佛金身丹.md
+    - id: ART-0092
+      path: docs/06-artifacts/玄元仙丹.md
+    - id: ART-0093
+      path: docs/06-artifacts/地脉岩火剑.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 153
-  growth_events: 627
+  characters_with_growth_line: 158
+  growth_events: 643
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

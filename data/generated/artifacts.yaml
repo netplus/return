@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 68
+  extension_files: 69
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1937,8 +1937,15 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0074
+  - NODE-0086
   source_chapters:
   - 571
+  - 651
+  - 652
+  - 658
+  current_state_change: 第651章用于冻结击杀吕玄一、金华、萧天及七名纯阳仙门天仙长老；本枚符箓按一次性使用记为已消耗
+  combat_record:
+  - 第651章覆盖铁钩狱大范围空间并冻结击杀纯阳仙门十名高层
 - id: ART-0078
   name: 三千天道丹
   category: 大道丹药
@@ -2092,6 +2099,7 @@ artifacts:
   - NODE-0082
   - NODE-0083
   - NODE-0084
+  - NODE-0086
   source_chapters:
   - 572
   - 612
@@ -2099,6 +2107,7 @@ artifacts:
   - 635
   - 636
   - 642
+  - 653
   transfer_records:
   - gift_id: GIFT-0150
     chapter: 635
@@ -2122,6 +2131,12 @@ artifacts:
     quantity: 3
     returned_unchanged: true
     status: partial
+  transfer_event:
+  - GIFT-0159
+  transferred_in_chapter:
+  - 653
+  quantity_change_note:
+  - 向青鸾赠送十颗
 - id: ART-0086
   name: 五气朝元丹
   category: 丹药
@@ -2198,3 +2213,55 @@ artifacts:
   - NODE-0085
   source_chapters:
   - 644
+- id: ART-0091
+  name: 万佛金身丹
+  category: 丹药
+  grade: 玄仙层级返还资源
+  first_chapter: 653
+  current_holder: 徐霄
+  acquisition: GIFT-0159首次赠送万倍暴击返还
+  effect: 完整炼体或金身效果、服用条件及境界上限待后续确认
+  current_state: 未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0086
+  source_chapters:
+  - 653
+- id: ART-0092
+  name: 玄元仙丹
+  category: 丹药
+  grade: 玄仙层级返还资源
+  first_chapter: 653
+  current_holder: 徐霄
+  quantity: 90
+  acquisition: GIFT-0159余九颗五行仙丹返还
+  effect: 完整修炼效果、适用境界及后续分配待确认
+  current_state: 九十颗入库
+  status: partial
+  related_nodes:
+  - NODE-0086
+  source_chapters:
+  - 653
+- id: ART-0093
+  name: 地脉岩火剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 642
+  current_holder: 东方青（代表阴阳仙门）
+  acquisition: 第657章徐霄从邬秋储物袋中取出并交给东方青
+  effect: 地脉岩火属性至尊仙剑；完整能力、剑阵机制和最终宗门归属待确认
+  current_state: 阴阳仙门追捕奖励已取得
+  status: partial
+  related_nodes:
+  - NODE-0084
+  - NODE-0085
+  - NODE-0086
+  source_chapters:
+  - 642
+  - 644
+  - 645
+  - 646
+  - 647
+  - 649
+  - 650
+  - 657
