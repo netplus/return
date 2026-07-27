@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0090
+run_id: RUN-0091
 coverage:
-  chapters_covered_through: 572
-  chapters_promoted_in_run: [565, 566, 567, 568, 569, 570, 571, 572]
-  timeline_nodes: 74
+  chapters_covered_through: 580
+  chapters_promoted_in_run: [573, 574, 575, 576, 577, 578, 579, 580]
+  timeline_nodes: 75
   draft_nodes: 0
-  story_arc_nodes: 71
-  characters_documented: 129
+  story_arc_nodes: 72
+  characters_documented: 131
   characters_staged: 0
   system_records: 1
-  gift_events: 127
-  artifact_records: 77
+  gift_events: 128
+  artifact_records: 79
   artifacts_staged: 0
 entity_documents:
-  character_records: 129
-  artifact_records: 77
-  expected_generated_documents: 206
+  character_records: 131
+  artifact_records: 79
+  expected_generated_documents: 210
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [565, 566, 567, 568, 569, 570, 571, 572, 573], cross_checked_mirror_chapters: [565, 566, 567, 568, 569, 570, 571, 572], failures: 0}
-  arc_coherence: {status: passed, boundary: 第572章完成罗素关系确认和资源返还；第573章转入南宫嫣道伤与三人看门冲突}
-  materiality: {status: passed, entity_updates: [NODE-0074, 徐霄凤青玄姬雪柳清浅罗素东方青成长更新, GIFT-0125至GIFT-0127, ART-0069组件解析, ART-0076, ART-0077]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [573, 574, 575, 576, 577, 578, 579, 580, 581], cross_checked_mirror_chapters: [573, 574, 575, 576, 577, 578, 579, 580], failures: 0}
+  arc_coherence: {status: passed, boundary: 第580章完成太上长老认可和东方青策略转向；第581章转入做好事系统公开行动}
+  materiality: {status: passed, entity_updates: [NODE-0075, 万青罗方新人物, 徐霄南宫嫣罗素东方青柳清浅莫问书凌白烟成长更新, GIFT-0128, ART-0078, ART-0079]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 129, artifacts: 77}
+  entity_document_freshness: {status: passed, characters: 131, artifacts: 79}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 6, timed_growth_events: 6, new_characters_with_first_appearance: 0}
+  character_growth_continuity: {status: passed, material_character_updates: 7, timed_growth_events: 7, new_characters_with_first_appearance: 2}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
