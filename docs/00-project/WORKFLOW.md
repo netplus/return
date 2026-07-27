@@ -1,6 +1,6 @@
 # 剧情知识库工作标准
 
-版本：2.2  
+版本：2.3  
 生效范围：自第 4 章起；第 1—3 章既有节点保留，不回溯拆改。
 
 ## 1. 核心原则
@@ -90,6 +90,7 @@
 - Duplicate-work check：避免重复节点和重复实体记录；
 - Entity-document freshness：人物与物品 Markdown 能从最新 canonical 索引完整重建，数量、ID 和完整记录不得缺失；
 - Entity-document readability：读者首先看到简洁概览和按主题组织的事实；复杂机器字段不得压缩为单行代码；长来源列表和完整 YAML 必须默认折叠；摘要应优先采用最新 `*_change` 当前值；
+- Character identity alignment：具有显式人物档案路径的 canonical 记录，其 `name` 必须与档案文件名一致；不允许一个 ID 的名称被另一人物覆盖；
 - Copyright boundary：不保存大段或整章原文。
 
 ## 8. 当前迁移规则
@@ -110,9 +111,10 @@
 python scripts/knowledge_base.py validate
 python scripts/knowledge_base.py build
 python scripts/knowledge_base.py validate --generated-dir data/generated
+python scripts/validate_entity_identity.py --generated-dir data/generated
 ```
 
-- 校验必须覆盖 YAML 解析、ID 唯一性、Timeline 区间、文档和证据引用、跨索引节点引用，以及 `.project/STATE.yaml` / `.project/METRICS.yaml` 统计一致性。
+- 校验必须覆盖 YAML 解析、ID 唯一性、Timeline 区间、文档和证据引用、跨索引节点引用、人物名称与显式档案路径一致性，以及 `.project/STATE.yaml` / `.project/METRICS.yaml` 统计一致性。
 - GitHub Actions 在 `main` 更新后刷新生成索引，并每周将扩展合并回基础索引。
 - compaction 不删除扩展文件；扩展文件继续作为每次 Run 的不可变审计记录。
 
