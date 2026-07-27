@@ -39,6 +39,9 @@ jobs:
       - name: Run entity-document renderer tests
         run: python scripts/test_render_entity_docs.py
 
+      - name: Run character identity alignment tests
+        run: python scripts/test_validate_entity_identity.py
+
       - name: Validate base and extension indexes
         shell: bash
         run: |
@@ -60,6 +63,9 @@ jobs:
 
       - name: Validate materialized indexes
         run: python scripts/knowledge_base.py validate --generated-dir build/canonical-indexes
+
+      - name: Validate character identity alignment
+        run: python scripts/validate_entity_identity.py --generated-dir build/canonical-indexes
 
       - name: Render complete entity-document projection
         run: |
@@ -117,6 +123,7 @@ jobs:
         run: |
           python scripts/knowledge_base.py build --output-dir data/generated
           python scripts/knowledge_base.py validate --generated-dir data/generated
+          python scripts/validate_entity_identity.py --generated-dir data/generated
           python scripts/render_entity_docs.py --generated-dir data/generated
           python scripts/render_entity_docs.py --generated-dir data/generated --check
 
