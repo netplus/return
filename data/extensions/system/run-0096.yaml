@@ -1,0 +1,70 @@
+schema_version: 1
+run_id: RUN-0096
+gift_events:
+- id: GIFT-0144
+  chapter: 612
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 丁静
+  gift: 十颗高品质仙元丹
+  accepted: true
+  system_valid: true
+  reward: 首颗返还一颗鸿蒙一气丹，其余九颗返还九颗五行仙丹
+  triggered_multiplier: {first_item: 1000, remaining_items: 10}
+  relationship_result: 丁静免除徐霄当年执事任务并接受后续二十颗仙元丹承诺，但要求保持正常上下级关系
+  status: verified
+- id: GIFT-0145
+  chapter: 613
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 南宫嫣
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 二十颗仙元丹
+  triggered_multiplier: 2
+  relationship_result: 南宫嫣长期资源供给继续稳定
+  status: verified
+- id: GIFT-0146
+  chapter: 615
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 道元
+  gift: 三颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 三颗仙元丹原样返还
+  triggered_multiplier: 1
+  relationship_result: 徐霄与缥缈宗祖师建立资源合作，并承诺协助其取得内门传功长老席位
+  status: verified
+- id: GIFT-0147
+  chapter: 616
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 厉红魅
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 二十颗仙元丹
+  triggered_multiplier: 2
+  relationship_result: 厉红魅正式进入阴阳仙门后的长期资源关系得到确认
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0144, GIFT-0145, GIFT-0146, GIFT-0147]
+    target_recognition_add:
+    - {chapter: 610, target: 丁静, type: 气运之女, grade: C, multiplier: 10, bond: 1, status: verified}
+    - {chapter: 614, target: 端木莹, type: 气运之女, grade: SS, multiplier: 50, bond: 1, status: verified}
+    - {chapter: 614, target: 道元, type: 气运之子, fortune_source: 仙阵图录传承, status: verified}
+    - {chapter: 616, target: 阴萱, type: 气运之女, grade: S, multiplier: 30, bond: 1, status: verified}
+    rule_add:
+    - chapter: 612
+      rule: 同一批十颗仙元丹首次赠送可对首颗触发千倍暴击，其余九颗分别按普通十倍返还为五行仙丹
+      status: verified
+    - chapter: 615
+      rule: 向气运之子道元赠送仙元丹仍按既有规则原样返还，不产生资源增益
+      status: verified
+    related_nodes_add: [NODE-0080]
+    source_chapters_add: [610, 612, 613, 614, 615, 616]
