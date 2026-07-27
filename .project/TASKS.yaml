@@ -1,9 +1,5 @@
 schema_version: 2
-workflow:
-  standard_version: 2.4
-  unit: story_arc
-  default_chapter_window: 5-10
-  boundary_mode: adaptive
+workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0068 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
@@ -92,20 +88,21 @@ tasks:
 - {id: TASK-0079, status: done, run_id: RUN-0093}
 - {id: TASK-0080, status: done, run_id: RUN-0094}
 - {id: TASK-0081, status: done, run_id: RUN-0095}
-- id: TASK-0082
-  title: Build the 丁静赠送、飞升会身份揭示与厉红魅入宗 story arc from Chapter 610 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0096
-  target: {chapter_start: 610, chapter_end: 616, node: NODE-0080, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0080.md, data/extensions/timeline/run-0096.yaml, data/extensions/characters/run-0096.yaml, data/extensions/system/run-0096.yaml, data/extensions/artifacts/run-0096.yaml, sources/evidence/chapters-610-616.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0081]
+- {id: TASK-0082, status: done, run_id: RUN-0096}
 - id: TASK-0083
   title: Build the 五年执法成长、陆道离旧情冲突与九霄山河图实战 story arc from Chapter 617 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 617, provisional_chapter_end: 622, node: NODE-0081, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0097
+  target: {chapter_start: 617, chapter_end: 622, node: NODE-0081, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0081.md, data/extensions/timeline/run-0097.yaml, data/extensions/characters/run-0097.yaml, data/extensions/system/run-0097.yaml, data/extensions/artifacts/run-0097.yaml, sources/evidence/chapters-617-622.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0082]
+- id: TASK-0084
+  title: Build the 徐霄擂台横扫、五气朝元丹与天南第一人仙 story arc from Chapter 623 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 623, provisional_chapter_end: 632, node: NODE-0082, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0083]
