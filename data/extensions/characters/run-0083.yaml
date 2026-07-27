@@ -1,0 +1,146 @@
+schema_version: 1
+run_id: RUN-0083
+characters:
+- id: CHAR-0105
+  name: 神天
+  status: dead
+  role: supporting
+  affiliations: [pending]
+  identities: [天元大陆渡劫太上长老, 幽冥天绝阵援军]
+  first_appearance: {chapter: 510, title: 被秒杀的援军, node: NODE-0067}
+  cultivation: {current: 渡劫六重, status: partial}
+  status_change: 第511章遭渡劫阴灵迅速夺舍，现场修士将其视为陨落
+  related_nodes: [NODE-0067]
+  source_chapters: [510, 511, 515]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 大乘七重
+    age_change: 1026
+    lifespan_change: 110283年
+    power_change_add: [系统可返还抽取剥离类损失且不受气运之女限制, 道元圣体可将幽冥阴气炼化为灵力, 仙神魂胎在识海内击溃并吸收八名渡劫阴灵, 九幽惊魂剑可大规模清剿阴灵并驱逐夺舍]
+    role_change_add: [成为天元大陆公认的救世主与第一天修]
+    strategic_change_add: [推动十八上宗肃清蓬莱仙宗阴灵并关闭两界裂缝, 将飞升仙界正式提上日程]
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [509, 510, 511, 512, 513, 514, 515, 516]
+    growth_event_add:
+    - node: NODE-0067
+      event: 反制幽冥天绝阵并完成阴灵阵营清算
+      core_ability: [大乘三重提升至大乘七重, 道元圣体炼化幽冥阴气, 仙神魂胎灭杀八名渡劫阴灵, 九幽惊魂剑与山河灵图形成清剿收纳组合]
+      impact: [完成海岚葬花北风三名气运之敌任务, 返还库上限全面升级, 成为天元大陆第一天修并启动飞升规划]
+      status: partial
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 大乘六重
+    power_change_add: [元灵仙体可显著抵抗幽冥天绝阵阴气侵蚀, 须臾空间中的破界仙器处于可用状态]
+    relationship_change_add: [幽冥天绝阵危局中主动准备携徐霄破界撤离]
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [511, 512]
+    growth_event_add:
+    - node: NODE-0067
+      event: 在幽冥天绝阵中展示元灵仙体与破界退路
+      core_ability: [修为明确为大乘六重, 元灵仙体抵抗阴气, 破界仙器可作为极端危局退路]
+      impact: [危局中继续承担徐霄师父与核心关系人的保护角色]
+      status: partial
+- id: CHAR-0096
+  name: 素青
+  update:
+    luck_grade_set: {value: SSS, status: partial}
+    strategic_role: 战后由神玉安排陪同徐霄进入天元仙宗秘境仙池休整
+    relationship_change: 从天山论剑邀请使者转入与徐霄直接接触的道侣与资源关系前置阶段
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [512, 516]
+    growth_event_add:
+    - node: NODE-0067
+      event: 阴灵危机后进入徐霄的仙池休整与关系安排
+      core_ability: [系统确认SSS级气运资质]
+      impact: [由宗门使者转为神玉直接安排的陪同者并进入下一阶段关系线]
+      status: partial
+- id: CHAR-0097
+  name: 海岚
+  update:
+    status_set: dead
+    conflict_change: 作为幽冥天绝阵主持者和气运之敌被徐霄阵营最终击杀
+    possession_status:
+      state: 冰寒阴灵占据的躯体已被消灭
+      original_soul: pending
+      status: partial
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [509, 510, 511, 514, 515]
+    growth_event_add:
+    - node: NODE-0067
+      event: 主持幽冥天绝阵失败并被完成气运之敌结算
+      core_ability: [以渡劫九重级幽冥天绝阵封锁九耀天山副山]
+      impact: [死亡并触发返还道具库全面升级]
+      status: partial
+- id: CHAR-0098
+  name: 葬花
+  update:
+    status_set: dead
+    conflict_change: 渡劫八重级阴灵形态被九幽惊魂剑压制并收入山河灵图，随后计入击杀结算
+    possession_status:
+      state: 冰寒阴灵占据的躯体已被消灭
+      original_soul: pending
+      status: partial
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [509, 511, 513, 514, 515]
+    growth_event_add:
+    - node: NODE-0067
+      event: 阴灵围剿中被仙器压制并完成气运之敌结算
+      core_ability: [渡劫八重级阴灵战力]
+      impact: [死亡并成为返还库升级的三项任务目标之一]
+      status: partial
+- id: CHAR-0099
+  name: 北风
+  update:
+    status_set: dead
+    conflict_change: 渡劫八重级阴灵形态被九幽惊魂剑压制并收入山河灵图，随后计入击杀结算
+    possession_status:
+      state: 冰寒阴灵占据的躯体已被消灭
+      original_soul: pending
+      status: partial
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [509, 511, 513, 514, 515]
+    growth_event_add:
+    - node: NODE-0067
+      event: 阴灵围剿中被仙器压制并完成气运之敌结算
+      core_ability: [渡劫八重级阴灵战力]
+      impact: [死亡并成为返还库升级的三项任务目标之一]
+      status: partial
+- id: CHAR-0047
+  name: 叶尘
+  update:
+    status_change: 第515章确认被山河灵图收纳囚禁，完整收纳过程待确认
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [515]
+    growth_event_add:
+    - chapter: 515
+      event: 被确认囚禁于山河灵图
+      impact: [由公开竞争者转为徐霄控制下的囚禁对象]
+      status: partial
+- id: CHAR-0087
+  name: 独孤浩
+  update:
+    status_change: 第515章确认被山河灵图收纳囚禁，完整收纳过程待确认
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [515]
+    growth_event_add:
+    - chapter: 515
+      event: 被确认囚禁于山河灵图
+      impact: [气运之子击杀任务目标进入徐霄直接控制状态]
+      status: partial
+- id: CHAR-0094
+  name: 楚霄
+  update:
+    status_change: 第515章确认被山河灵图收纳囚禁，完整收纳过程待确认
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [515]
+    growth_event_add:
+    - chapter: 515
+      event: 被确认囚禁于山河灵图
+      impact: [仙塔竞争者转为徐霄直接控制下的囚禁对象]
+      status: partial
