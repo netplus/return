@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0084
+gift_events:
+- id: GIFT-0111
+  chapter: 517
+  node: NODE-0068
+  giver: 徐霄
+  recipient: 素青
+  gift: 十枚雷灵丹
+  accepted: true
+  system_valid: true
+  reward: 一枚鸿蒙一气丹及九枚化仙丹
+  triggered_multiplier: 首枚万倍暴击，其余九枚按常规返还
+  relationship_result: 素青羁绊度提升至2并进入长期渡劫资源支持关系
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0111]
+    confirmed_objects_add: [素青]
+    system_changes_add: [第517章出现系统升级并确立九霄天梯相关跨界能力；完整升级功能清单待确认]
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [517, 520]
