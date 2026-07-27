@@ -1,6 +1,6 @@
 schema_version: 2
 workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
-history_note: Full task metadata through RUN-0097 remains auditable in Git history and .project/CHANGELOG.md.
+history_note: Full task metadata through RUN-0100 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
 - {id: TASK-0002, status: done}
@@ -92,20 +92,21 @@ tasks:
 - {id: TASK-0083, status: done, run_id: RUN-0097}
 - {id: TASK-0084, status: done, run_id: RUN-0098}
 - {id: TASK-0085, status: done, run_id: RUN-0099}
-- id: TASK-0086
-  title: Build the 诸葛青天出关、云姑心结缘与遁之大道 story arc from Chapter 639 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0100
-  target: {chapter_start: 639, chapter_end: 643, node: NODE-0084, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0084.md, data/extensions/timeline/run-0100.yaml, data/extensions/characters/run-0100.yaml, data/extensions/system/run-0100.yaml, data/extensions/artifacts/run-0100.yaml, sources/evidence/chapters-639-643.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0085]
+- {id: TASK-0086, status: done, run_id: RUN-0100}
 - id: TASK-0087
   title: Build the 天一仙门变故、佛门叫阵与无间地狱 story arc from Chapter 644 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 644, provisional_chapter_end: 650, node: NODE-0085, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0101
+  target: {chapter_start: 644, chapter_end: 650, node: NODE-0085, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0085.md, data/extensions/timeline/run-0101.yaml, data/extensions/characters/run-0101.yaml, data/extensions/system/run-0101.yaml, data/extensions/artifacts/run-0101.yaml, sources/evidence/chapters-644-650.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0086]
+- id: TASK-0088
+  title: Build the 神御黑冰、青鸾长老与阿鼻地狱追捕 story arc from Chapter 651 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 651, provisional_chapter_end: 658, node: NODE-0086, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0087]
