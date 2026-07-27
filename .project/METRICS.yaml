@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0098
+run_id: RUN-0099
 coverage:
-  chapters_covered_through: 632
-  chapters_promoted_in_run: [623, 624, 625, 626, 627, 628, 629, 630, 631, 632]
-  timeline_nodes: 82
+  chapters_covered_through: 638
+  chapters_promoted_in_run: [633, 634, 635, 636, 637, 638]
+  timeline_nodes: 83
   draft_nodes: 0
-  story_arc_nodes: 79
-  characters_documented: 146
+  story_arc_nodes: 80
+  characters_documented: 148
   characters_staged: 0
   system_records: 1
-  gift_events: 149
-  artifact_records: 86
+  gift_events: 153
+  artifact_records: 87
   artifacts_staged: 0
 entity_documents:
-  character_records: 146
-  artifact_records: 86
-  expected_generated_documents: 232
+  character_records: 148
+  artifact_records: 87
+  expected_generated_documents: 235
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [623, 624, 625, 626, 627, 628, 629, 630, 631, 632], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第632章完成两宗弃权和天南第一人仙授名；第633章转入责令分手冲突}
-  materiality: {status: passed, entity_updates: [NODE-0082, 焰灵新人物, 徐霄吕玄一云花海成长更新, GIFT-0149, ART-0085更新, ART-0086]}
+  source_traceability: {status: passed_with_qualifications, archive_chapters: [633, 634, 635, 636, 637, 638], readable_cross_check_chapters: [633, 634, 635, 636, 637, 638], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第638章完成分手问责转向、焰灵赠剑返还、青锋案公开冲突和纯阳仙门撤离；第639章转入诸葛青天与云姑心汇报}
+  materiality: {status: passed, entity_updates: [NODE-0083, 尘玉金华新人物, 徐霄万青罗方罗素焰灵东方青吕玄一云花海成长更新, GIFT-0150至GIFT-0153, ART-0085更新, ART-0087]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 146, artifacts: 86}
+  entity_document_freshness: {status: passed, characters: 148, artifacts: 87}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 3, timed_growth_events: 3, new_characters_with_first_appearance: 1}
+  character_growth_continuity: {status: passed, material_character_updates: 8, timed_growth_events: 8, new_characters_with_first_appearance: 2}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_and_source_hashes}
 blockers: []
