@@ -1,0 +1,28 @@
+schema_version: 1
+run_id: RUN-0084
+artifacts:
+- id: ART-0071
+  name: 九霄天梯
+  category: 特殊破界宝物
+  grade: pending
+  first_chapter: 517
+  current_holder: 徐霄
+  acquisition: 第517章系统升级阶段获得或完成系统认证；精确触发方式待确认
+  abilities: [可跨越上下界壁垒, 可规避飞升后通常不能随意下界的天地规则, 支持徐霄往返天元界与灵藏仙域]
+  current_state: 已用于徐霄飞升并保留后续往返能力
+  status: partial
+  related_nodes: [NODE-0068]
+  source_chapters: [517, 520]
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_records_add: [{gift_id: GIFT-0111, chapter: 517, quantity: 1, status: partial}]
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [517]
+- id: ART-0060
+  name: 化仙丹
+  update:
+    acquisition_records_add: [{gift_id: GIFT-0111, chapter: 517, quantity: 9, status: partial}]
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [517]
