@@ -107,8 +107,11 @@ def all_events(root:Path,generated:Path)->dict[str,list[Event]]:
 def first(record:dict[str,Any],nd:dict[str,dict[str,Any]])->Event|None:
  f=record.get("first_appearance")
  if not isinstance(f,dict) or not isinstance(f.get("chapter"),int):return None
- nid=str(f.get("node") or ""); ability=summary(record,ABILITY) or "首次登场时未完整记录核心能力"; impact=summary(record,OTHER,5) or "首次登场背景"
- return Event(f["chapter"],f["chapter"],f"首次登场：{f.get('title') or nd.get(nid,{}).get('title') or record.get('name')}",ability,impact,nid or "canonical first_appearance",base.status_text(record.get("verification_status",record.get("status","partial"))))
+ nid=str(f.get("node") or "")
+ title=f"首次登场：{f.get('title') or nd.get(nid,{}).get('title') or record.get('name')}"
+ ability="首次登场时核心能力未形成独立历史快照；不得使用后期合并字段倒推"
+ impact="仅确认角色在该时间点进入剧情；身份、关系与资源变化从后续阶段记录读取"
+ return Event(f["chapter"],f["chapter"],title,ability,impact,nid or "canonical first_appearance",base.status_text(record.get("verification_status",record.get("status","partial"))))
 def esc(s:str)->str:return s.replace("|",r"\|").replace("\n","<br>")
 def short(s:str,n=180)->str:return s if len(s)<=n else s[:n-1]+"…"
 def table(events:list[Event])->list[str]:
@@ -119,7 +122,7 @@ def growth(events:list[Event])->str:
  events=sorted({(e.start,e.end,e.title,e.ability,e.impact,e.evidence,e.status):e for e in events}.values(),key=lambda e:(e.start,e.end,e.evidence))
  buckets={}
  for e in events:buckets.setdefault((max(e.start,1)-1)//50,[]).append(e)
- lines=["## 成长线","","> 采用“阶段性画像 + 持续记录”：阶段画像总结长期变化，持续记录按每次 Project OS Run 追加关键事件、核心能力变化与时间证据。","","### 阶段性画像","","| 时间 | 阶段关键事件 | 核心能力演进 | 阶段影响 |","|---|---|---|---|"]
+ lines=["## 成长线","","> 采用“阶段性画像 + 持续记录”：阶段画像总结长期变化，持续记录按每次 Project OS Run 追加关键事件、核心能力变化与时间证据。历史能力只在对应 Run 或节点有明确记录时进入时间线。","","### 阶段性画像","","| 时间 | 阶段关键事件 | 核心能力演进 | 阶段影响 |","|---|---|---|---|"]
  for items in buckets.values():
   s,e=min(x.start for x in items),max(x.end for x in items); title="<br>".join(dict.fromkeys(short(x.title,100) for x in items[-3:])); ab="<br>".join(dict.fromkeys(short(x.ability,120) for x in items[-4:] if not x.ability.startswith("本阶段未记录"))) or "—"; imp="<br>".join(dict.fromkeys(short(x.impact,120) for x in items[-3:]))
   lines.append(f"| 第 {s}—{e} 章 | {esc(title)} | {esc(ab)} | {esc(imp)} |")
@@ -135,9 +138,9 @@ def expected_files(root:Path,out:Path,generated:Path):
   if f:ev.append(f)
   if not ev:continue
   p=out/paths[rid]; outputs[p]=outputs[p].replace("## 来源与核验",growth(ev)+"\n## 来源与核验",1); count+=1; total+=len(ev)
- manifest.update(schema_version=3,generator="scripts/render_character_growth.py",presentation="reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix",growth_line={"mode":"stage_summary_plus_append_only_run_history","stage_window_chapters":50,"characters_with_growth_line":count,"growth_events":total,"source":"data/extensions/characters + data/generated/timeline.yaml"}); outputs[out/base.MANIFEST_PATH]=base.dump_yaml(manifest)+"\n"; return outputs,manifest
+ manifest.update(schema_version=3,generator="scripts/render_character_growth.py",presentation="reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix",growth_line={"mode":"stage_summary_plus_append_only_run_history","stage_window_chapters":50,"characters_with_growth_line":count,"growth_events":total,"temporal_accuracy":"no_backfill_from_merged_current_snapshot","source":"data/extensions/characters + data/generated/timeline.yaml"}); outputs[out/base.MANIFEST_PATH]=base.dump_yaml(manifest)+"\n"; return outputs,manifest
 def meaningful(u:dict[str,Any])->bool:return any(k not in META and v not in (None,"",[],{}) for k,v in u.items())
-def validate(root:Path,effective=82)->list[str]:
+def validate(root:Path,effective=83)->list[str]:
  errors=[]; cr=root/"data/extensions/characters"; tr=root/"data/extensions/timeline"
  for p in sorted(cr.glob("run-*.yaml")) if cr.exists() else []:
   d=load(p); m=RUN_RE.search(str(d.get("run_id") or p.name)); n=int(m.group(1)) if m else -1
@@ -162,7 +165,7 @@ def validate(root:Path,effective=82)->list[str]:
       if isinstance(item,dict) and not any(item.get(q) not in (None,"",[],{}) for q in ("core_ability","ability_change","impact","result")):errors.append(f"{p}:{group}[{i}].{k}[{j}] requires core ability or impact")
  return errors
 def main()->int:
- ap=argparse.ArgumentParser(); ap.add_argument("--repo-root",type=Path,default=Path.cwd()); ap.add_argument("--generated-dir",type=Path,default=Path("data/generated")); ap.add_argument("--output-root",type=Path,default=Path(".")); ap.add_argument("--check",action="store_true"); ap.add_argument("--validate-continuity",action="store_true"); ap.add_argument("--effective-run",type=int,default=82); a=ap.parse_args(); root=a.repo_root.resolve()
+ ap=argparse.ArgumentParser(); ap.add_argument("--repo-root",type=Path,default=Path.cwd()); ap.add_argument("--generated-dir",type=Path,default=Path("data/generated")); ap.add_argument("--output-root",type=Path,default=Path(".")); ap.add_argument("--check",action="store_true"); ap.add_argument("--validate-continuity",action="store_true"); ap.add_argument("--effective-run",type=int,default=83); a=ap.parse_args(); root=a.repo_root.resolve()
  try:
   if a.validate_continuity:
    errors=validate(root,a.effective_run)
