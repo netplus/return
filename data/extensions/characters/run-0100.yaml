@@ -1,0 +1,71 @@
+schema_version: 1
+run_id: RUN-0100
+characters:
+- id: CHAR-0149
+  name: 诸葛青天
+  status: alive
+  role: antagonist
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门内门长老, 震惊就变强系统宿主, 百万年级天才]
+  first_appearance: {chapter: 639, title: 云姑心上门汇报, node: NODE-0084}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  age: {approximate_years: 100000, status: partial}
+  system: {name: 震惊就变强系统, mechanism: 从他人震惊反应获得震惊值并兑换成长资源, status: partial}
+  relationship_context: {丁静: 曾追求且持续关注, 徐霄: 表面友善但保留敌意与资源觊觎, status: partial}
+  related_nodes: [NODE-0084]
+  source_chapters: [639, 640, 641, 642]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: [与云姑心正式确立伴侣关系]
+    dao_comprehension_add: [完美遁之大道]
+    ability_change_add: [遁之大道可与五行基础大道结合形成火遁风遁雷遁等遁法, 鸿蒙真气增至五十二股]
+    acquired_artifacts_add: [ART-0089]
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [639, 640, 641, 642, 643]
+    growth_event_add:
+    - chapter_range: {start: 639, end: 643}
+      event: 化解诸葛青天问责并与云姑心确立关系，获得遁之大道
+      core_ability: [完美遁之大道, 鸿蒙真气五十二股, 万峰青竹剑]
+      impact: [新增云姑心长期资源关系, 公开化解天仙长老问责但留下潜在敌意]
+      status: partial
+- id: CHAR-0126
+  name: 云姑心
+  update:
+    accepted_gifts_add: [GIFT-0154, GIFT-0155]
+    relationship_change_add: [与徐霄由暧昧转为明确伴侣关系]
+    acquired_artifacts_add: [ART-0088]
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [639, 640, 641, 642, 643]
+    growth_event_add:
+    - chapter_range: {start: 639, end: 643}
+      event: 汇报诸葛青天动向并向徐霄表白
+      core_ability: [获得十颗化仙丹, 获得顶级仙器仙灵天木剑]
+      impact: [正式进入徐霄伴侣与长期资源网络, 与凌白烟关系转入冷战]
+      status: partial
+- id: CHAR-0119
+  name: 凌白烟
+  update:
+    accepted_gifts_add: [GIFT-0157]
+    relationship_change_add: [与云姑心因徐霄关系发生长期冷战]
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [642, 643]
+    growth_event_add:
+    - chapter: 643
+      event: 与云姑心关系破裂后继续接受徐霄化仙丹支持
+      impact: [姐妹关系转为冷战, 与徐霄的资源和感情线继续升级]
+      status: partial
+- id: CHAR-0140
+  name: 丁静
+  update:
+    conflict_change_add: [诸葛青天因徐霄接近丁静而公开问责]
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [639, 640, 641, 642]
+    growth_event_add:
+    - chapter_range: {start: 639, end: 642}
+      event: 成为诸葛青天与徐霄冲突的核心诱因之一
+      impact: [诸葛青天对徐霄形成持续私人敌意]
+      status: partial
