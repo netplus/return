@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 528
-- **Current evidence exploration through:** Chapter 529
+- **Canonical coverage through:** Chapter 536
+- **Current evidence exploration through:** Chapter 537
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 69
+- **Completed timeline nodes:** 70
 - **Draft timeline nodes:** 0
-- **Documented characters:** 111
-- **Generated character profiles:** 111
-- **Gift events:** 112
-- **Artifact records:** 72
-- **Generated artifact profiles:** 72
-- **Last run:** `RUN-0085`
-- **Last completed node:** `NODE-0069`
-- **Next task:** `TASK-0072` — 化仙丹反制、矿区执事冲突与韩烟关系线 story arc
-- **Provisional exploration range:** Chapters 529–536
+- **Documented characters:** 112
+- **Generated character profiles:** 112
+- **Gift events:** 114
+- **Artifact records:** 73
+- **Generated artifact profiles:** 73
+- **Last run:** `RUN-0086`
+- **Last completed node:** `NODE-0070`
+- **Next task:** `TASK-0073` — 外门长老团、拜师礼与矿区离场 story arc
+- **Provisional exploration range:** Chapters 537–544
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0069` covers Chapters 521—528. 徐霄完成飞升者登记并进入阴阳仙门六号矿坑一四六号矿队，确认下品灵精与天元界极品灵石等值、矿工仅保留百分之一矿值以及矿坑大阵监测规则。他以灵精委托邹蒙代挖，优先研究仙界和宗门规则，并与乾元小界飞升者李香香建立关系。十枚雷灵丹赠送触发仙灵冰魄剑返还，两人正式成为道侣。矿区舆论随后升级，老许采取弹性处理，但韩烟和司空浩南返回后将冲突提升到人仙执事层级。第529章转入正式处罚和化仙丹反制。
+`NODE-0070` covers Chapters 529—536. 韩烟以矿区执事身份判处徐霄十年、李香香一年和邹蒙十天禁闭；徐霄以三枚化仙丹化解主要处罚，首枚触发千倍返还鸿蒙一气丹，其余两枚返还仙元丹。韩烟炼化丹药后晋升人仙四重，并由执法者转为公开关系对象和宗门引荐者。司空浩南安排三名神魂秘术手下暗杀徐霄，但三人失联或死亡而徐霄保持无损。后续七枚化仙丹推动关系进一步公开，并关联至尊仙器万龙鎏金甲返还。第537章外门长老团到场，转入拜师与宗门准入阶段。
 
 ## Character growth updates
 
-`RUN-0085` adds a timed growth event for 徐霄 and chapter-anchored first appearances for 李香香、邹蒙、范有通、老许、韩烟 and司空浩南. The growth line records the transition from飞升矿工 to仙界关系与宗门冲突参与者 without backfilling later states into first appearances.
+`RUN-0086` adds timed growth events for 徐霄、韩烟、李香香、司空浩南 and邹蒙, plus a chapter-anchored first appearance for 西门恨天. Growth records separate confirmed outcomes from pending神魂反制细节 and do not backfill later abilities into first appearances.
 
-## Quality gates — RUN-0085
+## Quality gates — RUN-0086
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 111 character and 72 artifact records |
+| Entity-document freshness | Passed — 112 character and 73 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 1 timed material update and 6 anchored first appearances |
+| Character growth continuity | Passed — 5 timed material updates and 1 anchored first appearance |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第521—529章标题、顺序和阶段边界；第521—528章正文由可访问镜像交叉核验。李香香完整系统面板、第524章完整战果、GIFT-0112精确倍率与其余返还、仙灵冰魄剑完整能力和矿区全部制度继续保持 `pending`。
+番茄小说官方目录确认第529—537章标题、顺序和阶段边界；第529—536章正文由番茄可访问正文和CP小说网镜像交叉核验。三名神魂暗杀者完整信息、七枚化仙丹逐枚倍率、万龙鎏金甲精确触发与完整能力、西门恨天正式职位和宗门最终处置继续保持 `pending`。
