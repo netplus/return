@@ -33,10 +33,10 @@ quality_gates:
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: pending_ci, characters: 129, artifacts: 75}
-  entity_document_readability: {status: pending_ci}
-  character_identity_alignment: {status: pending_ci}
-  character_growth_continuity: {status: pending_ci, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 10}
-  growth_temporal_accuracy: {status: pending_ci}
+  entity_document_freshness: {status: passed, characters: 129, artifacts: 75}
+  entity_document_readability: {status: passed}
+  character_identity_alignment: {status: passed, remaining_mismatches: 0}
+  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 10}
+  growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
