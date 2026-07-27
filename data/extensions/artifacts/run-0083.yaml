@@ -1,0 +1,29 @@
+schema_version: 1
+run_id: RUN-0083
+artifacts:
+- id: ART-0070
+  name: 九天神玉带
+  category: 仙器法宝
+  grade: pending
+  first_chapter: 516
+  current_holder: 徐霄
+  acquisition: GIFT-0110系统返还
+  effect: 完整品阶、能力、使用方式与限制待后续正文确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes: [NODE-0067]
+  source_chapters: [516]
+artifact_updates:
+- id: ART-0053
+  name: 山河灵图
+  update:
+    combat_record_add: [第514章收纳被九幽惊魂剑压制的葬花和北风, 第515章确认内部囚禁叶尘楚霄独孤浩和血云魔尊]
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [514, 515]
+- id: ART-0061
+  name: 九幽惊魂剑
+  update:
+    battle_use_add: [第513章大规模清剿阴灵并驱逐修士识海中的夺舍者, 第514章压制两名渡劫八重级阴灵并协助山河灵图完成收纳]
+    strategic_use: 形成针对冰寒阴灵和神魂夺舍的仙器级群体清剿能力
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [513, 514]
