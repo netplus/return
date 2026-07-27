@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0100
+nodes:
+- id: NODE-0084
+  title: 诸葛青天出关、云姑心结缘与遁之大道
+  chapters: {start: 639, end: 643}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第639—644章标题顺序与边界；归档哈希固定第639—643章；第639、640、642、643章由可访问镜像交叉核验
+  boundary_reason: 第643章完成诸葛青天问责降温、云姑心关系与返还、遁之大道获得并发生十年跳跃；第644章转入天一仙门变故
+  characters: [徐霄, 云姑心, 诸葛青天, 凌白烟, 丁静]
+  system_events:
+  - {event: 云姑心首次丹药赠送, result: 鸿蒙一气丹及九颗仙元丹, status: partial}
+  - {event: 仙灵天木剑赠送, result: 至尊仙器万峰青竹剑, status: partial}
+  - {event: 诸葛青天气运之子赠送, result: 三颗五行仙丹原样返还, status: partial}
+  - {event: 凌白烟化仙丹赠送, result: pending, status: partial}
+  relationship_result: 云姑心与徐霄确立伴侣关系；诸葛青天表面缓和但保留敌意
+  pending: [诸葛青天系统完整规则, 万峰青竹剑完整能力, GIFT-0157返还结果]
+  document: docs/01-timeline/node-0084.md
+  evidence: sources/evidence/chapters-639-643.yaml
