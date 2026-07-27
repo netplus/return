@@ -1,9 +1,9 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0080
+run_id: RUN-0081
 coverage:
   chapters_covered_through: 508
-  chapters_promoted_in_run: [500, 501, 502, 503, 504, 505, 506, 507, 508]
+  chapters_promoted_in_run: []
   timeline_nodes: 66
   draft_nodes: 0
   story_arc_nodes: 63
@@ -17,19 +17,24 @@ entity_documents:
   character_records: 104
   artifact_records: 69
   expected_generated_documents: 173
-  generator: scripts/render_entity_docs.py
+  base_renderer: scripts/render_entity_docs.py
+  generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
-  presentation: reader_friendly_with_collapsed_canonical_appendix
-  identity_alignment_validator: scripts/validate_entity_identity.py
+  presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
+  growth_line:
+    mode: stage_summary_plus_append_only_run_history
+    stage_window_chapters: 50
+    continuity_effective_run: RUN-0082
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [500, 501, 502, 503, 504, 505, 506, 507, 508, 509], cross_checked_mirror_chapters: [500, 501, 502, 503, 504, 505, 506, 507, 508], failures: 0}
-  arc_coherence: {status: passed, boundary: 第508章完成仙塔战力展示引发的道侣和赠送结算；第509章转入幽冥天绝阵与新返还冲突}
-  materiality: {status: passed, entity_updates: [NODE-0066, CHAR-0103紫霄, CHAR-0104血葵, GIFT-0108, GIFT-0109, ART-0069四柄仙器神剑]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
+  source_traceability: {status: passed, scope: existing_canonical_character_and_timeline_records, failures: 0}
+  arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
+  materiality: {status: passed, entity_updates: [staged_character_growth_line, append_only_growth_event_schema, future_growth_continuity_gate]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, projection_targets: [docs/02-characters, docs/06-artifacts]}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed}
+  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md, .github/workflows/knowledge-base-ci.yml]}
   entity_document_freshness: {status: passed, characters: 104, artifacts: 69, complete_canonical_record_preserved: true}
-  entity_document_readability: {status: passed}
+  entity_document_readability: {status: passed, semantic_sections: true, canonical_appendix_collapsed: true}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
+  character_growth_continuity: {status: passed, staged_summary: true, continuous_event_log: true, time_required: true, core_ability_or_impact_required: true, effective_run: RUN-0082}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: structured_growth_projection}
 blockers: []
