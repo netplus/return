@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0082
+run_id: RUN-0083
 coverage:
-  chapters_covered_through: 508
-  chapters_promoted_in_run: []
-  timeline_nodes: 66
+  chapters_covered_through: 516
+  chapters_promoted_in_run: [509, 510, 511, 512, 513, 514, 515, 516]
+  timeline_nodes: 67
   draft_nodes: 0
-  story_arc_nodes: 63
-  characters_documented: 104
+  story_arc_nodes: 64
+  characters_documented: 105
   characters_staged: 0
   system_records: 1
-  gift_events: 109
-  artifact_records: 69
+  gift_events: 110
+  artifact_records: 70
   artifacts_staged: 0
 entity_documents:
-  character_records: 104
-  artifact_records: 69
-  expected_generated_documents: 173
+  character_records: 105
+  artifact_records: 70
+  expected_generated_documents: 175
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, scope: existing_first_appearance_and_append_only_growth_records, failures: 0}
-  arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
-  materiality: {status: passed, entity_updates: [first_appearance_temporal_accuracy, regression_test]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [509, 510, 511, 512, 513, 514, 515, 516, 517], cross_checked_mirror_chapters: [509, 510, 511, 512, 513, 514, 515, 516], failures: 0}
+  arc_coherence: {status: passed, boundary: 第516章完成阴灵战后处置仙池安排和九天神玉带返还；第517章转入系统升级和飞升准备}
+  materiality: {status: passed, entity_updates: [NODE-0067, CHAR-0105神天, 徐霄大乘七重, 姬雪大乘六重, 海岚葬花北风死亡, 素青SSS气运, GIFT-0110, ART-0070九天神玉带]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 104, artifacts: 69}
+  entity_document_freshness: {status: passed, characters: 105, artifacts: 70}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, staged_summary: true, continuous_event_log: true}
-  growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0, explicit_missing_snapshot_label: true}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false}
+  character_growth_continuity: {status: passed, material_character_updates: 9, timed_growth_events: 9}
+  growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
