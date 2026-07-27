@@ -96,7 +96,17 @@ tasks:
 - id: TASK-0078
   title: Build the 东方青做好事系统、仙界毒瘤与云隐城出发 story arc from Chapter 581 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 581, provisional_chapter_end: 588, node: NODE-0076, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0092
+  target: {chapter_start: 581, chapter_end: 588, node: NODE-0076, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0076.md, data/extensions/timeline/run-0092.yaml, data/extensions/characters/run-0092.yaml, data/extensions/system/run-0092.yaml, data/extensions/artifacts/run-0092.yaml, sources/evidence/chapters-581-588.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0077]
+- id: TASK-0079
+  title: Build the 海底灵矿、厉红魅与青锋击杀 story arc from Chapter 589 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 589, provisional_chapter_end: 597, node: NODE-0077, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0078]
