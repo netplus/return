@@ -1,0 +1,55 @@
+schema_version: 1
+run_id: RUN-0087
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 537, end: 544}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 537, title: 外门长老团驾到}
+  - {chapter: 538, title: 气麻了的制裁团}
+  - {chapter: 539, title: 人仙巅峰，神霄仙火符}
+  - {chapter: 540, title: 态度巨变}
+  - {chapter: 541, title: 大道神丹，拜师成功}
+  - {chapter: 542, title: 矿区最后交代}
+  - {chapter: 543, title: 司空浩南的报复}
+  - {chapter: 544, title: 初到阴阳仙门}
+  boundary_probe: {chapter: 545, title: 崩溃的外门弟子}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [537, 538, 539, 540, 541, 542, 543, 544]
+chapter_facts:
+- chapter: 537
+  facts: [韩烟与徐霄羁绊度提升至2, 韩烟提出由柳清浅引荐徐霄进入阴阳仙门, 徐霄准备十枚化仙丹作为拜师礼]
+  status: partial
+- chapter: 538
+  facts: [三四十名外门长老前往六号矿坑问罪, 西门恨天领衔制裁团, 柳清浅与南宫嫣随长老团到场]
+  status: partial
+- chapter: 539
+  facts: [西门恨天境界明确为人仙巅峰, 徐霄取出人仙巅峰神霄仙火符准备反制, 南宫嫣开始考察李香香]
+  status: partial
+- chapter: 540
+  facts: [云鹤身份确认为外门首席执法长老, 符箓威慑促使长老团停止强制处置并道歉降级]
+  status: partial
+- chapter: 541
+  facts: [柳清浅系统面板确认为S级基础倍率30羁绊度1, 徐霄赠送十枚化仙丹与一枚人仙巅峰魂丹, 柳清浅接受徐霄拜师]
+  status: partial
+- chapter: 542
+  facts: [李香香拜南宫嫣为师, 徐霄向南宫嫣赠送十枚化仙丹, 徐霄完成矿区离场安排]
+  status: partial
+- chapter: 543
+  facts: [邹蒙获得十枚雷灵丹, 陈念获得两枚雷灵丹, 司空浩南组织外门弟子准备报复]
+  status: partial
+- chapter: 544
+  facts: [徐霄境界明确为渡劫四重, 山河灵图收纳司空浩南及数十名伏击者, 司空浩南人仙一重并在灵图小世界内死亡, 徐霄抵达阴阳仙门外门]
+  status: partial
+boundary_reason: 第544章完成矿区敌对清算并抵达阴阳仙门；第545章转入外门弟子舆论与宗门内部冲突
+pending:
+- 柳清浅拜师礼完整系统返还
+- 南宫嫣完整系统面板道基伤势与赠礼返还
+- 矿区告别赠礼完整接受者和数量
+- 神霄仙火符取得来源剩余数量与完整能力
+- 司空浩南伏击队伍完整身份与精确人数
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}

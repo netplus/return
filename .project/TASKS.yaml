@@ -78,20 +78,21 @@ tasks:
 - {id: TASK-0069, status: done, run_id: RUN-0083}
 - {id: TASK-0070, status: done, run_id: RUN-0084}
 - {id: TASK-0071, status: done, run_id: RUN-0085}
-- id: TASK-0072
-  title: Build the 化仙丹反制、矿区执事冲突与韩烟关系线 story arc from Chapter 529 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0086
-  target: {chapter_start: 529, chapter_end: 536, node: NODE-0070, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0070.md, data/extensions/timeline/run-0086.yaml, data/extensions/characters/run-0086.yaml, data/extensions/system/run-0086.yaml, data/extensions/artifacts/run-0086.yaml, sources/evidence/chapters-529-536.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0071]
+- {id: TASK-0072, status: done, run_id: RUN-0086}
 - id: TASK-0073
   title: Build the 外门长老团、拜师礼与矿区离场 story arc from Chapter 537 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 537, provisional_chapter_end: 544, node: NODE-0071, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0087
+  target: {chapter_start: 537, chapter_end: 544, node: NODE-0071, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0071.md, data/extensions/timeline/run-0087.yaml, data/extensions/characters/run-0087.yaml, data/extensions/system/run-0087.yaml, data/extensions/artifacts/run-0087.yaml, sources/evidence/chapters-537-544.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0072]
+- id: TASK-0074
+  title: Build the 外门舆论、正式拜师与亲传晋升 story arc from Chapter 545 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 545, provisional_chapter_end: 552, node: NODE-0072, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0073]

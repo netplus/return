@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 536
-- **Current evidence exploration through:** Chapter 537
+- **Canonical coverage through:** Chapter 544
+- **Current evidence exploration through:** Chapter 545
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 70
+- **Completed timeline nodes:** 71
 - **Draft timeline nodes:** 0
-- **Documented characters:** 112
-- **Generated character profiles:** 112
-- **Gift events:** 114
-- **Artifact records:** 73
-- **Generated artifact profiles:** 73
-- **Last run:** `RUN-0086`
-- **Last completed node:** `NODE-0070`
-- **Next task:** `TASK-0073` — 外门长老团、拜师礼与矿区离场 story arc
-- **Provisional exploration range:** Chapters 537–544
+- **Documented characters:** 115
+- **Generated character profiles:** 115
+- **Gift events:** 117
+- **Artifact records:** 74
+- **Generated artifact profiles:** 74
+- **Last run:** `RUN-0087`
+- **Last completed node:** `NODE-0071`
+- **Next task:** `TASK-0074` — 外门舆论、正式拜师与亲传晋升 story arc
+- **Provisional exploration range:** Chapters 545–552
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0070` covers Chapters 529—536. 韩烟以矿区执事身份判处徐霄十年、李香香一年和邹蒙十天禁闭；徐霄以三枚化仙丹化解主要处罚，首枚触发千倍返还鸿蒙一气丹，其余两枚返还仙元丹。韩烟炼化丹药后晋升人仙四重，并由执法者转为公开关系对象和宗门引荐者。司空浩南安排三名神魂秘术手下暗杀徐霄，但三人失联或死亡而徐霄保持无损。后续七枚化仙丹推动关系进一步公开，并关联至尊仙器万龙鎏金甲返还。第537章外门长老团到场，转入拜师与宗门准入阶段。
+`NODE-0071` covers Chapters 537—544. 外门长老团因徐霄与韩烟关系前往矿区问罪；徐霄以人仙巅峰神霄仙火符取得平等谈判地位，云鹤终止强制制裁。徐霄以十枚化仙丹和一枚人仙巅峰魂丹拜入柳清浅门下，李香香拜南宫嫣为师。离开矿区前，徐霄向邹蒙、陈念等队友赠送雷灵丹。司空浩南随后组织伏击，被渡劫四重徐霄以山河灵图收纳并清除。第545章转入阴阳仙门外门内部舆论与弟子冲突。
 
 ## Character growth updates
 
-`RUN-0086` adds timed growth events for 徐霄、韩烟、李香香、司空浩南 and邹蒙, plus a chapter-anchored first appearance for 西门恨天. Growth records separate confirmed outcomes from pending神魂反制细节 and do not backfill later abilities into first appearances.
+`RUN-0087` adds timed growth events for 徐霄、韩烟、李香香、司空浩南、西门恨天 and邹蒙, plus chapter-anchored first appearances for 柳清浅、南宫嫣 and云鹤. All uncertain system returns and incomplete combat identities remain pending rather than inferred.
 
-## Quality gates — RUN-0086
+## Quality gates — RUN-0087
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 112 character and 73 artifact records |
+| Entity-document freshness | Passed — 115 character and 74 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 5 timed material updates and 1 anchored first appearance |
+| Character growth continuity | Passed — 6 timed material updates and 3 anchored first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第529—537章标题、顺序和阶段边界；第529—536章正文由番茄可访问正文和CP小说网镜像交叉核验。三名神魂暗杀者完整信息、七枚化仙丹逐枚倍率、万龙鎏金甲精确触发与完整能力、西门恨天正式职位和宗门最终处置继续保持 `pending`。
+番茄小说官方目录确认第537—545章标题、顺序和阶段边界；第537—544章正文由CP小说网可访问镜像交叉核验。柳清浅拜师礼全部返还、南宫嫣完整面板和赠礼返还、矿区告别赠礼完整清单、神霄仙火符来源与剩余数量、司空浩南伏击队伍完整身份继续保持 `pending`。

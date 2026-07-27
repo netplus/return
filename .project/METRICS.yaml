@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0086
+run_id: RUN-0087
 coverage:
-  chapters_covered_through: 536
-  chapters_promoted_in_run: [529, 530, 531, 532, 533, 534, 535, 536]
-  timeline_nodes: 70
+  chapters_covered_through: 544
+  chapters_promoted_in_run: [537, 538, 539, 540, 541, 542, 543, 544]
+  timeline_nodes: 71
   draft_nodes: 0
-  story_arc_nodes: 67
-  characters_documented: 112
+  story_arc_nodes: 68
+  characters_documented: 115
   characters_staged: 0
   system_records: 1
-  gift_events: 114
-  artifact_records: 73
+  gift_events: 117
+  artifact_records: 74
   artifacts_staged: 0
 entity_documents:
-  character_records: 112
-  artifact_records: 73
-  expected_generated_documents: 185
+  character_records: 115
+  artifact_records: 74
+  expected_generated_documents: 189
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [529, 530, 531, 532, 533, 534, 535, 536, 537], cross_checked_mirror_chapters: [529, 530, 531, 532, 533, 534, 535, 536], failures: 0}
-  arc_coherence: {status: passed, boundary: 第536章完成处罚撤销神魂暗杀失败韩烟关系公开和至尊仙器返还消息扩散；第537章外门长老团到场转入拜师与宗门准入}
-  materiality: {status: passed, entity_updates: [NODE-0070, CHAR-0112西门恨天, GIFT-0113, GIFT-0114, ART-0073万龙鎏金甲]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [537, 538, 539, 540, 541, 542, 543, 544, 545], cross_checked_mirror_chapters: [537, 538, 539, 540, 541, 542, 543, 544], failures: 0}
+  arc_coherence: {status: passed, boundary: 第544章完成司空浩南伏击清算并抵达阴阳仙门；第545章转入外门弟子舆论与正式宗门生活}
+  materiality: {status: passed, entity_updates: [NODE-0071, CHAR-0113柳清浅, CHAR-0114南宫嫣, CHAR-0115云鹤, GIFT-0115, GIFT-0116, GIFT-0117, ART-0074人仙巅峰神霄仙火符]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 112, artifacts: 73}
+  entity_document_freshness: {status: passed, characters: 115, artifacts: 74}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 1}
+  character_growth_continuity: {status: passed, material_character_updates: 6, timed_growth_events: 6, new_characters_with_first_appearance: 3}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []
