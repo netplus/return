@@ -80,20 +80,21 @@ tasks:
 - {id: TASK-0071, status: done, run_id: RUN-0085}
 - {id: TASK-0072, status: done, run_id: RUN-0086}
 - {id: TASK-0073, status: done, run_id: RUN-0087}
-- id: TASK-0074
-  title: Build the 外门舆论、正式拜师与亲传晋升 story arc from Chapter 545 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0088
-  target: {chapter_start: 545, chapter_end: 552, node: NODE-0072, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0072.md, data/extensions/timeline/run-0088.yaml, data/extensions/characters/run-0088.yaml, data/extensions/system/run-0088.yaml, data/extensions/artifacts/run-0088.yaml, sources/evidence/chapters-545-552.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0073]
+- {id: TASK-0074, status: done, run_id: RUN-0088}
 - id: TASK-0075
   title: Build the 道侣大会、六甲评测与掌门亲传 story arc from Chapter 553 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 553, provisional_chapter_end: 564, node: NODE-0073, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0089
+  target: {chapter_start: 553, chapter_end: 564, node: NODE-0073, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0073.md, data/extensions/timeline/run-0089.yaml, data/extensions/characters/run-0089.yaml, data/extensions/system/run-0089.yaml, sources/evidence/chapters-553-564.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: pending_ci, entity_document_readability: pending_ci, character_identity_alignment: pending_ci, character_growth_continuity: pending_ci, growth_temporal_accuracy: pending_ci, copyright_boundary: passed}
   depends_on: [TASK-0074]
+- id: TASK-0076
+  title: Build the 凤青玄刘爱花、疯狂赠送与罗素结缘 story arc from Chapter 565 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 565, provisional_chapter_end: 572, node: NODE-0074, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0075]
