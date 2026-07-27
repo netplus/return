@@ -1,5 +1,5 @@
 schema_version: 2
-workflow: {standard_version: 2.2, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
+workflow: {standard_version: 2.3, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0068 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
@@ -116,10 +116,20 @@ tasks:
   outputs: [scripts/render_entity_docs.py, scripts/test_render_entity_docs.py, docs/00-project/WORKFLOW.md, docs/entity-docs-manifest.yaml, docs/02-characters/_INDEX.md, docs/06-artifacts/_INDEX.md]
   quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, copyright_boundary: passed}
   depends_on: [TASK-0067]
+- id: TASK-0068I
+  title: Repair canonical character identity and profile-path alignment
+  type: maintenance
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0079
+  target: {character_records_audited: 102, mismatches_repaired: 5}
+  outputs: [data/extensions/characters/run-0079.yaml, scripts/validate_entity_identity.py, scripts/test_validate_entity_identity.py, .github/workflows/knowledge-base-ci.yml, docs/00-project/WORKFLOW.md]
+  quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, copyright_boundary: passed}
+  depends_on: [TASK-0068R]
 - id: TASK-0068
   title: Build the 天元仙塔闯关与极致肉身战 story arc from Chapter 500 onward
   type: story_arc
   status: pending
   target: {chapter_start: 500, provisional_chapter_end: 507, node: NODE-0066, boundary: adaptive}
   rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0068R]
+  depends_on: [TASK-0068I]
