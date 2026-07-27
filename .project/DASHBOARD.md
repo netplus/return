@@ -5,47 +5,47 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 638
-- **Current evidence exploration through:** Chapter 639
+- **Canonical coverage through:** Chapter 643
+- **Current evidence exploration through:** Chapter 644
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 83
+- **Completed timeline nodes:** 84
 - **Draft timeline nodes:** 0
-- **Documented characters:** 148
-- **Generated character profiles:** 148
-- **Gift events:** 153
-- **Artifact records:** 87
-- **Generated artifact profiles:** 87
-- **Last run:** `RUN-0099`
-- **Last completed node:** `NODE-0083`
-- **Next task:** `TASK-0086` — 诸葛青天出关、问责与地脉岩火剑 story arc
-- **Provisional exploration range:** Chapters 639–643
+- **Documented characters:** 149
+- **Generated character profiles:** 149
+- **Gift events:** 157
+- **Artifact records:** 89
+- **Generated artifact profiles:** 89
+- **Last run:** `RUN-0100`
+- **Last completed node:** `NODE-0084`
+- **Next task:** `TASK-0087` — 天一仙门变故、佛门叫阵与无间地狱 story arc
+- **Provisional exploration range:** Chapters 644–650
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0083` covers Chapters 633—638. 尘玉、万青和罗方因徐霄公开多重关系责令分手；徐霄向三位太上长老各赠十颗高品质五行仙丹后，问责转为接受其对现有关系长期负责。焰灵接受仙剑及后遗症补偿承诺，系统返还至尊仙器破天斩金剑。金华因徐霄展露的实力将青锋案与其联系，并被系统识别为气运之敌。东方青最终公开保护徐霄，纯阳仙门撤离。
+`NODE-0084` covers Chapters 639—643. 诸葛青天突破天仙出关，其“震惊就变强”系统与宗门震惊阈值机制公开；他因徐霄接近丁静而上门问责。云姑心提前汇报并与徐霄正式确立关系，接受十颗化仙丹和仙灵天木剑，系统返还鸿蒙一气丹、九颗仙元丹及至尊仙器万峰青竹剑。徐霄以三颗五行仙丹暂时化解诸葛青天公开冲突，随后服用返还资源，使鸿蒙真气达到五十二股并完美领悟遁之大道。第643章发生十年时间跳跃，第644章转入天一仙门变故。
 
 ## Character growth updates
 
-`RUN-0099` adds 尘玉 and 金华, and timed growth events for 徐霄、万青、罗方、罗素、焰灵、东方青、吕玄一 and 云花海.
+`RUN-0100` adds 诸葛青天 and timed growth events for 徐霄、云姑心、凌白烟 and 丁静.
 
-## Quality gates — RUN-0099
+## Quality gates — RUN-0100
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed with qualifications — archive hashes and readable cross-check |
+| Source traceability | Passed with qualifications — archive hashes plus readable cross-check |
 | Arc coherence | Passed |
 | Materiality | Passed |
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 148 character and 87 artifact records |
+| Entity-document freshness | Passed — 149 character and 89 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 8 timed material updates and 2 new first appearances |
+| Character growth continuity | Passed — 4 timed material updates and 1 new first appearance |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-Chapters 633—638 are fixed by the archived whole-file SHA-256 and per-chapter hashes and were cross-checked against the official catalog and a readable mirror. The exact return mapping for the three taishang-elder gifts, 尘玉's full profile, 破天斩金剑 abilities and 金华 task reward remain pending. No full chapter text is stored.
+The official catalog and archived per-chapter hashes fix Chapters 639—643 and the Chapter 644 boundary. Chapters 639, 640, 642 and 643 were cross-checked against a readable mirror; Chapter 641 remains partial but is constrained by its archive hash and adjacent chapter continuity. Full chapter text is not stored. The full 诸葛青天 system rules, 万峰青竹剑 abilities and `GIFT-0157` return remain pending.
