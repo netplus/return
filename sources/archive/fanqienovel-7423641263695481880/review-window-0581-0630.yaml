@@ -1,0 +1,8 @@
+schema_version: 1
+purpose: transient_evidence_artifact_pointer
+chapter_range: {start: 581, end: 630}
+workflow_run_id: 30272423452
+artifact_id: 
+artifact_url: 
+expires_after_days: 1
+merge_policy: remove_before_merge
