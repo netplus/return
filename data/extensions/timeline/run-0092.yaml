@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0092
+nodes:
+- id: NODE-0076
+  title: 做好事系统、云隐城与海底灵矿任务
+  chapters: {start: 581, end: 588}
+  granularity: story_arc
+  status: verified
+  source_qualification: 用户提供Internet Archive全文归档；整文件SHA-256及第581—588章标题偏移单章哈希已入库，正文在临时证据窗口逐章核验
+  boundary_reason: 第588章完成灵矿谈判破裂、青锋气运之敌识别及击杀任务发布；第589章转入徐霄直接出手、灭族与任务执行
+  characters: [徐霄, 东方青, 南宫嫣, 厉红魅, 南宫化极, 金大友, 青锋, 莫问书, 凌白烟]
+  system_events:
+  - {event: 东方青系统确认, result: 三级做好事就变强系统以善行积分兑换丹药并处于天道规则范围, status: verified}
+  - {event: 三千天道丹服用, result: 徐霄完美领悟剑之大道, status: verified}
+  - {event: 击杀青锋任务, result: 奖励额外传送仙台, completion: pending, status: partial}
+  relationship_result: 厉红魅与南宫化极作为云隐城一方进入徐霄资源网络；金蟾族与纯阳仙门关系使灵矿争端升级
+  pending: [东方青系统完整积分规则, 极道万冰符完整能力, 灵矿最终归属, 青锋任务完成结果]
+  document: docs/01-timeline/node-0076.md
+  evidence: sources/evidence/chapters-581-588.yaml
