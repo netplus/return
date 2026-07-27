@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 69
+  extension_files: 70
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -149,6 +149,7 @@ characters:
   - NODE-0078
   - NODE-0079
   - NODE-0080
+  - NODE-0081
   source_chapters:
   - 1
   - 2
@@ -726,6 +727,12 @@ characters:
   - 614
   - 615
   - 616
+  - 617
+  - 618
+  - 619
+  - 620
+  - 621
+  - 622
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -812,7 +819,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 渡劫八重
+  cultivation_change: 人仙三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -845,6 +852,7 @@ characters:
   - 以山河灵图挡下独孤浩大乘六重攻击
   - 控制黑魔圣宗黑石客栈一名合体巅峰和五名炼虚修士
   - 以山河灵图快速收纳黑魔圣宗八名合体巅峰长老、上百门人及其法器
+  - 第617章以九霄山河图一击收纳血灵宗三名融合后达到人仙巅峰的长老
   system_change: 晋升化神触发返还道具库升级
   current_action: 为一年后开启的远古战场准备
   resource:
@@ -899,6 +907,7 @@ characters:
   - 仙界资源网络由外门扩展至内门弟子和外门大长老层级
   - 资源网络进入阴阳仙门太上长老层级
   - 成为天元界飞升者资源与关系核心
+  - 建立十余人的内门执法弟子与护院班底
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -980,12 +989,20 @@ characters:
   - 返还九霄山河图
   - 返还地仙巅峰魂丹
   - 五颗五行仙丹赠予东方青后原样返还
+  - 仙器六十余件
+  - 至尊仙器六件
+  - 仙元丹四千余颗
+  - 五行仙丹五百四十余颗
+  - 地仙符箓三十一张
+  - 天仙符箓两张
+  - 上品灵精一万八千余枚
+  - 鸿蒙真气五十股
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
   knowledge:
   - 渡劫九重规则
   - 两次雷劫间隔极限约两万年
   - 渡劫失败通常身死道消
-  age_change: 1034岁
+  age_change: 1039岁
   lifespan_change: 110283年
   growth_event:
   - node: NODE-0067
@@ -1146,6 +1163,19 @@ characters:
     - 免除当年执事任务
     - 成为天元界飞升者资源核心
     - 为道元承诺传功长老席位
+    status: verified
+  - chapter_range:
+      start: 617
+      end: 622
+    event: 五年执法成长并决定代南宫嫣参加三宗人仙大会
+    core_ability:
+    - 人仙三重
+    - 九霄山河图可瞬间收纳人仙巅峰目标
+    - 剑力两条上位大道
+    impact:
+    - 建立内门执法班底
+    - 完成血灵宗清剿
+    - 进入三宗人仙大会主战线
     status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
@@ -6099,6 +6129,7 @@ characters:
   - NODE-0069
   - NODE-0070
   - NODE-0071
+  - NODE-0081
   source_chapters:
   - 522
   - 523
@@ -6110,6 +6141,9 @@ characters:
   - 529
   - 542
   - 543
+  - 617
+  - 618
+  - 619
   verification_status: partial
   condition_change: 因代挖连坐受到十天禁闭处罚
   growth_event:
@@ -6127,10 +6161,24 @@ characters:
     - 获得十枚雷灵丹
     - 与徐霄的队友情与资源关系固化
     status: partial
+  - chapter_range:
+      start: 617
+      end: 619
+    event: 辞去矿役后成为徐霄护院和执法弟子并升至人仙一重
+    core_ability:
+    - 人仙一重
+    impact:
+    - 职业与资源路径由矿工转为长期直属班底
+    status: verified
   accepted_resources:
   - GIFT-0117中的十枚雷灵丹
   relationship_change:
   - 矿区离场前接受徐霄告别资源并继续将其视为核心人脉
+  cultivation_change: 人仙一重
+  role_change:
+  - 徐霄护院守卫和内门执法弟子
+  accepted_gifts:
+  - GIFT-0148
 - id: CHAR-0108
   name: 范有通
   status: alive
@@ -6519,6 +6567,7 @@ characters:
   - NODE-0077
   - NODE-0078
   - NODE-0080
+  - NODE-0081
   source_chapters:
   - 539
   - 541
@@ -6551,11 +6600,13 @@ characters:
   - 601
   - 602
   - 613
+  - 622
   verification_status: partial
   relationship_change:
   - 主动到访柳清浅府邸并与徐霄形成直接资源接触
   - 与徐霄正式确立关系
   - 羁绊度提升至2
+  - 获得罗素公开接受并由徐霄主动代战保护
   growth_event:
   - node: NODE-0072
     event: 道基损伤信息公开并进入徐霄资源修复线
@@ -6622,6 +6673,12 @@ characters:
     impact:
     - 长期资源供给关系继续稳定
     status: verified
+  - chapter: 622
+    event: 参加三宗人仙大会并由徐霄决定代其迎战二气人仙
+    impact:
+    - 与罗素关系公开协调
+    - 避免对阵实力明显超出的金刚丰
+    status: verified
   assessment_result:
   - 天资: 乙
     容貌: 甲
@@ -6640,6 +6697,7 @@ characters:
   - 因徐霄与厉红魅确立关系而出现持续情感冲突
   role_change:
   - 参与金蟾族分支清除并代表阴阳仙门接管灵矿
+  - 阴阳仙门人仙交流大会参赛者
 - id: CHAR-0115
   name: 云鹤
   status: alive
@@ -6755,12 +6813,14 @@ characters:
   accepted_gifts:
   - GIFT-0122
   - 第575章三枚化仙丹
+  - GIFT-0148
   related_nodes:
   - NODE-0072
   - NODE-0073
   - NODE-0075
   - NODE-0078
   - NODE-0079
+  - NODE-0081
   source_chapters:
   - 547
   - 548
@@ -6780,6 +6840,8 @@ characters:
   - 601
   - 605
   - 606
+  - 618
+  - 619
   verification_status: partial
   current_action:
   - 参加道侣大会重新评测自身状态
@@ -6810,12 +6872,23 @@ characters:
     impact:
     - 由外门亲传协助角色转入内门任务体系
     status: verified
+  - chapter_range:
+      start: 618
+      end: 619
+    event: 转投徐霄麾下并升至人仙四重
+    core_ability:
+    - 人仙四重
+    impact:
+    - 成为长期护院和执法班底成员
+    status: verified
   resource_change:
   - 三颗化仙丹
   role_change:
   - 继续承担返程操舟与看守协助
+  - 徐霄直属内门执法弟子和护院成员
   identity_change:
   - 阴阳仙门内门执法弟子
+  cultivation_change: 人仙四重
 - id: CHAR-0119
   name: 凌白烟
   status: alive
@@ -6837,12 +6910,14 @@ characters:
   - GIFT-0122
   - 第575章三枚化仙丹
   - GIFT-0136
+  - GIFT-0148
   related_nodes:
   - NODE-0072
   - NODE-0073
   - NODE-0075
   - NODE-0078
   - NODE-0079
+  - NODE-0081
   source_chapters:
   - 547
   - 548
@@ -6861,6 +6936,9 @@ characters:
   - 601
   - 605
   - 606
+  - 617
+  - 618
+  - 619
   verification_status: partial
   assessment_result:
   - 容貌: 甲
@@ -6896,10 +6974,22 @@ characters:
     impact:
     - 正式进入内门任务与执法体系
     status: verified
+  - chapter_range:
+      start: 617
+      end: 619
+    event: 进入徐霄长期执法与护院体系并升至人仙四重
+    core_ability:
+    - 人仙四重
+    impact:
+    - 资源供给和直属执法关系稳定
+    status: verified
   resource_change:
   - 三颗化仙丹
   identity_change:
   - 阴阳仙门内门执法弟子
+  cultivation_change: 人仙四重
+  role_change:
+  - 徐霄直属内门执法弟子和护院成员
 - id: CHAR-0120
   name: 罗素
   status: alive
@@ -6935,6 +7025,7 @@ characters:
   - NODE-0075
   - NODE-0078
   - NODE-0079
+  - NODE-0081
   source_chapters:
   - 556
   - 557
@@ -6957,6 +7048,10 @@ characters:
   - 601
   - 606
   - 609
+  - 619
+  - 620
+  - 621
+  - 622
   document: null
   verification_status: partial
   luck_grade:
@@ -6970,6 +7065,7 @@ characters:
   relationship_change:
   - 与徐霄确立公开亲密关系并承诺长期相伴
   - 与徐霄关系获得父母及外门长老团公开认可
+  - 向云花海公开徐霄持续提供仙元丹并支持未来天仙资源
   enemy_relation:
   - 与东方青的旧道侣关系已终止五万年
   growth_event:
@@ -7009,10 +7105,21 @@ characters:
     impact:
     - 内门高层身份与徐霄长期资源关系同时恢复
     status: verified
+  - chapter_range:
+      start: 619
+      end: 622
+    event: 以地仙八重身份参加三宗大会并公开长期资源关系
+    core_ability:
+    - 地仙八重
+    impact:
+    - 与云花海的旧友关系重新接续
+    - 与徐霄关系在三宗高层公开
+    status: verified
   resource_change:
   - 十颗仙元丹
   identity_change:
   - 阴阳仙门内门传功长老
+  cultivation_change: 地仙八重
 - id: CHAR-0121
   name: 东方青
   status: alive
@@ -7236,12 +7343,14 @@ characters:
   related_nodes:
   - NODE-0073
   - NODE-0079
+  - NODE-0081
   source_chapters:
   - 558
   - 562
   - 563
   - 564
   - 606
+  - 617
   document: null
   verification_status: partial
   identity_change:
@@ -7254,6 +7363,13 @@ characters:
     impact:
     - 由外门亲传转入内门执法体系
     status: verified
+  - chapter: 617
+    event: 随凌白烟进入徐霄执法队伍并参与血灵宗任务
+    impact:
+    - 由云鹤门下弟子转入稳定执法班底
+    status: verified
+  role_change:
+  - 徐霄直属内门执法弟子
 - id: CHAR-0126
   name: 云姑心
   status: alive
@@ -7282,12 +7398,14 @@ characters:
   related_nodes:
   - NODE-0073
   - NODE-0079
+  - NODE-0081
   source_chapters:
   - 558
   - 562
   - 563
   - 564
   - 606
+  - 617
   document: null
   verification_status: partial
   identity_change:
@@ -7300,6 +7418,13 @@ characters:
     impact:
     - 由外门亲传转入内门执法体系
     status: verified
+  - chapter: 617
+    event: 随凌白烟进入徐霄执法队伍并参与血灵宗任务
+    impact:
+    - 进入稳定执法班底
+    status: verified
+  role_change:
+  - 徐霄直属内门执法弟子
 - id: CHAR-0127
   name: 绝柔
   status: alive
@@ -7466,6 +7591,7 @@ characters:
   - NODE-0077
   - NODE-0078
   - NODE-0080
+  - NODE-0081
   source_chapters:
   - 584
   - 585
@@ -7483,6 +7609,8 @@ characters:
   - 597
   - 603
   - 616
+  - 617
+  - 622
   document: null
   verification_status: verified
   accepted_gifts:
@@ -7493,6 +7621,7 @@ characters:
   relationship_change:
   - 与徐霄确立长期亲密关系
   - 羁绊度提升至2
+  - 明确拒绝陆道离并维持与徐霄的稳定关系
   resource_change:
   - 十颗化仙丹
   - 厚土御天剑
@@ -7529,6 +7658,14 @@ characters:
     impact:
     - 结束玄阴仙宗掌门过渡期
     - 长期修炼与关系中心转入阴阳仙门
+    status: verified
+  - chapter_range:
+      start: 617
+      end: 622
+    event: 拒绝陆道离旧情挽回并公开维持现有关系
+    impact:
+    - 与陆道离旧情线实质终止
+    - 与徐霄关系进一步公开化
     status: verified
   affiliation_change:
   - 阴阳仙门外门
@@ -7734,11 +7871,15 @@ characters:
   related_nodes:
   - NODE-0079
   - NODE-0080
+  - NODE-0081
   source_chapters:
   - 604
   - 614
   - 615
   - 616
+  - 617
+  - 618
+  - 622
   document: null
   verification_status: partial
   cultivation_change: 地仙巅峰
@@ -7758,6 +7899,15 @@ characters:
     - 徐霄进入其飞升者保护网络
     - 厉红魅旧情线重新启动
     status: verified
+  - chapter_range:
+      start: 617
+      end: 622
+    event: 挽回厉红魅失败并形成对徐霄的持续私人敌意
+    impact:
+    - 旧情冲突由重启尝试转为长期对立
+    status: verified
+  conflict_change:
+  - 携旧日凤钗挽回厉红魅时亲眼确认其与徐霄关系，旧情修复彻底失败
 - id: CHAR-0139
   name: 孟凡
   status: alive
@@ -7976,5 +8126,40 @@ characters:
   - NODE-0080
   source_chapters:
   - 616
+  document: null
+  verification_status: verified
+- id: CHAR-0145
+  name: 云花海
+  status: alive
+  role: supporting
+  affiliations:
+  - 五灵仙门
+  identities:
+  - 五灵仙门掌门
+  - 天仙上境
+  - 罗素旧友
+  - SSS级气运之女
+  first_appearance:
+    chapter: 619
+    title: 交流大会开始
+    node: NODE-0081
+  cultivation:
+    current: 天仙上境
+    status: verified
+  luck_grade:
+    value: SSS
+    return_multiplier: 100
+    bond: 1
+    status: verified
+  relationship_context:
+    罗素: 自幼相识的闺蜜并曾参加其婚礼
+    徐霄: 初次见面后被系统识别为高阶有效对象
+    status: verified
+  related_nodes:
+  - NODE-0081
+  source_chapters:
+  - 619
+  - 620
+  - 621
   document: null
   verification_status: verified

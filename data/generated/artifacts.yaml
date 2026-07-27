@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 63
+  extension_files: 64
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1687,6 +1687,13 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0062
+  - NODE-0081
+  usage_record:
+  - chapter: 617
+    event: 以极致遁速追击血灵宗最后三名人仙长老
+    status: verified
+  source_chapters:
+  - 617
 - id: ART-0063
   name: 仙灵天火剑
   category: 仙器神剑
@@ -2009,8 +2016,17 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0078
+  - NODE-0081
   source_chapters:
   - 599
+  - 617
+  combat_record:
+  - chapter: 617
+    event: 一击收纳由血灵宗三名人仙长老融合形成的人仙巅峰血光巨人
+    result: 血灵宗最后三名长老伏诛，宗门清剿任务完成
+    status: verified
+  ability:
+  - 五色仙光可跨越人仙层级差距瞬间收纳人仙巅峰目标
 - id: ART-0084
   name: 地仙巅峰魂丹
   category: 丹药

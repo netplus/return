@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 60
+  extension_files: 61
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1970,3 +1970,20 @@ gifts:
   triggered_multiplier: 2
   relationship_result: 厉红魅正式进入阴阳仙门后的长期资源关系得到确认
   status: verified
+- id: GIFT-0148
+  chapter_range:
+    start: 618
+    end: 619
+  node: NODE-0081
+  giver: 徐霄
+  recipients:
+  - 邹蒙
+  - 凌白烟
+  - 莫问书
+  gift: 每人三颗化仙丹
+  accepted: true
+  system_valid: partial
+  reward: 三颗仙元丹
+  triggered_multiplier: pending
+  relationship_result: 三人继续作为徐霄护院与执法班底
+  status: partial
