@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0097
+gift_events:
+- id: GIFT-0148
+  chapter_range: {start: 618, end: 619}
+  node: NODE-0081
+  giver: 徐霄
+  recipients: [邹蒙, 凌白烟, 莫问书]
+  gift: 每人三颗化仙丹
+  accepted: true
+  system_valid: partial
+  reward: 三颗仙元丹
+  triggered_multiplier: pending
+  relationship_result: 三人继续作为徐霄护院与执法班底
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0148]
+    valid_target_add:
+    - chapter: 620
+      target: 云花海
+      classification: SSS级气运之女
+      return_multiplier: 100
+      initial_bond: 1
+      status: verified
+    rule_add:
+    - chapter: 619
+      rule: 多对象同批赠送后系统可只显示汇总返还；未明确指向时不得反推具体有效对象与逐笔倍率
+      status: partial
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [618, 619, 620]
