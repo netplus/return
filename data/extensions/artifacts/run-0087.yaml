@@ -1,0 +1,38 @@
+schema_version: 1
+run_id: RUN-0087
+artifacts:
+- id: ART-0074
+  name: 人仙巅峰神霄仙火符
+  category: 符箓
+  grade: 人仙巅峰
+  first_chapter: 539
+  current_holder: 徐霄
+  acquisition: 既有库存；精确来源待确认
+  effect: 可形成足以威胁外门人仙长老团的顶级火系杀伤与战略威慑
+  current_state: 已展示并收回；剩余数量待确认
+  status: partial
+  related_nodes: [NODE-0071]
+  source_chapters: [539, 540]
+artifact_updates:
+- id: ART-0053
+  name: 山河灵图
+  update:
+    latest_battle_use_add:
+    - {chapter: 544, event: 收纳司空浩南及数十名伏击外门弟子，并在小世界内以天雷烈焰完成清剿, status: partial}
+    related_nodes_add: [NODE-0071]
+    source_chapters_add: [544]
+- id: ART-0060
+  name: 化仙丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0115, chapter: 541, quantity: 10, recipient: 柳清浅, status: partial}
+    - {gift_id: GIFT-0116, chapter: 542, quantity: 10, recipient: 南宫嫣, status: partial}
+    related_nodes_add: [NODE-0071]
+    source_chapters_add: [541, 542]
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0117, chapter: 543, recipients: [邹蒙, 陈念, 一四六号矿队其他成员], quantity: pending_total, confirmed_distribution: {邹蒙: 10, 陈念: 2}, status: partial}
+    related_nodes_add: [NODE-0071]
+    source_chapters_add: [543]
