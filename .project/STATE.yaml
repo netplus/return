@@ -1,9 +1,9 @@
 schema_version: 2
 updated_at: '2026-07-27'
-last_run_id: RUN-0078
+last_run_id: RUN-0079
 milestone: M10
 workflow:
-  standard_version: 2.2
+  standard_version: 2.3
   unit: story_arc
   default_chapter_window: 5-10
   boundary_mode: adaptive
@@ -19,6 +19,7 @@ entity_documents:
   manifest: docs/entity-docs-manifest.yaml
   character_documents: 102
   artifact_documents: 68
+  identity_alignment_validator: scripts/validate_entity_identity.py
 scope:
   chapter_start: 451
   chapter_end: 500
