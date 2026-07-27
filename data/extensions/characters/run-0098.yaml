@@ -1,0 +1,55 @@
+schema_version: 1
+run_id: RUN-0098
+characters:
+- id: CHAR-0146
+  name: 焰灵
+  status: alive
+  role: supporting
+  affiliations: [五灵仙门]
+  identities: [五气人仙, 火灵道体, SS级气运之女]
+  first_appearance: {chapter: 627, title: 现场送丹, node: NODE-0082}
+  cultivation: {current: 人仙巅峰, condensed_qi: 五气, status: verified}
+  relationship_context: {徐霄: 由擂台敌手转为接受补偿并保留传讯联系, status: partial}
+  accepted_gifts: [GIFT-0149]
+  related_nodes: [NODE-0082]
+  source_chapters: [627, 628]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    title_add: [天南第一人仙]
+    ability_change_add: [完美冰系大道公开, 完美剑之大道形成大范围莲花剑气, 法体剑三修战力公开达到压倒性地仙级表现]
+    related_nodes_add: [NODE-0082]
+    source_chapters_add: [623, 624, 625, 626, 627, 628, 629, 630, 631, 632]
+    growth_event_add:
+    - chapter_range: {start: 623, end: 632}
+      event: 横扫三宗人仙交流大会并取得天南第一人仙称号
+      core_ability: [佛陀金身与九天玉骨炼体, 完美冰系大道, 完美剑之大道, 万龙鎏金甲, 九天神玉带, 至尊神火剑]
+      impact: [法体剑三修实力向三宗公开, 获得天南第一人仙长期声望, 纯阳与五灵仙门敌意升级]
+      status: verified
+- id: CHAR-0137
+  name: 吕玄一
+  update:
+    system_identity_add: [气运之子, 先天剑体, 至尊仙剑传承者]
+    conflict_change_add: [系统发布击杀任务, 大会败北后对徐霄敌意显著升级]
+    related_nodes_add: [NODE-0082]
+    source_chapters_add: [626, 629, 630, 631, 632]
+    growth_event_add:
+    - chapter_range: {start: 626, end: 632}
+      event: 被系统识别并在交流大会中全面败北
+      core_ability: [先天剑体, 至尊仙剑传承]
+      impact: [成为徐霄气运之敌任务目标, 纯阳仙门与徐霄冲突长期化]
+      status: partial
+- id: CHAR-0145
+  name: 云花海
+  update:
+    conflict_change_add: [五灵仙门交流大会败北, 对徐霄形成持续敌意并计划介入罗素关系]
+    related_nodes_add: [NODE-0082]
+    source_chapters_add: [625, 626, 627, 628, 629, 630, 631, 632]
+    growth_event_add:
+    - chapter_range: {start: 625, end: 632}
+      event: 五灵仙门在徐霄横扫下弃权
+      impact: [对徐霄敌意升级, 计划从罗素关系线干预徐霄]
+      status: partial
