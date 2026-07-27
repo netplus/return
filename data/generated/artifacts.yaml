@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 50
+  extension_files: 51
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -399,7 +399,7 @@ artifacts:
   - 402
   - 451
 - id: ART-0017
-  name: 九火琉璃罩
+  name: 三千大道丹
   category: 法宝
   first_chapter: 68
   current_holder: 徐霄
@@ -412,9 +412,16 @@ artifacts:
   related_nodes:
   - NODE-0013
   - NODE-0026
+  - NODE-0066
   current_state: 第七道强化雷劫中损毁
   source_chapters:
   - 183
+  - 508
+  acquisition_records:
+  - gift_id: GIFT-0108
+    chapter: 508
+    quantity: 1
+    status: partial
 - id: ART-0018
   name: 玄天八卦阵
   category: 法器
@@ -1003,7 +1010,7 @@ artifacts:
   related_nodes:
   - NODE-0043
 - id: ART-0044
-  name: 九天神莲戒
+  name: 鸿蒙一气丹
   category: 先天灵宝
   grade: 先天灵宝
   first_chapter: 347
@@ -1017,6 +1024,7 @@ artifacts:
   - NODE-0045
   - NODE-0046
   - NODE-0063
+  - NODE-0066
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1025,9 +1033,15 @@ artifacts:
   - 480
   - 482
   - 483
+  - 508
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
+  acquisition_records:
+  - gift_id: GIFT-0108
+    chapter: 508
+    quantity: 1
+    status: partial
 - id: ART-0045
   name: 雷灵丹
   category: 丹药
@@ -1062,6 +1076,7 @@ artifacts:
   - NODE-0062
   - NODE-0063
   - NODE-0064
+  - NODE-0066
   source_chapters:
   - 451
   - 455
@@ -1070,6 +1085,7 @@ artifacts:
   - 467
   - 470
   - 488
+  - 508
   acquisition_additional:
     gift_id: GIFT-0088
     chapter: 456
@@ -1098,6 +1114,23 @@ artifacts:
     chapter: 480
     recipient: 龙矶
     quantity: 10
+    status: partial
+  acquisition_records:
+  - gift_id: GIFT-0108
+    chapter: 508
+    quantity: 163
+    status: partial
+  transfer_records:
+  - gift_id: GIFT-0109
+    chapter: 508
+    quantity: 12
+    recipients:
+    - 长眉
+    - 天阁
+    - 陆亭舟
+    - 公孙长谋
+    - 神玉
+    - 血刀
     status: partial
 - id: ART-0046
   name: 噬魂封魔剑
@@ -1514,3 +1547,17 @@ artifacts:
   - NODE-0065
   source_chapters:
   - 494
+- id: ART-0069
+  name: 四柄仙器神剑（逐件名称待确认）
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 508
+  current_holder: 徐霄
+  acquisition: GIFT-0108合并返还
+  effect: 逐件属性能力与对应受赠对象待后续正文确认
+  current_state: 未确认分配或使用
+  status: partial
+  related_nodes:
+  - NODE-0066
+  source_chapters:
+  - 508

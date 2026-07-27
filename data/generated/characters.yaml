@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 54
+  extension_files: 55
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -133,6 +133,7 @@ characters:
   - NODE-0063
   - NODE-0064
   - NODE-0065
+  - NODE-0066
   source_chapters:
   - 1
   - 2
@@ -595,6 +596,15 @@ characters:
   - 497
   - 498
   - 499
+  - 500
+  - 501
+  - 502
+  - 503
+  - 504
+  - 505
+  - 506
+  - 507
+  - 508
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -644,6 +654,7 @@ characters:
   - 冷若云与黑蛇关系分别获得两宗渡劫话事人公开推动或认可
   - 与月幽冥形成稳定道侣及长期渡劫资源关系
   - 与魔妖敲定道侣及长期资源关系
+  - 与云心月陆雪瑶紫霄血葵形成公开道侣或长期资源安排
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -652,8 +663,12 @@ characters:
   - 道元圣体可炼化天蛇神毒并转化为修炼灵力
   - 仙神魂胎神识随大乘境增强，可隐蔽识别渡劫修士识海中的夺舍阴灵
   - 仙神魂胎可在识海内直接击溃并清除渡劫二重冰寒阴灵
+  - 打通天元仙塔一百层
+  - 纯肉身可与渡劫六重守关金龙正面对抗
+  - 综合战力公开达到渡劫后期级战略威慑
+  - 多系大道神通形成稳定联合作战体系
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 大乘境
+  cultivation_change: 大乘三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -731,6 +746,7 @@ characters:
   - 往返盘龙岛完成旧关系与资源安置，并承诺长期支持龙矶后续雷劫
   - 代表无妄仙宗参加天元仙宗天山论剑
   - 进入天煞魔宗渡劫话事人和大乘天才的跨宗资源网络
+  - 以天元仙塔历史首位百层通关者改变天元大陆宗门力量预期
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -740,7 +756,7 @@ characters:
   public_resource_explanation: 获得缥缈仙宗道元真人部分传承
   resource_support: 承诺长期提供林婉修炼资源
   body_resource: 向玉冰提供天龙血用于后续研究
-  hongmeng_qi_strands: 8
+  hongmeng_qi_strands: 32
   accepted_return: GIFT-0048返还的鸿蒙一气丹
   condition_change: 天龙天凤血脉与长期服用神丹使噬骨销魂散失效
   enemy_relation:
@@ -2733,6 +2749,7 @@ characters:
   - NODE-0047
   - NODE-0049
   - NODE-0054
+  - NODE-0066
   source_chapters:
   - 244
   - 247
@@ -2761,9 +2778,14 @@ characters:
   - 413
   - 414
   - 415
+  - 502
+  - 503
+  - 504
+  - 505
+  - 506
   document: null
   verification_status: partial
-  conflict_change: 因徐霄平安返宗并与玉冰结缘，反徐立场进一步强化
+  conflict_change: 因徐霄打通仙塔持续受到情绪与身体冲击；永久伤势未确认
   conflict_escalation: 借无妄仙宗执事、外门弟子与玉石宗组织的致命伏杀失败，反徐行动已由舆论告发升级为直接谋杀
   current_action: 伏杀失败后继续维持宗门反徐舆论和敌对网络
   antagonist_network: 说服师父赵无极关注并介入徐霄及道元传承问题
@@ -4059,6 +4081,7 @@ characters:
   - NODE-0050
   - NODE-0051
   - NODE-0054
+  - NODE-0066
   source_chapters:
   - 381
   - 382
@@ -4074,13 +4097,18 @@ characters:
   - 414
   - 415
   - 416
+  - 504
+  - 506
+  - 507
+  - 508
   document: null
   verification_status: partial
   attitude_change: 参与八宗问罪并继续对徐霄保持负面评价
   accepted_gifts:
   - GIFT-0076
+  - GIFT-0108
   combat_change: 遭万剑尊者与大乘阴魂伏击后以精血冰封突围，并由徐霄驰援脱险
-  relationship_change: 对徐霄由持续负面评价转为保留戒备下的资源合作
+  relationship_change: 在青云仙宗高层推动下接受道侣安排与高阶赠礼但个人态度仍有保留
   strategic_change: 将阴煞天宗全面夺舍行动带回铁焰城并参与九宗危机会议
 - id: CHAR-0074
   name: 魔姝
@@ -4639,6 +4667,7 @@ characters:
   related_nodes:
   - NODE-0059
   - NODE-0061
+  - NODE-0066
   source_chapters:
   - 449
   - 450
@@ -4649,9 +4678,14 @@ characters:
   - 466
   - 467
   - 470
+  - 502
+  - 503
+  - 504
+  - 505
+  - 506
   document: null
   verification_status: partial
-  conflict_change: 真灵公开推动冷若云与徐霄关系后，其反徐敌意和道心受挫进一步加深
+  conflict_change: 因徐霄打通仙塔持续受到情绪与身体冲击；永久伤势未确认
 - id: CHAR-0088
   name: 黑无忌
   status: alive
@@ -4940,6 +4974,7 @@ characters:
   conflict_context: 因徐霄的名声、实力及接近云心月而形成持续竞争敌意
   related_nodes:
   - NODE-0064
+  - NODE-0066
   source_chapters:
   - 487
   - 488
@@ -4947,8 +4982,16 @@ characters:
   - 490
   - 491
   - 492
+  - 500
+  - 501
+  - 502
+  - 503
+  - 504
+  - 505
+  - 506
   document: null
   verification_status: partial
+  conflict_change: 仙塔纪录被徐霄彻底超越并持续受到情绪与身体冲击；永久伤势未确认
 - id: CHAR-0095
   name: 云心月
   status: alive
@@ -4967,11 +5010,13 @@ characters:
     status: partial
   accepted_gifts:
   - GIFT-0104
+  - GIFT-0108
   relationship_context:
     徐霄: 接受十枚雷灵丹但保持明显负面评价
     status: partial
   related_nodes:
   - NODE-0064
+  - NODE-0066
   source_chapters:
   - 487
   - 488
@@ -4979,8 +5024,12 @@ characters:
   - 490
   - 491
   - 492
+  - 506
+  - 507
+  - 508
   document: null
   verification_status: partial
+  relationship_change: 由赠送对象进一步进入天元仙宗公开推动的道侣与长期资源安排
 - id: CHAR-0096
   name: 素青
   status: alive
@@ -5187,5 +5236,73 @@ characters:
   - 497
   - 498
   - 499
+  document: null
+  verification_status: partial
+- id: CHAR-0103
+  name: 紫霄
+  status: alive
+  role: supporting
+  affiliations:
+  - 缥缈仙宗
+  identities:
+  - 公孙长谋弟子
+  - S级气运之女
+  - 徐霄道侣安排对象
+  first_appearance:
+    chapter: 505
+    title: 直通一百层，疯狂攀关系
+    node: NODE-0066
+  cultivation:
+    current: 渡劫境
+    exact_level: pending
+    status: partial
+  luck_grade:
+    value: S
+    base_multiplier: 30
+    status: partial
+  accepted_gifts:
+  - GIFT-0108
+  relationship_context:
+    徐霄: 经宗门高层推动进入道侣与长期资源安排
+    status: partial
+  related_nodes:
+  - NODE-0066
+  source_chapters:
+  - 505
+  - 507
+  - 508
+  document: null
+  verification_status: partial
+- id: CHAR-0104
+  name: 血葵
+  status: alive
+  role: supporting
+  affiliations:
+  - pending
+  identities:
+  - 血刀弟子
+  - 徐霄道侣安排对象
+  first_appearance:
+    chapter: 506
+    title: 给徐霄许道侣
+    node: NODE-0066
+  cultivation:
+    current: 渡劫境
+    exact_level: pending
+    status: partial
+  luck_grade:
+    value: pending
+    status: pending
+  accepted_gifts:
+  - GIFT-0108
+  relationship_context:
+    徐霄: 经宗门高层推动进入道侣与长期资源安排
+    status: partial
+  related_nodes:
+  - NODE-0066
+  source_chapters:
+  - 506
+  - 507
+  - 508
   document: null
   verification_status: partial

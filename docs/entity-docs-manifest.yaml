@@ -4,7 +4,7 @@ presentation: reader_friendly_with_collapsed_canonical_appendix
 source: data/generated
 groups:
   characters:
-    count: 102
+    count: 104
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -212,8 +212,12 @@ groups:
       path: docs/02-characters/魔妖.md
     - id: CHAR-0102
       path: docs/02-characters/神玉.md
+    - id: CHAR-0103
+      path: docs/02-characters/紫霄.md
+    - id: CHAR-0104
+      path: docs/02-characters/血葵.md
   artifacts:
-    count: 68
+    count: 69
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -304,7 +308,7 @@ groups:
     - id: ART-0043
       path: docs/06-artifacts/九天精元丹.md
     - id: ART-0044
-      path: docs/06-artifacts/九天神莲戒.md
+      path: docs/06-artifacts/鸿蒙一气丹-ART-0044.md
     - id: ART-0045
       path: docs/06-artifacts/雷灵丹.md
     - id: ART-0046
@@ -353,3 +357,5 @@ groups:
       path: docs/06-artifacts/仙器神盾（正式名称待确认）.md
     - id: ART-0068
       path: docs/06-artifacts/人仙巅峰魂丹.md
+    - id: ART-0069
+      path: docs/06-artifacts/四柄仙器神剑（逐件名称待确认）.md
