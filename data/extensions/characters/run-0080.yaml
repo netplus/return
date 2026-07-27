@@ -1,0 +1,76 @@
+schema_version: 1
+run_id: RUN-0080
+characters:
+- id: CHAR-0103
+  name: 紫霄
+  status: alive
+  role: supporting
+  affiliations: [缥缈仙宗]
+  identities: [公孙长谋弟子, S级气运之女, 徐霄道侣安排对象]
+  first_appearance: {chapter: 505, title: 直通一百层，疯狂攀关系, node: NODE-0066}
+  cultivation: {current: 渡劫境, exact_level: pending, status: partial}
+  luck_grade: {value: S, base_multiplier: 30, status: partial}
+  accepted_gifts: [GIFT-0108]
+  relationship_context: {徐霄: 经宗门高层推动进入道侣与长期资源安排, status: partial}
+  related_nodes: [NODE-0066]
+  source_chapters: [505, 507, 508]
+  document: null
+  verification_status: partial
+- id: CHAR-0104
+  name: 血葵
+  status: alive
+  role: supporting
+  affiliations: [pending]
+  identities: [血刀弟子, 徐霄道侣安排对象]
+  first_appearance: {chapter: 506, title: 给徐霄许道侣, node: NODE-0066}
+  cultivation: {current: 渡劫境, exact_level: pending, status: partial}
+  luck_grade: {value: pending, status: pending}
+  accepted_gifts: [GIFT-0108]
+  relationship_context: {徐霄: 经宗门高层推动进入道侣与长期资源安排, status: partial}
+  related_nodes: [NODE-0066]
+  source_chapters: [506, 507, 508]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 大乘三重
+    hongmeng_qi_strands: 32
+    power_change_add: [打通天元仙塔一百层, 纯肉身可与渡劫六重守关金龙正面对抗, 综合战力公开达到渡劫后期级战略威慑, 多系大道神通形成稳定联合作战体系]
+    relationship_change_add: [与云心月陆雪瑶紫霄血葵形成公开道侣或长期资源安排]
+    role_change_add: [以天元仙塔历史首位百层通关者改变天元大陆宗门力量预期]
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [500, 501, 502, 503, 504, 505, 506, 507, 508]
+- id: CHAR-0095
+  name: 云心月
+  update:
+    accepted_gifts_add: [GIFT-0108]
+    relationship_change: 由赠送对象进一步进入天元仙宗公开推动的道侣与长期资源安排
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [506, 507, 508]
+- id: CHAR-0073
+  name: 陆雪瑶
+  update:
+    accepted_gifts_add: [GIFT-0108]
+    relationship_change: 在青云仙宗高层推动下接受道侣安排与高阶赠礼但个人态度仍有保留
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [504, 506, 507, 508]
+- id: CHAR-0047
+  name: 叶尘
+  update:
+    conflict_change: 因徐霄打通仙塔持续受到情绪与身体冲击；永久伤势未确认
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [502, 503, 504, 505, 506]
+- id: CHAR-0087
+  name: 独孤浩
+  update:
+    conflict_change: 因徐霄打通仙塔持续受到情绪与身体冲击；永久伤势未确认
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [502, 503, 504, 505, 506]
+- id: CHAR-0094
+  name: 楚霄
+  update:
+    conflict_change: 仙塔纪录被徐霄彻底超越并持续受到情绪与身体冲击；永久伤势未确认
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [500, 501, 502, 503, 504, 505, 506]
