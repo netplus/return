@@ -1,5 +1,21 @@
 # Changelog
 
+## RUN-0078 — 2026-07-27
+
+- Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Audited the reader experience of `docs/02-characters/` and `docs/06-artifacts/` after the user reported that the complete canonical projection was difficult to read.
+- Confirmed presentation defects: complex mappings were flattened into one-line code, long chapter and node lists dominated pages, machine field names leaked into the reader view, and full canonical YAML was expanded by default.
+- Detected a concurrent completed `RUN-0077` story task while preparing the maintenance change; closed the stale PR without merging, rebuilt from the latest `main`, preserved `NODE-0065` and all Chapter 494—499 increments, and reassigned this maintenance work to `RUN-0078` / `TASK-0068R`.
+- Upgraded the workflow standard to v2.2 and added the Entity-document readability quality gate.
+- Refactored `scripts/render_entity_docs.py` to generate concise overview tables and semantic sections for identity, cultivation and abilities, relationships, resources, major events, acquisition and transfer history, effects, usage, current state, sources and unresolved fields.
+- Changed complex dictionaries and lists into nested Markdown instead of compressed inline YAML.
+- Made complete source-chapter and node lists collapsible and moved the full canonical YAML into a default-collapsed audit appendix.
+- Added current-value resolution so `cultivation_change`, `age_change` and `lifespan_change` override older base fields in summaries.
+- Improved character and artifact directory indexes with current realm, major affiliation, category, grade and holder/state columns.
+- Expanded renderer tests to enforce semantic sections, current-value precedence, collapsed audit data, source-range compression, path collision behavior, stale detection and safe managed-file cleanup.
+- Preserved canonical counts and story coverage: 102 characters, 68 artifacts and Chapters covered through 499; no new story facts or Timeline node were added.
+- Left `TASK-0068` as the next unique pending story task beginning at Chapter 500.
+
 ## RUN-0077 — 2026-07-27
 
 - Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
@@ -114,7 +130,7 @@
 - Added `GIFT-0086` and `GIFT-0087`, returning鸿蒙一气丹、雷灵丹、大乘巅峰魂丹、蕴仙丹 and渡劫中期魂丹.
 - Expanded山河灵图 with大乘六重防御 and黑魔圣宗情报人员收纳 records; expanded鸿蒙一气丹 and雷灵丹 acquisitions.
 - Recorded the active独孤浩 luck-child task and the emerging黑无忌 luck-enemy conflict.
-- Preserved欧阳惊虹完整系统面板、独孤浩底牌名称、黑无忌完整任务奖励与境界、黑石客栈人员最终处置 and魂丹逐枚分配 as pending.
+- Preserved欧阳惊虹完整系统面板、独孤浩底牌名称、黑无忌完整任务奖励与境界、黑石客栈六人最终处置 and魂丹逐枚分配 as pending.
 - Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
 - Source traceability passed with qualifications; all other quality gates passed.
 - Completed `TASK-0061`, advanced to milestone M10 and queued `TASK-0062` beginning at Chapter 455.
