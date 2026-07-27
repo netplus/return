@@ -1,0 +1,62 @@
+schema_version: 1
+run_id: RUN-0100
+gift_events:
+- id: GIFT-0154
+  chapter: 640
+  node: NODE-0084
+  giver: 徐霄
+  recipient: 云姑心
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 首颗千倍暴击返还一颗鸿蒙一气丹，其余九颗返还九颗仙元丹
+  triggered_multiplier: {first_item: 1000, remaining_items: same_tier_return}
+  relationship_result: 云姑心与徐霄正式确立伴侣关系
+  status: partial
+- id: GIFT-0155
+  chapter: 640
+  node: NODE-0084
+  giver: 徐霄
+  recipient: 云姑心
+  gift: 顶级仙器仙灵天木剑
+  accepted: true
+  system_valid: true
+  reward: 至尊仙器万峰青竹剑
+  triggered_multiplier: pending
+  relationship_result: 云姑心进入长期高阶仙器支持关系
+  status: partial
+- id: GIFT-0156
+  chapter: 642
+  node: NODE-0084
+  giver: 徐霄
+  recipient: 诸葛青天
+  gift: 三颗高品质五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 三颗五行仙丹原样返还
+  triggered_multiplier: 气运之子原样返还规则
+  relationship_result: 公开问责暂时降温，诸葛青天表面友善离场
+  status: partial
+- id: GIFT-0157
+  chapter: 643
+  node: NODE-0084
+  giver: 徐霄
+  recipient: 凌白烟
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 凌白烟继续进入徐霄长期资源支持线
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0154, GIFT-0155, GIFT-0156, GIFT-0157]
+    rule_add:
+    - chapter: 642
+      rule: 向气运之子诸葛青天赠送物品时，赠礼按既有规则原样返还，不产生倍数收益也不造成资源损失
+      status: partial
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [640, 642, 643]

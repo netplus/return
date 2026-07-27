@@ -1,0 +1,51 @@
+schema_version: 1
+run_id: RUN-0100
+artifacts:
+- id: ART-0088
+  name: 仙灵天木剑
+  category: 仙器神剑
+  grade: 顶级仙器
+  first_chapter: 640
+  current_holder: 云姑心
+  acquisition: GIFT-0155
+  effect: 木系顶级仙器；完整能力、阵法与限制待确认
+  current_state: 已由云姑心接受，炼化进度待确认
+  status: partial
+  related_nodes: [NODE-0084]
+  source_chapters: [640, 641, 642, 643]
+- id: ART-0089
+  name: 万峰青竹剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 640
+  current_holder: 徐霄
+  acquisition: GIFT-0155系统返还
+  effect: 木系至尊仙器；完整能力、阵法与限制待确认
+  current_state: 徐霄持有，未确认使用
+  status: partial
+  related_nodes: [NODE-0084]
+  source_chapters: [640, 641, 642, 643]
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0154, chapter: 640, quantity: 1, status: partial}
+    consumption_add:
+    - {chapter: 643, consumer: 徐霄, result: 鸿蒙真气增至五十二股, status: partial}
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [640, 643]
+- id: ART-0078
+  name: 三千天道丹
+  update:
+    consumption_add:
+    - {chapter: 643, consumer: 徐霄, result: 完美领悟遁之大道, status: partial}
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [643]
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    transfer_add:
+    - {gift_id: GIFT-0156, chapter: 642, recipient: 诸葛青天, quantity: 3, returned_unchanged: true, status: partial}
+    related_nodes_add: [NODE-0084]
+    source_chapters_add: [642]

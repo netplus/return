@@ -91,20 +91,21 @@ tasks:
 - {id: TASK-0082, status: done, run_id: RUN-0096}
 - {id: TASK-0083, status: done, run_id: RUN-0097}
 - {id: TASK-0084, status: done, run_id: RUN-0098}
-- id: TASK-0085
-  title: Build the 责令分手、尘玉冲突与金华气运之敌 story arc from Chapter 633 onward
+- {id: TASK-0085, status: done, run_id: RUN-0099}
+- id: TASK-0086
+  title: Build the 诸葛青天出关、云姑心结缘与遁之大道 story arc from Chapter 639 onward
   type: story_arc
   status: done
   completed_at: '2026-07-28'
-  run_id: RUN-0099
-  target: {chapter_start: 633, chapter_end: 638, node: NODE-0083, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0083.md, data/extensions/timeline/run-0099.yaml, data/extensions/characters/run-0099.yaml, data/extensions/system/run-0099.yaml, data/extensions/artifacts/run-0099.yaml, sources/evidence/chapters-633-638.yaml]
+  run_id: RUN-0100
+  target: {chapter_start: 639, chapter_end: 643, node: NODE-0084, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0084.md, data/extensions/timeline/run-0100.yaml, data/extensions/characters/run-0100.yaml, data/extensions/system/run-0100.yaml, data/extensions/artifacts/run-0100.yaml, sources/evidence/chapters-639-643.yaml]
   quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0084]
-- id: TASK-0086
-  title: Build the 诸葛青天出关、问责与地脉岩火剑 story arc from Chapter 639 onward
+  depends_on: [TASK-0085]
+- id: TASK-0087
+  title: Build the 天一仙门变故、佛门叫阵与无间地狱 story arc from Chapter 644 onward
   type: story_arc
   status: pending
-  target: {chapter_start: 639, provisional_chapter_end: 643, node: NODE-0084, boundary: adaptive}
+  target: {chapter_start: 644, provisional_chapter_end: 650, node: NODE-0085, boundary: adaptive}
   rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0085]
+  depends_on: [TASK-0086]
