@@ -43,7 +43,7 @@ character_updates:
       core_ability: [渡劫八重, 内门执法执事身份, 系统真实身份识别]
       impact: [资源网络转入内门, 建立刘爱花长期赠送渠道, 接入阴阳飞升会]
       status: verified
-- id: CHAR-0035
+- id: CHAR-0113
   name: 柳清浅
   update:
     cultivation_change: 地仙境
@@ -73,7 +73,7 @@ character_updates:
       core_ability: [人仙二重, 十颗化仙丹, 既有仙剑炼化中]
       impact: [与徐霄长期资源绑定加强]
       status: verified
-- id: CHAR-0013
+- id: CHAR-0002
   name: 姬雪
   update:
     accepted_gifts_add: [GIFT-0142]
@@ -113,7 +113,7 @@ character_updates:
       event: 公开担保徐霄成为内门执法执事
       impact: [对徐霄的支持由私人立场转化为正式宗门任命]
       status: verified
-- id: CHAR-0097
+- id: CHAR-0118
   name: 莫问书
   update:
     identity_change_add: [阴阳仙门内门执法弟子]
@@ -125,7 +125,7 @@ character_updates:
       core_ability: [内门执法弟子身份]
       impact: [由外门亲传协助角色转入内门任务体系]
       status: verified
-- id: CHAR-0124
+- id: CHAR-0119
   name: 凌白烟
   update:
     identity_change_add: [阴阳仙门内门执法弟子]
