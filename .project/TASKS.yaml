@@ -1,5 +1,5 @@
 schema_version: 2
-workflow: {standard_version: 2.3, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
+workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0068 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
@@ -82,10 +82,20 @@ tasks:
   outputs: [docs/01-timeline/node-0066.md, data/extensions/timeline/run-0080.yaml, data/extensions/characters/run-0080.yaml, data/extensions/system/run-0080.yaml, data/extensions/artifacts/run-0080.yaml, sources/evidence/chapters-500-508.yaml]
   quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, copyright_boundary: passed}
   depends_on: [TASK-0068I]
+- id: TASK-0069G
+  title: Add staged and continuously appended character growth lines
+  type: maintenance
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0081
+  target: {character_records: 104, presentation: stage_summary_plus_append_only_run_history, stage_window_chapters: 50, continuity_effective_run: RUN-0082}
+  outputs: [scripts/render_character_growth.py, scripts/test_render_character_growth.py, .github/workflows/knowledge-base-ci.yml, docs/00-project/WORKFLOW.md, docs/entity-docs-manifest.yaml, docs/02-characters/_INDEX.md]
+  quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, copyright_boundary: passed}
+  depends_on: [TASK-0068]
 - id: TASK-0069
   title: Build the 幽冥天绝阵、阴灵围剿与系统返还 story arc from Chapter 509 onward
   type: story_arc
   status: pending
   target: {chapter_start: 509, provisional_chapter_end: 516, node: NODE-0067, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0068]
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0069G]
