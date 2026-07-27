@@ -1,7 +1,7 @@
 schema_version: 2
 updated_at: '2026-07-27'
-last_run_id: RUN-0093
-milestone: M12
+last_run_id: RUN-0094
+milestone: M13
 workflow:
   standard_version: 2.4
   unit: story_arc
@@ -18,32 +18,32 @@ entity_documents:
   generator: scripts/render_character_growth.py
   base_renderer: scripts/render_entity_docs.py
   manifest: docs/entity-docs-manifest.yaml
-  character_documents: 136
-  artifact_documents: 82
+  character_documents: 137
+  artifact_documents: 84
   identity_alignment_validator: scripts/validate_entity_identity.py
   growth_continuity_effective_run: RUN-0082
   growth_stage_window_chapters: 50
   growth_temporal_accuracy: no_backfill_from_merged_current_snapshot
 scope:
-  chapter_start: 551
-  chapter_end: 600
+  chapter_start: 601
+  chapter_end: 650
 progress:
-  chapters_covered_through: 597
-  chapters_examined_through: 598
+  chapters_covered_through: 603
+  chapters_examined_through: 604
   chapters_verified_through: 16
   source_qualified_chapter_ranges:
   - {start: 12, end: 42}
-  - {start: 44, end: 597}
+  - {start: 44, end: 603}
   source_qualification_exceptions: [43]
-  nodes_completed: 77
+  nodes_completed: 78
   nodes_drafted: 0
-  characters_documented: 136
+  characters_documented: 137
   characters_staged: 0
   system_records: 1
-  gift_events: 133
-  artifact_records: 82
+  gift_events: 139
+  artifact_records: 84
   artifacts_staged: 0
-  last_completed_node: NODE-0077
-current: {next_task: TASK-0080, task_status: pending, next_chapter: 598, provisional_arc_end: 603}
+  last_completed_node: NODE-0078
+current: {next_task: TASK-0081, task_status: pending, next_chapter: 604, provisional_arc_end: 609}
 status: active
 blockers: []
