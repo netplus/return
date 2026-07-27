@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0085
+gift_events:
+- id: GIFT-0112
+  chapter_range: {start: 525, end: 526}
+  node: NODE-0069
+  giver: 徐霄
+  recipient: 李香香
+  gift: 十枚雷灵丹
+  accepted: true
+  system_valid: true
+  reward: 仙灵冰魄剑及其余返还待确认
+  triggered_multiplier: pending
+  relationship_result: 李香香与徐霄关系由矿友推进为公开道侣
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0112]
+    confirmed_objects_add: [李香香]
+    related_nodes_add: [NODE-0069]
+    source_chapters_add: [521, 525, 526]
+    rule_observation_add: [系统在灵藏仙域矿区继续正常识别气运对象并执行赠礼返还]
