@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 65
+  extension_files: 66
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -145,6 +145,7 @@ characters:
   - NODE-0074
   - NODE-0075
   - NODE-0076
+  - NODE-0077
   source_chapters:
   - 1
   - 2
@@ -694,6 +695,15 @@ characters:
   - 586
   - 587
   - 588
+  - 589
+  - 590
+  - 591
+  - 592
+  - 593
+  - 594
+  - 595
+  - 596
+  - 597
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -910,6 +920,9 @@ characters:
   - 完成无妄真绝向阴阳仙诀的灵力体系转换
   - 阴阳灵力可互生互转并提升灵力浑厚程度
   - 服用三千天道丹并完美领悟剑之大道
+  - 以完美剑之大道驱动双至尊仙剑形成人仙境压倒性战力
+  - 服用三千天道丹并完美领悟力之大道
+  - 力之大道全力出拳可短暂撕裂仙界空间
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -936,6 +949,7 @@ characters:
   - 向柳清浅送出拜师礼
   - 向南宫嫣送出照顾李香香的见面礼
   - 向矿区旧队友完成雷灵丹告别赠送
+  - 获得额外传送仙台
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
   knowledge:
   - 渡劫九重规则
@@ -1053,6 +1067,19 @@ characters:
     - 灵矿争端升级为系统任务
     - 额外传送仙台成为资源网络扩展目标
     status: verified
+  - chapter_range:
+      start: 589
+      end: 597
+    event: 清除金蟾族、占领灵矿并击杀青锋
+    core_ability:
+    - 完美剑之大道
+    - 完美力之大道
+    - 双至尊仙剑
+    - 地仙顶级极道灵火符
+    impact:
+    - 阴阳仙门取得海底灵矿
+    - 完成气运之敌任务并获得额外传送仙台
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1069,6 +1096,7 @@ characters:
     status: partial
   task_change:
   - 击杀气运之敌青锋并获取额外传送仙台
+  - 击杀青锋任务完成
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -6350,6 +6378,7 @@ characters:
   - NODE-0073
   - NODE-0075
   - NODE-0076
+  - NODE-0077
   source_chapters:
   - 539
   - 541
@@ -6369,6 +6398,13 @@ characters:
   - 586
   - 587
   - 588
+  - 589
+  - 590
+  - 591
+  - 592
+  - 593
+  - 594
+  - 595
   verification_status: partial
   relationship_change:
   - 主动到访柳清浅府邸并与徐霄形成直接资源接触
@@ -6407,6 +6443,17 @@ characters:
     - 道伤修复资源线继续推进
     - 代表阴阳仙门处理南海势力争端
     status: verified
+  - chapter_range:
+      start: 589
+      end: 595
+    event: 参与灵矿夺取并面对徐霄厉红魅关系确立
+    core_ability:
+    - 人仙巅峰
+    - 高阶符箓与丹药资源保持
+    impact:
+    - 对徐霄战力形成明确认可
+    - 双方关系因厉红魅介入转入冲突与后续修复阶段
+    status: verified
   assessment_result:
   - 天资: 乙
     容貌: 甲
@@ -6418,6 +6465,10 @@ characters:
   resource_change:
   - 十颗化仙丹
   - 两张人仙九重神霄玄冰符
+  conflict_change:
+  - 因徐霄与厉红魅确立关系而出现持续情感冲突
+  role_change:
+  - 参与金蟾族分支清除并代表阴阳仙门接管灵矿
 - id: CHAR-0115
   name: 云鹤
   status: alive
@@ -7099,14 +7150,50 @@ characters:
     status: partial
   related_nodes:
   - NODE-0076
+  - NODE-0077
   source_chapters:
   - 584
   - 585
   - 586
   - 587
   - 588
+  - 589
+  - 590
+  - 591
+  - 592
+  - 593
+  - 594
+  - 595
+  - 596
+  - 597
   document: null
   verification_status: verified
+  accepted_gifts:
+  - GIFT-0131
+  - GIFT-0132
+  - GIFT-0133
+  relationship_change:
+  - 与徐霄确立长期亲密关系
+  - 羁绊度提升至2
+  resource_change:
+  - 十颗化仙丹
+  - 厚土御天剑
+  - 人仙巅峰大道神丹
+  role_change:
+  - 计划卸任玄阴仙宗掌门后进入阴阳仙门修炼
+  growth_event:
+  - chapter_range:
+      start: 591
+      end: 597
+    event: 重启地仙仙路并与徐霄确立关系
+    core_ability:
+    - 人仙七重
+    - 获得化仙丹、顶级仙剑和大道神丹
+    impact:
+    - 长期资源来源得到保障
+    - 羁绊升至二
+    - 准备转入阴阳仙门修炼
+    status: verified
 - id: CHAR-0133
   name: 南宫化极
   status: alive
@@ -7160,10 +7247,24 @@ characters:
     status: verified
   related_nodes:
   - NODE-0076
+  - NODE-0077
   source_chapters:
   - 588
+  - 589
+  - 590
   document: null
   verification_status: verified
+  status_change: dead
+  death:
+  - chapter: 590
+    cause: 被徐霄双至尊仙剑击杀
+    status: verified
+  growth_event:
+  - chapter: 590
+    event: 灵矿冲突中被徐霄击杀
+    impact:
+    - 金蟾族高层崩溃并导致整个分支灭亡
+    status: verified
 - id: CHAR-0135
   name: 青锋
   status: alive
@@ -7187,7 +7288,56 @@ characters:
     status: verified
   related_nodes:
   - NODE-0076
+  - NODE-0077
   source_chapters:
   - 588
+  - 595
+  - 596
+  - 597
+  document: null
+  verification_status: partial
+  cultivation_change: 地仙一重
+  status_change: dead
+  death:
+  - chapter: 597
+    cause: 被徐霄以地仙顶级极道灵火符击杀
+    status: verified
+  growth_event:
+  - chapter: 597
+    event: 被假海底地火情报引出并遭极道灵火符击杀
+    core_ability:
+    - 地仙一重
+    impact:
+    - 系统气运之敌任务完成
+    - 纯阳仙门南海关系链被清除
+    status: verified
+- id: CHAR-0136
+  name: 金幻
+  status: dead
+  role: antagonist
+  affiliations:
+  - 金蟾族
+  - 纯阳仙门关系网
+  identities:
+  - 金蟾族幸存人仙
+  - 金大友之孙
+  first_appearance:
+    chapter: 595
+    title: 大师兄，青锋
+    node: NODE-0077
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  death:
+    chapter: 597
+    cause: 被徐霄收进山河灵图后炼化
+    status: verified
+  related_nodes:
+  - NODE-0077
+  source_chapters:
+  - 595
+  - 596
+  - 597
   document: null
   verification_status: partial

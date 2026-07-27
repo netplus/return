@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 60
+  extension_files: 61
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1854,19 +1854,27 @@ artifacts:
   grade: pending
   first_chapter: 574
   current_holder: 已消耗
-  acquisition: 第574章系统返还；原始赠礼与倍率待确认
+  acquisition:
+  - 第574章系统返还；原始赠礼与倍率待确认
+  - 第594章由GIFT-0133再次返还一颗
   effect: 服用后可完美领悟一条上位大道；与三千大道丹同属三千大道体系并随机出现
   current_state: 第583章由徐霄服用
   status: partial
   related_nodes:
   - NODE-0075
   - NODE-0076
+  - NODE-0077
   source_chapters:
   - 574
   - 575
   - 583
+  - 594
+  - 595
   effect_change:
   - 使徐霄完美领悟剑之大道
+  use:
+  - 第595章由徐霄服用并完美领悟力之大道
+  current_state_change: 再次返还的一颗已消耗
 - id: ART-0079
   name: 罗素获赠顶级仙器（正式名称待确认）
   category: 仙器
@@ -1897,3 +1905,31 @@ artifacts:
   - NODE-0076
   source_chapters:
   - 587
+- id: ART-0081
+  name: 九岳覆天剑
+  category: 仙剑
+  grade: 至尊仙器
+  first_chapter: 593
+  current_holder: 徐霄
+  acquisition: GIFT-0132返还
+  effect: 厚土御天剑的至尊仙器返还形态；完整攻守能力和限制待确认
+  current_state: 已入徐霄空间库
+  status: partial
+  related_nodes:
+  - NODE-0077
+  source_chapters:
+  - 593
+- id: ART-0082
+  name: 额外传送仙台
+  category: 传送与资源交换设施
+  grade: 系统任务奖励
+  first_chapter: 597
+  current_holder: 徐霄
+  acquisition: 击杀青锋气运之敌任务奖励
+  effect: 可与徐霄既有传送仙台交换资源；具体部署、连接对象和限制待确认
+  current_state: 已获得但尚未部署
+  status: partial
+  related_nodes:
+  - NODE-0077
+  source_chapters:
+  - 597

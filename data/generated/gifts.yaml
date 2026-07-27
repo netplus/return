@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 56
+  extension_files: 57
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1762,4 +1762,40 @@ gifts:
   reward: 两张地仙九重极道万冰符
   triggered_multiplier: 品阶升级
   relationship_result: 南宫嫣获得应对金蟾族高层的高阶保命与攻击资源
+  status: verified
+- id: GIFT-0131
+  chapter: 592
+  node: NODE-0077
+  giver: 徐霄
+  recipient: 厉红魅
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及九颗仙元丹
+  triggered_multiplier: 首次千倍暴击加常规返还
+  relationship_result: 厉红魅接受徐霄长期资源支持并确立关系
+  status: verified
+- id: GIFT-0132
+  chapter: 593
+  node: NODE-0077
+  giver: 徐霄
+  recipient: 厉红魅
+  gift: 顶级仙剑厚土御天剑
+  accepted: true
+  system_valid: true
+  reward: 至尊仙器九岳覆天剑
+  triggered_multiplier: 品阶升级
+  relationship_result: 厉红魅获得首件仙器级核心兵器并强化长期关系
+  status: verified
+- id: GIFT-0133
+  chapter: 594
+  node: NODE-0077
+  giver: 徐霄
+  recipient: 厉红魅
+  gift: 人仙巅峰大道神丹
+  accepted: true
+  system_valid: true
+  reward: 三千天道丹
+  triggered_multiplier: 羁绊提升首次千倍暴击
+  relationship_result: 厉红魅羁绊度提升至2
   status: verified

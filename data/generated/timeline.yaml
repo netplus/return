@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 65
+  extension_files: 66
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3031,3 +3031,39 @@ nodes:
   - 青锋任务完成结果
   document: docs/01-timeline/node-0076.md
   evidence: sources/evidence/chapters-581-588.yaml
+- id: NODE-0077
+  title: 金蟾灭族、厉红魅结缘与青锋伏诛
+  chapters:
+    start: 589
+    end: 597
+  granularity: story_arc
+  status: verified
+  source_qualification: Internet Archive归档整文件及第589—597章标题偏移单章哈希已入库，正文在临时证据窗口逐章核验
+  boundary_reason: 第597章完成金蟾族清除、灵矿占领、青锋击杀及传送仙台奖励；第598章转入南宫嫣关系修复和返还
+  characters:
+  - 徐霄
+  - 厉红魅
+  - 南宫嫣
+  - 金大友
+  - 金幻
+  - 青锋
+  - 南宫化极
+  - 莫问书
+  - 凌白烟
+  system_events:
+  - event: 厉红魅连续赠送返还
+    result: 鸿蒙一气丹、九岳覆天剑和三千天道丹
+    status: verified
+  - event: 三千天道丹服用
+    result: 徐霄完美领悟力之大道
+    status: verified
+  - event: 击杀青锋任务完成
+    result: 获得额外传送仙台
+    status: verified
+  relationship_result: 厉红魅与徐霄确立长期关系并将羁绊提升至二；南宫嫣因该关系出现持续冲突
+  pending:
+  - 九岳覆天剑完整能力
+  - 传送仙台部署和交换对象
+  - 纯阳仙门后续调查
+  document: docs/01-timeline/node-0077.md
+  evidence: sources/evidence/chapters-589-597.yaml
