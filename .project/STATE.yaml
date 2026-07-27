@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-27'
-last_run_id: RUN-0081
+last_run_id: RUN-0082
 milestone: M11
 workflow:
   standard_version: 2.4
@@ -23,6 +23,7 @@ entity_documents:
   identity_alignment_validator: scripts/validate_entity_identity.py
   growth_continuity_effective_run: RUN-0082
   growth_stage_window_chapters: 50
+  growth_temporal_accuracy: no_backfill_from_merged_current_snapshot
 scope:
   chapter_start: 501
   chapter_end: 550
