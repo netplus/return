@@ -1,0 +1,63 @@
+schema_version: 1
+run_id: RUN-0102
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 651, end: 658}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 651, title: 神御黑冰}
+  - {chapter: 652, title: 青鸾长老}
+  - {chapter: 653, title: 大长老，独孤惊云}
+  - {chapter: 654, title: 徐霄的惊天实力}
+  - {chapter: 655, title: 阿鼻地狱}
+  - {chapter: 656, title: 极致雷光，抓住邬秋}
+  - {chapter: 657, title: 邬秋，玄光}
+  - {chapter: 658, title: 离开无间地狱}
+  boundary_probe: {chapter: 659, title: 徐霄保人}
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  chapter_index: sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml
+  chapter_hashes:
+  - {chapter: 651, sha256: aba8c0c062c8f07404be204b8aab049eda37a65d923285bb0f5748653975ed10}
+  - {chapter: 652, sha256: afd0e35180f4aaf87612cd69ebcdd6a29f4dc3239f1ddf94fff6bfa158072810}
+  - {chapter: 653, sha256: e7051dda89e0a57321db7863e1917d714af2aa2b7dd12509614150fcf2b06b39}
+  - {chapter: 654, sha256: 24e9b7af8043f92b5d2bf419df85a0cf263b65f87e386ac42c06da8e7869eeb9}
+  - {chapter: 655, sha256: 7aff069c33988f0f505de4d29344362e3cc8562cf106fcb74382f7ced6105d88}
+  - {chapter: 656, sha256: 6c0fc96379a7dfe60f9b01d65e6311e39d922231d3e21c8955af5fe2862d6054}
+  - {chapter: 657, sha256: 4fe84d56329b8832b4aa0e5f8d8eefc2d9415117f59b914069be273140a99f3f}
+  - {chapter: 658, sha256: 5f325f29896878160561dbd338c947e19eeb53cbcfa21542ec4ab3ec00fa505e}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [651, 652, 653, 654, 655, 656, 657, 658]
+chapter_facts:
+- chapter: 651
+  facts: [金华以地仙巅峰纯阳金身挑战徐霄但肉身受压制, 纯阳仙门吕玄一萧天及七名天仙共同围杀, 徐霄使用神御黑冰符将十人冻结击杀]
+  status: partial
+- chapter: 652
+  facts: [吕玄一金华萧天三个系统目标击杀结算, 阵法符箓与丹药返还库上限升至玄仙, 法器返还库上限升至道器, 众人进入后续无间地狱]
+  status: verified
+- chapter: 653
+  facts: [徐霄向青鸾赠送十颗五行仙丹, 首颗返还万佛金身丹, 余九颗返还九十颗玄元仙丹, 独孤惊云以剑阵阻拦诸宗]
+  status: verified
+- chapter: 654
+  facts: [独孤惊云身份确认为天一仙门大长老和道天仙体, 境界天仙六重巅峰, 徐霄以圆满剑之大道和冰火双至尊仙剑参与对抗]
+  status: partial
+- chapter: 655
+  facts: [徐霄与独孤惊云剑阵对抗不落下风, 各宗进入阿鼻地狱阶段, 徐霄至尊之下顶级战力公开]
+  status: partial
+- chapter: 656
+  facts: [忌口指引邬秋顺势接受抓捕并称其将遇到有缘人, 徐霄施展雷遁超越各宗修士率先抵达金殿]
+  status: partial
+- chapter: 657
+  facts: [徐霄被忌口认定为邬秋有缘人, 邬秋主动交出储物袋, 徐霄取出地脉岩火剑交给东方青, 众人决定将邬秋带出小世界公开处置]
+  status: partial
+- chapter: 658
+  facts: [徐霄与洛银纱琉璃保持亲密联系, 众宗返回铁钩狱发现纯阳仙门冻结尸身, 邬秋被带出无间地狱]
+  status: partial
+boundary_reason: 第658章完成内部追捕、奖励取得和离开无间地狱；第659章开始围绕邬秋处置的外部保人冲突
+pending: [神御黑冰符剩余库存, 万佛金身丹和玄元仙丹完整效果, 独孤惊云系统分类与任务奖励, 忌口完整身份和境界, 邬秋有缘人线后续]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
