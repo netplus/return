@@ -1,0 +1,29 @@
+schema_version: 1
+run_id: RUN-0095
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 604, end: 609}
+source_gate: passed
+archive_source:
+  provider: Internet Archive
+  source_id: fanqienovel-7423641263695481880
+  manifest: sources/archive/fanqienovel-7423641263695481880/manifest.yaml
+  chapter_indexes: [sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml]
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  storage_policy: metadata_only_no_full_chapter_text
+confirmed_chapters:
+- {chapter: 604, title: 内门飞升者}
+- {chapter: 605, title: 柳清浅出关}
+- {chapter: 606, title: 拜入内门}
+- {chapter: 607, title: 拜访刘爱花}
+- {chapter: 608, title: 姬雪的完美计划}
+- {chapter: 609, title: 阴阳飞升会}
+chapter_facts:
+- {chapter: 604, facts: [陆道离为厉红魅生日准备九凤金钗, 张大全要求隐藏道元身份并畏惧凤青玄], status: verified}
+- {chapter: 605, facts: [柳清浅晋升地仙, 接受十颗仙元丹并返还三十颗五行仙丹, 与徐霄建立保密关系], status: verified}
+- {chapter: 606, facts: [柳清浅拜绝柔为师, 徐霄等人集体进入内门, 徐霄由东方青担保成为执法执事], status: verified}
+- {chapter: 607, facts: [凤青玄接受十颗化仙丹并返还一百颗仙元丹, 允许徐霄改称青玄, 徐霄晋升渡劫八重并拜访刘爱花], status: verified}
+- {chapter: 608, facts: [系统确认刘爱花真实身份为姬雪, 姬雪接受十颗化仙丹并返还一百颗仙元丹], status: verified}
+- {chapter: 609, facts: [徐霄选择不揭穿姬雪, 罗素十颗仙元丹返还十颗五行仙丹, 孟凡邀请徐霄参加阴阳飞升会], status: verified}
+boundary_reason: 第609章完成内门晋升、凤青玄姬雪赠送与飞升会邀请；第610章转入丁静和飞升会身份揭示
+pending: [道元张大全完整仙界经历, 陆道离厉红魅关系, 阴阳飞升会完整成员]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts_and_source_hashes}
