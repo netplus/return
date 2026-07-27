@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 52
+  extension_files: 53
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1025,6 +1025,7 @@ artifacts:
   - NODE-0046
   - NODE-0063
   - NODE-0066
+  - NODE-0068
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1034,12 +1035,17 @@ artifacts:
   - 482
   - 483
   - 508
+  - 517
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
   acquisition_records:
   - gift_id: GIFT-0108
     chapter: 508
+    quantity: 1
+    status: partial
+  - gift_id: GIFT-0111
+    chapter: 517
     quantity: 1
     status: partial
 - id: ART-0045
@@ -1448,8 +1454,15 @@ artifacts:
   - NODE-0063
   - NODE-0064
   - NODE-0065
+  - NODE-0068
   source_chapters:
   - 494
+  - 517
+  acquisition_records:
+  - gift_id: GIFT-0111
+    chapter: 517
+    quantity: 9
+    status: partial
 - id: ART-0061
   name: 九幽惊魂剑
   category: 仙器神剑
@@ -1588,3 +1601,21 @@ artifacts:
   - NODE-0067
   source_chapters:
   - 516
+- id: ART-0071
+  name: 九霄天梯
+  category: 特殊破界宝物
+  grade: pending
+  first_chapter: 517
+  current_holder: 徐霄
+  acquisition: 第517章系统升级阶段获得或完成系统认证；精确触发方式待确认
+  abilities:
+  - 可跨越上下界壁垒
+  - 可规避飞升后通常不能随意下界的天地规则
+  - 支持徐霄往返天元界与灵藏仙域
+  current_state: 已用于徐霄飞升并保留后续往返能力
+  status: partial
+  related_nodes:
+  - NODE-0068
+  source_chapters:
+  - 517
+  - 520

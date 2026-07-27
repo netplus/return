@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 56
+  extension_files: 57
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -135,6 +135,7 @@ characters:
   - NODE-0065
   - NODE-0066
   - NODE-0067
+  - NODE-0068
   source_chapters:
   - 1
   - 2
@@ -614,6 +615,8 @@ characters:
   - 514
   - 515
   - 516
+  - 517
+  - 520
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -680,8 +683,11 @@ characters:
   - 道元圣体可将幽冥阴气炼化为灵力
   - 仙神魂胎在识海内击溃并吸收八名渡劫阴灵
   - 九幽惊魂剑可大规模清剿阴灵并驱逐夺舍
+  - 天元仙宗仙池三日吸收后升至大乘九重
+  - 数年内完成渡劫一至三重提升
+  - 九霄天梯可突破上下界规则并支持往返
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 大乘七重
+  cultivation_change: 渡劫三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -761,6 +767,8 @@ characters:
   - 进入天煞魔宗渡劫话事人和大乘天才的跨宗资源网络
   - 以天元仙塔历史首位百层通关者改变天元大陆宗门力量预期
   - 成为天元大陆公认的救世主与第一天修
+  - 完成下界关系与资源安置后主动飞升灵藏仙域
+  - 飞升后被纳入阴阳仙门百年矿工体系
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity: 天阵阁第四弟子
@@ -770,7 +778,7 @@ characters:
   public_resource_explanation: 获得缥缈仙宗道元真人部分传承
   resource_support: 承诺长期提供林婉修炼资源
   body_resource: 向玉冰提供天龙血用于后续研究
-  hongmeng_qi_strands: 32
+  hongmeng_qi_strands: 40
   accepted_return: GIFT-0048返还的鸿蒙一气丹
   condition_change: 天龙天凤血脉与长期服用神丹使噬骨销魂散失效
   enemy_relation:
@@ -814,6 +822,13 @@ characters:
   - GIFT-0083返还两枚鸿蒙一气丹
   - GIFT-0084返还仙魂神魄丹
   - GIFT-0085返还先天灵宝混沌天木剑
+  - 仙器四十六件
+  - 先天灵宝六十八件
+  - 灵宝九十二件
+  - 渡劫巅峰魂丹九十六颗
+  - 人仙巅峰魂丹二十八颗
+  - 雷灵丹一万二千余颗
+  - 化仙丹二千八百余颗
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
   knowledge:
   - 渡劫九重规则
@@ -833,6 +848,18 @@ characters:
     - 完成海岚葬花北风三名气运之敌任务
     - 返还库上限全面升级
     - 成为天元大陆第一天修并启动飞升规划
+    status: partial
+  - node: NODE-0068
+    event: 完成系统升级与飞升仙界阶段
+    core_ability:
+    - 仙池吸收升至大乘九重
+    - 数年后渡劫三重
+    - 鸿蒙真气四十股
+    - 九霄天梯具上下界穿梭能力
+    impact:
+    - 完成天元界道侣与资源安置
+    - 主动飞升灵藏仙域
+    - 进入阴阳仙门矿工体系
     status: partial
 - id: CHAR-0002
   name: 姬雪
@@ -870,6 +897,7 @@ characters:
   - NODE-0064
   - NODE-0065
   - NODE-0067
+  - NODE-0068
   source_chapters:
   - 1
   - 2
@@ -885,13 +913,15 @@ characters:
   - 495
   - 511
   - 512
+  - 518
+  - 519
   verification_status: verified
-  status_change: 继续劝告徐霄收敛行为并关注盘龙岛关系人后续安置；出师精确含义待确认
+  status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
   - 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
   - 与独孤灵在无妄仙宗重聚并继续承担其师父身份
   - 幽冥天绝阵危局中主动准备携徐霄破界撤离
-  cultivation_change: 大乘六重
+  cultivation_change: 渡劫九重
   constitution:
   - 元灵圣体
   - 元灵仙体
@@ -906,6 +936,8 @@ characters:
   - 元灵仙体与雪瑶仙帝前世记忆继续觉醒
   - 元灵仙体可显著抵抗幽冥天绝阵阴气侵蚀
   - 须臾空间中的破界仙器处于可用状态
+  - 元灵仙体彻底觉醒
+  - 雪瑶仙帝前世记忆全部恢复
   accepted_resources:
   - 先天冰系神剑
   - 十枚蕴仙丹
@@ -918,6 +950,19 @@ characters:
     - 破界仙器可作为极端危局退路
     impact:
     - 危局中继续承担徐霄师父与核心关系人的保护角色
+    status: partial
+  - chapter_range:
+      start: 518
+      end: 519
+    event: 元灵仙体完全觉醒并飞升灵藏仙域
+    core_ability:
+    - 渡劫九重
+    - 前世仙帝记忆全数恢复
+    - 须臾空间资源继续保留
+    impact:
+    - 与独孤灵告别
+    - 化名刘爱花
+    - 暂时接受阴阳仙门百年矿工安排
     status: partial
 - id: CHAR-0003
   name: 独孤灵
@@ -968,6 +1013,7 @@ characters:
   - NODE-0032
   - NODE-0033
   - NODE-0056
+  - NODE-0068
   source_chapters:
   - 1
   - 2
@@ -987,17 +1033,27 @@ characters:
   - 425
   - 426
   - 427
+  - 518
+  - 519
   verification_status: partial
   realm: 炼虚境
   condition_change: 已完成炼虚突破并结束闭关
-  relationship_change:
-  - 与徐霄重逢后经安抚继续维持核心道侣关系
-  - 与徐霄及姬雪重聚，继续维持核心道侣和师徒关系
+  relationship_change: 姬雪飞升前再次确认其与徐霄的长期道侣和资源关系
   status_change:
   - 在外界等待远古战场出口恢复，并因徐霄与多名女修关系进一步担忧和愤怒
   - 离开盘龙岛并进入无妄仙宗长期修炼体系
   affiliation: 无妄仙宗
   identity: 玉冰弟子
+  growth_event:
+  - chapter_range:
+      start: 518
+      end: 519
+    event: 师尊飞升后的关系与宗门安置
+    impact:
+    - 接受姬雪临行托付
+    - 与徐霄重新举行公开道侣仪式
+    - 留守无妄仙宗体系
+    status: partial
 - id: CHAR-0004
   name: 陆大年
   status: alive
@@ -3279,7 +3335,7 @@ characters:
   cultivation_progress: 接近炼虚巅峰并获得合道丹作为破境资源
   relationship_network_change: 师父灵航加入徐霄的气运与资源关系网络
 - id: CHAR-0054
-  name: 剑辰
+  name: 玉冰
   status: alive
   role: rival
   affiliations:
@@ -3306,6 +3362,7 @@ characters:
     status: partial
   related_nodes:
   - NODE-0036
+  - NODE-0068
   source_chapters:
   - 265
   - 266
@@ -3314,8 +3371,20 @@ characters:
   - 271
   - 272
   - 273
+  - 518
+  - 519
   document: null
   verification_status: partial
+  relationship_change: 徐霄飞升前重新举行公开道侣仪式并继续留在无妄仙宗
+  growth_event:
+  - chapter_range:
+      start: 518
+      end: 519
+    event: 飞升前关系公开安置
+    impact:
+    - 与徐霄重新举行道侣仪式
+    - 继续承担无妄仙宗与盘龙岛关系枢纽
+    status: partial
 - id: CHAR-0055
   name: 白玉龙
   status: dead
@@ -3353,7 +3422,7 @@ characters:
   document: null
   verification_status: partial
 - id: CHAR-0056
-  name: 黑风
+  name: 凤青玄
   status: dead
   role: antagonist
   affiliations:
@@ -3384,13 +3453,30 @@ characters:
     status: partial
   related_nodes:
   - NODE-0039
+  - NODE-0068
   source_chapters:
   - 288
   - 289
   - 294
   - 295
+  - 519
+  - 520
   document: null
   verification_status: partial
+  cultivation_change: 渡劫九重
+  status_change: 姬雪飞升约一年后飞升灵藏仙域并被安排为矿工队长
+  growth_event:
+  - chapter_range:
+      start: 519
+      end: 520
+    event: 晋升渡劫九重并飞升灵藏仙域
+    core_ability:
+    - 渡劫九重
+    impact:
+    - 进入阴阳仙门矿区
+    - 因境界被安排为矿工队长
+    - 需完成百年矿役
+    status: partial
 - id: CHAR-0057
   name: 方达飞
   status: dead
@@ -4138,6 +4224,7 @@ characters:
   - NODE-0051
   - NODE-0054
   - NODE-0066
+  - NODE-0068
   source_chapters:
   - 381
   - 382
@@ -4157,6 +4244,7 @@ characters:
   - 506
   - 507
   - 508
+  - 519
   document: null
   verification_status: partial
   attitude_change: 参与八宗问罪并继续对徐霄保持负面评价
@@ -4164,8 +4252,15 @@ characters:
   - GIFT-0076
   - GIFT-0108
   combat_change: 遭万剑尊者与大乘阴魂伏击后以精血冰封突围，并由徐霄驰援脱险
-  relationship_change: 在青云仙宗高层推动下接受道侣安排与高阶赠礼但个人态度仍有保留
+  relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
   strategic_change: 将阴煞天宗全面夺舍行动带回铁焰城并参与九宗危机会议
+  growth_event:
+  - chapter: 519
+    event: 正式结为公开道侣
+    impact:
+    - 进入无妄仙宗长期修炼和资源体系
+    - 青云仙宗跨宗关系固化
+    status: partial
 - id: CHAR-0074
   name: 魔姝
   status: alive
@@ -5091,6 +5186,7 @@ characters:
   related_nodes:
   - NODE-0064
   - NODE-0066
+  - NODE-0068
   source_chapters:
   - 487
   - 488
@@ -5101,9 +5197,17 @@ characters:
   - 506
   - 507
   - 508
+  - 519
   document: null
   verification_status: partial
-  relationship_change: 由赠送对象进一步进入天元仙宗公开推动的道侣与长期资源安排
+  relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+  growth_event:
+  - chapter: 519
+    event: 正式结为公开道侣
+    impact:
+    - 进入无妄仙宗长期修炼和资源体系
+    - 天元仙宗跨宗关系固化
+    status: partial
 - id: CHAR-0096
   name: 素青
   status: alive
@@ -5124,6 +5228,7 @@ characters:
   related_nodes:
   - NODE-0064
   - NODE-0067
+  - NODE-0068
   source_chapters:
   - 487
   - 488
@@ -5133,12 +5238,13 @@ characters:
   - 492
   - 512
   - 516
+  - 517
   document: null
   verification_status: partial
   luck_grade:
     value: SSS
     status: partial
-  relationship_change: 从天山论剑邀请使者转入与徐霄直接接触的道侣与资源关系前置阶段
+  relationship_change: 与徐霄关系稳定并获得长期雷灵丹支持
   growth_event:
   - node: NODE-0067
     event: 阴灵危机后进入徐霄的仙池休整与关系安排
@@ -5147,6 +5253,16 @@ characters:
     impact:
     - 由宗门使者转为神玉直接安排的陪同者并进入下一阶段关系线
     status: partial
+  - chapter: 517
+    event: 仙池关系确认与羁绊升级
+    impact:
+    - 羁绊度提升至2
+    - 接受十枚雷灵丹
+    - 进入长期渡劫资源支持关系
+    status: partial
+  bond_level: 2
+  accepted_gifts:
+  - GIFT-0111
 - id: CHAR-0097
   name: 海岚
   status: dead
@@ -5338,12 +5454,22 @@ characters:
     status: partial
   related_nodes:
   - NODE-0065
+  - NODE-0068
   source_chapters:
   - 497
   - 498
   - 499
+  - 519
   document: null
   verification_status: partial
+  relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+  growth_event:
+  - chapter: 519
+    event: 正式结为公开道侣
+    impact:
+    - 进入无妄仙宗长期修炼和资源体系
+    - 天煞魔宗关系进一步制度化
+    status: partial
 - id: CHAR-0102
   name: 神玉
   status: alive
@@ -5398,12 +5524,22 @@ characters:
     status: partial
   related_nodes:
   - NODE-0066
+  - NODE-0068
   source_chapters:
   - 505
   - 507
   - 508
+  - 519
   document: null
   verification_status: partial
+  relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+  growth_event:
+  - chapter: 519
+    event: 正式结为公开道侣
+    impact:
+    - 进入无妄仙宗长期修炼和资源体系
+    - 缥缈仙宗跨宗关系固化
+    status: partial
 - id: CHAR-0104
   name: 血葵
   status: alive
@@ -5431,12 +5567,25 @@ characters:
     status: partial
   related_nodes:
   - NODE-0066
+  - NODE-0068
   source_chapters:
   - 506
   - 507
   - 508
+  - 519
+  - 520
   document: null
   verification_status: partial
+  relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+  growth_event:
+  - chapter_range:
+      start: 519
+      end: 520
+    event: 正式结为公开道侣并完成飞升前告别
+    impact:
+    - 进入无妄仙宗长期修炼和资源体系
+    - 血刀一脉与徐霄关系制度化
+    status: partial
 - id: CHAR-0105
   name: 神天
   status: dead

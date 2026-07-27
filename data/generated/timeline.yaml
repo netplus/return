@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 56
+  extension_files: 57
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2683,3 +2683,43 @@ nodes:
   - 九天神玉带完整能力
   document: docs/01-timeline/node-0067.md
   evidence: sources/evidence/chapters-509-516.yaml
+- id: NODE-0068
+  title: 系统升级、九霄天梯与飞升矿区
+  chapters:
+    start: 517
+    end: 520
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第517—521章标题顺序和边界；第517—520章正文由可访问镜像交叉核验
+  boundary_reason: 第520章完成徐霄飞升并进入阴阳仙门矿工体系；第521章李香香登场，转入仙界矿区关系与赠送线
+  characters:
+  - 徐霄
+  - 素青
+  - 姬雪
+  - 凤青玄
+  - 独孤灵
+  - 玉冰
+  - 魔妖
+  - 云心月
+  - 陆雪瑶
+  - 紫霄
+  - 血葵
+  system_events:
+  - event: 素青羁绊升级赠送
+    trigger: 十枚雷灵丹
+    reward: 一枚鸿蒙一气丹及九枚化仙丹
+    status: partial
+  - event: 系统升级与九霄天梯确立
+    result: 徐霄获得可跨越上下界规则的特殊破界能力
+    status: partial
+  power_result: 徐霄吸收天元仙宗仙池后升至大乘九重，数年内继续提升至渡劫三重并积累四十股鸿蒙真气
+  world_result: 天元界飞升者抵达灵藏仙域后需在阴阳仙门矿区服役百年；姬雪凤青玄徐霄先后进入该体系
+  relationship_result: 素青羁绊度升至2；徐霄在飞升前完成多名道侣关系公开安置
+  pending:
+  - 系统本轮升级的完整功能清单
+  - 九霄天梯正式品阶与完整限制
+  - 徐霄渡劫一至三重的逐次时间
+  - 五场新道侣仪式的精确先后日期
+  - 飞升矿区完整规章与违约处罚细则
+  document: docs/01-timeline/node-0068.md
+  evidence: sources/evidence/chapters-517-520.yaml

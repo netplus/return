@@ -115,11 +115,11 @@ groups:
     - id: CHAR-0053
       path: docs/02-characters/林婉.md
     - id: CHAR-0054
-      path: docs/02-characters/剑辰.md
+      path: docs/02-characters/玉冰-CHAR-0054.md
     - id: CHAR-0055
       path: docs/02-characters/白玉龙.md
     - id: CHAR-0056
-      path: docs/02-characters/黑风.md
+      path: docs/02-characters/凤青玄-CHAR-0056.md
     - id: CHAR-0057
       path: docs/02-characters/方达飞.md
     - id: CHAR-0058
@@ -219,7 +219,7 @@ groups:
     - id: CHAR-0105
       path: docs/02-characters/神天.md
   artifacts:
-    count: 70
+    count: 71
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -363,10 +363,12 @@ groups:
       path: docs/06-artifacts/四柄仙器神剑（逐件名称待确认）.md
     - id: ART-0070
       path: docs/06-artifacts/九天神玉带.md
+    - id: ART-0071
+      path: docs/06-artifacts/九霄天梯.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
   characters_with_growth_line: 105
-  growth_events: 425
+  growth_events: 436
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
