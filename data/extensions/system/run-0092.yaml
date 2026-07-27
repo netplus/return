@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0092
+gift_events:
+- id: GIFT-0129
+  chapter: 583
+  node: NODE-0076
+  giver: 徐霄
+  recipient: 南宫嫣
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 十颗仙元丹
+  triggered_multiplier: 1
+  relationship_result: 南宫嫣修炼资源继续由徐霄稳定供应
+  status: verified
+- id: GIFT-0130
+  chapter: 587
+  node: NODE-0076
+  giver: 徐霄
+  recipient: 南宫嫣
+  gift: 两张人仙九重神霄玄冰符
+  accepted: true
+  system_valid: true
+  reward: 两张地仙九重极道万冰符
+  triggered_multiplier: 品阶升级
+  relationship_result: 南宫嫣获得应对金蟾族高层的高阶保命与攻击资源
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0129, GIFT-0130]
+    rule_add:
+    - chapter: 583
+      rule: 可识别其他系统持有者；东方青为气运之子并绑定三级做好事就变强系统，善行积分可兑换丹药，一至十级仍受天道规则约束
+      status: verified
+    - chapter: 583
+      rule: 三千天道丹服用后可使徐霄完美领悟剑之大道
+      status: verified
+    task_add:
+    - chapter: 588
+      target: 青锋
+      type: 击杀气运之敌
+      reward: 额外传送仙台，可与既有传送仙台交换资源
+      completion: pending
+      status: partial
+    related_nodes_add: [NODE-0076]
+    source_chapters_add: [583, 587, 588]
