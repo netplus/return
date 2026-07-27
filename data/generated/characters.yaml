@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 64
+  extension_files: 65
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -144,6 +144,7 @@ characters:
   - NODE-0073
   - NODE-0074
   - NODE-0075
+  - NODE-0076
   source_chapters:
   - 1
   - 2
@@ -685,6 +686,14 @@ characters:
   - 578
   - 579
   - 580
+  - 581
+  - 582
+  - 583
+  - 584
+  - 585
+  - 586
+  - 587
+  - 588
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -767,7 +776,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 渡劫五重
+  cultivation_change: 渡劫七重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -900,6 +909,7 @@ characters:
   - 五行大道体系形成阶段性圆满
   - 完成无妄真绝向阴阳仙诀的灵力体系转换
   - 阴阳灵力可互生互转并提升灵力浑厚程度
+  - 服用三千天道丹并完美领悟剑之大道
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -931,7 +941,7 @@ characters:
   - 渡劫九重规则
   - 两次雷劫间隔极限约两万年
   - 渡劫失败通常身死道消
-  age_change: 1026
+  age_change: 1034岁
   lifespan_change: 110283年
   growth_event:
   - node: NODE-0067
@@ -1031,6 +1041,18 @@ characters:
     - 与罗素关系获得家族和宗门高层公开认可
     - 资源网络进入太上长老层级
     status: partial
+  - chapter_range:
+      start: 583
+      end: 588
+    event: 完美领悟剑之大道并接取击杀青锋任务
+    core_ability:
+    - 渡劫七重
+    - 剑之大道完美领悟
+    - 仙神魂胎与多重体质保持
+    impact:
+    - 灵矿争端升级为系统任务
+    - 额外传送仙台成为资源网络扩展目标
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1045,6 +1067,8 @@ characters:
       start: 553
       end: 564
     status: partial
+  task_change:
+  - 击杀气运之敌青锋并获取额外传送仙台
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -6318,11 +6342,14 @@ characters:
   strategic_role: 选中李香香并将其带入阴阳仙门修炼
   accepted_gifts:
   - GIFT-0116
+  - GIFT-0129
+  - GIFT-0130
   related_nodes:
   - NODE-0071
   - NODE-0072
   - NODE-0073
   - NODE-0075
+  - NODE-0076
   source_chapters:
   - 539
   - 541
@@ -6334,6 +6361,14 @@ characters:
   - 563
   - 564
   - 573
+  - 581
+  - 582
+  - 583
+  - 584
+  - 585
+  - 586
+  - 587
+  - 588
   verification_status: partial
   relationship_change:
   - 主动到访柳清浅府邸并与徐霄形成直接资源接触
@@ -6361,6 +6396,17 @@ characters:
     - 千年寿元压力进一步明确
     - 长期资源修复线升级为核心生存目标
     status: partial
+  - chapter_range:
+      start: 583
+      end: 588
+    event: 晋升人仙巅峰并负责云隐城海底灵矿任务
+    core_ability:
+    - 人仙巅峰
+    - 获得丹药与高阶寒冰符支持
+    impact:
+    - 道伤修复资源线继续推进
+    - 代表阴阳仙门处理南海势力争端
+    status: verified
   assessment_result:
   - 天资: 乙
     容貌: 甲
@@ -6368,6 +6414,10 @@ characters:
     status: partial
   resource_need:
   - 千年内晋升地仙所需天量资源
+  cultivation_change: 人仙巅峰
+  resource_change:
+  - 十颗化仙丹
+  - 两张人仙九重神霄玄冰符
 - id: CHAR-0115
   name: 云鹤
   status: alive
@@ -6676,6 +6726,7 @@ characters:
   - NODE-0073
   - NODE-0074
   - NODE-0075
+  - NODE-0076
   source_chapters:
   - 557
   - 560
@@ -6688,6 +6739,9 @@ characters:
   - 572
   - 579
   - 580
+  - 581
+  - 582
+  - 583
   document: null
   verification_status: partial
   conflict_change:
@@ -6710,9 +6764,24 @@ characters:
     - 掌门与亲传弟子的私人矛盾转为隐蔽竞争
     - 第581章起开始公开实施做好事策略
     status: partial
+  - chapter_range:
+      start: 581
+      end: 583
+    event: 公开执行做好事策略并确认系统规则
+    core_ability:
+    - 天仙一重
+    - 三级做好事就变强系统
+    impact:
+    - 善行积分兑换丹药成为其长期成长路径
+    - 气运之子身份获得系统确认
+    status: verified
   cultivation_change: 天仙一重
   system_behavior:
   - 计划通过持续做好事加速修炼并重新争取罗素
+  - 三级做好事就变强系统以善行积分兑换丹药
+  - 系统一至十级处于天道规则范围
+  identity_change:
+  - 被万倍返还系统识别为气运之子
 - id: CHAR-0122
   name: 上官无双
   status: alive
@@ -7005,5 +7074,120 @@ characters:
   - 578
   - 579
   - 580
+  document: null
+  verification_status: partial
+- id: CHAR-0132
+  name: 厉红魅
+  status: alive
+  role: supporting
+  affiliations:
+  - 玄阴仙宗
+  - 阴阳仙门势力范围
+  identities:
+  - 玄阴仙宗掌门
+  - B级气运之女
+  first_appearance:
+    chapter: 584
+    title: 到达云隐城
+    node: NODE-0076
+  cultivation:
+    current: 人仙七重
+    status: verified
+  relationship_context:
+    南宫嫣: 上宗任务负责人
+    徐霄: 初次合作并对其资源与行事方式保持警惕
+    status: partial
+  related_nodes:
+  - NODE-0076
+  source_chapters:
+  - 584
+  - 585
+  - 586
+  - 587
+  - 588
+  document: null
+  verification_status: verified
+- id: CHAR-0133
+  name: 南宫化极
+  status: alive
+  role: supporting
+  affiliations:
+  - 云隐城
+  - 阴阳仙门势力范围
+  identities:
+  - 云隐城城主
+  - 南宫嫣祖父
+  first_appearance:
+    chapter: 584
+    title: 到达云隐城
+    node: NODE-0076
+  cultivation:
+    current: 人仙一重
+    status: verified
+  relationship_context:
+    南宫嫣: 祖孙
+    徐霄: 对其与南宫嫣关系及高阶资源投入感到震惊
+    status: partial
+  related_nodes:
+  - NODE-0076
+  source_chapters:
+  - 584
+  - 585
+  - 586
+  - 587
+  - 588
+  document: null
+  verification_status: verified
+- id: CHAR-0134
+  name: 金大友
+  status: alive
+  role: antagonist
+  affiliations:
+  - 金蟾族
+  - 纯阳仙门
+  identities:
+  - 金蟾族分支族长
+  first_appearance:
+    chapter: 588
+    title: 额外的传送仙台
+    node: NODE-0076
+  cultivation:
+    current: 人仙九重
+    status: verified
+  conflict_context:
+    阴阳仙门: 拒绝让出海底灵矿
+    纯阳仙门: 秘密投靠并依赖其支持
+    status: verified
+  related_nodes:
+  - NODE-0076
+  source_chapters:
+  - 588
+  document: null
+  verification_status: verified
+- id: CHAR-0135
+  name: 青锋
+  status: alive
+  role: antagonist
+  affiliations:
+  - 纯阳仙门
+  identities:
+  - 纯阳仙门内门执事
+  - 气运之敌
+  first_appearance:
+    chapter: 588
+    title: 额外的传送仙台
+    node: NODE-0076
+  cultivation:
+    current: 地仙境
+    exact_level: pending
+    status: partial
+  conflict_context:
+    徐霄: 系统发布击杀任务
+    柳清浅: 借灵矿谈判谋求接触
+    status: verified
+  related_nodes:
+  - NODE-0076
+  source_chapters:
+  - 588
   document: null
   verification_status: partial
