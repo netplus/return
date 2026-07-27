@@ -87,7 +87,17 @@ tasks:
 - id: TASK-0069
   title: Build the 幽冥天绝阵、阴灵围剿与系统返还 story arc from Chapter 509 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 509, provisional_chapter_end: 516, node: NODE-0067, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0083
+  target: {chapter_start: 509, chapter_end: 516, node: NODE-0067, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0067.md, data/extensions/timeline/run-0083.yaml, data/extensions/characters/run-0083.yaml, data/extensions/system/run-0083.yaml, data/extensions/artifacts/run-0083.yaml, sources/evidence/chapters-509-516.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0069T]
+- id: TASK-0070
+  title: Build the 系统升级、九霄天梯与飞升仙界 story arc from Chapter 517 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 517, provisional_chapter_end: 524, node: NODE-0068, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0069]
