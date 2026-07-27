@@ -1,6 +1,6 @@
-schema_version: 2
-generator: scripts/render_entity_docs.py
-presentation: reader_friendly_with_collapsed_canonical_appendix
+schema_version: 3
+generator: scripts/render_character_growth.py
+presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
 source: data/generated
 groups:
   characters:
@@ -359,3 +359,9 @@ groups:
       path: docs/06-artifacts/人仙巅峰魂丹.md
     - id: ART-0069
       path: docs/06-artifacts/四柄仙器神剑（逐件名称待确认）.md
+growth_line:
+  mode: stage_summary_plus_append_only_run_history
+  stage_window_chapters: 50
+  characters_with_growth_line: 104
+  growth_events: 414
+  source: data/extensions/characters + data/generated/timeline.yaml
