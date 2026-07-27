@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0084 — 2026-07-27
+
+- Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only the unique pending `TASK-0070`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 520: system upgrade,九霄天梯,姬雪凤青玄飞升 and徐霄's own ascension form one coherent world-transition arc; Chapter 521 introduces李香香 and begins the仙界矿区 relationship line.
+- Created `NODE-0068`, covering Chapters 517—520.
+- Updated 徐霄、素青、姬雪、凤青玄、独孤灵、玉冰、魔妖、云心月、陆雪瑶、紫霄 and血葵 with timed `growth_event_add` records.
+- Recorded徐霄's promotion to大乘九重 in the仙池 and later渡劫三重 with forty strands of鸿蒙真气, plus the transition into the阴阳仙门 mining system.
+- Recorded姬雪's complete元灵仙体 awakening, restored仙帝 memories,渡劫九重 ascension and temporary identity刘爱花; recorded凤青玄's渡劫九重 ascension and矿工队长 assignment.
+- Added `GIFT-0111`, returning one鸿蒙一气丹 and nine化仙丹 from ten雷灵丹 gifted to素青.
+- Added `ART-0071` 九霄天梯 with verified cross-world travel behavior while preserving grade, acquisition trigger, capacity, cost and cooldown as pending.
+- Preserved the full system-upgrade feature list, intermediate tribulation details, exact wedding dates and complete mining regulations as pending.
+- Source traceability passed with qualifications; all remaining gates including character growth continuity and temporal accuracy passed.
+- Completed `TASK-0070` and queued `TASK-0071` beginning at Chapter 521.
+
 ## RUN-0083 — 2026-07-27
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.

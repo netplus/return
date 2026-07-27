@@ -97,7 +97,17 @@ tasks:
 - id: TASK-0070
   title: Build the 系统升级、九霄天梯与飞升仙界 story arc from Chapter 517 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 517, provisional_chapter_end: 524, node: NODE-0068, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0084
+  target: {chapter_start: 517, chapter_end: 520, node: NODE-0068, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0068.md, data/extensions/timeline/run-0084.yaml, data/extensions/characters/run-0084.yaml, data/extensions/system/run-0084.yaml, data/extensions/artifacts/run-0084.yaml, sources/evidence/chapters-517-520.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0069]
+- id: TASK-0071
+  title: Build the 李香香结缘、仙界矿区规则与首次出手 story arc from Chapter 521 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 521, provisional_chapter_end: 528, node: NODE-0069, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0070]
