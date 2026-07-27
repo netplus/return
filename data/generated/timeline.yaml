@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 73
+  extension_files: 74
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3324,3 +3324,39 @@ nodes:
   - GIFT-0157返还结果
   document: docs/01-timeline/node-0084.md
   evidence: sources/evidence/chapters-639-643.yaml
+- id: NODE-0085
+  title: 天一仙门变故、佛门叫阵与无间地狱开启
+  chapters:
+    start: 644
+    end: 650
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第644—651章标题顺序与边界；仓库归档哈希和可访问镜像交叉核验第644—650章
+  boundary_reason: 第650章完成七宗入场和第一层铁钩狱开启；第651章转入具体狱层推进与战斗
+  characters:
+  - 徐霄
+  - 柳清浅
+  - 东方青
+  - 诸葛青天
+  - 邬秋
+  - 惠慈
+  - 洛银纱
+  - 崔云
+  system_events:
+  - event: 九天神玉带赠送返还
+    result: 至尊仙器缚仙绳
+    status: verified
+  - event: 诸葛青天极限震惊
+    result: 1000震惊值
+    reward_conversion: 10颗五行仙丹等值
+    redemption_status: pending
+    status: partial
+  relationship_result: 徐霄与洛银纱建立亲密关系；柳清浅关系继续保持非公开
+  pending:
+  - 邬秋惠慈完整面板和父女关系确认
+  - 地脉岩火剑最终归属能力
+  - 缚仙绳能力上限
+  - 洛银纱系统气运等级
+  - 无间地狱隐藏限制
+  document: docs/01-timeline/node-0085.md
+  evidence: sources/evidence/chapters-644-650.yaml

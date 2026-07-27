@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 73
+  extension_files: 74
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -154,6 +154,7 @@ characters:
   - NODE-0082
   - NODE-0083
   - NODE-0084
+  - NODE-0085
   source_chapters:
   - 1
   - 2
@@ -758,6 +759,13 @@ characters:
   - 641
   - 642
   - 643
+  - 644
+  - 645
+  - 646
+  - 647
+  - 648
+  - 649
+  - 650
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -822,6 +830,7 @@ characters:
   - 以五行仙丹化解尘玉万青罗方的分手问责
   - 向焰灵承诺长期负责伤势
   - 与云姑心正式确立伴侣关系
+  - 与洛银纱建立亲密关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -847,7 +856,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 人仙三重
+  cultivation_change: 人仙九重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -994,6 +1003,7 @@ characters:
   - 法体剑三修战力公开达到压倒性地仙级表现
   - 遁之大道可与五行基础大道结合形成火遁风遁雷遁等遁法
   - 鸿蒙真气增至五十二股
+  - 鸿蒙真气增至53股
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1037,8 +1047,8 @@ characters:
   - 渡劫九重规则
   - 两次雷劫间隔极限约两万年
   - 渡劫失败通常身死道消
-  age_change: 1039岁
-  lifespan_change: 110283年
+  age_change: 1050岁
+  lifespan_change: 1010259年
   growth_event:
   - node: NODE-0067
     event: 反制幽冥天绝阵并完成阴灵阵营清算
@@ -1251,6 +1261,20 @@ characters:
     - 新增云姑心长期资源关系
     - 公开化解天仙长老问责但留下潜在敌意
     status: partial
+  - chapter_range:
+      start: 644
+      end: 650
+    event: 人仙九重阶段参与跨域追捕并进入无间地狱
+    core_ability:
+    - 人仙九重
+    - 鸿蒙真气53股
+    - 驾驶九霄玉舟跨域行动
+    - 获得至尊仙器缚仙绳
+    impact:
+    - 进入七宗跨域行动核心队伍
+    - 与洛银纱建立新关系
+    - 进入众佛小世界铁钩狱
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1277,6 +1301,8 @@ characters:
   - 青锋案嫌疑公开化并与纯阳仙门形成直接冲突
   acquired_artifacts:
   - ART-0089
+  obtained_artifacts:
+  - ART-0090
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -6515,6 +6541,7 @@ characters:
   - GIFT-0121
   - GIFT-0125
   - GIFT-0140
+  - GIFT-0158
   related_nodes:
   - NODE-0071
   - NODE-0072
@@ -6522,6 +6549,7 @@ characters:
   - NODE-0074
   - NODE-0075
   - NODE-0079
+  - NODE-0085
   source_chapters:
   - 538
   - 541
@@ -6544,12 +6572,14 @@ characters:
   - 580
   - 605
   - 606
+  - 644
   verification_status: partial
   relationship_change:
   - 确认徐霄为第三名亲传弟子并承诺未来进入内门时一并带入
   - 徐霄被东方青收为掌门亲传后，原师徒培养关系进入宗门高层共同培养阶段
   - 即使徐霄转拜掌门后仍获得长期修炼资源承诺
   - 与徐霄形成对外保密的关系
+  - 与徐霄关系继续保持非公开
   growth_event:
   - node: NODE-0072
     event: 将徐霄由记名弟子晋升为第三名亲传弟子
@@ -6591,6 +6621,15 @@ characters:
     - 由外门长老转入内门亲传修炼路径
     - 与徐霄建立保密资源关系
     status: verified
+  - chapter: 644
+    event: 晋升地仙三重并接受九天神玉带
+    core_ability:
+    - 地仙三重
+    - 持有顶级束缚仙器九天神玉带
+    impact:
+    - 持续获得徐霄高阶资源支持
+    - 双方关系仍未公开
+    status: partial
   assessment_result:
   - 天资: 甲
     容貌: 甲
@@ -6601,7 +6640,7 @@ characters:
     status: partial
   role_change:
   - 作为徐霄原师父参与太上长老问责和关系协商
-  cultivation_change: 地仙境
+  cultivation_change: 地仙三重
   identity_change:
   - 绝柔亲传弟子
   - 阴阳仙门内门弟子
@@ -7247,6 +7286,7 @@ characters:
   - NODE-0078
   - NODE-0079
   - NODE-0083
+  - NODE-0085
   source_chapters:
   - 557
   - 560
@@ -7268,6 +7308,12 @@ characters:
   - 606
   - 637
   - 638
+  - 645
+  - 646
+  - 647
+  - 648
+  - 649
+  - 650
   document: null
   verification_status: partial
   conflict_change:
@@ -7324,6 +7370,14 @@ characters:
     - 阴阳仙门与纯阳仙门矛盾升级
     - 徐霄宗门战略地位进一步巩固
     status: verified
+  - chapter_range:
+      start: 645
+      end: 650
+    event: 率领阴阳仙门参与邬秋跨域追捕
+    impact:
+    - 代表阴阳仙门与众愿佛门交涉
+    - 带队进入众佛小世界
+    status: partial
   cultivation_change: 天仙一重
   system_behavior:
   - 计划通过持续做好事加速修炼并重新争取罗素
@@ -7342,6 +7396,7 @@ characters:
   - 批准厉红魅担任外门长老
   role_change:
   - 亲自担保徐霄直接担任内门执法执事
+  - 统筹阴阳仙门跨域追捕及无间地狱队伍编组
 - id: CHAR-0122
   name: 上官无双
   status: alive
@@ -8547,10 +8602,142 @@ characters:
     status: partial
   related_nodes:
   - NODE-0084
+  - NODE-0085
   source_chapters:
   - 639
   - 640
   - 641
   - 642
+  - 646
+  - 647
+  document: null
+  verification_status: partial
+  system_behavior:
+  - 佛门叫阵制造极限震惊并获得1000震惊值
+  growth_event:
+  - chapter: 647
+    event: 在众愿佛门叫阵中获得极限震惊收益
+    core_ability:
+    - 获得1000震惊值
+    - 等值可兑换10颗五行仙丹
+    impact:
+    - 十年后重新获得显著系统收益
+    - 实际兑换状态待确认
+    status: partial
+- id: CHAR-0150
+  name: 邬秋
+  status: alive
+  role: supporting
+  affiliations:
+  - 天一仙门
+  identities:
+  - 天一仙门通缉修士
+  - 地脉岩火剑持有者
+  first_appearance:
+    chapter: 644
+    title: 天一仙门变故
+    node: NODE-0085
+  cultivation:
+    current: 天仙一重
+    injury: 重伤
+    status: partial
+  conflict_context:
+    玄光: 囚禁折磨十年并导致其死亡
+    天一仙门: 被列为邪修追捕
+    众愿佛门: 逃入众佛小世界阿鼻地狱
+  related_nodes:
+  - NODE-0085
+  source_chapters:
+  - 644
+  - 645
+  - 646
+  - 647
+  - 648
+  - 649
+  - 650
+  document: null
+  verification_status: partial
+- id: CHAR-0151
+  name: 惠慈
+  status: alive
+  role: supporting
+  affiliations:
+  - 众愿佛门
+  identities:
+  - 众愿佛门方丈
+  - 玉京仙域佛门领袖
+  first_appearance:
+    chapter: 647
+    title: 邬秋，惠慈
+    node: NODE-0085
+  cultivation:
+    current: 至尊天仙
+    exact_level: pending
+    status: partial
+  relationship_context:
+    邬秋: 父女传闻强烈但未公开承认
+    灵藏七仙门: 开放众佛小世界供其自行追捕
+  related_nodes:
+  - NODE-0085
+  source_chapters:
+  - 647
+  - 648
+  - 649
+  - 650
+  document: null
+  verification_status: partial
+- id: CHAR-0152
+  name: 洛银纱
+  status: alive
+  role: supporting
+  affiliations:
+  - 刹女仙门
+  identities:
+  - 刹女仙门掌门
+  first_appearance:
+    chapter: 648
+    title: 洛银纱搭讪
+    node: NODE-0085
+  cultivation:
+    current: 天仙六重
+    status: partial
+  relationship_context:
+    徐霄: 主动接近并吸收其气运后建立亲密关系
+  related_nodes:
+  - NODE-0085
+  source_chapters:
+  - 648
+  - 649
+  - 650
+  document: null
+  verification_status: partial
+- id: CHAR-0153
+  name: 崔云
+  status: alive
+  role: supporting
+  affiliations:
+  - 天一仙门
+  identities:
+  - 天一仙门掌门
+  first_appearance:
+    chapter: 645
+    title: 深夜出发
+    node: NODE-0085
+  cultivation:
+    current: 天仙境
+    exact_level: pending
+    status: partial
+  conflict_context:
+    邬秋: 主导七宗联合追捕
+    地脉岩火剑: 作为追捕竞争奖励
+  related_nodes:
+  - NODE-0085
+  source_chapters:
+  - 645
+  - 646
+  - 647
+  - 648
+  - 649
+  - 650
   document: null
   verification_status: partial

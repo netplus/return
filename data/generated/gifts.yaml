@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 64
+  extension_files: 65
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2105,3 +2105,15 @@ gifts:
   triggered_multiplier: pending
   relationship_result: 凌白烟继续进入徐霄长期资源支持线
   status: partial
+- id: GIFT-0158
+  chapter: 644
+  node: NODE-0085
+  giver: 徐霄
+  recipient: 柳清浅
+  gift: 九天神玉带
+  accepted: true
+  system_valid: true
+  reward: 缚仙绳
+  triggered_multiplier: pending
+  relationship_result: 柳清浅继续接受徐霄高阶资源支持，双方关系保持非公开
+  status: verified
