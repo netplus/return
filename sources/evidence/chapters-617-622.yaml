@@ -1,0 +1,47 @@
+schema_version: 1
+run_id: RUN-0097
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 617, end: 622}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  manifest: sources/archive/fanqienovel-7423641263695481880/manifest.yaml
+  chapter_index: sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml
+  storage_policy: metadata_only_no_full_chapter_text
+chapters:
+- chapter: 617
+  title: 一晃五年
+  sha256: 17bfe612c61d3531ed207c47e5a75ca80d9142972635812c1fb94f03f6b12222
+  facts: [陆道离撞见厉红魅与徐霄关系并挽回失败, 时间推进五年, 徐霄组建执法班底, 九霄山河图收纳血灵宗三名融合长老]
+  status: verified
+- chapter: 618
+  title: 三大护院弟子
+  sha256: fc60152857a2082ff9d19c97d2944b70d3f0a01a4356de9e2d14c8f91044de0e
+  facts: [血灵宗清剿任务完成, 人仙交流大会规则与奖励公布, 徐霄向邹蒙凌白烟莫问书各赠三颗化仙丹]
+  status: verified
+- chapter: 619
+  title: 交流大会开始
+  sha256: aa96794f72d424a7e88df31d7ae00e3af4ebcc3d9dd97fb3505e12fb54522214
+  facts: [徐霄升至人仙三重并公开资源存量, 凌白烟莫问书人仙四重且邹蒙人仙一重, 系统返还三颗仙元丹, 三宗大会开幕]
+  status: verified
+- chapter: 620
+  title: 罗素闺蜜，云花海
+  sha256: e007236336d560bc371b003adb40c887098dc9ce2f354bdbbf22c8c985887154
+  facts: [罗素升至地仙八重并公开长期资源供给, 云花海身份为五灵仙门掌门和天仙上境, 系统识别云花海为SSS级气运之女]
+  status: verified
+- chapter: 621
+  title: 比斗开始
+  sha256: 463d38084fbc10d8a1dc5a466c4e2c2ca65727077bdf873c3bcc8ae186e57670
+  facts: [大会采用三宗轮流击擂车轮战, 凝气人仙可不融五脏继续强化五气, 首轮擂台战开始]
+  status: verified
+- chapter: 622
+  title: 南宫嫣到场
+  sha256: 2d706d37c3925bf3b8a1428e530b6c9a37b0d548ec8ac3bcbd5829c631c290f9
+  facts: [南宫嫣作为参赛者到场, 罗素公开接受南宫嫣与徐霄关系, 徐霄决定代南宫嫣迎战二气人仙金刚丰]
+  status: verified
+boundary_probe:
+  chapter: 623
+  title: 二气人仙，纯阳金身
+  sha256: aa8cd1c108201862286263309ae7216f5915129a91f0a946dcd01eb51f92af6c
+  reason: 第623章进入徐霄代战后的擂台主战阶段，属于下一完整剧情节点
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_and_hashes}
