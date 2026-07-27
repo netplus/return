@@ -42,12 +42,18 @@ jobs:
       - name: Run character identity alignment tests
         run: python scripts/test_validate_entity_identity.py
 
+      - name: Run character growth-line tests
+        run: python scripts/test_render_character_growth.py
+
       - name: Validate base and extension indexes
         shell: bash
         run: |
           mkdir -p build
           set -o pipefail
           python scripts/knowledge_base.py validate 2>&1 | tee build/validation.log
+
+      - name: Validate append-only character growth continuity
+        run: python scripts/render_character_growth.py --validate-continuity --effective-run 82
 
       - name: Upload validation report
         if: always()
@@ -67,12 +73,12 @@ jobs:
       - name: Validate character identity alignment
         run: python scripts/validate_entity_identity.py --generated-dir build/canonical-indexes
 
-      - name: Render complete entity-document projection
+      - name: Render complete entity-document projection with growth lines
         run: |
-          python scripts/render_entity_docs.py \
+          python scripts/render_character_growth.py \
             --generated-dir build/canonical-indexes \
             --output-root build/entity-docs
-          python scripts/render_entity_docs.py \
+          python scripts/render_character_growth.py \
             --generated-dir build/canonical-indexes \
             --output-root build/entity-docs \
             --check
@@ -124,8 +130,9 @@ jobs:
           python scripts/knowledge_base.py build --output-dir data/generated
           python scripts/knowledge_base.py validate --generated-dir data/generated
           python scripts/validate_entity_identity.py --generated-dir data/generated
-          python scripts/render_entity_docs.py --generated-dir data/generated
-          python scripts/render_entity_docs.py --generated-dir data/generated --check
+          python scripts/render_character_growth.py --validate-continuity --effective-run 82
+          python scripts/render_character_growth.py --generated-dir data/generated
+          python scripts/render_character_growth.py --generated-dir data/generated --check
 
       - name: Commit and push refreshed generated views
         shell: bash
