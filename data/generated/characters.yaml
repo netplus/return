@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 72
+  extension_files: 73
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -58,6 +58,7 @@ characters:
   - 金之大道·金刚
   - 金之大道·粉碎
   - 木之大道·新生
+  - 完美遁之大道
   constitution:
   - current: 道体
     source: 九转乾元丹
@@ -152,6 +153,7 @@ characters:
   - NODE-0081
   - NODE-0082
   - NODE-0083
+  - NODE-0084
   source_chapters:
   - 1
   - 2
@@ -751,6 +753,11 @@ characters:
   - 636
   - 637
   - 638
+  - 639
+  - 640
+  - 641
+  - 642
+  - 643
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -814,6 +821,7 @@ characters:
   - 识破刘爱花即姬雪但选择不揭穿
   - 以五行仙丹化解尘玉万青罗方的分手问责
   - 向焰灵承诺长期负责伤势
+  - 与云姑心正式确立伴侣关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -984,6 +992,8 @@ characters:
   - 完美冰系大道公开
   - 完美剑之大道形成大范围莲花剑气
   - 法体剑三修战力公开达到压倒性地仙级表现
+  - 遁之大道可与五行基础大道结合形成火遁风遁雷遁等遁法
+  - 鸿蒙真气增至五十二股
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1229,6 +1239,18 @@ characters:
     - 多重关系获得太上长老层级默认接受
     - 与纯阳仙门矛盾公开化
     status: partial
+  - chapter_range:
+      start: 639
+      end: 643
+    event: 化解诸葛青天问责并与云姑心确立关系，获得遁之大道
+    core_ability:
+    - 完美遁之大道
+    - 鸿蒙真气五十二股
+    - 万峰青竹剑
+    impact:
+    - 新增云姑心长期资源关系
+    - 公开化解天仙长老问责但留下潜在敌意
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1253,6 +1275,8 @@ characters:
   - 确认道元为缥缈宗祖师并建立长期合作
   conflict_change:
   - 青锋案嫌疑公开化并与纯阳仙门形成直接冲突
+  acquired_artifacts:
+  - ART-0089
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -6965,6 +6989,7 @@ characters:
   - 第575章三枚化仙丹
   - GIFT-0136
   - GIFT-0148
+  - GIFT-0157
   related_nodes:
   - NODE-0072
   - NODE-0073
@@ -6972,6 +6997,7 @@ characters:
   - NODE-0078
   - NODE-0079
   - NODE-0081
+  - NODE-0084
   source_chapters:
   - 547
   - 548
@@ -6993,6 +7019,8 @@ characters:
   - 617
   - 618
   - 619
+  - 642
+  - 643
   verification_status: partial
   assessment_result:
   - 容貌: 甲
@@ -7037,6 +7065,12 @@ characters:
     impact:
     - 资源供给和直属执法关系稳定
     status: verified
+  - chapter: 643
+    event: 与云姑心关系破裂后继续接受徐霄化仙丹支持
+    impact:
+    - 姐妹关系转为冷战
+    - 与徐霄的资源和感情线继续升级
+    status: partial
   resource_change:
   - 三颗化仙丹
   identity_change:
@@ -7044,6 +7078,8 @@ characters:
   cultivation_change: 人仙四重
   role_change:
   - 徐霄直属内门执法弟子和护院成员
+  relationship_change:
+  - 与云姑心因徐霄关系发生长期冷战
 - id: CHAR-0120
   name: 罗素
   status: alive
@@ -7476,6 +7512,7 @@ characters:
   - NODE-0073
   - NODE-0079
   - NODE-0081
+  - NODE-0084
   source_chapters:
   - 558
   - 562
@@ -7483,6 +7520,11 @@ characters:
   - 564
   - 606
   - 617
+  - 639
+  - 640
+  - 641
+  - 642
+  - 643
   document: null
   verification_status: partial
   identity_change:
@@ -7500,8 +7542,26 @@ characters:
     impact:
     - 进入稳定执法班底
     status: verified
+  - chapter_range:
+      start: 639
+      end: 643
+    event: 汇报诸葛青天动向并向徐霄表白
+    core_ability:
+    - 获得十颗化仙丹
+    - 获得顶级仙器仙灵天木剑
+    impact:
+    - 正式进入徐霄伴侣与长期资源网络
+    - 与凌白烟关系转入冷战
+    status: partial
   role_change:
   - 徐霄直属内门执法弟子
+  accepted_gifts:
+  - GIFT-0154
+  - GIFT-0155
+  relationship_change:
+  - 与徐霄由暧昧转为明确伴侣关系
+  acquired_artifacts:
+  - ART-0088
 - id: CHAR-0127
   name: 绝柔
   status: alive
@@ -8130,13 +8190,28 @@ characters:
     status: verified
   related_nodes:
   - NODE-0080
+  - NODE-0084
   source_chapters:
   - 610
   - 611
   - 612
   - 613
+  - 639
+  - 640
+  - 641
+  - 642
   document: null
   verification_status: verified
+  conflict_change:
+  - 诸葛青天因徐霄接近丁静而公开问责
+  growth_event:
+  - chapter_range:
+      start: 639
+      end: 642
+    event: 成为诸葛青天与徐霄冲突的核心诱因之一
+    impact:
+    - 诸葛青天对徐霄形成持续私人敌意
+    status: partial
 - id: CHAR-0141
   name: 端木莹
   status: alive
@@ -8439,5 +8514,43 @@ characters:
   source_chapters:
   - 637
   - 638
+  document: null
+  verification_status: partial
+- id: CHAR-0149
+  name: 诸葛青天
+  status: alive
+  role: antagonist
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 阴阳仙门内门长老
+  - 震惊就变强系统宿主
+  - 百万年级天才
+  first_appearance:
+    chapter: 639
+    title: 云姑心上门汇报
+    node: NODE-0084
+  cultivation:
+    current: 天仙境
+    exact_level: pending
+    status: partial
+  age:
+    approximate_years: 100000
+    status: partial
+  system:
+    name: 震惊就变强系统
+    mechanism: 从他人震惊反应获得震惊值并兑换成长资源
+    status: partial
+  relationship_context:
+    丁静: 曾追求且持续关注
+    徐霄: 表面友善但保留敌意与资源觊觎
+    status: partial
+  related_nodes:
+  - NODE-0084
+  source_chapters:
+  - 639
+  - 640
+  - 641
+  - 642
   document: null
   verification_status: partial
