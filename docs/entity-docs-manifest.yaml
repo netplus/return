@@ -1,5 +1,6 @@
-schema_version: 1
+schema_version: 2
 generator: scripts/render_entity_docs.py
+presentation: reader_friendly_with_collapsed_canonical_appendix
 source: data/generated
 groups:
   characters:
