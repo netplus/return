@@ -1,0 +1,40 @@
+schema_version: 1
+run_id: RUN-0098
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 623, end: 632}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml
+  chapters:
+  - {chapter: 623, title: 二气人仙，纯阳金身, sha256: aa8cd1c108201862286263309ae7216f5915129a91f0a946dcd01eb51f92af6c}
+  - {chapter: 624, title: 徐霄一脚, sha256: e35a12496906f2693f7f0db79b95b7890a9c2a7dc8b3fee29ea2834fa1a1a3c9}
+  - {chapter: 625, title: 恐怖徐霄, sha256: be44414f1b0929b36e7d757f4db4a42982587823bd6eeba740f835ead982f97d}
+  - {chapter: 626, title: 一排猪头, sha256: 47f5e371c1348d54ca62ff84af0a33bb990a0fb01fa109294fb316a6f4bc9f61}
+  - {chapter: 627, title: 现场送丹, sha256: c1bc5a4c16a3b558db96ea206615b52775b7b53cad89ddaa064b0b4373981b4d}
+  - {chapter: 628, title: 返还，五气朝元丹, sha256: ba43ff4dd2a126f2fcdfc8f84b6f23141c8a8fc576115a37874635763fb8ddfa}
+  - {chapter: 629, title: 全部一起上, sha256: 52ca8f09c6bf427eaea8d5d86628078d157ecadc6e215b07f8eadd56cb5bab0e}
+  - {chapter: 630, title: 惊天剑气, sha256: e5acf22618b7b8c9e3a37a22db393f214fe2806d282ae75ddf828d9e6ebc5d2e}
+  - {chapter: 631, title: 现场一片哀嚎, sha256: 061ffc9ca1fc54fef569d36a4c19521c0cfdc75ef2d42d0878a43ecbea8bcc64}
+  - {chapter: 632, title: 天南第一人仙美名, sha256: ff8c0c39a006ce8b3c8c1494d61f63c8f137c71a288e7c4508e51db95e1f56e1}
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_range: {start: 623, end: 633}
+readable_cross_check:
+  provider: CP小说网
+  chapters_cross_checked: [631, 632]
+chapter_facts:
+- {chapter: 623, facts: [凝气人仙规则进一步说明, 徐霄决定代南宫嫣出战]}
+- {chapter: 624, facts: [徐霄一脚击飞二气人仙金刚丰, 炼体实力公开]}
+- {chapter: 625, facts: [徐霄实力震动三宗, 姬雪境界确认为人仙七重]}
+- {chapter: 626, facts: [九天神玉带连续压制凝气人仙, 系统识别吕玄一并发布击杀任务]}
+- {chapter: 627, facts: [焰灵为五气人仙与SS级气运之女, 徐霄以完美冰系大道压制火灵道体]}
+- {chapter: 628, facts: [焰灵接受十颗仙元丹, 返还五气朝元丹和四十五颗五行仙丹]}
+- {chapter: 629, facts: [徐霄提出挑战两宗全部剩余选手]}
+- {chapter: 630, facts: [万龙鎏金甲抵御围攻, 完美剑之大道驱动双至尊仙剑反击]}
+- {chapter: 631, facts: [莲花剑气在极短时间内击溃百余名人仙, 三宗高层确认法体剑三修差距]}
+- {chapter: 632, facts: [纯阳与五灵仙门弃权, 徐霄获得天南第一人仙称号]}
+boundary_reason: 第632章完成大会结果与称号授予；第633章转入责令分手冲突
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_and_source_hashes}

@@ -1,0 +1,32 @@
+schema_version: 1
+run_id: RUN-0098
+gift_events:
+- id: GIFT-0149
+  chapter: 628
+  node: NODE-0082
+  giver: 徐霄
+  recipient: 焰灵
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward:
+  - 五气朝元丹
+  - 四十五颗五行仙丹
+  triggered_multiplier:
+  - {gift_quantity: 1, result: 五气朝元丹, type: 万倍暴击}
+  - {gift_quantity: 9, result: 四十五颗五行仙丹, type: 五倍返还}
+  relationship_result: 焰灵接受补偿与传讯符，对徐霄态度由敌对转为缓和
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0149]
+    task_add:
+    - chapter: 626
+      target: 吕玄一
+      condition: 击杀吕玄一
+      reward: 返还道具库随机升级
+      status: pending
+    related_nodes_add: [NODE-0082]
+    source_chapters_add: [626, 627, 628]

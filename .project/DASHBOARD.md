@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 622
-- **Current evidence exploration through:** Chapter 623
+- **Canonical coverage through:** Chapter 632
+- **Current evidence exploration through:** Chapter 633
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 81
+- **Completed timeline nodes:** 82
 - **Draft timeline nodes:** 0
-- **Documented characters:** 145
-- **Generated character profiles:** 145
-- **Gift events:** 148
-- **Artifact records:** 85
-- **Generated artifact profiles:** 85
-- **Last run:** `RUN-0097`
-- **Last completed node:** `NODE-0081`
-- **Next task:** `TASK-0084` — 徐霄擂台横扫、五气朝元丹与天南第一人仙 story arc
-- **Provisional exploration range:** Chapters 623–632
+- **Documented characters:** 146
+- **Generated character profiles:** 146
+- **Gift events:** 149
+- **Artifact records:** 86
+- **Generated artifact profiles:** 86
+- **Last run:** `RUN-0098`
+- **Last completed node:** `NODE-0082`
+- **Next task:** `TASK-0085` — 责令分手、尘玉冲突与金华气运之敌 story arc
+- **Provisional exploration range:** Chapters 633–638
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0081` covers Chapters 617—622. 时间推进五年，徐霄升至人仙三重并建立十余人的内门执法和护院班底，以九霄山河图一击收纳血灵宗三名融合后达到人仙巅峰的长老。陆道离挽回厉红魅失败，旧情冲突固化。三宗人仙交流大会随后开幕，五灵仙门掌门云花海被系统识别为 SSS 级气运之女。南宫嫣被安排迎战二气人仙金刚丰时，徐霄决定代其出战。
+`NODE-0082` covers Chapters 623—632. 徐霄代南宫嫣出战，以法、体、剑三修和多件至尊仙器横扫三宗人仙交流大会。焰灵被系统识别为 SS 级气运之女，接受十颗仙元丹后触发五气朝元丹及四十五颗五行仙丹返还。吕玄一被识别为先天剑体气运之子并成为击杀任务目标。纯阳、五灵两宗最终弃权，徐霄取得“天南第一人仙”称号。
 
 ## Character growth updates
 
-`RUN-0097` adds 云花海 and timed growth events for 徐霄、陆道离、厉红魅、凌白烟、莫问书、梦琳、云姑心、邹蒙、罗素 and 南宫嫣.
+`RUN-0098` adds 焰灵 and timed growth events for 徐霄、吕玄一 and 云花海.
 
-## Quality gates — RUN-0097
+## Quality gates — RUN-0098
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 145 character and 85 artifact records |
+| Entity-document freshness | Passed — 146 character and 86 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 10 timed material updates and 1 new first appearance |
+| Character growth continuity | Passed — 3 timed material updates and 1 new first appearance |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-Chapters 617—622 were reviewed from the archived evidence window and tied to stored per-chapter hashes. 徐霄大会最终战绩、云花海后续赠送关系、陆道离旧情冲突及血灵宗长老最终处置 remain pending.
+Chapters 623—632 are fixed by the archived whole-file SHA-256 and per-chapter hashes. Chapters 623—630 were reviewed from the transient archive window; Chapters 631—632 were cross-checked against the official catalog and a readable mirror. No full chapter text is stored.
