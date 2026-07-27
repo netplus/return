@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 137
+    count: 139
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -111,7 +111,7 @@ groups:
     - id: CHAR-0051
       path: docs/02-characters/程芷.md
     - id: CHAR-0052
-      path: docs/02-characters/程双.md
+      path: docs/02-characters/凤青玄-CHAR-0052.md
     - id: CHAR-0053
       path: docs/02-characters/林婉.md
     - id: CHAR-0054
@@ -282,6 +282,10 @@ groups:
       path: docs/02-characters/金幻.md
     - id: CHAR-0137
       path: docs/02-characters/吕玄一.md
+    - id: CHAR-0138
+      path: docs/02-characters/陆道离.md
+    - id: CHAR-0139
+      path: docs/02-characters/孟凡.md
   artifacts:
     count: 84
     index: data/generated/artifacts.yaml
@@ -458,7 +462,7 @@ groups:
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 137
-  growth_events: 551
+  characters_with_growth_line: 139
+  growth_events: 565
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
