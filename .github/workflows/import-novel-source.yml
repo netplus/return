@@ -39,6 +39,7 @@ jobs:
           exit 0
 
       - name: Upload transient evidence window
+        id: upload
         uses: actions/upload-artifact@v4
         with:
           name: source-chapters-0581-0630
@@ -49,13 +50,29 @@ jobs:
       - name: Commit source metadata or diagnostic
         env:
           HEAD_REF: ${{ github.head_ref || github.ref_name }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+          RUN_ID: ${{ github.run_id }}
         run: |
           status="$(cat .source-import.status)"
           mkdir -p sources/archive
+          pointer='sources/archive/fanqienovel-7423641263695481880/review-window-0581-0630.yaml'
           if [ "$status" -ne 0 ]; then
             cp .source-import.log sources/archive/import-diagnostic.txt
+            rm -f "$pointer"
           else
             rm -f sources/archive/import-diagnostic.txt
+            mkdir -p "$(dirname "$pointer")"
+            cat > "$pointer" <<EOF
+          schema_version: 1
+          purpose: transient_evidence_artifact_pointer
+          chapter_range: {start: 581, end: 630}
+          workflow_run_id: ${RUN_ID}
+          artifact_id: ${ARTIFACT_ID}
+          artifact_url: ${ARTIFACT_URL}
+          expires_after_days: 1
+          merge_policy: remove_before_merge
+          EOF
           fi
           if [ -z "$(git status --porcelain -- sources/archive)" ]; then
             echo 'Source metadata and diagnostics are already current.'
