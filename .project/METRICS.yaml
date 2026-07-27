@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0094
+run_id: RUN-0095
 coverage:
-  chapters_covered_through: 603
-  chapters_promoted_in_run: [598, 599, 600, 601, 602, 603]
-  timeline_nodes: 78
+  chapters_covered_through: 609
+  chapters_promoted_in_run: [604, 605, 606, 607, 608, 609]
+  timeline_nodes: 79
   draft_nodes: 0
-  story_arc_nodes: 75
-  characters_documented: 137
+  story_arc_nodes: 76
+  characters_documented: 139
   characters_staged: 0
   system_records: 1
-  gift_events: 139
+  gift_events: 143
   artifact_records: 84
   artifacts_staged: 0
 entity_documents:
-  character_records: 137
+  character_records: 139
   artifact_records: 84
-  expected_generated_documents: 221
+  expected_generated_documents: 223
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [598, 599, 600, 601, 602, 603], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第603章完成南宫嫣关系修复、纯阳调查平息、气运之子规则和东方青立场转变；第604章转入内门晋升阶段}
-  materiality: {status: passed, entity_updates: [NODE-0078, 吕玄一新人物, 徐霄南宫嫣东方青罗素凌白烟莫问书厉红魅成长更新, GIFT-0134至GIFT-0139, ART-0053更新, ART-0083至ART-0084]}
+  source_traceability: {status: passed, archive_chapters: [604, 605, 606, 607, 608, 609], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第609章完成内门晋升、凤青玄姬雪资源会面和飞升会邀请；第610章转入丁静与飞升会身份揭示}
+  materiality: {status: passed, entity_updates: [NODE-0079, 陆道离孟凡新人物, 徐霄柳清浅凤青玄姬雪罗素东方青莫问书凌白烟梦琳云姑心成长更新, GIFT-0140至GIFT-0143]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 137, artifacts: 84}
+  entity_document_freshness: {status: passed, characters: 139, artifacts: 84}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 7, timed_growth_events: 7, new_characters_with_first_appearance: 1}
+  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 2}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_and_source_hashes}
 blockers: []
