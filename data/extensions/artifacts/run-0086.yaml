@@ -21,7 +21,7 @@ artifact_updates:
     acquisition_records_add: [{gift_id: GIFT-0113, chapter: 530, quantity: 1, status: partial}]
     related_nodes_add: [NODE-0070]
     source_chapters_add: [530]
-- id: ART-0046
+- id: ART-0060
   name: 化仙丹
   update:
     transfer_records_add:
