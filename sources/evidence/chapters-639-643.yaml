@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0100
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 639, end: 643}
+source_gate: passed_with_qualifications
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml
+  chapters:
+  - {chapter: 639, title: 云姑心上门汇报, sha256: 60cf29a514612c5ab205da86d1bc371b439ea1d5456312dec8199a2d823bfaa0, source_line_range: {start: 71075, end: 71165}}
+  - {chapter: 640, title: 诸葛青天的愤怒, sha256: c3da40aa65cc17b0ec4607bc66f54374d17997d20972098ad11f1039666090f6, source_line_range: {start: 71168, end: 71269}}
+  - {chapter: 641, title: 上门问责, sha256: b1b0d59a3a1406de1e961525e8d3c2d9dd98218db64dc5e87a728dc6cf644397, source_line_range: {start: 71272, end: 71403}}
+  - {chapter: 642, title: 地脉岩火剑, sha256: d5aafdaea7a09a1d182244f0a03256642caeaca1cfddd4fa4e063e94fb9fef5b, source_line_range: {start: 71406, end: 71509}}
+  - {chapter: 643, title: 十年之后, sha256: 735ee3cc95d53126f15d5448bc6494134ad5a310c4d8037a3da1005f638b4ac0, source_line_range: {start: 71512, end: 71619}}
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters: [639, 640, 641, 642, 643]
+  boundary_probe: {chapter: 644, title: 天一仙门变故}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [639, 640, 642, 643]
+  unavailable_or_incomplete: [641]
+chapter_facts:
+- chapter: 639
+  facts: [诸葛青天突破天仙出关, 其震惊就变强系统及宗门震惊阈值机制公开, 徐霄被确定为问责目标]
+  status: partial
+- chapter: 640
+  facts: [云姑心向徐霄表白并确立关系, 十颗化仙丹返还鸿蒙一气丹和九颗仙元丹, 仙灵天木剑返还万峰青竹剑]
+  status: partial
+- chapter: 641
+  facts: [诸葛青天带弟子上门问责, 冲突围绕徐霄接近丁静及宗门影响展开]
+  status: partial
+- chapter: 642
+  facts: [徐霄赠送诸葛青天三颗五行仙丹并原样返还, 诸葛青天表面缓和但保留敌意, 天元界和道法太上长老线索出现]
+  status: partial
+- chapter: 643
+  facts: [徐霄服用鸿蒙一气丹使鸿蒙真气达到五十二股, 服用三千天道丹完美领悟遁之大道, 云姑心凌白烟关系转入冷战, 时间推进十年]
+  status: partial
+boundary_reason: 第643章完成问责降温、云姑心关系、返还与遁之大道成长并发生十年跳跃；第644章转入天一仙门变故
+pending: [第641章完整正文交叉核验, 诸葛青天系统完整兑换规则, 万峰青竹剑完整能力, 凌白烟赠送返还结果]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_and_source_hashes}
