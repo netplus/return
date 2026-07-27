@@ -1,0 +1,55 @@
+name: Import novel source index
+
+on:
+  pull_request:
+    paths:
+      - scripts/archive_source_index.py
+      - .github/workflows/import-novel-source.yml
+      - sources/archive/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-source:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Download, index, and extract review window
+        run: |
+          python scripts/archive_source_index.py \
+            --url 'https://dn710008.ca.archive.org/0/items/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
+            --source-id fanqienovel-7423641263695481880 \
+            --artifact-dir .source-artifact \
+            --artifact-start 573 \
+            --artifact-end 622 \
+            --chunk-size 50
+
+      - name: Upload transient evidence window
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-chapters-0573-0622
+          path: .source-artifact/
+          retention-days: 1
+          if-no-files-found: error
+
+      - name: Commit metadata-only source backup
+        env:
+          HEAD_REF: ${{ github.head_ref || github.ref_name }}
+        run: |
+          if git diff --quiet -- sources/archive; then
+            echo 'Source metadata is already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/archive
+          git commit -m 'chore(source): index archived novel by 50-chapter ranges'
+          git push origin "HEAD:${HEAD_REF}"
