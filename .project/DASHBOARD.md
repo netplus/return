@@ -15,7 +15,7 @@
 - **Gift events:** 109
 - **Artifact records:** 69
 - **Generated artifact profiles:** 69
-- **Last run:** `RUN-0081`
+- **Last run:** `RUN-0082`
 - **Last completed node:** `NODE-0066`
 - **Next task:** `TASK-0069` — 幽冥天绝阵、阴灵围剿与系统返还 story arc
 - **Provisional exploration range:** Chapters 509–516
@@ -23,17 +23,21 @@
 
 ## Latest maintenance run
 
-`RUN-0081` added a first-class character growth-line projection. Every generated character profile now places a “成长线” section before sources and audit data. The section combines a 50-chapter staged summary with a chronologically ordered continuous event log. Each event carries a time range, key event, core ability or growth change, long-term identity/relationship/resource impact, node/run evidence and verification status. Historical events are reconstructed from append-only character extensions and Timeline nodes; from `RUN-0082` onward, every material character update must explicitly append `growth_event_add`.
+`RUN-0082` corrected a temporal-accuracy defect found during post-merge review of the new growth lines. A first-appearance row must not read abilities, cultivation or relationships from the fully merged current character snapshot. When no independent historical snapshot exists, the row now says so explicitly and records only that the character entered the story at that time. Later abilities appear only in the Run or Timeline stage that actually recorded them.
+
+## Character growth model
+
+`RUN-0081` added a first-class `成长线` section to all generated character profiles. It combines a 50-chapter stage summary with a continuous chronological log containing time, key event, core ability/growth, long-term impact, evidence and verification status. Historical events are reconstructed from append-only extensions and Timeline nodes; future material updates require structured growth events.
 
 ## Latest completed arc
 
-`NODE-0066` covers Chapters 500—508. 徐霄以大乘三重进入天元仙塔，连续展示三昧真火、破灭神光、三光神水、万界归元、枯荣天毒及多系大道能力。九十层后守关者进入渡劫层级；九十六层后，他以九天玉骨、佛肉金身、仙牛神虎之力和三十二道鸿蒙真气集中展示极致肉身。最终，他与一百层渡劫六重级金龙进行肉身对抗并结合术法击败对方，成为历史首位百层通关者。战力展示推动天元、青云、缥缈等仙宗主动建立关系；云心月、陆雪瑶、紫霄和血葵接受高阶赠礼，系统返还四柄仙器神剑、鸿蒙一气丹、三千大道丹和一百六十三枚雷灵丹。第 509 章转入幽冥天绝阵和新的返还冲突。
+`NODE-0066` covers Chapters 500—508. 徐霄以大乘三重进入天元仙塔并成为历史首位百层通关者，形成渡劫后期级战略威慑；云心月、陆雪瑶、紫霄和血葵进入跨宗道侣与长期资源网络。第 509 章转入幽冥天绝阵和新的返还冲突。
 
-## Quality gates — RUN-0081
+## Quality gates — RUN-0082
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed — existing canonical character extensions and Timeline nodes |
+| Source traceability | Passed — existing first-appearance and append-only growth records |
 | Arc coherence | Not applicable — maintenance run |
 | Materiality | Passed |
 | Cross-index consistency | Passed |
@@ -42,9 +46,10 @@
 | Entity-document freshness | Passed — 104 character and 69 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — staged summary, continuous time-based log and future append-only enforcement |
+| Character growth continuity | Passed |
+| Growth temporal accuracy | Passed — no current-state backfill into first appearance |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-`RUN-0081` adds no new story facts. Growth-line entries are derived from existing append-only character extensions, canonical Timeline node ranges and existing verification states. When historical data identifies only a story-arc node, the generated time is the node's chapter range rather than an invented exact chapter.
+`RUN-0082` adds no story facts. It changes only how historical uncertainty is represented: absent a time-specific snapshot, the generated profile states that the capability was not independently recorded instead of inferring it from later merged fields.

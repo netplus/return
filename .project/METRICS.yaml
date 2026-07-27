@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0081
+run_id: RUN-0082
 coverage:
   chapters_covered_through: 508
   chapters_promoted_in_run: []
@@ -25,16 +25,18 @@ entity_documents:
     mode: stage_summary_plus_append_only_run_history
     stage_window_chapters: 50
     continuity_effective_run: RUN-0082
+    temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, scope: existing_canonical_character_and_timeline_records, failures: 0}
+  source_traceability: {status: passed, scope: existing_first_appearance_and_append_only_growth_records, failures: 0}
   arc_coherence: {status: not_applicable, reason: maintenance_run_without_story_promotion}
-  materiality: {status: passed, entity_updates: [staged_character_growth_line, append_only_growth_event_schema, future_growth_continuity_gate]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions, projection_targets: [docs/02-characters, docs/06-artifacts]}
+  materiality: {status: passed, entity_updates: [first_appearance_temporal_accuracy, regression_test]}
+  cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed, files_checked: [.project/STATE.yaml, .project/TASKS.yaml, .project/METRICS.yaml, docs/00-project/WORKFLOW.md, .github/workflows/knowledge-base-ci.yml]}
-  entity_document_freshness: {status: passed, characters: 104, artifacts: 69, complete_canonical_record_preserved: true}
-  entity_document_readability: {status: passed, semantic_sections: true, canonical_appendix_collapsed: true}
+  yaml_structure_review: {status: passed}
+  entity_document_freshness: {status: passed, characters: 104, artifacts: 69}
+  entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, staged_summary: true, continuous_event_log: true, time_required: true, core_ability_or_impact_required: true, effective_run: RUN-0082}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: structured_growth_projection}
+  character_growth_continuity: {status: passed, staged_summary: true, continuous_event_log: true}
+  growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0, explicit_missing_snapshot_label: true}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false}
 blockers: []
