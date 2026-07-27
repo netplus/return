@@ -1,18 +1,23 @@
 # Changelog
 
-## RUN-0090 — 2026-07-27
+## RUN-0091 — 2026-07-27
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only the unique pending `TASK-0076`; no completed task, Timeline node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 572:凤青玄姬雪仙界重逢、柳清浅与凤青玄集中赠礼、罗素关系确认 and资源返还 form one coherent arc; Chapter 573 begins南宫嫣道伤 and三人看门 conflict.
-- Created `NODE-0074`, covering Chapters 565—572.
-- Updated 徐霄、凤青玄、姬雪、柳清浅、罗素 and东方青 with timed `growth_event_add` records.
-- Recorded凤青玄人仙二重青鸾门下身份、姬雪人仙三重瑶光门下身份、柳清浅九霄玄冰剑赠礼 and罗素公开关系确立.
-- Added `GIFT-0125`—`GIFT-0127`; recorded仙元丹、天仙巅峰魂丹、至尊神火剑、神御黑冰符 and五行仙丹返还.
-- Resolved九霄玄冰剑 and九霄神焰剑 as components of `ART-0069`; added `ART-0076` 至尊神火剑 and `ART-0077` 神御黑冰符.
-- Preserved incomplete return chains, original gift mapping, exact multipliers, full system panels and component correspondence as pending.
+- Resumed only the unique pending `TASK-0077`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 580:南宫嫣道伤、三千天道丹返还、万青罗方问责转认可 and东方青挽回策略 form one coherent arc; Chapter 581 begins the public execution of the做好事 system strategy.
+- Created `NODE-0075`, covering Chapters 573—580.
+- Added 万青 and罗方 as `CHAR-0130` and `CHAR-0131` with chapter-anchored first appearances.
+- Updated 徐霄、南宫嫣、罗素、东方青、柳清浅、莫问书 and凌白烟 with timed `growth_event_add` records.
+- Added `GIFT-0128`, `ART-0078` 三千天道丹 and `ART-0079` 罗素获赠顶级仙器（正式名称待确认）.
+- Recorded三千天道丹可完美领悟一条上位大道，并与三千大道丹同属随机出现的三千大道体系.
+- Preserved南宫嫣最终修复、三千天道丹原始触发链、顶级仙器正式名称能力、万青罗方完整面板 and东方青系统完整规则 as pending.
 - Source traceability passed with qualifications; all generated-document, identity and growth gates must pass in repository CI before merge.
-- Completed `TASK-0076` and queued `TASK-0077` beginning at Chapter 573.
+- Completed `TASK-0077` and queued `TASK-0078` beginning at Chapter 581.
+
+## RUN-0090 — 2026-07-27
+
+- Created `NODE-0074`, covering Chapters 565—572; completed `TASK-0076` and queued `TASK-0077`.
+- Added凤青玄姬雪仙界现状、柳清浅凤青玄罗素资源关系 and神御黑冰符、至尊神火剑返还.
 
 ## RUN-0089 — 2026-07-27
 

@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0091
+gift_events:
+- id: GIFT-0128
+  chapter: 578
+  node: NODE-0075
+  giver: 徐霄
+  recipient: 罗素
+  gift: 十颗高品质仙元丹及一件顶级仙器（正式名称待确认）
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 万青罗方据此认可徐霄对罗素的长期资源承诺与关系诚意
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0128]
+    rule_add:
+    - chapter: 575
+      rule: 三千天道丹与三千大道丹均对应三千大道体系；三千天道丹可完美领悟一条上位大道，两类丹药随机出现
+      status: partial
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [574, 575, 578]

@@ -82,20 +82,21 @@ tasks:
 - {id: TASK-0073, status: done, run_id: RUN-0087}
 - {id: TASK-0074, status: done, run_id: RUN-0088}
 - {id: TASK-0075, status: done, run_id: RUN-0089}
-- id: TASK-0076
-  title: Build the 凤青玄刘爱花、疯狂赠送与罗素结缘 story arc from Chapter 565 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0090
-  target: {chapter_start: 565, chapter_end: 572, node: NODE-0074, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0074.md, data/extensions/timeline/run-0090.yaml, data/extensions/characters/run-0090.yaml, data/extensions/system/run-0090.yaml, data/extensions/artifacts/run-0090.yaml, sources/evidence/chapters-565-572.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0075]
+- {id: TASK-0076, status: done, run_id: RUN-0090}
 - id: TASK-0077
   title: Build the 南宫嫣道伤、三人看门与三千天道丹 story arc from Chapter 573 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 573, provisional_chapter_end: 580, node: NODE-0075, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0091
+  target: {chapter_start: 573, chapter_end: 580, node: NODE-0075, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0075.md, data/extensions/timeline/run-0091.yaml, data/extensions/characters/run-0091.yaml, data/extensions/system/run-0091.yaml, data/extensions/artifacts/run-0091.yaml, sources/evidence/chapters-573-580.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0076]
+- id: TASK-0078
+  title: Build the 东方青做好事系统、仙界毒瘤与云隐城出发 story arc from Chapter 581 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 581, provisional_chapter_end: 588, node: NODE-0076, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0077]

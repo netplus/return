@@ -1,0 +1,55 @@
+schema_version: 1
+run_id: RUN-0091
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 573, end: 580}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 573, title: 三人看门}
+  - {chapter: 574, title: 返还，三千天道丹}
+  - {chapter: 575, title: 太上长老，万青}
+  - {chapter: 576, title: 万青罗素，外门长老团}
+  - {chapter: 577, title: 徐霄，倒反天罡}
+  - {chapter: 578, title: 赠送仙器，全场懵逼}
+  - {chapter: 579, title: 东方青的挽回策略}
+  - {chapter: 580, title: 不正常的东方青}
+  boundary_probe: {chapter: 581, title: 仙界毒瘤}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [573, 574, 575, 576, 577, 578, 579, 580]
+chapter_facts:
+- chapter: 573
+  facts: [南宫嫣出现灵力逆流和吐血症状, 道伤根治方向明确为晋升地仙后以五行之气重塑三花, 罗素帮助其稳定修为]
+  status: partial
+- chapter: 574
+  facts: [徐霄罗素关系在外门持续扩散, 系统返还三千天道丹, 原始赠礼与倍率在可访问正文中未完整确认]
+  status: partial
+- chapter: 575
+  facts: [三千天道丹可完美领悟一条上位大道, 与三千大道丹同属三千大道体系且两类丹药随机出现, 莫问书凌白烟各获三枚化仙丹答谢]
+  status: partial
+- chapter: 576
+  facts: [罗素父母万青罗方以阴阳仙门太上长老身份到达外门, 外门长老团将此视为对徐霄的高层问责]
+  status: partial
+- chapter: 577
+  facts: [万青罗方正式质询徐霄罗素关系, 罗素公开表明自愿并坚持长期关系, 徐霄以资源和承诺应对]
+  status: partial
+- chapter: 578
+  facts: [罗素展示徐霄赠送的十颗高品质仙元丹和顶级仙器, 万青罗方据此改变判断, 顶级仙器正式名称能力与系统返还未确认]
+  status: partial
+- chapter: 579
+  facts: [万青罗方公开认可徐霄罗素关系并推动宗门层面协商, 东方青得知后由震惊转为制定挽回策略]
+  status: partial
+- chapter: 580
+  facts: [万青罗方接受徐霄保留其他关系但要求罗素地位优先, 东方青以掌门身份公开祝贺并准备通过做好事系统提升修为后挽回罗素]
+  status: partial
+boundary_reason: 第580章完成太上长老认可和东方青策略转向；第581章开始东方青主动寻找并执行系统认可的好事
+pending:
+- 南宫嫣道伤的最终修复资源、时间和结果
+- 三千天道丹原始赠礼、触发对象、倍率及数量
+- 罗素获赠顶级仙器的正式名称、能力与后续使用
+- 万青罗方精确境界、职位分工和完整人物面板
+- 东方青做好事系统的完整奖励规则和限制
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}

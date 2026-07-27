@@ -1,0 +1,116 @@
+schema_version: 1
+run_id: RUN-0091
+characters:
+- id: CHAR-0130
+  name: 万青
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门太上长老, 罗素之母]
+  first_appearance: {chapter: 575, title: 太上长老，万青, node: NODE-0075}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  relationship_context: {罗素: 母女, 徐霄: 由问责转为认可其与罗素的关系, status: partial}
+  related_nodes: [NODE-0075]
+  source_chapters: [575, 576, 577, 578, 579, 580]
+  document: null
+  verification_status: partial
+- id: CHAR-0131
+  name: 罗方
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门太上长老, 罗素之父]
+  first_appearance: {chapter: 576, title: 万青罗素，外门长老团, node: NODE-0075}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  relationship_context: {罗素: 父女, 徐霄: 由保护性问责转为接受其与罗素交往, status: partial}
+  related_nodes: [NODE-0075]
+  source_chapters: [576, 577, 578, 579, 580]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: [获得万青罗方对其与罗素关系的公开认可]
+    role_change_add: [资源网络进入阴阳仙门太上长老层级]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [573, 574, 575, 576, 577, 578, 579, 580]
+    growth_event_add:
+    - node: NODE-0075
+      event: 处理南宫嫣道伤危机并通过高阶资源取得太上长老认可
+      core_ability: [获得三千天道丹并确认其可完美领悟上位大道, 以仙元丹和顶级仙器进行仙界高层资源配置]
+      impact: [与罗素关系获得家族和宗门高层公开认可, 资源网络进入太上长老层级]
+      status: partial
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    condition_change_add: [道伤导致灵力逆流并出现吐血症状, 晋升地仙并以五行之气重塑三花被确认为根治方向]
+    resource_need_add: [千年内晋升地仙所需天量资源]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [573]
+    growth_event_add:
+    - chapter: 573
+      event: 道伤并发症公开恶化并明确根治路径
+      core_ability: [当前道基无法自行修复, 需晋升地仙后以五行之气重塑三花]
+      impact: [千年寿元压力进一步明确, 长期资源修复线升级为核心生存目标]
+      status: partial
+- id: CHAR-0120
+  name: 罗素
+  update:
+    accepted_gifts_add: [GIFT-0128]
+    relationship_change_add: [与徐霄关系获得父母及外门长老团公开认可]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [573, 574, 575, 576, 577, 578, 579, 580]
+    growth_event_add:
+    - node: NODE-0075
+      event: 关系公开并获得太上长老家族认可
+      core_ability: [地仙七重, 获得高品质仙元丹与顶级仙器支持]
+      impact: [从私人关系对象转为阴阳仙门公开认可的长期伴侣]
+      status: partial
+- id: CHAR-0121
+  name: 东方青
+  update:
+    cultivation_change: 天仙一重
+    conflict_change_add: [得知万青罗方认可徐霄罗素关系后启动挽回策略]
+    system_behavior_add: [计划通过持续做好事加速修炼并重新争取罗素]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [579, 580]
+    growth_event_add:
+    - chapter_range: {start: 579, end: 580}
+      event: 面对罗素新关系转而制定长期挽回计划
+      core_ability: [天仙一重, 做好事获取成长的系统机制开始进入行动层]
+      impact: [掌门与亲传弟子的私人矛盾转为隐蔽竞争, 第581章起开始公开实施做好事策略]
+      status: partial
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    role_change_add: [作为徐霄原师父参与太上长老问责和关系协商]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [573, 576, 577, 578, 579, 580]
+    growth_event_add:
+    - node: NODE-0075
+      event: 参与徐霄罗素关系公开化与太上长老协商
+      impact: [由外门师父进一步成为徐霄高层关系网络的见证者和协调者]
+      status: partial
+- id: CHAR-0118
+  name: 莫问书
+  update:
+    accepted_gifts_add: [第575章三枚化仙丹]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [573, 575, 577, 578, 579, 580]
+    growth_event_add:
+    - chapter: 575
+      event: 为徐霄罗素看守府邸后接受三枚化仙丹答谢
+      impact: [同门资源关系继续稳定并参与高层关系公开化现场]
+      status: partial
+- id: CHAR-0119
+  name: 凌白烟
+  update:
+    accepted_gifts_add: [第575章三枚化仙丹]
+    related_nodes_add: [NODE-0075]
+    source_chapters_add: [573, 575, 577, 578, 579, 580]
+    growth_event_add:
+    - chapter: 575
+      event: 为徐霄罗素看守府邸后接受三枚化仙丹答谢
+      impact: [同门资源关系继续稳定并参与高层关系公开化现场]
+      status: partial
