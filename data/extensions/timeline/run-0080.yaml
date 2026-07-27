@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0080
+nodes:
+- id: NODE-0066
+  title: 天元仙塔百层、极致肉身与跨宗结缘
+  chapters: {start: 500, end: 508}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第500—509章标题顺序和边界；第500—508章正文由可访问镜像交叉核验
+  boundary_reason: 第508章完成四名气运对象赠礼与跨宗道侣安排；第509章转入幽冥天绝阵和新的系统返还冲突
+  characters: [徐霄, 云心月, 陆雪瑶, 紫霄, 血葵, 神玉, 叶尘, 独孤浩, 楚霄]
+  system_events:
+  - {event: 四名气运对象复合赠送, trigger: 每人十枚蕴仙丹及一柄先天灵宝神剑, reward: 四柄仙器神剑一枚鸿蒙一气丹一枚三千大道丹及一百六十三枚雷灵丹, status: partial}
+  - {event: 六名撮合者答谢赠送, trigger: 十二枚雷灵丹每人两枚, reward: pending, status: partial}
+  power_result: 徐霄以大乘三重打通天元仙塔一百层并公开形成渡劫后期级战略威慑
+  relationship_result: 云心月陆雪瑶紫霄血葵进入跨宗道侣与长期资源网络
+  pending: [三火大道精确构成, 全部圆满大道清单, 百层金龙正式名称与机制, 四柄仙器神剑逐件名称能力和对应关系, 紫霄血葵完整面板, GIFT-0109返还]
+  document: docs/01-timeline/node-0066.md
+  evidence: sources/evidence/chapters-500-508.yaml
