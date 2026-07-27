@@ -1,0 +1,61 @@
+schema_version: 1
+run_id: RUN-0099
+gift_events:
+- id: GIFT-0150
+  chapter: 635
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 尘玉
+  gift: 十颗高品质五行仙丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 由强制分手转为接受徐霄对现有关系长期负责
+  status: partial
+- id: GIFT-0151
+  chapter: 635
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 万青
+  gift: 十颗高品质五行仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 继续认可徐霄与罗素关系
+  status: partial
+- id: GIFT-0152
+  chapter: 635
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 罗方
+  gift: 十颗高品质五行仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 继续接受徐霄作为罗素长期道侣
+  status: partial
+- id: GIFT-0153
+  chapter: 637
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 焰灵
+  gift: 一件仙剑
+  accepted: true
+  system_valid: true
+  reward: 至尊仙器破天斩金剑
+  triggered_multiplier: pending
+  relationship_result: 焰灵接受徐霄对伤势和后遗症长期负责
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0150, GIFT-0151, GIFT-0152, GIFT-0153]
+    target_add:
+    - {chapter: 633, name: 尘玉, classification: SSS级气运之女, status: verified}
+    - {chapter: 637, name: 金华, classification: 气运之敌, exact_task_reward: pending, status: partial}
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [633, 635, 637, 638]

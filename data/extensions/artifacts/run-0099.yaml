@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-0099
+artifacts:
+- id: ART-0087
+  name: 破天斩金剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 637
+  current_holder: 徐霄
+  acquisition: GIFT-0153返还
+  effect: 完整能力、阵法机制与使用上限待后续确认
+  current_state: 已获得，未确认使用
+  status: partial
+  related_nodes: [NODE-0083]
+  source_chapters: [637]
+artifact_updates:
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0150, chapter: 635, recipient: 尘玉, quantity: 10, status: verified}
+    - {gift_id: GIFT-0151, chapter: 635, recipient: 万青, quantity: 10, status: verified}
+    - {gift_id: GIFT-0152, chapter: 635, recipient: 罗方, quantity: 10, status: verified}
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [635, 636]
