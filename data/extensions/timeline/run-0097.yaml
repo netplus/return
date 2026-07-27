@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0097
+nodes:
+- id: NODE-0081
+  title: 五年执法成长、九霄山河图实战与人仙大会开幕
+  chapters: {start: 617, end: 622}
+  granularity: story_arc
+  status: verified
+  source_qualification: 用户提供的固定归档正文逐章核验，并以仓库单章SHA-256索引锁定
+  boundary_reason: 第622章徐霄决定代南宫嫣迎战二气人仙，完成大会开幕与代战转折；第623章转入徐霄擂台主战
+  characters: [徐霄, 陆道离, 厉红魅, 凌白烟, 莫问书, 梦琳, 云姑心, 邹蒙, 李香香, 罗素, 东方青, 南宫嫣, 丁静, 吕玄一, 云花海]
+  system_events:
+  - {event: 云花海气运识别, result: SSS级气运之女、百倍返还、初始羁绊一, status: verified}
+  - {event: 护院弟子化仙丹赠送, result: 三名对象各获三颗化仙丹并返还三颗仙元丹, exact_valid_recipient_mapping: pending, status: partial}
+  relationship_result: 陆道离挽回厉红魅失败；罗素南宫嫣关系公开协调；徐霄决定代南宫嫣参加擂台
+  pending: [徐霄大会最终战绩, 云花海后续赠送关系, 陆道离旧情冲突升级, 血灵宗长老最终处置]
+  document: docs/01-timeline/node-0081.md
+  evidence: sources/evidence/chapters-617-622.yaml
