@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 49
+  extension_files: 50
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1520,4 +1520,18 @@ gifts:
   reward: 一枚鸿蒙一气丹及九枚化仙丹
   triggered_multiplier: 首枚万倍暴击，其余九枚按常规返还
   relationship_result: 素青羁绊度提升至2并进入长期渡劫资源支持关系
+  status: partial
+- id: GIFT-0112
+  chapter_range:
+    start: 525
+    end: 526
+  node: NODE-0069
+  giver: 徐霄
+  recipient: 李香香
+  gift: 十枚雷灵丹
+  accepted: true
+  system_valid: true
+  reward: 仙灵冰魄剑及其余返还待确认
+  triggered_multiplier: pending
+  relationship_result: 李香香与徐霄关系由矿友推进为公开道侣
   status: partial

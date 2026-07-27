@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 57
+  extension_files: 58
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -136,6 +136,7 @@ characters:
   - NODE-0066
   - NODE-0067
   - NODE-0068
+  - NODE-0069
   source_chapters:
   - 1
   - 2
@@ -617,6 +618,14 @@ characters:
   - 516
   - 517
   - 520
+  - 521
+  - 522
+  - 523
+  - 524
+  - 525
+  - 526
+  - 527
+  - 528
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -667,6 +676,7 @@ characters:
   - 与月幽冥形成稳定道侣及长期渡劫资源关系
   - 与魔妖敲定道侣及长期资源关系
   - 与云心月陆雪瑶紫霄血葵形成公开道侣或长期资源安排
+  - 与李香香在六号矿坑结为公开道侣并建立长期资源关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -686,6 +696,7 @@ characters:
   - 天元仙宗仙池三日吸收后升至大乘九重
   - 数年内完成渡劫一至三重提升
   - 九霄天梯可突破上下界规则并支持往返
+  - 在矿区具备以人仙级符箓和仙器应对执事威压的底牌
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
   cultivation_change: 渡劫三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
@@ -802,6 +813,9 @@ characters:
   - 承诺阻止萧烬璃与黑无忌的强制婚约
   - 推动十八上宗肃清蓬莱仙宗阴灵并关闭两界裂缝
   - 将飞升仙界正式提上日程
+  - 利用下界资源和灵精在矿区保持低调优势
+  - 通过邹蒙代挖并优先研究仙界与阴阳仙门规则
+  - 准备借资源或战力进入阴阳仙门正式修炼体系
   relationship_network_change: 与萧烬璃由资源赠送转为持续利益接触
   ability_change:
   - 强化神识可识破阴魂夺舍
@@ -860,6 +874,17 @@ characters:
     - 完成天元界道侣与资源安置
     - 主动飞升灵藏仙域
     - 进入阴阳仙门矿工体系
+    status: partial
+  - node: NODE-0069
+    event: 适应仙界矿区并建立首条仙界道侣关系
+    core_ability:
+    - 确认极品灵石可作为下品灵精使用
+    - 保留人仙级符箓与仙器底牌
+    - 首次在矿区公开出手
+    impact:
+    - 与李香香结为道侣
+    - 建立与范有通和邹蒙的矿区关系
+    - 引发韩烟与司空浩南的执事级冲突
     status: partial
 - id: CHAR-0002
   name: 姬雪
@@ -5610,4 +5635,169 @@ characters:
   - 511
   - 515
   document: null
+  verification_status: partial
+- id: CHAR-0106
+  name: 李香香
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门矿区
+  - 乾元小界飞升者
+  identities:
+  - 一四六号矿队矿工
+  - 气运之女
+  - 徐霄道侣
+  first_appearance:
+    chapter: 521
+    title: 气运之女，李香香
+    node: NODE-0069
+  cultivation:
+    current: 渡劫境
+    exact_level: pending
+    status: partial
+  luck_grade:
+    value: pending
+    base_multiplier: pending
+    status: pending
+  accepted_gifts:
+  - GIFT-0112
+  relationship_context:
+    徐霄: 第521—527章由矿友发展为公开道侣并进入长期资源关系
+    status: partial
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 521
+  - 522
+  - 524
+  - 525
+  - 526
+  - 527
+  - 528
+  verification_status: partial
+- id: CHAR-0107
+  name: 邹蒙
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 外门弟子
+  - 一四六号矿队队长
+  first_appearance:
+    chapter: 522
+    title: 初次下矿
+    node: NODE-0069
+  cultivation:
+    current: 渡劫九重
+    status: partial
+  strategic_role: 带领徐霄熟悉矿区并接受灵精代挖安排
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 522
+  - 523
+  - 524
+  - 525
+  - 526
+  - 527
+  - 528
+  verification_status: partial
+- id: CHAR-0108
+  name: 范有通
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 矿区外门长老
+  - 飞升者登记与基础信息管理者
+  first_appearance:
+    chapter: 521
+    title: 气运之女，李香香
+    node: NODE-0069
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  strategic_role: 向徐霄出售仙界概要并要求矿区执事适度照顾
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 521
+  - 526
+  verification_status: partial
+- id: CHAR-0109
+  name: 老许
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 六号矿坑执事
+  first_appearance:
+    chapter: 526
+    title: 返还，仙灵冰魄剑
+    node: NODE-0069
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  strategic_role: 掌管六号矿坑交割并对代挖采取弹性处理
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 526
+  - 528
+  verification_status: partial
+- id: CHAR-0110
+  name: 韩烟
+  status: alive
+  role: antagonist
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 六号矿坑执事
+  - 气运之女
+  first_appearance:
+    chapter: 528
+    title: 人仙之威
+    node: NODE-0069
+  cultivation:
+    current: 人仙三重
+    status: partial
+  luck_grade:
+    value: B
+    base_multiplier: 10
+    status: partial
+  relationship_context:
+    徐霄: 因矿区公开关系与纪律问题形成直接处罚冲突
+    status: partial
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 528
+  verification_status: partial
+- id: CHAR-0111
+  name: 司空浩南
+  status: alive
+  role: antagonist
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 六号矿坑执事
+  - 李香香追求者
+  first_appearance:
+    chapter: 528
+    title: 人仙之威
+    node: NODE-0069
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  conflict_context: 因李香香与徐霄结为道侣，对徐霄形成持续敌意
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 528
   verification_status: partial

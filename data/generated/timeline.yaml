@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 57
+  extension_files: 58
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2723,3 +2723,40 @@ nodes:
   - 飞升矿区完整规章与违约处罚细则
   document: docs/01-timeline/node-0068.md
   evidence: sources/evidence/chapters-517-520.yaml
+- id: NODE-0069
+  title: 李香香结缘、矿区规则与首次人仙冲突
+  chapters:
+    start: 521
+    end: 528
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第521—529章标题顺序和边界；第521—528章正文由可访问镜像交叉核验
+  boundary_reason: 第528章完成李香香结缘、仙界矿区规则摸底、首次赠礼返还与人仙执事介入；第529章转入正式处罚和化仙丹反制
+  characters:
+  - 徐霄
+  - 李香香
+  - 邹蒙
+  - 范有通
+  - 老许
+  - 韩烟
+  - 司空浩南
+  system_events:
+  - event: 李香香首次高阶赠礼
+    trigger: 十枚雷灵丹
+    reward: 仙灵冰魄剑及其余返还待确认
+    status: partial
+  world_rules:
+  - 下品灵精与天元界极品灵石等值
+  - 矿工仅保留所采灵矿价值的百分之一作为报酬
+  - 矿坑覆盖监测大阵，灵矿不得私自收入储物袋
+  - 代挖未被明确禁止但可由执事裁量处罚
+  power_result: 徐霄在矿区维持低调资源优势，并具备以人仙级底牌应对执事威压的能力
+  relationship_result: 李香香与徐霄由矿友转为公开道侣，进入长期资源关系
+  pending:
+  - 李香香完整系统面板
+  - 仙灵冰魄剑完整品阶能力
+  - GIFT-0112逐笔倍率与其余返还
+  - 徐霄第524章具体出手对象与完整战果
+  - 矿区全部处罚条款
+  document: docs/01-timeline/node-0069.md
+  evidence: sources/evidence/chapters-521-528.yaml

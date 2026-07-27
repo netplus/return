@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 53
+  extension_files: 54
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1083,6 +1083,7 @@ artifacts:
   - NODE-0063
   - NODE-0064
   - NODE-0066
+  - NODE-0069
   source_chapters:
   - 451
   - 455
@@ -1092,6 +1093,8 @@ artifacts:
   - 470
   - 488
   - 508
+  - 525
+  - 526
   acquisition_additional:
     gift_id: GIFT-0088
     chapter: 456
@@ -1137,6 +1140,13 @@ artifacts:
     - 公孙长谋
     - 神玉
     - 血刀
+    status: partial
+  - gift_id: GIFT-0112
+    chapter_range:
+      start: 525
+      end: 526
+    quantity: 10
+    recipient: 李香香
     status: partial
 - id: ART-0046
   name: 噬魂封魔剑
@@ -1619,3 +1629,17 @@ artifacts:
   source_chapters:
   - 517
   - 520
+- id: ART-0072
+  name: 仙灵冰魄剑
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 526
+  current_holder: 徐霄
+  acquisition: GIFT-0112系统返还
+  effect: 冰系能力、完整品阶层次、使用方式与限制待后续正文确认
+  current_state: 未确认分配或使用
+  status: partial
+  related_nodes:
+  - NODE-0069
+  source_chapters:
+  - 526
