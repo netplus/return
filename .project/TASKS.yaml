@@ -1,5 +1,9 @@
 schema_version: 2
-workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
+workflow:
+  standard_version: 2.4
+  unit: story_arc
+  default_chapter_window: 5-10
+  boundary_mode: adaptive
 history_note: Full task metadata through RUN-0068 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0001, status: done}
@@ -97,9 +101,19 @@ tasks:
   quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0079]
 - id: TASK-0081
-  title: Build the 内门飞升者、资源赠送与晋升内门 story arc from Chapter 604 onward
+  title: Build the 柳清浅出关、晋升内门与刘爱花会面 story arc from Chapter 604 onward
+  type: story_arc
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0095
+  target: {chapter_start: 604, chapter_end: 609, node: NODE-0079, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0079.md, data/extensions/timeline/run-0095.yaml, data/extensions/characters/run-0095.yaml, data/extensions/system/run-0095.yaml, sources/evidence/chapters-604-609.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
+  depends_on: [TASK-0080]
+- id: TASK-0082
+  title: Build the 丁静赠送、飞升会身份揭示与厉红魅入宗 story arc from Chapter 610 onward
   type: story_arc
   status: pending
-  target: {chapter_start: 604, provisional_chapter_end: 609, node: NODE-0079, boundary: adaptive}
+  target: {chapter_start: 610, provisional_chapter_end: 616, node: NODE-0080, boundary: adaptive}
   rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
-  depends_on: [TASK-0080]
+  depends_on: [TASK-0081]
