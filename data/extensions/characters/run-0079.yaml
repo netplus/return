@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0079
+characters:
+- id: CHAR-0005
+  update:
+    name_set: 紫韵
+- id: CHAR-0007
+  update:
+    name_set: 金柳香
+- id: CHAR-0010
+  update:
+    name_set: 李天霸
+- id: CHAR-0015
+  update:
+    name_set: 白巧巧
+- id: CHAR-0027
+  update:
+    name_set: 柳璃
