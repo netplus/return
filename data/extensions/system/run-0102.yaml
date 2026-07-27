@@ -1,0 +1,32 @@
+schema_version: 1
+run_id: RUN-0102
+gift_events:
+- id: GIFT-0159
+  chapter: 653
+  node: NODE-0086
+  giver: 徐霄
+  recipient: 青鸾
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗万佛金身丹及九十颗玄元仙丹
+  triggered_multiplier: 首颗万倍暴击；余九颗按十倍数量返还
+  relationship_result: 青鸾接受致歉资源并允许徐霄继续接触凤青玄，但保留强硬警告
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0159]
+    rule_add:
+    - chapter: 652
+      rule: 击杀气运之子吕玄一后，阵法符箓返还库上限提升至玄仙
+      status: verified
+    - chapter: 652
+      rule: 击杀气运之敌金华后，丹药返还库上限提升至玄仙
+      status: verified
+    - chapter: 652
+      rule: 击杀气运之敌萧天后，法器返还库上限提升至道器
+      status: verified
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [651, 652, 653]
