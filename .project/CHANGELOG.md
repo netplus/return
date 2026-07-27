@@ -1,23 +1,23 @@
 # Changelog
 
-## RUN-0097 — 2026-07-28
+## RUN-0098 — 2026-07-28
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only the unique pending `TASK-0083`; no completed task, Timeline node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 622: five-year执法成长、陆道离旧情失败、九霄山河图实战 and三宗大会开幕 form one coherent arc; Chapter 623 begins徐霄擂台主战.
-- Created `NODE-0081`, covering Chapters 617—622.
-- Added 云花海 as `CHAR-0145` and updated 徐霄、陆道离、厉红魅、凌白烟、莫问书、梦琳、云姑心、邹蒙、罗素 and南宫嫣 with timed growth events.
-- Added `GIFT-0148`; updated `ART-0083` 九霄山河图 and `ART-0062` 九霄玉舟.
-- Recorded徐霄人仙三重与五年资源积累、云花海SSS级气运识别、凝气人仙规则 and三宗车轮战机制.
-- Completed `TASK-0083` and queued `TASK-0084` beginning at Chapter 623.
+- Resumed only the unique pending `TASK-0084`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 632: 徐霄代战、擂台横扫、焰灵赠送返还、两宗弃权和天南第一人仙授名 form one coherent arc; Chapter 633 begins太上长老责令分手 conflict.
+- Created `NODE-0082`, covering Chapters 623—632.
+- Added 焰灵 as `CHAR-0146` and updated 徐霄、吕玄一 and 云花海 with timed growth events.
+- Added `GIFT-0149`, `ART-0086` 五气朝元丹 and updated `ART-0085` 五行仙丹.
+- Recorded吕玄一气运之子身份 and the pending击杀任务 with返还道具库随机升级 reward.
+- Completed `TASK-0084` and queued `TASK-0085` beginning at Chapter 633.
+
+## RUN-0097 — 2026-07-28
+
+- Created `NODE-0081`, covering Chapters 617—622; completed `TASK-0083` and queued `TASK-0084`.
 
 ## RUN-0096 — 2026-07-28
 
 - Created `NODE-0080`, covering Chapters 610—616; completed `TASK-0082` and queued `TASK-0083`.
-
-## RUN-0095 — 2026-07-27
-
-- Created `NODE-0079`, covering Chapters 604—609; completed `TASK-0081` and queued `TASK-0082`.
 
 ## Audit history
 
