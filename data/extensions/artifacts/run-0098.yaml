@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0098
+artifacts:
+- id: ART-0086
+  name: 五气朝元丹
+  category: 丹药
+  grade: pending
+  first_chapter: 628
+  current_holder: 徐霄
+  acquisition: GIFT-0149返还
+  effect: 与五气凝练及地仙晋升相关的高阶丹药；完整效果与服用限制待确认
+  current_state: 未确认服用
+  status: partial
+  related_nodes: [NODE-0082]
+  source_chapters: [628]
+artifact_updates:
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    acquisition_add:
+    - {chapter: 628, gift_id: GIFT-0149, quantity: 45, status: verified}
+    related_nodes_add: [NODE-0082]
+    source_chapters_add: [628]
