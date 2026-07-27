@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0100
+run_id: RUN-0101
 coverage:
-  chapters_covered_through: 643
-  chapters_promoted_in_run: [639, 640, 641, 642, 643]
-  timeline_nodes: 84
+  chapters_covered_through: 650
+  chapters_promoted_in_run: [644, 645, 646, 647, 648, 649, 650]
+  timeline_nodes: 85
   draft_nodes: 0
-  story_arc_nodes: 81
-  characters_documented: 149
+  story_arc_nodes: 82
+  characters_documented: 153
   characters_staged: 0
   system_records: 1
-  gift_events: 157
-  artifact_records: 89
+  gift_events: 158
+  artifact_records: 90
   artifacts_staged: 0
 entity_documents:
-  character_records: 149
-  artifact_records: 89
-  expected_generated_documents: 238
+  character_records: 153
+  artifact_records: 90
+  expected_generated_documents: 243
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, archive_chapters: [639, 640, 641, 642, 643], readable_cross_check_chapters: [639, 640, 642, 643], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第643章完成诸葛青天问责降温、云姑心结缘、系统返还和遁之大道成长并发生十年跳跃；第644章转入天一仙门变故}
-  materiality: {status: passed, entity_updates: [NODE-0084, 诸葛青天新人物, 徐霄云姑心凌白烟丁静成长更新, GIFT-0154至GIFT-0157, ART-0088至ART-0089, ART-0044 ART-0078 ART-0085更新]}
+  source_traceability: {status: passed_with_qualifications, archive_chapters: [644, 645, 646, 647, 648, 649, 650], readable_cross_check_chapters: [644, 645, 646, 647, 648, 649, 650], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第650章完成佛门对峙、队伍编组和进入铁钩狱；第651章转入具体狱层推进与战斗}
+  materiality: {status: passed, entity_updates: [NODE-0085, 邬秋惠慈洛银纱崔云新人物, 徐霄柳清浅东方青诸葛青天成长更新, GIFT-0158, ART-0070更新, ART-0090]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 149, artifacts: 89}
+  entity_document_freshness: {status: passed, characters: 153, artifacts: 90}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 4, timed_growth_events: 4, new_characters_with_first_appearance: 1}
+  character_growth_continuity: {status: passed, material_character_updates: 4, timed_growth_events: 4, new_characters_with_first_appearance: 4}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_and_source_hashes}
 blockers: []
