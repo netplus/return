@@ -1,0 +1,55 @@
+schema_version: 1
+run_id: RUN-0085
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 521, end: 528}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 521, title: 气运之女，李香香}
+  - {chapter: 522, title: 初次下矿}
+  - {chapter: 523, title: 摸清仙界形势}
+  - {chapter: 524, title: 略微出手}
+  - {chapter: 525, title: 矿坑秀恩爱}
+  - {chapter: 526, title: 返还，仙灵冰魄剑}
+  - {chapter: 527, title: 两位执事归来}
+  - {chapter: 528, title: 人仙之威}
+  boundary_probe: {chapter: 529, title: 化仙丹}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [521, 522, 523, 524, 525, 526, 527, 528]
+chapter_facts:
+- chapter: 521
+  facts: [范有通完成徐霄飞升者登记, 下品灵精与天元界极品灵石等值, 矿工仅保留所采灵矿百分之一, 徐霄购得仙界概要并与范有通建立初步关系, 李香香被系统识别为气运对象]
+  status: partial
+- chapter: 522
+  facts: [徐霄加入一四六号矿队, 邹蒙为渡劫九重外门弟子兼矿队长, 矿坑大阵监测灵矿不得收入储物袋, 李香香为乾元小界飞升者]
+  status: partial
+- chapter: 523
+  facts: [徐霄优先研究仙界概要和阴阳仙门规则, 暂缓挖矿与赠礼以控制暴露风险]
+  status: partial
+- chapter: 524
+  facts: [徐霄与李香香建立稳定接触, 以灵精委托邹蒙代挖, 在矿区发生首次公开出手但完整对象战果待确认]
+  status: partial
+- chapter: 525
+  facts: [徐霄向李香香赠送十枚雷灵丹, 两人关系公开升级, 代挖与公开关系引发矿区舆论]
+  status: partial
+- chapter: 526
+  facts: [系统返还仙灵冰魄剑, 老许确认为人仙境矿区执事, 代挖无明确禁令但由执事裁量, 范有通曾要求对徐霄适度照顾]
+  status: partial
+- chapter: 527
+  facts: [徐霄与李香香正式确认为道侣, 邹蒙继续承担两人矿额, 韩烟和司空浩南即将返回矿区]
+  status: partial
+- chapter: 528
+  facts: [韩烟为人仙三重矿区执事并主张处罚徐霄, 司空浩南因李香香形成敌意, 徐霄保留资源和人仙级底牌准备进入阴阳仙门]
+  status: partial
+boundary_reason: 第528章完成人物与矿区规则建立并引出执事级冲突；第529章开始正式处罚、韩烟系统面板和化仙丹反制
+pending:
+- 李香香完整气运等级倍率羁绊面板
+- 第524章具体出手对象和完整战果
+- GIFT-0112精确倍率与除仙灵冰魄剑外的全部返还
+- 仙灵冰魄剑完整能力与品阶层次
+- 阴阳仙门矿区全部制度与处罚规则
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}
