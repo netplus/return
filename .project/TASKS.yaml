@@ -89,7 +89,7 @@ tasks:
   run_id: RUN-0089
   target: {chapter_start: 553, chapter_end: 564, node: NODE-0073, boundary: adaptive}
   outputs: [docs/01-timeline/node-0073.md, data/extensions/timeline/run-0089.yaml, data/extensions/characters/run-0089.yaml, data/extensions/system/run-0089.yaml, sources/evidence/chapters-553-564.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: pending_ci, entity_document_readability: pending_ci, character_identity_alignment: pending_ci, character_growth_continuity: pending_ci, growth_temporal_accuracy: pending_ci, copyright_boundary: passed}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0074]
 - id: TASK-0076
   title: Build the 凤青玄刘爱花、疯狂赠送与罗素结缘 story arc from Chapter 565 onward
