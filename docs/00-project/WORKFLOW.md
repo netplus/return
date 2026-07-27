@@ -1,6 +1,6 @@
 # 剧情知识库工作标准
 
-版本：2.3  
+版本：2.4  
 生效范围：自第 4 章起；第 1—3 章既有节点保留，不回溯拆改。
 
 ## 1. 核心原则
@@ -56,6 +56,15 @@
 
 纯重复描述、短暂情绪、普通对话和一次性动作不单独更新实体档案。
 
+### 4.1 人物成长事件持续记录
+
+- 人物成长线采用“追加事件 + 阶段聚合”模型，不在 Markdown 中手工维护第二份事实。
+- 自 `RUN-0082` 起，剧情 Run 中每个具有实质变化的人物更新必须追加 `growth_event_add`。
+- 每条成长事件至少包含：时间（`node`、`chapter` 或 `chapter_range`）、关键事件 `event`，以及核心能力变化或长期影响之一。
+- 推荐字段：`core_ability`、`ability_change`、`impact`、`result`、`status`。
+- 新人物必须具有 `first_appearance.chapter` 和 `first_appearance.node`，其首次登场自动进入成长线。
+- 历史 Run 不强制回写；生成器依据既有扩展字段、Timeline Node 和来源章节重建历史阶段事件。无法定位到精确单章时，只标注剧情节点章节范围，不伪造精确时间。
+
 ## 5. Task 与 Commit 标准
 
 - 一个 Task 对应一个完整剧情阶段，而不是单章。
@@ -91,6 +100,7 @@
 - Entity-document freshness：人物与物品 Markdown 能从最新 canonical 索引完整重建，数量、ID 和完整记录不得缺失；
 - Entity-document readability：读者首先看到简洁概览和按主题组织的事实；复杂机器字段不得压缩为单行代码；长来源列表和完整 YAML 必须默认折叠；摘要应优先采用最新 `*_change` 当前值；
 - Character identity alignment：具有显式人物档案路径的 canonical 记录，其 `name` 必须与档案文件名一致；不允许一个 ID 的名称被另一人物覆盖；
+- Character growth continuity：人物档案必须包含时间化成长线；自 `RUN-0082` 起，每个实质人物更新必须追加结构化成长事件；阶段画像和持续记录必须可从 append-only 扩展重建；
 - Copyright boundary：不保存大段或整章原文。
 
 ## 8. 当前迁移规则
@@ -112,9 +122,10 @@ python scripts/knowledge_base.py validate
 python scripts/knowledge_base.py build
 python scripts/knowledge_base.py validate --generated-dir data/generated
 python scripts/validate_entity_identity.py --generated-dir data/generated
+python scripts/render_character_growth.py --validate-continuity --effective-run 82
 ```
 
-- 校验必须覆盖 YAML 解析、ID 唯一性、Timeline 区间、文档和证据引用、跨索引节点引用、人物名称与显式档案路径一致性，以及 `.project/STATE.yaml` / `.project/METRICS.yaml` 统计一致性。
+- 校验必须覆盖 YAML 解析、ID 唯一性、Timeline 区间、文档和证据引用、跨索引节点引用、人物名称与显式档案路径一致性、人物成长事件持续性，以及 `.project/STATE.yaml` / `.project/METRICS.yaml` 统计一致性。
 - GitHub Actions 在 `main` 更新后刷新生成索引，并每周将扩展合并回基础索引。
 - compaction 不删除扩展文件；扩展文件继续作为每次 Run 的不可变审计记录。
 
@@ -123,21 +134,25 @@ python scripts/validate_entity_identity.py --generated-dir data/generated
 `docs/02-characters/` 和 `docs/06-artifacts/` 是 canonical 索引的人类可读完整投影，不再作为独立手工事实源。
 
 - 每个 canonical 人物和物品记录必须对应一个 Markdown 文档。
-- 人物档案应依次呈现：一览、身份与阵营、修为/能力/成长、关系与立场、资源与物品、关键经历、来源与核验、未决与注意事项。
+- 人物档案应依次呈现：一览、身份与阵营、修为/能力/成长、关系与立场、资源与物品、关键经历、成长线、来源与核验、未决与注意事项。
+- 成长线包含两层：阶段性画像和持续记录。
+  - 阶段性画像默认按 50 章窗口聚合，展示阶段关键事件、核心能力演进与长期影响。
+  - 持续记录按时间排序，至少展示时间、关键事件、核心能力与成长、身份/关系/资源影响、证据与核验状态。
+  - 记录超过 8 条时，较早记录默认折叠，最近记录直接展示。
 - 物品档案应依次呈现：一览、获取/持有/流转、能力与效果、使用与战斗记录、数量与当前状态、来源与核验、未决与注意事项。
 - 概览只放当前关键结论，复杂字典和长列表必须转换为分层 Markdown，不得以反引号包裹的单行 YAML 代替读者文本。
 - 当前境界、年龄、寿命等摘要字段应优先采用最新 `cultivation_change`、`age_change`、`lifespan_change` 等变更值，再回退到基础字段。
 - 来源章节与关联节点在正文中只显示数量和范围，完整列表放入折叠区。
 - 完整 canonical YAML 仅作为文末默认折叠的审计附录；日常阅读不应被机器记录打断。
 - `_INDEX.md` 应展示人物当前境界和主要势力，或物品类别、品阶和持有状态，方便读者快速筛选。
-- 文档由 `scripts/render_entity_docs.py` 生成；事实修正应写入基础索引或追加扩展，不得直接修改自动生成档案。
-- `docs/entity-docs-manifest.yaml` 记录生成器、呈现模式、canonical 来源、记录数量和 ID 到文档路径的映射。
+- 基础读者文档由 `scripts/render_entity_docs.py` 生成；成长线由 `scripts/render_character_growth.py` 在同一物化过程中插入。事实修正应写入基础索引或追加扩展，不得直接修改自动生成档案。
+- `docs/entity-docs-manifest.yaml` 记录生成器、呈现模式、成长线统计、canonical 来源、记录数量和 ID 到文档路径的映射。
 - 生成与复验命令：
 
 ```bash
-python scripts/render_entity_docs.py --generated-dir data/generated
-python scripts/render_entity_docs.py --generated-dir data/generated --check
+python scripts/render_character_growth.py --generated-dir data/generated
+python scripts/render_character_growth.py --generated-dir data/generated --check
 ```
 
-- PR CI 必须从临时 canonical 索引生成并复验实体文档产物；`main` 刷新任务必须将生成索引、人物档案、物品档案和 manifest 一并提交。
+- PR CI 必须从临时 canonical 索引生成并复验实体文档及成长线产物；`main` 刷新任务必须将生成索引、人物档案、物品档案和 manifest 一并提交。
 - 自动刷新提交必须通过路径忽略避免递归触发工作流。
