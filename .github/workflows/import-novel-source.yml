@@ -28,7 +28,7 @@ jobs:
           python scripts/archive_source_index.py \
             --url 'https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
             --source-id fanqienovel-7423641263695481880 \
-            --artifact-dir .source-artifact \
+            --artifact-dir source-artifact \
             --artifact-start 581 \
             --artifact-end 630 \
             --chunk-size 50 \
@@ -43,9 +43,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: source-chapters-0581-0630
-          path: .source-artifact/
+          path: source-artifact/
           retention-days: 1
-          if-no-files-found: ignore
+          if-no-files-found: error
 
       - name: Commit source metadata or diagnostic
         env:
