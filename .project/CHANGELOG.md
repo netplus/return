@@ -1,5 +1,20 @@
 # Changelog
 
+## RUN-0086 — 2026-07-27
+
+- Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only the unique pending `TASK-0072`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 536: formal punishment,化仙丹 resource counteraction,神魂暗杀 failure,韩烟 relationship transition and至尊仙器 return form one coherent arc; Chapter 537 begins外门长老 arrival and宗门准入.
+- Created `NODE-0070`, covering Chapters 529—536.
+- Added 西门恨天 as `CHAR-0112`; updated 徐霄、韩烟、李香香、司空浩南 and邹蒙 with timed `growth_event_add` records.
+- Recorded韩烟 B级气运、基础倍率10、羁绊度1 and promotion from人仙三重 to人仙四重 after refining化仙丹.
+- Added `GIFT-0113`, recording three化仙丹 gifted to韩烟 with one鸿蒙一气丹 and two仙元丹 returned.
+- Added `GIFT-0114`, recording seven further化仙丹 while preserving exact per-item multiplier and return mapping as pending.
+- Added `ART-0073` 至尊仙器万龙鎏金甲 and expanded ART-0044鸿蒙一气丹 and ART-0060化仙丹 records.
+- Recorded司空浩南's escalation from administrative pressure to a three-person神魂 assassination attempt; preserved the attackers' identities, realms and complete counterattack sequence as pending.
+- Source traceability passed with qualifications; all remaining gates including character growth continuity and temporal accuracy passed.
+- Completed `TASK-0072` and queued `TASK-0073` beginning at Chapter 537.
+
 ## RUN-0085 — 2026-07-27
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
