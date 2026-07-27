@@ -1,0 +1,88 @@
+schema_version: 1
+run_id: RUN-0088
+gift_events:
+- id: GIFT-0118
+  chapter: 545
+  node: NODE-0072
+  giver: 徐霄
+  recipient: [陈玉, 李薇]
+  gift: 雷灵丹（数量未完整确认）
+  accepted: true
+  system_valid: pending
+  reward: pending
+  status: partial
+- id: GIFT-0119
+  chapter: 546
+  node: NODE-0072
+  giver: 徐霄
+  recipient: 云鹤
+  gift: 化仙丹（准确数量待确认）
+  accepted: true
+  system_valid: pending
+  reward: pending
+  relationship_result: 云鹤推动陈玉李薇与徐霄建立资源联系
+  status: partial
+- id: GIFT-0120
+  chapter: 546
+  node: NODE-0072
+  giver: 徐霄
+  recipient: [韩烟, 李香香]
+  gift: 韩烟十枚化仙丹、李香香十枚雷灵丹
+  accepted: true
+  system_valid: mixed_pending
+  reward: pending
+  status: partial
+- id: GIFT-0121
+  chapter: 548
+  node: NODE-0072
+  giver: 徐霄
+  recipient: 柳清浅
+  gift: 十枚化仙丹
+  accepted: true
+  system_valid: true
+  reward: 三十枚仙元丹
+  triggered_multiplier: 3
+  relationship_result: 柳清浅确认徐霄为第三名亲传弟子
+  status: partial
+- id: GIFT-0122
+  chapter: 549
+  node: NODE-0072
+  giver: 徐霄
+  recipient: [莫问书, 凌白烟]
+  gift: 每人一枚化仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  relationship_result: 两名亲传同门接受徐霄并承担府邸事务与功法答疑
+  status: partial
+- id: GIFT-0123
+  chapter: 551
+  node: NODE-0072
+  giver: 徐霄
+  recipient: 陈玉
+  gift: 十万下品灵精、一枚渡劫巅峰魂丹、一柄先天灵宝神剑
+  accepted: true
+  system_valid: true
+  reward: 一百上品灵精、一枚人仙巅峰魂丹、一柄仙器神剑
+  triggered_multiplier: mixed
+  relationship_result: 陈玉与徐霄确立公开道侣及长期资源关系
+  status: partial
+- id: GIFT-0124
+  chapter: 552
+  node: NODE-0072
+  giver: 徐霄
+  recipient: 陈玉
+  gift: 十枚雷灵丹
+  accepted: true
+  system_valid: true
+  reward: 二十枚化仙丹
+  triggered_multiplier: 2
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0118, GIFT-0119, GIFT-0120, GIFT-0121, GIFT-0122, GIFT-0123, GIFT-0124]
+    confirmed_objects_add: [陈玉]
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [545, 546, 548, 549, 551, 552]
