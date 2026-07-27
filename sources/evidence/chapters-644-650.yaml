@@ -1,0 +1,50 @@
+schema_version: 1
+run_id: RUN-0101
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 644, end: 650}
+source_gate: passed_with_qualifications
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml
+  chapters:
+  - {chapter: 644, title: 天一仙门变故, sha256: 4dcf23867f200507fc6d0cc3093ab7dce273e2eed7a384146ea4476362b05150}
+  - {chapter: 645, title: 深夜出发, sha256: 2e0e00f011aaf02f71ac2842a28c91d458c1b49ae3f525547a0f551fcc68721b}
+  - {chapter: 646, title: 佛门叫阵, sha256: c04db6244190a6c2cadd440b6f6a360e28a31c6df3f0cecaebcd088672b01074}
+  - {chapter: 647, title: 邬秋，惠慈, sha256: d6c132e210c32695bf53f4f6e917f4b0f4c14573ab5557955692d169be6e9dd1}
+  - {chapter: 648, title: 洛银纱搭讪, sha256: 10f9748b8b39b08af4ba115110f6ab9064f30dea58c1241c68d3a5f18d28dfb3}
+  - {chapter: 649, title: 八层无间地狱, sha256: 77ce362826cb108adac146647c151f214476c6282571f7cf470bb836375e5a65}
+  - {chapter: 650, title: 铁钩狱, sha256: b37b29d6514c0d8a9947a4f8bad55eb31a5c8d301ffc2cf8cad418bef0e87a75}
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters: [644, 645, 646, 647, 648, 649, 650, 651]
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [644, 645, 646, 647, 648, 649, 650]
+chapter_facts:
+- chapter: 644
+  facts: [徐霄向柳清浅赠送九天神玉带并返还缚仙绳, 柳清浅升至地仙三重, 徐霄确认为人仙九重年龄1050岁鸿蒙真气53股]
+  status: partial
+- chapter: 645
+  facts: [邬秋杀害玄光并携地脉岩火剑逃往玉京仙域, 天一仙门以地脉岩火剑为追捕奖励, 阴阳仙门高层深夜集结]
+  status: partial
+- chapter: 646
+  facts: [徐霄驾驶九霄玉舟带队前往玉京仙域, 七宗抵达众愿佛门并公开叫阵, 众愿佛门实力与跨域风险被确认]
+  status: partial
+- chapter: 647
+  facts: [诸葛青天制造极限震惊并获得1000震惊值, 惠慈以众愿佛门方丈身份回应七宗, 邬秋与惠慈父女传闻进一步强化]
+  status: partial
+- chapter: 648
+  facts: [惠慈称邬秋位于众佛小世界阿鼻地狱, 洛银纱以刹女仙门掌门和天仙六重身份主动接近徐霄]
+  status: partial
+- chapter: 649
+  facts: [洛银纱吸收徐霄气运并建立亲密关系, 惠慈承诺开放众佛小世界且佛门不阻拦追捕, 七宗开始入场决策]
+  status: partial
+- chapter: 650
+  facts: [七宗完成内外队伍编组, 徐霄获准随东方青进入众佛小世界, 众人抵达第一层铁钩狱]
+  status: partial
+boundary_reason: 第650章完成外交对峙、队伍编组和进入铁钩狱；第651章开始具体狱层推进与战斗
+pending: [邬秋惠慈完整面板及父女关系正式确认, 地脉岩火剑最终归属能力, 缚仙绳完整能力, 洛银纱系统气运等级, 无间地狱隐藏规则]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_and_source_hashes}
