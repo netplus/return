@@ -1,0 +1,163 @@
+schema_version: 1
+run_id: RUN-0095
+characters:
+- id: CHAR-0138
+  name: 陆道离
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门内门]
+  identities: [内门传功长老, 张大全之师]
+  first_appearance: {chapter: 604, title: 内门飞升者, node: NODE-0079}
+  cultivation: {current: 地仙境或以上, exact_level: pending, status: partial}
+  relationship_context: {厉红魅: 旧情人并计划借六十二万岁生日挽回, 张大全: 亲传弟子, status: verified}
+  related_nodes: [NODE-0079]
+  source_chapters: [604]
+  document: null
+  verification_status: partial
+- id: CHAR-0139
+  name: 孟凡
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门内门, 阴阳飞升会, 青云仙宗飞升者]
+  identities: [陆道离亲传弟子, 十万年前天元界飞升者]
+  first_appearance: {chapter: 609, title: 阴阳飞升会, node: NODE-0079}
+  cultivation: {current: 人仙境或以上, exact_level: pending, status: partial}
+  relationship_context: {徐霄: 同界飞升者并邀请加入飞升会, 张大全: 同门师兄, status: verified}
+  related_nodes: [NODE-0079]
+  source_chapters: [609]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 渡劫八重
+    identity_change_add: [阴阳仙门内门执法执事]
+    relationship_change_add: [与柳清浅建立对外保密的关系, 识破刘爱花即姬雪但选择不揭穿]
+    task_change_add: [接受孟凡邀请准备参加阴阳飞升会]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [604, 605, 606, 607, 608, 609]
+    growth_event_add:
+    - chapter_range: {start: 604, end: 609}
+      event: 晋升内门执法执事并识别姬雪伪装
+      core_ability: [渡劫八重, 内门执法执事身份, 系统真实身份识别]
+      impact: [资源网络转入内门, 建立刘爱花长期赠送渠道, 接入阴阳飞升会]
+      status: verified
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    cultivation_change: 地仙境
+    accepted_gifts_add: [GIFT-0140]
+    identity_change_add: [绝柔亲传弟子, 阴阳仙门内门弟子]
+    relationship_change_add: [与徐霄形成对外保密的关系]
+    resource_change_add: [十颗仙元丹及长期资源承诺]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [605, 606]
+    growth_event_add:
+    - chapter_range: {start: 605, end: 606}
+      event: 晋升地仙并拜入绝柔门下
+      core_ability: [地仙境, 五行玄妙之气, 十颗仙元丹]
+      impact: [由外门长老转入内门亲传修炼路径, 与徐霄建立保密资源关系]
+      status: verified
+- id: CHAR-0052
+  name: 凤青玄
+  update:
+    accepted_gifts_add: [GIFT-0141]
+    relationship_change_add: [允许徐霄改称青玄]
+    resource_change_add: [十颗化仙丹, 获后续仙剑承诺]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [607]
+    growth_event_add:
+    - chapter: 607
+      event: 接受新一批化仙丹并深化称呼与资源关系
+      core_ability: [人仙二重, 十颗化仙丹, 既有仙剑炼化中]
+      impact: [与徐霄长期资源绑定加强]
+      status: verified
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    accepted_gifts_add: [GIFT-0142]
+    identity_change_add: [刘爱花伪装被系统确认但未被徐霄公开揭穿]
+    relationship_change_add: [决定以刘爱花身份持续接受徐霄资源]
+    resource_change_add: [十颗化仙丹]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [607, 608, 609]
+    growth_event_add:
+    - chapter_range: {start: 607, end: 609}
+      event: 以刘爱花身份与徐霄会面并进入长期赠送渠道
+      core_ability: [仙帝级易容术, 人仙三重, 十颗化仙丹]
+      impact: [真实身份被系统识别但继续保密, 形成双重身份资源关系]
+      status: verified
+- id: CHAR-0120
+  name: 罗素
+  update:
+    accepted_gifts_add: [GIFT-0143]
+    identity_change_add: [阴阳仙门内门传功长老]
+    resource_change_add: [十颗仙元丹]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [606, 609]
+    growth_event_add:
+    - chapter_range: {start: 606, end: 609}
+      event: 返回内门传功长老岗位并再次获得仙元丹
+      core_ability: [地仙七重, 内门传功长老, 十颗仙元丹]
+      impact: [内门高层身份与徐霄长期资源关系同时恢复]
+      status: verified
+- id: CHAR-0121
+  name: 东方青
+  update:
+    role_change_add: [亲自担保徐霄直接担任内门执法执事]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [606]
+    growth_event_add:
+    - chapter: 606
+      event: 公开担保徐霄成为内门执法执事
+      impact: [对徐霄的支持由私人立场转化为正式宗门任命]
+      status: verified
+- id: CHAR-0118
+  name: 莫问书
+  update:
+    identity_change_add: [阴阳仙门内门执法弟子]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [605, 606]
+    growth_event_add:
+    - chapter: 606
+      event: 晋升内门并进入执法堂
+      core_ability: [内门执法弟子身份]
+      impact: [由外门亲传协助角色转入内门任务体系]
+      status: verified
+- id: CHAR-0119
+  name: 凌白烟
+  update:
+    identity_change_add: [阴阳仙门内门执法弟子]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [605, 606]
+    growth_event_add:
+    - chapter: 606
+      event: 晋升内门并进入执法堂
+      core_ability: [内门执法弟子身份]
+      impact: [正式进入内门任务与执法体系]
+      status: verified
+- id: CHAR-0125
+  name: 梦琳
+  update:
+    identity_change_add: [阴阳仙门内门执法弟子]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [606]
+    growth_event_add:
+    - chapter: 606
+      event: 晋升内门并进入执法堂
+      core_ability: [内门执法弟子身份]
+      impact: [由外门亲传转入内门执法体系]
+      status: verified
+- id: CHAR-0126
+  name: 云姑心
+  update:
+    identity_change_add: [阴阳仙门内门执法弟子]
+    related_nodes_add: [NODE-0079]
+    source_chapters_add: [606]
+    growth_event_add:
+    - chapter: 606
+      event: 晋升内门并进入执法堂
+      core_ability: [内门执法弟子身份]
+      impact: [由外门亲传转入内门执法体系]
+      status: verified

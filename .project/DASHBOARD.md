@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 603
-- **Current evidence exploration through:** Chapter 604
+- **Canonical coverage through:** Chapter 609
+- **Current evidence exploration through:** Chapter 610
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 78
+- **Completed timeline nodes:** 79
 - **Draft timeline nodes:** 0
-- **Documented characters:** 137
-- **Generated character profiles:** 137
-- **Gift events:** 139
+- **Documented characters:** 139
+- **Generated character profiles:** 139
+- **Gift events:** 143
 - **Artifact records:** 84
 - **Generated artifact profiles:** 84
-- **Last run:** `RUN-0094`
-- **Last completed node:** `NODE-0078`
-- **Next task:** `TASK-0081` — 柳清浅出关、晋升内门与刘爱花会面 story arc
-- **Provisional exploration range:** Chapters 604–609
+- **Last run:** `RUN-0095`
+- **Last completed node:** `NODE-0079`
+- **Next task:** `TASK-0082` — 丁静赠送、飞升会身份揭示与厉红魅入宗 story arc
+- **Provisional exploration range:** Chapters 610–616
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0078` covers Chapters 598—603. 徐霄以山河灵图和人仙巅峰魂丹修复南宫嫣关系，返还九霄山河图和地仙巅峰魂丹；南宫嫣与徐霄正式确立关系并将羁绊提升至二。纯阳仙门掌门吕玄一派人调查青锋死亡，但未获得阴阳仙门直接证据。徐霄向罗素和东方青持续赠送资源，系统确认气运之子赠送原样返还；东方青由公开问责转为全面支持，并批准厉红魅以外门长老身份入宗。
+`NODE-0079` covers Chapters 604—609. 柳清浅晋升地仙并拜入绝柔门下；徐霄等外门核心人物集体进入内门，徐霄在东方青担保下直接成为执法堂执事。凤青玄接受十颗化仙丹并允许徐霄改称“青玄”。系统确认刘爱花真实身份为姬雪，徐霄选择不揭穿并建立长期赠送渠道。孟凡邀请徐霄参加阴阳飞升会，道元/张大全身份线进入主线。
 
 ## Character growth updates
 
-`RUN-0094` adds 吕玄一 and timed growth events for 徐霄、南宫嫣、东方青、罗素、凌白烟、莫问书 and厉红魅.
+`RUN-0095` adds 陆道离 and 孟凡, and timed growth events for 徐霄、柳清浅、凤青玄、姬雪、罗素、东方青、莫问书、凌白烟、梦琳 and 云姑心.
 
-## Quality gates — RUN-0094
+## Quality gates — RUN-0095
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 137 character and 84 artifact records |
+| Entity-document freshness | Passed — 139 character and 84 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 7 timed material updates and 1 new first appearance |
+| Character growth continuity | Passed — 10 timed material updates and 2 new first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-Chapters 598—603 were reviewed from the archived evidence window and tied to stored per-chapter hashes. 九霄山河图能力、地仙巅峰魂丹使用及纯阳仙门后续调查 remain pending.
+Chapters 604—609 were reviewed from the archived evidence window and tied to stored per-chapter hashes. 道元/张大全完整仙界经历、陆道离与厉红魅关系以及阴阳飞升会完整成员 remain pending.
