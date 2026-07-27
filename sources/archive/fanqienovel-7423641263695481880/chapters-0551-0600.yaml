@@ -1,0 +1,256 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 551, end: 600}
+records_present: 50
+chapters:
+  - chapter: 551
+    title: "南宫嫣来访"
+    sha256: 90f91f56bc48b0c566d23d319fe2944526cd6ac23742d8e739043c45ac25d898
+    source_line_range: {start: 61602, end: 61738}
+    source_char_range: {start: 1262659, end: 1264888}
+  - chapter: 552
+    title: "转换阴阳仙诀"
+    sha256: 87c4ce1ad2b859f0721e90bb1c994a69d91b903377571feada083a2324d8cdce
+    source_line_range: {start: 61741, end: 61848}
+    source_char_range: {start: 1264888, end: 1267101}
+  - chapter: 553
+    title: "参加道侣大会"
+    sha256: c3033f906619a18cd38ec42976a16f47f57cbc5f5a63523f0c40e2a72caf3f01
+    source_line_range: {start: 61851, end: 61949}
+    source_char_range: {start: 1267101, end: 1269254}
+  - chapter: 554
+    title: "柳清浅上场"
+    sha256: 74498fceac5b5fef62a94a7ba2bd83c0a519ad6a089de41db33aa0681328bf6b
+    source_line_range: {start: 61952, end: 62059}
+    source_char_range: {start: 1269254, end: 1271696}
+  - chapter: 555
+    title: "柳清浅的道侣分"
+    sha256: a5601c3497fb5aabf1451973948001aa3fb0e438ce6a424c5c03c07efb274193
+    source_line_range: {start: 62062, end: 62155}
+    source_char_range: {start: 1271696, end: 1273840}
+  - chapter: 556
+    title: "南宫嫣，罗素"
+    sha256: 2f3b3d071b4c6b2235d2c4b1246997ab2de2e4b07cee883660c93e3b9aa3fd31
+    source_line_range: {start: 62158, end: 62268}
+    source_char_range: {start: 1273840, end: 1276045}
+  - chapter: 557
+    title: "剑天，上官无双"
+    sha256: 344d92bc263bf1c3192d891621d9f7d5421586b85753f3f6a119b16f55cd4392
+    source_line_range: {start: 62271, end: 62392}
+    source_char_range: {start: 1276045, end: 1278555}
+  - chapter: 558
+    title: "徐霄，容貌甲"
+    sha256: ab6393181518a05998d2353b94e0ae15a8ec56367447644896df211b828f906f
+    source_line_range: {start: 62395, end: 62508}
+    source_char_range: {start: 1278555, end: 1281040}
+  - chapter: 559
+    title: "金光天赋"
+    sha256: 15de9bae9be69af931508c4dbc5b5ed195b520977e135875d8862eda7a3772d8
+    source_line_range: {start: 62511, end: 62619}
+    source_char_range: {start: 1281040, end: 1283342}
+  - chapter: 560
+    title: "肉身测试，震惊全场"
+    sha256: 2f2e143249aefe20c2879d94f35beb2fc5c28e72a876b309b83df71d90c67847
+    source_line_range: {start: 62622, end: 62731}
+    source_char_range: {start: 1283342, end: 1285624}
+  - chapter: 561
+    title: "最后的检测"
+    sha256: df223dccaf4d9c092e8154316329b2cd9ede4981c5d0d141047ad5d30025cfda
+    source_line_range: {start: 62734, end: 62857}
+    source_char_range: {start: 1285624, end: 1287902}
+  - chapter: 562
+    title: "六甲男神"
+    sha256: 29b30059fcf3b32fc82c50e43f1896f05db3de31d2f7c1ec7f85e6612b96fb4c
+    source_line_range: {start: 62860, end: 62972}
+    source_char_range: {start: 1287902, end: 1290261}
+  - chapter: 563
+    title: "掌门亲传弟子"
+    sha256: d3226c5528f00bb15e3f1cf4b2e920f6c355f6fd9f012da689ac2d8dd2530b8f
+    source_line_range: {start: 62975, end: 63098}
+    source_char_range: {start: 1290261, end: 1292574}
+  - chapter: 564
+    title: "道侣大会不圆满结束"
+    sha256: 825e092e6f517c2e8c6c31f58e28612c9a8c7a699b16e0377bc41e93bf64d78a
+    source_line_range: {start: 63101, end: 63211}
+    source_char_range: {start: 1292574, end: 1294692}
+  - chapter: 565
+    title: "凤青玄，刘爱花"
+    sha256: 142c63c1a01fbba3eb0384547fb5fb7d556fcb121ae5c69a12c011239d83e71f
+    source_line_range: {start: 63214, end: 63336}
+    source_char_range: {start: 1294692, end: 1297005}
+  - chapter: 566
+    title: "柳清浅的小心思"
+    sha256: b439d637247b44b3ac45c949856fc37f730c258bbe4133b2000d4539d54a8f7c
+    source_line_range: {start: 63339, end: 63449}
+    source_char_range: {start: 1297005, end: 1299231}
+  - chapter: 567
+    title: "辛劳矿工凤青玄"
+    sha256: cc808b52a27956d3c539762d8a48b5f3edc3d452469e8063d5158aa8ddf11b32
+    source_line_range: {start: 63452, end: 63536}
+    source_char_range: {start: 1299231, end: 1301362}
+  - chapter: 568
+    title: "徐霄的疯狂赠送"
+    sha256: 003b354af0b9f7738b9252eda0789fa9880abe7d8f88a9951d3d5a035e8a89d9
+    source_line_range: {start: 63539, end: 63639}
+    source_char_range: {start: 1301362, end: 1303474}
+  - chapter: 569
+    title: "中峰，阴阳殿"
+    sha256: d12a93933130938cb81f4571777b6758c03b5e7b80c231781adf64eaa2067680
+    source_line_range: {start: 63642, end: 63747}
+    source_char_range: {start: 1303474, end: 1305623}
+  - chapter: 570
+    title: "罗素到访"
+    sha256: 7ab41ec080ac23c2f4bba6c50b053b85e2d773cbb1a236885aee36651f6b19b6
+    source_line_range: {start: 63750, end: 63844}
+    source_char_range: {start: 1305623, end: 1307831}
+  - chapter: 571
+    title: "返还，神御黑冰符"
+    sha256: 61c1b19fb74db1ebc14c125b35b6a73b57041461c4f5f20a51a8901589e1cba9
+    source_line_range: {start: 63847, end: 63953}
+    source_char_range: {start: 1307831, end: 1309972}
+  - chapter: 572
+    title: "和罗素山盟海誓"
+    sha256: d7b54e686a703f1936a792bf2a95bed2d5d3ea676113e46b7597414484aea281
+    source_line_range: {start: 63956, end: 64074}
+    source_char_range: {start: 1309972, end: 1312097}
+  - chapter: 573
+    title: "三人看门"
+    sha256: 4913f42d5ad7f283e42e7074419ea0ca73797a35d7b6b3fbcc158475a2f86dae
+    source_line_range: {start: 64077, end: 64183}
+    source_char_range: {start: 1312097, end: 1314299}
+  - chapter: 574
+    title: "返还，三千天道丹"
+    sha256: 653080a7812098af175ec408e179214656c07cef4811317602817a6ff60f7100
+    source_line_range: {start: 64186, end: 64305}
+    source_char_range: {start: 1314299, end: 1316605}
+  - chapter: 575
+    title: "太上长老，万青"
+    sha256: 89656f48997ef684770466ec0db7ef5160152c5d08a68131c03ecdc35b0aff26
+    source_line_range: {start: 64308, end: 64420}
+    source_char_range: {start: 1316605, end: 1318821}
+  - chapter: 576
+    title: "万青罗素，外门长老团"
+    sha256: cba57fd654ffd889ec964127572954274978d34d7b6055e998bc6488b7ac53de
+    source_line_range: {start: 64423, end: 64525}
+    source_char_range: {start: 1318821, end: 1320968}
+  - chapter: 577
+    title: "徐霄，倒反天罡"
+    sha256: 2c4ac3d5b90797c8b0bf2902601e14fa91914a589261f577f1c5be94e665fbd4
+    source_line_range: {start: 64528, end: 64636}
+    source_char_range: {start: 1320968, end: 1323178}
+  - chapter: 578
+    title: "赠送仙器，全场懵逼"
+    sha256: 138941a842899c78177f80a43b6acde074d0c41c5eb8acd222b340106cde37f1
+    source_line_range: {start: 64639, end: 64748}
+    source_char_range: {start: 1323178, end: 1325384}
+  - chapter: 579
+    title: "东方青的挽回策略"
+    sha256: 8028213bd737a90e41d3f1223d6bebb9ed56dfe6284d1d13f86a76da28c70520
+    source_line_range: {start: 64751, end: 64852}
+    source_char_range: {start: 1325384, end: 1327557}
+  - chapter: 580
+    title: "不正常的东方青"
+    sha256: 4f3347576afdc3c6cf73823a38a2323cecab8cc3cae676b413f1b2abf0a917fe
+    source_line_range: {start: 64855, end: 64955}
+    source_char_range: {start: 1327557, end: 1329811}
+  - chapter: 581
+    title: "仙界毒瘤"
+    sha256: e47c3fef5f47d960657e12d42be1a0ca2ffc92cc1c6ae07d1bf1941bf42fde66
+    source_line_range: {start: 64958, end: 65067}
+    source_char_range: {start: 1329811, end: 1331979}
+  - chapter: 582
+    title: "东方青拦路"
+    sha256: b619682c4e39054975f81c8eed4ece047758cf6006d15beff62a9657a1dada80
+    source_line_range: {start: 65070, end: 65167}
+    source_char_range: {start: 1331979, end: 1334286}
+  - chapter: 583
+    title: "做好事就变强系统"
+    sha256: a9f1001d76be60d6716e48469ec9d284d3fb12250fe4f1bcb2c25624d147ec8c
+    source_line_range: {start: 65170, end: 65291}
+    source_char_range: {start: 1334286, end: 1336728}
+  - chapter: 584
+    title: "到达云隐城"
+    sha256: bfc41b2f2cb86dcc82f6e42870e53e74a737ba1d8594124b6b190b8713b7eb61
+    source_line_range: {start: 65294, end: 65411}
+    source_char_range: {start: 1336728, end: 1339038}
+  - chapter: 585
+    title: "徐霄的办法"
+    sha256: f08dc3206f802901a0269ede5e741962ea43985e785ed00db8834323b96e82d6
+    source_line_range: {start: 65414, end: 65508}
+    source_char_range: {start: 1339038, end: 1341322}
+  - chapter: 586
+    title: "毒瘤身份逐渐曝光"
+    sha256: 0fc6fb31d7aed2352dafe45df1acd3940eb4d0412b7fb5b9e30f69f557e54946
+    source_line_range: {start: 65511, end: 65616}
+    source_char_range: {start: 1341322, end: 1343517}
+  - chapter: 587
+    title: "出发海底灵矿"
+    sha256: 9114b55328b94392f43fdf89921dd88ae8adb7ce18e74942f45fc3388da0687e
+    source_line_range: {start: 65619, end: 65713}
+    source_char_range: {start: 1343517, end: 1345541}
+  - chapter: 588
+    title: "额外的传送仙台"
+    sha256: abce818a059fdd9f268651899c9ddcacc01d2c050264045bee26cdb173f75240
+    source_line_range: {start: 65716, end: 65800}
+    source_char_range: {start: 1345541, end: 1347648}
+  - chapter: 589
+    title: "剑之大道，至尊仙器"
+    sha256: 7232ef1876fe2632f7c8cc55aa339107d7a4cd71fec6b2ef7f5ab2b0115cb5d2
+    source_line_range: {start: 65803, end: 65915}
+    source_char_range: {start: 1347648, end: 1349878}
+  - chapter: 590
+    title: "灭族"
+    sha256: 17864e228d2430917b0bdd0ea60e6912865b6b153b811261d584cac87bce9741
+    source_line_range: {start: 65918, end: 66034}
+    source_char_range: {start: 1349878, end: 1352165}
+  - chapter: 591
+    title: "占领灵矿"
+    sha256: e2b6ab3c9b8280fc42031eb5af3ae97744ff4cf9d737708008fc4e0d68daa5e9
+    source_line_range: {start: 66037, end: 66130}
+    source_char_range: {start: 1352165, end: 1354374}
+  - chapter: 592
+    title: "厉红魅，坎坷仙路"
+    sha256: 40cd884de79da3eaecf3d85ad9ea0c2db770757866d72a5389bbf85651de240c
+    source_line_range: {start: 66133, end: 66252}
+    source_char_range: {start: 1354374, end: 1356661}
+  - chapter: 593
+    title: "金蟾族幸存者，金幻"
+    sha256: 63b603bdfdd2fcec1e4d81abc5d0574e7c6a6643a5d24f0eade0425745402d37
+    source_line_range: {start: 66255, end: 66380}
+    source_char_range: {start: 1356661, end: 1359175}
+  - chapter: 594
+    title: "众人傻眼，彻底懵逼"
+    sha256: 3b9f783c83715837a15020b0b12d68ac31cf3371db1c4ca37a89045023a04806
+    source_line_range: {start: 66383, end: 66497}
+    source_char_range: {start: 1359175, end: 1361418}
+  - chapter: 595
+    title: "大师兄，青锋"
+    sha256: 0a5c3112549f2ad42e3ecd4a4111d13e6ed4dc40b8b9b633dd3242b7bbd80aca
+    source_line_range: {start: 66500, end: 66604}
+    source_char_range: {start: 1361418, end: 1363551}
+  - chapter: 596
+    title: "小小人仙，可笑可笑"
+    sha256: a6366c3bb40fa03174c37033920aea0f97f8e62c8ef7e21be63793d3834ed3c5
+    source_line_range: {start: 66607, end: 66712}
+    source_char_range: {start: 1363551, end: 1365844}
+  - chapter: 597
+    title: "击杀青锋，奖励传送仙台"
+    sha256: 57bae35cfd61bf6a64420c52d357aab3a38383bc24aa343a070cb80e51898bf6
+    source_line_range: {start: 66715, end: 66832}
+    source_char_range: {start: 1365844, end: 1368133}
+  - chapter: 598
+    title: "南宫嫣不开心"
+    sha256: a001399616ada168ead89ace6780cb42a8a3ab1c48e1022f9c44a1270cf6523e
+    source_line_range: {start: 66835, end: 66934}
+    source_char_range: {start: 1368133, end: 1370156}
+  - chapter: 599
+    title: "南宫嫣很开心"
+    sha256: f1ecff289d2c86775bd2bb3ec25e6a7976ec742b0470ea01e964b07026c41109
+    source_line_range: {start: 66937, end: 67045}
+    source_char_range: {start: 1370156, end: 1372351}
+  - chapter: 600
+    title: "回到阴阳仙门"
+    sha256: 0da9609953ed054a49df8e39a2beadb22b21f513b14b48d1120e5539d7b5b9d3
+    source_line_range: {start: 67048, end: 67160}
+    source_char_range: {start: 1372351, end: 1374542}

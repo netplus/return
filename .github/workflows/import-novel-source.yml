@@ -1,0 +1,73 @@
+name: Import novel source index
+
+on:
+  workflow_dispatch:
+    inputs:
+      artifact_start:
+        description: First chapter in the transient evidence window
+        required: true
+        default: '581'
+      artifact_end:
+        description: Last chapter in the transient evidence window
+        required: true
+        default: '630'
+
+permissions:
+  contents: write
+
+jobs:
+  import-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out selected branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate requested window
+        env:
+          START: ${{ inputs.artifact_start }}
+          END: ${{ inputs.artifact_end }}
+        run: |
+          python - <<'PY'
+          import os
+          start = int(os.environ['START'])
+          end = int(os.environ['END'])
+          if start <= 0 or end < start:
+              raise SystemExit('invalid chapter range')
+          if end - start + 1 != 50:
+              raise SystemExit('the evidence window must contain exactly 50 chapters')
+          PY
+
+      - name: Download, index, and extract review window
+        env:
+          START: ${{ inputs.artifact_start }}
+          END: ${{ inputs.artifact_end }}
+        run: |
+          python scripts/archive_source_index.py \
+            --url 'https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
+            --source-id fanqienovel-7423641263695481880 \
+            --artifact-dir source-artifact \
+            --artifact-start "$START" \
+            --artifact-end "$END" \
+            --chunk-size 50
+
+      - name: Upload transient evidence window
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-chapters-${{ inputs.artifact_start }}-${{ inputs.artifact_end }}
+          path: source-artifact/
+          retention-days: 1
+          if-no-files-found: error
+
+      - name: Commit metadata-only source index
+        run: |
+          if [ -z "$(git status --porcelain -- sources/archive)" ]; then
+            echo 'Source metadata is already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/archive
+          git commit -m 'chore(source): refresh archived novel metadata index'
+          git push

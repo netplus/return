@@ -1,0 +1,256 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 701, end: 750}
+records_present: 50
+chapters:
+  - chapter: 701
+    title: "天翎灵气血凤"
+    sha256: ec283523bbc424f33d482bfa8ae13e1987ecae92bcadd47d23457f0fe61ffe2d
+    source_line_range: {start: 77390, end: 77494}
+    source_char_range: {start: 1598136, end: 1600384}
+  - chapter: 702
+    title: "崩溃的天水城妖族"
+    sha256: 11d159e3c9ae4af085ec08cc35273d825c76e31670aab11af2addc0f2e3a33da
+    source_line_range: {start: 77497, end: 77589}
+    source_char_range: {start: 1600384, end: 1602548}
+  - chapter: 703
+    title: "灵植减半"
+    sha256: ccb7abbd797de00dc87ce5e2375a9c122b62158fd15bb21b3dbb4f37cb004fb2
+    source_line_range: {start: 77592, end: 77691}
+    source_char_range: {start: 1602548, end: 1604690}
+  - chapter: 704
+    title: "特殊奖励"
+    sha256: 7f75db88593ba4be2bd0b543d059693cd01a38f3f0d5921abefa7a9f6a88f258
+    source_line_range: {start: 77694, end: 77781}
+    source_char_range: {start: 1604690, end: 1606726}
+  - chapter: 705
+    title: "境界提升，天仙三重"
+    sha256: 893a6b10a8b2595481dcee4e62e2d7a7aa0a1dc591796c497950a0163e3039e7
+    source_line_range: {start: 77784, end: 77877}
+    source_char_range: {start: 1606726, end: 1609023}
+  - chapter: 706
+    title: "人族养伤小队"
+    sha256: ca46f5f37f78e4f3acf2231747de86439826c69d42c59e591e19f4d145c5d344
+    source_line_range: {start: 77880, end: 77974}
+    source_char_range: {start: 1609023, end: 1611140}
+  - chapter: 707
+    title: "包围人族"
+    sha256: 3f72fffe7d5fc7e01836082b406919702e3792c5d7f40a0ed24e19d35d03fce4
+    source_line_range: {start: 77977, end: 78073}
+    source_char_range: {start: 1611140, end: 1613484}
+  - chapter: 708
+    title: "天水城，为所欲为"
+    sha256: c12e038b12d5bedbb44a4c19782be3c908e551df6b4bda9e05ad0f5ec4a219f1
+    source_line_range: {start: 78076, end: 78175}
+    source_char_range: {start: 1613484, end: 1615664}
+  - chapter: 709
+    title: "铁仙楼商议"
+    sha256: 15a57903e6a39ab83784d6b0f6a3029b2ebdb6dd3fe622880999a206513c209d
+    source_line_range: {start: 78178, end: 78285}
+    source_char_range: {start: 1615664, end: 1617965}
+  - chapter: 710
+    title: "抵达青木城"
+    sha256: ac79a7dfa2fea449abc3ec1182730a76c576dd8738d9015ebd6e132b8353dbda
+    source_line_range: {start: 78288, end: 78380}
+    source_char_range: {start: 1617965, end: 1620373}
+  - chapter: 711
+    title: "开始布置阵眼"
+    sha256: e5316d306b4555ddad50e6d74ca99d6bab73cfbb26e500054b636178b44dee66
+    source_line_range: {start: 78383, end: 78490}
+    source_char_range: {start: 1620373, end: 1622689}
+  - chapter: 712
+    title: "徐霄出手"
+    sha256: 11b314534970fb33a8190dbfe0e0a30c3b1ff1fa3de0ea7c8306448322056b6e
+    source_line_range: {start: 78493, end: 78597}
+    source_char_range: {start: 1622689, end: 1624935}
+  - chapter: 713
+    title: "看傻了的白鹤三人"
+    sha256: b1a542c06ac7504230833def59262350a71a4ad60700b8dae1b934f4a0bde93a
+    source_line_range: {start: 78600, end: 78708}
+    source_char_range: {start: 1624935, end: 1627212}
+  - chapter: 714
+    title: "惊麻了的人妖两族"
+    sha256: 93316e0443cc0cda956d1f64d3e268bab74fb6aea3cab927702c5892ecca486c
+    source_line_range: {start: 78711, end: 78799}
+    source_char_range: {start: 1627212, end: 1629366}
+  - chapter: 715
+    title: "人族败退"
+    sha256: 6dd17684cbc53784d131e70cecda99d42a58164d5e4e8f6d7b039212d5ed28f1
+    source_line_range: {start: 78802, end: 78908}
+    source_char_range: {start: 1629366, end: 1631559}
+  - chapter: 716
+    title: "终极卧底"
+    sha256: f00d36f14a2130308d2d0331ad85a6c7dd855c0adf65ce7b126d2c06571a0fcd
+    source_line_range: {start: 78911, end: 79013}
+    source_char_range: {start: 1631559, end: 1633782}
+  - chapter: 717
+    title: "返还，大道玉衣"
+    sha256: 78fc642f2ac6de0d9b60e8fc754da9f0b6de7467f71bf974c32c009a2aa656a5
+    source_line_range: {start: 79016, end: 79115}
+    source_char_range: {start: 1633782, end: 1636001}
+  - chapter: 718
+    title: "人族据点"
+    sha256: 2cc5784c9170878fb82d7c4ccf76a8066eaa8ec3c226478c09316d13e7bad855
+    source_line_range: {start: 79118, end: 79210}
+    source_char_range: {start: 1636001, end: 1638240}
+  - chapter: 719
+    title: "前有狼，后有虎"
+    sha256: 0c5e80f6617fee23566e3464083e5e9189228a3496646c197cd82b526a275278
+    source_line_range: {start: 79213, end: 79299}
+    source_char_range: {start: 1638240, end: 1640463}
+  - chapter: 720
+    title: "超越天地玄仙的战斗"
+    sha256: 4ccf7175f87f33603ada499b66c7c274ca88f7a8d84ae0cb7af36a51aeafc808
+    source_line_range: {start: 79302, end: 79393}
+    source_char_range: {start: 1640463, end: 1642667}
+  - chapter: 721
+    title: "被唬住的诸葛绫"
+    sha256: fa548d7ec13dcfaa23556e26668e47321e833d12f2bd2a3859d6d6e4488f8a0c
+    source_line_range: {start: 79396, end: 79491}
+    source_char_range: {start: 1642667, end: 1644816}
+  - chapter: 722
+    title: "返回青木城"
+    sha256: eefe20dc46442c382a15663c08ab54f85c30c4337d6ed52040a268233a061aae
+    source_line_range: {start: 79494, end: 79604}
+    source_char_range: {start: 1644816, end: 1647222}
+  - chapter: 723
+    title: "造化滴血重生"
+    sha256: d68f850c6afb907f379cb420a7cb3aefdf481f2e040e20ec9a26a016754bf055
+    source_line_range: {start: 79607, end: 79698}
+    source_char_range: {start: 1647222, end: 1649508}
+  - chapter: 724
+    title: "两个月，妖族大胜"
+    sha256: b0ee9198496d31cf95ffa076228d0fd2e2dad59fef43b69ae9035c67deaf7b62
+    source_line_range: {start: 79701, end: 79791}
+    source_char_range: {start: 1649508, end: 1651723}
+  - chapter: 725
+    title: "最后的谈判"
+    sha256: e8d52bb19b33cd3e1c96d1483a457e8fc620f4be283b6876dd78443ac080bc90
+    source_line_range: {start: 79794, end: 79908}
+    source_char_range: {start: 1651723, end: 1654647}
+  - chapter: 726
+    title: "全场瑟瑟发抖"
+    sha256: 6112dceb67173adadff837a6b8d61fa841cf21a13214a476bc266c46da9701f0
+    source_line_range: {start: 79911, end: 79991}
+    source_char_range: {start: 1654647, end: 1656777}
+  - chapter: 727
+    title: "两族认怂"
+    sha256: fb3c7c5390399cbde15eed5419e3122c10d41f86d29066ce90b607036ee66c0f
+    source_line_range: {start: 79994, end: 80076}
+    source_char_range: {start: 1656777, end: 1658803}
+  - chapter: 728
+    title: "高兴的灵藏人族"
+    sha256: 77c2967d8e8b4ef6f0fe8d45a0f157775aa564302f9a47b39d1afd008092b122
+    source_line_range: {start: 80079, end: 80167}
+    source_char_range: {start: 1658803, end: 1661144}
+  - chapter: 729
+    title: "到达万妖仙宗"
+    sha256: bef4612573b6df4a9f0451be478015771122ad7b3ac9346da9d9afcdea4fd0a9
+    source_line_range: {start: 80170, end: 80254}
+    source_char_range: {start: 1661144, end: 1663377}
+  - chapter: 730
+    title: "愤怒的天翎长老"
+    sha256: 0bca7c8819372a2a09e6073b337c345318550232506633688e78dc9e72855f98
+    source_line_range: {start: 80257, end: 80344}
+    source_char_range: {start: 1663377, end: 1665595}
+  - chapter: 731
+    title: "徐霄公开处刑"
+    sha256: 7d28d1132c77cdd323f1f7197ded533aeadd7b4e6604eded82788f5a08837e5b
+    source_line_range: {start: 80347, end: 80433}
+    source_char_range: {start: 1665595, end: 1667933}
+  - chapter: 732
+    title: "开始选拔"
+    sha256: d2ae0aba4ef1b4ed332aa3c4b60240c0ae0cb0144de28731463807a834baadeb
+    source_line_range: {start: 80436, end: 80519}
+    source_char_range: {start: 1667933, end: 1670073}
+  - chapter: 733
+    title: "金光冲天，超级天赋"
+    sha256: fd0f1afaa0a58dc1f0c820f4e0d8390ce1f50002522bfa3672d47c95b26df4ec
+    source_line_range: {start: 80522, end: 80600}
+    source_char_range: {start: 1670073, end: 1672194}
+  - chapter: 734
+    title: "现场收人"
+    sha256: 04dbf858c94e5e22f5c3a29bdb857fc35543514f8c92cbeb8520a2a749541a11
+    source_line_range: {start: 80603, end: 80704}
+    source_char_range: {start: 1672194, end: 1674754}
+  - chapter: 735
+    title: "大金丹加码"
+    sha256: aa0b2fefb5c3d09dacf8f67ffe4303100c9aba125a49c9e281abcf2a709476c6
+    source_line_range: {start: 80707, end: 80812}
+    source_char_range: {start: 1674754, end: 1676996}
+  - chapter: 736
+    title: "入驻天魁峰"
+    sha256: 803b9541d2012db8905ebe8462fc07139c44ca36662605d29e02a5a3fdc1a818
+    source_line_range: {start: 80815, end: 80909}
+    source_char_range: {start: 1676996, end: 1679014}
+  - chapter: 737
+    title: "幽会败露，天翎找茬"
+    sha256: 489530458cd79491279e2c20d9a6a38b3bdfba9440f93b20bc98c9af01ed182d
+    source_line_range: {start: 80912, end: 81006}
+    source_char_range: {start: 1679014, end: 1681255}
+  - chapter: 738
+    title: "十颗大金丹"
+    sha256: 9da1d2eefa7579a1d71b2d4bb34073c521ba31f27580385cd93d6cf99b42afdb
+    source_line_range: {start: 81009, end: 81082}
+    source_char_range: {start: 1681255, end: 1683345}
+  - chapter: 739
+    title: "天翎的算计"
+    sha256: 03e9d482adfecee75e0062a6d013ad4d85e9d3a6a3af1cb8877f0c66b3046e53
+    source_line_range: {start: 81085, end: 81169}
+    source_char_range: {start: 1683345, end: 1685475}
+  - chapter: 740
+    title: "阴萱到访"
+    sha256: 30b3f6826eb3b30d788f0858940a71806e024c760f088041756f6ee951a9aff9
+    source_line_range: {start: 81172, end: 81252}
+    source_char_range: {start: 1685475, end: 1687687}
+  - chapter: 741
+    title: "天门峰，锁妖塔"
+    sha256: 8f5dc15c059e60c0789f93e75fb441e5f7d3f7e50bac5166263241a20c230a1d
+    source_line_range: {start: 81255, end: 81335}
+    source_char_range: {start: 1687687, end: 1689900}
+  - chapter: 742
+    title: "玄灵，锁妖十六层"
+    sha256: d1997ad6e55cfcbad1cd13f21c39d08d05e60b31add03aad92db654e1bbbfdae
+    source_line_range: {start: 81338, end: 81416}
+    source_char_range: {start: 1689900, end: 1692053}
+  - chapter: 743
+    title: "徐霄闯塔"
+    sha256: 59f922ffd5efc7da143afa076b7487d55b4db8bd1b0f14090533ab5d085764e8
+    source_line_range: {start: 81419, end: 81526}
+    source_char_range: {start: 1692053, end: 1694845}
+  - chapter: 744
+    title: "过关斩将"
+    sha256: 0e811a70b9e163eea72bda5eccd637aee7e4bd85e8a229beefe50820aa691679
+    source_line_range: {start: 81529, end: 81622}
+    source_char_range: {start: 1694845, end: 1697060}
+  - chapter: 745
+    title: "闯关结束，惊天奖励"
+    sha256: 88b4673693833ae68716ab5670720a5973dbb8bf888c28144ae16aea4709dbba
+    source_line_range: {start: 81625, end: 81721}
+    source_char_range: {start: 1697060, end: 1699164}
+  - chapter: 746
+    title: "破釜沉舟的诸葛青天"
+    sha256: 8b8d96d8ae7cb6996fac7cec8c3e569ebb3507265af36ddbd1c0b864e7dd928b
+    source_line_range: {start: 81724, end: 81814}
+    source_char_range: {start: 1699164, end: 1701326}
+  - chapter: 747
+    title: "满血复活的两大天才"
+    sha256: afc36b9f191e7a1728f6e39524c65b0e46dbf560d2d7fdaf367aced8fddf340e
+    source_line_range: {start: 81817, end: 81893}
+    source_char_range: {start: 1701326, end: 1703458}
+  - chapter: 748
+    title: "诸葛青天，金仙契机"
+    sha256: e3569075293ad2f3cee5dc17697a934f59ad20b11502b765ee19146b716f9a16
+    source_line_range: {start: 81896, end: 81986}
+    source_char_range: {start: 1703458, end: 1705695}
+  - chapter: 749
+    title: "锁妖塔爆炸"
+    sha256: baa2ce693973b1447ad8abf6091e81a1f4fb212a19604ee9983c80753e92c136
+    source_line_range: {start: 81989, end: 82084}
+    source_char_range: {start: 1705695, end: 1707872}
+  - chapter: 750
+    title: "鹤仙儿拿捏"
+    sha256: c2fb7baee57f4d98a31de5e717e9981474239425d276af27e54789e6a72380a3
+    source_line_range: {start: 82087, end: 82186}
+    source_char_range: {start: 1707872, end: 1710066}

@@ -1,0 +1,256 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 651, end: 700}
+records_present: 50
+chapters:
+  - chapter: 651
+    title: "神御黑冰"
+    sha256: aba8c0c062c8f07404be204b8aab049eda37a65d923285bb0f5748653975ed10
+    source_line_range: {start: 72319, end: 72420}
+    source_char_range: {start: 1486287, end: 1488391}
+  - chapter: 652
+    title: "青鸾长老"
+    sha256: afd0e35180f4aaf87612cd69ebcdd6a29f4dc3239f1ddf94fff6bfa158072810
+    source_line_range: {start: 72423, end: 72518}
+    source_char_range: {start: 1488391, end: 1490464}
+  - chapter: 653
+    title: "大长老，独孤惊云"
+    sha256: e7051dda89e0a57321db7863e1917d714af2aa2b7dd12509614150fcf2b06b39
+    source_line_range: {start: 72521, end: 72636}
+    source_char_range: {start: 1490464, end: 1492986}
+  - chapter: 654
+    title: "徐霄的惊天实力"
+    sha256: 24e9b7af8043f92b5d2bf419df85a0cf263b65f87e386ac42c06da8e7869eeb9
+    source_line_range: {start: 72639, end: 72748}
+    source_char_range: {start: 1492986, end: 1495255}
+  - chapter: 655
+    title: "阿鼻地狱"
+    sha256: 7aff069c33988f0f505de4d29344362e3cc8562cf106fcb74382f7ced6105d88
+    source_line_range: {start: 72751, end: 72837}
+    source_char_range: {start: 1495255, end: 1497386}
+  - chapter: 656
+    title: "极致雷光，抓住邬秋"
+    sha256: 6c0fc96379a7dfe60f9b01d65e6311e39d922231d3e21c8955af5fe2862d6054
+    source_line_range: {start: 72840, end: 72942}
+    source_char_range: {start: 1497386, end: 1499779}
+  - chapter: 657
+    title: "邬秋，玄光"
+    sha256: 4fe84d56329b8832b4aa0e5f8d8eefc2d9415117f59b914069be273140a99f3f
+    source_line_range: {start: 72945, end: 73040}
+    source_char_range: {start: 1499779, end: 1501930}
+  - chapter: 658
+    title: "离开无间地狱"
+    sha256: 5f325f29896878160561dbd338c947e19eeb53cbcfa21542ec4ab3ec00fa505e
+    source_line_range: {start: 73043, end: 73147}
+    source_char_range: {start: 1501930, end: 1504440}
+  - chapter: 659
+    title: "徐霄保人"
+    sha256: 5b693bc1f7b0df1e22cdca22cb22ffca18a63f0e4020fe40d2a5712e52733903
+    source_line_range: {start: 73150, end: 73255}
+    source_char_range: {start: 1504440, end: 1506798}
+  - chapter: 660
+    title: "刹女仙门站队"
+    sha256: 69b50f58629f94759db4f5a011b7192b5bfa803602562858b2c2f0698c845a7a
+    source_line_range: {start: 73258, end: 73351}
+    source_char_range: {start: 1506798, end: 1509010}
+  - chapter: 661
+    title: "事情结束，发放丹药"
+    sha256: 745cf9d1af5513d9299e7acc062f88e637f25d3e0985a7f7e26f88bc543b83fe
+    source_line_range: {start: 73354, end: 73453}
+    source_char_range: {start: 1509010, end: 1511153}
+  - chapter: 662
+    title: "疯狂返还，回到宗门"
+    sha256: 8d1428cde11453057a093635e9861d9cfd8ad4004c211da7740506dfaf067f7c
+    source_line_range: {start: 73456, end: 73551}
+    source_char_range: {start: 1511153, end: 1513434}
+  - chapter: 663
+    title: "尘玉开口，保下邬秋"
+    sha256: 898fbd1823deb92d7795c5642865bb0517bd327a383ec7a67add3bd8d6fd00e8
+    source_line_range: {start: 73554, end: 73640}
+    source_char_range: {start: 1513434, end: 1515718}
+  - chapter: 664
+    title: "纯阳仙门，黯然悲痛"
+    sha256: bd3e8a08be2eaf60720e68de737922f5bf0c85c96fe519fd4a8e57496dc93ab7
+    source_line_range: {start: 73643, end: 73741}
+    source_char_range: {start: 1515718, end: 1518040}
+  - chapter: 665
+    title: "懵逼的邬秋"
+    sha256: 99d3f1b6449044a21c3eac056fa9acd85ff9ba8241707598a8272c398c998409
+    source_line_range: {start: 73744, end: 73858}
+    source_char_range: {start: 1518040, end: 1520431}
+  - chapter: 666
+    title: "邬秋控诉"
+    sha256: 65dc877e3a4574b041a5082decc91576303e34d276d04b3485859eddfac778b6
+    source_line_range: {start: 73861, end: 73945}
+    source_char_range: {start: 1520431, end: 1522608}
+  - chapter: 667
+    title: "满血复活的诸葛青天"
+    sha256: dce43fe6657604a83b62621a453f80e8ba757685b59be50e1e1449843d618b9f
+    source_line_range: {start: 73948, end: 74049}
+    source_char_range: {start: 1522608, end: 1524797}
+  - chapter: 668
+    title: "懵逼的丁静"
+    sha256: f78aaed0b3d2584bf07ca47dc82d45fdeb293e169bdab8ae1821d2eb3ae980e8
+    source_line_range: {start: 74052, end: 74149}
+    source_char_range: {start: 1524797, end: 1527017}
+  - chapter: 669
+    title: "执法堂爆炸"
+    sha256: 001f1043d6f6cd8a8acfc02c15d00d7c54873bab44985a9bc49abf8073aa9198
+    source_line_range: {start: 74152, end: 74240}
+    source_char_range: {start: 1527017, end: 1529179}
+  - chapter: 670
+    title: "天一上门"
+    sha256: 6d3c6caf7bc0f4f0b641455104caad15e9ebd1467395b35580621bae0e4b5fd0
+    source_line_range: {start: 74243, end: 74340}
+    source_char_range: {start: 1529179, end: 1531325}
+  - chapter: 671
+    title: "徐霄，正道之光"
+    sha256: c511c5a6ac741f450df081e87cc5a531960f102ca4c41c282388ce85ec4bf4f3
+    source_line_range: {start: 74343, end: 74435}
+    source_char_range: {start: 1531325, end: 1533600}
+  - chapter: 672
+    title: "嚣张的徐霄"
+    sha256: cfa38825f2f5a18b3144b5682acf496fffe6552c43860f095d8721a2b61a4a77
+    source_line_range: {start: 74438, end: 74527}
+    source_char_range: {start: 1533600, end: 1535766}
+  - chapter: 673
+    title: "徐霄，一打八"
+    sha256: 0519a33219d63689f97fc90baafe97a65a5465b94a36d42ad238feea331b8efc
+    source_line_range: {start: 74530, end: 74626}
+    source_char_range: {start: 1535766, end: 1538007}
+  - chapter: 674
+    title: "上古仙帝传承"
+    sha256: 02025f3cad3324e7475672efbc09c61b24041e977ed01004978e57a7dd14804a
+    source_line_range: {start: 74629, end: 74746}
+    source_char_range: {start: 1538007, end: 1540243}
+  - chapter: 675
+    title: "徐霄的宗门地位"
+    sha256: b65753eec7bcf547ad3e2cda84d3ffbaf94e55c5cc54d818b2fa6b2cb1f39a9e
+    source_line_range: {start: 74749, end: 74841}
+    source_char_range: {start: 1540243, end: 1542366}
+  - chapter: 676
+    title: "气炸全宗的徐霄"
+    sha256: f2e39db433e2088f8162448bfe87762300a06cc71821c716992ecce67bb582b2
+    source_line_range: {start: 74844, end: 74943}
+    source_char_range: {start: 1542366, end: 1544646}
+  - chapter: 677
+    title: "大仙域来人"
+    sha256: d2214a02b8707ee3c86f4da5ee50aec3677ace2d9c9e19f794c9d0ff15832aad
+    source_line_range: {start: 74946, end: 75032}
+    source_char_range: {start: 1544646, end: 1546598}
+  - chapter: 678
+    title: "灵藏沦陷"
+    sha256: 22634a0f86e0595f6d638cc967e32c7155fbf6bbb2af65ca94e98298c404ee02
+    source_line_range: {start: 75035, end: 75112}
+    source_char_range: {start: 1546598, end: 1548772}
+  - chapter: 679
+    title: "惊天噩耗，全场心痛"
+    sha256: f2fad28127f2d061070553442016c44631096a7a1e4e4cee543680095ed16e26
+    source_line_range: {start: 75115, end: 75224}
+    source_char_range: {start: 1548772, end: 1551155}
+  - chapter: 680
+    title: "盘龙岛安顿"
+    sha256: c7ecc51c9149cc99986f7ac4b44ac4d8ac179598c4f3cf09acc1d27ce7301a62
+    source_line_range: {start: 75227, end: 75316}
+    source_char_range: {start: 1551155, end: 1553331}
+  - chapter: 681
+    title: "青鸾妖身"
+    sha256: f079afabbf81b2dd6cb37ac501a8beb1e308c356872a7ed51b02d0606984c456
+    source_line_range: {start: 75319, end: 75401}
+    source_char_range: {start: 1553331, end: 1555486}
+  - chapter: 682
+    title: "揭发徐霄"
+    sha256: 98e43dd1111e03409913f4bd93dffb12cc8fa399f22697f103811a281efe7812
+    source_line_range: {start: 75404, end: 75504}
+    source_char_range: {start: 1555486, end: 1557772}
+  - chapter: 683
+    title: "准备传送，全场懵逼"
+    sha256: 62c3e0a40e92ea8b7f1663433bb9e9b583c1bf3b8b508b2e446f62530f4a43f5
+    source_line_range: {start: 75507, end: 75612}
+    source_char_range: {start: 1557772, end: 1560083}
+  - chapter: 684
+    title: "来大仙域种地？"
+    sha256: 7eec6daad05275cb115dc086d7eff21f13ad079ac7566f52ebaefebf2d9eef2c
+    source_line_range: {start: 75615, end: 75723}
+    source_char_range: {start: 1560083, end: 1562480}
+  - chapter: 685
+    title: "崩溃的灵藏修士"
+    sha256: 9ce35aaf2bd340a68e1ddbf4ee6b207936f8ceb7e5fb60b40a5b436214735cee
+    source_line_range: {start: 75726, end: 75830}
+    source_char_range: {start: 1562480, end: 1564758}
+  - chapter: 686
+    title: "仙丹养灵植"
+    sha256: 71e3fbbf8ef49dcd54998bf8f77ee48ded51ab74977dbf5464645c03c2a578f6
+    source_line_range: {start: 75833, end: 75925}
+    source_char_range: {start: 1564758, end: 1566960}
+  - chapter: 687
+    title: "开始种地"
+    sha256: 779009a7ba50a3618e287114505058e1a78ba0088755060a5dd7c5dace354d44
+    source_line_range: {start: 75928, end: 76042}
+    source_char_range: {start: 1566960, end: 1569151}
+  - chapter: 688
+    title: "灵田巡视，妖族懵逼"
+    sha256: 9b3a22c1be7020d3b2efc6ec53056848ae8d471de0891f88c45efadf8b850ec1
+    source_line_range: {start: 76045, end: 76136}
+    source_char_range: {start: 1569151, end: 1571315}
+  - chapter: 689
+    title: "凤青玄回来"
+    sha256: d2e7495b010fc3cb721ca1f18a7c47165b342bd7fecb6519eedf1a164189d13a
+    source_line_range: {start: 76139, end: 76241}
+    source_char_range: {start: 1571315, end: 1573501}
+  - chapter: 690
+    title: "凤族血令"
+    sha256: 4b8083a4f5f8038af053b73d57e87954df23feef33015b81fd09f3bb87069386
+    source_line_range: {start: 76244, end: 76337}
+    source_char_range: {start: 1573501, end: 1575725}
+  - chapter: 691
+    title: "天凤血丹，出手"
+    sha256: ef19732b271e981109e78db28a23180e6f5aa906339096e07bec2fdc6fb35c49
+    source_line_range: {start: 76340, end: 76440}
+    source_char_range: {start: 1575725, end: 1577949}
+  - chapter: 692
+    title: "震惊的玄雪"
+    sha256: 457d7c5406ef3cb60d9271b350f226dc960e57923960e485028992f817d6d28f
+    source_line_range: {start: 76443, end: 76548}
+    source_char_range: {start: 1577949, end: 1580246}
+  - chapter: 693
+    title: "玄雪金虚惊了"
+    sha256: 73b8d8a7cd5cd909c7c7915cfa6c789ee23052d4c6597b65dba582739464dc6e
+    source_line_range: {start: 76551, end: 76647}
+    source_char_range: {start: 1580246, end: 1582548}
+  - chapter: 694
+    title: "火蜥蜴一族"
+    sha256: 9dd7a12e452a90f7fe101e1cece1d5690abd530d0b46a125fce9e227f8c0bd2f
+    source_line_range: {start: 76650, end: 76759}
+    source_char_range: {start: 1582548, end: 1584812}
+  - chapter: 695
+    title: "七仙门的无尽惊恐"
+    sha256: 794d65c5c459defd8b912a24c5999977a7051f830da392ba953f48d823530333
+    source_line_range: {start: 76762, end: 76861}
+    source_char_range: {start: 1584812, end: 1586971}
+  - chapter: 696
+    title: "出手，一击必杀"
+    sha256: a660e18abc3d74954953d590b92fca124580834d8eb5a11a808b696ecf5ca31a
+    source_line_range: {start: 76864, end: 76973}
+    source_char_range: {start: 1586971, end: 1589210}
+  - chapter: 697
+    title: "灵藏药丸"
+    sha256: fe4dc500b6777b2109ac918621326d37f1c0f72b06008f5d832a6aa4888416f8
+    source_line_range: {start: 76976, end: 77085}
+    source_char_range: {start: 1589210, end: 1591459}
+  - chapter: 698
+    title: "八大妖族逼宫"
+    sha256: b6ecf6638f8d5d0f59334c2153ee84279b106982712a0c858789b1d94e90b847
+    source_line_range: {start: 77088, end: 77191}
+    source_char_range: {start: 1591459, end: 1593806}
+  - chapter: 699
+    title: "天翎长老"
+    sha256: e0d3cb146cff1376ed5cb058132e834520a23be2d959c58bf5cc6889e28cb77b
+    source_line_range: {start: 77194, end: 77282}
+    source_char_range: {start: 1593806, end: 1595901}
+  - chapter: 700
+    title: "生气的凤青玄"
+    sha256: 75a58675890872e390f690685837ae675c819a6480d108a0d1835a0a6459aae6
+    source_line_range: {start: 77285, end: 77387}
+    source_char_range: {start: 1595901, end: 1598136}

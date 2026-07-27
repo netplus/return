@@ -1,0 +1,141 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 501, end: 550}
+records_present: 27
+chapters:
+  - chapter: 524
+    title: "略微出手"
+    sha256: 302f788d72585e603d96149e7377efa225f3af930cbaf96a372f578fedee4e7b
+    source_line_range: {start: 58486, end: 58604}
+    source_char_range: {start: 1200260, end: 1202955}
+  - chapter: 525
+    title: "矿坑秀恩爱"
+    sha256: 00394846461dd14bbd0a245017f124760e2319fac7b989bf7961bcc4363b23e4
+    source_line_range: {start: 58607, end: 58711}
+    source_char_range: {start: 1202955, end: 1205199}
+  - chapter: 526
+    title: "返还，仙灵冰魄剑"
+    sha256: 9e229e4a55dc2212a4f52d95b2fcdf264420df8fa8a06de26270d5a755a4c848
+    source_line_range: {start: 58714, end: 58808}
+    source_char_range: {start: 1205199, end: 1207258}
+  - chapter: 527
+    title: "两位执事归来"
+    sha256: 8010be4c9f14013beaa5593b70cfb08635bf7e91a330d9be1a605ce10cc3a169
+    source_line_range: {start: 58811, end: 58943}
+    source_char_range: {start: 1207258, end: 1209959}
+  - chapter: 528
+    title: "人仙之威"
+    sha256: b077e810fd4678e6c54304720f344fced9a973ae2677ac492b24226f58e9937a
+    source_line_range: {start: 58946, end: 59055}
+    source_char_range: {start: 1209959, end: 1212188}
+  - chapter: 529
+    title: "化仙丹"
+    sha256: 5329297fcb0c9bca68004f3004165824608ff3501b13146087f5819ca3aefc56
+    source_line_range: {start: 59058, end: 59188}
+    source_char_range: {start: 1212188, end: 1214626}
+  - chapter: 530
+    title: "继续挖矿，继续秀"
+    sha256: f7e449683076cf2e1df048ad476c3736e107217e2005cc01dfb4b33518e3903b
+    source_line_range: {start: 59191, end: 59306}
+    source_char_range: {start: 1214626, end: 1216872}
+  - chapter: 531
+    title: "小小神魂，韩烟来找"
+    sha256: edc3c1aee564786b6fde185bdad5266225e500a098500682aa324edb42167069
+    source_line_range: {start: 59309, end: 59417}
+    source_char_range: {start: 1216872, end: 1219030}
+  - chapter: 532
+    title: "彻底懵逼的司空浩南"
+    sha256: 380b21384c60330817f36367b07337ab709cdb5e02ad96b25ad61e386d820080
+    source_line_range: {start: 59420, end: 59542}
+    source_char_range: {start: 1219030, end: 1221265}
+  - chapter: 533
+    title: "道心崩塌的矿区牛马"
+    sha256: ea184c0789f453a5ceef0a998c2b2c7a474bdf682e1d420b41047fda47516edb
+    source_line_range: {start: 59545, end: 59658}
+    source_char_range: {start: 1221265, end: 1223579}
+  - chapter: 534
+    title: "韩烟的心思"
+    sha256: 4fdfb3efcb0d66d2a223e80c46bd9af106b205bb10000c398af74928efb0133d
+    source_line_range: {start: 59661, end: 59757}
+    source_char_range: {start: 1223579, end: 1225830}
+  - chapter: 535
+    title: "至尊仙器，万龙鎏金甲"
+    sha256: 0b8430ae3df7bcc661e865d566923a9a3c0b625fff0c5ca30b62c7a614fd1664
+    source_line_range: {start: 59760, end: 59860}
+    source_char_range: {start: 1225830, end: 1227942}
+  - chapter: 536
+    title: "传到阴阳仙门"
+    sha256: b990e2fd14f7c62efdfe4c82a56976bb57ef8e0f33decc0916795ec7409fcbc3
+    source_line_range: {start: 59863, end: 59969}
+    source_char_range: {start: 1227942, end: 1230082}
+  - chapter: 537
+    title: "外门长老团驾到"
+    sha256: 81301f15df585a7146fa66885b6c999082fbf9a68b63d88c06a7bc2227fdd994
+    source_line_range: {start: 59972, end: 60065}
+    source_char_range: {start: 1230082, end: 1232276}
+  - chapter: 538
+    title: "气麻了的制裁团"
+    sha256: 9d9c53d16f07ae63a2fa89ea7cc9b59d6c3bcb52e0831338ba15e1b1a5a7c911
+    source_line_range: {start: 60068, end: 60183}
+    source_char_range: {start: 1232276, end: 1234457}
+  - chapter: 539
+    title: "人仙巅峰，神霄仙火符"
+    sha256: 1284e743814c9e3a9f7caf032fbb06e9405b65e3758731abee506b7e4f5e4c60
+    source_line_range: {start: 60186, end: 60313}
+    source_char_range: {start: 1234457, end: 1237166}
+  - chapter: 540
+    title: "态度巨变"
+    sha256: 889a64ac76b41b20c698a556342626ebda0ad18e849195497ea256f41b1475b5
+    source_line_range: {start: 60316, end: 60424}
+    source_char_range: {start: 1237166, end: 1239390}
+  - chapter: 541
+    title: "大道神丹，拜师成功"
+    sha256: 22a06bc8b008e7debf073d4c6a4ed4540f377324c1a26b33820964eba263367b
+    source_line_range: {start: 60427, end: 60556}
+    source_char_range: {start: 1239390, end: 1241730}
+  - chapter: 542
+    title: "矿区最后交代"
+    sha256: 1b199cbe307e5effa30e038243094080eeba90420d696ee5184d01e37b649bd1
+    source_line_range: {start: 60559, end: 60681}
+    source_char_range: {start: 1241730, end: 1244109}
+  - chapter: 543
+    title: "司空浩南的报复"
+    sha256: ea1c7563fa51d1c98ddfb52c65fc54ca53f8bc98e78c5b45c15c02748edb64c0
+    source_line_range: {start: 60684, end: 60807}
+    source_char_range: {start: 1244109, end: 1246573}
+  - chapter: 544
+    title: "初到阴阳仙门"
+    sha256: b572d087cdc21f143d839bd82d605d9d9af74ea87f73c753f4ca5fa21471cea8
+    source_line_range: {start: 60810, end: 60929}
+    source_char_range: {start: 1246573, end: 1248859}
+  - chapter: 545
+    title: "崩溃的外门弟子"
+    sha256: a5793e984d625c2ad6a33e433c011fb8958d1c26540edad89eedaa2d114486da
+    source_line_range: {start: 60932, end: 61073}
+    source_char_range: {start: 1248859, end: 1251546}
+  - chapter: 546
+    title: "拜师门"
+    sha256: 7bd64972fe304abe547e5001f75427ce96456e96ba42b9d2c27c43aa7adc49c1
+    source_line_range: {start: 61076, end: 61177}
+    source_char_range: {start: 1251546, end: 1253710}
+  - chapter: 547
+    title: "柳清浅的震惊"
+    sha256: edbae6d3a4c6ed6b944e14045bbbacbb1a871f078f1da60aa9d71dc2540e24d2
+    source_line_range: {start: 61180, end: 61277}
+    source_char_range: {start: 1253710, end: 1255981}
+  - chapter: 548
+    title: "成为亲传弟子"
+    sha256: f9c704291d78f6019343587efaccfeea4c9eefb9f95bedbd0e85cd5b86c9f5c8
+    source_line_range: {start: 61280, end: 61367}
+    source_char_range: {start: 1255981, end: 1258077}
+  - chapter: 549
+    title: "完美三花聚顶"
+    sha256: bd05eba3912a4ccad5230c649789e6b398d8db7062f00d321a6c69aa695dff80
+    source_line_range: {start: 61370, end: 61474}
+    source_char_range: {start: 1258077, end: 1260361}
+  - chapter: 550
+    title: "陈玉来拜访"
+    sha256: 8ddbbd8a6e7f7ab2ea415dcbe413521f2e100f9a0f942fb74828abe61fff0dcc
+    source_line_range: {start: 61477, end: 61599}
+    source_char_range: {start: 1260361, end: 1262659}

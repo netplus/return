@@ -1,0 +1,136 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 851, end: 900}
+records_present: 26
+chapters:
+  - chapter: 851
+    title: "两人返场"
+    sha256: 2b4da88793431d9f99608bd7008051d33b5ad5aa54735b015dd146dad92ac809
+    source_line_range: {start: 91140, end: 91224}
+    source_char_range: {start: 1931918, end: 1934108}
+  - chapter: 852
+    title: "初殷仙帝的心思"
+    sha256: 51cc189b237c7463f4057fac0d0f22394157a3ae902b60bca3b6564937fc19f9
+    source_line_range: {start: 91227, end: 91326}
+    source_char_range: {start: 1934108, end: 1936495}
+  - chapter: 853
+    title: "各方道贺"
+    sha256: 4f6760a89af56a0f962f99e88be1c2cbc1fb321a7e6b78b0ff4960efe2f909b3
+    source_line_range: {start: 91329, end: 91410}
+    source_char_range: {start: 1936495, end: 1938712}
+  - chapter: 854
+    title: "万妖仙宗到"
+    sha256: 3c88f3a1304375fab90e07eb6636614bfff08981d7a30b4425c96a3fec2609e0
+    source_line_range: {start: 91413, end: 91494}
+    source_char_range: {start: 1938712, end: 1940908}
+  - chapter: 855
+    title: "踩着仙帝送礼"
+    sha256: 5e98ee410f837482f74e8fcc135ba259a56f8ecb3ad7922d7ed4f52e84736351
+    source_line_range: {start: 91497, end: 91599}
+    source_char_range: {start: 1940908, end: 1943563}
+  - chapter: 856
+    title: "全场呆滞，惊恐懵比"
+    sha256: aac8c4ea22294d57b4d9593deecd81f4ddac6a07f3d8cf2455d23805e7374314
+    source_line_range: {start: 91602, end: 91689}
+    source_char_range: {start: 1943563, end: 1945690}
+  - chapter: 857
+    title: "域外天修"
+    sha256: 95218a3407da49fc6f32feea70d88f42e3ca359c3d4814b0168ff204a028c98c
+    source_line_range: {start: 91692, end: 91784}
+    source_char_range: {start: 1945690, end: 1947972}
+  - chapter: 858
+    title: "雪瑶登场"
+    sha256: 32a1169f4d4a84daf3a821c3e57cea24e927fa0c22a6a9e152f944e3b4ca24c9
+    source_line_range: {start: 91787, end: 91887}
+    source_char_range: {start: 1947972, end: 1950338}
+  - chapter: 859
+    title: "寿宴开始"
+    sha256: a9970d5d081e52a08063f16e7c1756f3d5f619d2aab593d18b0b9da9df6b6215
+    source_line_range: {start: 91890, end: 91977}
+    source_char_range: {start: 1950338, end: 1952473}
+  - chapter: 860
+    title: "开始切磋"
+    sha256: bbed66dd47fc90871ea6fe2d02117ad4a52c6743bafff8b756447de6c0bf5d71
+    source_line_range: {start: 91980, end: 92062}
+    source_char_range: {start: 1952473, end: 1954592}
+  - chapter: 861
+    title: "徐霄略微出手"
+    sha256: 33feee9115f71bc94266d0f867f506c12676e127f3fdafe8843de11d404f792d
+    source_line_range: {start: 92065, end: 92163}
+    source_char_range: {start: 1954592, end: 1956973}
+  - chapter: 862
+    title: "被气懵的冥法"
+    sha256: e3619761e8cff9b3bcb0d1c9bf0ea777c1739d116a6e664ea3e56638532ba4ac
+    source_line_range: {start: 92166, end: 92259}
+    source_char_range: {start: 1956973, end: 1959202}
+  - chapter: 863
+    title: "至尊仙帝"
+    sha256: a181b1747ae0ea937839c15bb7c07d7c2242d302045cd073250c69182d571a21
+    source_line_range: {start: 92262, end: 92357}
+    source_char_range: {start: 1959202, end: 1961393}
+  - chapter: 864
+    title: "炼神鼎"
+    sha256: 0f2be34fd0e164a982dd1a43410385333eeea0c2540348bdc5e6d59339cd8307
+    source_line_range: {start: 92360, end: 92457}
+    source_char_range: {start: 1961393, end: 1963929}
+  - chapter: 865
+    title: "神煞界情况"
+    sha256: 689cccf1338f8118ec27a75b5f50528fae1f626181383816c314ce4d0ca9594a
+    source_line_range: {start: 92460, end: 92533}
+    source_char_range: {start: 1963929, end: 1966162}
+  - chapter: 866
+    title: "徐霄送丹救人"
+    sha256: 842bfcdba5de1e0411cf8d4925662eeac408acee4ea3856befbfc2a6780a78e9
+    source_line_range: {start: 92536, end: 92622}
+    source_char_range: {start: 1966162, end: 1968339}
+  - chapter: 867
+    title: "炼神鼎内救人"
+    sha256: f4f596fc3aae583521b1baaea9634801ee1c30a96c308c1ff994d3dc51db8c91
+    source_line_range: {start: 92625, end: 92733}
+    source_char_range: {start: 1968339, end: 1970730}
+  - chapter: 868
+    title: "拯救四兽仙宗"
+    sha256: 85136cbe7a3072479df84d1de53cd5c33c72e7146d2982b7a7b4fc595c1b6815
+    source_line_range: {start: 92736, end: 92823}
+    source_char_range: {start: 1970730, end: 1972934}
+  - chapter: 869
+    title: "各宗出人"
+    sha256: ca6c5726826dae62225e3ed19b17bd2cd37aae152f779a6e0c3746b16789ce13
+    source_line_range: {start: 92826, end: 92891}
+    source_char_range: {start: 1972934, end: 1975046}
+  - chapter: 870
+    title: "被传送出鼎"
+    sha256: 7432aff26e3d9e0ddc9a2c34eb0fddf81528a865a6043640bc2932302962b208
+    source_line_range: {start: 92894, end: 92981}
+    source_char_range: {start: 1975046, end: 1977252}
+  - chapter: 871
+    title: "真正的万佛金身"
+    sha256: df49a545011843c0eaa4e2c1a554ac6732fa907906fb4c38f13a2a23c8ae64c3
+    source_line_range: {start: 92984, end: 93068}
+    source_char_range: {start: 1977252, end: 1979373}
+  - chapter: 872
+    title: "绝望的冥法"
+    sha256: be54bf2177e5c5d604bc24182412db0c2521630064a7b9e162a52294b9ccdff9
+    source_line_range: {start: 93071, end: 93159}
+    source_char_range: {start: 1979373, end: 1981585}
+  - chapter: 873
+    title: "黑魂心魔"
+    sha256: 4c3c6671d95a624aff65b15535b504d2c444c5362c00a86ba7cf02d40ac475e7
+    source_line_range: {start: 93162, end: 93249}
+    source_char_range: {start: 1981585, end: 1983663}
+  - chapter: 874
+    title: "破心魔"
+    sha256: a04bbaaf302cf692aa64b726aaf2ce2857190247b20bd6ad4e2df6920f24c983
+    source_line_range: {start: 93252, end: 93333}
+    source_char_range: {start: 1983663, end: 1985806}
+  - chapter: 875
+    title: "仙界安排"
+    sha256: abfb8c7b49b2464bf60333a0f15ee7e9c6fc2be2aafded2b6bfe4f8b78e98b1e
+    source_line_range: {start: 93336, end: 93432}
+    source_char_range: {start: 1985806, end: 1988156}
+  - chapter: 876
+    title: "终章，太初仙帝宫"
+    sha256: ff958547dccff40fbdee0b06b1d0c2c5646f83d4f48e003bf3df33987e7dc84b
+    source_line_range: {start: 93435, end: 93603}
+    source_char_range: {start: 1988156, end: 1992197}

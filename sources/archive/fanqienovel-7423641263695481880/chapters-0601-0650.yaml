@@ -1,0 +1,256 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 601, end: 650}
+records_present: 50
+chapters:
+  - chapter: 601
+    title: "纯阳仙门的调查"
+    sha256: 70f67fd84893b2070575340eb1a3e1aae12dd345f61112521d0f5f85e643acf2
+    source_line_range: {start: 67163, end: 67280}
+    source_char_range: {start: 1374542, end: 1376808}
+  - chapter: 602
+    title: "东方青不忍了"
+    sha256: 321cad88b401483e5918f274072ae90806c3afa8d9799c23b71e8e986ee8c1a9
+    source_line_range: {start: 67283, end: 67412}
+    source_char_range: {start: 1376808, end: 1379184}
+  - chapter: 603
+    title: "东方青态度巨变"
+    sha256: 9c8dcbe0b09227b537e3b9512b97b36ce388ddeec83022e6f501e204a6b646b4
+    source_line_range: {start: 67415, end: 67515}
+    source_char_range: {start: 1379184, end: 1381368}
+  - chapter: 604
+    title: "内门飞升者"
+    sha256: 57a1cdd5412a88f56093cb265afd486c7c081b4fa140868bdf807553e3941a02
+    source_line_range: {start: 67518, end: 67615}
+    source_char_range: {start: 1381368, end: 1383455}
+  - chapter: 605
+    title: "柳清浅出关"
+    sha256: d9b9defb898c064ee55d3be52e11fcce26c966d345f9341078c91ff729f72bd0
+    source_line_range: {start: 67618, end: 67729}
+    source_char_range: {start: 1383455, end: 1385768}
+  - chapter: 606
+    title: "拜入内门"
+    sha256: 3f18480f199fd0ff93d876553960154a5852ffcc075720969d21e466224718f8
+    source_line_range: {start: 67732, end: 67820}
+    source_char_range: {start: 1385768, end: 1387910}
+  - chapter: 607
+    title: "拜访刘爱花"
+    sha256: 58925e9b3b4015c917f970ff1dda0d4739c58184064d224da75ea09631377e5d
+    source_line_range: {start: 67823, end: 67922}
+    source_char_range: {start: 1387910, end: 1390167}
+  - chapter: 608
+    title: "姬雪的完美计划"
+    sha256: 31b240756cef4e4223900710eb52bfe27d4799b23d7141be9a984599e29768ce
+    source_line_range: {start: 67925, end: 68031}
+    source_char_range: {start: 1390167, end: 1392548}
+  - chapter: 609
+    title: "阴阳飞升会"
+    sha256: b28031c7c062d1b5471a8f2b49d2db852e30be784a0f46d33fdb12bd5d6bc825
+    source_line_range: {start: 68034, end: 68131}
+    source_char_range: {start: 1392548, end: 1394843}
+  - chapter: 610
+    title: "气运之女，丁静"
+    sha256: 64a1df9c6c30d58787973b99b5c3ea267dd90b89eadbd68ab20f3f6250796887
+    source_line_range: {start: 68134, end: 68206}
+    source_char_range: {start: 1394843, end: 1396680}
+  - chapter: 611
+    title: "执法堂任务"
+    sha256: aef070dd3c4362e45976082c31aff9b8c8f4c1f1e4323489bde74f30dca1ae6d
+    source_line_range: {start: 68209, end: 68289}
+    source_char_range: {start: 1396680, end: 1398854}
+  - chapter: 612
+    title: "收丹的丁静"
+    sha256: fa8a96edf7f4d5428efce23d8acaf2b7f3626dee86cda43166ebb66214253363
+    source_line_range: {start: 68292, end: 68389}
+    source_char_range: {start: 1398854, end: 1401010}
+  - chapter: 613
+    title: "参加阴阳飞升会"
+    sha256: 354d653912462212017f84a5dc202122d09a191d0712c0b0f3066a494d4afba1
+    source_line_range: {start: 68392, end: 68482}
+    source_char_range: {start: 1401010, end: 1403222}
+  - chapter: 614
+    title: "飞升会人员"
+    sha256: 8a648902456f7bef1b8fc1197014f37fbc5f1109294760fcd5f4ba183ce779e3
+    source_line_range: {start: 68485, end: 68577}
+    source_char_range: {start: 1403222, end: 1405370}
+  - chapter: 615
+    title: "八万年内门传功长老"
+    sha256: 4ec3f9de23c1708c9f13ccc02c0f00952d2dc0817380e8bb8ecf0b473ede3756
+    source_line_range: {start: 68580, end: 68668}
+    source_char_range: {start: 1405370, end: 1407724}
+  - chapter: 616
+    title: "幽冥界，阴萱"
+    sha256: 46fccbe8d98fcb9bbfc4af7c74affba3d237a83508bba44d4cb2660f6b68ddff
+    source_line_range: {start: 68671, end: 68766}
+    source_char_range: {start: 1407724, end: 1409897}
+  - chapter: 617
+    title: "一晃五年"
+    sha256: 17bfe612c61d3531ed207c47e5a75ca80d9142972635812c1fb94f03f6b12222
+    source_line_range: {start: 68769, end: 68871}
+    source_char_range: {start: 1409897, end: 1411959}
+  - chapter: 618
+    title: "三大护院弟子"
+    sha256: fc60152857a2082ff9d19c97d2944b70d3f0a01a4356de9e2d14c8f91044de0e
+    source_line_range: {start: 68874, end: 68957}
+    source_char_range: {start: 1411959, end: 1414068}
+  - chapter: 619
+    title: "交流大会开始"
+    sha256: aa96794f72d424a7e88df31d7ae00e3af4ebcc3d9dd97fb3505e12fb54522214
+    source_line_range: {start: 68960, end: 69060}
+    source_char_range: {start: 1414068, end: 1416233}
+  - chapter: 620
+    title: "罗素闺蜜，云花海"
+    sha256: e007236336d560bc371b003adb40c887098dc9ce2f354bdbbf22c8c985887154
+    source_line_range: {start: 69063, end: 69160}
+    source_char_range: {start: 1416233, end: 1418483}
+  - chapter: 621
+    title: "比斗开始"
+    sha256: 463d38084fbc10d8a1dc5a466c4e2c2ca65727077bdf873c3bcc8ae186e57670
+    source_line_range: {start: 69163, end: 69248}
+    source_char_range: {start: 1418483, end: 1420637}
+  - chapter: 622
+    title: "南宫嫣到场"
+    sha256: 2d706d37c3925bf3b8a1428e530b6c9a37b0d548ec8ac3bcbd5829c631c290f9
+    source_line_range: {start: 69251, end: 69341}
+    source_char_range: {start: 1420637, end: 1422732}
+  - chapter: 623
+    title: "二气人仙，纯阳金身"
+    sha256: aa8cd1c108201862286263309ae7216f5915129a91f0a946dcd01eb51f92af6c
+    source_line_range: {start: 69344, end: 69454}
+    source_char_range: {start: 1422732, end: 1425267}
+  - chapter: 624
+    title: "徐霄一脚"
+    sha256: e35a12496906f2693f7f0db79b95b7890a9c2a7dc8b3fee29ea2834fa1a1a3c9
+    source_line_range: {start: 69457, end: 69552}
+    source_char_range: {start: 1425267, end: 1427307}
+  - chapter: 625
+    title: "恐怖徐霄"
+    sha256: be44414f1b0929b36e7d757f4db4a42982587823bd6eeba740f835ead982f97d
+    source_line_range: {start: 69555, end: 69656}
+    source_char_range: {start: 1427307, end: 1429551}
+  - chapter: 626
+    title: "一排猪头"
+    sha256: 47f5e371c1348d54ca62ff84af0a33bb990a0fb01fa109294fb316a6f4bc9f61
+    source_line_range: {start: 69659, end: 69779}
+    source_char_range: {start: 1429551, end: 1431854}
+  - chapter: 627
+    title: "现场送丹"
+    sha256: c1bc5a4c16a3b558db96ea206615b52775b7b53cad89ddaa064b0b4373981b4d
+    source_line_range: {start: 69782, end: 69878}
+    source_char_range: {start: 1431854, end: 1434095}
+  - chapter: 628
+    title: "返还，五气朝元丹"
+    sha256: ba43ff4dd2a126f2fcdfc8f84b6f23141c8a8fc576115a37874635763fb8ddfa
+    source_line_range: {start: 69881, end: 69978}
+    source_char_range: {start: 1434095, end: 1436228}
+  - chapter: 629
+    title: "全部一起上"
+    sha256: 52ca8f09c6bf427eaea8d5d86628078d157ecadc6e215b07f8eadd56cb5bab0e
+    source_line_range: {start: 69981, end: 70079}
+    source_char_range: {start: 1436228, end: 1438441}
+  - chapter: 630
+    title: "惊天剑气"
+    sha256: e5acf22618b7b8c9e3a37a22db393f214fe2806d282ae75ddf828d9e6ebc5d2e
+    source_line_range: {start: 70082, end: 70181}
+    source_char_range: {start: 1438441, end: 1440585}
+  - chapter: 631
+    title: "现场一片哀嚎"
+    sha256: 061ffc9ca1fc54fef569d36a4c19521c0cfdc75ef2d42d0878a43ecbea8bcc64
+    source_line_range: {start: 70184, end: 70294}
+    source_char_range: {start: 1440585, end: 1442771}
+  - chapter: 632
+    title: "天南第一人仙美名"
+    sha256: ff8c0c39a006ce8b3c8c1494d61f63c8f137c71a288e7c4508e51db95e1f56e1
+    source_line_range: {start: 70297, end: 70424}
+    source_char_range: {start: 1442771, end: 1445239}
+  - chapter: 633
+    title: "责令分手"
+    sha256: 9808092d3cc795053c50a8d1b38cc4ab8c48fdcfbc2e1ea74e931cca31857744
+    source_line_range: {start: 70427, end: 70525}
+    source_char_range: {start: 1445239, end: 1447451}
+  - chapter: 634
+    title: "愤怒的尘玉"
+    sha256: 0babde8a700a408e4d502a3a8c239f41cd785230634e74867b0afc6934c61c50
+    source_line_range: {start: 70528, end: 70627}
+    source_char_range: {start: 1447451, end: 1449583}
+  - chapter: 635
+    title: "小小太上长老"
+    sha256: 94fb643e0795bfc73ce8205665ef7166829d577f1bcb22e247252608f132c067
+    source_line_range: {start: 70630, end: 70739}
+    source_char_range: {start: 1449583, end: 1451841}
+  - chapter: 636
+    title: "永远负责伤势"
+    sha256: 78feabeee7d69461d36ad09214a6e3f199c4c83df74037a8f8e952b13f15bbec
+    source_line_range: {start: 70742, end: 70846}
+    source_char_range: {start: 1451841, end: 1454191}
+  - chapter: 637
+    title: "气运之敌，金华"
+    sha256: e7840f0943972199514ffe8dd84c0db32fc3a01ecfec736ec79dfa3868d93398
+    source_line_range: {start: 70849, end: 70960}
+    source_char_range: {start: 1454191, end: 1456499}
+  - chapter: 638
+    title: "徐哥回府"
+    sha256: 324520e953c83c81a86a4b7e9b6e4799c104b7a722261dddbf689e3ab926fb2b
+    source_line_range: {start: 70963, end: 71072}
+    source_char_range: {start: 1456499, end: 1458764}
+  - chapter: 639
+    title: "云姑心上门汇报"
+    sha256: 60cf29a514612c5ab205da86d1bc371b439ea1d5456312dec8199a2d823bfaa0
+    source_line_range: {start: 71075, end: 71165}
+    source_char_range: {start: 1458764, end: 1460914}
+  - chapter: 640
+    title: "诸葛青天的愤怒"
+    sha256: c3da40aa65cc17b0ec4607bc66f54374d17997d20972098ad11f1039666090f6
+    source_line_range: {start: 71168, end: 71269}
+    source_char_range: {start: 1460914, end: 1463137}
+  - chapter: 641
+    title: "上门问责"
+    sha256: b1b0d59a3a1406de1e961525e8d3c2d9dd98218db64dc5e87a728dc6cf644397
+    source_line_range: {start: 71272, end: 71403}
+    source_char_range: {start: 1463137, end: 1465919}
+  - chapter: 642
+    title: "地脉岩火剑"
+    sha256: d5aafdaea7a09a1d182244f0a03256642caeaca1cfddd4fa4e063e94fb9fef5b
+    source_line_range: {start: 71406, end: 71509}
+    source_char_range: {start: 1465919, end: 1468327}
+  - chapter: 643
+    title: "十年之后"
+    sha256: 735ee3cc95d53126f15d5448bc6494134ad5a310c4d8037a3da1005f638b4ac0
+    source_line_range: {start: 71512, end: 71619}
+    source_char_range: {start: 1468327, end: 1470507}
+  - chapter: 644
+    title: "天一仙门变故"
+    sha256: 4dcf23867f200507fc6d0cc3093ab7dce273e2eed7a384146ea4476362b05150
+    source_line_range: {start: 71622, end: 71734}
+    source_char_range: {start: 1470507, end: 1472856}
+  - chapter: 645
+    title: "深夜出发"
+    sha256: 2e0e00f011aaf02f71ac2842a28c91d458c1b49ae3f525547a0f551fcc68721b
+    source_line_range: {start: 71737, end: 71820}
+    source_char_range: {start: 1472856, end: 1474959}
+  - chapter: 646
+    title: "佛门叫阵"
+    sha256: c04db6244190a6c2cadd440b6f6a360e28a31c6df3f0cecaebcd088672b01074
+    source_line_range: {start: 71823, end: 71905}
+    source_char_range: {start: 1474959, end: 1477235}
+  - chapter: 647
+    title: "邬秋，惠慈"
+    sha256: d6c132e210c32695bf53f4f6e917f4b0f4c14573ab5557955692d169be6e9dd1
+    source_line_range: {start: 71908, end: 72002}
+    source_char_range: {start: 1477235, end: 1479440}
+  - chapter: 648
+    title: "洛银纱搭讪"
+    sha256: 10f9748b8b39b08af4ba115110f6ab9064f30dea58c1241c68d3a5f18d28dfb3
+    source_line_range: {start: 72005, end: 72093}
+    source_char_range: {start: 1479440, end: 1481592}
+  - chapter: 649
+    title: "八层无间地狱"
+    sha256: 77ce362826cb108adac146647c151f214476c6282571f7cf470bb836375e5a65
+    source_line_range: {start: 72096, end: 72200}
+    source_char_range: {start: 1481592, end: 1483768}
+  - chapter: 650
+    title: "铁钩狱"
+    sha256: b37b29d6514c0d8a9947a4f8bad55eb31a5c8d301ffc2cf8cad418bef0e87a75
+    source_line_range: {start: 72203, end: 72316}
+    source_char_range: {start: 1483768, end: 1486287}

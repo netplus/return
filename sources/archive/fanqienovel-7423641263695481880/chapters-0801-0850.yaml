@@ -1,0 +1,256 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 801, end: 850}
+records_present: 50
+chapters:
+  - chapter: 801
+    title: "四大长老出场威慑"
+    sha256: dfb9d5e81e2063124ce167b978f8b3d4824b61b3409f1ec945d77fc2cf13540f
+    source_line_range: {start: 86728, end: 86804}
+    source_char_range: {start: 1822092, end: 1824211}
+  - chapter: 802
+    title: "徐霄出场，心态爆炸"
+    sha256: ec47615562f9bf4da56bde4cecb61cda5c436cde12873ba3c532936a15f71430
+    source_line_range: {start: 86807, end: 86886}
+    source_char_range: {start: 1824211, end: 1826506}
+  - chapter: 803
+    title: "打发天玄仙宗"
+    sha256: 0fda158e0790a6e14a720d18e17f0733bbb61783fcf88bc9a2c823fa2d0f3f95
+    source_line_range: {start: 86889, end: 86969}
+    source_char_range: {start: 1826506, end: 1828659}
+  - chapter: 804
+    title: "孔青上门围堵"
+    sha256: 025c9852bd3eff1d7ea3c7c8c509c04b26f995de4cb8d3b3766e4a752fa93ee5
+    source_line_range: {start: 86972, end: 87057}
+    source_char_range: {start: 1828659, end: 1831041}
+  - chapter: 805
+    title: "本天才被你们骗了！"
+    sha256: a3e602919bbe6c8a100178e099da16a0e4ba30c0ebcaf913ba46d2001dc0e06e
+    source_line_range: {start: 87060, end: 87143}
+    source_char_range: {start: 1831041, end: 1833210}
+  - chapter: 806
+    title: "大罗鸿蒙丹"
+    sha256: b1c2e804f64f39884ec6c349541f7fce8fd6c521b9912f42f2565d50909aec33
+    source_line_range: {start: 87146, end: 87209}
+    source_char_range: {start: 1833210, end: 1835033}
+  - chapter: 807
+    title: "飘雪仙域大战结束"
+    sha256: e62e0f180621007db20fd5a1b63e7f3ace31760dfb4bf168fb0f92dcb26d6dc1
+    source_line_range: {start: 87212, end: 87303}
+    source_char_range: {start: 1835033, end: 1837678}
+  - chapter: 808
+    title: "坦言刘爱花"
+    sha256: f735dbd2484a182ff8977e3b6d102c71d19c10f06ba6d7be08f6dda7bf3f4590
+    source_line_range: {start: 87306, end: 87384}
+    source_char_range: {start: 1837678, end: 1839821}
+  - chapter: 809
+    title: "龙冥的恐吓"
+    sha256: db73e5236acfb710463605eccfc21b24dc3441204fac557152ab3371db96a186
+    source_line_range: {start: 87387, end: 87462}
+    source_char_range: {start: 1839821, end: 1841972}
+  - chapter: 810
+    title: "天翎的完美计划"
+    sha256: 694270e75adae478b380ef1e5cc6d617e5c6751eeb5b26b028b6911066e08787
+    source_line_range: {start: 87465, end: 87542}
+    source_char_range: {start: 1841972, end: 1844134}
+  - chapter: 811
+    title: "出发太初仙帝宫"
+    sha256: 4f522f6212f271e2cf7e4aa082715ec9883ad1bd9a8d53723f18b7b8582642f0
+    source_line_range: {start: 87545, end: 87621}
+    source_char_range: {start: 1844134, end: 1846332}
+  - chapter: 812
+    title: "仙帝姬雪"
+    sha256: 58c73ac575ab62b65a608469f07f0733d930b25904fbebf93ef9b425c45e6be4
+    source_line_range: {start: 87624, end: 87701}
+    source_char_range: {start: 1846332, end: 1848541}
+  - chapter: 813
+    title: "卖成仆人"
+    sha256: d12e7a7aaabb5b83b2455dd5478cc2cfb253ce73302c24a6812fc176d3b6b8dc
+    source_line_range: {start: 87704, end: 87791}
+    source_char_range: {start: 1848541, end: 1851072}
+  - chapter: 814
+    title: "气运之女上官清"
+    sha256: 3e381e8464ad3f3fabd26e4710af9f3ca514cef8851e98c2a9a6bc0e6535e7d0
+    source_line_range: {start: 87794, end: 87861}
+    source_char_range: {start: 1851072, end: 1853200}
+  - chapter: 815
+    title: "舒畅的太初修士"
+    sha256: 1fb60926119250239aa4b68c72870150449582c5bc26a6346a0424eade42fabe
+    source_line_range: {start: 87864, end: 87937}
+    source_char_range: {start: 1853200, end: 1855404}
+  - chapter: 816
+    title: "安排任务"
+    sha256: 801b045a88c78f4cd02ddadba22ca7e255f1909986ead0f9233caad4f9429443
+    source_line_range: {start: 87940, end: 88022}
+    source_char_range: {start: 1855404, end: 1857857}
+  - chapter: 817
+    title: "开始丫鬟干活"
+    sha256: bf91b22b44064804339fd614e927bce9220aefd5928856ec76f647a1a2d5ed5f
+    source_line_range: {start: 88025, end: 88099}
+    source_char_range: {start: 1857857, end: 1859997}
+  - chapter: 818
+    title: "太初仙域狂欢潮"
+    sha256: cbba1562d7509c02dd69aabe8534728032c348b0f24e66a6c87f9d3364952161
+    source_line_range: {start: 88102, end: 88187}
+    source_char_range: {start: 1859997, end: 1862185}
+  - chapter: 819
+    title: "徐霄开始出手"
+    sha256: acd3f0f1bc1796471fe1dfd6bce169f2c9744c76fb0f7d8ab7c39e0dc135cd80
+    source_line_range: {start: 88190, end: 88260}
+    source_char_range: {start: 1862185, end: 1864171}
+  - chapter: 820
+    title: "与师父坦诚布公"
+    sha256: 479e76290d7f7ff20c1d0360ab2b2fe28a3726a51cca1fbe48f13a4278689fac
+    source_line_range: {start: 88263, end: 88333}
+    source_char_range: {start: 1864171, end: 1866370}
+  - chapter: 821
+    title: "终于脱困"
+    sha256: 66bf9f7132a4bb72f608ff4a16e279d30b362ac2ae566c2edf282faa2b33ba14
+    source_line_range: {start: 88336, end: 88414}
+    source_char_range: {start: 1866370, end: 1868476}
+  - chapter: 822
+    title: "返回万妖仙宗"
+    sha256: c0c2048905e951a7daed6b534e735e49395b7fdf017809347c73fc59cdf68709
+    source_line_range: {start: 88417, end: 88499}
+    source_char_range: {start: 1868476, end: 1870801}
+  - chapter: 823
+    title: "天魁峰安排"
+    sha256: 9212ef7b3062ea29203353d062632b52822aa12cc00a17c8d7e607a8657fb5e6
+    source_line_range: {start: 88502, end: 88588}
+    source_char_range: {start: 1870801, end: 1872958}
+  - chapter: 824
+    title: "安排孔玄"
+    sha256: 6559bfb897d90a79d771c94e523e9f7eeecd912868fca521021429999d64606a
+    source_line_range: {start: 88591, end: 88677}
+    source_char_range: {start: 1872958, end: 1875112}
+  - chapter: 825
+    title: "凤青玄出关"
+    sha256: 37a0f2907ddcf265a48887c71bb0e1a2ab531203f3132d0391838d310bbe54fd
+    source_line_range: {start: 88680, end: 88769}
+    source_char_range: {start: 1875112, end: 1877484}
+  - chapter: 826
+    title: "蝎晴到访"
+    sha256: 86716db2aea83eb3090cb0a2c47924aef40b4520860c25e9f1b3d4cd05645ab4
+    source_line_range: {start: 88772, end: 88862}
+    source_char_range: {start: 1877484, end: 1879599}
+  - chapter: 827
+    title: "返还两颗鸿蒙一气丹"
+    sha256: 405bda645d19b34ef67a9adc36d6b7fcd5f9a5d1dae5a0b9fd417a043198e7de
+    source_line_range: {start: 88865, end: 88965}
+    source_char_range: {start: 1879599, end: 1881824}
+  - chapter: 828
+    title: "凤青玄下界"
+    sha256: 76d79017ac13f9980d852715c60a69ff24abde1f35ac376cb78631a858964e94
+    source_line_range: {start: 88968, end: 89060}
+    source_char_range: {start: 1881824, end: 1884044}
+  - chapter: 829
+    title: "盘龙岛秘密曝光"
+    sha256: ace601472b3b9909b30a749694d8f5b549adfa4538e1dca00146da62eee786d6
+    source_line_range: {start: 89063, end: 89144}
+    source_char_range: {start: 1884044, end: 1886161}
+  - chapter: 830
+    title: "解决孔玄，升级神器"
+    sha256: 1c55dfb9e24a372db14157cfc97cccf863b2c8ef301b7271c527621e9f19e218
+    source_line_range: {start: 89147, end: 89232}
+    source_char_range: {start: 1886161, end: 1888291}
+  - chapter: 831
+    title: "出发接亲"
+    sha256: 92c06deba2d2caa30c6dfd7501a82da106e6eb349d89a205edde6dea2f18ecc2
+    source_line_range: {start: 89235, end: 89319}
+    source_char_range: {start: 1888291, end: 1890375}
+  - chapter: 832
+    title: "轩辕仙城六宗汇聚"
+    sha256: 2e351512c7cd8440d0923ca3a66719b251164138729d79fbee418dab6f8a7612
+    source_line_range: {start: 89322, end: 89400}
+    source_char_range: {start: 1890375, end: 1892577}
+  - chapter: 833
+    title: "雄起的万妖仙宗"
+    sha256: 2a07458378176b6f8675a09bc953880c20287748eaa49294d0bff2e4123b381e
+    source_line_range: {start: 89403, end: 89493}
+    source_char_range: {start: 1892577, end: 1894769}
+  - chapter: 834
+    title: "小试身手"
+    sha256: 73ec7da15b2613ae3e8cc5627fa9f7753178e9c37bdcd2760bc3cd5eddf71a99
+    source_line_range: {start: 89496, end: 89595}
+    source_char_range: {start: 1894769, end: 1896796}
+  - chapter: 835
+    title: "太乙巅峰符箓"
+    sha256: d78d8c6f8ec61052ff2628459bb3f39790b0d8e2d1cf7920ec34a06d72cd289c
+    source_line_range: {start: 89598, end: 89700}
+    source_char_range: {start: 1896796, end: 1899104}
+  - chapter: 836
+    title: "轩辕霄天"
+    sha256: b7c70b46202f52b96a0b5220028d1ac5e43ae6c9cd3d169b74c75f1a13ad398f
+    source_line_range: {start: 89703, end: 89800}
+    source_char_range: {start: 1899104, end: 1901255}
+  - chapter: 837
+    title: "大婚当日"
+    sha256: 5236627e9a9ab73ffeaceb3a3e504e0bfb2fd3efdb99d74ec51026edc0e32da5
+    source_line_range: {start: 89803, end: 89903}
+    source_char_range: {start: 1901255, end: 1903503}
+  - chapter: 838
+    title: "仙帝宫叫嚣"
+    sha256: 43d027bd74eb2b46784b5bf4912897a221cc07150e5ade7467e747cc2b1f216c
+    source_line_range: {start: 89906, end: 89991}
+    source_char_range: {start: 1903503, end: 1905559}
+  - chapter: 839
+    title: "悲伤的龙冥"
+    sha256: a24ddc84f1b059965e54e83fcdd185f2048a197a3237e97eeb9da568d732ba4c
+    source_line_range: {start: 89994, end: 90091}
+    source_char_range: {start: 1905559, end: 1907734}
+  - chapter: 840
+    title: "凤青玄的愤怒"
+    sha256: ca965b29fb423aa1f25ea932a949e34ec15ed1ab7ac81ff73cfc583e6e7067cc
+    source_line_range: {start: 90094, end: 90188}
+    source_char_range: {start: 1907734, end: 1909846}
+  - chapter: 841
+    title: "刘爱花提分手"
+    sha256: eb52f0d474d4b2a1cbeb705ee5f92e69dd4846b6e6b1bc123d18d835cbefef33
+    source_line_range: {start: 90191, end: 90272}
+    source_char_range: {start: 1909846, end: 1911959}
+  - chapter: 842
+    title: "十五年后"
+    sha256: 3001709e06365ab578e18c824f562612f2501b596a433424f54ab8c377c928a9
+    source_line_range: {start: 90275, end: 90373}
+    source_char_range: {start: 1911959, end: 1914136}
+  - chapter: 843
+    title: "宗门开大会"
+    sha256: a2cadb9d1a1b213d9db98e229e7aa05bbd2ad3449e36e5a47d258951fa262a87
+    source_line_range: {start: 90376, end: 90472}
+    source_char_range: {start: 1914136, end: 1916405}
+  - chapter: 844
+    title: "天凤族大婚"
+    sha256: aa1b927ae477494b1a0f284fe3233e0828387f9a28adb4a08f2fabeb43da11d2
+    source_line_range: {start: 90475, end: 90567}
+    source_char_range: {start: 1916405, end: 1918527}
+  - chapter: 845
+    title: "凤青玄，出关"
+    sha256: ce8f8ee8db611d985fecefc8e997800de4a492ff5e08500aa31b32c6d17ee710
+    source_line_range: {start: 90570, end: 90666}
+    source_char_range: {start: 1918527, end: 1920666}
+  - chapter: 846
+    title: "强强相遇"
+    sha256: 5f3625a756fa9e5e7e17249691b19f1b77b6897ff5f64359143440102323fdad
+    source_line_range: {start: 90669, end: 90763}
+    source_char_range: {start: 1920666, end: 1922807}
+  - chapter: 847
+    title: "两人大战"
+    sha256: 92c2f048ceae794f2861c86361b3ae9e35c62f7b6a686f46fd89070100bc2be4
+    source_line_range: {start: 90766, end: 90852}
+    source_char_range: {start: 1922807, end: 1925024}
+  - chapter: 848
+    title: "暂时二选一"
+    sha256: ece17c2ad9b7723882769d5108c2975909eb1fe685f6f5404577ab12fe0f6145
+    source_line_range: {start: 90855, end: 90937}
+    source_char_range: {start: 1925024, end: 1927158}
+  - chapter: 849
+    title: "雪瑶坦白"
+    sha256: a18718e6bf0f4332bdb26d9d45aa3d75ae7618bb13ec05b176e10f078a558791
+    source_line_range: {start: 90940, end: 91047}
+    source_char_range: {start: 1927158, end: 1929770}
+  - chapter: 850
+    title: "凤青玄的态度"
+    sha256: 897503bc32f6ee5fee609e60984daa59c63d08ab63000f50c076f052561b9694
+    source_line_range: {start: 91050, end: 91137}
+    source_char_range: {start: 1929770, end: 1931918}
