@@ -1,93 +1,73 @@
 name: Import novel source index
 
 on:
-  pull_request:
-    paths:
-      - scripts/archive_source_index.py
-      - .github/workflows/import-novel-source.yml
-      - sources/archive/**
   workflow_dispatch:
+    inputs:
+      artifact_start:
+        description: First chapter in the transient evidence window
+        required: true
+        default: '581'
+      artifact_end:
+        description: Last chapter in the transient evidence window
+        required: true
+        default: '630'
 
 permissions:
   contents: write
 
 jobs:
   import-source:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - name: Check out PR branch
+      - name: Check out selected branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref || github.ref_name }}
           fetch-depth: 0
 
-      - name: Download, index, and extract review window
+      - name: Validate requested window
+        env:
+          START: ${{ inputs.artifact_start }}
+          END: ${{ inputs.artifact_end }}
         run: |
-          set +e
+          python - <<'PY'
+          import os
+          start = int(os.environ['START'])
+          end = int(os.environ['END'])
+          if start <= 0 or end < start:
+              raise SystemExit('invalid chapter range')
+          if end - start + 1 != 50:
+              raise SystemExit('the evidence window must contain exactly 50 chapters')
+          PY
+
+      - name: Download, index, and extract review window
+        env:
+          START: ${{ inputs.artifact_start }}
+          END: ${{ inputs.artifact_end }}
+        run: |
           python scripts/archive_source_index.py \
             --url 'https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
             --source-id fanqienovel-7423641263695481880 \
             --artifact-dir source-artifact \
-            --artifact-start 581 \
-            --artifact-end 630 \
-            --chunk-size 50 \
-            > .source-import.log 2>&1
-          status=$?
-          echo "$status" > .source-import.status
-          cat .source-import.log
-          exit 0
+            --artifact-start "$START" \
+            --artifact-end "$END" \
+            --chunk-size 50
 
       - name: Upload transient evidence window
-        id: upload
         uses: actions/upload-artifact@v4
         with:
-          name: source-chapters-0581-0630
+          name: source-chapters-${{ inputs.artifact_start }}-${{ inputs.artifact_end }}
           path: source-artifact/
           retention-days: 1
           if-no-files-found: error
 
-      - name: Commit source metadata or diagnostic
-        env:
-          HEAD_REF: ${{ github.head_ref || github.ref_name }}
-          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
-          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
-          RUN_ID: ${{ github.run_id }}
+      - name: Commit metadata-only source index
         run: |
-          status="$(cat .source-import.status)"
-          mkdir -p sources/archive
-          pointer='sources/archive/fanqienovel-7423641263695481880/review-window-0581-0630.yaml'
-          if [ "$status" -ne 0 ]; then
-            cp .source-import.log sources/archive/import-diagnostic.txt
-            rm -f "$pointer"
-          else
-            rm -f sources/archive/import-diagnostic.txt
-            mkdir -p "$(dirname "$pointer")"
-            cat > "$pointer" <<EOF
-          schema_version: 1
-          purpose: transient_evidence_artifact_pointer
-          chapter_range: {start: 581, end: 630}
-          workflow_run_id: ${RUN_ID}
-          artifact_id: ${ARTIFACT_ID}
-          artifact_url: ${ARTIFACT_URL}
-          expires_after_days: 1
-          merge_policy: remove_before_merge
-          EOF
-          fi
           if [ -z "$(git status --porcelain -- sources/archive)" ]; then
-            echo 'Source metadata and diagnostics are already current.'
+            echo 'Source metadata is already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -f sources/archive
-          git commit -m 'chore(source): record archive import result'
-          git push origin "HEAD:${HEAD_REF}"
-
-      - name: Fail when import failed
-        run: |
-          status="$(cat .source-import.status)"
-          if [ "$status" -ne 0 ]; then
-            echo 'Archive import failed; diagnostic committed to the PR branch.'
-            exit "$status"
-          fi
+          git add sources/archive
+          git commit -m 'chore(source): refresh archived novel metadata index'
+          git push
