@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 516
-- **Current evidence exploration through:** Chapter 517
+- **Canonical coverage through:** Chapter 520
+- **Current evidence exploration through:** Chapter 521
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 67
+- **Completed timeline nodes:** 68
 - **Draft timeline nodes:** 0
 - **Documented characters:** 105
 - **Generated character profiles:** 105
-- **Gift events:** 110
-- **Artifact records:** 70
-- **Generated artifact profiles:** 70
-- **Last run:** `RUN-0083`
-- **Last completed node:** `NODE-0067`
-- **Next task:** `TASK-0070` — 系统升级、九霄天梯与飞升仙界 story arc
-- **Provisional exploration range:** Chapters 517–524
+- **Gift events:** 111
+- **Artifact records:** 71
+- **Generated artifact profiles:** 71
+- **Last run:** `RUN-0084`
+- **Last completed node:** `NODE-0068`
+- **Next task:** `TASK-0071` — 李香香结缘、仙界矿区规则与首次出手 story arc
+- **Provisional exploration range:** Chapters 521–528
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0067` covers Chapters 509—516. 海岚、葬花、北风启动幽冥天绝阵并以渡劫九重级阴气抽取全场灵力；系统返还抽取损失，道元圣体炼化阴气，仙神魂胎击溃八名渡劫阴灵，徐霄由大乘三重升至大乘七重。九幽惊魂剑与山河灵图完成群体清剿和高阶阴灵收纳。三名气运之敌任务结算后，法器、丹药、符箓阵法返还库上限分别升至至尊仙器、地仙境和人仙境。徐霄成为公认的天元大陆第一天修，并推动蓬莱阴灵肃清和两界裂缝封闭。第 516 章返还九天神玉带并转入仙池休整；第 517 章开始系统升级和飞升准备。
+`NODE-0068` covers Chapters 517—520. 徐霄在天元仙宗仙池吸收三日后升至大乘九重，素青羁绊度升至2并触发十枚雷灵丹返还。姬雪元灵仙体与前世记忆完全恢复后升至渡劫九重并飞升；凤青玄随后飞升。两人抵达灵藏仙域后均被阴阳仙门纳入百年矿役。徐霄在数年内升至渡劫三重、鸿蒙真气四十股，借九霄天梯保留上下界往返能力，完成下界关系安置后主动飞升并进入矿区。第521章李香香登场，转入新的仙界矿区关系线。
 
 ## Character growth updates
 
-`RUN-0083` adds timed growth events for every materially changed existing character: 徐霄、姬雪、素青、海岚、葬花、北风、叶尘、独孤浩 and楚霄. 神天 enters as a new character with a chapter-anchored first appearance. The generated growth lines preserve stage summaries and continuous event records without backfilling current-state abilities into early chapters.
+`RUN-0084` adds timed growth events for 徐霄、素青、姬雪、凤青玄、独孤灵、玉冰、魔妖、云心月、陆雪瑶、紫霄 and血葵. The updates preserve the stage-summary plus continuous-log model and distinguish exact chapters from multi-year transition ranges.
 
-## Quality gates — RUN-0083
+## Quality gates — RUN-0084
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 105 character and 70 artifact records |
+| Entity-document freshness | Passed — 105 character and 71 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 9 timed material updates |
+| Character growth continuity | Passed — 11 timed material updates |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第 509—517 章标题、顺序和阶段边界；第 509—516 章正文由可访问镜像交叉核验。幽冥天绝阵完整阵眼规则、神天所属宗门、部分原神魂和肉身处置、四名囚禁对象的完整收纳过程、`GIFT-0110` 原始赠礼映射及九天神玉带完整能力继续保持 `pending`。
+番茄小说官方目录确认第517—521章标题、顺序和阶段边界；第517—520章正文由可访问镜像交叉核验。系统升级完整功能、九霄天梯取得机制与限制、徐霄渡劫一至三重细节、飞升矿役完整规章以及多场道侣仪式精确时间继续保持 `pending`。
