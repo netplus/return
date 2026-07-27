@@ -1,0 +1,136 @@
+schema_version: 1
+run_id: RUN-0084
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 渡劫三重
+    hongmeng_qi_strands: 40
+    power_change_add: [天元仙宗仙池三日吸收后升至大乘九重, 数年内完成渡劫一至三重提升, 九霄天梯可突破上下界规则并支持往返]
+    resource_change_add: [仙器四十六件, 先天灵宝六十八件, 灵宝九十二件, 渡劫巅峰魂丹九十六颗, 人仙巅峰魂丹二十八颗, 雷灵丹一万二千余颗, 化仙丹二千八百余颗]
+    role_change_add: [完成下界关系与资源安置后主动飞升灵藏仙域, 飞升后被纳入阴阳仙门百年矿工体系]
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [517, 520]
+    growth_event_add:
+    - node: NODE-0068
+      event: 完成系统升级与飞升仙界阶段
+      core_ability: [仙池吸收升至大乘九重, 数年后渡劫三重, 鸿蒙真气四十股, 九霄天梯具上下界穿梭能力]
+      impact: [完成天元界道侣与资源安置, 主动飞升灵藏仙域, 进入阴阳仙门矿工体系]
+      status: partial
+- id: CHAR-0096
+  name: 素青
+  update:
+    bond_level_set: 2
+    accepted_gifts_add: [GIFT-0111]
+    relationship_change: 与徐霄关系稳定并获得长期雷灵丹支持
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [517]
+    growth_event_add:
+    - chapter: 517
+      event: 仙池关系确认与羁绊升级
+      impact: [羁绊度提升至2, 接受十枚雷灵丹, 进入长期渡劫资源支持关系]
+      status: partial
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 渡劫九重
+    power_change_add: [元灵仙体彻底觉醒, 雪瑶仙帝前世记忆全部恢复]
+    status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [518, 519]
+    growth_event_add:
+    - chapter_range: {start: 518, end: 519}
+      event: 元灵仙体完全觉醒并飞升灵藏仙域
+      core_ability: [渡劫九重, 前世仙帝记忆全数恢复, 须臾空间资源继续保留]
+      impact: [与独孤灵告别, 化名刘爱花, 暂时接受阴阳仙门百年矿工安排]
+      status: partial
+- id: CHAR-0056
+  name: 凤青玄
+  update:
+    cultivation_change: 渡劫九重
+    status_change: 姬雪飞升约一年后飞升灵藏仙域并被安排为矿工队长
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [519, 520]
+    growth_event_add:
+    - chapter_range: {start: 519, end: 520}
+      event: 晋升渡劫九重并飞升灵藏仙域
+      core_ability: [渡劫九重]
+      impact: [进入阴阳仙门矿区, 因境界被安排为矿工队长, 需完成百年矿役]
+      status: partial
+- id: CHAR-0003
+  name: 独孤灵
+  update:
+    relationship_change: 姬雪飞升前再次确认其与徐霄的长期道侣和资源关系
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [518, 519]
+    growth_event_add:
+    - chapter_range: {start: 518, end: 519}
+      event: 师尊飞升后的关系与宗门安置
+      impact: [接受姬雪临行托付, 与徐霄重新举行公开道侣仪式, 留守无妄仙宗体系]
+      status: partial
+- id: CHAR-0054
+  name: 玉冰
+  update:
+    relationship_change: 徐霄飞升前重新举行公开道侣仪式并继续留在无妄仙宗
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [518, 519]
+    growth_event_add:
+    - chapter_range: {start: 518, end: 519}
+      event: 飞升前关系公开安置
+      impact: [与徐霄重新举行道侣仪式, 继续承担无妄仙宗与盘龙岛关系枢纽]
+      status: partial
+- id: CHAR-0101
+  name: 魔妖
+  update:
+    relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [519]
+    growth_event_add:
+    - chapter: 519
+      event: 正式结为公开道侣
+      impact: [进入无妄仙宗长期修炼和资源体系, 天煞魔宗关系进一步制度化]
+      status: partial
+- id: CHAR-0095
+  name: 云心月
+  update:
+    relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [519]
+    growth_event_add:
+    - chapter: 519
+      event: 正式结为公开道侣
+      impact: [进入无妄仙宗长期修炼和资源体系, 天元仙宗跨宗关系固化]
+      status: partial
+- id: CHAR-0073
+  name: 陆雪瑶
+  update:
+    relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [519]
+    growth_event_add:
+    - chapter: 519
+      event: 正式结为公开道侣
+      impact: [进入无妄仙宗长期修炼和资源体系, 青云仙宗跨宗关系固化]
+      status: partial
+- id: CHAR-0103
+  name: 紫霄
+  update:
+    relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [519]
+    growth_event_add:
+    - chapter: 519
+      event: 正式结为公开道侣
+      impact: [进入无妄仙宗长期修炼和资源体系, 缥缈仙宗跨宗关系固化]
+      status: partial
+- id: CHAR-0104
+  name: 血葵
+  update:
+    relationship_change: 与徐霄正式举行道侣仪式并进入无妄仙宗长期修炼体系
+    related_nodes_add: [NODE-0068]
+    source_chapters_add: [519, 520]
+    growth_event_add:
+    - chapter_range: {start: 519, end: 520}
+      event: 正式结为公开道侣并完成飞升前告别
+      impact: [进入无妄仙宗长期修炼和资源体系, 血刀一脉与徐霄关系制度化]
+      status: partial
