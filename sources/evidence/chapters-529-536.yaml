@@ -1,0 +1,54 @@
+schema_version: 1
+run_id: RUN-0086
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 529, end: 536}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 529, title: 化仙丹}
+  - {chapter: 530, title: 继续挖矿，继续秀}
+  - {chapter: 531, title: 小小神魂，韩烟来找}
+  - {chapter: 532, title: 彻底懵逼的司空浩南}
+  - {chapter: 533, title: 道心崩塌的矿区牛马}
+  - {chapter: 534, title: 韩烟的心思}
+  - {chapter: 535, title: 至尊仙器，万龙鎏金甲}
+  - {chapter: 536, title: 传到阴阳仙门}
+  boundary_probe: {chapter: 537, title: 外门长老团驾到}
+readable_cross_check:
+  providers: [番茄小说可访问正文, CP小说网]
+  chapters_cross_checked: [529, 530, 531, 532, 533, 534, 535, 536]
+chapter_facts:
+- chapter: 529
+  facts: [韩烟确认B级气运等级基础倍率10羁绊度1, 宣布徐霄十年李香香一年邹蒙十天禁闭, 徐霄以化仙丹作为资源反制]
+  status: partial
+- chapter: 530
+  facts: [韩烟接受三枚化仙丹并撤销徐霄李香香主要处罚, 第一枚千倍返还鸿蒙一气丹其余两枚返还两枚仙元丹, 矿区代挖规则由执事裁量再次得到确认]
+  status: partial
+- chapter: 531
+  facts: [韩烟炼化一枚高品质化仙丹后晋升人仙四重, 徐霄计划借外门长老巡视进入阴阳仙门, 司空浩南召集三名神魂秘术手下实施暗杀]
+  status: partial
+- chapter: 532
+  facts: [司空浩南确认三名暗杀者失联或死亡而徐霄状态如常, 徐霄向韩烟追加七枚化仙丹, 韩烟与徐霄关系进一步推进]
+  status: partial
+- chapter: 533
+  facts: [韩烟公开释放关系信号并否定李香香关系的宗门认证效力, 司空浩南和矿区舆论进一步失控]
+  status: partial
+- chapter: 534
+  facts: [西门恨天因韩烟关系对徐霄产生直接敌意, 韩烟邀请徐霄进入府邸并评估其资源与资质]
+  status: partial
+- chapter: 535
+  facts: [韩烟确认徐霄对外显露先天道体资质, 至尊仙器万龙鎏金甲出现为系统返还, 两人关系继续公开化]
+  status: partial
+- chapter: 536
+  facts: [徐霄韩烟关系消息扩散至矿区和阴阳仙门, 司空浩南因冲突再次昏厥, 外门长老巡视成为徐霄进入仙门的现实入口]
+  status: partial
+boundary_reason: 第536章完成处罚撤销神魂暗杀失败韩烟关系公开和至尊仙器返还消息扩散；第537章外门长老团到场开启拜师与宗门准入新阶段
+pending:
+- 三名神魂暗杀者姓名境界及完整死亡过程
+- 七枚化仙丹逐枚倍率与完整返还
+- 万龙鎏金甲与GIFT-0114的精确触发映射及完整能力
+- 西门恨天正式职位与准确境界
+- 阴阳仙门对徐霄矿区行为的正式制度性结论
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}
