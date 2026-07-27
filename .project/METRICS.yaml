@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0096
+run_id: RUN-0097
 coverage:
-  chapters_covered_through: 616
-  chapters_promoted_in_run: [610, 611, 612, 613, 614, 615, 616]
-  timeline_nodes: 80
+  chapters_covered_through: 622
+  chapters_promoted_in_run: [617, 618, 619, 620, 621, 622]
+  timeline_nodes: 81
   draft_nodes: 0
-  story_arc_nodes: 77
-  characters_documented: 144
+  story_arc_nodes: 78
+  characters_documented: 145
   characters_staged: 0
   system_records: 1
-  gift_events: 147
+  gift_events: 148
   artifact_records: 85
   artifacts_staged: 0
 entity_documents:
-  character_records: 144
+  character_records: 145
   artifact_records: 85
-  expected_generated_documents: 229
+  expected_generated_documents: 230
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [610, 611, 612, 613, 614, 615, 616], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第616章完成丁静赠送、飞升会身份揭示、道元合作与厉红魅入宗；第617章发生五年时间跳跃并转入执法任务}
-  materiality: {status: passed, entity_updates: [NODE-0080, 丁静端木莹道元柳怀南阴萱新人物, 徐霄南宫嫣陆道离孟凡厉红魅成长更新, GIFT-0144至GIFT-0147, ART-0044和ART-0046及ART-0060更新, ART-0085]}
+  source_traceability: {status: passed, archive_chapters: [617, 618, 619, 620, 621, 622], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第622章完成五年成长、大会开幕与徐霄代战转折；第623章进入擂台主战}
+  materiality: {status: passed, entity_updates: [NODE-0081, 云花海新人物, 徐霄陆道离厉红魅凌白烟莫问书梦琳云姑心邹蒙罗素南宫嫣成长更新, GIFT-0148, ART-0083和ART-0062更新]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 144, artifacts: 85}
+  entity_document_freshness: {status: passed, characters: 145, artifacts: 85}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 5}
+  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 1}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_and_source_hashes}
 blockers: []
