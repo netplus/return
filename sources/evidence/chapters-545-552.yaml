@@ -1,0 +1,34 @@
+schema_version: 1
+run_id: RUN-0088
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 545, end: 552}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 545, title: 崩溃的外门弟子}
+  - {chapter: 546, title: 拜师门}
+  - {chapter: 547, title: 柳清浅的震惊}
+  - {chapter: 548, title: 成为亲传弟子}
+  - {chapter: 549, title: 完美三花聚顶}
+  - {chapter: 550, title: 陈玉来拜访}
+  - {chapter: 551, title: 南宫嫣来访}
+  - {chapter: 552, title: 转换阴阳仙诀}
+  boundary_probe: {chapter: 553, title: 参加道侣大会}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [545, 546, 547, 548, 549, 550, 551, 552]
+chapter_facts:
+- {chapter: 545, facts: [徐霄抵达外门引发舆论震荡, 陈玉李薇接受雷灵丹并进入资源关系], status: partial}
+- {chapter: 546, facts: [云鹤接受化仙丹后推动两名弟子与徐霄接触, 韩烟获十枚化仙丹, 李香香获十枚雷灵丹], status: partial}
+- {chapter: 547, facts: [徐霄正式拜见柳清浅, 柳清浅明确亲传与记名弟子制度, 莫问书凌白烟登场], status: partial}
+- {chapter: 548, facts: [徐霄赠柳清浅十枚化仙丹返还三十枚仙元丹, 柳清浅将徐霄晋升第三名亲传弟子], status: partial}
+- {chapter: 549, facts: [南宫嫣聚顶三花融合瑕疵与道基损伤公开, 莫问书凌白烟各获一枚化仙丹], status: partial}
+- {chapter: 550, facts: [陈玉主动拜访徐霄并推动关系升级], status: partial}
+- {chapter: 551, facts: [陈玉获十万下品灵精渡劫巅峰魂丹和先天灵宝神剑, 系统返还上品灵精人仙巅峰魂丹和仙器神剑, 南宫嫣到访], status: partial}
+- {chapter: 552, facts: [陈玉获十枚雷灵丹并返还二十枚化仙丹, 徐霄完成阴阳仙诀转换并晋升渡劫五重], status: partial}
+boundary_reason: 第552章完成亲传晋升陈玉结缘和阴阳仙诀转换；第553章转入道侣大会公开评测
+pending: [云鹤受赠准确数量与返还, 南宫嫣修复丹药与完整结果, 陈玉李薇完整系统面板, 仙器神剑正式名称能力, 阴阳仙诀完整层级限制]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}
