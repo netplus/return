@@ -1,0 +1,28 @@
+schema_version: 1
+run_id: RUN-0083
+gift_events:
+- id: GIFT-0110
+  chapter: 516
+  node: NODE-0067
+  giver: 徐霄
+  recipient: pending
+  gift: pending
+  accepted: pending
+  system_valid: true
+  reward: 九天神玉带
+  triggered_multiplier: pending
+  relationship_result: 战后赠送触发新返还；原始受赠对象和逐笔映射待后续证据确认
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0110]
+    rule_changes_add: [抽取剥离类诅咒恶术造成的损失可直接返还且不受气运之女对象限制]
+    completed_enemy_tasks_add: [海岚, 葬花, 北风]
+    return_library_limits:
+      artifact: 至尊仙器
+      pill: 地仙境
+      talisman_and_array: 人仙境
+    related_nodes_add: [NODE-0067]
+    source_chapters_add: [509, 510, 515, 516]
