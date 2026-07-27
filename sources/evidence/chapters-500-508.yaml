@@ -1,0 +1,60 @@
+schema_version: 1
+run_id: RUN-0080
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 500, end: 508}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 500, title: 徐霄闯关，三火大道}
+  - {chapter: 501, title: 退后，我要开始了}
+  - {chapter: 502, title: 吐血三人组}
+  - {chapter: 503, title: 无敌肉身之威}
+  - {chapter: 504, title: 一百层，极致肉身之战}
+  - {chapter: 505, title: 直通一百层，疯狂攀关系}
+  - {chapter: 506, title: 给徐霄许道侣}
+  - {chapter: 507, title: 长眉天阁的顶级理解}
+  - {chapter: 508, title: 道侣之约再次敲定}
+  boundary_probe: {chapter: 509, title: 幽冥天绝阵，系统的返还}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [500, 501, 502, 503, 504, 505, 506, 507, 508]
+chapter_facts:
+- chapter: 500
+  facts: [徐霄参加天元仙塔大乘试炼, 前序排名由楚霄等人占据, 徐霄开始公开展示多系大道能力]
+  status: partial
+- chapter: 501
+  facts: [徐霄境界明确为大乘三重, 展示三昧真火, 佛肉金身和仙牛神虎丹等肉身资源已形成稳定增益]
+  status: partial
+- chapter: 502
+  facts: [展示破灭神光三光神水万界归元枯荣天毒等神通, 九十层守关妖兽达到渡劫一重, 多系术法可持续压制渡劫妖兽]
+  status: partial
+- chapter: 503
+  facts: [鸿蒙真气明确为三十二道, 九十六层后集中展示九天玉骨佛肉金身和仙牛神虎之力, 一拳击破渡劫层级岩石巨熊防御]
+  status: partial
+- chapter: 504
+  facts: [九十七至九十九层继续击败渡劫层级守关者, 陆亭舟推动陆雪瑶与徐霄道侣安排, 蓬莱阴灵阵营将徐霄列为重点目标]
+  status: partial
+- chapter: 505
+  facts: [一百层金龙具渡劫六重级肉身, 徐霄先纯肉身对抗后结合术法击败, 打通天元仙塔并改变各宗力量预期]
+  status: partial
+- chapter: 506
+  facts: [黑蛇冷若云萧烬璃公开表达长期关系, 多宗渡劫高层开始主动为徐霄安排道侣, 叶尘独孤浩楚霄因纪录被超越受到情绪和身体冲击]
+  status: partial
+- chapter: 507
+  facts: [神玉推动云心月关系安排, 系统确认紫霄为S级气运之女且基础倍率三十, 紫霄血葵陆雪瑶等进入正式介绍阶段]
+  status: partial
+- chapter: 508
+  facts: [云心月陆雪瑶紫霄血葵接受蕴仙丹和先天灵宝神剑, 合并返还四柄仙器神剑鸿蒙一气丹三千大道丹和一百六十三枚雷灵丹, 六名撮合者各获两枚雷灵丹]
+  status: partial
+boundary_reason: 第508章完成仙塔战力展示引发的道侣和赠送结算；第509章转入幽冥天绝阵、系统返还与新的阵法冲突
+pending:
+- 三火大道精确构成与融合规则
+- 徐霄全部圆满大道严格清单
+- 百层金龙正式名称能力与试炼机制
+- 四柄仙器神剑逐件名称能力和对应关系
+- 紫霄血葵完整系统面板及血葵所属宗门正式名称
+- GIFT-0109系统有效性倍率与返还
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}

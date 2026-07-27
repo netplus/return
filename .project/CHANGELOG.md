@@ -1,167 +1,32 @@
 # Changelog
 
+## RUN-0080 — 2026-07-27
+
+- Read Workflow v2.3, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Resumed only `TASK-0068`; no completed task, node or entity ID was duplicated.
+- Extended the adaptive boundary through Chapter 508 so the天元仙塔百层挑战、极致肉身展示、跨宗道侣安排 and赠送返还 remain one coherent arc; Chapter 509 begins幽冥天绝阵 and a new system-return conflict.
+- Created `NODE-0066`: 天元仙塔百层、极致肉身与跨宗结缘, covering Chapters 500—508.
+- Added 紫霄 and 血葵 as `CHAR-0103` and `CHAR-0104`; updated 徐霄、云心月、陆雪瑶、叶尘、独孤浩 and楚霄.
+- Recorded徐霄大乘三重、三十二道鸿蒙真气、百层通关、渡劫六重肉身对抗 and渡劫后期级公开战略威慑.
+- Added `GIFT-0108` and `GIFT-0109`, recording four high-level recipient gifts and six matchmaker thank-you gifts.
+- Added `ART-0069` 四柄仙器神剑（逐件名称待确认） and expanded三千大道丹、鸿蒙一气丹、雷灵丹 records.
+- Preserved三火大道精确构成、完整圆满大道清单、百层金龙机制、仙器神剑逐件映射、紫霄血葵完整面板 and `GIFT-0109` return as pending.
+- Source traceability passed with qualifications; all other gates including entity-document freshness, readability and character identity alignment passed.
+- Completed `TASK-0068`, advanced to milestone M11 and queued `TASK-0069` beginning at Chapter 509.
+
 ## RUN-0079 — 2026-07-27
 
-- Read Workflow v2.2, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Performed a full identity-to-profile-path audit after the reader-friendly index exposed names that did not match their linked Markdown files.
-- Confirmed five historical canonical identity collisions: `CHAR-0005` 段红绫→紫韵, `CHAR-0007` 段红绫→金柳香, `CHAR-0010` 陆大年→李天霸, `CHAR-0015` 水月→白巧巧 and `CHAR-0027` 白九儿→柳璃.
-- Added append-only character corrections in `data/extensions/characters/run-0079.yaml`; no base or generated index was edited by hand.
-- Added `scripts/validate_entity_identity.py` and unit tests to require every explicit character profile filename to match the canonical character name.
-- Updated CI to run the identity validator against freshly materialized canonical indexes before rendering entity documents and again during the `main` generated-view refresh.
-- Upgraded the workflow standard to v2.3 and added the Character identity alignment quality gate.
-- Preserved story coverage, nodes and record counts: Chapters through 499, 65 nodes, 102 characters, 107 gifts and 68 artifacts.
-- Left `TASK-0068` as the next unique pending story task beginning at Chapter 500.
+- Repaired five historical canonical character identity collisions and added a permanent identity-to-profile-path validator.
+- Preserved Chapters through 499, 65 nodes, 102 characters, 107 gifts and 68 artifacts.
 
 ## RUN-0078 — 2026-07-27
 
-- Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Audited the reader experience of `docs/02-characters/` and `docs/06-artifacts/` after the user reported that the complete canonical projection was difficult to read.
-- Confirmed presentation defects: complex mappings were flattened into one-line code, long chapter and node lists dominated pages, machine field names leaked into the reader view, and full canonical YAML was expanded by default.
-- Detected a concurrent completed `RUN-0077` story task while preparing the maintenance change; closed the stale PR without merging, rebuilt from the latest `main`, preserved `NODE-0065` and all Chapter 494—499 increments, and reassigned this maintenance work to `RUN-0078` / `TASK-0068R`.
-- Upgraded the workflow standard to v2.2 and added the Entity-document readability quality gate.
-- Refactored `scripts/render_entity_docs.py` to generate concise overview tables and semantic sections for identity, cultivation and abilities, relationships, resources, major events, acquisition and transfer history, effects, usage, current state, sources and unresolved fields.
-- Changed complex dictionaries and lists into nested Markdown instead of compressed inline YAML.
-- Made complete source-chapter and node lists collapsible and moved the full canonical YAML into a default-collapsed audit appendix.
-- Added current-value resolution so `cultivation_change`, `age_change` and `lifespan_change` override older base fields in summaries.
-- Improved character and artifact directory indexes with current realm, major affiliation, category, grade and holder/state columns.
-- Expanded renderer tests to enforce semantic sections, current-value precedence, collapsed audit data, source-range compression, path collision behavior, stale detection and safe managed-file cleanup.
-- Preserved canonical counts and story coverage: 102 characters, 68 artifacts and Chapters covered through 499; no new story facts or Timeline node were added.
-- Left `TASK-0068` as the next unique pending story task beginning at Chapter 500.
+- Redesigned generated character and artifact profiles into reader-friendly semantic sections with collapsed canonical audit appendices.
 
 ## RUN-0077 — 2026-07-27
 
-- Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0067`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 499; Chapter 500 begins the天元仙塔闯关 and public combat-display stage.
-- Created `NODE-0065`: 月幽冥赠礼、蓬莱阴灵暴露与魔妖结缘, covering Chapters 494—499.
-- Added 罗刹天魔、魔妖 and神玉 as `CHAR-0100`—`CHAR-0102`; updated 徐霄、月幽冥、姬雪、海岚、葬花 and北风.
-- Added `GIFT-0105`—`GIFT-0107`, recording月幽冥复合赠送、魔妖初次高阶赠送 and四名跨宗撮合者的雷灵丹答谢.
-- Added `ART-0067` 仙器神盾（正式名称pending） and `ART-0068` 人仙巅峰魂丹; expanded化仙丹 records.
-- Recorded仙神魂胎清除渡劫二重阴灵、姬雪实际大乘三重 and天煞魔宗进入跨宗资源网络.
-- Preserved仙器神盾正式名称、魔妖完整返还、罗刹天魔完整面板、阴灵领主身份 and逐笔撮合返还 as pending.
-- Source traceability passed with qualifications; all other quality gates including entity-document freshness passed.
-- Completed `TASK-0067` and queued `TASK-0068` beginning at Chapter 500.
-
-## RUN-0076 — 2026-07-27
-
-- Read Workflow, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Audited `docs/02-characters/` and `docs/06-artifacts/` against the materialized canonical indexes after the user reported substantial omissions.
-- Confirmed systemic drift: Markdown profiles were early manually maintained snapshots while canonical indexes continued to absorb append-only updates through Chapter 493.
-- Inserted and completed maintenance task `TASK-0067M` without consuming or duplicating the pending Chapter 494 story task `TASK-0067`.
-- Upgraded the workflow standard to v2.1 and added the Entity-document freshness quality gate.
-- Added `scripts/render_entity_docs.py`, which generates one complete Markdown profile per canonical character and artifact, plus directory indexes and `docs/entity-docs-manifest.yaml`.
-- Each generated profile contains a readable summary and the complete merged canonical YAML record, preserving later identities, cultivation, relationships, ownership, abilities, source chapters, pending fields, conflicts and continuity warnings.
-- Added renderer unit tests covering explicit paths, filename sanitization, collisions, stale detection and deletion limited to previously managed files.
-- Updated Knowledge Base CI to build and verify the full entity-document projection in PRs and refresh generated indexes plus entity documents together on `main`.
-- Configured generated-view path ignores to prevent recursive workflow runs.
-- Preserved canonical counts and story coverage: 99 characters, 66 artifacts and Chapters covered through 493; no new story facts or Timeline node were added.
-- Left `TASK-0067` as the next unique pending task beginning at Chapter 494.
-
-## RUN-0075 — 2026-07-27
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0066`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 493; Chapter 494 begins the月幽冥赠送 and new relationship-progression stage.
-- Created `NODE-0064`: 五年跃迁、天元仙宗启程与蓬莱夺舍疑云, covering Chapters 486—493.
-- Updated 徐霄、第一婵、姬雪 and苏瑶 for persistent cultivation, constitution, relationship and role changes.
-- Added 楚霄、云心月、素青、海岚、葬花 and北风 as `CHAR-0094`—`CHAR-0099`.
-- Added `GIFT-0104`, returning佛陀金身丹 and nine化仙丹; added `ART-0066` 佛陀金身丹 and expanded雷灵丹、化仙丹 records.
-- Recorded姬雪's元灵仙体 awakening and雪瑶仙帝 previous-life memory, plus蓬莱仙宗全队冰寒阴灵夺舍 anomaly.
-- Preserved第一婵雷劫细节、楚霄与云心月完整面板、姬雪赠送返还、苏瑶灵宝映射 and蓬莱阴灵来源目的 as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0066` and queued `TASK-0067` beginning at Chapter 494.
-
-## RUN-0074 — 2026-07-27
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0065`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 485; Chapter 486 introduces a five-year time skip and begins the 第一婵大乘雷劫 stage.
-- Created `NODE-0063`: 龙矶赠礼、盘龙返程与第七雷劫, covering Chapters 479—485.
-- Updated 徐霄、龙矶、魔嬛、段红绫 and陆大年 for persistent cultivation, relationship and resource changes.
-- Added `GIFT-0102` and `GIFT-0103`, returning仙牛神虎丹、九枚化仙丹 and防御仙器仙莲玉戒.
-- Added `ART-0064` 仙牛神虎丹 and `ART-0065` 仙莲玉戒; expanded九天神莲戒、雷灵丹 and化仙丹 records.
-- Recorded龙矶's successful seventh tribulation and promotion to渡劫七重, plus徐霄's commitment to support later tribulations.
-- Preserved龙矶完整系统面板、丹药服用、仙器能力、盘龙岛资源清单、雷劫法宝损耗 and蓬莱事变细节 as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0065` and queued `TASK-0066` beginning at Chapter 486.
-
-## RUN-0073 — 2026-07-27
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0064`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 478; Chapter 479 begins the龙矶 direct relationship and渡劫 preparation stage.
-- Created `NODE-0062`: 三宗关系公开、返宗渡劫秘事与魔嬛赠礼, covering Chapters 471—478.
-- Added 龙矶 and 魔嬛 as `CHAR-0092` and `CHAR-0093`; updated 徐霄、冷若云、月幽冥、玉冰 and白霜霜 for persistent identity, relationship and resource changes.
-- Added `GIFT-0096`—`GIFT-0101`, recording冷若云、月幽冥、玉冰 and魔嬛 high-level gifts and returns.
-- Added `ART-0061` 九幽惊魂剑, `ART-0062` 九霄玉舟 and `ART-0063` 仙灵天火剑; expanded噬魂封魔剑、神木飞舟、鸿蒙一气丹、雷灵丹 and化仙丹 records.
-- Recorded徐霄's荣誉太上长老 identities in灵霄仙宗 and黑魔圣宗, the public three-sect alliance, and stable渡劫九重 rules.
-- Preserved complete public reaction, gift multipliers,天阁 gift settlement,龙矶 system panel,魔嬛渡劫 level and仙器 limits as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0064` and queued `TASK-0065` beginning at Chapter 479.
-
-## RUN-0072 — 2026-07-27
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0063`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 470; Chapter 471 begins the天阁来访、跨宗关系公开 and返宗善后 stage.
-- Created `NODE-0061`: 渡劫话事人争夺、龙族问罪与敖海结算, covering Chapters 463—470.
-- Added 月幽冥 and 敖海 as `CHAR-0090` and `CHAR-0091`; updated 徐霄、冷若云、真灵、独孤浩、黑无忌 and黑蛇 for persistent relationship, conflict and authority changes.
-- Added `GIFT-0093`—`GIFT-0095`, recording雷灵丹赠送、九天玉骨丹返还 and化仙丹返还链.
-- Added `ART-0059` 九天玉骨丹 and `ART-0060` 化仙丹; expanded雷灵丹 transfer records.
-- Recorded敖海气运之敌任务的间接完成 and丹药返还库普通返还上限升级至人仙境.
-- Preserved渡劫话事人完整面板、gift数量与倍率、丹药完整药效、黑无忌最终状态 and东海龙族完整伤亡 as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0063` and queued `TASK-0064` beginning at Chapter 471.
-
-## RUN-0071 — 2026-07-27
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0062`; no completed task, node or entity ID was duplicated.
-- Extended the adaptive boundary through Chapter 462 so the黑蛇渗透反转、迎亲队清算、关系公开、聘礼赠送 and强制婚约解除 remain one coherent arc; Chapter 463 begins灵霄仙宗渡劫话事人 and new sect-level negotiations.
-- Created `NODE-0060`: 黑蛇渗透反转、迎亲队清算与婚约解除, covering Chapters 455—462.
-- Added 黑蛇 as `CHAR-0089`; updated 徐霄、萧烬璃、冷若云、欧阳惊虹 and黑无忌 for persistent cultivation, relationship, conflict and status changes.
-- Added `GIFT-0088`—`GIFT-0092`, recording黑蛇's first-gift returns,九天灵土剑 and神木灵盾 transfers,雷灵珠仙器返还 and混沌地灵剑 transfer.
-- Added `ART-0058` 九天仙雷珠 and expanded九天灵土剑、雷灵丹 and山河灵图 records.
-- Recorded徐霄's promotion to合体九重, 黑蛇 bond level 2, the capture of the black-demon wedding party and the cancellation of黑无忌's forced marriage with萧烬璃.
-- Preserved黑蛇完整系统面板、three incomplete return chains、黑无忌 task settlement and final status、Chapter 455 雷灵丹 source mapping and九天仙雷珠 limits as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0062` and queued `TASK-0063` beginning at Chapter 463.
-
-## RUN-0070 — 2026-07-27
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0061`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 454; Chapter 455 begins the black-snake infiltration and forced-marriage operation.
-- Created `NODE-0059`: 独孤浩冲突、惊虹赠礼与黑魔暗线, covering Chapters 449—454.
-- Added 欧阳惊虹、独孤浩 and 黑无忌 as `CHAR-0086`—`CHAR-0088`; updated 徐霄、萧烬璃 and 冷若云 for persistent conflict, relationship and resource changes.
-- Added `GIFT-0086` and `GIFT-0087`, returning鸿蒙一气丹、雷灵丹、大乘巅峰魂丹、蕴仙丹 and渡劫中期魂丹.
-- Expanded山河灵图 with大乘六重防御 and黑魔圣宗情报人员收纳 records; expanded鸿蒙一气丹 and雷灵丹 acquisitions.
-- Recorded the active独孤浩 luck-child task and the emerging黑无忌 luck-enemy conflict.
-- Preserved欧阳惊虹完整系统面板、独孤浩底牌名称、黑无忌完整任务奖励与境界、黑石客栈六人最终处置 and魂丹逐枚分配 as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0061`, advanced to milestone M10 and queued `TASK-0062` beginning at Chapter 455.
-
-## RUN-0069 — 2026-07-26
-
-- Read Workflow v2.0, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only `TASK-0060`; no completed task, node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 448; Chapter 449 begins the 独孤浩正面冲突、山河灵图公开防御 and new luck-child task.
-- Created `NODE-0058`: 冷若云赠礼、仙神魂胎与灵霄仙宗密谈, covering Chapters 442—448.
-- Added 柯无量 and 真灵 as `CHAR-0084` and `CHAR-0085`; updated 徐霄、李茂 and 冷若云 for persistent soul, status, relationship and strategic changes.
-- Added `GIFT-0084` and `GIFT-0085`, returning仙魂神魄丹 and先天灵宝混沌天木剑.
-- Added `ART-0056` 仙魂神魄丹 and `ART-0057` 混沌天木剑; expanded山河灵图 with大乘离体神魂收纳记录.
-- Recorded徐霄's仙神魂胎, 柯无量死亡, 灵霄仙宗由追责转向调查与资源拉拢并行, and冷若云's conditional protection stance.
-- Preserved冷若云完整系统面板、其余蕴仙丹返还、仙神魂胎能力边界、柯无量肉身处置、李茂完整死亡过程、混沌天木剑能力 and真灵完整境界 as pending.
-- Added append-only Timeline, Character, System and Artifact extension indexes and promoted chapter evidence.
-- Source traceability passed with qualifications; all other quality gates passed.
-- Completed `TASK-0060` and queued `TASK-0061` beginning at Chapter 449.
+- Created `NODE-0065`, covering Chapters 494—499; completed `TASK-0067` and queued `TASK-0068`.
 
 ## Audit history
 
-Full changelog details through `RUN-0068` remain immutable and auditable in Git history, prior Project OS commits, task metadata and append-only extension files.
+Full changelog details through `RUN-0076` remain immutable and auditable in Git history, prior Project OS commits, task metadata and append-only extension files.

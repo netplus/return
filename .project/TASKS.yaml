@@ -66,70 +66,26 @@ tasks:
 - {id: TASK-0062, status: done}
 - {id: TASK-0063, status: done}
 - {id: TASK-0064, status: done}
-- id: TASK-0065
-  title: Build the 龙矶结缘、渡劫准备与盘龙岛返程 story arc from Chapter 479 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0074
-  target: {chapter_start: 479, chapter_end: 485, node: NODE-0063, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0063.md, data/extensions/timeline/run-0074.yaml, data/extensions/characters/run-0074.yaml, data/extensions/system/run-0074.yaml, data/extensions/artifacts/run-0074.yaml, sources/evidence/chapters-479-485.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0064]
-- id: TASK-0066
-  title: Build the 五年跃迁、第一婵晋升与天元仙宗启程 story arc from Chapter 486 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0075
-  target: {chapter_start: 486, chapter_end: 493, node: NODE-0064, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0064.md, data/extensions/timeline/run-0075.yaml, data/extensions/characters/run-0075.yaml, data/extensions/system/run-0075.yaml, data/extensions/artifacts/run-0075.yaml, sources/evidence/chapters-486-493.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, copyright_boundary: passed}
-  depends_on: [TASK-0065]
-- id: TASK-0067M
-  title: Reconcile character and artifact Markdown with canonical indexes
-  type: maintenance
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0076
-  target: {character_directory: docs/02-characters, artifact_directory: docs/06-artifacts, character_records: 99, artifact_records: 66}
-  outputs: [scripts/render_entity_docs.py, scripts/test_render_entity_docs.py, .github/workflows/knowledge-base-ci.yml, docs/00-project/WORKFLOW.md, docs/entity-docs-manifest.yaml, docs/02-characters/_INDEX.md, docs/06-artifacts/_INDEX.md]
-  quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, copyright_boundary: passed}
-  depends_on: [TASK-0066]
-- id: TASK-0067
-  title: Build the 月幽冥赠礼、蓬莱阴灵与天山论剑前哨 story arc from Chapter 494 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0077
-  target: {chapter_start: 494, chapter_end: 499, node: NODE-0065, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0065.md, data/extensions/timeline/run-0077.yaml, data/extensions/characters/run-0077.yaml, data/extensions/system/run-0077.yaml, data/extensions/artifacts/run-0077.yaml, sources/evidence/chapters-494-499.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, copyright_boundary: passed}
-  depends_on: [TASK-0067M]
-- id: TASK-0068R
-  title: Redesign character and artifact profiles for reader-friendly presentation
-  type: maintenance
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0078
-  target: {character_directory: docs/02-characters, artifact_directory: docs/06-artifacts, character_records: 102, artifact_records: 68, presentation: reader_friendly_with_collapsed_canonical_appendix}
-  outputs: [scripts/render_entity_docs.py, scripts/test_render_entity_docs.py, docs/00-project/WORKFLOW.md, docs/entity-docs-manifest.yaml, docs/02-characters/_INDEX.md, docs/06-artifacts/_INDEX.md]
-  quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, copyright_boundary: passed}
-  depends_on: [TASK-0067]
-- id: TASK-0068I
-  title: Repair canonical character identity and profile-path alignment
-  type: maintenance
-  status: done
-  completed_at: '2026-07-27'
-  run_id: RUN-0079
-  target: {character_records_audited: 102, mismatches_repaired: 5}
-  outputs: [data/extensions/characters/run-0079.yaml, scripts/validate_entity_identity.py, scripts/test_validate_entity_identity.py, .github/workflows/knowledge-base-ci.yml, docs/00-project/WORKFLOW.md]
-  quality_gates: {source_traceability: passed, arc_coherence: not_applicable, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, copyright_boundary: passed}
-  depends_on: [TASK-0068R]
+- {id: TASK-0065, status: done, run_id: RUN-0074}
+- {id: TASK-0066, status: done, run_id: RUN-0075}
+- {id: TASK-0067M, status: done, run_id: RUN-0076}
+- {id: TASK-0067, status: done, run_id: RUN-0077}
+- {id: TASK-0068R, status: done, run_id: RUN-0078}
+- {id: TASK-0068I, status: done, run_id: RUN-0079}
 - id: TASK-0068
   title: Build the 天元仙塔闯关与极致肉身战 story arc from Chapter 500 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 500, provisional_chapter_end: 507, node: NODE-0066, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0080
+  target: {chapter_start: 500, chapter_end: 508, node: NODE-0066, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0066.md, data/extensions/timeline/run-0080.yaml, data/extensions/characters/run-0080.yaml, data/extensions/system/run-0080.yaml, data/extensions/artifacts/run-0080.yaml, sources/evidence/chapters-500-508.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, copyright_boundary: passed}
   depends_on: [TASK-0068I]
+- id: TASK-0069
+  title: Build the 幽冥天绝阵、阴灵围剿与系统返还 story arc from Chapter 509 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 509, provisional_chapter_end: 516, node: NODE-0067, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0068]
