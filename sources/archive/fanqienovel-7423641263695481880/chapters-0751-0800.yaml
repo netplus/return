@@ -1,0 +1,256 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+selected_sequence: 525
+chapter_range: {start: 751, end: 800}
+records_present: 50
+chapters:
+  - chapter: 751
+    title: "被鹤仙儿敲诈"
+    sha256: 7c40747ed5de32475cc23bcee8a11faded3dc67318fa80cf38976796b45eb43e
+    source_line_range: {start: 82189, end: 82272}
+    source_char_range: {start: 1710066, end: 1712179}
+  - chapter: 752
+    title: "徐霄装都不装了"
+    sha256: fdcf2f3fac928a4a1b28549aa3849f1adc8d81e3f395f6a23bb02a879b630d60
+    source_line_range: {start: 82275, end: 82363}
+    source_char_range: {start: 1712179, end: 1714330}
+  - chapter: 753
+    title: "天水城现状"
+    sha256: 1e2248da2ecf472aeaff382c9eca7ce1cb8e1d46321d0cf4fe8652b07b9ebbfe
+    source_line_range: {start: 82366, end: 82452}
+    source_char_range: {start: 1714330, end: 1716536}
+  - chapter: 754
+    title: "凄惨的独孤惊云"
+    sha256: 689f47cd29b9eb4aafbc21da5e54d61de10b2124337af2087e6c863ab96acda7
+    source_line_range: {start: 82455, end: 82539}
+    source_char_range: {start: 1716536, end: 1718614}
+  - chapter: 755
+    title: "十八峰爆炸"
+    sha256: 2d8c3cc1ba13015f22cf73b6e633c724b6c0fa71c49a042b7a9e592ef83a8bd8
+    source_line_range: {start: 82542, end: 82628}
+    source_char_range: {start: 1718614, end: 1720685}
+  - chapter: 756
+    title: "天门峰，舆论哗然"
+    sha256: 36147c28c9cb8fb243bb01825a31e94a48a1fa4bd41a0dda09797dcdefa8a119
+    source_line_range: {start: 82631, end: 82698}
+    source_char_range: {start: 1720685, end: 1722811}
+  - chapter: 757
+    title: "全宗定罪"
+    sha256: 84d68ef595085d92d7ecb697a566eacd29ae08304a6633c93b12070c7f305daf
+    source_line_range: {start: 82701, end: 82775}
+    source_char_range: {start: 1722811, end: 1724919}
+  - chapter: 758
+    title: "太乙聚仙丹"
+    sha256: fdce2a51056773c4ce9f4e27757e2dc95c460515c9908c68c3ad7db96ed6df23
+    source_line_range: {start: 82778, end: 82870}
+    source_char_range: {start: 1724919, end: 1727050}
+  - chapter: 759
+    title: "单挑就单挑"
+    sha256: 1e18cea59677d1b51c086604bd60a9f879c3b5583638270a94c5cbf2a358e65d
+    source_line_range: {start: 82873, end: 82962}
+    source_char_range: {start: 1727050, end: 1729211}
+  - chapter: 760
+    title: "仙帝转世"
+    sha256: 4df3d6db098fabf0f1b9820e6613d751e52d32a327e9257535ec24d0d4df93f0
+    source_line_range: {start: 82965, end: 83059}
+    source_char_range: {start: 1729211, end: 1731401}
+  - chapter: 761
+    title: "爱仙帝大人"
+    sha256: 96b55edbe5218646a8cf9264a892f7437bb1ab5439ccaf2fa039650e36daa9f6
+    source_line_range: {start: 83062, end: 83156}
+    source_char_range: {start: 1731401, end: 1733567}
+  - chapter: 762
+    title: "崩溃的万妖仙宗"
+    sha256: 603ff5fc1fe78edecc965adb74fda079a2efa381bcd9e6de6a8ae60e14e92cce
+    source_line_range: {start: 83159, end: 83251}
+    source_char_range: {start: 1733567, end: 1735750}
+  - chapter: 763
+    title: "云花海来访"
+    sha256: 7f02ac2c8f83ba49acd92e03aac5bdc2dc914741127b43a1d2c6da1b8be4052d
+    source_line_range: {start: 83254, end: 83341}
+    source_char_range: {start: 1735750, end: 1737965}
+  - chapter: 764
+    title: "轩辕仙城，订婚仪式"
+    sha256: c978a9ab302ff214b277df656a5c739bea58ec8ae5124675386be381fe1da045
+    source_line_range: {start: 83344, end: 83424}
+    source_char_range: {start: 1737965, end: 1740110}
+  - chapter: 765
+    title: "玄灵拜访"
+    sha256: d534a0d8b3b711debc4b5dd62c2bb98cc26df8ea9fbfbe2068c0ba69daaa4bca
+    source_line_range: {start: 83427, end: 83502}
+    source_char_range: {start: 1740110, end: 1742276}
+  - chapter: 766
+    title: "九幽血菩提"
+    sha256: c3ff097020b472b3373568a794c76dd71687cf53d6a7ecd4733d32010b366a4d
+    source_line_range: {start: 83505, end: 83602}
+    source_char_range: {start: 1742276, end: 1744523}
+  - chapter: 767
+    title: "到达轩辕仙城"
+    sha256: 73b3e02a586f64f18dd78eb04e36c82e3f312ed753416453ec156c6b5030a237
+    source_line_range: {start: 83605, end: 83688}
+    source_char_range: {start: 1744523, end: 1746833}
+  - chapter: 768
+    title: "各大仙宗驾临"
+    sha256: 61cd63597295b67f69ccf63a5ab84ed04b140d14e2d884871f0aa70d378a151f
+    source_line_range: {start: 83691, end: 83773}
+    source_char_range: {start: 1746833, end: 1748974}
+  - chapter: 769
+    title: "百万年人族大计"
+    sha256: 386ac1aaf31942c3bea860a07767342ad89395e396ea2a803abecfe0bf0ee9fb
+    source_line_range: {start: 83776, end: 83858}
+    source_char_range: {start: 1748974, end: 1751104}
+  - chapter: 770
+    title: "太初仙域第一圣子"
+    sha256: 68822869699a99123e5c9daaa1ed250354ce24e068dbe4963ddeca83cc814261
+    source_line_range: {start: 83861, end: 83989}
+    source_char_range: {start: 1751104, end: 1754343}
+  - chapter: 771
+    title: "徐霄不装了"
+    sha256: 5e1b7cf278cfcf46b400c1991d308ae0c9e3e41966c7f32cc6511222d7372063
+    source_line_range: {start: 83992, end: 84081}
+    source_char_range: {start: 1754343, end: 1756532}
+  - chapter: 772
+    title: "成功上位"
+    sha256: e9ab28c8ad6c4d071eb225379703982a72f4c60cb9e40a7b15c1cd3c488e0c11
+    source_line_range: {start: 84084, end: 84180}
+    source_char_range: {start: 1756532, end: 1758814}
+  - chapter: 773
+    title: "拍卖会开始"
+    sha256: 104d463c0ea8489309e713e8a20237be2e0ce179a155ba466fde2ddc4e5a6d0f
+    source_line_range: {start: 84183, end: 84293}
+    source_char_range: {start: 1758814, end: 1761521}
+  - chapter: 774
+    title: "开始竞拍"
+    sha256: 2a2aa6e6133573c8820d9491966226cde6ef7e591d3d0bb21531ca19bf41c9e0
+    source_line_range: {start: 84296, end: 84381}
+    source_char_range: {start: 1761521, end: 1763690}
+  - chapter: 775
+    title: "让人惊叹的拍卖会"
+    sha256: 0d14ccc040b942ed1bb2d444dae85ce408a342a54b3a5fac9a10421058f19015
+    source_line_range: {start: 84384, end: 84475}
+    source_char_range: {start: 1763690, end: 1765859}
+  - chapter: 776
+    title: "气炸的血无涯"
+    sha256: adf01080206a5c410bce67f57084fb1500ff1cbcf4ed9718b3da67796a4456f3
+    source_line_range: {start: 84478, end: 84595}
+    source_char_range: {start: 1765859, end: 1768484}
+  - chapter: 777
+    title: "惊懵全场"
+    sha256: 3bfad7ddbec8aba7b68e63f77352aab5cc56f0d2aac80a34e96ae26e81783aaa
+    source_line_range: {start: 84598, end: 84694}
+    source_char_range: {start: 1768484, end: 1770620}
+  - chapter: 778
+    title: "愤怒的万萱"
+    sha256: 4244a12686fc9f075256a063cdcd543128b8264e680108a04dd5a3765824027f
+    source_line_range: {start: 84697, end: 84787}
+    source_char_range: {start: 1770620, end: 1772742}
+  - chapter: 779
+    title: "道器，轩辕五行环"
+    sha256: 3df61060449f92806dc8e5ab10803dfa7e675c08bbcf3c4c8e22aaca772dc294
+    source_line_range: {start: 84790, end: 84917}
+    source_char_range: {start: 1772742, end: 1775536}
+  - chapter: 780
+    title: "震怒的魔无天"
+    sha256: 9a228bbab910149427c992f283265eb81e7c404dbb2869805a6d81c645b1c5d0
+    source_line_range: {start: 84920, end: 85004}
+    source_char_range: {start: 1775536, end: 1777527}
+  - chapter: 781
+    title: "天地大阵，全场气炸"
+    sha256: 29fa9d0bc9440a0cc27fffbf119a97ee4e3a2dc189d168e217903ca24867ff5c
+    source_line_range: {start: 85007, end: 85109}
+    source_char_range: {start: 1777527, end: 1779769}
+  - chapter: 782
+    title: "订婚礼开始"
+    sha256: ed4c65214ae20678fa74238a515fc83ad4920783305952202a743f218c74e06d
+    source_line_range: {start: 85112, end: 85201}
+    source_char_range: {start: 1779769, end: 1781954}
+  - chapter: 783
+    title: "送礼，九幽血菩提"
+    sha256: b77a97728053a3344ac7025fb4867b4c208507ff82534dcd545827f291f49bde
+    source_line_range: {start: 85204, end: 85286}
+    source_char_range: {start: 1781954, end: 1784128}
+  - chapter: 784
+    title: "徐霄私人送礼开始"
+    sha256: 374409bde3fd1fa90b6217ff1405317ece2b9960a6a97b1ba6621fc526ce4fd9
+    source_line_range: {start: 85289, end: 85374}
+    source_char_range: {start: 1784128, end: 1786209}
+  - chapter: 785
+    title: "八颗金仙巅峰大道神丹"
+    sha256: 5360306bdebd0380f8b99692dbe955dd3c360a8bcbbd1e23e3de4d276ebdff97
+    source_line_range: {start: 85377, end: 85477}
+    source_char_range: {start: 1786209, end: 1788511}
+  - chapter: 786
+    title: "这踏马是纯爱？"
+    sha256: ab850593010e9b2e82d6364f81891d80d68d23a2eae2ce99f052b9a44d0a52b9
+    source_line_range: {start: 85480, end: 85550}
+    source_char_range: {start: 1788511, end: 1790767}
+  - chapter: 787
+    title: "事态白热化"
+    sha256: 2cdf8cc0e23145705278c218ca6fb7a4f7c5b6c0e0c1115c5a84c37a973ff5c0
+    source_line_range: {start: 85553, end: 85632}
+    source_char_range: {start: 1790767, end: 1793058}
+  - chapter: 788
+    title: "凤溪大长老神威"
+    sha256: c9d5dcdc5fa10f4562bd9f8593f2d49366e91b1144c11bbd74ead05bbd503dce
+    source_line_range: {start: 85635, end: 85716}
+    source_char_range: {start: 1793058, end: 1795255}
+  - chapter: 789
+    title: "轩辕家同意"
+    sha256: b1a46e241e348eca9129e5b1875374ca2ae5758c9b0d101a42adf01272f4da85
+    source_line_range: {start: 85719, end: 85804}
+    source_char_range: {start: 1795255, end: 1797375}
+  - chapter: 790
+    title: "预定道侣"
+    sha256: ff146747abcf74ed4157c93021b8b81112b9a15f6fb1abf9c48406fce3eef0d5
+    source_line_range: {start: 85807, end: 85895}
+    source_char_range: {start: 1797375, end: 1799495}
+  - chapter: 791
+    title: "千万不用客气"
+    sha256: fd7bb7d17128267e54092533790197a0cc8f39274c31df75b9608400db6f800b
+    source_line_range: {start: 85898, end: 85967}
+    source_char_range: {start: 1799495, end: 1801726}
+  - chapter: 792
+    title: "略微出手摆平"
+    sha256: 1ed4124cd624b40f3b1d6b436aad7c9b30c7ec501211d1633d55af7922252ee0
+    source_line_range: {start: 85970, end: 86050}
+    source_char_range: {start: 1801726, end: 1803940}
+  - chapter: 793
+    title: "姬雪动向"
+    sha256: acfc263bb5a06e06d7c8ec45e8635c597004eb8d48647cb2252ffbc19ffeab9f
+    source_line_range: {start: 86053, end: 86126}
+    source_char_range: {start: 1803940, end: 1806120}
+  - chapter: 794
+    title: "雪瑶仙帝"
+    sha256: 3874269a44b383fedd95aa01b819bbb041b6299acf48def44c6d2f53d7c745d6
+    source_line_range: {start: 86129, end: 86241}
+    source_char_range: {start: 1806120, end: 1808872}
+  - chapter: 795
+    title: "两件大事"
+    sha256: 302bc737d932409db6e981b4292b2fd8f40c5312a96e3fdc36eddf562a36d271
+    source_line_range: {start: 86244, end: 86320}
+    source_char_range: {start: 1808872, end: 1810949}
+  - chapter: 796
+    title: "四大太上长老"
+    sha256: 63d6b20719dd33ecb248e4e05ab133d58eaf83d65fd218f2cfe54823451f4a5a
+    source_line_range: {start: 86323, end: 86401}
+    source_char_range: {start: 1810949, end: 1813272}
+  - chapter: 797
+    title: "送礼彻底摆平"
+    sha256: 22f2335911031032c7a1a1439da8b01ccb71eee49ddf446fef9d9c0ab2949159
+    source_line_range: {start: 86404, end: 86474}
+    source_char_range: {start: 1813272, end: 1815395}
+  - chapter: 798
+    title: "上古祖凤血丹"
+    sha256: 66212d29be4aa40b41319c10295dce5e8a33a109dbe3fb6629fec3c923585a9f
+    source_line_range: {start: 86477, end: 86559}
+    source_char_range: {start: 1815395, end: 1817635}
+  - chapter: 799
+    title: "跟着徐哥混，三天饱十顿"
+    sha256: 1ab4da5ac7a0a074729c2c6a8c9af3f2a02995dfccc3670f9e44adb99bfe5295
+    source_line_range: {start: 86562, end: 86644}
+    source_char_range: {start: 1817635, end: 1819719}
+  - chapter: 800
+    title: "飘雪仙域一手情报"
+    sha256: d01eccc88b1f89041a452678317e3f265654b6e2121629b065ae061232602d1b
+    source_line_range: {start: 86647, end: 86725}
+    source_char_range: {start: 1819719, end: 1822092}

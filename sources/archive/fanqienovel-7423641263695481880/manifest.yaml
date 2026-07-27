@@ -1,0 +1,3174 @@
+schema_version: 1
+source_id: fanqienovel-7423641263695481880
+source_url: "https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt"
+storage_policy: metadata_only_no_full_chapter_text
+download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+download_bytes: 5689775
+decoded_encoding: utf-8-sig
+detected_sequence_count: 525
+selected_sequence: 525
+selection_rule: complete_review_window_then_largest_text_payload
+detected_sequences:
+  - index: 1
+    chapter_first: 1
+    chapter_last: 1
+    chapter_count: 1
+    total_chars: 11
+    median_chapter_chars: 11
+  - index: 2
+    chapter_first: 1
+    chapter_last: 2
+    chapter_count: 2
+    total_chars: 2533
+    median_chapter_chars: 1266
+  - index: 3
+    chapter_first: 2
+    chapter_last: 3
+    chapter_count: 2
+    total_chars: 2102
+    median_chapter_chars: 1051
+  - index: 4
+    chapter_first: 3
+    chapter_last: 4
+    chapter_count: 2
+    total_chars: 2136
+    median_chapter_chars: 1068
+  - index: 5
+    chapter_first: 4
+    chapter_last: 5
+    chapter_count: 2
+    total_chars: 2327
+    median_chapter_chars: 1163
+  - index: 6
+    chapter_first: 5
+    chapter_last: 6
+    chapter_count: 2
+    total_chars: 2542
+    median_chapter_chars: 1271
+  - index: 7
+    chapter_first: 6
+    chapter_last: 7
+    chapter_count: 2
+    total_chars: 2585
+    median_chapter_chars: 1292
+  - index: 8
+    chapter_first: 7
+    chapter_last: 8
+    chapter_count: 2
+    total_chars: 2291
+    median_chapter_chars: 1145
+  - index: 9
+    chapter_first: 8
+    chapter_last: 9
+    chapter_count: 2
+    total_chars: 2184
+    median_chapter_chars: 1092
+  - index: 10
+    chapter_first: 9
+    chapter_last: 10
+    chapter_count: 2
+    total_chars: 2478
+    median_chapter_chars: 1239
+  - index: 11
+    chapter_first: 10
+    chapter_last: 11
+    chapter_count: 2
+    total_chars: 2187
+    median_chapter_chars: 1093
+  - index: 12
+    chapter_first: 11
+    chapter_last: 12
+    chapter_count: 2
+    total_chars: 2236
+    median_chapter_chars: 1118
+  - index: 13
+    chapter_first: 12
+    chapter_last: 13
+    chapter_count: 2
+    total_chars: 2034
+    median_chapter_chars: 1017
+  - index: 14
+    chapter_first: 13
+    chapter_last: 14
+    chapter_count: 2
+    total_chars: 1538
+    median_chapter_chars: 769
+  - index: 15
+    chapter_first: 14
+    chapter_last: 15
+    chapter_count: 2
+    total_chars: 1494
+    median_chapter_chars: 747
+  - index: 16
+    chapter_first: 15
+    chapter_last: 16
+    chapter_count: 2
+    total_chars: 2258
+    median_chapter_chars: 1129
+  - index: 17
+    chapter_first: 16
+    chapter_last: 17
+    chapter_count: 2
+    total_chars: 2064
+    median_chapter_chars: 1032
+  - index: 18
+    chapter_first: 17
+    chapter_last: 18
+    chapter_count: 2
+    total_chars: 1857
+    median_chapter_chars: 928
+  - index: 19
+    chapter_first: 18
+    chapter_last: 19
+    chapter_count: 2
+    total_chars: 2022
+    median_chapter_chars: 1011
+  - index: 20
+    chapter_first: 19
+    chapter_last: 20
+    chapter_count: 2
+    total_chars: 2205
+    median_chapter_chars: 1102
+  - index: 21
+    chapter_first: 20
+    chapter_last: 21
+    chapter_count: 2
+    total_chars: 2112
+    median_chapter_chars: 1056
+  - index: 22
+    chapter_first: 21
+    chapter_last: 22
+    chapter_count: 2
+    total_chars: 2249
+    median_chapter_chars: 1124
+  - index: 23
+    chapter_first: 22
+    chapter_last: 23
+    chapter_count: 2
+    total_chars: 2051
+    median_chapter_chars: 1025
+  - index: 24
+    chapter_first: 23
+    chapter_last: 24
+    chapter_count: 2
+    total_chars: 2011
+    median_chapter_chars: 1005
+  - index: 25
+    chapter_first: 24
+    chapter_last: 25
+    chapter_count: 2
+    total_chars: 1993
+    median_chapter_chars: 996
+  - index: 26
+    chapter_first: 25
+    chapter_last: 26
+    chapter_count: 2
+    total_chars: 1775
+    median_chapter_chars: 887
+  - index: 27
+    chapter_first: 26
+    chapter_last: 27
+    chapter_count: 2
+    total_chars: 2233
+    median_chapter_chars: 1116
+  - index: 28
+    chapter_first: 27
+    chapter_last: 28
+    chapter_count: 2
+    total_chars: 2280
+    median_chapter_chars: 1140
+  - index: 29
+    chapter_first: 28
+    chapter_last: 29
+    chapter_count: 2
+    total_chars: 2155
+    median_chapter_chars: 1077
+  - index: 30
+    chapter_first: 29
+    chapter_last: 30
+    chapter_count: 2
+    total_chars: 2166
+    median_chapter_chars: 1083
+  - index: 31
+    chapter_first: 30
+    chapter_last: 31
+    chapter_count: 2
+    total_chars: 2302
+    median_chapter_chars: 1151
+  - index: 32
+    chapter_first: 31
+    chapter_last: 32
+    chapter_count: 2
+    total_chars: 2222
+    median_chapter_chars: 1111
+  - index: 33
+    chapter_first: 32
+    chapter_last: 33
+    chapter_count: 2
+    total_chars: 2058
+    median_chapter_chars: 1029
+  - index: 34
+    chapter_first: 33
+    chapter_last: 34
+    chapter_count: 2
+    total_chars: 2213
+    median_chapter_chars: 1106
+  - index: 35
+    chapter_first: 34
+    chapter_last: 35
+    chapter_count: 2
+    total_chars: 2261
+    median_chapter_chars: 1130
+  - index: 36
+    chapter_first: 35
+    chapter_last: 36
+    chapter_count: 2
+    total_chars: 1855
+    median_chapter_chars: 927
+  - index: 37
+    chapter_first: 36
+    chapter_last: 37
+    chapter_count: 2
+    total_chars: 1865
+    median_chapter_chars: 932
+  - index: 38
+    chapter_first: 37
+    chapter_last: 38
+    chapter_count: 2
+    total_chars: 2214
+    median_chapter_chars: 1107
+  - index: 39
+    chapter_first: 38
+    chapter_last: 39
+    chapter_count: 2
+    total_chars: 1835
+    median_chapter_chars: 917
+  - index: 40
+    chapter_first: 39
+    chapter_last: 40
+    chapter_count: 2
+    total_chars: 2200
+    median_chapter_chars: 1100
+  - index: 41
+    chapter_first: 40
+    chapter_last: 41
+    chapter_count: 2
+    total_chars: 2176
+    median_chapter_chars: 1088
+  - index: 42
+    chapter_first: 41
+    chapter_last: 42
+    chapter_count: 2
+    total_chars: 2209
+    median_chapter_chars: 1104
+  - index: 43
+    chapter_first: 42
+    chapter_last: 43
+    chapter_count: 2
+    total_chars: 2043
+    median_chapter_chars: 1021
+  - index: 44
+    chapter_first: 43
+    chapter_last: 44
+    chapter_count: 2
+    total_chars: 1906
+    median_chapter_chars: 953
+  - index: 45
+    chapter_first: 44
+    chapter_last: 45
+    chapter_count: 2
+    total_chars: 2171
+    median_chapter_chars: 1085
+  - index: 46
+    chapter_first: 45
+    chapter_last: 46
+    chapter_count: 2
+    total_chars: 2208
+    median_chapter_chars: 1104
+  - index: 47
+    chapter_first: 46
+    chapter_last: 47
+    chapter_count: 2
+    total_chars: 2193
+    median_chapter_chars: 1096
+  - index: 48
+    chapter_first: 47
+    chapter_last: 48
+    chapter_count: 2
+    total_chars: 2498
+    median_chapter_chars: 1249
+  - index: 49
+    chapter_first: 48
+    chapter_last: 49
+    chapter_count: 2
+    total_chars: 2242
+    median_chapter_chars: 1121
+  - index: 50
+    chapter_first: 49
+    chapter_last: 50
+    chapter_count: 2
+    total_chars: 2467
+    median_chapter_chars: 1233
+  - index: 51
+    chapter_first: 50
+    chapter_last: 51
+    chapter_count: 2
+    total_chars: 2073
+    median_chapter_chars: 1036
+  - index: 52
+    chapter_first: 51
+    chapter_last: 52
+    chapter_count: 2
+    total_chars: 1943
+    median_chapter_chars: 971
+  - index: 53
+    chapter_first: 52
+    chapter_last: 53
+    chapter_count: 2
+    total_chars: 1882
+    median_chapter_chars: 941
+  - index: 54
+    chapter_first: 53
+    chapter_last: 54
+    chapter_count: 2
+    total_chars: 2242
+    median_chapter_chars: 1121
+  - index: 55
+    chapter_first: 54
+    chapter_last: 55
+    chapter_count: 2
+    total_chars: 1775
+    median_chapter_chars: 887
+  - index: 56
+    chapter_first: 55
+    chapter_last: 56
+    chapter_count: 2
+    total_chars: 2978
+    median_chapter_chars: 1489
+  - index: 57
+    chapter_first: 56
+    chapter_last: 57
+    chapter_count: 2
+    total_chars: 2203
+    median_chapter_chars: 1101
+  - index: 58
+    chapter_first: 57
+    chapter_last: 58
+    chapter_count: 2
+    total_chars: 1990
+    median_chapter_chars: 995
+  - index: 59
+    chapter_first: 58
+    chapter_last: 59
+    chapter_count: 2
+    total_chars: 2285
+    median_chapter_chars: 1142
+  - index: 60
+    chapter_first: 59
+    chapter_last: 60
+    chapter_count: 2
+    total_chars: 1608
+    median_chapter_chars: 804
+  - index: 61
+    chapter_first: 60
+    chapter_last: 61
+    chapter_count: 2
+    total_chars: 2072
+    median_chapter_chars: 1036
+  - index: 62
+    chapter_first: 61
+    chapter_last: 62
+    chapter_count: 2
+    total_chars: 2066
+    median_chapter_chars: 1033
+  - index: 63
+    chapter_first: 62
+    chapter_last: 63
+    chapter_count: 2
+    total_chars: 2267
+    median_chapter_chars: 1133
+  - index: 64
+    chapter_first: 63
+    chapter_last: 64
+    chapter_count: 2
+    total_chars: 1824
+    median_chapter_chars: 912
+  - index: 65
+    chapter_first: 64
+    chapter_last: 65
+    chapter_count: 2
+    total_chars: 2018
+    median_chapter_chars: 1009
+  - index: 66
+    chapter_first: 65
+    chapter_last: 66
+    chapter_count: 2
+    total_chars: 2203
+    median_chapter_chars: 1101
+  - index: 67
+    chapter_first: 66
+    chapter_last: 67
+    chapter_count: 2
+    total_chars: 1912
+    median_chapter_chars: 956
+  - index: 68
+    chapter_first: 67
+    chapter_last: 68
+    chapter_count: 2
+    total_chars: 2248
+    median_chapter_chars: 1124
+  - index: 69
+    chapter_first: 68
+    chapter_last: 69
+    chapter_count: 2
+    total_chars: 2196
+    median_chapter_chars: 1098
+  - index: 70
+    chapter_first: 69
+    chapter_last: 70
+    chapter_count: 2
+    total_chars: 2229
+    median_chapter_chars: 1114
+  - index: 71
+    chapter_first: 70
+    chapter_last: 71
+    chapter_count: 2
+    total_chars: 1468
+    median_chapter_chars: 734
+  - index: 72
+    chapter_first: 71
+    chapter_last: 72
+    chapter_count: 2
+    total_chars: 1386
+    median_chapter_chars: 693
+  - index: 73
+    chapter_first: 72
+    chapter_last: 73
+    chapter_count: 2
+    total_chars: 2123
+    median_chapter_chars: 1061
+  - index: 74
+    chapter_first: 73
+    chapter_last: 74
+    chapter_count: 2
+    total_chars: 2646
+    median_chapter_chars: 1323
+  - index: 75
+    chapter_first: 74
+    chapter_last: 75
+    chapter_count: 2
+    total_chars: 2153
+    median_chapter_chars: 1076
+  - index: 76
+    chapter_first: 75
+    chapter_last: 76
+    chapter_count: 2
+    total_chars: 1154
+    median_chapter_chars: 577
+  - index: 77
+    chapter_first: 76
+    chapter_last: 77
+    chapter_count: 2
+    total_chars: 1458
+    median_chapter_chars: 729
+  - index: 78
+    chapter_first: 77
+    chapter_last: 78
+    chapter_count: 2
+    total_chars: 1453
+    median_chapter_chars: 726
+  - index: 79
+    chapter_first: 78
+    chapter_last: 79
+    chapter_count: 2
+    total_chars: 1980
+    median_chapter_chars: 990
+  - index: 80
+    chapter_first: 79
+    chapter_last: 80
+    chapter_count: 2
+    total_chars: 2529
+    median_chapter_chars: 1264
+  - index: 81
+    chapter_first: 80
+    chapter_last: 81
+    chapter_count: 2
+    total_chars: 2055
+    median_chapter_chars: 1027
+  - index: 82
+    chapter_first: 81
+    chapter_last: 82
+    chapter_count: 2
+    total_chars: 1994
+    median_chapter_chars: 997
+  - index: 83
+    chapter_first: 82
+    chapter_last: 83
+    chapter_count: 2
+    total_chars: 1693
+    median_chapter_chars: 846
+  - index: 84
+    chapter_first: 83
+    chapter_last: 84
+    chapter_count: 2
+    total_chars: 1761
+    median_chapter_chars: 880
+  - index: 85
+    chapter_first: 84
+    chapter_last: 85
+    chapter_count: 2
+    total_chars: 2092
+    median_chapter_chars: 1046
+  - index: 86
+    chapter_first: 85
+    chapter_last: 86
+    chapter_count: 2
+    total_chars: 2131
+    median_chapter_chars: 1065
+  - index: 87
+    chapter_first: 86
+    chapter_last: 87
+    chapter_count: 2
+    total_chars: 1711
+    median_chapter_chars: 855
+  - index: 88
+    chapter_first: 87
+    chapter_last: 88
+    chapter_count: 2
+    total_chars: 1902
+    median_chapter_chars: 951
+  - index: 89
+    chapter_first: 88
+    chapter_last: 89
+    chapter_count: 2
+    total_chars: 2010
+    median_chapter_chars: 1005
+  - index: 90
+    chapter_first: 89
+    chapter_last: 90
+    chapter_count: 2
+    total_chars: 2272
+    median_chapter_chars: 1136
+  - index: 91
+    chapter_first: 90
+    chapter_last: 91
+    chapter_count: 2
+    total_chars: 1735
+    median_chapter_chars: 867
+  - index: 92
+    chapter_first: 91
+    chapter_last: 92
+    chapter_count: 2
+    total_chars: 1680
+    median_chapter_chars: 840
+  - index: 93
+    chapter_first: 92
+    chapter_last: 93
+    chapter_count: 2
+    total_chars: 1427
+    median_chapter_chars: 713
+  - index: 94
+    chapter_first: 93
+    chapter_last: 94
+    chapter_count: 2
+    total_chars: 2139
+    median_chapter_chars: 1069
+  - index: 95
+    chapter_first: 94
+    chapter_last: 95
+    chapter_count: 2
+    total_chars: 2580
+    median_chapter_chars: 1290
+  - index: 96
+    chapter_first: 95
+    chapter_last: 96
+    chapter_count: 2
+    total_chars: 2427
+    median_chapter_chars: 1213
+  - index: 97
+    chapter_first: 96
+    chapter_last: 97
+    chapter_count: 2
+    total_chars: 2313
+    median_chapter_chars: 1156
+  - index: 98
+    chapter_first: 97
+    chapter_last: 98
+    chapter_count: 2
+    total_chars: 2260
+    median_chapter_chars: 1130
+  - index: 99
+    chapter_first: 98
+    chapter_last: 99
+    chapter_count: 2
+    total_chars: 2321
+    median_chapter_chars: 1160
+  - index: 100
+    chapter_first: 99
+    chapter_last: 100
+    chapter_count: 2
+    total_chars: 2002
+    median_chapter_chars: 1001
+  - index: 101
+    chapter_first: 100
+    chapter_last: 101
+    chapter_count: 2
+    total_chars: 2468
+    median_chapter_chars: 1234
+  - index: 102
+    chapter_first: 101
+    chapter_last: 102
+    chapter_count: 2
+    total_chars: 2436
+    median_chapter_chars: 1218
+  - index: 103
+    chapter_first: 102
+    chapter_last: 103
+    chapter_count: 2
+    total_chars: 2304
+    median_chapter_chars: 1152
+  - index: 104
+    chapter_first: 103
+    chapter_last: 104
+    chapter_count: 2
+    total_chars: 2274
+    median_chapter_chars: 1137
+  - index: 105
+    chapter_first: 104
+    chapter_last: 105
+    chapter_count: 2
+    total_chars: 3005
+    median_chapter_chars: 1502
+  - index: 106
+    chapter_first: 105
+    chapter_last: 106
+    chapter_count: 2
+    total_chars: 2222
+    median_chapter_chars: 1111
+  - index: 107
+    chapter_first: 106
+    chapter_last: 107
+    chapter_count: 2
+    total_chars: 2270
+    median_chapter_chars: 1135
+  - index: 108
+    chapter_first: 107
+    chapter_last: 108
+    chapter_count: 2
+    total_chars: 2266
+    median_chapter_chars: 1133
+  - index: 109
+    chapter_first: 108
+    chapter_last: 109
+    chapter_count: 2
+    total_chars: 2319
+    median_chapter_chars: 1159
+  - index: 110
+    chapter_first: 109
+    chapter_last: 110
+    chapter_count: 2
+    total_chars: 2737
+    median_chapter_chars: 1368
+  - index: 111
+    chapter_first: 110
+    chapter_last: 111
+    chapter_count: 2
+    total_chars: 2124
+    median_chapter_chars: 1062
+  - index: 112
+    chapter_first: 111
+    chapter_last: 112
+    chapter_count: 2
+    total_chars: 2260
+    median_chapter_chars: 1130
+  - index: 113
+    chapter_first: 112
+    chapter_last: 113
+    chapter_count: 2
+    total_chars: 2722
+    median_chapter_chars: 1361
+  - index: 114
+    chapter_first: 113
+    chapter_last: 114
+    chapter_count: 2
+    total_chars: 2220
+    median_chapter_chars: 1110
+  - index: 115
+    chapter_first: 114
+    chapter_last: 115
+    chapter_count: 2
+    total_chars: 2138
+    median_chapter_chars: 1069
+  - index: 116
+    chapter_first: 115
+    chapter_last: 116
+    chapter_count: 2
+    total_chars: 2186
+    median_chapter_chars: 1093
+  - index: 117
+    chapter_first: 116
+    chapter_last: 117
+    chapter_count: 2
+    total_chars: 2353
+    median_chapter_chars: 1176
+  - index: 118
+    chapter_first: 117
+    chapter_last: 118
+    chapter_count: 2
+    total_chars: 2192
+    median_chapter_chars: 1096
+  - index: 119
+    chapter_first: 118
+    chapter_last: 119
+    chapter_count: 2
+    total_chars: 2893
+    median_chapter_chars: 1446
+  - index: 120
+    chapter_first: 119
+    chapter_last: 120
+    chapter_count: 2
+    total_chars: 2184
+    median_chapter_chars: 1092
+  - index: 121
+    chapter_first: 120
+    chapter_last: 121
+    chapter_count: 2
+    total_chars: 2715
+    median_chapter_chars: 1357
+  - index: 122
+    chapter_first: 121
+    chapter_last: 122
+    chapter_count: 2
+    total_chars: 2645
+    median_chapter_chars: 1322
+  - index: 123
+    chapter_first: 122
+    chapter_last: 123
+    chapter_count: 2
+    total_chars: 2290
+    median_chapter_chars: 1145
+  - index: 124
+    chapter_first: 123
+    chapter_last: 124
+    chapter_count: 2
+    total_chars: 2302
+    median_chapter_chars: 1151
+  - index: 125
+    chapter_first: 124
+    chapter_last: 125
+    chapter_count: 2
+    total_chars: 2962
+    median_chapter_chars: 1481
+  - index: 126
+    chapter_first: 125
+    chapter_last: 126
+    chapter_count: 2
+    total_chars: 2462
+    median_chapter_chars: 1231
+  - index: 127
+    chapter_first: 126
+    chapter_last: 127
+    chapter_count: 2
+    total_chars: 2284
+    median_chapter_chars: 1142
+  - index: 128
+    chapter_first: 127
+    chapter_last: 128
+    chapter_count: 2
+    total_chars: 3136
+    median_chapter_chars: 1568
+  - index: 129
+    chapter_first: 128
+    chapter_last: 129
+    chapter_count: 2
+    total_chars: 2385
+    median_chapter_chars: 1192
+  - index: 130
+    chapter_first: 129
+    chapter_last: 130
+    chapter_count: 2
+    total_chars: 2238
+    median_chapter_chars: 1119
+  - index: 131
+    chapter_first: 130
+    chapter_last: 131
+    chapter_count: 2
+    total_chars: 2546
+    median_chapter_chars: 1273
+  - index: 132
+    chapter_first: 131
+    chapter_last: 132
+    chapter_count: 2
+    total_chars: 2232
+    median_chapter_chars: 1116
+  - index: 133
+    chapter_first: 132
+    chapter_last: 133
+    chapter_count: 2
+    total_chars: 2476
+    median_chapter_chars: 1238
+  - index: 134
+    chapter_first: 133
+    chapter_last: 134
+    chapter_count: 2
+    total_chars: 2555
+    median_chapter_chars: 1277
+  - index: 135
+    chapter_first: 134
+    chapter_last: 135
+    chapter_count: 2
+    total_chars: 2203
+    median_chapter_chars: 1101
+  - index: 136
+    chapter_first: 135
+    chapter_last: 136
+    chapter_count: 2
+    total_chars: 2408
+    median_chapter_chars: 1204
+  - index: 137
+    chapter_first: 136
+    chapter_last: 137
+    chapter_count: 2
+    total_chars: 2382
+    median_chapter_chars: 1191
+  - index: 138
+    chapter_first: 137
+    chapter_last: 138
+    chapter_count: 2
+    total_chars: 2364
+    median_chapter_chars: 1182
+  - index: 139
+    chapter_first: 138
+    chapter_last: 139
+    chapter_count: 2
+    total_chars: 2613
+    median_chapter_chars: 1306
+  - index: 140
+    chapter_first: 139
+    chapter_last: 140
+    chapter_count: 2
+    total_chars: 2539
+    median_chapter_chars: 1269
+  - index: 141
+    chapter_first: 140
+    chapter_last: 141
+    chapter_count: 2
+    total_chars: 2172
+    median_chapter_chars: 1086
+  - index: 142
+    chapter_first: 141
+    chapter_last: 142
+    chapter_count: 2
+    total_chars: 2344
+    median_chapter_chars: 1172
+  - index: 143
+    chapter_first: 142
+    chapter_last: 143
+    chapter_count: 2
+    total_chars: 2864
+    median_chapter_chars: 1432
+  - index: 144
+    chapter_first: 143
+    chapter_last: 144
+    chapter_count: 2
+    total_chars: 2205
+    median_chapter_chars: 1102
+  - index: 145
+    chapter_first: 144
+    chapter_last: 145
+    chapter_count: 2
+    total_chars: 2372
+    median_chapter_chars: 1186
+  - index: 146
+    chapter_first: 145
+    chapter_last: 146
+    chapter_count: 2
+    total_chars: 2193
+    median_chapter_chars: 1096
+  - index: 147
+    chapter_first: 146
+    chapter_last: 147
+    chapter_count: 2
+    total_chars: 2017
+    median_chapter_chars: 1008
+  - index: 148
+    chapter_first: 147
+    chapter_last: 148
+    chapter_count: 2
+    total_chars: 2081
+    median_chapter_chars: 1040
+  - index: 149
+    chapter_first: 148
+    chapter_last: 149
+    chapter_count: 2
+    total_chars: 2737
+    median_chapter_chars: 1368
+  - index: 150
+    chapter_first: 149
+    chapter_last: 150
+    chapter_count: 2
+    total_chars: 2278
+    median_chapter_chars: 1139
+  - index: 151
+    chapter_first: 150
+    chapter_last: 151
+    chapter_count: 2
+    total_chars: 2229
+    median_chapter_chars: 1114
+  - index: 152
+    chapter_first: 151
+    chapter_last: 152
+    chapter_count: 2
+    total_chars: 2366
+    median_chapter_chars: 1183
+  - index: 153
+    chapter_first: 152
+    chapter_last: 153
+    chapter_count: 2
+    total_chars: 2298
+    median_chapter_chars: 1149
+  - index: 154
+    chapter_first: 153
+    chapter_last: 154
+    chapter_count: 2
+    total_chars: 2398
+    median_chapter_chars: 1199
+  - index: 155
+    chapter_first: 154
+    chapter_last: 155
+    chapter_count: 2
+    total_chars: 2264
+    median_chapter_chars: 1132
+  - index: 156
+    chapter_first: 155
+    chapter_last: 156
+    chapter_count: 2
+    total_chars: 2227
+    median_chapter_chars: 1113
+  - index: 157
+    chapter_first: 156
+    chapter_last: 157
+    chapter_count: 2
+    total_chars: 2269
+    median_chapter_chars: 1134
+  - index: 158
+    chapter_first: 157
+    chapter_last: 158
+    chapter_count: 2
+    total_chars: 2507
+    median_chapter_chars: 1253
+  - index: 159
+    chapter_first: 158
+    chapter_last: 159
+    chapter_count: 2
+    total_chars: 2147
+    median_chapter_chars: 1073
+  - index: 160
+    chapter_first: 159
+    chapter_last: 160
+    chapter_count: 2
+    total_chars: 2260
+    median_chapter_chars: 1130
+  - index: 161
+    chapter_first: 160
+    chapter_last: 161
+    chapter_count: 2
+    total_chars: 2388
+    median_chapter_chars: 1194
+  - index: 162
+    chapter_first: 161
+    chapter_last: 162
+    chapter_count: 2
+    total_chars: 2273
+    median_chapter_chars: 1136
+  - index: 163
+    chapter_first: 162
+    chapter_last: 163
+    chapter_count: 2
+    total_chars: 2284
+    median_chapter_chars: 1142
+  - index: 164
+    chapter_first: 163
+    chapter_last: 164
+    chapter_count: 2
+    total_chars: 2287
+    median_chapter_chars: 1143
+  - index: 165
+    chapter_first: 164
+    chapter_last: 165
+    chapter_count: 2
+    total_chars: 2163
+    median_chapter_chars: 1081
+  - index: 166
+    chapter_first: 165
+    chapter_last: 166
+    chapter_count: 2
+    total_chars: 2163
+    median_chapter_chars: 1081
+  - index: 167
+    chapter_first: 166
+    chapter_last: 167
+    chapter_count: 2
+    total_chars: 2190
+    median_chapter_chars: 1095
+  - index: 168
+    chapter_first: 167
+    chapter_last: 168
+    chapter_count: 2
+    total_chars: 2231
+    median_chapter_chars: 1115
+  - index: 169
+    chapter_first: 168
+    chapter_last: 169
+    chapter_count: 2
+    total_chars: 2237
+    median_chapter_chars: 1118
+  - index: 170
+    chapter_first: 169
+    chapter_last: 170
+    chapter_count: 2
+    total_chars: 2428
+    median_chapter_chars: 1214
+  - index: 171
+    chapter_first: 170
+    chapter_last: 171
+    chapter_count: 2
+    total_chars: 2288
+    median_chapter_chars: 1144
+  - index: 172
+    chapter_first: 171
+    chapter_last: 172
+    chapter_count: 2
+    total_chars: 2147
+    median_chapter_chars: 1073
+  - index: 173
+    chapter_first: 172
+    chapter_last: 173
+    chapter_count: 2
+    total_chars: 2323
+    median_chapter_chars: 1161
+  - index: 174
+    chapter_first: 173
+    chapter_last: 174
+    chapter_count: 2
+    total_chars: 2132
+    median_chapter_chars: 1066
+  - index: 175
+    chapter_first: 174
+    chapter_last: 175
+    chapter_count: 2
+    total_chars: 2060
+    median_chapter_chars: 1030
+  - index: 176
+    chapter_first: 175
+    chapter_last: 176
+    chapter_count: 2
+    total_chars: 2858
+    median_chapter_chars: 1429
+  - index: 177
+    chapter_first: 176
+    chapter_last: 177
+    chapter_count: 2
+    total_chars: 2218
+    median_chapter_chars: 1109
+  - index: 178
+    chapter_first: 177
+    chapter_last: 178
+    chapter_count: 2
+    total_chars: 2027
+    median_chapter_chars: 1013
+  - index: 179
+    chapter_first: 178
+    chapter_last: 179
+    chapter_count: 2
+    total_chars: 2401
+    median_chapter_chars: 1200
+  - index: 180
+    chapter_first: 179
+    chapter_last: 180
+    chapter_count: 2
+    total_chars: 2183
+    median_chapter_chars: 1091
+  - index: 181
+    chapter_first: 180
+    chapter_last: 181
+    chapter_count: 2
+    total_chars: 2220
+    median_chapter_chars: 1110
+  - index: 182
+    chapter_first: 181
+    chapter_last: 182
+    chapter_count: 2
+    total_chars: 2480
+    median_chapter_chars: 1240
+  - index: 183
+    chapter_first: 182
+    chapter_last: 183
+    chapter_count: 2
+    total_chars: 2230
+    median_chapter_chars: 1115
+  - index: 184
+    chapter_first: 183
+    chapter_last: 184
+    chapter_count: 2
+    total_chars: 2270
+    median_chapter_chars: 1135
+  - index: 185
+    chapter_first: 184
+    chapter_last: 185
+    chapter_count: 2
+    total_chars: 2339
+    median_chapter_chars: 1169
+  - index: 186
+    chapter_first: 185
+    chapter_last: 186
+    chapter_count: 2
+    total_chars: 2416
+    median_chapter_chars: 1208
+  - index: 187
+    chapter_first: 186
+    chapter_last: 187
+    chapter_count: 2
+    total_chars: 2289
+    median_chapter_chars: 1144
+  - index: 188
+    chapter_first: 187
+    chapter_last: 188
+    chapter_count: 2
+    total_chars: 2358
+    median_chapter_chars: 1179
+  - index: 189
+    chapter_first: 188
+    chapter_last: 189
+    chapter_count: 2
+    total_chars: 2273
+    median_chapter_chars: 1136
+  - index: 190
+    chapter_first: 189
+    chapter_last: 190
+    chapter_count: 2
+    total_chars: 2172
+    median_chapter_chars: 1086
+  - index: 191
+    chapter_first: 190
+    chapter_last: 191
+    chapter_count: 2
+    total_chars: 2287
+    median_chapter_chars: 1143
+  - index: 192
+    chapter_first: 191
+    chapter_last: 192
+    chapter_count: 2
+    total_chars: 2177
+    median_chapter_chars: 1088
+  - index: 193
+    chapter_first: 192
+    chapter_last: 193
+    chapter_count: 2
+    total_chars: 2151
+    median_chapter_chars: 1075
+  - index: 194
+    chapter_first: 193
+    chapter_last: 194
+    chapter_count: 2
+    total_chars: 1840
+    median_chapter_chars: 920
+  - index: 195
+    chapter_first: 194
+    chapter_last: 195
+    chapter_count: 2
+    total_chars: 2107
+    median_chapter_chars: 1053
+  - index: 196
+    chapter_first: 195
+    chapter_last: 196
+    chapter_count: 2
+    total_chars: 2235
+    median_chapter_chars: 1117
+  - index: 197
+    chapter_first: 196
+    chapter_last: 197
+    chapter_count: 2
+    total_chars: 2208
+    median_chapter_chars: 1104
+  - index: 198
+    chapter_first: 197
+    chapter_last: 198
+    chapter_count: 2
+    total_chars: 3076
+    median_chapter_chars: 1538
+  - index: 199
+    chapter_first: 198
+    chapter_last: 199
+    chapter_count: 2
+    total_chars: 2249
+    median_chapter_chars: 1124
+  - index: 200
+    chapter_first: 199
+    chapter_last: 200
+    chapter_count: 2
+    total_chars: 2288
+    median_chapter_chars: 1144
+  - index: 201
+    chapter_first: 200
+    chapter_last: 201
+    chapter_count: 2
+    total_chars: 2988
+    median_chapter_chars: 1494
+  - index: 202
+    chapter_first: 201
+    chapter_last: 202
+    chapter_count: 2
+    total_chars: 2276
+    median_chapter_chars: 1138
+  - index: 203
+    chapter_first: 202
+    chapter_last: 203
+    chapter_count: 2
+    total_chars: 2309
+    median_chapter_chars: 1154
+  - index: 204
+    chapter_first: 203
+    chapter_last: 204
+    chapter_count: 2
+    total_chars: 2319
+    median_chapter_chars: 1159
+  - index: 205
+    chapter_first: 204
+    chapter_last: 205
+    chapter_count: 2
+    total_chars: 2279
+    median_chapter_chars: 1139
+  - index: 206
+    chapter_first: 205
+    chapter_last: 206
+    chapter_count: 2
+    total_chars: 2194
+    median_chapter_chars: 1097
+  - index: 207
+    chapter_first: 206
+    chapter_last: 207
+    chapter_count: 2
+    total_chars: 2567
+    median_chapter_chars: 1283
+  - index: 208
+    chapter_first: 207
+    chapter_last: 208
+    chapter_count: 2
+    total_chars: 2156
+    median_chapter_chars: 1078
+  - index: 209
+    chapter_first: 208
+    chapter_last: 209
+    chapter_count: 2
+    total_chars: 2255
+    median_chapter_chars: 1127
+  - index: 210
+    chapter_first: 209
+    chapter_last: 210
+    chapter_count: 2
+    total_chars: 2589
+    median_chapter_chars: 1294
+  - index: 211
+    chapter_first: 210
+    chapter_last: 211
+    chapter_count: 2
+    total_chars: 2296
+    median_chapter_chars: 1148
+  - index: 212
+    chapter_first: 211
+    chapter_last: 212
+    chapter_count: 2
+    total_chars: 2385
+    median_chapter_chars: 1192
+  - index: 213
+    chapter_first: 212
+    chapter_last: 213
+    chapter_count: 2
+    total_chars: 2164
+    median_chapter_chars: 1082
+  - index: 214
+    chapter_first: 213
+    chapter_last: 214
+    chapter_count: 2
+    total_chars: 2107
+    median_chapter_chars: 1053
+  - index: 215
+    chapter_first: 214
+    chapter_last: 215
+    chapter_count: 2
+    total_chars: 2203
+    median_chapter_chars: 1101
+  - index: 216
+    chapter_first: 215
+    chapter_last: 216
+    chapter_count: 2
+    total_chars: 2126
+    median_chapter_chars: 1063
+  - index: 217
+    chapter_first: 216
+    chapter_last: 217
+    chapter_count: 2
+    total_chars: 2215
+    median_chapter_chars: 1107
+  - index: 218
+    chapter_first: 217
+    chapter_last: 218
+    chapter_count: 2
+    total_chars: 2200
+    median_chapter_chars: 1100
+  - index: 219
+    chapter_first: 218
+    chapter_last: 219
+    chapter_count: 2
+    total_chars: 2309
+    median_chapter_chars: 1154
+  - index: 220
+    chapter_first: 219
+    chapter_last: 220
+    chapter_count: 2
+    total_chars: 2157
+    median_chapter_chars: 1078
+  - index: 221
+    chapter_first: 220
+    chapter_last: 221
+    chapter_count: 2
+    total_chars: 2205
+    median_chapter_chars: 1102
+  - index: 222
+    chapter_first: 221
+    chapter_last: 222
+    chapter_count: 2
+    total_chars: 2677
+    median_chapter_chars: 1338
+  - index: 223
+    chapter_first: 222
+    chapter_last: 223
+    chapter_count: 2
+    total_chars: 2249
+    median_chapter_chars: 1124
+  - index: 224
+    chapter_first: 223
+    chapter_last: 224
+    chapter_count: 2
+    total_chars: 2265
+    median_chapter_chars: 1132
+  - index: 225
+    chapter_first: 224
+    chapter_last: 225
+    chapter_count: 2
+    total_chars: 2700
+    median_chapter_chars: 1350
+  - index: 226
+    chapter_first: 225
+    chapter_last: 226
+    chapter_count: 2
+    total_chars: 2185
+    median_chapter_chars: 1092
+  - index: 227
+    chapter_first: 226
+    chapter_last: 227
+    chapter_count: 2
+    total_chars: 2411
+    median_chapter_chars: 1205
+  - index: 228
+    chapter_first: 227
+    chapter_last: 228
+    chapter_count: 2
+    total_chars: 2214
+    median_chapter_chars: 1107
+  - index: 229
+    chapter_first: 228
+    chapter_last: 229
+    chapter_count: 2
+    total_chars: 2219
+    median_chapter_chars: 1109
+  - index: 230
+    chapter_first: 229
+    chapter_last: 230
+    chapter_count: 2
+    total_chars: 2278
+    median_chapter_chars: 1139
+  - index: 231
+    chapter_first: 230
+    chapter_last: 231
+    chapter_count: 2
+    total_chars: 2536
+    median_chapter_chars: 1268
+  - index: 232
+    chapter_first: 231
+    chapter_last: 232
+    chapter_count: 2
+    total_chars: 2242
+    median_chapter_chars: 1121
+  - index: 233
+    chapter_first: 232
+    chapter_last: 233
+    chapter_count: 2
+    total_chars: 2143
+    median_chapter_chars: 1071
+  - index: 234
+    chapter_first: 233
+    chapter_last: 234
+    chapter_count: 2
+    total_chars: 2294
+    median_chapter_chars: 1147
+  - index: 235
+    chapter_first: 234
+    chapter_last: 235
+    chapter_count: 2
+    total_chars: 2320
+    median_chapter_chars: 1160
+  - index: 236
+    chapter_first: 235
+    chapter_last: 236
+    chapter_count: 2
+    total_chars: 2185
+    median_chapter_chars: 1092
+  - index: 237
+    chapter_first: 236
+    chapter_last: 237
+    chapter_count: 2
+    total_chars: 2436
+    median_chapter_chars: 1218
+  - index: 238
+    chapter_first: 237
+    chapter_last: 238
+    chapter_count: 2
+    total_chars: 2008
+    median_chapter_chars: 1004
+  - index: 239
+    chapter_first: 238
+    chapter_last: 239
+    chapter_count: 2
+    total_chars: 2359
+    median_chapter_chars: 1179
+  - index: 240
+    chapter_first: 239
+    chapter_last: 240
+    chapter_count: 2
+    total_chars: 3002
+    median_chapter_chars: 1501
+  - index: 241
+    chapter_first: 240
+    chapter_last: 241
+    chapter_count: 2
+    total_chars: 2265
+    median_chapter_chars: 1132
+  - index: 242
+    chapter_first: 241
+    chapter_last: 242
+    chapter_count: 2
+    total_chars: 2276
+    median_chapter_chars: 1138
+  - index: 243
+    chapter_first: 242
+    chapter_last: 243
+    chapter_count: 2
+    total_chars: 2952
+    median_chapter_chars: 1476
+  - index: 244
+    chapter_first: 243
+    chapter_last: 244
+    chapter_count: 2
+    total_chars: 2333
+    median_chapter_chars: 1166
+  - index: 245
+    chapter_first: 244
+    chapter_last: 245
+    chapter_count: 2
+    total_chars: 2158
+    median_chapter_chars: 1079
+  - index: 246
+    chapter_first: 245
+    chapter_last: 246
+    chapter_count: 2
+    total_chars: 2455
+    median_chapter_chars: 1227
+  - index: 247
+    chapter_first: 246
+    chapter_last: 247
+    chapter_count: 2
+    total_chars: 2225
+    median_chapter_chars: 1112
+  - index: 248
+    chapter_first: 247
+    chapter_last: 248
+    chapter_count: 2
+    total_chars: 2224
+    median_chapter_chars: 1112
+  - index: 249
+    chapter_first: 248
+    chapter_last: 249
+    chapter_count: 2
+    total_chars: 2897
+    median_chapter_chars: 1448
+  - index: 250
+    chapter_first: 249
+    chapter_last: 250
+    chapter_count: 2
+    total_chars: 2281
+    median_chapter_chars: 1140
+  - index: 251
+    chapter_first: 250
+    chapter_last: 251
+    chapter_count: 2
+    total_chars: 2241
+    median_chapter_chars: 1120
+  - index: 252
+    chapter_first: 251
+    chapter_last: 252
+    chapter_count: 2
+    total_chars: 2108
+    median_chapter_chars: 1054
+  - index: 253
+    chapter_first: 252
+    chapter_last: 253
+    chapter_count: 2
+    total_chars: 2156
+    median_chapter_chars: 1078
+  - index: 254
+    chapter_first: 253
+    chapter_last: 254
+    chapter_count: 2
+    total_chars: 2318
+    median_chapter_chars: 1159
+  - index: 255
+    chapter_first: 254
+    chapter_last: 255
+    chapter_count: 2
+    total_chars: 2823
+    median_chapter_chars: 1411
+  - index: 256
+    chapter_first: 255
+    chapter_last: 256
+    chapter_count: 2
+    total_chars: 2224
+    median_chapter_chars: 1112
+  - index: 257
+    chapter_first: 256
+    chapter_last: 257
+    chapter_count: 2
+    total_chars: 2132
+    median_chapter_chars: 1066
+  - index: 258
+    chapter_first: 257
+    chapter_last: 258
+    chapter_count: 2
+    total_chars: 2413
+    median_chapter_chars: 1206
+  - index: 259
+    chapter_first: 258
+    chapter_last: 259
+    chapter_count: 2
+    total_chars: 2295
+    median_chapter_chars: 1147
+  - index: 260
+    chapter_first: 259
+    chapter_last: 260
+    chapter_count: 2
+    total_chars: 2401
+    median_chapter_chars: 1200
+  - index: 261
+    chapter_first: 260
+    chapter_last: 261
+    chapter_count: 2
+    total_chars: 2163
+    median_chapter_chars: 1081
+  - index: 262
+    chapter_first: 261
+    chapter_last: 262
+    chapter_count: 2
+    total_chars: 2193
+    median_chapter_chars: 1096
+  - index: 263
+    chapter_first: 262
+    chapter_last: 263
+    chapter_count: 2
+    total_chars: 2120
+    median_chapter_chars: 1060
+  - index: 264
+    chapter_first: 263
+    chapter_last: 264
+    chapter_count: 2
+    total_chars: 2856
+    median_chapter_chars: 1428
+  - index: 265
+    chapter_first: 264
+    chapter_last: 265
+    chapter_count: 2
+    total_chars: 2162
+    median_chapter_chars: 1081
+  - index: 266
+    chapter_first: 265
+    chapter_last: 266
+    chapter_count: 2
+    total_chars: 2199
+    median_chapter_chars: 1099
+  - index: 267
+    chapter_first: 266
+    chapter_last: 267
+    chapter_count: 2
+    total_chars: 2464
+    median_chapter_chars: 1232
+  - index: 268
+    chapter_first: 267
+    chapter_last: 268
+    chapter_count: 2
+    total_chars: 2277
+    median_chapter_chars: 1138
+  - index: 269
+    chapter_first: 268
+    chapter_last: 269
+    chapter_count: 2
+    total_chars: 2307
+    median_chapter_chars: 1153
+  - index: 270
+    chapter_first: 269
+    chapter_last: 270
+    chapter_count: 2
+    total_chars: 2749
+    median_chapter_chars: 1374
+  - index: 271
+    chapter_first: 270
+    chapter_last: 271
+    chapter_count: 2
+    total_chars: 2233
+    median_chapter_chars: 1116
+  - index: 272
+    chapter_first: 271
+    chapter_last: 272
+    chapter_count: 2
+    total_chars: 2213
+    median_chapter_chars: 1106
+  - index: 273
+    chapter_first: 272
+    chapter_last: 273
+    chapter_count: 2
+    total_chars: 2443
+    median_chapter_chars: 1221
+  - index: 274
+    chapter_first: 273
+    chapter_last: 274
+    chapter_count: 2
+    total_chars: 2208
+    median_chapter_chars: 1104
+  - index: 275
+    chapter_first: 274
+    chapter_last: 275
+    chapter_count: 2
+    total_chars: 2376
+    median_chapter_chars: 1188
+  - index: 276
+    chapter_first: 275
+    chapter_last: 276
+    chapter_count: 2
+    total_chars: 2285
+    median_chapter_chars: 1142
+  - index: 277
+    chapter_first: 276
+    chapter_last: 277
+    chapter_count: 2
+    total_chars: 2280
+    median_chapter_chars: 1140
+  - index: 278
+    chapter_first: 277
+    chapter_last: 278
+    chapter_count: 2
+    total_chars: 2221
+    median_chapter_chars: 1110
+  - index: 279
+    chapter_first: 278
+    chapter_last: 279
+    chapter_count: 2
+    total_chars: 2150
+    median_chapter_chars: 1075
+  - index: 280
+    chapter_first: 279
+    chapter_last: 280
+    chapter_count: 2
+    total_chars: 2192
+    median_chapter_chars: 1096
+  - index: 281
+    chapter_first: 280
+    chapter_last: 281
+    chapter_count: 2
+    total_chars: 2180
+    median_chapter_chars: 1090
+  - index: 282
+    chapter_first: 281
+    chapter_last: 282
+    chapter_count: 2
+    total_chars: 2168
+    median_chapter_chars: 1084
+  - index: 283
+    chapter_first: 282
+    chapter_last: 283
+    chapter_count: 2
+    total_chars: 2061
+    median_chapter_chars: 1030
+  - index: 284
+    chapter_first: 283
+    chapter_last: 284
+    chapter_count: 2
+    total_chars: 2047
+    median_chapter_chars: 1023
+  - index: 285
+    chapter_first: 284
+    chapter_last: 285
+    chapter_count: 2
+    total_chars: 2867
+    median_chapter_chars: 1433
+  - index: 286
+    chapter_first: 285
+    chapter_last: 286
+    chapter_count: 2
+    total_chars: 2195
+    median_chapter_chars: 1097
+  - index: 287
+    chapter_first: 286
+    chapter_last: 287
+    chapter_count: 2
+    total_chars: 2244
+    median_chapter_chars: 1122
+  - index: 288
+    chapter_first: 287
+    chapter_last: 288
+    chapter_count: 2
+    total_chars: 2298
+    median_chapter_chars: 1149
+  - index: 289
+    chapter_first: 288
+    chapter_last: 289
+    chapter_count: 2
+    total_chars: 1922
+    median_chapter_chars: 961
+  - index: 290
+    chapter_first: 289
+    chapter_last: 290
+    chapter_count: 2
+    total_chars: 2317
+    median_chapter_chars: 1158
+  - index: 291
+    chapter_first: 290
+    chapter_last: 291
+    chapter_count: 2
+    total_chars: 2256
+    median_chapter_chars: 1128
+  - index: 292
+    chapter_first: 291
+    chapter_last: 292
+    chapter_count: 2
+    total_chars: 2292
+    median_chapter_chars: 1146
+  - index: 293
+    chapter_first: 292
+    chapter_last: 293
+    chapter_count: 2
+    total_chars: 2297
+    median_chapter_chars: 1148
+  - index: 294
+    chapter_first: 293
+    chapter_last: 294
+    chapter_count: 2
+    total_chars: 2274
+    median_chapter_chars: 1137
+  - index: 295
+    chapter_first: 294
+    chapter_last: 295
+    chapter_count: 2
+    total_chars: 2251
+    median_chapter_chars: 1125
+  - index: 296
+    chapter_first: 295
+    chapter_last: 296
+    chapter_count: 2
+    total_chars: 2228
+    median_chapter_chars: 1114
+  - index: 297
+    chapter_first: 296
+    chapter_last: 297
+    chapter_count: 2
+    total_chars: 2253
+    median_chapter_chars: 1126
+  - index: 298
+    chapter_first: 297
+    chapter_last: 298
+    chapter_count: 2
+    total_chars: 2169
+    median_chapter_chars: 1084
+  - index: 299
+    chapter_first: 298
+    chapter_last: 299
+    chapter_count: 2
+    total_chars: 2346
+    median_chapter_chars: 1173
+  - index: 300
+    chapter_first: 299
+    chapter_last: 300
+    chapter_count: 2
+    total_chars: 2300
+    median_chapter_chars: 1150
+  - index: 301
+    chapter_first: 300
+    chapter_last: 301
+    chapter_count: 2
+    total_chars: 2329
+    median_chapter_chars: 1164
+  - index: 302
+    chapter_first: 301
+    chapter_last: 302
+    chapter_count: 2
+    total_chars: 2291
+    median_chapter_chars: 1145
+  - index: 303
+    chapter_first: 302
+    chapter_last: 303
+    chapter_count: 2
+    total_chars: 2241
+    median_chapter_chars: 1120
+  - index: 304
+    chapter_first: 303
+    chapter_last: 304
+    chapter_count: 2
+    total_chars: 2301
+    median_chapter_chars: 1150
+  - index: 305
+    chapter_first: 304
+    chapter_last: 305
+    chapter_count: 2
+    total_chars: 2569
+    median_chapter_chars: 1284
+  - index: 306
+    chapter_first: 305
+    chapter_last: 306
+    chapter_count: 2
+    total_chars: 2400
+    median_chapter_chars: 1200
+  - index: 307
+    chapter_first: 306
+    chapter_last: 307
+    chapter_count: 2
+    total_chars: 2219
+    median_chapter_chars: 1109
+  - index: 308
+    chapter_first: 307
+    chapter_last: 308
+    chapter_count: 2
+    total_chars: 2180
+    median_chapter_chars: 1090
+  - index: 309
+    chapter_first: 308
+    chapter_last: 309
+    chapter_count: 2
+    total_chars: 2901
+    median_chapter_chars: 1450
+  - index: 310
+    chapter_first: 309
+    chapter_last: 310
+    chapter_count: 2
+    total_chars: 2226
+    median_chapter_chars: 1113
+  - index: 311
+    chapter_first: 310
+    chapter_last: 311
+    chapter_count: 2
+    total_chars: 2485
+    median_chapter_chars: 1242
+  - index: 312
+    chapter_first: 311
+    chapter_last: 312
+    chapter_count: 2
+    total_chars: 2436
+    median_chapter_chars: 1218
+  - index: 313
+    chapter_first: 312
+    chapter_last: 313
+    chapter_count: 2
+    total_chars: 2281
+    median_chapter_chars: 1140
+  - index: 314
+    chapter_first: 313
+    chapter_last: 314
+    chapter_count: 2
+    total_chars: 2277
+    median_chapter_chars: 1138
+  - index: 315
+    chapter_first: 314
+    chapter_last: 315
+    chapter_count: 2
+    total_chars: 2313
+    median_chapter_chars: 1156
+  - index: 316
+    chapter_first: 315
+    chapter_last: 316
+    chapter_count: 2
+    total_chars: 2195
+    median_chapter_chars: 1097
+  - index: 317
+    chapter_first: 316
+    chapter_last: 317
+    chapter_count: 2
+    total_chars: 2365
+    median_chapter_chars: 1182
+  - index: 318
+    chapter_first: 317
+    chapter_last: 318
+    chapter_count: 2
+    total_chars: 2461
+    median_chapter_chars: 1230
+  - index: 319
+    chapter_first: 318
+    chapter_last: 319
+    chapter_count: 2
+    total_chars: 2211
+    median_chapter_chars: 1105
+  - index: 320
+    chapter_first: 319
+    chapter_last: 320
+    chapter_count: 2
+    total_chars: 2218
+    median_chapter_chars: 1109
+  - index: 321
+    chapter_first: 320
+    chapter_last: 321
+    chapter_count: 2
+    total_chars: 2423
+    median_chapter_chars: 1211
+  - index: 322
+    chapter_first: 321
+    chapter_last: 322
+    chapter_count: 2
+    total_chars: 2154
+    median_chapter_chars: 1077
+  - index: 323
+    chapter_first: 322
+    chapter_last: 323
+    chapter_count: 2
+    total_chars: 2223
+    median_chapter_chars: 1111
+  - index: 324
+    chapter_first: 323
+    chapter_last: 324
+    chapter_count: 2
+    total_chars: 2351
+    median_chapter_chars: 1175
+  - index: 325
+    chapter_first: 324
+    chapter_last: 325
+    chapter_count: 2
+    total_chars: 2210
+    median_chapter_chars: 1105
+  - index: 326
+    chapter_first: 325
+    chapter_last: 326
+    chapter_count: 2
+    total_chars: 2289
+    median_chapter_chars: 1144
+  - index: 327
+    chapter_first: 326
+    chapter_last: 327
+    chapter_count: 2
+    total_chars: 2520
+    median_chapter_chars: 1260
+  - index: 328
+    chapter_first: 327
+    chapter_last: 328
+    chapter_count: 2
+    total_chars: 2252
+    median_chapter_chars: 1126
+  - index: 329
+    chapter_first: 328
+    chapter_last: 329
+    chapter_count: 2
+    total_chars: 2383
+    median_chapter_chars: 1191
+  - index: 330
+    chapter_first: 329
+    chapter_last: 330
+    chapter_count: 2
+    total_chars: 2500
+    median_chapter_chars: 1250
+  - index: 331
+    chapter_first: 330
+    chapter_last: 331
+    chapter_count: 2
+    total_chars: 2213
+    median_chapter_chars: 1106
+  - index: 332
+    chapter_first: 331
+    chapter_last: 332
+    chapter_count: 2
+    total_chars: 2117
+    median_chapter_chars: 1058
+  - index: 333
+    chapter_first: 332
+    chapter_last: 333
+    chapter_count: 2
+    total_chars: 2480
+    median_chapter_chars: 1240
+  - index: 334
+    chapter_first: 333
+    chapter_last: 334
+    chapter_count: 2
+    total_chars: 2247
+    median_chapter_chars: 1123
+  - index: 335
+    chapter_first: 334
+    chapter_last: 335
+    chapter_count: 2
+    total_chars: 2266
+    median_chapter_chars: 1133
+  - index: 336
+    chapter_first: 335
+    chapter_last: 336
+    chapter_count: 2
+    total_chars: 2130
+    median_chapter_chars: 1065
+  - index: 337
+    chapter_first: 336
+    chapter_last: 337
+    chapter_count: 2
+    total_chars: 2194
+    median_chapter_chars: 1097
+  - index: 338
+    chapter_first: 337
+    chapter_last: 338
+    chapter_count: 2
+    total_chars: 2253
+    median_chapter_chars: 1126
+  - index: 339
+    chapter_first: 338
+    chapter_last: 339
+    chapter_count: 2
+    total_chars: 2459
+    median_chapter_chars: 1229
+  - index: 340
+    chapter_first: 339
+    chapter_last: 340
+    chapter_count: 2
+    total_chars: 2296
+    median_chapter_chars: 1148
+  - index: 341
+    chapter_first: 340
+    chapter_last: 341
+    chapter_count: 2
+    total_chars: 2211
+    median_chapter_chars: 1105
+  - index: 342
+    chapter_first: 341
+    chapter_last: 342
+    chapter_count: 2
+    total_chars: 2706
+    median_chapter_chars: 1353
+  - index: 343
+    chapter_first: 342
+    chapter_last: 343
+    chapter_count: 2
+    total_chars: 2196
+    median_chapter_chars: 1098
+  - index: 344
+    chapter_first: 343
+    chapter_last: 344
+    chapter_count: 2
+    total_chars: 2227
+    median_chapter_chars: 1113
+  - index: 345
+    chapter_first: 344
+    chapter_last: 345
+    chapter_count: 2
+    total_chars: 2111
+    median_chapter_chars: 1055
+  - index: 346
+    chapter_first: 345
+    chapter_last: 346
+    chapter_count: 2
+    total_chars: 2181
+    median_chapter_chars: 1090
+  - index: 347
+    chapter_first: 346
+    chapter_last: 347
+    chapter_count: 2
+    total_chars: 2250
+    median_chapter_chars: 1125
+  - index: 348
+    chapter_first: 347
+    chapter_last: 348
+    chapter_count: 2
+    total_chars: 2386
+    median_chapter_chars: 1193
+  - index: 349
+    chapter_first: 348
+    chapter_last: 349
+    chapter_count: 2
+    total_chars: 2268
+    median_chapter_chars: 1134
+  - index: 350
+    chapter_first: 349
+    chapter_last: 350
+    chapter_count: 2
+    total_chars: 2275
+    median_chapter_chars: 1137
+  - index: 351
+    chapter_first: 350
+    chapter_last: 351
+    chapter_count: 2
+    total_chars: 2292
+    median_chapter_chars: 1146
+  - index: 352
+    chapter_first: 351
+    chapter_last: 352
+    chapter_count: 2
+    total_chars: 2236
+    median_chapter_chars: 1118
+  - index: 353
+    chapter_first: 352
+    chapter_last: 353
+    chapter_count: 2
+    total_chars: 2146
+    median_chapter_chars: 1073
+  - index: 354
+    chapter_first: 353
+    chapter_last: 354
+    chapter_count: 2
+    total_chars: 2460
+    median_chapter_chars: 1230
+  - index: 355
+    chapter_first: 354
+    chapter_last: 355
+    chapter_count: 2
+    total_chars: 2114
+    median_chapter_chars: 1057
+  - index: 356
+    chapter_first: 355
+    chapter_last: 356
+    chapter_count: 2
+    total_chars: 2184
+    median_chapter_chars: 1092
+  - index: 357
+    chapter_first: 356
+    chapter_last: 357
+    chapter_count: 2
+    total_chars: 2306
+    median_chapter_chars: 1153
+  - index: 358
+    chapter_first: 357
+    chapter_last: 358
+    chapter_count: 2
+    total_chars: 2336
+    median_chapter_chars: 1168
+  - index: 359
+    chapter_first: 358
+    chapter_last: 359
+    chapter_count: 2
+    total_chars: 2368
+    median_chapter_chars: 1184
+  - index: 360
+    chapter_first: 359
+    chapter_last: 360
+    chapter_count: 2
+    total_chars: 2176
+    median_chapter_chars: 1088
+  - index: 361
+    chapter_first: 360
+    chapter_last: 361
+    chapter_count: 2
+    total_chars: 2225
+    median_chapter_chars: 1112
+  - index: 362
+    chapter_first: 361
+    chapter_last: 362
+    chapter_count: 2
+    total_chars: 2336
+    median_chapter_chars: 1168
+  - index: 363
+    chapter_first: 362
+    chapter_last: 363
+    chapter_count: 2
+    total_chars: 2286
+    median_chapter_chars: 1143
+  - index: 364
+    chapter_first: 363
+    chapter_last: 364
+    chapter_count: 2
+    total_chars: 2361
+    median_chapter_chars: 1180
+  - index: 365
+    chapter_first: 364
+    chapter_last: 365
+    chapter_count: 2
+    total_chars: 2300
+    median_chapter_chars: 1150
+  - index: 366
+    chapter_first: 365
+    chapter_last: 366
+    chapter_count: 2
+    total_chars: 2638
+    median_chapter_chars: 1319
+  - index: 367
+    chapter_first: 366
+    chapter_last: 367
+    chapter_count: 2
+    total_chars: 2200
+    median_chapter_chars: 1100
+  - index: 368
+    chapter_first: 367
+    chapter_last: 368
+    chapter_count: 2
+    total_chars: 2119
+    median_chapter_chars: 1059
+  - index: 369
+    chapter_first: 368
+    chapter_last: 369
+    chapter_count: 2
+    total_chars: 2314
+    median_chapter_chars: 1157
+  - index: 370
+    chapter_first: 369
+    chapter_last: 370
+    chapter_count: 2
+    total_chars: 2226
+    median_chapter_chars: 1113
+  - index: 371
+    chapter_first: 370
+    chapter_last: 371
+    chapter_count: 2
+    total_chars: 2489
+    median_chapter_chars: 1244
+  - index: 372
+    chapter_first: 371
+    chapter_last: 372
+    chapter_count: 2
+    total_chars: 2568
+    median_chapter_chars: 1284
+  - index: 373
+    chapter_first: 372
+    chapter_last: 373
+    chapter_count: 2
+    total_chars: 2185
+    median_chapter_chars: 1092
+  - index: 374
+    chapter_first: 373
+    chapter_last: 374
+    chapter_count: 2
+    total_chars: 2273
+    median_chapter_chars: 1136
+  - index: 375
+    chapter_first: 374
+    chapter_last: 375
+    chapter_count: 2
+    total_chars: 2727
+    median_chapter_chars: 1363
+  - index: 376
+    chapter_first: 375
+    chapter_last: 376
+    chapter_count: 2
+    total_chars: 2231
+    median_chapter_chars: 1115
+  - index: 377
+    chapter_first: 376
+    chapter_last: 377
+    chapter_count: 2
+    total_chars: 2240
+    median_chapter_chars: 1120
+  - index: 378
+    chapter_first: 377
+    chapter_last: 378
+    chapter_count: 2
+    total_chars: 2888
+    median_chapter_chars: 1444
+  - index: 379
+    chapter_first: 378
+    chapter_last: 379
+    chapter_count: 2
+    total_chars: 2123
+    median_chapter_chars: 1061
+  - index: 380
+    chapter_first: 379
+    chapter_last: 380
+    chapter_count: 2
+    total_chars: 2153
+    median_chapter_chars: 1076
+  - index: 381
+    chapter_first: 380
+    chapter_last: 381
+    chapter_count: 2
+    total_chars: 2200
+    median_chapter_chars: 1100
+  - index: 382
+    chapter_first: 381
+    chapter_last: 382
+    chapter_count: 2
+    total_chars: 2151
+    median_chapter_chars: 1075
+  - index: 383
+    chapter_first: 382
+    chapter_last: 383
+    chapter_count: 2
+    total_chars: 2313
+    median_chapter_chars: 1156
+  - index: 384
+    chapter_first: 383
+    chapter_last: 384
+    chapter_count: 2
+    total_chars: 2462
+    median_chapter_chars: 1231
+  - index: 385
+    chapter_first: 384
+    chapter_last: 385
+    chapter_count: 2
+    total_chars: 2258
+    median_chapter_chars: 1129
+  - index: 386
+    chapter_first: 385
+    chapter_last: 386
+    chapter_count: 2
+    total_chars: 2631
+    median_chapter_chars: 1315
+  - index: 387
+    chapter_first: 386
+    chapter_last: 387
+    chapter_count: 2
+    total_chars: 3070
+    median_chapter_chars: 1535
+  - index: 388
+    chapter_first: 387
+    chapter_last: 388
+    chapter_count: 2
+    total_chars: 2163
+    median_chapter_chars: 1081
+  - index: 389
+    chapter_first: 388
+    chapter_last: 389
+    chapter_count: 2
+    total_chars: 2318
+    median_chapter_chars: 1159
+  - index: 390
+    chapter_first: 389
+    chapter_last: 390
+    chapter_count: 2
+    total_chars: 2844
+    median_chapter_chars: 1422
+  - index: 391
+    chapter_first: 390
+    chapter_last: 391
+    chapter_count: 2
+    total_chars: 2197
+    median_chapter_chars: 1098
+  - index: 392
+    chapter_first: 391
+    chapter_last: 392
+    chapter_count: 2
+    total_chars: 2100
+    median_chapter_chars: 1050
+  - index: 393
+    chapter_first: 392
+    chapter_last: 393
+    chapter_count: 2
+    total_chars: 2133
+    median_chapter_chars: 1066
+  - index: 394
+    chapter_first: 393
+    chapter_last: 394
+    chapter_count: 2
+    total_chars: 2236
+    median_chapter_chars: 1118
+  - index: 395
+    chapter_first: 394
+    chapter_last: 395
+    chapter_count: 2
+    total_chars: 2352
+    median_chapter_chars: 1176
+  - index: 396
+    chapter_first: 395
+    chapter_last: 396
+    chapter_count: 2
+    total_chars: 2579
+    median_chapter_chars: 1289
+  - index: 397
+    chapter_first: 396
+    chapter_last: 397
+    chapter_count: 2
+    total_chars: 2172
+    median_chapter_chars: 1086
+  - index: 398
+    chapter_first: 397
+    chapter_last: 398
+    chapter_count: 2
+    total_chars: 2149
+    median_chapter_chars: 1074
+  - index: 399
+    chapter_first: 398
+    chapter_last: 399
+    chapter_count: 2
+    total_chars: 2232
+    median_chapter_chars: 1116
+  - index: 400
+    chapter_first: 399
+    chapter_last: 400
+    chapter_count: 2
+    total_chars: 2260
+    median_chapter_chars: 1130
+  - index: 401
+    chapter_first: 400
+    chapter_last: 401
+    chapter_count: 2
+    total_chars: 2269
+    median_chapter_chars: 1134
+  - index: 402
+    chapter_first: 401
+    chapter_last: 402
+    chapter_count: 2
+    total_chars: 2286
+    median_chapter_chars: 1143
+  - index: 403
+    chapter_first: 402
+    chapter_last: 403
+    chapter_count: 2
+    total_chars: 2269
+    median_chapter_chars: 1134
+  - index: 404
+    chapter_first: 403
+    chapter_last: 404
+    chapter_count: 2
+    total_chars: 2480
+    median_chapter_chars: 1240
+  - index: 405
+    chapter_first: 404
+    chapter_last: 405
+    chapter_count: 2
+    total_chars: 2978
+    median_chapter_chars: 1489
+  - index: 406
+    chapter_first: 405
+    chapter_last: 406
+    chapter_count: 2
+    total_chars: 2239
+    median_chapter_chars: 1119
+  - index: 407
+    chapter_first: 406
+    chapter_last: 407
+    chapter_count: 2
+    total_chars: 2184
+    median_chapter_chars: 1092
+  - index: 408
+    chapter_first: 407
+    chapter_last: 408
+    chapter_count: 2
+    total_chars: 2537
+    median_chapter_chars: 1268
+  - index: 409
+    chapter_first: 408
+    chapter_last: 409
+    chapter_count: 2
+    total_chars: 2344
+    median_chapter_chars: 1172
+  - index: 410
+    chapter_first: 409
+    chapter_last: 410
+    chapter_count: 2
+    total_chars: 2404
+    median_chapter_chars: 1202
+  - index: 411
+    chapter_first: 410
+    chapter_last: 411
+    chapter_count: 2
+    total_chars: 2409
+    median_chapter_chars: 1204
+  - index: 412
+    chapter_first: 411
+    chapter_last: 412
+    chapter_count: 2
+    total_chars: 2165
+    median_chapter_chars: 1082
+  - index: 413
+    chapter_first: 412
+    chapter_last: 413
+    chapter_count: 2
+    total_chars: 2281
+    median_chapter_chars: 1140
+  - index: 414
+    chapter_first: 413
+    chapter_last: 414
+    chapter_count: 2
+    total_chars: 2527
+    median_chapter_chars: 1263
+  - index: 415
+    chapter_first: 414
+    chapter_last: 415
+    chapter_count: 2
+    total_chars: 2243
+    median_chapter_chars: 1121
+  - index: 416
+    chapter_first: 415
+    chapter_last: 416
+    chapter_count: 2
+    total_chars: 2320
+    median_chapter_chars: 1160
+  - index: 417
+    chapter_first: 416
+    chapter_last: 417
+    chapter_count: 2
+    total_chars: 2533
+    median_chapter_chars: 1266
+  - index: 418
+    chapter_first: 417
+    chapter_last: 418
+    chapter_count: 2
+    total_chars: 2141
+    median_chapter_chars: 1070
+  - index: 419
+    chapter_first: 418
+    chapter_last: 419
+    chapter_count: 2
+    total_chars: 2160
+    median_chapter_chars: 1080
+  - index: 420
+    chapter_first: 419
+    chapter_last: 420
+    chapter_count: 2
+    total_chars: 2676
+    median_chapter_chars: 1338
+  - index: 421
+    chapter_first: 420
+    chapter_last: 421
+    chapter_count: 2
+    total_chars: 2393
+    median_chapter_chars: 1196
+  - index: 422
+    chapter_first: 421
+    chapter_last: 422
+    chapter_count: 2
+    total_chars: 2238
+    median_chapter_chars: 1119
+  - index: 423
+    chapter_first: 422
+    chapter_last: 423
+    chapter_count: 2
+    total_chars: 2452
+    median_chapter_chars: 1226
+  - index: 424
+    chapter_first: 423
+    chapter_last: 424
+    chapter_count: 2
+    total_chars: 2237
+    median_chapter_chars: 1118
+  - index: 425
+    chapter_first: 424
+    chapter_last: 425
+    chapter_count: 2
+    total_chars: 2260
+    median_chapter_chars: 1130
+  - index: 426
+    chapter_first: 425
+    chapter_last: 426
+    chapter_count: 2
+    total_chars: 2482
+    median_chapter_chars: 1241
+  - index: 427
+    chapter_first: 426
+    chapter_last: 427
+    chapter_count: 2
+    total_chars: 2178
+    median_chapter_chars: 1089
+  - index: 428
+    chapter_first: 427
+    chapter_last: 428
+    chapter_count: 2
+    total_chars: 2299
+    median_chapter_chars: 1149
+  - index: 429
+    chapter_first: 428
+    chapter_last: 429
+    chapter_count: 2
+    total_chars: 2272
+    median_chapter_chars: 1136
+  - index: 430
+    chapter_first: 429
+    chapter_last: 430
+    chapter_count: 2
+    total_chars: 2301
+    median_chapter_chars: 1150
+  - index: 431
+    chapter_first: 430
+    chapter_last: 431
+    chapter_count: 2
+    total_chars: 2211
+    median_chapter_chars: 1105
+  - index: 432
+    chapter_first: 431
+    chapter_last: 432
+    chapter_count: 2
+    total_chars: 2576
+    median_chapter_chars: 1288
+  - index: 433
+    chapter_first: 432
+    chapter_last: 433
+    chapter_count: 2
+    total_chars: 2203
+    median_chapter_chars: 1101
+  - index: 434
+    chapter_first: 433
+    chapter_last: 434
+    chapter_count: 2
+    total_chars: 2029
+    median_chapter_chars: 1014
+  - index: 435
+    chapter_first: 434
+    chapter_last: 435
+    chapter_count: 2
+    total_chars: 2680
+    median_chapter_chars: 1340
+  - index: 436
+    chapter_first: 435
+    chapter_last: 436
+    chapter_count: 2
+    total_chars: 2350
+    median_chapter_chars: 1175
+  - index: 437
+    chapter_first: 436
+    chapter_last: 437
+    chapter_count: 2
+    total_chars: 2320
+    median_chapter_chars: 1160
+  - index: 438
+    chapter_first: 437
+    chapter_last: 438
+    chapter_count: 2
+    total_chars: 2409
+    median_chapter_chars: 1204
+  - index: 439
+    chapter_first: 438
+    chapter_last: 439
+    chapter_count: 2
+    total_chars: 2078
+    median_chapter_chars: 1039
+  - index: 440
+    chapter_first: 439
+    chapter_last: 440
+    chapter_count: 2
+    total_chars: 2316
+    median_chapter_chars: 1158
+  - index: 441
+    chapter_first: 440
+    chapter_last: 441
+    chapter_count: 2
+    total_chars: 2440
+    median_chapter_chars: 1220
+  - index: 442
+    chapter_first: 441
+    chapter_last: 442
+    chapter_count: 2
+    total_chars: 2334
+    median_chapter_chars: 1167
+  - index: 443
+    chapter_first: 442
+    chapter_last: 443
+    chapter_count: 2
+    total_chars: 2218
+    median_chapter_chars: 1109
+  - index: 444
+    chapter_first: 443
+    chapter_last: 444
+    chapter_count: 2
+    total_chars: 2278
+    median_chapter_chars: 1139
+  - index: 445
+    chapter_first: 444
+    chapter_last: 445
+    chapter_count: 2
+    total_chars: 2132
+    median_chapter_chars: 1066
+  - index: 446
+    chapter_first: 445
+    chapter_last: 446
+    chapter_count: 2
+    total_chars: 2236
+    median_chapter_chars: 1118
+  - index: 447
+    chapter_first: 446
+    chapter_last: 447
+    chapter_count: 2
+    total_chars: 2176
+    median_chapter_chars: 1088
+  - index: 448
+    chapter_first: 447
+    chapter_last: 448
+    chapter_count: 2
+    total_chars: 2257
+    median_chapter_chars: 1128
+  - index: 449
+    chapter_first: 448
+    chapter_last: 449
+    chapter_count: 2
+    total_chars: 2417
+    median_chapter_chars: 1208
+  - index: 450
+    chapter_first: 449
+    chapter_last: 450
+    chapter_count: 2
+    total_chars: 2519
+    median_chapter_chars: 1259
+  - index: 451
+    chapter_first: 450
+    chapter_last: 451
+    chapter_count: 2
+    total_chars: 2291
+    median_chapter_chars: 1145
+  - index: 452
+    chapter_first: 451
+    chapter_last: 452
+    chapter_count: 2
+    total_chars: 2209
+    median_chapter_chars: 1104
+  - index: 453
+    chapter_first: 452
+    chapter_last: 453
+    chapter_count: 2
+    total_chars: 2700
+    median_chapter_chars: 1350
+  - index: 454
+    chapter_first: 453
+    chapter_last: 454
+    chapter_count: 2
+    total_chars: 2310
+    median_chapter_chars: 1155
+  - index: 455
+    chapter_first: 454
+    chapter_last: 455
+    chapter_count: 2
+    total_chars: 2331
+    median_chapter_chars: 1165
+  - index: 456
+    chapter_first: 455
+    chapter_last: 456
+    chapter_count: 2
+    total_chars: 2367
+    median_chapter_chars: 1183
+  - index: 457
+    chapter_first: 456
+    chapter_last: 457
+    chapter_count: 2
+    total_chars: 2242
+    median_chapter_chars: 1121
+  - index: 458
+    chapter_first: 457
+    chapter_last: 458
+    chapter_count: 2
+    total_chars: 2070
+    median_chapter_chars: 1035
+  - index: 459
+    chapter_first: 458
+    chapter_last: 459
+    chapter_count: 2
+    total_chars: 2835
+    median_chapter_chars: 1417
+  - index: 460
+    chapter_first: 459
+    chapter_last: 460
+    chapter_count: 2
+    total_chars: 2165
+    median_chapter_chars: 1082
+  - index: 461
+    chapter_first: 460
+    chapter_last: 461
+    chapter_count: 2
+    total_chars: 2289
+    median_chapter_chars: 1144
+  - index: 462
+    chapter_first: 461
+    chapter_last: 462
+    chapter_count: 2
+    total_chars: 2300
+    median_chapter_chars: 1150
+  - index: 463
+    chapter_first: 462
+    chapter_last: 463
+    chapter_count: 2
+    total_chars: 2370
+    median_chapter_chars: 1185
+  - index: 464
+    chapter_first: 463
+    chapter_last: 464
+    chapter_count: 2
+    total_chars: 2240
+    median_chapter_chars: 1120
+  - index: 465
+    chapter_first: 464
+    chapter_last: 465
+    chapter_count: 2
+    total_chars: 2267
+    median_chapter_chars: 1133
+  - index: 466
+    chapter_first: 465
+    chapter_last: 466
+    chapter_count: 2
+    total_chars: 2287
+    median_chapter_chars: 1143
+  - index: 467
+    chapter_first: 466
+    chapter_last: 467
+    chapter_count: 2
+    total_chars: 2139
+    median_chapter_chars: 1069
+  - index: 468
+    chapter_first: 467
+    chapter_last: 468
+    chapter_count: 2
+    total_chars: 2408
+    median_chapter_chars: 1204
+  - index: 469
+    chapter_first: 468
+    chapter_last: 469
+    chapter_count: 2
+    total_chars: 2364
+    median_chapter_chars: 1182
+  - index: 470
+    chapter_first: 469
+    chapter_last: 470
+    chapter_count: 2
+    total_chars: 2271
+    median_chapter_chars: 1135
+  - index: 471
+    chapter_first: 470
+    chapter_last: 471
+    chapter_count: 2
+    total_chars: 2492
+    median_chapter_chars: 1246
+  - index: 472
+    chapter_first: 471
+    chapter_last: 472
+    chapter_count: 2
+    total_chars: 2151
+    median_chapter_chars: 1075
+  - index: 473
+    chapter_first: 472
+    chapter_last: 473
+    chapter_count: 2
+    total_chars: 2275
+    median_chapter_chars: 1137
+  - index: 474
+    chapter_first: 473
+    chapter_last: 474
+    chapter_count: 2
+    total_chars: 2657
+    median_chapter_chars: 1328
+  - index: 475
+    chapter_first: 474
+    chapter_last: 475
+    chapter_count: 2
+    total_chars: 2133
+    median_chapter_chars: 1066
+  - index: 476
+    chapter_first: 475
+    chapter_last: 476
+    chapter_count: 2
+    total_chars: 2330
+    median_chapter_chars: 1165
+  - index: 477
+    chapter_first: 476
+    chapter_last: 477
+    chapter_count: 2
+    total_chars: 2505
+    median_chapter_chars: 1252
+  - index: 478
+    chapter_first: 477
+    chapter_last: 478
+    chapter_count: 2
+    total_chars: 2364
+    median_chapter_chars: 1182
+  - index: 479
+    chapter_first: 478
+    chapter_last: 479
+    chapter_count: 2
+    total_chars: 2272
+    median_chapter_chars: 1136
+  - index: 480
+    chapter_first: 479
+    chapter_last: 480
+    chapter_count: 2
+    total_chars: 2651
+    median_chapter_chars: 1325
+  - index: 481
+    chapter_first: 480
+    chapter_last: 481
+    chapter_count: 2
+    total_chars: 2324
+    median_chapter_chars: 1162
+  - index: 482
+    chapter_first: 481
+    chapter_last: 482
+    chapter_count: 2
+    total_chars: 2406
+    median_chapter_chars: 1203
+  - index: 483
+    chapter_first: 482
+    chapter_last: 483
+    chapter_count: 2
+    total_chars: 2753
+    median_chapter_chars: 1376
+  - index: 484
+    chapter_first: 483
+    chapter_last: 484
+    chapter_count: 2
+    total_chars: 2323
+    median_chapter_chars: 1161
+  - index: 485
+    chapter_first: 484
+    chapter_last: 485
+    chapter_count: 2
+    total_chars: 2436
+    median_chapter_chars: 1218
+  - index: 486
+    chapter_first: 485
+    chapter_last: 486
+    chapter_count: 2
+    total_chars: 2454
+    median_chapter_chars: 1227
+  - index: 487
+    chapter_first: 486
+    chapter_last: 487
+    chapter_count: 2
+    total_chars: 2439
+    median_chapter_chars: 1219
+  - index: 488
+    chapter_first: 487
+    chapter_last: 488
+    chapter_count: 2
+    total_chars: 2352
+    median_chapter_chars: 1176
+  - index: 489
+    chapter_first: 488
+    chapter_last: 489
+    chapter_count: 2
+    total_chars: 2967
+    median_chapter_chars: 1483
+  - index: 490
+    chapter_first: 489
+    chapter_last: 490
+    chapter_count: 2
+    total_chars: 2373
+    median_chapter_chars: 1186
+  - index: 491
+    chapter_first: 490
+    chapter_last: 491
+    chapter_count: 2
+    total_chars: 2197
+    median_chapter_chars: 1098
+  - index: 492
+    chapter_first: 491
+    chapter_last: 492
+    chapter_count: 2
+    total_chars: 2723
+    median_chapter_chars: 1361
+  - index: 493
+    chapter_first: 492
+    chapter_last: 493
+    chapter_count: 2
+    total_chars: 2303
+    median_chapter_chars: 1151
+  - index: 494
+    chapter_first: 493
+    chapter_last: 494
+    chapter_count: 2
+    total_chars: 2607
+    median_chapter_chars: 1303
+  - index: 495
+    chapter_first: 494
+    chapter_last: 495
+    chapter_count: 2
+    total_chars: 2502
+    median_chapter_chars: 1251
+  - index: 496
+    chapter_first: 495
+    chapter_last: 496
+    chapter_count: 2
+    total_chars: 2368
+    median_chapter_chars: 1184
+  - index: 497
+    chapter_first: 496
+    chapter_last: 497
+    chapter_count: 2
+    total_chars: 2340
+    median_chapter_chars: 1170
+  - index: 498
+    chapter_first: 497
+    chapter_last: 498
+    chapter_count: 2
+    total_chars: 3030
+    median_chapter_chars: 1515
+  - index: 499
+    chapter_first: 498
+    chapter_last: 499
+    chapter_count: 2
+    total_chars: 2222
+    median_chapter_chars: 1111
+  - index: 500
+    chapter_first: 499
+    chapter_last: 500
+    chapter_count: 2
+    total_chars: 2556
+    median_chapter_chars: 1278
+  - index: 501
+    chapter_first: 500
+    chapter_last: 501
+    chapter_count: 2
+    total_chars: 3336
+    median_chapter_chars: 1668
+  - index: 502
+    chapter_first: 501
+    chapter_last: 502
+    chapter_count: 2
+    total_chars: 2256
+    median_chapter_chars: 1128
+  - index: 503
+    chapter_first: 502
+    chapter_last: 503
+    chapter_count: 2
+    total_chars: 2325
+    median_chapter_chars: 1162
+  - index: 504
+    chapter_first: 503
+    chapter_last: 504
+    chapter_count: 2
+    total_chars: 2361
+    median_chapter_chars: 1180
+  - index: 505
+    chapter_first: 504
+    chapter_last: 505
+    chapter_count: 2
+    total_chars: 2261
+    median_chapter_chars: 1130
+  - index: 506
+    chapter_first: 505
+    chapter_last: 506
+    chapter_count: 2
+    total_chars: 2186
+    median_chapter_chars: 1093
+  - index: 507
+    chapter_first: 506
+    chapter_last: 507
+    chapter_count: 2
+    total_chars: 2758
+    median_chapter_chars: 1379
+  - index: 508
+    chapter_first: 507
+    chapter_last: 508
+    chapter_count: 2
+    total_chars: 2323
+    median_chapter_chars: 1161
+  - index: 509
+    chapter_first: 508
+    chapter_last: 509
+    chapter_count: 2
+    total_chars: 2230
+    median_chapter_chars: 1115
+  - index: 510
+    chapter_first: 509
+    chapter_last: 510
+    chapter_count: 2
+    total_chars: 2233
+    median_chapter_chars: 1116
+  - index: 511
+    chapter_first: 510
+    chapter_last: 511
+    chapter_count: 2
+    total_chars: 2447
+    median_chapter_chars: 1223
+  - index: 512
+    chapter_first: 511
+    chapter_last: 512
+    chapter_count: 2
+    total_chars: 2343
+    median_chapter_chars: 1171
+  - index: 513
+    chapter_first: 512
+    chapter_last: 513
+    chapter_count: 2
+    total_chars: 2754
+    median_chapter_chars: 1377
+  - index: 514
+    chapter_first: 513
+    chapter_last: 514
+    chapter_count: 2
+    total_chars: 2350
+    median_chapter_chars: 1175
+  - index: 515
+    chapter_first: 514
+    chapter_last: 515
+    chapter_count: 2
+    total_chars: 2080
+    median_chapter_chars: 1040
+  - index: 516
+    chapter_first: 515
+    chapter_last: 516
+    chapter_count: 2
+    total_chars: 2581
+    median_chapter_chars: 1290
+  - index: 517
+    chapter_first: 516
+    chapter_last: 517
+    chapter_count: 2
+    total_chars: 2187
+    median_chapter_chars: 1093
+  - index: 518
+    chapter_first: 517
+    chapter_last: 518
+    chapter_count: 2
+    total_chars: 2337
+    median_chapter_chars: 1168
+  - index: 519
+    chapter_first: 518
+    chapter_last: 519
+    chapter_count: 2
+    total_chars: 2714
+    median_chapter_chars: 1357
+  - index: 520
+    chapter_first: 519
+    chapter_last: 520
+    chapter_count: 2
+    total_chars: 2389
+    median_chapter_chars: 1194
+  - index: 521
+    chapter_first: 520
+    chapter_last: 521
+    chapter_count: 2
+    total_chars: 2316
+    median_chapter_chars: 1158
+  - index: 522
+    chapter_first: 521
+    chapter_last: 522
+    chapter_count: 2
+    total_chars: 2500
+    median_chapter_chars: 1250
+  - index: 523
+    chapter_first: 522
+    chapter_last: 523
+    chapter_count: 2
+    total_chars: 2426
+    median_chapter_chars: 1213
+  - index: 524
+    chapter_first: 523
+    chapter_last: 524
+    chapter_count: 2
+    total_chars: 2413
+    median_chapter_chars: 1206
+  - index: 525
+    chapter_first: 524
+    chapter_last: 876
+    chapter_count: 353
+    total_chars: 791234
+    median_chapter_chars: 2206
+chapter_count: 353
+chapter_first: 524
+chapter_last: 876
+chapter_chunk_size: 50
+chapter_index_files:
+  - chapters-0501-0550.yaml
+  - chapters-0551-0600.yaml
+  - chapters-0601-0650.yaml
+  - chapters-0651-0700.yaml
+  - chapters-0701-0750.yaml
+  - chapters-0751-0800.yaml
+  - chapters-0801-0850.yaml
+  - chapters-0851-0900.yaml
