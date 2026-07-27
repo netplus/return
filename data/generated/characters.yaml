@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 68
+  extension_files: 69
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -148,6 +148,7 @@ characters:
   - NODE-0077
   - NODE-0078
   - NODE-0079
+  - NODE-0080
   source_chapters:
   - 1
   - 2
@@ -718,6 +719,13 @@ characters:
   - 607
   - 608
   - 609
+  - 610
+  - 611
+  - 612
+  - 613
+  - 614
+  - 615
+  - 616
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -890,6 +898,7 @@ characters:
   - 由外门长老亲传晋升掌门亲传并进入阴阳仙门最高培养序列
   - 仙界资源网络由外门扩展至内门弟子和外门大长老层级
   - 资源网络进入阴阳仙门太上长老层级
+  - 成为天元界飞升者资源与关系核心
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -1126,11 +1135,24 @@ characters:
     - 建立刘爱花长期赠送渠道
     - 接入阴阳飞升会
     status: verified
+  - chapter_range:
+      start: 610
+      end: 616
+    event: 完成丁静赠送并进入阴阳飞升会核心关系网
+    core_ability:
+    - 鸿蒙真气累计至四十八股
+    - 与东方青及两位太上长老的关系可用于宗门职位协调
+    impact:
+    - 免除当年执事任务
+    - 成为天元界飞升者资源核心
+    - 为道元承诺传功长老席位
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
   - 阴阳仙门外门
   - 柳清浅亲传弟子
+  - 阴阳飞升会
   identity_change:
   - 柳清浅第三名亲传弟子
   - 阴阳仙门内门执法执事
@@ -1145,6 +1167,8 @@ characters:
   - 击杀气运之敌青锋并获取额外传送仙台
   - 击杀青锋任务完成
   - 接受孟凡邀请准备参加阴阳飞升会
+  dao_relationship:
+  - 确认道元为缥缈宗祖师并建立长期合作
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -6485,6 +6509,7 @@ characters:
   - GIFT-0130
   - GIFT-0134
   - GIFT-0135
+  - GIFT-0145
   related_nodes:
   - NODE-0071
   - NODE-0072
@@ -6493,6 +6518,7 @@ characters:
   - NODE-0076
   - NODE-0077
   - NODE-0078
+  - NODE-0080
   source_chapters:
   - 539
   - 541
@@ -6524,6 +6550,7 @@ characters:
   - 600
   - 601
   - 602
+  - 613
   verification_status: partial
   relationship_change:
   - 主动到访柳清浅府邸并与徐霄形成直接资源接触
@@ -6588,6 +6615,13 @@ characters:
     - 羁绊升至二
     - 地仙与道伤修复资源路径进一步明确
     status: verified
+  - chapter: 613
+    event: 持续获得道伤修复与晋升资源
+    core_ability:
+    - 十颗化仙丹
+    impact:
+    - 长期资源供给关系继续稳定
+    status: verified
   assessment_result:
   - 天资: 乙
     容貌: 甲
@@ -6601,6 +6635,7 @@ characters:
   - 两张人仙九重神霄玄冰符
   - 山河灵图
   - 人仙巅峰魂丹
+  - 第613章再获十颗化仙丹
   conflict_change:
   - 因徐霄与厉红魅确立关系而出现持续情感冲突
   role_change:
@@ -7430,6 +7465,7 @@ characters:
   - NODE-0076
   - NODE-0077
   - NODE-0078
+  - NODE-0080
   source_chapters:
   - 584
   - 585
@@ -7446,12 +7482,14 @@ characters:
   - 596
   - 597
   - 603
+  - 616
   document: null
   verification_status: verified
   accepted_gifts:
   - GIFT-0131
   - GIFT-0132
   - GIFT-0133
+  - GIFT-0147
   relationship_change:
   - 与徐霄确立长期亲密关系
   - 羁绊度提升至2
@@ -7483,6 +7521,21 @@ characters:
     impact:
     - 从玄阴仙宗掌门线正式转入阴阳仙门修炼路径
     status: verified
+  - chapter: 616
+    event: 正式进入阴阳仙门并完成外门长老身份迁移
+    core_ability:
+    - 人仙七重
+    - 再获十颗化仙丹
+    impact:
+    - 结束玄阴仙宗掌门过渡期
+    - 长期修炼与关系中心转入阴阳仙门
+    status: verified
+  affiliation_change:
+  - 阴阳仙门外门
+  identity_change:
+  - 阴阳仙门外门长老
+  residence_change:
+  - 接收原柳清浅外门洞府
 - id: CHAR-0133
   name: 南宫化极
   status: alive
@@ -7680,10 +7733,31 @@ characters:
     status: verified
   related_nodes:
   - NODE-0079
+  - NODE-0080
   source_chapters:
   - 604
+  - 614
+  - 615
+  - 616
   document: null
   verification_status: partial
+  cultivation_change: 地仙巅峰
+  role_change:
+  - 阴阳飞升会三名核心长老之一
+  relationship_change:
+  - 公开表示保护徐霄并准备与厉红魅重逢
+  growth_event:
+  - chapter_range:
+      start: 614
+      end: 616
+    event: 以飞升会核心长老身份接纳徐霄并准备重启厉红魅旧情
+    core_ability:
+    - 地仙巅峰
+    - 内门传功长老
+    impact:
+    - 徐霄进入其飞升者保护网络
+    - 厉红魅旧情线重新启动
+    status: verified
 - id: CHAR-0139
   name: 孟凡
   status: alive
@@ -7709,7 +7783,198 @@ characters:
     status: verified
   related_nodes:
   - NODE-0079
+  - NODE-0080
   source_chapters:
   - 609
+  - 610
+  - 613
+  - 614
   document: null
   verification_status: partial
+  role_change:
+  - 完成徐霄加入阴阳飞升会的引荐
+  relationship_change:
+  - 将徐霄视为天元界同胞并持续维护其与飞升会关系
+  growth_event:
+  - chapter_range:
+      start: 610
+      end: 614
+    event: 引荐徐霄进入阴阳飞升会并揭示张大全历史隔离安排
+    impact:
+    - 促成徐霄与道元及飞升会核心人物建立联系
+    status: verified
+- id: CHAR-0140
+  name: 丁静
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门内门
+  - 执法堂
+  identities:
+  - 阴阳仙门内门执法长老
+  - C级气运之女
+  - 徐霄直属长老
+  first_appearance:
+    chapter: 610
+    title: 气运之女，丁静
+    node: NODE-0080
+  cultivation:
+    current: 地仙九重
+    status: verified
+  luck_grade:
+    value: C
+    return_multiplier: 10
+    bond: 1
+    status: verified
+  accepted_gifts:
+  - GIFT-0144
+  relationship_context:
+    徐霄: 接受其仙元丹并免除当年执事任务，同时明确要求保持正常上下级关系
+    status: verified
+  related_nodes:
+  - NODE-0080
+  source_chapters:
+  - 610
+  - 611
+  - 612
+  - 613
+  document: null
+  verification_status: verified
+- id: CHAR-0141
+  name: 端木莹
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门内门
+  - 执法堂
+  - 阴阳飞升会
+  - 盘古界飞升者
+  identities:
+  - 陆道离亲传大弟子
+  - 阴阳仙门内门执事
+  - SS级气运之女
+  first_appearance:
+    chapter: 614
+    title: 飞升会人员
+    node: NODE-0080
+  cultivation:
+    current: 地仙六重
+    status: verified
+  luck_grade:
+    value: SS
+    return_multiplier: 50
+    bond: 1
+    status: verified
+  conflict_context:
+    徐霄: 因其宗门声名首次见面即公开贬斥，形成持续冲突线
+    status: verified
+  related_nodes:
+  - NODE-0080
+  source_chapters:
+  - 614
+  document: null
+  verification_status: verified
+- id: CHAR-0142
+  name: 道元
+  aliases:
+  - 张大全
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门内门
+  - 阴阳飞升会
+  - 天元界缥缈仙宗
+  - 盘龙岛缥缈宗
+  identities:
+  - 缥缈宗开山祖师
+  - 陆道离亲传弟子
+  - 气运之子
+  - 天元界飞升者
+  first_appearance:
+    chapter: 614
+    title: 飞升会人员
+    node: NODE-0080
+  cultivation:
+    current: 地仙六重
+    status: verified
+  fortune_source:
+    value: 仙阵图录传承
+    status: verified
+  accepted_gifts:
+  - GIFT-0146
+  relationship_context:
+    徐霄: 祖师与后辈关系重新建立，并获得传功长老席位承诺
+    凤青玄: 二十万年前围绕盘龙岛秘密形成死对头关系
+    status: verified
+  related_nodes:
+  - NODE-0080
+  source_chapters:
+  - 614
+  - 615
+  - 616
+  document: null
+  verification_status: verified
+- id: CHAR-0143
+  name: 柳怀南
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门内门
+  - 执法堂
+  - 阴阳飞升会
+  - 天剑界飞升者
+  identities:
+  - 阴阳仙门内门执法长老
+  - 飞升会核心长老
+  first_appearance:
+    chapter: 616
+    title: 幽冥界，阴萱
+    node: NODE-0080
+  cultivation:
+    current: 地仙巅峰
+    status: verified
+  relationship_context:
+    徐霄: 同为执法堂成员并在飞升会正式建立联系
+    status: partial
+  related_nodes:
+  - NODE-0080
+  source_chapters:
+  - 616
+  document: null
+  verification_status: verified
+- id: CHAR-0144
+  name: 阴萱
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门内门
+  - 阴阳飞升会
+  - 幽冥界飞升者
+  identities:
+  - 阴阳仙门内门传功长老
+  - 飞升会核心长老
+  - S级气运之女
+  first_appearance:
+    chapter: 616
+    title: 幽冥界，阴萱
+    node: NODE-0080
+  cultivation:
+    current: 地仙巅峰
+    status: verified
+  luck_grade:
+    value: S
+    return_multiplier: 30
+    bond: 1
+    status: verified
+  abilities:
+  - 纯阴灵力
+  - 由幽冥界灵体飞升后凝炼实体肉身
+  relationship_context:
+    徐霄: 要求其认真履行执法堂职责，尚未建立赠送关系
+    status: partial
+  related_nodes:
+  - NODE-0080
+  source_chapters:
+  - 616
+  document: null
+  verification_status: verified

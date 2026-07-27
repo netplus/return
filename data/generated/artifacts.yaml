@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 62
+  extension_files: 63
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1027,6 +1027,7 @@ artifacts:
   - NODE-0066
   - NODE-0068
   - NODE-0070
+  - NODE-0080
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1038,6 +1039,8 @@ artifacts:
   - 508
   - 517
   - 530
+  - 612
+  - 613
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -1054,6 +1057,16 @@ artifacts:
     chapter: 530
     quantity: 1
     status: partial
+  - gift_id: GIFT-0144
+    chapter: 612
+    quantity: 1
+    trigger: 首次赠送千倍暴击
+    status: verified
+  usage_records:
+  - chapter: 613
+    user: 徐霄
+    result: 鸿蒙真气累计至四十八股
+    status: verified
 - id: ART-0045
   name: 雷灵丹
   category: 丹药
@@ -1204,6 +1217,7 @@ artifacts:
   - NODE-0054
   - NODE-0062
   - NODE-0072
+  - NODE-0080
   combat_record:
   - 识破并清除夺舍阴魂
   - 吞噬二十七具合体阴魂并形成魂丹
@@ -1225,6 +1239,10 @@ artifacts:
   - 473
   - 474
   - 548
+  - 612
+  - 613
+  - 615
+  - 616
   abilities:
   - 可吞噬大乘阴魂
   - 被吞噬阴魂可形成对应层级魂丹
@@ -1237,6 +1255,29 @@ artifacts:
     chapter: 548
     quantity: 30
     status: partial
+  - gift_id: GIFT-0145
+    chapter: 613
+    quantity: 20
+    status: verified
+  - gift_id: GIFT-0146
+    chapter: 615
+    quantity: 3
+    status: verified
+  - gift_id: GIFT-0147
+    chapter: 616
+    quantity: 20
+    status: verified
+  transfer_records:
+  - gift_id: GIFT-0144
+    chapter: 612
+    recipient: 丁静
+    quantity: 10
+    status: verified
+  - gift_id: GIFT-0146
+    chapter: 615
+    recipient: 道元
+    quantity: 3
+    status: verified
 - id: ART-0047
   name: 混沌破金剑
   category: 先天灵宝神剑
@@ -1531,6 +1572,7 @@ artifacts:
   - NODE-0070
   - NODE-0071
   - NODE-0072
+  - NODE-0080
   source_chapters:
   - 494
   - 517
@@ -1546,6 +1588,8 @@ artifacts:
   - 548
   - 549
   - 552
+  - 613
+  - 616
   acquisition_records:
   - gift_id: GIFT-0111
     chapter: 517
@@ -1598,6 +1642,16 @@ artifacts:
     - 凌白烟
     quantity: 2
     status: partial
+  - gift_id: GIFT-0145
+    chapter: 613
+    recipient: 南宫嫣
+    quantity: 10
+    status: verified
+  - gift_id: GIFT-0147
+    chapter: 616
+    recipient: 厉红魅
+    quantity: 10
+    status: verified
 - id: ART-0061
   name: 九幽惊魂剑
   category: 仙器神剑
@@ -1971,3 +2025,22 @@ artifacts:
   - NODE-0078
   source_chapters:
   - 599
+- id: ART-0085
+  name: 五行仙丹
+  category: 丹药
+  grade: 天仙境修炼资源
+  first_chapter: 572
+  current_holder: 徐霄
+  acquisition: 第572章罗素赠送返还首次确认；第612章GIFT-0144再次返还九颗
+  quantity: pending_total
+  effects:
+  - 用于天仙境五行体系修炼
+  - 完整药效与使用记录待后续确认
+  current_state: 未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0074
+  - NODE-0080
+  source_chapters:
+  - 572
+  - 612

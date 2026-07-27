@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 59
+  extension_files: 60
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1919,4 +1919,54 @@ gifts:
   reward: 十颗五行仙丹
   triggered_multiplier: 品阶升级
   relationship_result: 罗素内门长期资源关系继续
+  status: verified
+- id: GIFT-0144
+  chapter: 612
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 丁静
+  gift: 十颗高品质仙元丹
+  accepted: true
+  system_valid: true
+  reward: 首颗返还一颗鸿蒙一气丹，其余九颗返还九颗五行仙丹
+  triggered_multiplier:
+    first_item: 1000
+    remaining_items: 10
+  relationship_result: 丁静免除徐霄当年执事任务并接受后续二十颗仙元丹承诺，但要求保持正常上下级关系
+  status: verified
+- id: GIFT-0145
+  chapter: 613
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 南宫嫣
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 二十颗仙元丹
+  triggered_multiplier: 2
+  relationship_result: 南宫嫣长期资源供给继续稳定
+  status: verified
+- id: GIFT-0146
+  chapter: 615
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 道元
+  gift: 三颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 三颗仙元丹原样返还
+  triggered_multiplier: 1
+  relationship_result: 徐霄与缥缈宗祖师建立资源合作，并承诺协助其取得内门传功长老席位
+  status: verified
+- id: GIFT-0147
+  chapter: 616
+  node: NODE-0080
+  giver: 徐霄
+  recipient: 厉红魅
+  gift: 十颗化仙丹
+  accepted: true
+  system_valid: true
+  reward: 二十颗仙元丹
+  triggered_multiplier: 2
+  relationship_result: 厉红魅正式进入阴阳仙门后的长期资源关系得到确认
   status: verified

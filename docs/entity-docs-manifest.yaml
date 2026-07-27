@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 139
+    count: 144
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -286,8 +286,18 @@ groups:
       path: docs/02-characters/陆道离.md
     - id: CHAR-0139
       path: docs/02-characters/孟凡.md
+    - id: CHAR-0140
+      path: docs/02-characters/丁静.md
+    - id: CHAR-0141
+      path: docs/02-characters/端木莹.md
+    - id: CHAR-0142
+      path: docs/02-characters/道元.md
+    - id: CHAR-0143
+      path: docs/02-characters/柳怀南.md
+    - id: CHAR-0144
+      path: docs/02-characters/阴萱.md
   artifacts:
-    count: 84
+    count: 85
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -459,10 +469,12 @@ groups:
       path: docs/06-artifacts/九霄山河图.md
     - id: ART-0084
       path: docs/06-artifacts/地仙巅峰魂丹.md
+    - id: ART-0085
+      path: docs/06-artifacts/五行仙丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 139
-  growth_events: 565
+  characters_with_growth_line: 144
+  growth_events: 580
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
