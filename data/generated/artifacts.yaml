@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 51
+  extension_files: 52
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1306,6 +1306,7 @@ artifacts:
   - NODE-0058
   - NODE-0059
   - NODE-0060
+  - NODE-0067
   source_chapters:
   - 424
   - 432
@@ -1318,6 +1319,8 @@ artifacts:
   - 454
   - 459
   - 460
+  - 514
+  - 515
   combat_record:
   - 第432章控制并收纳两名合体龙族
   - 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
@@ -1326,6 +1329,8 @@ artifacts:
   - 第454章收纳黑魔圣宗黑石客栈一名合体巅峰和五名炼虚情报人员
   - 第459章快速收纳黑魔圣宗八名合体巅峰长老、上百门人及其法器
   - 第460章用于囚禁黑无忌与迎亲队并公开黑蛇关系
+  - 第514章收纳被九幽惊魂剑压制的葬花和北风
+  - 第515章确认内部囚禁叶尘楚霄独孤浩和血云魔尊
   ability:
   - 可抽离被收纳目标灵力
   - 可在内部形成灵气锁链和雷霆清算
@@ -1458,6 +1463,14 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0062
+  - NODE-0067
+  battle_use:
+  - 第513章大规模清剿阴灵并驱逐修士识海中的夺舍者
+  - 第514章压制两名渡劫八重级阴灵并协助山河灵图完成收纳
+  strategic_use: 形成针对冰寒阴灵和神魂夺舍的仙器级群体清剿能力
+  source_chapters:
+  - 513
+  - 514
 - id: ART-0062
   name: 九霄玉舟
   category: 飞行仙器
@@ -1561,3 +1574,17 @@ artifacts:
   - NODE-0066
   source_chapters:
   - 508
+- id: ART-0070
+  name: 九天神玉带
+  category: 仙器法宝
+  grade: pending
+  first_chapter: 516
+  current_holder: 徐霄
+  acquisition: GIFT-0110系统返还
+  effect: 完整品阶、能力、使用方式与限制待后续正文确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes:
+  - NODE-0067
+  source_chapters:
+  - 516

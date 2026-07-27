@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 104
+    count: 105
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -216,8 +216,10 @@ groups:
       path: docs/02-characters/紫霄.md
     - id: CHAR-0104
       path: docs/02-characters/血葵.md
+    - id: CHAR-0105
+      path: docs/02-characters/神天.md
   artifacts:
-    count: 69
+    count: 70
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -359,10 +361,12 @@ groups:
       path: docs/06-artifacts/人仙巅峰魂丹.md
     - id: ART-0069
       path: docs/06-artifacts/四柄仙器神剑（逐件名称待确认）.md
+    - id: ART-0070
+      path: docs/06-artifacts/九天神玉带.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 104
-  growth_events: 414
+  characters_with_growth_line: 105
+  growth_events: 425
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

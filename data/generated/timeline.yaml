@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 55
+  extension_files: 56
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2619,3 +2619,67 @@ nodes:
   - GIFT-0109返还
   document: docs/01-timeline/node-0066.md
   evidence: sources/evidence/chapters-500-508.yaml
+- id: NODE-0067
+  title: 幽冥天绝阵、阴灵反杀与第一天修
+  chapters:
+    start: 509
+    end: 516
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第509—517章标题顺序和边界；第509—516章正文由可访问镜像交叉核验
+  boundary_reason: 第516章完成战后肃清部署、仙池休整安排与九天神玉带返还；第517章转入系统升级、大乘九重与飞升准备
+  characters:
+  - 徐霄
+  - 姬雪
+  - 神天
+  - 海岚
+  - 葬花
+  - 北风
+  - 神玉
+  - 素青
+  - 月幽冥
+  - 叶尘
+  - 独孤浩
+  - 楚霄
+  - 血云魔尊
+  conflict_events:
+  - event: 幽冥天绝阵启动
+    result: 九耀天山副山被渡劫九重级阵法封锁并持续抽取修士灵力
+    status: partial
+  - event: 八名渡劫阴灵夺舍徐霄
+    result: 仙神魂胎在识海内将其全部击溃并吸收
+    status: partial
+  - event: 九幽惊魂剑清剿
+    result: 大规模阴灵被灭且多名被夺舍修士获得解救
+    status: partial
+  - event: 葬花北风最终围剿
+    result: 两名渡劫八重级阴灵被压制并收入山河灵图
+    status: partial
+  system_events:
+  - event: 抽取剥离类损失返还
+    rule: 不受气运之女对象限制
+    result: 幽冥天绝阵抽取的灵力持续返还并叠加道元圣体炼化
+    status: partial
+  - event: 三名气运之敌任务完成
+    targets:
+    - 海岚
+    - 葬花
+    - 北风
+    reward: 法器返还库上限升至至尊仙器、丹药返还库上限升至地仙境、符箓阵法返还库上限升至人仙境
+    status: partial
+  - event: 第516章系统返还
+    reward: 九天神玉带
+    trigger: pending
+    status: partial
+  power_result: 徐霄由大乘三重提升至大乘七重，仙神魂胎、道元圣体、九幽惊魂剑与山河灵图形成对阴灵体系的完整克制链
+  strategic_result: 徐霄成为天元大陆公认的救世主与第一天修，并推动十八上宗转入蓬莱仙宗肃清和两界裂缝封闭行动
+  pending:
+  - 幽冥天绝阵九处阵眼的完整位置与阵法规则
+  - 神天所属宗门及原神魂最终状态
+  - 海岚葬花北风原肉身与原神魂的最终处置
+  - 获救与死亡修士完整名单
+  - 叶尘楚霄独孤浩血云魔尊被收入山河灵图的完整过程
+  - GIFT-0110受赠对象原始赠礼倍率与逐笔映射
+  - 九天神玉带完整能力
+  document: docs/01-timeline/node-0067.md
+  evidence: sources/evidence/chapters-509-516.yaml

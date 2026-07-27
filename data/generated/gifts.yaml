@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 47
+  extension_files: 48
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1496,4 +1496,16 @@ gifts:
   reward: pending
   triggered_multiplier: pending
   relationship_result: 六宗撮合与资源合作关系进一步制度化
+  status: partial
+- id: GIFT-0110
+  chapter: 516
+  node: NODE-0067
+  giver: 徐霄
+  recipient: pending
+  gift: pending
+  accepted: pending
+  system_valid: true
+  reward: 九天神玉带
+  triggered_multiplier: pending
+  relationship_result: 战后赠送触发新返还；原始受赠对象和逐笔映射待后续证据确认
   status: partial
