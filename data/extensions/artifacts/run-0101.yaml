@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0101
+artifacts:
+- id: ART-0090
+  name: 缚仙绳
+  category: 至尊仙器
+  grade: 至尊仙器
+  first_chapter: 644
+  current_holder: 徐霄
+  acquisition: GIFT-0158返还
+  effect: 高阶束缚类仙器；完整能力、目标境界上限和限制待后续确认
+  current_state: 已收入空间库
+  status: partial
+  related_nodes: [NODE-0085]
+  source_chapters: [644]
+artifact_updates:
+- id: ART-0070
+  name: 九天神玉带
+  update:
+    current_holder_change: 柳清浅
+    transfer_event_add: [GIFT-0158]
+    transferred_in_chapter_add: [644]
+    related_nodes_add: [NODE-0085]
+    source_chapters_add: [644]

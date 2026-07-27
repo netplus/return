@@ -1,0 +1,110 @@
+schema_version: 1
+run_id: RUN-0101
+characters:
+- id: CHAR-0150
+  name: 邬秋
+  status: alive
+  role: supporting
+  affiliations: [天一仙门]
+  identities: [天一仙门通缉修士, 地脉岩火剑持有者]
+  first_appearance: {chapter: 644, title: 天一仙门变故, node: NODE-0085}
+  cultivation: {current: 天仙一重, injury: 重伤, status: partial}
+  conflict_context: {玄光: 囚禁折磨十年并导致其死亡, 天一仙门: 被列为邪修追捕, 众愿佛门: 逃入众佛小世界阿鼻地狱}
+  related_nodes: [NODE-0085]
+  source_chapters: [644, 645, 646, 647, 648, 649, 650]
+  document: null
+  verification_status: partial
+- id: CHAR-0151
+  name: 惠慈
+  status: alive
+  role: supporting
+  affiliations: [众愿佛门]
+  identities: [众愿佛门方丈, 玉京仙域佛门领袖]
+  first_appearance: {chapter: 647, title: 邬秋，惠慈, node: NODE-0085}
+  cultivation: {current: 至尊天仙, exact_level: pending, status: partial}
+  relationship_context: {邬秋: 父女传闻强烈但未公开承认, 灵藏七仙门: 开放众佛小世界供其自行追捕}
+  related_nodes: [NODE-0085]
+  source_chapters: [647, 648, 649, 650]
+  document: null
+  verification_status: partial
+- id: CHAR-0152
+  name: 洛银纱
+  status: alive
+  role: supporting
+  affiliations: [刹女仙门]
+  identities: [刹女仙门掌门]
+  first_appearance: {chapter: 648, title: 洛银纱搭讪, node: NODE-0085}
+  cultivation: {current: 天仙六重, status: partial}
+  relationship_context: {徐霄: 主动接近并吸收其气运后建立亲密关系}
+  related_nodes: [NODE-0085]
+  source_chapters: [648, 649, 650]
+  document: null
+  verification_status: partial
+- id: CHAR-0153
+  name: 崔云
+  status: alive
+  role: supporting
+  affiliations: [天一仙门]
+  identities: [天一仙门掌门]
+  first_appearance: {chapter: 645, title: 深夜出发, node: NODE-0085}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  conflict_context: {邬秋: 主导七宗联合追捕, 地脉岩火剑: 作为追捕竞争奖励}
+  related_nodes: [NODE-0085]
+  source_chapters: [645, 646, 647, 648, 649, 650]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 人仙九重
+    age_change: 1050岁
+    lifespan_change: 1010259年
+    ability_change_add: [鸿蒙真气增至53股]
+    relationship_change_add: [与洛银纱建立亲密关系]
+    obtained_artifacts_add: [ART-0090]
+    related_nodes_add: [NODE-0085]
+    source_chapters_add: [644, 645, 646, 647, 648, 649, 650]
+    growth_event_add:
+    - chapter_range: {start: 644, end: 650}
+      event: 人仙九重阶段参与跨域追捕并进入无间地狱
+      core_ability: [人仙九重, 鸿蒙真气53股, 驾驶九霄玉舟跨域行动, 获得至尊仙器缚仙绳]
+      impact: [进入七宗跨域行动核心队伍, 与洛银纱建立新关系, 进入众佛小世界铁钩狱]
+      status: partial
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    cultivation_change: 地仙三重
+    accepted_gifts_add: [GIFT-0158]
+    relationship_change_add: [与徐霄关系继续保持非公开]
+    related_nodes_add: [NODE-0085]
+    source_chapters_add: [644]
+    growth_event_add:
+    - chapter: 644
+      event: 晋升地仙三重并接受九天神玉带
+      core_ability: [地仙三重, 持有顶级束缚仙器九天神玉带]
+      impact: [持续获得徐霄高阶资源支持, 双方关系仍未公开]
+      status: partial
+- id: CHAR-0121
+  name: 东方青
+  update:
+    role_change_add: [统筹阴阳仙门跨域追捕及无间地狱队伍编组]
+    related_nodes_add: [NODE-0085]
+    source_chapters_add: [645, 646, 647, 648, 649, 650]
+    growth_event_add:
+    - chapter_range: {start: 645, end: 650}
+      event: 率领阴阳仙门参与邬秋跨域追捕
+      impact: [代表阴阳仙门与众愿佛门交涉, 带队进入众佛小世界]
+      status: partial
+- id: CHAR-0149
+  name: 诸葛青天
+  update:
+    system_behavior_add: [佛门叫阵制造极限震惊并获得1000震惊值]
+    related_nodes_add: [NODE-0085]
+    source_chapters_add: [646, 647]
+    growth_event_add:
+    - chapter: 647
+      event: 在众愿佛门叫阵中获得极限震惊收益
+      core_ability: [获得1000震惊值, 等值可兑换10颗五行仙丹]
+      impact: [十年后重新获得显著系统收益, 实际兑换状态待确认]
+      status: partial
