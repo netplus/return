@@ -1,0 +1,58 @@
+schema_version: 1
+run_id: RUN-0099
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 633, end: 638}
+source_gate: passed_with_qualifications
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  selected_sequence: 525
+  chapter_index: sources/archive/fanqienovel-7423641263695481880/chapters-0601-0650.yaml
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 633, title: 责令分手}
+  - {chapter: 634, title: 愤怒的尘玉}
+  - {chapter: 635, title: 小小太上长老}
+  - {chapter: 636, title: 永远负责伤势}
+  - {chapter: 637, title: 气运之敌，金华}
+  - {chapter: 638, title: 徐哥回府}
+  boundary_probe: {chapter: 639, title: 云姑心上门汇报}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [633, 634, 635, 636, 637, 638]
+chapter_hashes:
+- {chapter: 633, sha256: 9808092d3cc795053c50a8d1b38cc4ab8c48fdcfbc2e1ea74e931cca31857744}
+- {chapter: 634, sha256: 0babde8a700a408e4d502a3a8c239f41cd785230634e74867b0afc6934c61c50}
+- {chapter: 635, sha256: 94fb643e0795bfc73ce8205665ef7166829d577f1bcb22e247252608f132c067}
+- {chapter: 636, sha256: 78feabeee7d69461d36ad09214a6e3f199c4c83df74037a8f8e952b13f15bbec}
+- {chapter: 637, sha256: e7840f0943972199514ffe8dd84c0db32fc3a01ecfec736ec79dfa3868d93398}
+- {chapter: 638, sha256: 324520e953c83c81a86a4b7e9b6e4799c104b7a722261dddbf689e3ab926fb2b}
+chapter_facts:
+- chapter: 633
+  facts: [尘玉以阴阳仙门太上长老身份登场, 系统识别尘玉为SSS级气运之女, 尘玉万青罗方因徐霄公开多重关系启动分手问责]
+  status: partial
+- chapter: 634
+  facts: [尘玉正式责令徐霄与多名女修分手, 罗素等人坚持关系, 徐霄拒绝接受简单分手处理]
+  status: partial
+- chapter: 635
+  facts: [徐霄向尘玉万青罗方各赠十颗高品质五行仙丹, 三位太上长老收下资源, 万青罗方继续认可徐霄罗素关系]
+  status: partial
+- chapter: 636
+  facts: [尘玉由强硬责令分手转为接受徐霄对现有关系和伤势长期负责, 徐霄继续维持多重关系, 三宗高层确认太上长老立场变化]
+  status: partial
+- chapter: 637
+  facts: [徐霄向焰灵赠送仙剑并承诺负责后遗症, 系统返还至尊仙器破天斩金剑, 金华推断徐霄具备击杀青锋实力并被识别为气运之敌]
+  status: partial
+- chapter: 638
+  facts: [吕玄一金华公开追问青锋案, 东方青以无证据为由保护徐霄, 纯阳仙门撤离并保留后续追责]
+  status: partial
+boundary_reason: 第638章完成三宗大会直接余波、青锋案公开问责和纯阳仙门撤离；第639章转入诸葛青天出关及云姑心汇报
+pending:
+- 三位太上长老赠送的精确系统返还与倍率
+- 尘玉精确境界和完整能力
+- 破天斩金剑完整能力
+- 金华气运之敌任务完整奖励
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_and_source_hashes}
