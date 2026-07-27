@@ -1,5 +1,17 @@
 # Changelog
 
+## RUN-0079 — 2026-07-27
+
+- Read Workflow v2.2, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Performed a full identity-to-profile-path audit after the reader-friendly index exposed names that did not match their linked Markdown files.
+- Confirmed five historical canonical identity collisions: `CHAR-0005` 段红绫→紫韵, `CHAR-0007` 段红绫→金柳香, `CHAR-0010` 陆大年→李天霸, `CHAR-0015` 水月→白巧巧 and `CHAR-0027` 白九儿→柳璃.
+- Added append-only character corrections in `data/extensions/characters/run-0079.yaml`; no base or generated index was edited by hand.
+- Added `scripts/validate_entity_identity.py` and unit tests to require every explicit character profile filename to match the canonical character name.
+- Updated CI to run the identity validator against freshly materialized canonical indexes before rendering entity documents and again during the `main` generated-view refresh.
+- Upgraded the workflow standard to v2.3 and added the Character identity alignment quality gate.
+- Preserved story coverage, nodes and record counts: Chapters through 499, 65 nodes, 102 characters, 107 gifts and 68 artifacts.
+- Left `TASK-0068` as the next unique pending story task beginning at Chapter 500.
+
 ## RUN-0078 — 2026-07-27
 
 - Read Workflow v2.1, state, task queue, quality rules, metrics, changelog and dashboard before execution.
