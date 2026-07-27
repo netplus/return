@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0080
+artifacts:
+- id: ART-0069
+  name: 四柄仙器神剑（逐件名称待确认）
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 508
+  current_holder: 徐霄
+  acquisition: GIFT-0108合并返还
+  effect: 逐件属性能力与对应受赠对象待后续正文确认
+  current_state: 未确认分配或使用
+  status: partial
+  related_nodes: [NODE-0066]
+  source_chapters: [508]
+artifact_updates:
+- id: ART-0017
+  name: 三千大道丹
+  update:
+    acquisition_records_add: [{gift_id: GIFT-0108, chapter: 508, quantity: 1, status: partial}]
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [508]
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_records_add: [{gift_id: GIFT-0108, chapter: 508, quantity: 1, status: partial}]
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [508]
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    acquisition_records_add: [{gift_id: GIFT-0108, chapter: 508, quantity: 163, status: partial}]
+    transfer_records_add: [{gift_id: GIFT-0109, chapter: 508, quantity: 12, recipients: [长眉, 天阁, 陆亭舟, 公孙长谋, 神玉, 血刀], status: partial}]
+    related_nodes_add: [NODE-0066]
+    source_chapters_add: [508]
