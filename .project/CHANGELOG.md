@@ -1,5 +1,19 @@
 # Changelog
 
+## RUN-0081 — 2026-07-27
+
+- Read Workflow v2.3, state, task queue, quality rules, metrics, changelog and dashboard before execution.
+- Audited generated character profiles after the user required a growth line containing at least time, key events and core abilities, presented through continuous recording plus staged structure.
+- Preserved the concurrent completed `RUN-0080` story arc, Chapters 500—508, `NODE-0066`, all 104 character records and all 69 artifact records; `TASK-0069` remains the next pending story task.
+- Added `scripts/render_character_growth.py`, which wraps the canonical reader renderer and inserts a first-class `成长线` section into each character profile.
+- Historical growth events are reconstructed from append-only character extension files and canonical Timeline nodes; time is expressed as an exact chapter only when recorded, otherwise as the verified node chapter range.
+- Added a stage summary grouped by 50-chapter windows, showing stage events, core ability evolution and long-term effects.
+- Added a continuous chronological log with time, key event, core ability/growth, identity/relationship/resource impact, node/run evidence and verification status; older records collapse after eight events while recent records remain visible.
+- Added an append-only continuity rule effective from `RUN-0082`: every material character update in a story Run must include a structured `growth_event_add`; new characters must include timed `first_appearance` data.
+- Added renderer and continuity unit tests, and updated CI to validate and materialize growth-line documents both in PRs and on `main` refresh.
+- Upgraded the workflow standard to v2.4 and added the Character growth continuity quality gate.
+- Added no new story facts and did not consume or duplicate `TASK-0069`.
+
 ## RUN-0080 — 2026-07-27
 
 - Read Workflow v2.3, state, task queue, quality rules, metrics, changelog and dashboard before execution.
