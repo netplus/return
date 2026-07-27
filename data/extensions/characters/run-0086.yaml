@@ -1,0 +1,84 @@
+schema_version: 1
+run_id: RUN-0086
+characters:
+- id: CHAR-0112
+  name: 西门恨天
+  status: alive
+  role: antagonist
+  affiliations: [阴阳仙门]
+  identities: [韩烟追求者, 针对徐霄的宗门对立者]
+  first_appearance: {chapter: 534, title: 韩烟的心思, node: NODE-0070}
+  cultivation: {current: 人仙境, exact_level: pending, status: partial}
+  conflict_context: {target: 徐霄, reason: 韩烟关系与矿区舆论, planned_action: 借外门长老巡视压制徐霄, status: partial}
+  related_nodes: [NODE-0070]
+  source_chapters: [534, 536]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    strategic_role_add: [以高阶丹药解除矿区行政处罚并推动进入阴阳仙门]
+    power_change_add: [在三名神魂秘术暗杀者行动后保持无损，具体反制能力链待确认]
+    relationship_change_add: [与韩烟由执法冲突转为公开关系与宗门引荐合作]
+    resource_change_add: [GIFT-0113返还一枚鸿蒙一气丹和两枚仙元丹, 获得ART-0073万龙鎏金甲]
+    growth_event_add:
+    - node: NODE-0070
+      event: 以化仙丹反制处罚并化解神魂暗杀
+      core_ability: [资源型冲突解决能力进入仙界人仙层级, 神魂防护在三名秘术暗杀者行动后保持无损, 获得至尊仙器万龙鎏金甲]
+      impact: [解除十年禁闭, 与韩烟建立公开关系, 获得进入阴阳仙门的引荐路径]
+      status: partial
+    related_nodes_add: [NODE-0070]
+    source_chapters_add: [529, 530, 531, 532, 533, 534, 535, 536]
+- id: CHAR-0110
+  name: 韩烟
+  update:
+    cultivation_change: 人仙四重
+    luck_grade: {value: B, base_multiplier: 10, status: partial}
+    bond_level_set: 1
+    accepted_gifts_add: [GIFT-0113, GIFT-0114]
+    relationship_change_add: [由处罚徐霄的矿区执事转为公开关系对象, 计划借外门长老巡视引荐徐霄进入阴阳仙门]
+    role_change_add: [撤销徐霄与李香香主要禁闭处罚, 成为徐霄仙界宗门准入的关键中介]
+    growth_event_add:
+    - chapter_range: {start: 529, end: 536}
+      event: 接受化仙丹后晋升并转向支持徐霄
+      core_ability: [炼化一枚高品质化仙丹后由人仙三重晋升人仙四重]
+      impact: [撤销徐霄十年禁闭和李香香一年禁闭, 与徐霄建立公开关系, 推动其进入阴阳仙门]
+      status: partial
+    related_nodes_add: [NODE-0070]
+    source_chapters_add: [529, 530, 531, 532, 533, 534, 535, 536]
+- id: CHAR-0106
+  name: 李香香
+  update:
+    condition_change: 一年禁闭处罚被韩烟撤销
+    relationship_change_add: [继续维持与徐霄的公开关系, 对韩烟介入关系网络产生竞争与不安]
+    growth_event_add:
+    - chapter_range: {start: 529, end: 536}
+      event: 禁闭撤销并进入韩烟关系竞争阶段
+      impact: [恢复正常矿区生活, 与徐霄关系继续公开, 开始面对人仙执事韩烟的关系竞争]
+      status: partial
+    related_nodes_add: [NODE-0070]
+    source_chapters_add: [529, 530, 532, 533, 536]
+- id: CHAR-0111
+  name: 司空浩南
+  update:
+    conflict_change: 处罚失败后安排三名精通神魂秘术的手下暗杀徐霄；三人随后失联或死亡，徐霄状态如常
+    status_change_add: [因徐霄与韩烟关系公开多次吐血和昏厥，但永久伤势未确认]
+    growth_event_add:
+    - chapter_range: {start: 529, end: 536}
+      event: 从行政压制升级为神魂暗杀并再次失败
+      impact: [三名心腹暗杀者损失, 对徐霄敌意进一步升级, 在矿区公开失控]
+      status: partial
+    related_nodes_add: [NODE-0070]
+    source_chapters_add: [529, 530, 531, 532, 533, 534, 536]
+- id: CHAR-0107
+  name: 邹蒙
+  update:
+    condition_change: 因代挖连坐受到十天禁闭处罚
+    growth_event_add:
+    - chapter: 529
+      event: 因帮助徐霄代挖承担连坐处罚
+      impact: [被韩烟判处十天禁闭, 与徐霄的资源合作关系受到矿区执法约束]
+      status: partial
+    related_nodes_add: [NODE-0070]
+    source_chapters_add: [529]
