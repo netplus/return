@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0088
+artifacts:
+- id: ART-0075
+  name: 陈玉返还仙器神剑（正式名称待确认）
+  category: 仙器神剑
+  grade: 仙器
+  first_chapter: 551
+  current_holder: 徐霄
+  acquisition: GIFT-0123系统返还
+  effect: 正式名称、属性、能力、使用限制与后续分配待确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes: [NODE-0072]
+  source_chapters: [551]
+artifact_updates:
+- id: ART-0046
+  name: 仙元丹
+  update:
+    acquisition_records_add:
+    - {gift_id: GIFT-0121, chapter: 548, quantity: 30, status: partial}
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [548]
+- id: ART-0045
+  name: 雷灵丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0118, chapter: 545, recipients: [陈玉, 李薇], quantity: pending, status: partial}
+    - {gift_id: GIFT-0120, chapter: 546, recipient: 李香香, quantity: 10, status: partial}
+    - {gift_id: GIFT-0124, chapter: 552, recipient: 陈玉, quantity: 10, status: partial}
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [545, 546, 552]
+- id: ART-0060
+  name: 化仙丹
+  update:
+    transfer_records_add:
+    - {gift_id: GIFT-0119, chapter: 546, recipient: 云鹤, quantity: pending, status: partial}
+    - {gift_id: GIFT-0120, chapter: 546, recipient: 韩烟, quantity: 10, status: partial}
+    - {gift_id: GIFT-0121, chapter: 548, recipient: 柳清浅, quantity: 10, status: partial}
+    - {gift_id: GIFT-0122, chapter: 549, recipients: [莫问书, 凌白烟], quantity: 2, status: partial}
+    acquisition_records_add:
+    - {gift_id: GIFT-0124, chapter: 552, quantity: 20, status: partial}
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [546, 548, 549, 552]

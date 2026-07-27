@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0088
+nodes:
+- id: NODE-0072
+  title: 外门舆论、亲传晋升与阴阳仙诀转换
+  chapters: {start: 545, end: 552}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第545—553章标题顺序和边界；第545—552章正文由可访问镜像交叉核验
+  boundary_reason: 第552章完成亲传身份、陈玉结缘与阴阳仙诀转换；第553章转入道侣大会的新评测阶段
+  characters: [徐霄, 柳清浅, 南宫嫣, 云鹤, 韩烟, 李香香, 陈玉, 李薇, 莫问书, 凌白烟]
+  power_result: 徐霄完成无妄真绝向阴阳仙诀的灵力体系转换并晋升渡劫五重
+  relationship_result: 徐霄成为柳清浅第三名亲传弟子并与陈玉建立公开道侣关系
+  system_events:
+  - {event: 柳清浅亲传晋升赠礼, gift_id: GIFT-0121, reward: 三十枚仙元丹, status: partial}
+  - {event: 陈玉复合赠礼, gift_id: GIFT-0123, reward: 一百上品灵精一枚人仙巅峰魂丹一柄仙器神剑, status: partial}
+  pending: [云鹤受赠化仙丹准确数量与返还, 南宫嫣道基修复具体丹药与完整结果, 李薇系统面板, 陈玉完整气运面板, 仙器神剑正式名称能力, 阴阳仙诀完整层级与限制]
+  document: docs/01-timeline/node-0072.md
+  evidence: sources/evidence/chapters-545-552.yaml

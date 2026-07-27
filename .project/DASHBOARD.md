@@ -1,35 +1,35 @@
 # Project dashboard
 
 - **Status:** Active
-- **Current milestone:** M11 — Chapters 501–550
+- **Current milestone:** M12 — Chapters 551–600
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 544
-- **Current evidence exploration through:** Chapter 545
+- **Canonical coverage through:** Chapter 552
+- **Current evidence exploration through:** Chapter 553
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 71
+- **Completed timeline nodes:** 72
 - **Draft timeline nodes:** 0
-- **Documented characters:** 115
-- **Generated character profiles:** 115
-- **Gift events:** 117
-- **Artifact records:** 74
-- **Generated artifact profiles:** 74
-- **Last run:** `RUN-0087`
-- **Last completed node:** `NODE-0071`
-- **Next task:** `TASK-0074` — 外门舆论、正式拜师与亲传晋升 story arc
-- **Provisional exploration range:** Chapters 545–552
+- **Documented characters:** 119
+- **Generated character profiles:** 119
+- **Gift events:** 124
+- **Artifact records:** 75
+- **Generated artifact profiles:** 75
+- **Last run:** `RUN-0088`
+- **Last completed node:** `NODE-0072`
+- **Next task:** `TASK-0075` — 道侣大会、六甲评测与掌门亲传 story arc
+- **Provisional exploration range:** Chapters 553–564
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0071` covers Chapters 537—544. 外门长老团因徐霄与韩烟关系前往矿区问罪；徐霄以人仙巅峰神霄仙火符取得平等谈判地位，云鹤终止强制制裁。徐霄以十枚化仙丹和一枚人仙巅峰魂丹拜入柳清浅门下，李香香拜南宫嫣为师。离开矿区前，徐霄向邹蒙、陈念等队友赠送雷灵丹。司空浩南随后组织伏击，被渡劫四重徐霄以山河灵图收纳并清除。第545章转入阴阳仙门外门内部舆论与弟子冲突。
+`NODE-0072` covers Chapters 545—552. 徐霄进入阴阳仙门外门后，通过云鹤和柳清浅建立正式宗门关系；十枚化仙丹使其由记名弟子晋升为柳清浅第三名亲传弟子。莫问书、凌白烟接受见面礼并形成稳定同门协作。陈玉接受灵精、魂丹和先天灵宝神剑，与徐霄确立公开道侣关系，系统返还上品灵精、人仙巅峰魂丹和仙器神剑。徐霄随后完成无妄真绝向阴阳仙诀的转换，晋升渡劫五重。第553章转入道侣大会公开评测。
 
 ## Character growth updates
 
-`RUN-0087` adds timed growth events for 徐霄、韩烟、李香香、司空浩南、西门恨天 and邹蒙, plus chapter-anchored first appearances for 柳清浅、南宫嫣 and云鹤. All uncertain system returns and incomplete combat identities remain pending rather than inferred.
+`RUN-0088` adds timed growth events for 徐霄、柳清浅、南宫嫣、云鹤、韩烟 and李香香, plus chapter-anchored first appearances for 陈玉、李薇、莫问书 and凌白烟. Unconfirmed gift mappings, system panels and artifact abilities remain pending.
 
-## Quality gates — RUN-0087
+## Quality gates — RUN-0088
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 115 character and 74 artifact records |
+| Entity-document freshness | Passed — 119 character and 75 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 6 timed material updates and 3 anchored first appearances |
+| Character growth continuity | Passed — 6 timed material updates and 4 anchored first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第537—545章标题、顺序和阶段边界；第537—544章正文由CP小说网可访问镜像交叉核验。柳清浅拜师礼全部返还、南宫嫣完整面板和赠礼返还、矿区告别赠礼完整清单、神霄仙火符来源与剩余数量、司空浩南伏击队伍完整身份继续保持 `pending`。
+番茄小说官方目录确认第545—553章标题、顺序和阶段边界；第545—552章正文由CP小说网可访问镜像交叉核验。云鹤受赠准确数量与返还、南宫嫣修复丹药和完整结果、陈玉李薇系统面板、仙器神剑正式名称能力及阴阳仙诀完整层级限制继续保持 `pending`。
