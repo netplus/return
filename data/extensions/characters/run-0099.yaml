@@ -1,0 +1,123 @@
+schema_version: 1
+run_id: RUN-0099
+characters:
+- id: CHAR-0147
+  name: 尘玉
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门太上长老, SSS级气运之女]
+  first_appearance: {chapter: 633, title: 责令分手, node: NODE-0083}
+  cultivation: {current: 天仙境以上, exact_level: pending, status: partial}
+  relationship_context: {徐霄: 由责令分手转为接受其对现有关系长期负责, status: partial}
+  related_nodes: [NODE-0083]
+  source_chapters: [633, 634, 635, 636]
+  document: null
+  verification_status: partial
+- id: CHAR-0148
+  name: 金华
+  status: alive
+  role: antagonist
+  affiliations: [纯阳仙门]
+  identities: [纯阳仙门内门长老, 青锋师尊, 气运之敌]
+  first_appearance: {chapter: 637, title: 气运之敌，金华, node: NODE-0083}
+  cultivation: {current: 地仙境, exact_level: pending, status: partial}
+  conflict_context: {徐霄: 认定其与青锋及纯阳仙门弟子死亡有关, status: partial}
+  related_nodes: [NODE-0083]
+  source_chapters: [637, 638]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: [以五行仙丹化解尘玉万青罗方的分手问责, 向焰灵承诺长期负责伤势]
+    conflict_change_add: [青锋案嫌疑公开化并与纯阳仙门形成直接冲突]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [633, 634, 635, 636, 637, 638]
+    growth_event_add:
+    - chapter_range: {start: 633, end: 638}
+      event: 化解太上长老分手问责并在青锋案公开冲突中获得宗门保护
+      core_ability: [掌握高品质五行仙丹资源, 获得至尊仙器破天斩金剑]
+      impact: [多重关系获得太上长老层级默认接受, 与纯阳仙门矛盾公开化]
+      status: partial
+- id: CHAR-0130
+  name: 万青
+  update:
+    accepted_gifts_add: [GIFT-0151]
+    relationship_change_add: [继续认可徐霄与罗素关系并接受其现有关系结构]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [633, 634, 635, 636]
+    growth_event_add:
+    - chapter_range: {start: 633, end: 635}
+      event: 参与分手问责后收下五行仙丹并继续认可徐霄
+      impact: [由礼法问责转为维持家族认可]
+      status: partial
+- id: CHAR-0131
+  name: 罗方
+  update:
+    accepted_gifts_add: [GIFT-0152]
+    relationship_change_add: [继续接受徐霄作为罗素长期道侣]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [633, 634, 635, 636]
+    growth_event_add:
+    - chapter_range: {start: 633, end: 635}
+      event: 收下五行仙丹并支持徐霄罗素关系
+      impact: [家族问责转为公开支持]
+      status: partial
+- id: CHAR-0120
+  name: 罗素
+  update:
+    relationship_change_add: [面对太上长老问责仍坚持与徐霄关系]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [633, 634, 635, 636]
+    growth_event_add:
+    - chapter_range: {start: 633, end: 635}
+      event: 在太上长老责令分手时坚持徐霄关系
+      impact: [关系再次获得父母和尘玉默认接受]
+      status: partial
+- id: CHAR-0146
+  name: 焰灵
+  update:
+    accepted_gifts_add: [GIFT-0153]
+    relationship_change_add: [接受徐霄对大会伤势和后遗症长期负责]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [636, 637]
+    growth_event_add:
+    - chapter: 637
+      event: 接受仙剑和长期伤势补偿承诺
+      impact: [与徐霄的资源关系进一步建立]
+      status: partial
+- id: CHAR-0121
+  name: 东方青
+  update:
+    conflict_change_add: [在青锋案公开问责中明确保护徐霄并驱逐纯阳仙门]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [637, 638]
+    growth_event_add:
+    - chapter: 638
+      event: 以掌门身份公开保护徐霄
+      impact: [阴阳仙门与纯阳仙门矛盾升级, 徐霄宗门战略地位进一步巩固]
+      status: verified
+- id: CHAR-0137
+  name: 吕玄一
+  update:
+    conflict_change_add: [将青锋死亡调查升级为对徐霄和阴阳仙门的公开问责]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [637, 638]
+    growth_event_add:
+    - chapter_range: {start: 637, end: 638}
+      event: 因青锋案与阴阳仙门公开冲突后撤离
+      impact: [纯阳仙门对徐霄的敌对调查升级]
+      status: partial
+- id: CHAR-0145
+  name: 云花海
+  update:
+    conflict_change_add: [目睹徐霄向焰灵继续伸展资源关系并带队离开大会]
+    related_nodes_add: [NODE-0083]
+    source_chapters_add: [636, 637]
+    growth_event_add:
+    - chapter_range: {start: 636, end: 637}
+      event: 带五灵仙门离开三宗交流大会
+      impact: [对徐霄接近焰灵的警惕持续上升]
+      status: partial
