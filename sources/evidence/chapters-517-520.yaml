@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0084
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 517, end: 520}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 517, title: 系统升级，九霄天梯}
+  - {chapter: 518, title: 姬雪飞升}
+  - {chapter: 519, title: 凤青玄飞升}
+  - {chapter: 520, title: 徐霄飞升，晋升矿工}
+  boundary_probe: {chapter: 521, title: 气运之女，李香香}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [517, 518, 519, 520]
+chapter_facts:
+- chapter: 517
+  facts: [徐霄在天元仙宗仙池吸收三日后由大乘七重升至大乘九重, 素青羁绊度提升至2, 十枚雷灵丹返还一枚鸿蒙一气丹和九枚化仙丹, 蓬莱仙宗被彻底清除且北海空间裂缝关闭, 系统升级与九霄天梯进入后续跨界准备]
+  status: partial
+- chapter: 518
+  facts: [姬雪元灵仙体彻底觉醒且前世记忆全部恢复, 境界达到渡劫九重, 向独孤灵完成临行托付后飞升灵藏仙域]
+  status: partial
+- chapter: 519
+  facts: [姬雪飞升后被阴阳仙门安排百年矿役并化名刘爱花, 徐霄一年内与魔妖云心月陆雪瑶血葵紫霄陆续举行道侣仪式, 玉冰独孤灵也重新举行关系仪式, 凤青玄达到渡劫九重并飞升]
+  status: partial
+- chapter: 520
+  facts: [凤青玄飞升后被安排为矿工队长, 徐霄数年内升至渡劫三重且鸿蒙真气增至四十股, 九霄天梯确认可突破上下界规则并支持往返, 徐霄完成下界安置后飞升灵藏仙域并进入阴阳仙门矿工体系]
+  status: partial
+boundary_reason: 第520章完成徐霄飞升及新世界身份转换；第521章李香香登场并开启仙界矿区关系线
+pending:
+- 第517章系统升级的完整功能清单和九霄天梯精确取得机制
+- 九霄天梯正式品阶、完整承载能力、使用消耗及冷却限制
+- 徐霄由大乘九重升至渡劫三重的逐次雷劫时间和细节
+- 姬雪与凤青玄在矿区的具体队伍编号和全部规章
+- 五名新道侣及玉冰独孤灵仪式的精确先后日期与完整参与者
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}
