@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 53
+  extension_files: 54
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1682,4 +1682,48 @@ gifts:
   system_valid: true
   reward: 二十枚化仙丹
   triggered_multiplier: 2
+  status: partial
+- id: GIFT-0125
+  chapter: 566
+  node: NODE-0074
+  giver: 徐霄
+  recipient: 柳清浅
+  gift: 十枚化仙丹与顶级仙器九霄玄冰剑
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 师徒资源关系长期化
+  status: partial
+- id: GIFT-0126
+  chapter_range:
+    start: 568
+    end: 569
+  node: NODE-0074
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 十枚化仙丹、一枚人仙巅峰魂丹与仙器九霄神焰剑
+  accepted: true
+  system_valid: true
+  reward: 一百枚仙元丹、一枚天仙巅峰魂丹与至尊仙器至尊神火剑
+  triggered_multiplier:
+    化仙丹: 10
+    魂丹: 1
+    仙剑: 1
+    status: partial
+  relationship_result: 凤青玄接受长期资源支持但暂未确认道侣
+  status: partial
+- id: GIFT-0127
+  chapter_range:
+    start: 571
+    end: 572
+  node: NODE-0074
+  giver: 徐霄
+  recipient: 罗素
+  gift: 高阶符箓相关原始赠礼待确认及十枚仙元丹
+  accepted: true
+  system_valid: true
+  reward: 天仙顶级神御黑冰符及十枚天仙境五行仙丹
+  triggered_multiplier: pending
+  relationship_result: 罗素与徐霄确立公开亲密关系
   status: partial

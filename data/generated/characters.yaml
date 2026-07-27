@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 62
+  extension_files: 63
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -142,6 +142,7 @@ characters:
   - NODE-0071
   - NODE-0072
   - NODE-0073
+  - NODE-0074
   source_chapters:
   - 1
   - 2
@@ -667,6 +668,14 @@ characters:
   - 562
   - 563
   - 564
+  - 565
+  - 566
+  - 567
+  - 568
+  - 569
+  - 570
+  - 571
+  - 572
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -721,6 +730,8 @@ characters:
   - 与韩烟由执法冲突转为公开关系与宗门引荐合作
   - 拜柳清浅为师并正式离开矿区进入阴阳仙门
   - 与陈玉建立公开道侣及长期资源关系
+  - 与凤青玄建立长期资源支持承诺
+  - 与罗素确立公开亲密关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -830,6 +841,7 @@ characters:
   - 飞升后被纳入阴阳仙门百年矿工体系
   - 由外门记名弟子晋升亲传弟子并取得亲传令牌年俸与随师入内门预期
   - 由外门长老亲传晋升掌门亲传并进入阴阳仙门最高培养序列
+  - 仙界资源网络由外门扩展至内门弟子和外门大长老层级
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -990,6 +1002,15 @@ characters:
     - 东方青收为掌门亲传
     - 宗门战略培养等级显著提升
     status: partial
+  - node: NODE-0074
+    event: 与凤青玄姬雪重逢并完成仙界高阶资源网络扩展
+    core_ability:
+    - 持续调动化仙丹仙元丹魂丹仙器和高阶符箓进行关系与资源配置
+    impact:
+    - 凤青玄进入长期资源支持网络
+    - 罗素成为公开关系对象
+    - 资源网络延伸至内门和外门大长老
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1041,6 +1062,7 @@ characters:
   - NODE-0065
   - NODE-0067
   - NODE-0068
+  - NODE-0074
   source_chapters:
   - 1
   - 2
@@ -1058,20 +1080,26 @@ characters:
   - 512
   - 518
   - 519
+  - 565
+  - 568
   verification_status: verified
   status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
   - 继续要求独孤灵与徐霄保持距离，以避免影响纯阴修炼道路
   - 与独孤灵在无妄仙宗重聚并继续承担其师父身份
   - 幽冥天绝阵危局中主动准备携徐霄破界撤离
-  cultivation_change: 渡劫九重
+  cultivation_change: 人仙三重
   constitution:
   - 元灵圣体
   - 元灵仙体
   identity:
   - 玉冰首徒
   - 雪瑶仙帝转世
-  affiliation: 无妄仙宗
+  - 以刘爱花身份在仙界活动
+  affiliation:
+  - 无妄仙宗
+  - 阴阳仙门内门
+  - 瑶光长老门下
   power_change:
   - 恢复部分前世记忆
   - 须臾空间激活
@@ -1106,6 +1134,15 @@ characters:
     - 与独孤灵告别
     - 化名刘爱花
     - 暂时接受阴阳仙门百年矿工安排
+    status: partial
+  - node: NODE-0074
+    event: 刘爱花身份曝光为姬雪并确认仙界修炼现状
+    core_ability:
+    - 元灵仙体
+    - 境界晋升人仙三重
+    impact:
+    - 拜入瑶光长老门下
+    - 进入徐霄仙界重逢线
     status: partial
 - id: CHAR-0003
   name: 独孤灵
@@ -2882,6 +2919,7 @@ characters:
   - GIFT-0043
   - GIFT-0080
   - GIFT-0081
+  - GIFT-0126
   current_artifacts:
   - 三光分水剑
   relationship_context:
@@ -2895,6 +2933,7 @@ characters:
   - NODE-0042
   - NODE-0056
   - NODE-0057
+  - NODE-0074
   source_chapters:
   - 233
   - 234
@@ -2916,6 +2955,10 @@ characters:
   - 435
   - 436
   - 437
+  - 565
+  - 567
+  - 568
+  - 569
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -2930,7 +2973,23 @@ characters:
   - 取得火凤精血并形成天凤精血返还，涅槃恢复计划继续推进
   - 东海涅槃进入护法阶段并获得四象斩天剑加强防护
   - 接受天凤精血并放弃即将完成的普通涅槃，重新孕育天凤之躯
-  relationship_change: 对徐霄的安全与资源能力形成更深长期依赖
+  relationship_change:
+  - 对徐霄的安全与资源能力形成更深长期依赖
+  - 接受徐霄长期承担修炼资源但暂未正式确认道侣
+  cultivation_change: 人仙二重
+  affiliation:
+  - 阴阳仙门内门
+  - 青鸾长老门下
+  growth_event:
+  - node: NODE-0074
+    event: 仙界重逢并接受复合高阶赠礼
+    core_ability:
+    - 天凤血脉
+    - 境界晋升人仙二重
+    impact:
+    - 确认青鸾长老门下内门身份
+    - 与徐霄建立长期资源承诺
+    status: partial
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -6144,10 +6203,12 @@ characters:
   accepted_gifts:
   - GIFT-0115
   - GIFT-0121
+  - GIFT-0125
   related_nodes:
   - NODE-0071
   - NODE-0072
   - NODE-0073
+  - NODE-0074
   source_chapters:
   - 538
   - 541
@@ -6161,10 +6222,12 @@ characters:
   - 562
   - 563
   - 564
+  - 566
   verification_status: partial
   relationship_change:
   - 确认徐霄为第三名亲传弟子并承诺未来进入内门时一并带入
   - 徐霄被东方青收为掌门亲传后，原师徒培养关系进入宗门高层共同培养阶段
+  - 即使徐霄转拜掌门后仍获得长期修炼资源承诺
   growth_event:
   - node: NODE-0072
     event: 将徐霄由记名弟子晋升为第三名亲传弟子
@@ -6181,6 +6244,13 @@ characters:
     impact:
     - 继续保持外门顶级女修地位
     - 与徐霄的师徒关系进入掌门亲传后的新阶段
+    status: partial
+  - chapter: 566
+    event: 接受化仙丹与顶级仙器九霄玄冰剑
+    core_ability:
+    - 获得顶级寒冰仙剑并继续冲击地仙境
+    impact:
+    - 师徒资源关系长期化
     status: partial
   assessment_result:
   - 天资: 甲
@@ -6458,6 +6528,7 @@ characters:
     status: partial
   related_nodes:
   - NODE-0073
+  - NODE-0074
   source_chapters:
   - 556
   - 557
@@ -6466,8 +6537,30 @@ characters:
   - 562
   - 563
   - 564
+  - 570
+  - 571
+  - 572
   document: null
   verification_status: partial
+  luck_grade:
+    value: A
+    status: partial
+  accepted_gifts:
+  - GIFT-0127
+  relationship_change:
+  - 与徐霄确立公开亲密关系并承诺长期相伴
+  enemy_relation:
+  - 与东方青的旧道侣关系已终止五万年
+  growth_event:
+  - node: NODE-0074
+    event: 主动到访并与徐霄确立关系
+    core_ability:
+    - 地仙七重
+    - 获得高阶符箓和仙元丹支持
+    impact:
+    - 由观察六甲天才转为公开关系对象
+    - 与东方青旧关系进一步不可逆
+    status: partial
 - id: CHAR-0121
   name: 东方青
   status: alive
@@ -6486,6 +6579,7 @@ characters:
   strategic_role: 主持道侣大会高层决策并将徐霄收为掌门亲传弟子
   related_nodes:
   - NODE-0073
+  - NODE-0074
   source_chapters:
   - 557
   - 560
@@ -6493,8 +6587,19 @@ characters:
   - 562
   - 563
   - 564
+  - 570
+  - 571
+  - 572
   document: null
   verification_status: partial
+  conflict_change:
+  - 察觉罗素可能与徐霄建立真实关系并产生持续顾虑
+  growth_event:
+  - node: NODE-0074
+    event: 罗素转向徐霄使旧道侣矛盾进入公开化前夜
+    impact:
+    - 掌门与亲传弟子的私人关系冲突风险上升
+    status: partial
 - id: CHAR-0122
   name: 上官无双
   status: alive

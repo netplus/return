@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 57
+  extension_files: 58
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1710,8 +1710,26 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0066
+  - NODE-0074
   source_chapters:
   - 508
+  - 566
+  - 568
+  - 569
+  resolved_components:
+  - 九霄玄冰剑
+  - 九霄神焰剑
+  transfer_records:
+  - chapter: 566
+    item: 九霄玄冰剑
+    recipient: 柳清浅
+    gift_id: GIFT-0125
+    status: partial
+  - chapter_range: 568-569
+    item: 九霄神焰剑
+    recipient: 凤青玄
+    gift_id: GIFT-0126
+    status: partial
 - id: ART-0070
   name: 九天神玉带
   category: 仙器法宝
@@ -1802,3 +1820,31 @@ artifacts:
   - NODE-0072
   source_chapters:
   - 551
+- id: ART-0076
+  name: 至尊神火剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 569
+  current_holder: 徐霄
+  acquisition: GIFT-0126返还
+  effect: 火属性至尊仙剑；完整能力、神火规则和使用限制待确认
+  current_state: 未确认分配或使用
+  status: partial
+  related_nodes:
+  - NODE-0074
+  source_chapters:
+  - 569
+- id: ART-0077
+  name: 神御黑冰符
+  category: 仙符
+  grade: 天仙顶级
+  first_chapter: 571
+  current_holder: 徐霄
+  acquisition: GIFT-0127返还
+  effect: 黑冰类天仙顶级符箓；完整防御、封禁或杀伤机制待确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes:
+  - NODE-0074
+  source_chapters:
+  - 571

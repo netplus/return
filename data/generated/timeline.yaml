@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 62
+  extension_files: 63
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2914,3 +2914,45 @@ nodes:
   - 道侣大会所有参评者完整分数
   document: docs/01-timeline/node-0073.md
   evidence: sources/evidence/chapters-553-564.yaml
+- id: NODE-0074
+  title: 凤青玄姬雪重逢、集中赠礼与罗素结缘
+  chapters:
+    start: 565
+    end: 572
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第565—573章标题顺序和边界；第565—572章正文由CP小说网可访问镜像交叉核验
+  boundary_reason: 第572章完成罗素关系确认、仙元丹赠送及五行仙丹返还；第573章转入南宫嫣道伤恶化与三人看门冲突
+  characters:
+  - 徐霄
+  - 凤青玄
+  - 姬雪
+  - 柳清浅
+  - 罗素
+  - 东方青
+  - 南宫嫣
+  - 莫问书
+  - 凌白烟
+  power_result: 凤青玄明确晋升人仙二重，姬雪以刘爱花身份晋升人仙三重；徐霄仙界资源网络从外门扩展至内门与外门大长老层级
+  relationship_result: 徐霄与凤青玄建立长期资源承诺，与罗素确立公开亲密关系；柳清浅继续接受长期资源支持
+  system_events:
+  - gift_id: GIFT-0125
+    event: 柳清浅化仙丹与九霄玄冰剑赠送
+    reward: pending
+    status: partial
+  - gift_id: GIFT-0126
+    event: 凤青玄复合赠送
+    reward: 一百仙元丹一天仙巅峰魂丹及至尊神火剑
+    status: partial
+  - gift_id: GIFT-0127
+    event: 罗素地仙资源与仙元丹赠送
+    reward: 神御黑冰符及十颗天仙境五行仙丹
+    status: partial
+  pending:
+  - 柳清浅赠礼完整返还
+  - 罗素触发神御黑冰符的原始赠礼和倍率
+  - 姬雪与徐霄本阶段完整会面过程
+  - 两柄原四剑组件的逐件对应关系
+  - 罗素完整系统面板
+  document: docs/01-timeline/node-0074.md
+  evidence: sources/evidence/chapters-565-572.yaml

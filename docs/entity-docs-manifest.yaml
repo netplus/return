@@ -267,7 +267,7 @@ groups:
     - id: CHAR-0129
       path: docs/02-characters/浑天.md
   artifacts:
-    count: 75
+    count: 77
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -421,10 +421,14 @@ groups:
       path: docs/06-artifacts/人仙巅峰神霄仙火符.md
     - id: ART-0075
       path: docs/06-artifacts/陈玉返还仙器神剑（正式名称待确认）.md
+    - id: ART-0076
+      path: docs/06-artifacts/至尊神火剑.md
+    - id: ART-0077
+      path: docs/06-artifacts/神御黑冰符.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
   characters_with_growth_line: 129
-  growth_events: 507
+  growth_events: 513
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
