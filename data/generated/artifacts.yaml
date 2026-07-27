@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 54
+  extension_files: 55
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1026,6 +1026,7 @@ artifacts:
   - NODE-0063
   - NODE-0066
   - NODE-0068
+  - NODE-0070
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1036,6 +1037,7 @@ artifacts:
   - 483
   - 508
   - 517
+  - 530
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -1046,6 +1048,10 @@ artifacts:
     status: partial
   - gift_id: GIFT-0111
     chapter: 517
+    quantity: 1
+    status: partial
+  - gift_id: GIFT-0113
+    chapter: 530
     quantity: 1
     status: partial
 - id: ART-0045
@@ -1465,13 +1471,31 @@ artifacts:
   - NODE-0064
   - NODE-0065
   - NODE-0068
+  - NODE-0070
   source_chapters:
   - 494
   - 517
+  - 529
+  - 530
+  - 531
+  - 532
+  - 534
+  - 535
   acquisition_records:
   - gift_id: GIFT-0111
     chapter: 517
     quantity: 9
+    status: partial
+  transfer_records:
+  - gift_id: GIFT-0113
+    chapter: 530
+    quantity: 3
+    recipient: 韩烟
+    status: partial
+  - gift_id: GIFT-0114
+    chapter: 532
+    quantity: 7
+    recipient: 韩烟
     status: partial
 - id: ART-0061
   name: 九幽惊魂剑
@@ -1643,3 +1667,18 @@ artifacts:
   - NODE-0069
   source_chapters:
   - 526
+- id: ART-0073
+  name: 万龙鎏金甲
+  category: 防御仙器
+  grade: 至尊仙器
+  first_chapter: 535
+  current_holder: 徐霄
+  acquisition: 韩烟后续赠礼链触发的系统返还，精确对应待确认
+  source_gift: GIFT-0114
+  effect: 完整防御能力、龙力机制、承伤上限和使用消耗待后续正文确认
+  current_state: 已获得，首次明确使用章节待确认
+  status: partial
+  related_nodes:
+  - NODE-0070
+  source_chapters:
+  - 535

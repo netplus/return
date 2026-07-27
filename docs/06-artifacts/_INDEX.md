@@ -2,7 +2,7 @@
 
 <!-- AUTO-GENERATED FROM CANONICAL INDEX. DO NOT EDIT BY HAND. -->
 
-- Canonical 记录数：**72**
+- Canonical 记录数：**73**
 - 每个条目优先展示读者版摘要、分主题事实和未决项；机器 YAML 默认折叠在文末。
 - 文档由 `scripts/render_entity_docs.py` 自动生成；事实修正应写入基础索引或追加扩展。
 
@@ -80,3 +80,4 @@
 | `ART-0070` | 九天神玉带 | 仙器法宝 | pending | 徐霄 | [九天神玉带](九天神玉带.md) |
 | `ART-0071` | 九霄天梯 | 特殊破界宝物 | pending | 徐霄 | [九霄天梯](九霄天梯.md) |
 | `ART-0072` | 仙灵冰魄剑 | 仙器神剑 | 仙器 | 徐霄 | [仙灵冰魄剑](仙灵冰魄剑.md) |
+| `ART-0073` | 万龙鎏金甲 | 防御仙器 | 至尊仙器 | 徐霄 | [万龙鎏金甲](万龙鎏金甲.md) |

@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 58
+  extension_files: 59
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -137,6 +137,7 @@ characters:
   - NODE-0067
   - NODE-0068
   - NODE-0069
+  - NODE-0070
   source_chapters:
   - 1
   - 2
@@ -626,6 +627,14 @@ characters:
   - 526
   - 527
   - 528
+  - 529
+  - 530
+  - 531
+  - 532
+  - 533
+  - 534
+  - 535
+  - 536
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -677,6 +686,7 @@ characters:
   - 与魔妖敲定道侣及长期资源关系
   - 与云心月陆雪瑶紫霄血葵形成公开道侣或长期资源安排
   - 与李香香在六号矿坑结为公开道侣并建立长期资源关系
+  - 与韩烟由执法冲突转为公开关系与宗门引荐合作
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -697,6 +707,7 @@ characters:
   - 数年内完成渡劫一至三重提升
   - 九霄天梯可突破上下界规则并支持往返
   - 在矿区具备以人仙级符箓和仙器应对执事威压的底牌
+  - 在三名神魂秘术暗杀者行动后保持无损，具体反制能力链待确认
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
   cultivation_change: 渡劫三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
@@ -843,6 +854,8 @@ characters:
   - 人仙巅峰魂丹二十八颗
   - 雷灵丹一万二千余颗
   - 化仙丹二千八百余颗
+  - GIFT-0113返还一枚鸿蒙一气丹和两枚仙元丹
+  - 获得ART-0073万龙鎏金甲
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
   knowledge:
   - 渡劫九重规则
@@ -886,6 +899,19 @@ characters:
     - 建立与范有通和邹蒙的矿区关系
     - 引发韩烟与司空浩南的执事级冲突
     status: partial
+  - node: NODE-0070
+    event: 以化仙丹反制处罚并化解神魂暗杀
+    core_ability:
+    - 资源型冲突解决能力进入仙界人仙层级
+    - 神魂防护在三名秘术暗杀者行动后保持无损
+    - 获得至尊仙器万龙鎏金甲
+    impact:
+    - 解除十年禁闭
+    - 与韩烟建立公开关系
+    - 获得进入阴阳仙门的引荐路径
+    status: partial
+  strategic_role:
+  - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -5666,6 +5692,7 @@ characters:
     status: partial
   related_nodes:
   - NODE-0069
+  - NODE-0070
   source_chapters:
   - 521
   - 522
@@ -5674,7 +5701,26 @@ characters:
   - 526
   - 527
   - 528
+  - 529
+  - 530
+  - 532
+  - 533
+  - 536
   verification_status: partial
+  condition_change: 一年禁闭处罚被韩烟撤销
+  relationship_change:
+  - 继续维持与徐霄的公开关系
+  - 对韩烟介入关系网络产生竞争与不安
+  growth_event:
+  - chapter_range:
+      start: 529
+      end: 536
+    event: 禁闭撤销并进入韩烟关系竞争阶段
+    impact:
+    - 恢复正常矿区生活
+    - 与徐霄关系继续公开
+    - 开始面对人仙执事韩烟的关系竞争
+    status: partial
 - id: CHAR-0107
   name: 邹蒙
   status: alive
@@ -5694,6 +5740,7 @@ characters:
   strategic_role: 带领徐霄熟悉矿区并接受灵精代挖安排
   related_nodes:
   - NODE-0069
+  - NODE-0070
   source_chapters:
   - 522
   - 523
@@ -5702,7 +5749,16 @@ characters:
   - 526
   - 527
   - 528
+  - 529
   verification_status: partial
+  condition_change: 因代挖连坐受到十天禁闭处罚
+  growth_event:
+  - chapter: 529
+    event: 因帮助徐霄代挖承担连坐处罚
+    impact:
+    - 被韩烟判处十天禁闭
+    - 与徐霄的资源合作关系受到矿区执法约束
+    status: partial
 - id: CHAR-0108
   name: 范有通
   status: alive
@@ -5775,9 +5831,41 @@ characters:
     status: partial
   related_nodes:
   - NODE-0069
+  - NODE-0070
   source_chapters:
   - 528
+  - 529
+  - 530
+  - 531
+  - 532
+  - 533
+  - 534
+  - 535
+  - 536
   verification_status: partial
+  cultivation_change: 人仙四重
+  bond_level: 1
+  accepted_gifts:
+  - GIFT-0113
+  - GIFT-0114
+  relationship_change:
+  - 由处罚徐霄的矿区执事转为公开关系对象
+  - 计划借外门长老巡视引荐徐霄进入阴阳仙门
+  role_change:
+  - 撤销徐霄与李香香主要禁闭处罚
+  - 成为徐霄仙界宗门准入的关键中介
+  growth_event:
+  - chapter_range:
+      start: 529
+      end: 536
+    event: 接受化仙丹后晋升并转向支持徐霄
+    core_ability:
+    - 炼化一枚高品质化仙丹后由人仙三重晋升人仙四重
+    impact:
+    - 撤销徐霄十年禁闭和李香香一年禁闭
+    - 与徐霄建立公开关系
+    - 推动其进入阴阳仙门
+    status: partial
 - id: CHAR-0111
   name: 司空浩南
   status: alive
@@ -5798,6 +5886,56 @@ characters:
   conflict_context: 因李香香与徐霄结为道侣，对徐霄形成持续敌意
   related_nodes:
   - NODE-0069
+  - NODE-0070
   source_chapters:
   - 528
+  - 529
+  - 530
+  - 531
+  - 532
+  - 533
+  - 534
+  - 536
+  verification_status: partial
+  conflict_change: 处罚失败后安排三名精通神魂秘术的手下暗杀徐霄；三人随后失联或死亡，徐霄状态如常
+  status_change:
+  - 因徐霄与韩烟关系公开多次吐血和昏厥，但永久伤势未确认
+  growth_event:
+  - chapter_range:
+      start: 529
+      end: 536
+    event: 从行政压制升级为神魂暗杀并再次失败
+    impact:
+    - 三名心腹暗杀者损失
+    - 对徐霄敌意进一步升级
+    - 在矿区公开失控
+    status: partial
+- id: CHAR-0112
+  name: 西门恨天
+  status: alive
+  role: antagonist
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 韩烟追求者
+  - 针对徐霄的宗门对立者
+  first_appearance:
+    chapter: 534
+    title: 韩烟的心思
+    node: NODE-0070
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  conflict_context:
+    target: 徐霄
+    reason: 韩烟关系与矿区舆论
+    planned_action: 借外门长老巡视压制徐霄
+    status: partial
+  related_nodes:
+  - NODE-0070
+  source_chapters:
+  - 534
+  - 536
+  document: null
   verification_status: partial

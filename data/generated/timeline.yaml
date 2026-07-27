@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 58
+  extension_files: 59
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2760,3 +2760,38 @@ nodes:
   - 矿区全部处罚条款
   document: docs/01-timeline/node-0069.md
   evidence: sources/evidence/chapters-521-528.yaml
+- id: NODE-0070
+  title: 化仙丹反制、神魂暗杀与韩烟结缘
+  chapters:
+    start: 529
+    end: 536
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第529—537章标题顺序和边界；第529—536章正文由番茄可访问正文及CP小说网镜像交叉核验
+  boundary_reason: 第536章完成处罚撤销、韩烟资源与关系转向、神魂暗杀失败和至尊仙器返还消息扩散；第537章外门长老团到场，转入拜师与宗门准入阶段
+  characters:
+  - 徐霄
+  - 韩烟
+  - 李香香
+  - 司空浩南
+  - 邹蒙
+  - 老许
+  - 西门恨天
+  system_events:
+  - event: 首次赠送韩烟三枚化仙丹
+    trigger: 第一枚千倍暴击其余两枚常规返还
+    reward: 一枚鸿蒙一气丹和两枚仙元丹
+    status: partial
+  - event: 韩烟后续接受七枚化仙丹
+    reward: 与至尊仙器万龙鎏金甲返还相关但逐笔映射待确认
+    status: partial
+  conflict_result: 韩烟撤销徐霄十年禁闭与李香香一年禁闭；司空浩南安排三名神魂暗杀者失败，徐霄保持无损
+  relationship_result: 韩烟由矿区执法者转为徐霄公开关系对象，并推动其借外门长老巡视进入阴阳仙门
+  pending:
+  - 三名神魂暗杀者姓名境界及完整死亡过程
+  - 七枚化仙丹逐枚倍率与返还
+  - 万龙鎏金甲完整能力和精确赠送触发
+  - 西门恨天境界与正式职位
+  - 阴阳仙门对徐霄完整处置决定
+  document: docs/01-timeline/node-0070.md
+  evidence: sources/evidence/chapters-529-536.yaml
