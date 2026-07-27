@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0092
+run_id: RUN-0093
 coverage:
-  chapters_covered_through: 588
-  chapters_promoted_in_run: [581, 582, 583, 584, 585, 586, 587, 588]
-  timeline_nodes: 76
+  chapters_covered_through: 597
+  chapters_promoted_in_run: [589, 590, 591, 592, 593, 594, 595, 596, 597]
+  timeline_nodes: 77
   draft_nodes: 0
-  story_arc_nodes: 73
-  characters_documented: 135
+  story_arc_nodes: 74
+  characters_documented: 136
   characters_staged: 0
   system_records: 1
-  gift_events: 130
-  artifact_records: 80
+  gift_events: 133
+  artifact_records: 82
   artifacts_staged: 0
 entity_documents:
-  character_records: 135
-  artifact_records: 80
-  expected_generated_documents: 215
+  character_records: 136
+  artifact_records: 82
+  expected_generated_documents: 218
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [581, 582, 583, 584, 585, 586, 587, 588], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第588章完成灵矿谈判破裂、青锋识别与任务发布；第589章转入直接战斗和任务执行}
-  materiality: {status: passed, entity_updates: [NODE-0076, 厉红魅南宫化极金大友青锋新人物, 徐霄东方青南宫嫣成长更新, GIFT-0129至GIFT-0130, ART-0078更新, ART-0080]}
+  source_traceability: {status: passed, archive_chapters: [589, 590, 591, 592, 593, 594, 595, 596, 597], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第597章完成金蟾清除、灵矿接管、青锋击杀和传送仙台奖励；第598章转入南宫嫣关系修复}
+  materiality: {status: passed, entity_updates: [NODE-0077, 金幻新人物, 徐霄厉红魅南宫嫣金大友青锋成长更新, GIFT-0131至GIFT-0133, ART-0078更新, ART-0081至ART-0082]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 135, artifacts: 80}
+  entity_document_freshness: {status: passed, characters: 136, artifacts: 82}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 3, timed_growth_events: 3, new_characters_with_first_appearance: 4}
+  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 1}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_and_source_hashes}
 blockers: []

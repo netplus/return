@@ -1,0 +1,85 @@
+schema_version: 1
+run_id: RUN-0093
+characters:
+- id: CHAR-0136
+  name: 金幻
+  status: dead
+  role: antagonist
+  affiliations: [金蟾族, 纯阳仙门关系网]
+  identities: [金蟾族幸存人仙, 金大友之孙]
+  first_appearance: {chapter: 595, title: 大师兄，青锋, node: NODE-0077}
+  cultivation: {current: 人仙境, exact_level: pending, status: partial}
+  death: {chapter: 597, cause: 被徐霄收进山河灵图后炼化, status: verified}
+  related_nodes: [NODE-0077]
+  source_chapters: [595, 596, 597]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [以完美剑之大道驱动双至尊仙剑形成人仙境压倒性战力, 服用三千天道丹并完美领悟力之大道, 力之大道全力出拳可短暂撕裂仙界空间]
+    resource_change_add: [获得额外传送仙台]
+    task_change_add: [击杀青锋任务完成]
+    related_nodes_add: [NODE-0077]
+    source_chapters_add: [589, 590, 591, 592, 593, 594, 595, 596, 597]
+    growth_event_add:
+    - chapter_range: {start: 589, end: 597}
+      event: 清除金蟾族、占领灵矿并击杀青锋
+      core_ability: [完美剑之大道, 完美力之大道, 双至尊仙剑, 地仙顶级极道灵火符]
+      impact: [阴阳仙门取得海底灵矿, 完成气运之敌任务并获得额外传送仙台]
+      status: verified
+- id: CHAR-0132
+  name: 厉红魅
+  update:
+    accepted_gifts_add: [GIFT-0131, GIFT-0132, GIFT-0133]
+    relationship_change_add: [与徐霄确立长期亲密关系, 羁绊度提升至2]
+    resource_change_add: [十颗化仙丹, 厚土御天剑, 人仙巅峰大道神丹]
+    role_change_add: [计划卸任玄阴仙宗掌门后进入阴阳仙门修炼]
+    related_nodes_add: [NODE-0077]
+    source_chapters_add: [589, 590, 591, 592, 593, 594, 595, 596, 597]
+    growth_event_add:
+    - chapter_range: {start: 591, end: 597}
+      event: 重启地仙仙路并与徐霄确立关系
+      core_ability: [人仙七重, 获得化仙丹、顶级仙剑和大道神丹]
+      impact: [长期资源来源得到保障, 羁绊升至二, 准备转入阴阳仙门修炼]
+      status: verified
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    conflict_change_add: [因徐霄与厉红魅确立关系而出现持续情感冲突]
+    role_change_add: [参与金蟾族分支清除并代表阴阳仙门接管灵矿]
+    related_nodes_add: [NODE-0077]
+    source_chapters_add: [589, 590, 591, 592, 593, 594, 595]
+    growth_event_add:
+    - chapter_range: {start: 589, end: 595}
+      event: 参与灵矿夺取并面对徐霄厉红魅关系确立
+      core_ability: [人仙巅峰, 高阶符箓与丹药资源保持]
+      impact: [对徐霄战力形成明确认可, 双方关系因厉红魅介入转入冲突与后续修复阶段]
+      status: verified
+- id: CHAR-0134
+  name: 金大友
+  update:
+    status_change: dead
+    death_add: [{chapter: 590, cause: 被徐霄双至尊仙剑击杀, status: verified}]
+    related_nodes_add: [NODE-0077]
+    source_chapters_add: [589, 590]
+    growth_event_add:
+    - chapter: 590
+      event: 灵矿冲突中被徐霄击杀
+      impact: [金蟾族高层崩溃并导致整个分支灭亡]
+      status: verified
+- id: CHAR-0135
+  name: 青锋
+  update:
+    cultivation_change: 地仙一重
+    status_change: dead
+    death_add: [{chapter: 597, cause: 被徐霄以地仙顶级极道灵火符击杀, status: verified}]
+    related_nodes_add: [NODE-0077]
+    source_chapters_add: [595, 596, 597]
+    growth_event_add:
+    - chapter: 597
+      event: 被假海底地火情报引出并遭极道灵火符击杀
+      core_ability: [地仙一重]
+      impact: [系统气运之敌任务完成, 纯阳仙门南海关系链被清除]
+      status: verified

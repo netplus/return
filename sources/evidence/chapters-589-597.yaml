@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0093
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 589, end: 597}
+source_gate: passed
+archive_source:
+  provider: Internet Archive
+  source_id: fanqienovel-7423641263695481880
+  manifest: sources/archive/fanqienovel-7423641263695481880/manifest.yaml
+  chapter_indexes: [sources/archive/fanqienovel-7423641263695481880/chapters-0551-0600.yaml]
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  storage_policy: metadata_only_no_full_chapter_text
+confirmed_chapters:
+- {chapter: 589, title: 剑之大道，至尊仙器}
+- {chapter: 590, title: 灭族}
+- {chapter: 591, title: 占领灵矿}
+- {chapter: 592, title: 厉红魅，坎坷仙路}
+- {chapter: 593, title: 金蟾族幸存者，金幻}
+- {chapter: 594, title: 众人傻眼，彻底懵逼}
+- {chapter: 595, title: 大师兄，青锋}
+- {chapter: 596, title: 小小人仙，可笑可笑}
+- {chapter: 597, title: 击杀青锋，奖励传送仙台}
+chapter_facts:
+- {chapter: 589, facts: [徐霄以完美剑之大道和双至尊仙剑击杀纯阳仙门两名人仙九重及金蟾高层], status: verified}
+- {chapter: 590, facts: [金蟾族高层和矿区修士被清除, 南宫嫣等人开始清除驻地, 灵矿冲突转为灭族行动], status: verified}
+- {chapter: 591, facts: [金蟾族分支五万余口被清除, 阴阳仙门势力接管灵矿并组织两千矿工开采, 徐霄向厉红魅赠送化仙丹], status: verified}
+- {chapter: 592, facts: [厉红魅十颗化仙丹返还鸿蒙一气丹和九颗仙元丹, 厉红魅公开接受徐霄关系与长期资源支持], status: verified}
+- {chapter: 593, facts: [金幻作为金蟾族幸存人仙被确认, 厚土御天剑返还九岳覆天剑, 厉红魅与徐霄关系正式推进], status: verified}
+- {chapter: 594, facts: [厉红魅羁绊升至2, 人仙巅峰大道神丹返还三千天道丹, 南宫嫣因关系变化出现冲突], status: verified}
+- {chapter: 595, facts: [徐霄服用三千天道丹完美领悟力之大道, 金幻与纯阳仙门调查组前往金蟾驻地], status: verified}
+- {chapter: 596, facts: [徐霄以力之大道击杀雨剑龙并控制调查组, 金幻调查链被截断], status: verified}
+- {chapter: 597, facts: [金幻被炼化, 曹达被用于引出青锋, 青锋被极道灵火符击杀, 系统奖励额外传送仙台], status: verified}
+boundary_reason: 第597章完成金蟾分支灭亡、灵矿接管、青锋击杀和任务奖励；第598章转入南宫嫣关系修复
+pending: [九岳覆天剑完整能力, 额外传送仙台部署, 纯阳仙门后续调查]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts_and_source_hashes}
