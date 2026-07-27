@@ -57,7 +57,7 @@ jobs:
           else
             rm -f sources/archive/import-diagnostic.txt
           fi
-          if git diff --quiet -- sources/archive; then
+          if [ -z "$(git status --porcelain -- sources/archive)" ]; then
             echo 'Source metadata and diagnostics are already current.'
             exit 0
           fi
