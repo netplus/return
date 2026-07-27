@@ -29,8 +29,8 @@ jobs:
             --url 'https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
             --source-id fanqienovel-7423641263695481880 \
             --artifact-dir .source-artifact \
-            --artifact-start 573 \
-            --artifact-end 622 \
+            --artifact-start 581 \
+            --artifact-end 630 \
             --chunk-size 50 \
             > .source-import.log 2>&1
           status=$?
@@ -41,7 +41,7 @@ jobs:
       - name: Upload transient evidence window
         uses: actions/upload-artifact@v4
         with:
-          name: source-chapters-0573-0622
+          name: source-chapters-0581-0630
           path: .source-artifact/
           retention-days: 1
           if-no-files-found: ignore
@@ -53,9 +53,9 @@ jobs:
           status="$(cat .source-import.status)"
           mkdir -p sources/archive
           if [ "$status" -ne 0 ]; then
-            cp .source-import.log sources/archive/import-diagnostic.log
+            cp .source-import.log sources/archive/import-diagnostic.txt
           else
-            rm -f sources/archive/import-diagnostic.log
+            rm -f sources/archive/import-diagnostic.txt
           fi
           if git diff --quiet -- sources/archive; then
             echo 'Source metadata and diagnostics are already current.'
@@ -63,7 +63,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sources/archive
+          git add -f sources/archive
           git commit -m 'chore(source): record archive import result'
           git push origin "HEAD:${HEAD_REF}"
 
