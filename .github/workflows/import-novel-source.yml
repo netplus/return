@@ -25,7 +25,7 @@ jobs:
       - name: Download, index, and extract review window
         run: |
           python scripts/archive_source_index.py \
-            --url 'https://dn710008.ca.archive.org/0/items/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
+            --url 'https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
             --source-id fanqienovel-7423641263695481880 \
             --artifact-dir .source-artifact \
             --artifact-start 573 \
