@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 552
-- **Current evidence exploration through:** Chapter 553
+- **Canonical coverage through:** Chapter 564
+- **Current evidence exploration through:** Chapter 565
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 72
+- **Completed timeline nodes:** 73
 - **Draft timeline nodes:** 0
-- **Documented characters:** 119
-- **Generated character profiles:** 119
+- **Documented characters:** 129
+- **Generated character profiles:** 129
 - **Gift events:** 124
 - **Artifact records:** 75
 - **Generated artifact profiles:** 75
-- **Last run:** `RUN-0088`
-- **Last completed node:** `NODE-0072`
-- **Next task:** `TASK-0075` — 道侣大会、六甲评测与掌门亲传 story arc
-- **Provisional exploration range:** Chapters 553–564
+- **Last run:** `RUN-0089`
+- **Last completed node:** `NODE-0073`
+- **Next task:** `TASK-0076` — 凤青玄刘爱花、疯狂赠送与罗素结缘 story arc
+- **Provisional exploration range:** Chapters 565–572
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0072` covers Chapters 545—552. 徐霄进入阴阳仙门外门后，通过云鹤和柳清浅建立正式宗门关系；十枚化仙丹使其由记名弟子晋升为柳清浅第三名亲传弟子。莫问书、凌白烟接受见面礼并形成稳定同门协作。陈玉接受灵精、魂丹和先天灵宝神剑，与徐霄确立公开道侣关系，系统返还上品灵精、人仙巅峰魂丹和仙器神剑。徐霄随后完成无妄真绝向阴阳仙诀的转换，晋升渡劫五重。第553章转入道侣大会公开评测。
+`NODE-0073` covers Chapters 553—564. 阴阳仙门道侣大会以天资、样貌、肉身、法器、气运和修为六项公开评测修士。柳清浅维持外门顶级女修评价；南宫嫣的道基损伤明确拉低仙路评分；罗素以地仙七重和四甲二乙进入核心人物网络。徐霄样貌、肉身、法器和修为均获甲，天资与气运呈最高金色，并击碎需要约五十万斤巨力的六阶金石，最终成为空前双金六甲男修。掌门东方青当众将其收为亲传弟子。第565章转入凤青玄、刘爱花矿役及新赠送关系阶段。
 
 ## Character growth updates
 
-`RUN-0088` adds timed growth events for 徐霄、柳清浅、南宫嫣、云鹤、韩烟 and李香香, plus chapter-anchored first appearances for 陈玉、李薇、莫问书 and凌白烟. Unconfirmed gift mappings, system panels and artifact abilities remain pending.
+`RUN-0089` adds timed growth events for 徐霄、柳清浅、南宫嫣、凌白烟 and莫问书, plus chapter-anchored first appearances for 罗素、东方青、上官无双、剑天、战狂、梦琳、云姑心、绝柔、苍松 and浑天. Incomplete system panels, precise assessment cards and disciple benefits remain pending.
 
-## Quality gates — RUN-0088
+## Quality gates — RUN-0089
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 119 character and 75 artifact records |
+| Entity-document freshness | Passed — 129 character and 75 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 6 timed material updates and 4 anchored first appearances |
+| Character growth continuity | Passed — 5 timed material updates and 10 anchored first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第545—553章标题、顺序和阶段边界；第545—552章正文由CP小说网可访问镜像交叉核验。云鹤受赠准确数量与返还、南宫嫣修复丹药和完整结果、陈玉李薇系统面板、仙器神剑正式名称能力及阴阳仙诀完整层级限制继续保持 `pending`。
+番茄小说官方目录确认第553—565章标题、顺序和阶段边界；第553—564章正文由CP小说网可访问镜像交叉核验。徐霄逐项正式玉牌记录、金色检测机制、掌门亲传完整待遇、上官无双等完整系统面板和全体参评成绩继续保持 `pending`。

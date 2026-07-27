@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-27'
-run_id: RUN-0088
+run_id: RUN-0089
 coverage:
-  chapters_covered_through: 552
-  chapters_promoted_in_run: [545, 546, 547, 548, 549, 550, 551, 552]
-  timeline_nodes: 72
+  chapters_covered_through: 564
+  chapters_promoted_in_run: [553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564]
+  timeline_nodes: 73
   draft_nodes: 0
-  story_arc_nodes: 69
-  characters_documented: 119
+  story_arc_nodes: 70
+  characters_documented: 129
   characters_staged: 0
   system_records: 1
   gift_events: 124
   artifact_records: 75
   artifacts_staged: 0
 entity_documents:
-  character_records: 119
+  character_records: 129
   artifact_records: 75
-  expected_generated_documents: 194
+  expected_generated_documents: 204
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [545, 546, 547, 548, 549, 550, 551, 552, 553], cross_checked_mirror_chapters: [545, 546, 547, 548, 549, 550, 551, 552], failures: 0}
-  arc_coherence: {status: passed, boundary: 第552章完成亲传晋升陈玉结缘和阴阳仙诀转换；第553章转入道侣大会公开评测}
-  materiality: {status: passed, entity_updates: [NODE-0072, CHAR-0116陈玉, CHAR-0117李薇, CHAR-0118莫问书, CHAR-0119凌白烟, GIFT-0118至GIFT-0124, ART-0075陈玉返还仙器神剑]}
+  source_traceability: {status: passed_with_qualifications, official_catalog_chapters: [553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565], cross_checked_mirror_chapters: [553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564], failures: 0}
+  arc_coherence: {status: passed, boundary: 第564章完成六项评测六甲结果掌门收徒和大会收尾；第565章转入凤青玄刘爱花矿役与新赠送线}
+  materiality: {status: passed, entity_updates: [NODE-0073, CHAR-0120至CHAR-0129, 徐霄柳清浅南宫嫣凌白烟莫问书成长更新, 系统气运对象确认]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 119, artifacts: 75}
+  entity_document_freshness: {status: passed, characters: 129, artifacts: 75}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 6, timed_growth_events: 6, new_characters_with_first_appearance: 4}
+  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 10}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_and_structured_facts}
 blockers: []

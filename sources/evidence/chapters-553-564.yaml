@@ -1,0 +1,71 @@
+schema_version: 1
+run_id: RUN-0089
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 553, end: 564}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 553, title: 参加道侣大会}
+  - {chapter: 554, title: 柳清浅上场}
+  - {chapter: 555, title: 柳清浅的道侣分}
+  - {chapter: 556, title: 南宫嫣，罗素}
+  - {chapter: 557, title: 剑天，上官无双}
+  - {chapter: 558, title: 徐霄，容貌甲}
+  - {chapter: 559, title: 金光天赋}
+  - {chapter: 560, title: 肉身测试，震惊全场}
+  - {chapter: 561, title: 最后的检测}
+  - {chapter: 562, title: 六甲男神}
+  - {chapter: 563, title: 掌门亲传弟子}
+  - {chapter: 564, title: 道侣大会不圆满结束}
+  boundary_probe: {chapter: 565, title: 凤青玄，刘爱花}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564]
+chapter_facts:
+- chapter: 553
+  facts: [莫问书和凌白烟说明道侣大会功能, 徐霄决定参加公开评测]
+  status: partial
+- chapter: 554
+  facts: [大会检测天资样貌肉身法器气运修为六项, 采用甲乙丙丁戊等级, 柳清浅首先参与]
+  status: partial
+- chapter: 555
+  facts: [天资颜色由金紫红橙蓝绿青递减, 柳清浅天资为深紫甲等, 柳清浅取得多项甲等评分]
+  status: partial
+- chapter: 556
+  facts: [南宫嫣紫色天赋因道基损伤被评为乙, 罗素作为外门地仙七重大长老参与评测]
+  status: partial
+- chapter: 557
+  facts: [罗素总评四甲二乙, 东方青及内门弟子剑天上官无双进入大会, 上官无双被系统确认SS级气运之女]
+  status: partial
+- chapter: 558
+  facts: [战狂总评三甲, 凌白烟梦琳云姑心获得重要甲等评价, 系统确认梦琳云姑心为A级气运之女, 徐霄样貌获甲]
+  status: partial
+- chapter: 559
+  facts: [徐霄天资检测呈最高金光, 宗门确认其天资远超普通外门标准]
+  status: partial
+- chapter: 560
+  facts: [徐霄进入肉身评测, 肉身体系统优势开始公开]
+  status: partial
+- chapter: 561
+  facts: [徐霄单手捏碎五阶金石并破坏需要约五十万斤巨力的六阶金石, 浑天认定其为百万年肉身天才]
+  status: partial
+- chapter: 562
+  facts: [徐霄骨龄约一千岁出头且境界渡劫五重, 六项全部获甲并出现天资气运双金, 系统确认绝柔为A级气运之女]
+  status: partial
+- chapter: 563
+  facts: [六甲结果震动宗门, 东方青公开将徐霄收为掌门亲传弟子]
+  status: partial
+- chapter: 564
+  facts: [大会继续收尾, 绝柔与徐霄交换传讯联系, 徐霄拒绝普通女修主动关系请求并保持已有对象立场]
+  status: partial
+boundary_reason: 第564章完成道侣大会评测和掌门亲传身份转换；第565章转入凤青玄刘爱花矿役与新的赠送关系阶段
+pending:
+- 徐霄六项评测逐项完整玉牌记录和正式排序
+- 金色气运及金色天资检测机制的严格定义
+- 东方青准确境界及掌门亲传完整待遇
+- 上官无双剑天战狂梦琳云姑心绝柔完整系统面板
+- 道侣大会所有参评修士完整成绩
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}

@@ -1,0 +1,11 @@
+schema_version: 1
+run_id: RUN-0089
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    confirmed_objects_add: [上官无双, 梦琳, 云姑心, 绝柔]
+    rule_add:
+    - {rule: 仙界气运对象认证仍以个人气运资质为核心，普通漂亮女修不一定被系统认证, evidence_chapters: [554, 558, 562], status: partial}
+    related_nodes_add: [NODE-0073]
+    source_chapters_add: [554, 558, 562, 564]

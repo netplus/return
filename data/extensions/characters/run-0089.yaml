@@ -1,0 +1,201 @@
+schema_version: 1
+run_id: RUN-0089
+characters:
+- id: CHAR-0120
+  name: 罗素
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门外门大长老, 东方青前道侣]
+  first_appearance: {chapter: 556, title: 南宫嫣，罗素, node: NODE-0073}
+  cultivation: {current: 地仙七重, status: partial}
+  assessment: {天资: 甲, 容貌: 甲, 修为: 乙, 气运: 甲, 肉身: 乙, 法器: 甲, total: 四甲二乙, status: partial}
+  relationship_context: {东方青: 因女儿历练死亡而分手，关系长期破裂, 徐霄: 对其六甲表现产生明显关注, status: partial}
+  related_nodes: [NODE-0073]
+  source_chapters: [556, 557, 560, 561, 562, 563, 564]
+  document: null
+  verification_status: partial
+- id: CHAR-0121
+  name: 东方青
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门掌门]
+  first_appearance: {chapter: 557, title: 剑天，上官无双, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  strategic_role: 主持道侣大会高层决策并将徐霄收为掌门亲传弟子
+  related_nodes: [NODE-0073]
+  source_chapters: [557, 560, 561, 562, 563, 564]
+  document: null
+  verification_status: partial
+- id: CHAR-0122
+  name: 上官无双
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门内门]
+  identities: [阴阳仙门内门弟子, SS级气运之女]
+  first_appearance: {chapter: 557, title: 剑天，上官无双, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  luck_grade: {value: SS, status: partial}
+  assessment: {status: partial, summary: 内门三名插队天才之一，道侣分显著高于普通外门弟子}
+  related_nodes: [NODE-0073]
+  source_chapters: [557, 558, 562, 563]
+  document: null
+  verification_status: partial
+- id: CHAR-0123
+  name: 剑天
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门内门]
+  identities: [阴阳仙门内门大师兄]
+  first_appearance: {chapter: 557, title: 剑天，上官无双, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  related_nodes: [NODE-0073]
+  source_chapters: [557, 558, 562, 563]
+  document: null
+  verification_status: partial
+- id: CHAR-0124
+  name: 战狂
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门内门]
+  identities: [龙战天座下大师兄, 肉身修炼天才]
+  first_appearance: {chapter: 558, title: 徐霄，容貌甲, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  assessment: {天资: 甲, 容貌: 丁, 修为: 甲, 气运: 乙, 肉身: 甲, 法器: 乙, total: 三甲, status: partial}
+  related_nodes: [NODE-0073]
+  source_chapters: [558, 562, 563]
+  document: null
+  verification_status: partial
+- id: CHAR-0125
+  name: 梦琳
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门外门]
+  identities: [云鹤亲传弟子, A级气运之女]
+  first_appearance: {chapter: 558, title: 徐霄，容貌甲, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  luck_grade: {value: A, status: partial}
+  assessment: {容貌: 甲, 气运: 甲, status: partial}
+  related_nodes: [NODE-0073]
+  source_chapters: [558, 562, 563, 564]
+  document: null
+  verification_status: partial
+- id: CHAR-0126
+  name: 云姑心
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门外门]
+  identities: [慈通长老亲传弟子, A级气运之女]
+  first_appearance: {chapter: 558, title: 徐霄，容貌甲, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  luck_grade: {value: A, status: partial}
+  assessment: {天资: 甲, 容貌: 甲, 气运: 甲, total: 三甲, status: partial}
+  related_nodes: [NODE-0073]
+  source_chapters: [558, 562, 563, 564]
+  document: null
+  verification_status: partial
+- id: CHAR-0127
+  name: 绝柔
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [道侣大会修为检测长老, A级气运之女]
+  first_appearance: {chapter: 562, title: 六甲男神, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  luck_grade: {value: A, status: partial}
+  relationship_context: {徐霄: 主动交换传讯符并表现出持续兴趣, status: partial}
+  related_nodes: [NODE-0073]
+  source_chapters: [562, 563, 564]
+  document: null
+  verification_status: partial
+- id: CHAR-0128
+  name: 苍松
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [道侣大会天资评判长老]
+  first_appearance: {chapter: 555, title: 柳清浅的道侣分, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  related_nodes: [NODE-0073]
+  source_chapters: [555, 556, 559]
+  document: null
+  verification_status: partial
+- id: CHAR-0129
+  name: 浑天
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [肉身修炼一脉长老, 道侣大会肉身评判者]
+  first_appearance: {chapter: 560, title: 肉身测试，震惊全场, node: NODE-0073}
+  cultivation: {current: pending, status: pending}
+  strategic_role: 认可徐霄为百万年肉身天才并提出收入肉身一脉培养
+  related_nodes: [NODE-0073]
+  source_chapters: [560, 561]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    assessment_result_add:
+    - {event: 阴阳仙门道侣大会六维评测, result: 天资样貌肉身法器气运修为六项全部甲，天资与气运为金色, chapter_range: {start: 553, end: 564}, status: partial}
+    power_change_add: [单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才]
+    identity_add: [阴阳仙门掌门东方青亲传弟子]
+    role_change_add: [由外门长老亲传晋升掌门亲传并进入阴阳仙门最高培养序列]
+    growth_event_add:
+    - node: NODE-0073
+      event: 道侣大会取得双金六甲并成为掌门亲传
+      core_ability: [天资与气运检测呈最高金色, 样貌肉身法器修为均获甲, 破坏六阶金石]
+      impact: [公开成为阴阳仙门空前六甲男修, 东方青收为掌门亲传, 宗门战略培养等级显著提升]
+      status: partial
+    related_nodes_add: [NODE-0073]
+    source_chapters_add: [553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564]
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    assessment_result_add: [{天资: 甲, 容貌: 甲, 修为: 甲, 气运: 甲, 法器: 甲, total: 五甲, status: partial}]
+    relationship_change_add: [徐霄被东方青收为掌门亲传后，原师徒培养关系进入宗门高层共同培养阶段]
+    growth_event_add:
+    - node: NODE-0073
+      event: 道侣大会取得高分并见证徐霄晋升掌门亲传
+      core_ability: [深紫天赋, 人仙巅峰, 持有仙器]
+      impact: [继续保持外门顶级女修地位, 与徐霄的师徒关系进入掌门亲传后的新阶段]
+      status: partial
+    related_nodes_add: [NODE-0073]
+    source_chapters_add: [554, 555, 556, 562, 563, 564]
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    assessment_result_add: [{天资: 乙, 容貌: 甲, 道伤影响: 天资原可达甲但因道基损伤降级, status: partial}]
+    growth_event_add:
+    - node: NODE-0073
+      event: 道侣大会公开确认道伤对仙路评估的长期影响
+      core_ability: [紫色天赋基础仍在, 道基损伤使天资评分降为乙]
+      impact: [修复道基成为继续仙路的明确核心目标]
+      status: partial
+    related_nodes_add: [NODE-0073]
+    source_chapters_add: [556, 562, 563, 564]
+- id: CHAR-0119
+  name: 凌白烟
+  update:
+    assessment_result_add: [{容貌: 甲, 气运: 甲, status: partial}]
+    growth_event_add:
+    - node: NODE-0073
+      event: 道侣大会重新评测并维持外门亲传女神地位
+      core_ability: [人仙三重背景下参与评测, 容貌与气运获甲]
+      impact: [继续作为柳清浅门下核心亲传并进入内门预备网络]
+      status: partial
+    related_nodes_add: [NODE-0073]
+    source_chapters_add: [553, 558, 562, 563]
+- id: CHAR-0118
+  name: 莫问书
+  update:
+    current_action_add: [参加道侣大会重新评测自身状态]
+    growth_event_add:
+    - node: NODE-0073
+      event: 参加道侣大会并见证徐霄六甲结果
+      impact: [继续承担徐霄宗门规则解释与同门引导角色]
+      status: partial
+    related_nodes_add: [NODE-0073]
+    source_chapters_add: [553, 554, 559, 562, 563]
