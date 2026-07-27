@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 58
+  extension_files: 59
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1848,3 +1848,34 @@ artifacts:
   - NODE-0074
   source_chapters:
   - 571
+- id: ART-0078
+  name: 三千天道丹
+  category: 大道丹药
+  grade: pending
+  first_chapter: 574
+  current_holder: 徐霄
+  acquisition: 第574章系统返还；原始赠礼与倍率待确认
+  effect: 服用后可完美领悟一条上位大道；与三千大道丹同属三千大道体系并随机出现
+  current_state: 未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0075
+  source_chapters:
+  - 574
+  - 575
+- id: ART-0079
+  name: 罗素获赠顶级仙器（正式名称待确认）
+  category: 仙器
+  grade: 顶级仙器
+  first_chapter: 578
+  current_holder: 罗素
+  acquisition: GIFT-0128
+  effect: 正式名称、属性、能力、限制与后续使用待确认
+  current_state: 已由罗素展示并接受
+  status: partial
+  related_nodes:
+  - NODE-0075
+  source_chapters:
+  - 578
+  - 579
+  - 580

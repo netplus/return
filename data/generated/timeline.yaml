@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 63
+  extension_files: 64
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2956,3 +2956,40 @@ nodes:
   - 罗素完整系统面板
   document: docs/01-timeline/node-0074.md
   evidence: sources/evidence/chapters-565-572.yaml
+- id: NODE-0075
+  title: 南宫嫣道伤、三千天道丹与太上长老认可
+  chapters:
+    start: 573
+    end: 580
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第573—581章标题顺序与边界；第573—580章正文由可访问镜像交叉核验
+  boundary_reason: 第580章完成万青罗方对徐霄罗素关系的公开认可并引出东方青挽回策略；第581章转入东方青做好事系统的公开行动
+  characters:
+  - 徐霄
+  - 南宫嫣
+  - 罗素
+  - 柳清浅
+  - 莫问书
+  - 凌白烟
+  - 万青
+  - 罗方
+  - 东方青
+  system_events:
+  - event: 三千天道丹返还
+    result: 可完美领悟一条上位大道
+    original_gift_mapping: pending
+    status: partial
+  - event: 罗素高阶资源赠送
+    result: 十颗高品质仙元丹与顶级仙器完成关系证明
+    exact_artifact_name_and_return: pending
+    status: partial
+  relationship_result: 万青罗方由问责转为公开认可徐霄罗素关系；东方青启动挽回罗素的长期策略
+  pending:
+  - 南宫嫣道伤最终修复方案
+  - 三千天道丹原始赠礼与倍率
+  - 罗素所获顶级仙器正式名称能力
+  - 万青罗方准确境界和完整身份
+  - 东方青系统完整规则
+  document: docs/01-timeline/node-0075.md
+  evidence: sources/evidence/chapters-573-580.yaml

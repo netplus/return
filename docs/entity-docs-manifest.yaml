@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 129
+    count: 131
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -266,8 +266,12 @@ groups:
       path: docs/02-characters/苍松.md
     - id: CHAR-0129
       path: docs/02-characters/浑天.md
+    - id: CHAR-0130
+      path: docs/02-characters/万青.md
+    - id: CHAR-0131
+      path: docs/02-characters/罗方.md
   artifacts:
-    count: 77
+    count: 79
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -425,10 +429,14 @@ groups:
       path: docs/06-artifacts/至尊神火剑.md
     - id: ART-0077
       path: docs/06-artifacts/神御黑冰符.md
+    - id: ART-0078
+      path: docs/06-artifacts/三千天道丹.md
+    - id: ART-0079
+      path: docs/06-artifacts/罗素获赠顶级仙器（正式名称待确认）.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 129
-  growth_events: 513
+  characters_with_growth_line: 131
+  growth_events: 524
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
