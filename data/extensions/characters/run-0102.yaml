@@ -1,0 +1,148 @@
+schema_version: 1
+run_id: RUN-0102
+characters:
+- id: CHAR-0154
+  name: 青鸾
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门]
+  identities: [阴阳仙门长老, 凤青玄之师, 上古青鸾妖族]
+  first_appearance: {chapter: 652, title: 青鸾长老, node: NODE-0086}
+  cultivation: {current: 天仙五重, status: verified}
+  relationship_context: {凤青玄: 师徒, 徐霄: 接受其五行仙丹并警告不得伤害凤青玄}
+  related_nodes: [NODE-0086]
+  source_chapters: [652, 653, 654, 655, 656]
+  document: null
+  verification_status: partial
+- id: CHAR-0155
+  name: 萧天
+  status: dead
+  role: antagonist
+  affiliations: [纯阳仙门]
+  identities: [纯阳仙门大长老, 气运之敌]
+  first_appearance: {chapter: 651, title: 神御黑冰, node: NODE-0086}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  death: {chapter: 651, cause: 被徐霄神御黑冰符冻结击杀}
+  related_nodes: [NODE-0086]
+  source_chapters: [651, 652]
+  document: null
+  verification_status: partial
+- id: CHAR-0156
+  name: 独孤惊云
+  status: alive
+  role: antagonist
+  affiliations: [天一仙门]
+  identities: [天一仙门大长老, 道天仙体, 天一仙门绝顶天才]
+  first_appearance: {chapter: 653, title: 大长老，独孤惊云, node: NODE-0086}
+  cultivation: {current: 天仙六重巅峰, status: verified}
+  abilities: [七至八条大道达到高阶感悟, 持有至尊仙剑, 掌握高阶剑阵]
+  conflict_context: {徐霄: 在无间地狱以剑阵阻拦并形成持续竞争敌意}
+  related_nodes: [NODE-0086]
+  source_chapters: [653, 654, 655, 656, 657]
+  document: null
+  verification_status: partial
+- id: CHAR-0157
+  name: 忌口
+  status: alive
+  role: supporting
+  affiliations: [众愿佛门]
+  identities: [众愿佛门僧人, 阿鼻地狱金殿看守者]
+  first_appearance: {chapter: 656, title: 极致雷光，抓住邬秋, node: NODE-0086}
+  cultivation: {current: pending, status: pending}
+  relationship_context: {邬秋: 指引其顺势接受七宗抓捕, 徐霄: 认定为邬秋有缘人, 惠慈: 知晓其父女关系和安排}
+  related_nodes: [NODE-0086]
+  source_chapters: [656, 657]
+  document: null
+  verification_status: partial
+- id: CHAR-0158
+  name: 琉璃
+  status: alive
+  role: supporting
+  affiliations: [刹女仙门]
+  identities: [刹女仙门大长老]
+  first_appearance: {chapter: 658, title: 离开无间地狱, node: NODE-0086}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  relationship_context: {徐霄: 离开无间地狱途中建立亲密联系, 洛银纱: 同门高层}
+  related_nodes: [NODE-0086]
+  source_chapters: [658]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [以神御黑冰符一次冻结击杀纯阳仙门十名高层, 以圆满剑之大道和冰火双至尊仙剑抗衡独孤惊云, 以雷遁取得阿鼻地狱追捕第一]
+    obtained_artifacts_add: [ART-0091, ART-0092]
+    relationship_change_add: [被忌口认定为邬秋有缘人, 与琉璃建立亲密联系]
+    role_change_add: [夺取地脉岩火剑并决定将邬秋带出小世界公开处置]
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [651, 652, 653, 654, 655, 656, 657, 658]
+    growth_event_add:
+    - chapter_range: {start: 651, end: 658}
+      event: 清除纯阳追杀队并率先完成阿鼻地狱抓捕
+      core_ability: [人仙九重肉身压制地仙巅峰, 神御黑冰符大范围冻结, 圆满剑之大道与冰火双至尊仙剑, 雷遁]
+      impact: [完成三个系统目标并升级三类返还库, 获得万佛金身丹和九十颗玄元仙丹, 取得地脉岩火剑并控制邬秋]
+      status: partial
+- id: CHAR-0137
+  name: 吕玄一
+  update:
+    status_change: dead
+    death_add: {chapter: 651, cause: 被徐霄神御黑冰符冻结击杀}
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [651, 652]
+    growth_event_add:
+    - chapter_range: {start: 651, end: 652}
+      event: 率纯阳仙门高层围杀徐霄失败并死亡
+      result: 被神御黑冰冻结击杀；其气运之子任务完成
+      impact: [阵法符箓返还库上限提升至玄仙, 纯阳仙门掌门层遭受重创]
+      status: verified
+- id: CHAR-0148
+  name: 金华
+  update:
+    status_change: dead
+    death_add: {chapter: 651, cause: 被徐霄神御黑冰符冻结击杀}
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [651, 652]
+    growth_event_add:
+    - chapter_range: {start: 651, end: 652}
+      event: 以纯阳金身挑战徐霄失败并死亡
+      core_ability: [地仙巅峰, 纯阳金身, 实际战力接近天仙]
+      result: 被神御黑冰冻结击杀；气运之敌任务完成
+      impact: [丹药返还库上限提升至玄仙]
+      status: verified
+- id: CHAR-0150
+  name: 邬秋
+  update:
+    condition_change_add: [在阿鼻地狱金殿被徐霄率先控制]
+    relationship_change_add: [被忌口告知徐霄是其有缘人]
+    artifact_change_add: [主动交出储物袋和地脉岩火剑]
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [656, 657, 658]
+    growth_event_add:
+    - chapter_range: {start: 656, end: 658}
+      event: 在阿鼻地狱被徐霄抓获并带出无间地狱
+      impact: [地脉岩火剑转交阴阳仙门, 处置方式由即时击杀转为公开审理, 与徐霄有缘人线索建立]
+      status: partial
+- id: CHAR-0121
+  name: 东方青
+  update:
+    obtained_artifacts_add: [ART-0093]
+    role_change_add: [代表阴阳仙门接收地脉岩火剑]
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [652, 653, 654, 655, 656, 657, 658]
+    growth_event_add:
+    - chapter_range: {start: 652, end: 658}
+      event: 带队推进无间地狱并接收追捕核心奖励
+      impact: [阴阳仙门取得至尊仙器地脉岩火剑, 见证徐霄具备至尊之下顶级战力]
+      status: partial
+- id: CHAR-0152
+  name: 洛银纱
+  update:
+    relationship_change_add: [在离开无间地狱途中继续与徐霄保持亲密关系并允许琉璃共享气运接触]
+    related_nodes_add: [NODE-0086]
+    source_chapters_add: [658]
+    growth_event_add:
+    - chapter: 658
+      event: 与徐霄共同离开无间地狱并延续刹女仙门关系网络
+      impact: [徐霄与刹女仙门高层联系由掌门扩展至大长老琉璃]
+      status: partial
