@@ -106,7 +106,17 @@ tasks:
 - id: TASK-0079
   title: Build the 海底灵矿、厉红魅与青锋击杀 story arc from Chapter 589 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 589, provisional_chapter_end: 597, node: NODE-0077, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-27'
+  run_id: RUN-0093
+  target: {chapter_start: 589, chapter_end: 597, node: NODE-0077, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0077.md, data/extensions/timeline/run-0093.yaml, data/extensions/characters/run-0093.yaml, data/extensions/system/run-0093.yaml, data/extensions/artifacts/run-0093.yaml, sources/evidence/chapters-589-597.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0078]
+- id: TASK-0080
+  title: Build the 南宫嫣关系修复、返回仙门与东方青态度转变 story arc from Chapter 598 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 598, provisional_chapter_end: 603, node: NODE-0078, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0079]
