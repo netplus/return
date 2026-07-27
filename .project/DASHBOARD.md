@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 572
-- **Current evidence exploration through:** Chapter 573
+- **Canonical coverage through:** Chapter 580
+- **Current evidence exploration through:** Chapter 581
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 74
+- **Completed timeline nodes:** 75
 - **Draft timeline nodes:** 0
-- **Documented characters:** 129
-- **Generated character profiles:** 129
-- **Gift events:** 127
-- **Artifact records:** 77
-- **Generated artifact profiles:** 77
-- **Last run:** `RUN-0090`
-- **Last completed node:** `NODE-0074`
-- **Next task:** `TASK-0077` — 南宫嫣道伤、三人看门与三千天道丹 story arc
-- **Provisional exploration range:** Chapters 573–580
+- **Documented characters:** 131
+- **Generated character profiles:** 131
+- **Gift events:** 128
+- **Artifact records:** 79
+- **Generated artifact profiles:** 79
+- **Last run:** `RUN-0091`
+- **Last completed node:** `NODE-0075`
+- **Next task:** `TASK-0078` — 东方青做好事系统、仙界毒瘤与云隐城出发 story arc
+- **Provisional exploration range:** Chapters 581–588
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0074` covers Chapters 565—572. 徐霄六甲双金名声传入内门，凤青玄和以刘爱花身份活动的姬雪确认其已飞升。凤青玄已晋升人仙二重并拜入青鸾长老门下；姬雪晋升人仙三重并拜入瑶光长老门下。柳清浅获得化仙丹与九霄玄冰剑，凤青玄接受复合高阶赠礼并触发仙元丹、天仙魂丹和至尊神火剑返还。罗素主动到访，与徐霄确立公开亲密关系，并触发神御黑冰符及五行仙丹返还。第573章转入南宫嫣道伤与府邸冲突。
+`NODE-0075` covers Chapters 573—580. 南宫嫣道伤并发症公开恶化，晋升地仙并以五行之气重塑三花成为明确根治方向。徐霄获得可完美领悟上位大道的三千天道丹，并以高品质仙元丹和顶级仙器证明对罗素的长期资源承诺。罗素父母、阴阳仙门太上长老万青与罗方由高层问责转为公开认可两人关系。东方青确认旧道侣关系变化后，启动借做好事系统提升修为并挽回罗素的长期策略。第581章转入该策略的公开执行。
 
 ## Character growth updates
 
-`RUN-0090` adds timed growth events for 徐霄、凤青玄、姬雪、柳清浅、罗素 and东方青. No new character ID was introduced. Incomplete return chains, exact gift multipliers and full system panels remain pending.
+`RUN-0091` adds timed growth events for 徐霄、南宫嫣、罗素、东方青、柳清浅、莫问书 and凌白烟, and adds chapter-anchored first appearances for 万青 and罗方. Incomplete gift triggers, exact multipliers, artifact naming and system rules remain pending.
 
-## Quality gates — RUN-0090
+## Quality gates — RUN-0091
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 129 character and 77 artifact records |
+| Entity-document freshness | Passed — 131 character and 79 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 6 timed material updates |
+| Character growth continuity | Passed — 7 timed material updates and 2 new first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第565—573章标题、顺序和阶段边界；第565—572章正文由CP小说网可访问镜像交叉核验。柳清浅完整返还、罗素触发神御黑冰符的原始赠礼与倍率、姬雪完整会面过程、两柄仙剑与原四剑逐件对应以及罗素完整系统面板继续保持 `pending`。
+番茄小说官方目录确认第573—581章标题、顺序和阶段边界；第573—580章正文由CP小说网可访问镜像交叉核验。南宫嫣最终修复、三千天道丹原始触发链、罗素获赠仙器正式名称、万青罗方完整面板以及东方青做好事系统完整规则继续保持 `pending`。
