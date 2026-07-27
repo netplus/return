@@ -1,0 +1,84 @@
+schema_version: 1
+run_id: RUN-0090
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    relationship_change_add: [与凤青玄建立长期资源支持承诺, 与罗素确立公开亲密关系]
+    role_change_add: [仙界资源网络由外门扩展至内门弟子和外门大长老层级]
+    related_nodes_add: [NODE-0074]
+    source_chapters_add: [565, 566, 567, 568, 569, 570, 571, 572]
+    growth_event_add:
+    - node: NODE-0074
+      event: 与凤青玄姬雪重逢并完成仙界高阶资源网络扩展
+      core_ability: [持续调动化仙丹仙元丹魂丹仙器和高阶符箓进行关系与资源配置]
+      impact: [凤青玄进入长期资源支持网络, 罗素成为公开关系对象, 资源网络延伸至内门和外门大长老]
+      status: partial
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    cultivation_change: 人仙二重
+    affiliation_add: [阴阳仙门内门, 青鸾长老门下]
+    accepted_gifts_add: [GIFT-0126]
+    relationship_change_add: [接受徐霄长期承担修炼资源但暂未正式确认道侣]
+    related_nodes_add: [NODE-0074]
+    source_chapters_add: [565, 567, 568, 569]
+    growth_event_add:
+    - node: NODE-0074
+      event: 仙界重逢并接受复合高阶赠礼
+      core_ability: [天凤血脉, 境界晋升人仙二重]
+      impact: [确认青鸾长老门下内门身份, 与徐霄建立长期资源承诺]
+      status: partial
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    cultivation_change: 人仙三重
+    affiliation_add: [阴阳仙门内门, 瑶光长老门下]
+    identity_add: [以刘爱花身份在仙界活动]
+    related_nodes_add: [NODE-0074]
+    source_chapters_add: [565, 568]
+    growth_event_add:
+    - node: NODE-0074
+      event: 刘爱花身份曝光为姬雪并确认仙界修炼现状
+      core_ability: [元灵仙体, 境界晋升人仙三重]
+      impact: [拜入瑶光长老门下, 进入徐霄仙界重逢线]
+      status: partial
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    accepted_gifts_add: [GIFT-0125]
+    relationship_change_add: [即使徐霄转拜掌门后仍获得长期修炼资源承诺]
+    related_nodes_add: [NODE-0074]
+    source_chapters_add: [566]
+    growth_event_add:
+    - chapter: 566
+      event: 接受化仙丹与顶级仙器九霄玄冰剑
+      core_ability: [获得顶级寒冰仙剑并继续冲击地仙境]
+      impact: [师徒资源关系长期化]
+      status: partial
+- id: CHAR-0120
+  name: 罗素
+  update:
+    luck_grade: {value: A, status: partial}
+    accepted_gifts_add: [GIFT-0127]
+    relationship_change_add: [与徐霄确立公开亲密关系并承诺长期相伴]
+    enemy_relation_add: [与东方青的旧道侣关系已终止五万年]
+    related_nodes_add: [NODE-0074]
+    source_chapters_add: [570, 571, 572]
+    growth_event_add:
+    - node: NODE-0074
+      event: 主动到访并与徐霄确立关系
+      core_ability: [地仙七重, 获得高阶符箓和仙元丹支持]
+      impact: [由观察六甲天才转为公开关系对象, 与东方青旧关系进一步不可逆]
+      status: partial
+- id: CHAR-0121
+  name: 东方青
+  update:
+    conflict_change_add: [察觉罗素可能与徐霄建立真实关系并产生持续顾虑]
+    related_nodes_add: [NODE-0074]
+    source_chapters_add: [570, 571, 572]
+    growth_event_add:
+    - node: NODE-0074
+      event: 罗素转向徐霄使旧道侣矛盾进入公开化前夜
+      impact: [掌门与亲传弟子的私人关系冲突风险上升]
+      status: partial

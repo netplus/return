@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 564
-- **Current evidence exploration through:** Chapter 565
+- **Canonical coverage through:** Chapter 572
+- **Current evidence exploration through:** Chapter 573
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 73
+- **Completed timeline nodes:** 74
 - **Draft timeline nodes:** 0
 - **Documented characters:** 129
 - **Generated character profiles:** 129
-- **Gift events:** 124
-- **Artifact records:** 75
-- **Generated artifact profiles:** 75
-- **Last run:** `RUN-0089`
-- **Last completed node:** `NODE-0073`
-- **Next task:** `TASK-0076` — 凤青玄刘爱花、疯狂赠送与罗素结缘 story arc
-- **Provisional exploration range:** Chapters 565–572
+- **Gift events:** 127
+- **Artifact records:** 77
+- **Generated artifact profiles:** 77
+- **Last run:** `RUN-0090`
+- **Last completed node:** `NODE-0074`
+- **Next task:** `TASK-0077` — 南宫嫣道伤、三人看门与三千天道丹 story arc
+- **Provisional exploration range:** Chapters 573–580
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0073` covers Chapters 553—564. 阴阳仙门道侣大会以天资、样貌、肉身、法器、气运和修为六项公开评测修士。柳清浅维持外门顶级女修评价；南宫嫣的道基损伤明确拉低仙路评分；罗素以地仙七重和四甲二乙进入核心人物网络。徐霄样貌、肉身、法器和修为均获甲，天资与气运呈最高金色，并击碎需要约五十万斤巨力的六阶金石，最终成为空前双金六甲男修。掌门东方青当众将其收为亲传弟子。第565章转入凤青玄、刘爱花矿役及新赠送关系阶段。
+`NODE-0074` covers Chapters 565—572. 徐霄六甲双金名声传入内门，凤青玄和以刘爱花身份活动的姬雪确认其已飞升。凤青玄已晋升人仙二重并拜入青鸾长老门下；姬雪晋升人仙三重并拜入瑶光长老门下。柳清浅获得化仙丹与九霄玄冰剑，凤青玄接受复合高阶赠礼并触发仙元丹、天仙魂丹和至尊神火剑返还。罗素主动到访，与徐霄确立公开亲密关系，并触发神御黑冰符及五行仙丹返还。第573章转入南宫嫣道伤与府邸冲突。
 
 ## Character growth updates
 
-`RUN-0089` adds timed growth events for 徐霄、柳清浅、南宫嫣、凌白烟 and莫问书, plus chapter-anchored first appearances for 罗素、东方青、上官无双、剑天、战狂、梦琳、云姑心、绝柔、苍松 and浑天. Incomplete system panels, precise assessment cards and disciple benefits remain pending.
+`RUN-0090` adds timed growth events for 徐霄、凤青玄、姬雪、柳清浅、罗素 and东方青. No new character ID was introduced. Incomplete return chains, exact gift multipliers and full system panels remain pending.
 
-## Quality gates — RUN-0089
+## Quality gates — RUN-0090
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 129 character and 75 artifact records |
+| Entity-document freshness | Passed — 129 character and 77 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 5 timed material updates and 10 anchored first appearances |
+| Character growth continuity | Passed — 6 timed material updates |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-番茄小说官方目录确认第553—565章标题、顺序和阶段边界；第553—564章正文由CP小说网可访问镜像交叉核验。徐霄逐项正式玉牌记录、金色检测机制、掌门亲传完整待遇、上官无双等完整系统面板和全体参评成绩继续保持 `pending`。
+番茄小说官方目录确认第565—573章标题、顺序和阶段边界；第565—572章正文由CP小说网可访问镜像交叉核验。柳清浅完整返还、罗素触发神御黑冰符的原始赠礼与倍率、姬雪完整会面过程、两柄仙剑与原四剑逐件对应以及罗素完整系统面板继续保持 `pending`。

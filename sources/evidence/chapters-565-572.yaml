@@ -1,0 +1,55 @@
+schema_version: 1
+run_id: RUN-0090
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 565, end: 572}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 565, title: 凤青玄，刘爱花}
+  - {chapter: 566, title: 柳清浅的小心思}
+  - {chapter: 567, title: 辛劳矿工凤青玄}
+  - {chapter: 568, title: 徐霄的疯狂赠送}
+  - {chapter: 569, title: 中峰，阴阳殿}
+  - {chapter: 570, title: 罗素到访}
+  - {chapter: 571, title: 返还，神御黑冰符}
+  - {chapter: 572, title: 和罗素山盟海誓}
+  boundary_probe: {chapter: 573, title: 三人看门}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [565, 566, 567, 568, 569, 570, 571, 572]
+chapter_facts:
+- chapter: 565
+  facts: [凤青玄已拜入阴阳仙门内门青鸾长老座下并晋升人仙二重, 姬雪以刘爱花身份拜入瑶光长老门下并晋升人仙三重, 两人获知徐霄六甲双金名声]
+  status: partial
+- chapter: 566
+  facts: [柳清浅接受十枚化仙丹, 柳清浅接受顶级仙器九霄玄冰剑, 徐霄承诺转拜掌门后仍继续承担其资源]
+  status: partial
+- chapter: 567
+  facts: [凤青玄与徐霄仙界重逢, 确认其曾完成矿役且了解内门资源规则, 凤青玄确认灵藏仙域无本地凤族支脉并继续留在阴阳仙门]
+  status: partial
+- chapter: 568
+  facts: [徐霄向凤青玄赠送十枚化仙丹及其他高阶资源, 凤青玄接受长期资源支持]
+  status: partial
+- chapter: 569
+  facts: [十枚化仙丹返还一百枚仙元丹, 一枚人仙巅峰魂丹返还一枚天仙巅峰魂丹, 九霄神焰剑返还至尊神火剑]
+  status: partial
+- chapter: 570
+  facts: [罗素主动前往徐霄住处, 东方青意识到罗素可能认真建立新关系, 南宫嫣继续将地仙晋升视为修复道伤的唯一现实路径]
+  status: partial
+- chapter: 571
+  facts: [罗素确认与东方青已解除道侣关系五万年, 罗素主动表达与徐霄建立关系, 系统返还天仙顶级神御黑冰符]
+  status: partial
+- chapter: 572
+  facts: [徐霄向罗素赠送十枚仙元丹, 系统返还十枚天仙境五行仙丹, 双方确认长期亲密关系]
+  status: partial
+boundary_reason: 第572章完成罗素关系与资源返还闭环；第573章转入南宫嫣道伤恶化和新的府邸冲突
+pending:
+- 柳清浅赠礼的完整系统返还
+- GIFT-0127触发神御黑冰符的原始赠礼和倍率
+- 姬雪与徐霄在本阶段的完整接触过程
+- 九霄玄冰剑和九霄神焰剑在原四柄仙器神剑中的逐件对应
+- 罗素完整系统面板与精确羁绊值
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_and_structured_facts}
