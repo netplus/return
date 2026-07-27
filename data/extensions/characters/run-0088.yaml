@@ -1,0 +1,129 @@
+schema_version: 1
+run_id: RUN-0088
+characters:
+- id: CHAR-0116
+  name: 陈玉
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门外门]
+  identities: [云鹤弟子, 外门女修, 徐霄道侣]
+  first_appearance: {chapter: 545, title: 崩溃的外门弟子, node: NODE-0072}
+  cultivation: {current: 渡劫九重门槛附近, status: partial}
+  accepted_gifts: [GIFT-0118, GIFT-0123, GIFT-0124]
+  relationship_context: {徐霄: 由资源接触转为公开道侣和长期资源关系, status: partial}
+  related_nodes: [NODE-0072]
+  source_chapters: [545, 546, 550, 551, 552]
+  verification_status: partial
+- id: CHAR-0117
+  name: 李薇
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门外门]
+  identities: [云鹤弟子, 外门女修]
+  first_appearance: {chapter: 545, title: 崩溃的外门弟子, node: NODE-0072}
+  cultivation: {current: pending, status: pending}
+  accepted_gifts: [GIFT-0118]
+  relationship_context: {徐霄: 由师门安排进入潜在长期资源关系, status: partial}
+  related_nodes: [NODE-0072]
+  source_chapters: [545, 546]
+  verification_status: partial
+- id: CHAR-0118
+  name: 莫问书
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门外门, 柳清浅门下]
+  identities: [柳清浅大弟子, 徐霄大师兄]
+  first_appearance: {chapter: 547, title: 柳清浅的震惊, node: NODE-0072}
+  cultivation: {current: 人仙三重, status: partial}
+  accepted_gifts: [GIFT-0122]
+  related_nodes: [NODE-0072]
+  source_chapters: [547, 548, 549]
+  verification_status: partial
+- id: CHAR-0119
+  name: 凌白烟
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门外门, 柳清浅门下]
+  identities: [柳清浅二弟子, 徐霄二师姐]
+  first_appearance: {chapter: 547, title: 柳清浅的震惊, node: NODE-0072}
+  cultivation: {current: 人仙三重, status: partial}
+  accepted_gifts: [GIFT-0122]
+  related_nodes: [NODE-0072]
+  source_chapters: [547, 548, 549]
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 渡劫五重
+    affiliation_change_add: [阴阳仙门外门, 柳清浅亲传弟子]
+    identity_change_add: [柳清浅第三名亲传弟子]
+    ability_change_add: [完成无妄真绝向阴阳仙诀的灵力体系转换, 阴阳灵力可互生互转并提升灵力浑厚程度]
+    relationship_change_add: [与陈玉建立公开道侣及长期资源关系]
+    role_change_add: [由外门记名弟子晋升亲传弟子并取得亲传令牌年俸与随师入内门预期]
+    growth_event_add:
+    - node: NODE-0072
+      event: 完成正式拜师亲传晋升与阴阳仙诀转换
+      core_ability: [渡劫四重提升至渡劫五重, 灵力体系转换为阴阳仙诀, 阴阳灵力互生互转]
+      impact: [成为柳清浅第三名亲传弟子, 与陈玉建立公开道侣关系, 在外门形成稳定师门与资源网络]
+      status: partial
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [545, 546, 547, 548, 549, 550, 551, 552]
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    relationship_change_add: [确认徐霄为第三名亲传弟子并承诺未来进入内门时一并带入]
+    accepted_gifts_add: [GIFT-0121]
+    growth_event_add:
+    - node: NODE-0072
+      event: 将徐霄由记名弟子晋升为第三名亲传弟子
+      impact: [获得十枚化仙丹并确认长期师徒资源关系, 将徐霄纳入府邸亲传体系]
+      status: partial
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [547, 548]
+- id: CHAR-0114
+  name: 南宫嫣
+  update:
+    condition_change: 聚顶三花融合有瑕导致道基损伤且剩余寿元约千年；本阶段出现修复希望
+    relationship_change_add: [主动到访柳清浅府邸并与徐霄形成直接资源接触]
+    growth_event_add:
+    - node: NODE-0072
+      event: 道基损伤信息公开并进入徐霄资源修复线
+      impact: [确认聚顶三花融合瑕疵与千年寿元压力, 主动到访柳清浅府邸寻求后续机缘]
+      status: partial
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [549, 551]
+- id: CHAR-0115
+  name: 云鹤
+  update:
+    accepted_gifts_add: [GIFT-0119]
+    role_change_add: [以师父身份推动陈玉和李薇与徐霄建立资源关系]
+    growth_event_add:
+    - node: NODE-0072
+      event: 接受化仙丹后推动弟子与徐霄建立联系
+      impact: [从外门执法与准入长老进一步转为资源关系中介]
+      status: partial
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [545, 546]
+- id: CHAR-0111
+  name: 韩烟
+  update:
+    accepted_gifts_add: [GIFT-0120]
+    growth_event_add:
+    - chapter: 546
+      event: 徐霄入宗后获得十枚化仙丹补充
+      impact: [公开道侣关系和长期资源支持继续稳定]
+      status: partial
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [546]
+- id: CHAR-0106
+  name: 李香香
+  update:
+    accepted_gifts_add: [GIFT-0120]
+    growth_event_add:
+    - chapter: 546
+      event: 徐霄入宗后获得十枚雷灵丹补充
+      impact: [与徐霄的仙界道侣及资源关系继续稳定]
+      status: partial
+    related_nodes_add: [NODE-0072]
+    source_chapters_add: [546]
