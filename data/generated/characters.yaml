@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 59
+  extension_files: 60
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -19,6 +19,7 @@ characters:
   role: protagonist
   affiliations:
   - 缥缈宗
+  - 阴阳仙门外门
   identities:
   - 姬雪弟子
   - 独孤灵师兄
@@ -138,6 +139,7 @@ characters:
   - NODE-0068
   - NODE-0069
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 1
   - 2
@@ -635,6 +637,14 @@ characters:
   - 534
   - 535
   - 536
+  - 537
+  - 538
+  - 539
+  - 540
+  - 541
+  - 542
+  - 543
+  - 544
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -687,6 +697,7 @@ characters:
   - 与云心月陆雪瑶紫霄血葵形成公开道侣或长期资源安排
   - 与李香香在六号矿坑结为公开道侣并建立长期资源关系
   - 与韩烟由执法冲突转为公开关系与宗门引荐合作
+  - 拜柳清浅为师并正式离开矿区进入阴阳仙门
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -708,8 +719,10 @@ characters:
   - 九霄天梯可突破上下界规则并支持往返
   - 在矿区具备以人仙级符箓和仙器应对执事威压的底牌
   - 在三名神魂秘术暗杀者行动后保持无损，具体反制能力链待确认
+  - 以人仙巅峰神霄仙火符迫使外门长老团停止制裁
+  - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 渡劫三重
+  cultivation_change: 渡劫四重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -793,7 +806,9 @@ characters:
   - 飞升后被纳入阴阳仙门百年矿工体系
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
-  identity: 天阵阁第四弟子
+  identity:
+  - 天阵阁第四弟子
+  - 柳清浅门下弟子
   hongmeng_qi: 18
   array_ability: 可制作炼虚初级五行阵盘并在十息内现场布阵
   title: 无妄仙宗内门大师兄
@@ -856,6 +871,9 @@ characters:
   - 化仙丹二千八百余颗
   - GIFT-0113返还一枚鸿蒙一气丹和两枚仙元丹
   - 获得ART-0073万龙鎏金甲
+  - 向柳清浅送出拜师礼
+  - 向南宫嫣送出照顾李香香的见面礼
+  - 向矿区旧队友完成雷灵丹告别赠送
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
   knowledge:
   - 渡劫九重规则
@@ -909,6 +927,17 @@ characters:
     - 解除十年禁闭
     - 与韩烟建立公开关系
     - 获得进入阴阳仙门的引荐路径
+    status: partial
+  - node: NODE-0071
+    event: 以符箓威慑化解外门长老团问罪并完成拜师离矿
+    core_ability:
+    - 渡劫四重
+    - 人仙巅峰神霄仙火符威慑
+    - 山河灵图快速收纳清剿
+    impact:
+    - 拜入柳清浅门下
+    - 正式进入阴阳仙门外门
+    - 清除司空浩南伏击威胁
     status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
@@ -5669,6 +5698,7 @@ characters:
   affiliations:
   - 阴阳仙门矿区
   - 乾元小界飞升者
+  - 阴阳仙门外门
   identities:
   - 一四六号矿队矿工
   - 气运之女
@@ -5693,6 +5723,7 @@ characters:
   related_nodes:
   - NODE-0069
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 521
   - 522
@@ -5706,11 +5737,16 @@ characters:
   - 532
   - 533
   - 536
+  - 539
+  - 541
+  - 542
+  - 544
   verification_status: partial
   condition_change: 一年禁闭处罚被韩烟撤销
   relationship_change:
   - 继续维持与徐霄的公开关系
   - 对韩烟介入关系网络产生竞争与不安
+  - 拜南宫嫣为师并与徐霄一同离开矿区
   growth_event:
   - chapter_range:
       start: 529
@@ -5721,6 +5757,13 @@ characters:
     - 与徐霄关系继续公开
     - 开始面对人仙执事韩烟的关系竞争
     status: partial
+  - node: NODE-0071
+    event: 被南宫嫣选中并完成矿区到宗门的身份转换
+    impact:
+    - 获得外门长老师承
+    - 正式进入阴阳仙门修炼体系
+    status: partial
+  identity: 南宫嫣弟子
 - id: CHAR-0107
   name: 邹蒙
   status: alive
@@ -5741,6 +5784,7 @@ characters:
   related_nodes:
   - NODE-0069
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 522
   - 523
@@ -5750,6 +5794,8 @@ characters:
   - 527
   - 528
   - 529
+  - 542
+  - 543
   verification_status: partial
   condition_change: 因代挖连坐受到十天禁闭处罚
   growth_event:
@@ -5759,6 +5805,18 @@ characters:
     - 被韩烟判处十天禁闭
     - 与徐霄的资源合作关系受到矿区执法约束
     status: partial
+  - chapter_range:
+      start: 542
+      end: 543
+    event: 接受矿区告别赠礼
+    impact:
+    - 获得十枚雷灵丹
+    - 与徐霄的队友情与资源关系固化
+    status: partial
+  accepted_resources:
+  - GIFT-0117中的十枚雷灵丹
+  relationship_change:
+  - 矿区离场前接受徐霄告别资源并继续将其视为核心人脉
 - id: CHAR-0108
   name: 范有通
   status: alive
@@ -5832,6 +5890,7 @@ characters:
   related_nodes:
   - NODE-0069
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 528
   - 529
@@ -5842,15 +5901,22 @@ characters:
   - 534
   - 535
   - 536
+  - 537
+  - 538
+  - 539
+  - 540
+  - 541
+  - 542
   verification_status: partial
   cultivation_change: 人仙四重
-  bond_level: 1
+  bond_level: 2
   accepted_gifts:
   - GIFT-0113
   - GIFT-0114
   relationship_change:
   - 由处罚徐霄的矿区执事转为公开关系对象
   - 计划借外门长老巡视引荐徐霄进入阴阳仙门
+  - 与徐霄关系进一步公开并推动其拜入柳清浅门下
   role_change:
   - 撤销徐霄与李香香主要禁闭处罚
   - 成为徐霄仙界宗门准入的关键中介
@@ -5866,9 +5932,15 @@ characters:
     - 与徐霄建立公开关系
     - 推动其进入阴阳仙门
     status: partial
+  - node: NODE-0071
+    event: 推动徐霄通过大师姐柳清浅进入阴阳仙门
+    impact:
+    - 羁绊度提升至2
+    - 成为徐霄矿区离场与宗门准入的关键引荐人
+    status: partial
 - id: CHAR-0111
   name: 司空浩南
-  status: alive
+  status: dead
   role: antagonist
   affiliations:
   - 阴阳仙门
@@ -5887,6 +5959,7 @@ characters:
   related_nodes:
   - NODE-0069
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 528
   - 529
@@ -5896,8 +5969,10 @@ characters:
   - 533
   - 534
   - 536
+  - 543
+  - 544
   verification_status: partial
-  conflict_change: 处罚失败后安排三名精通神魂秘术的手下暗杀徐霄；三人随后失联或死亡，徐霄状态如常
+  conflict_change: 组织数十名外门弟子伏击徐霄后被山河灵图收纳并清除
   status_change:
   - 因徐霄与韩烟关系公开多次吐血和昏厥，但永久伤势未确认
   growth_event:
@@ -5910,6 +5985,15 @@ characters:
     - 对徐霄敌意进一步升级
     - 在矿区公开失控
     status: partial
+  - chapter_range:
+      start: 543
+      end: 544
+    event: 发动最终伏击并被山河灵图清算
+    impact:
+    - 针对徐霄的矿区敌对线结束
+    - 司空浩南及伏击队伍死亡
+    status: partial
+  cultivation_change: 人仙一重
 - id: CHAR-0112
   name: 西门恨天
   status: alive
@@ -5934,8 +6018,106 @@ characters:
     status: partial
   related_nodes:
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 534
   - 536
+  - 538
+  - 539
+  - 540
   document: null
+  verification_status: partial
+  cultivation_change: 人仙巅峰
+  conflict_change: 长老团制裁在神霄仙火符威慑下失败并被迫道歉降级
+  growth_event:
+  - chapter_range:
+      start: 538
+      end: 540
+    event: 领衔制裁徐霄但因人仙巅峰符箓威慑失败
+    impact:
+    - 失去现场处置主动权
+    - 对徐霄的公开压制转为暂时退让
+    status: partial
+- id: CHAR-0113
+  name: 柳清浅
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 阴阳仙门外门长老
+  - 韩烟大师姐
+  - 徐霄师父
+  first_appearance:
+    chapter: 538
+    title: 气麻了的制裁团
+    node: NODE-0071
+  cultivation:
+    current: 人仙巅峰
+    status: partial
+  luck_grade:
+    value: S
+    base_multiplier: 30
+    status: partial
+  bond_level: 1
+  strategic_role: 接受徐霄拜师礼并将其带离矿区进入阴阳仙门
+  accepted_gifts:
+  - GIFT-0115
+  related_nodes:
+  - NODE-0071
+  source_chapters:
+  - 538
+  - 541
+  - 542
+  - 544
+  verification_status: partial
+- id: CHAR-0114
+  name: 南宫嫣
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 阴阳仙门外门长老
+  - 李香香师父
+  first_appearance:
+    chapter: 539
+    title: 人仙巅峰，神霄仙火符
+    node: NODE-0071
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  condition_change: 道基有损的具体程度在本阶段未完整展开
+  strategic_role: 选中李香香并将其带入阴阳仙门修炼
+  accepted_gifts:
+  - GIFT-0116
+  related_nodes:
+  - NODE-0071
+  source_chapters:
+  - 539
+  - 541
+  - 542
+  verification_status: partial
+- id: CHAR-0115
+  name: 云鹤
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 阴阳仙门外门首席执法长老
+  first_appearance:
+    chapter: 540
+    title: 态度巨变
+    node: NODE-0071
+  cultivation:
+    current: 人仙境
+    exact_level: pending
+    status: partial
+  strategic_role: 在神霄仙火符威慑下终止长老团制裁并推动现场降级
+  related_nodes:
+  - NODE-0071
+  source_chapters:
+  - 540
   verification_status: partial

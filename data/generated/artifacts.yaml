@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 55
+  extension_files: 56
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1090,6 +1090,7 @@ artifacts:
   - NODE-0064
   - NODE-0066
   - NODE-0069
+  - NODE-0071
   source_chapters:
   - 451
   - 455
@@ -1101,6 +1102,7 @@ artifacts:
   - 508
   - 525
   - 526
+  - 543
   acquisition_additional:
     gift_id: GIFT-0088
     chapter: 456
@@ -1153,6 +1155,17 @@ artifacts:
       end: 526
     quantity: 10
     recipient: 李香香
+    status: partial
+  - gift_id: GIFT-0117
+    chapter: 543
+    recipients:
+    - 邹蒙
+    - 陈念
+    - 一四六号矿队其他成员
+    quantity: pending_total
+    confirmed_distribution:
+      邹蒙: 10
+      陈念: 2
     status: partial
 - id: ART-0046
   name: 噬魂封魔剑
@@ -1329,6 +1342,7 @@ artifacts:
   - NODE-0059
   - NODE-0060
   - NODE-0067
+  - NODE-0071
   source_chapters:
   - 424
   - 432
@@ -1343,6 +1357,7 @@ artifacts:
   - 460
   - 514
   - 515
+  - 544
   combat_record:
   - 第432章控制并收纳两名合体龙族
   - 第436章瞬间收纳五名合体巅峰元帅、上千龙修及其法器坐骑，并在图内以世界法则压制敖三
@@ -1356,6 +1371,10 @@ artifacts:
   ability:
   - 可抽离被收纳目标灵力
   - 可在内部形成灵气锁链和雷霆清算
+  latest_battle_use:
+  - chapter: 544
+    event: 收纳司空浩南及数十名伏击外门弟子，并在小世界内以天雷烈焰完成清剿
+    status: partial
 - id: ART-0054
   name: 九天荡魔剑
   category: 仙器神剑
@@ -1472,6 +1491,7 @@ artifacts:
   - NODE-0065
   - NODE-0068
   - NODE-0070
+  - NODE-0071
   source_chapters:
   - 494
   - 517
@@ -1481,6 +1501,8 @@ artifacts:
   - 532
   - 534
   - 535
+  - 541
+  - 542
   acquisition_records:
   - gift_id: GIFT-0111
     chapter: 517
@@ -1496,6 +1518,16 @@ artifacts:
     chapter: 532
     quantity: 7
     recipient: 韩烟
+    status: partial
+  - gift_id: GIFT-0115
+    chapter: 541
+    quantity: 10
+    recipient: 柳清浅
+    status: partial
+  - gift_id: GIFT-0116
+    chapter: 542
+    quantity: 10
+    recipient: 南宫嫣
     status: partial
 - id: ART-0061
   name: 九幽惊魂剑
@@ -1682,3 +1714,18 @@ artifacts:
   - NODE-0070
   source_chapters:
   - 535
+- id: ART-0074
+  name: 人仙巅峰神霄仙火符
+  category: 符箓
+  grade: 人仙巅峰
+  first_chapter: 539
+  current_holder: 徐霄
+  acquisition: 既有库存；精确来源待确认
+  effect: 可形成足以威胁外门人仙长老团的顶级火系杀伤与战略威慑
+  current_state: 已展示并收回；剩余数量待确认
+  status: partial
+  related_nodes:
+  - NODE-0071
+  source_chapters:
+  - 539
+  - 540

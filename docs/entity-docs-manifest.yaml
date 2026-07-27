@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 112
+    count: 115
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -232,8 +232,14 @@ groups:
       path: docs/02-characters/司空浩南.md
     - id: CHAR-0112
       path: docs/02-characters/西门恨天.md
+    - id: CHAR-0113
+      path: docs/02-characters/柳清浅.md
+    - id: CHAR-0114
+      path: docs/02-characters/南宫嫣.md
+    - id: CHAR-0115
+      path: docs/02-characters/云鹤.md
   artifacts:
-    count: 73
+    count: 74
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -383,10 +389,12 @@ groups:
       path: docs/06-artifacts/仙灵冰魄剑.md
     - id: ART-0073
       path: docs/06-artifacts/万龙鎏金甲.md
+    - id: ART-0074
+      path: docs/06-artifacts/人仙巅峰神霄仙火符.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 112
-  growth_events: 456
+  characters_with_growth_line: 115
+  growth_events: 468
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

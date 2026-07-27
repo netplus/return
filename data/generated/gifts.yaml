@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 51
+  extension_files: 52
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -1561,4 +1561,42 @@ gifts:
   reward: 与ART-0073万龙鎏金甲返还相关，逐笔映射和其余返还pending
   triggered_multiplier: pending
   relationship_result: 韩烟由资源试探转为公开关系对象并推动徐霄进入阴阳仙门
+  status: partial
+- id: GIFT-0115
+  chapter: 541
+  node: NODE-0071
+  giver: 徐霄
+  recipient: 柳清浅
+  gift: 十枚化仙丹与一枚人仙巅峰魂丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 柳清浅接受徐霄拜师并将其带入阴阳仙门
+  status: partial
+- id: GIFT-0116
+  chapter: 542
+  node: NODE-0071
+  giver: 徐霄
+  recipient: 南宫嫣
+  gift: 十枚化仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 南宫嫣接受李香香为徒并承担后续照顾
+  status: partial
+- id: GIFT-0117
+  chapter: 543
+  node: NODE-0071
+  giver: 徐霄
+  recipient:
+  - 邹蒙
+  - 陈念
+  - 一四六号矿队其他成员
+  gift: 雷灵丹告别赠礼；邹蒙十枚、陈念两枚，其余逐人数量待确认
+  accepted: true
+  system_valid: false
+  reward: none
+  relationship_result: 矿区队友资源关系在离场前完成结算
   status: partial

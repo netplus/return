@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 59
+  extension_files: 60
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2795,3 +2795,42 @@ nodes:
   - 阴阳仙门对徐霄完整处置决定
   document: docs/01-timeline/node-0070.md
   evidence: sources/evidence/chapters-529-536.yaml
+- id: NODE-0071
+  title: 外门长老问罪、资源拜师与矿区离场
+  chapters:
+    start: 537
+    end: 544
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第537—545章标题顺序和边界；第537—544章正文由CP小说网可访问镜像交叉核验
+  boundary_reason: 第544章完成司空浩南伏击清算并抵达阴阳仙门；第545章转入外门弟子舆论与宗门内部冲突
+  characters:
+  - 徐霄
+  - 韩烟
+  - 李香香
+  - 柳清浅
+  - 南宫嫣
+  - 云鹤
+  - 西门恨天
+  - 司空浩南
+  - 邹蒙
+  power_result: 徐霄以人仙巅峰神霄仙火符取得与外门长老平等谈判地位，并在渡劫四重阶段使用山河灵图清除司空浩南及其伏击队伍
+  relationship_result: 徐霄拜入柳清浅门下，李香香拜入南宫嫣门下，韩烟与徐霄关系继续公开，矿区旧关系完成资源交代
+  system_events:
+  - event: 柳清浅拜师礼
+    trigger: 十枚化仙丹与一枚人仙巅峰魂丹
+    reward: pending
+    status: partial
+  - event: 南宫嫣照顾李香香的见面礼
+    trigger: 十枚化仙丹
+    reward: pending
+    status: partial
+  pending:
+  - 柳清浅拜师礼全部返还
+  - 南宫嫣赠礼倍率与返还
+  - 矿区告别赠礼完整清单
+  - 神霄仙火符来源与剩余数量
+  - 司空浩南伏击队伍完整身份
+  - 柳清浅南宫嫣完整系统面板
+  document: docs/01-timeline/node-0071.md
+  evidence: sources/evidence/chapters-537-544.yaml
