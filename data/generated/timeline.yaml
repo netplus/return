@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 61
+  extension_files: 62
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -2874,3 +2874,43 @@ nodes:
   - 阴阳仙诀完整层级与限制
   document: docs/01-timeline/node-0072.md
   evidence: sources/evidence/chapters-545-552.yaml
+- id: NODE-0073
+  title: 道侣大会六甲评测与掌门亲传
+  chapters:
+    start: 553
+    end: 564
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第553—565章标题顺序和阶段边界；第553—564章正文由CP小说网可访问镜像交叉核验
+  boundary_reason: 第564章完成六项评测、六甲结果、掌门收徒及大会收尾；第565章转入凤青玄刘爱花矿役和新的关系赠送阶段
+  characters:
+  - 徐霄
+  - 柳清浅
+  - 南宫嫣
+  - 凌白烟
+  - 莫问书
+  - 罗素
+  - 东方青
+  - 上官无双
+  - 剑天
+  - 战狂
+  - 梦琳
+  - 云姑心
+  - 绝柔
+  - 苍松
+  - 浑天
+  world_rules:
+  - rule: 道侣大会以天资样貌肉身法器气运修为六项评测，采用甲乙丙丁戊等级
+    status: partial
+  - rule: 天资检测颜色由金紫红橙蓝绿青递减，金色为公开最高等级
+    status: partial
+  power_result: 徐霄在六项评测中全部获甲，天资与气运呈金色；肉身可破坏需要约五十万斤巨力的六阶金石
+  identity_result: 东方青公开将徐霄收为掌门亲传弟子，徐霄由外门长老亲传进入宗门最高培养序列
+  pending:
+  - 徐霄六项评测逐项正式玉牌记录
+  - 气运金光完整检测机制
+  - 掌门亲传正式资源待遇
+  - 上官无双等完整系统面板
+  - 道侣大会所有参评者完整分数
+  document: docs/01-timeline/node-0073.md
+  evidence: sources/evidence/chapters-553-564.yaml

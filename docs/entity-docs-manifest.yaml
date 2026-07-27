@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 119
+    count: 129
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -246,6 +246,26 @@ groups:
       path: docs/02-characters/莫问书.md
     - id: CHAR-0119
       path: docs/02-characters/凌白烟.md
+    - id: CHAR-0120
+      path: docs/02-characters/罗素.md
+    - id: CHAR-0121
+      path: docs/02-characters/东方青.md
+    - id: CHAR-0122
+      path: docs/02-characters/上官无双.md
+    - id: CHAR-0123
+      path: docs/02-characters/剑天.md
+    - id: CHAR-0124
+      path: docs/02-characters/战狂.md
+    - id: CHAR-0125
+      path: docs/02-characters/梦琳.md
+    - id: CHAR-0126
+      path: docs/02-characters/云姑心.md
+    - id: CHAR-0127
+      path: docs/02-characters/绝柔.md
+    - id: CHAR-0128
+      path: docs/02-characters/苍松.md
+    - id: CHAR-0129
+      path: docs/02-characters/浑天.md
   artifacts:
     count: 75
     index: data/generated/artifacts.yaml
@@ -404,7 +424,7 @@ groups:
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 119
-  growth_events: 482
+  characters_with_growth_line: 129
+  growth_events: 507
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
