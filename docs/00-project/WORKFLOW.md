@@ -1,6 +1,6 @@
 # 剧情知识库工作标准
 
-版本：2.1  
+版本：2.2  
 生效范围：自第 4 章起；第 1—3 章既有节点保留，不回溯拆改。
 
 ## 1. 核心原则
@@ -89,6 +89,7 @@
 - Cross-index consistency：Markdown 与 YAML 索引一致；
 - Duplicate-work check：避免重复节点和重复实体记录；
 - Entity-document freshness：人物与物品 Markdown 能从最新 canonical 索引完整重建，数量、ID 和完整记录不得缺失；
+- Entity-document readability：读者首先看到简洁概览和按主题组织的事实；复杂机器字段不得压缩为单行代码；长来源列表和完整 YAML 必须默认折叠；摘要应优先采用最新 `*_change` 当前值；
 - Copyright boundary：不保存大段或整章原文。
 
 ## 8. 当前迁移规则
@@ -120,9 +121,15 @@ python scripts/knowledge_base.py validate --generated-dir data/generated
 `docs/02-characters/` 和 `docs/06-artifacts/` 是 canonical 索引的人类可读完整投影，不再作为独立手工事实源。
 
 - 每个 canonical 人物和物品记录必须对应一个 Markdown 文档。
-- 每份文档必须包含可读摘要和完整 canonical YAML 记录，确保追加扩展中的后续身份、境界、关系、持有状态、能力、来源章节、`pending` 字段和连续性警告不会遗漏。
+- 人物档案应依次呈现：一览、身份与阵营、修为/能力/成长、关系与立场、资源与物品、关键经历、来源与核验、未决与注意事项。
+- 物品档案应依次呈现：一览、获取/持有/流转、能力与效果、使用与战斗记录、数量与当前状态、来源与核验、未决与注意事项。
+- 概览只放当前关键结论，复杂字典和长列表必须转换为分层 Markdown，不得以反引号包裹的单行 YAML 代替读者文本。
+- 当前境界、年龄、寿命等摘要字段应优先采用最新 `cultivation_change`、`age_change`、`lifespan_change` 等变更值，再回退到基础字段。
+- 来源章节与关联节点在正文中只显示数量和范围，完整列表放入折叠区。
+- 完整 canonical YAML 仅作为文末默认折叠的审计附录；日常阅读不应被机器记录打断。
+- `_INDEX.md` 应展示人物当前境界和主要势力，或物品类别、品阶和持有状态，方便读者快速筛选。
 - 文档由 `scripts/render_entity_docs.py` 生成；事实修正应写入基础索引或追加扩展，不得直接修改自动生成档案。
-- `docs/entity-docs-manifest.yaml` 记录生成器、canonical 来源、记录数量和 ID 到文档路径的映射。
+- `docs/entity-docs-manifest.yaml` 记录生成器、呈现模式、canonical 来源、记录数量和 ID 到文档路径的映射。
 - 生成与复验命令：
 
 ```bash
