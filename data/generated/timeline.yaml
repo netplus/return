@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 71
+  extension_files: 72
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3247,3 +3247,45 @@ nodes:
   - 云花海后续干预
   document: docs/01-timeline/node-0082.md
   evidence: sources/evidence/chapters-623-632.yaml
+- id: NODE-0083
+  title: 责令分手、太上长老转向与金华气运之敌
+  chapters:
+    start: 633
+    end: 638
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第633—639章标题顺序与边界；第633—638章正文由可访问镜像逐章交叉核验；归档索引提供逐章哈希
+  boundary_reason: 第638章完成青锋案公开问责、东方青保人和纯阳仙门撤离；第639章转入诸葛青天出关及云姑心汇报
+  characters:
+  - 徐霄
+  - 尘玉
+  - 万青
+  - 罗方
+  - 罗素
+  - 南宫嫣
+  - 厉红魅
+  - 焰灵
+  - 金华
+  - 东方青
+  - 吕玄一
+  - 云花海
+  system_events:
+  - event: 三位太上长老五行仙丹赠送
+    result: 分手问责转为接受现有关系安排
+    exact_return: pending
+    status: partial
+  - event: 焰灵仙剑赠送
+    result: 返还至尊仙器破天斩金剑
+    status: verified
+  - event: 金华气运之敌识别
+    result: 青锋案冲突升级为系统目标
+    exact_task_reward: pending
+    status: partial
+  relationship_result: 尘玉万青罗方接受徐霄维持现有关系并长期负责；东方青公开保护徐霄；纯阳仙门与阴阳仙门矛盾升级
+  pending:
+  - 三位太上长老赠送精确返还
+  - 尘玉完整面板
+  - 破天斩金剑完整能力
+  - 金华任务完整奖励
+  document: docs/01-timeline/node-0083.md
+  evidence: sources/evidence/chapters-633-638.yaml

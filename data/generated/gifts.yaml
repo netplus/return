@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 62
+  extension_files: 63
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2007,3 +2007,51 @@ gifts:
     type: 五倍返还
   relationship_result: 焰灵接受补偿与传讯符，对徐霄态度由敌对转为缓和
   status: verified
+- id: GIFT-0150
+  chapter: 635
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 尘玉
+  gift: 十颗高品质五行仙丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 由强制分手转为接受徐霄对现有关系长期负责
+  status: partial
+- id: GIFT-0151
+  chapter: 635
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 万青
+  gift: 十颗高品质五行仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 继续认可徐霄与罗素关系
+  status: partial
+- id: GIFT-0152
+  chapter: 635
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 罗方
+  gift: 十颗高品质五行仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 继续接受徐霄作为罗素长期道侣
+  status: partial
+- id: GIFT-0153
+  chapter: 637
+  node: NODE-0083
+  giver: 徐霄
+  recipient: 焰灵
+  gift: 一件仙剑
+  accepted: true
+  system_valid: true
+  reward: 至尊仙器破天斩金剑
+  triggered_multiplier: pending
+  relationship_result: 焰灵接受徐霄对伤势和后遗症长期负责
+  status: partial

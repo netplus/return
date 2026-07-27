@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 71
+  extension_files: 72
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -151,6 +151,7 @@ characters:
   - NODE-0080
   - NODE-0081
   - NODE-0082
+  - NODE-0083
   source_chapters:
   - 1
   - 2
@@ -744,6 +745,12 @@ characters:
   - 630
   - 631
   - 632
+  - 633
+  - 634
+  - 635
+  - 636
+  - 637
+  - 638
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -805,6 +812,8 @@ characters:
   - 通过赠送资源促使东方青公开支持
   - 与柳清浅建立对外保密的关系
   - 识破刘爱花即姬雪但选择不揭穿
+  - 以五行仙丹化解尘玉万青罗方的分手问责
+  - 向焰灵承诺长期负责伤势
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -1209,6 +1218,17 @@ characters:
     - 获得天南第一人仙长期声望
     - 纯阳与五灵仙门敌意升级
     status: verified
+  - chapter_range:
+      start: 633
+      end: 638
+    event: 化解太上长老分手问责并在青锋案公开冲突中获得宗门保护
+    core_ability:
+    - 掌握高品质五行仙丹资源
+    - 获得至尊仙器破天斩金剑
+    impact:
+    - 多重关系获得太上长老层级默认接受
+    - 与纯阳仙门矛盾公开化
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1231,6 +1251,8 @@ characters:
   - 接受孟凡邀请准备参加阴阳飞升会
   dao_relationship:
   - 确认道元为缥缈宗祖师并建立长期合作
+  conflict_change:
+  - 青锋案嫌疑公开化并与纯阳仙门形成直接冲突
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -7058,6 +7080,7 @@ characters:
   - NODE-0078
   - NODE-0079
   - NODE-0081
+  - NODE-0083
   source_chapters:
   - 556
   - 557
@@ -7084,6 +7107,10 @@ characters:
   - 620
   - 621
   - 622
+  - 633
+  - 634
+  - 635
+  - 636
   document: null
   verification_status: partial
   luck_grade:
@@ -7098,6 +7125,7 @@ characters:
   - 与徐霄确立公开亲密关系并承诺长期相伴
   - 与徐霄关系获得父母及外门长老团公开认可
   - 向云花海公开徐霄持续提供仙元丹并支持未来天仙资源
+  - 面对太上长老问责仍坚持与徐霄关系
   enemy_relation:
   - 与东方青的旧道侣关系已终止五万年
   growth_event:
@@ -7147,6 +7175,13 @@ characters:
     - 与云花海的旧友关系重新接续
     - 与徐霄关系在三宗高层公开
     status: verified
+  - chapter_range:
+      start: 633
+      end: 635
+    event: 在太上长老责令分手时坚持徐霄关系
+    impact:
+    - 关系再次获得父母和尘玉默认接受
+    status: partial
   resource_change:
   - 十颗仙元丹
   identity_change:
@@ -7175,6 +7210,7 @@ characters:
   - NODE-0076
   - NODE-0078
   - NODE-0079
+  - NODE-0083
   source_chapters:
   - 557
   - 560
@@ -7194,11 +7230,14 @@ characters:
   - 602
   - 603
   - 606
+  - 637
+  - 638
   document: null
   verification_status: partial
   conflict_change:
   - 察觉罗素可能与徐霄建立真实关系并产生持续顾虑
   - 得知万青罗方认可徐霄罗素关系后启动挽回策略
+  - 在青锋案公开问责中明确保护徐霄并驱逐纯阳仙门
   growth_event:
   - node: NODE-0074
     event: 罗素转向徐霄使旧道侣矛盾进入公开化前夜
@@ -7242,6 +7281,12 @@ characters:
     event: 公开担保徐霄成为内门执法执事
     impact:
     - 对徐霄的支持由私人立场转化为正式宗门任命
+    status: verified
+  - chapter: 638
+    event: 以掌门身份公开保护徐霄
+    impact:
+    - 阴阳仙门与纯阳仙门矛盾升级
+    - 徐霄宗门战略地位进一步巩固
     status: verified
   cultivation_change: 天仙一重
   system_behavior:
@@ -7557,6 +7602,7 @@ characters:
     status: partial
   related_nodes:
   - NODE-0075
+  - NODE-0083
   source_chapters:
   - 575
   - 576
@@ -7564,8 +7610,24 @@ characters:
   - 578
   - 579
   - 580
+  - 633
+  - 634
+  - 635
+  - 636
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0151
+  relationship_change:
+  - 继续认可徐霄与罗素关系并接受其现有关系结构
+  growth_event:
+  - chapter_range:
+      start: 633
+      end: 635
+    event: 参与分手问责后收下五行仙丹并继续认可徐霄
+    impact:
+    - 由礼法问责转为维持家族认可
+    status: partial
 - id: CHAR-0131
   name: 罗方
   status: alive
@@ -7589,14 +7651,31 @@ characters:
     status: partial
   related_nodes:
   - NODE-0075
+  - NODE-0083
   source_chapters:
   - 576
   - 577
   - 578
   - 579
   - 580
+  - 633
+  - 634
+  - 635
+  - 636
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0152
+  relationship_change:
+  - 继续接受徐霄作为罗素长期道侣
+  growth_event:
+  - chapter_range:
+      start: 633
+      end: 635
+    event: 收下五行仙丹并支持徐霄罗素关系
+    impact:
+    - 家族问责转为公开支持
+    status: partial
 - id: CHAR-0132
   name: 厉红魅
   status: alive
@@ -7875,6 +7954,7 @@ characters:
   related_nodes:
   - NODE-0078
   - NODE-0082
+  - NODE-0083
   source_chapters:
   - 600
   - 601
@@ -7883,6 +7963,8 @@ characters:
   - 630
   - 631
   - 632
+  - 637
+  - 638
   document: null
   verification_status: partial
   system_identity:
@@ -7892,6 +7974,7 @@ characters:
   conflict_change:
   - 系统发布击杀任务
   - 大会败北后对徐霄敌意显著升级
+  - 将青锋死亡调查升级为对徐霄和阴阳仙门的公开问责
   growth_event:
   - chapter_range:
       start: 626
@@ -7903,6 +7986,13 @@ characters:
     impact:
     - 成为徐霄气运之敌任务目标
     - 纯阳仙门与徐霄冲突长期化
+    status: partial
+  - chapter_range:
+      start: 637
+      end: 638
+    event: 因青锋案与阴阳仙门公开冲突后撤离
+    impact:
+    - 纯阳仙门对徐霄的敌对调查升级
     status: partial
 - id: CHAR-0138
   name: 陆道离
@@ -8215,6 +8305,7 @@ characters:
   related_nodes:
   - NODE-0081
   - NODE-0082
+  - NODE-0083
   source_chapters:
   - 619
   - 620
@@ -8227,11 +8318,14 @@ characters:
   - 630
   - 631
   - 632
+  - 636
+  - 637
   document: null
   verification_status: verified
   conflict_change:
   - 五灵仙门交流大会败北
   - 对徐霄形成持续敌意并计划介入罗素关系
+  - 目睹徐霄向焰灵继续伸展资源关系并带队离开大会
   growth_event:
   - chapter_range:
       start: 625
@@ -8240,6 +8334,13 @@ characters:
     impact:
     - 对徐霄敌意升级
     - 计划从罗素关系线干预徐霄
+    status: partial
+  - chapter_range:
+      start: 636
+      end: 637
+    event: 带五灵仙门离开三宗交流大会
+    impact:
+    - 对徐霄接近焰灵的警惕持续上升
     status: partial
 - id: CHAR-0146
   name: 焰灵
@@ -8264,10 +8365,79 @@ characters:
     status: partial
   accepted_gifts:
   - GIFT-0149
+  - GIFT-0153
   related_nodes:
   - NODE-0082
+  - NODE-0083
   source_chapters:
   - 627
   - 628
+  - 636
+  - 637
   document: null
   verification_status: verified
+  relationship_change:
+  - 接受徐霄对大会伤势和后遗症长期负责
+  growth_event:
+  - chapter: 637
+    event: 接受仙剑和长期伤势补偿承诺
+    impact:
+    - 与徐霄的资源关系进一步建立
+    status: partial
+- id: CHAR-0147
+  name: 尘玉
+  status: alive
+  role: supporting
+  affiliations:
+  - 阴阳仙门
+  identities:
+  - 阴阳仙门太上长老
+  - SSS级气运之女
+  first_appearance:
+    chapter: 633
+    title: 责令分手
+    node: NODE-0083
+  cultivation:
+    current: 天仙境以上
+    exact_level: pending
+    status: partial
+  relationship_context:
+    徐霄: 由责令分手转为接受其对现有关系长期负责
+    status: partial
+  related_nodes:
+  - NODE-0083
+  source_chapters:
+  - 633
+  - 634
+  - 635
+  - 636
+  document: null
+  verification_status: partial
+- id: CHAR-0148
+  name: 金华
+  status: alive
+  role: antagonist
+  affiliations:
+  - 纯阳仙门
+  identities:
+  - 纯阳仙门内门长老
+  - 青锋师尊
+  - 气运之敌
+  first_appearance:
+    chapter: 637
+    title: 气运之敌，金华
+    node: NODE-0083
+  cultivation:
+    current: 地仙境
+    exact_level: pending
+    status: partial
+  conflict_context:
+    徐霄: 认定其与青锋及纯阳仙门弟子死亡有关
+    status: partial
+  related_nodes:
+  - NODE-0083
+  source_chapters:
+  - 637
+  - 638
+  document: null
+  verification_status: partial

@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 65
+  extension_files: 66
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2063,10 +2063,29 @@ artifacts:
   - NODE-0074
   - NODE-0080
   - NODE-0082
+  - NODE-0083
   source_chapters:
   - 572
   - 612
   - 628
+  - 635
+  - 636
+  transfer_records:
+  - gift_id: GIFT-0150
+    chapter: 635
+    recipient: 尘玉
+    quantity: 10
+    status: verified
+  - gift_id: GIFT-0151
+    chapter: 635
+    recipient: 万青
+    quantity: 10
+    status: verified
+  - gift_id: GIFT-0152
+    chapter: 635
+    recipient: 罗方
+    quantity: 10
+    status: verified
 - id: ART-0086
   name: 五气朝元丹
   category: 丹药
@@ -2081,3 +2100,17 @@ artifacts:
   - NODE-0082
   source_chapters:
   - 628
+- id: ART-0087
+  name: 破天斩金剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 637
+  current_holder: 徐霄
+  acquisition: GIFT-0153返还
+  effect: 完整能力、阵法机制与使用上限待后续确认
+  current_state: 已获得，未确认使用
+  status: partial
+  related_nodes:
+  - NODE-0083
+  source_chapters:
+  - 637
