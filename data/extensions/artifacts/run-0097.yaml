@@ -1,0 +1,23 @@
+schema_version: 1
+run_id: RUN-0097
+artifact_updates:
+- id: ART-0083
+  name: 九霄山河图
+  update:
+    combat_record_add:
+    - chapter: 617
+      event: 一击收纳由血灵宗三名人仙长老融合形成的人仙巅峰血光巨人
+      result: 血灵宗最后三名长老伏诛，宗门清剿任务完成
+      status: verified
+    ability_add: [五色仙光可跨越人仙层级差距瞬间收纳人仙巅峰目标]
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617]
+- id: ART-0062
+  name: 九霄玉舟
+  update:
+    usage_record_add:
+    - chapter: 617
+      event: 以极致遁速追击血灵宗最后三名人仙长老
+      status: verified
+    related_nodes_add: [NODE-0081]
+    source_chapters_add: [617]
