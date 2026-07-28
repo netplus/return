@@ -1,0 +1,29 @@
+schema_version: 1
+run_id: RUN-0107
+artifact_updates:
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    acquisition_add:
+    - chapter: 686
+      quantity: 100
+      source: GIFT-0175返还
+      status: partial
+    transfer_add:
+    - chapter: 686
+      quantity: 10
+      recipient: 青鸾
+      gift_id: GIFT-0176
+      status: partial
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [686]
+- id: ART-0092
+  name: 玄元仙丹
+  update:
+    acquisition_add:
+    - chapter: 686
+      quantity: 100
+      source: GIFT-0176返还
+      status: partial
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [686]

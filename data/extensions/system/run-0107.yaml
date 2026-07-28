@@ -1,0 +1,36 @@
+schema_version: 1
+run_id: RUN-0107
+gift_events:
+- id: GIFT-0175
+  chapter: 686
+  node: NODE-0091
+  giver: 徐霄
+  recipient: 青鸾
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗五行仙丹
+  triggered_multiplier: 10
+  status: partial
+- id: GIFT-0176
+  chapter: 686
+  node: NODE-0091
+  giver: 徐霄
+  recipient: 青鸾
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗玄元仙丹
+  triggered_multiplier: 10
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0175, GIFT-0176]
+    rule_add:
+    - chapter: 688
+      rule: 系统可识别玄仙境气运之女；玄雪被识别为S级气运之女
+      status: partial
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [686, 688]

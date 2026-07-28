@@ -1,26 +1,26 @@
 schema_version: 2
 workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
-history_note: Full task metadata through RUN-0101 remains auditable in Git history and .project/CHANGELOG.md.
+history_note: Full task metadata through RUN-0102 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
-- {id: TASK-0087, status: done, run_id: RUN-0101}
 - {id: TASK-0088, status: done, run_id: RUN-0102}
 - {id: TASK-0089, status: done, run_id: RUN-0103}
 - {id: TASK-0090, status: done, run_id: RUN-0104}
 - {id: TASK-0091, status: done, run_id: RUN-0105}
-- id: TASK-0092
-  title: Build the 大仙域来人、灵藏沦陷与盘龙岛安顿 story arc from Chapter 677 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0106
-  target: {chapter_start: 677, chapter_end: 680, node: NODE-0090, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0090.md, data/extensions/timeline/run-0106.yaml, data/extensions/characters/run-0106.yaml, data/extensions/system/run-0106.yaml, data/extensions/artifacts/run-0106.yaml, sources/evidence/chapters-677-680.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0091]
+- {id: TASK-0092, status: done, run_id: RUN-0106}
 - id: TASK-0093
   title: Build the 青鸾妖身、揭发徐霄与大仙域传送准备 story arc from Chapter 681 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 681, provisional_chapter_end: 688, node: NODE-0091, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0107
+  target: {chapter_start: 681, chapter_end: 688, node: NODE-0091, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0091.md, data/extensions/timeline/run-0107.yaml, data/extensions/characters/run-0107.yaml, data/extensions/system/run-0107.yaml, data/extensions/artifacts/run-0107.yaml, sources/evidence/chapters-681-688.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0092]
+- id: TASK-0094
+  title: Build the 凤青玄返回、凤族血令与天水城冲突 story arc from Chapter 689 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 689, provisional_chapter_end: 696, node: NODE-0092, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0093]

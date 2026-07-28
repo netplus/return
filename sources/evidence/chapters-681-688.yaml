@@ -1,0 +1,57 @@
+schema_version: 1
+run_id: RUN-0107
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 681, end: 688}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 681, title: 青鸾妖身}
+  - {chapter: 682, title: 揭发徐霄}
+  - {chapter: 683, title: 准备传送，全场懵逼}
+  - {chapter: 684, title: 来大仙域种地？}
+  - {chapter: 685, title: 崩溃的灵藏修士}
+  - {chapter: 686, title: 仙丹养灵植}
+  - {chapter: 687, title: 开始种地}
+  - {chapter: 688, title: 灵田巡视，妖族懵逼}
+  boundary_probe: {chapter: 689, title: 凤青玄回来}
+archive_index:
+  source_id: fanqienovel-7423641263695481880
+  chapter_index: sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml
+  chapters_hash_verified: [681, 682, 683, 684, 685, 686, 687, 688]
+readable_cross_check:
+  provider: CP小说网及可访问镜像
+  chapters_cross_checked: [681, 682, 683, 684, 685, 686, 687, 688]
+chapter_facts:
+- chapter: 681
+  facts: [青鸾显露上古青鸾妖族身份, 赤澜儿被系统识别为SS级气运之女, 妖族准备以万魂盘烙印灵藏修士神魂]
+  status: partial
+- chapter: 682
+  facts: [凤青玄显露纯血天凤血脉, 阴阳仙门至尊天仙因青鸾凤青玄获得免烙印优待, 徐霄仙帝传承被揭发但未改变妖族决定]
+  status: partial
+- chapter: 683
+  facts: [青鸾凤青玄共同为徐霄担保, 徐霄免除神魂烙印, 其余大部分灵藏修士被万魂盘烙印]
+  status: partial
+- chapter: 684
+  facts: [灵藏修士传送至大仙域天水城, 赤澜儿与徐霄确立亲密关系, 徐霄获得妖族特殊保护]
+  status: partial
+- chapter: 685
+  facts: [妖族要求地仙和天仙以自身灵力催熟高阶灵植并每年上交十株, 金虚负责数量管理, 灵藏修士面临境界倒退风险]
+  status: partial
+- chapter: 686
+  facts: [青鸾接受十颗仙元丹返还一百颗五行仙丹, 青鸾接受十颗五行仙丹返还一百颗玄元仙丹, 青鸾凤青玄准备进入万妖仙宗, 徐霄获任灵田巡察]
+  status: partial
+- chapter: 687
+  facts: [灵藏七宗开始种地, 徐霄以巡察身份活动, 洛银纱琉璃获得仙丹补偿承诺, 徐霄服用鸿蒙一气丹和三千天道丹但精确结果待确认]
+  status: partial
+- chapter: 688
+  facts: [玄雪被识别为S级玄仙气运之女, 徐霄与金虚巡视灵田, 姬雪柳清浅绝柔获得仙丹补偿承诺]
+  status: partial
+boundary_reason: 第688章完成妖族身份豁免、灵田制度、仙丹补偿策略和玄雪识别；第689章凤青玄返回并转入凤族血令阶段
+pending:
+- 万魂盘神魂烙印完整能力与解除方式
+- 青鸾凤青玄进入万妖仙宗后的正式身份
+- 第687章丹药服用精确结果
+- 仙丹补偿实际赠送数量及返还明细
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
