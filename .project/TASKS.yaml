@@ -11,20 +11,21 @@ tasks:
 - {id: TASK-0104, status: done, run_id: RUN-0118}
 - {id: TASK-0105, status: done, run_id: RUN-0119}
 - {id: TASK-0106, status: done, run_id: RUN-0120}
-- id: TASK-0107
-  title: Build the Chapter 822 return and settlement story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-29'
-  run_id: RUN-0121
-  target: {chapter_start: 822, chapter_end: 830, node: NODE-0105, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0105.md, data/extensions/timeline/run-0121.yaml, data/extensions/characters/run-0121.yaml, data/extensions/system/run-0121.yaml, data/extensions/artifacts/run-0121.yaml, sources/evidence/chapters-822-830.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0106]
+- {id: TASK-0107, status: done, run_id: RUN-0121}
 - id: TASK-0108
   title: Build the Chapter 831 onward story arc
   type: story_arc
-  status: pending
-  target: {chapter_start: 831, provisional_chapter_end: 839, node: NODE-0106, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-29'
+  run_id: RUN-0122
+  target: {chapter_start: 831, chapter_end: 853, node: NODE-0106, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0106.md, data/extensions/timeline/run-0122.yaml, data/extensions/characters/run-0122.yaml, data/extensions/system/run-0122.yaml, data/extensions/artifacts/run-0122.yaml, sources/evidence/chapters-831-853.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0107]
+- id: TASK-0109
+  title: Build the Chapter 854 onward仙帝寿宴 story arc
+  type: story_arc
+  status: pending
+  target: {chapter_start: 854, provisional_chapter_end: 863, node: NODE-0107, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0108]

@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0122
+gift_events:
+- {id: GIFT-0241, chapter: 831, node: NODE-0106, giver: 徐霄, recipient: 狐嫣, gift: 太乙聚仙丹, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹, triggered_multiplier: 10000, relationship_result: 狐嫣进入徐霄长期关系网络, status: verified}
+- {id: GIFT-0242, chapter: 833, node: NODE-0106, giver: 徐霄, recipient: 轩辕金花与轩辕宏, gift: 各十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹及九颗大罗鸿蒙丹, triggered_multiplier: partial, relationship_result: 轩辕家高层正式支持接亲, status: verified}
+- {id: GIFT-0243, chapter: 842, node: NODE-0106, giver: 徐霄, recipient: 刘爱花／雪瑶, gift: 规则道器五行九天神威金轮, accepted: true, system_valid: true, reward: 神器天地双神环, triggered_multiplier: partial, relationship_result: 刘爱花放弃分手并确认长期关系, status: verified}
+- {id: GIFT-0244, chapter: 842, node: NODE-0106, giver: 徐霄, recipient: 刘爱花／雪瑶, gift: 十颗大罗鸿蒙丹, accepted: true, system_valid: true, reward: 一千颗大罗鸿蒙丹, triggered_multiplier: 100, relationship_result: 雪瑶资源承诺继续兑现, status: verified}
+- {id: GIFT-0245, chapter: 843, node: NODE-0106, giver: 徐霄, recipient: 天翎, gift: 十颗祖凤血丹及十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 一千颗祖凤血丹及十颗大罗鸿蒙丹, triggered_multiplier: partial, relationship_result: 天翎公开确认与徐霄关系, status: verified}
+- {id: GIFT-0246, chapter: 844, node: NODE-0106, giver: 徐霄, recipient: 凤四老, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: pending, triggered_multiplier: pending, relationship_result: 凤四老同意天翎婚事, status: partial}
+- {id: GIFT-0247, chapter: 851, node: NODE-0106, giver: 徐霄, recipient: 凤青玄, gift: 十颗祖凤血丹、十颗大罗鸿蒙丹及天道神威御火剑, accepted: true, system_valid: true, reward: 一千颗祖凤血丹、一千颗大罗鸿蒙丹及神器诛仙神火剑, triggered_multiplier: partial, relationship_result: 凤青玄与徐霄复合, status: verified}
+- {id: GIFT-0248, chapter: 853, node: NODE-0106, giver: 徐霄, recipient: 凤青玄, gift: 大罗巅峰大道神丹, accepted: true, system_valid: true, reward: 鸿蒙一气丹, triggered_multiplier: bond, relationship_result: 凤青玄羁绊度提升至二, status: verified}
+- {id: GIFT-0249, chapter: 842, node: NODE-0106, giver: 徐霄, recipient: 轩辕婉君, gift: 太乙巅峰大道神丹, accepted: true, system_valid: true, reward: 鸿蒙一气丹, triggered_multiplier: bond, relationship_result: 轩辕婉君羁绊度提升至二, status: verified}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0241, GIFT-0242, GIFT-0243, GIFT-0244, GIFT-0245, GIFT-0246, GIFT-0247, GIFT-0248, GIFT-0249]
+    rule_add:
+    - {chapter: 831, rule: 狐嫣被识别为SSS级气运之女、100倍返还、羁绊度一, status: verified}
+    - {chapter: 833, rule: 轩辕金花被识别为SSS级气运之女、100倍返还、羁绊度一, status: verified}
+    - {chapter: 835, rule: 魔无天气运任务完成后奖励混元破界九霄天梯, status: verified}
+    reward_resolution_add:
+    - {chapter: 842, result: 规则道器赠送返还神器天地双神环, status: verified}
+    - {chapter: 851, result: 凤青玄复合赠礼返还神器诛仙神火剑等资源, status: verified}
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853]
