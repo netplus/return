@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 79
+  extension_files: 80
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2635,3 +2635,27 @@ gifts:
   triggered_multiplier: 首颗玄元仙丹万倍，其余玄元仙丹五倍；至尊仙器一倍；丹药五倍
   relationship_result: 鹤仙儿承诺保守锁妖塔秘密，并获得长期玄元仙丹供应
   status: partial
+- id: GIFT-0203
+  chapter: 752
+  node: NODE-0100
+  giver: 徐霄
+  recipient: 赤裳
+  gift: 十颗金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗太乙聚仙丹
+  triggered_multiplier: 10
+  relationship_result: 赤裳停止强硬问责并转入赤澜儿聘礼谈判
+  status: verified
+- id: GIFT-0204
+  chapter: 752
+  node: NODE-0100
+  giver: 徐霄
+  recipient: 赤澜儿
+  gift: 十颗玄元仙丹及一颗玄仙巅峰魂丹
+  accepted: true
+  system_valid: true
+  reward: 五十颗金仙道丹及五颗金仙巅峰魂丹
+  triggered_multiplier: 5
+  relationship_result: 赤澜儿继续公开维持关系并进入婚事谈判
+  status: verified

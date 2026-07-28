@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 199
+    count: 200
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -345,7 +345,7 @@ groups:
     - id: CHAR-0168
       path: docs/02-characters/北鳞.md
     - id: CHAR-0169
-      path: docs/02-characters/凤青玄-CHAR-0169.md
+      path: docs/02-characters/赤澜儿.md
     - id: CHAR-0170
       path: docs/02-characters/玄雪.md
     - id: CHAR-0171
@@ -385,15 +385,15 @@ groups:
     - id: CHAR-0188
       path: docs/02-characters/韵幽.md
     - id: CHAR-0189
-      path: docs/02-characters/天穹.md
+      path: docs/02-characters/赤裳.md
     - id: CHAR-0190
-      path: docs/02-characters/天穹-CHAR-0190.md
+      path: docs/02-characters/天穹.md
     - id: CHAR-0191
       path: docs/02-characters/孔玄.md
     - id: CHAR-0192
       path: docs/02-characters/熊大.md
     - id: CHAR-0193
-      path: docs/02-characters/魔无花.md
+      path: docs/02-characters/熊大-CHAR-0193.md
     - id: CHAR-0194
       path: docs/02-characters/雪小星.md
     - id: CHAR-0195
@@ -406,6 +406,8 @@ groups:
       path: docs/02-characters/龙九天.md
     - id: CHAR-0199
       path: docs/02-characters/凤溪.md
+    - id: CHAR-0200
+      path: docs/02-characters/猿浩.md
   artifacts:
     count: 119
     index: data/generated/artifacts.yaml
@@ -652,7 +654,7 @@ groups:
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 199
-  growth_events: 825
+  characters_with_growth_line: 200
+  growth_events: 835
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
