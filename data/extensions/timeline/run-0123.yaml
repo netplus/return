@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0123
+nodes:
+- id: NODE-0107
+  title: 初殷仙帝寿宴、至尊仙帝战力与三帝敌对
+  chapters:
+    start: 854
+    end: 863
+  granularity: story_arc
+  status: verified
+  source_qualification: 第854—863章由未过期的一天期正文证据逐章阅读，并与归档逐章SHA-256匹配
+  boundary_reason: 第863章完成寿宴赠礼、切磋、修罗擎天死亡及徐霄正面压制冥法；第864章仙帝宫被传送入炼神鼎，转入域外天修绑架危机
+  characters:
+  - 徐霄
+  - 初殷
+  - 凤青玄
+  - 雪瑶
+  - 黑神
+  - 破玄
+  - 冥法
+  - 灵心
+  - 万道
+  - 万尘
+  - 龙天
+  - 修罗擎天
+  - 黑麻仙
+  - 血玉罗
+  system_events:
+  - event: 初殷首次赠送
+    result: 返还一颗鸿蒙一气丹及四千九百颗大罗鸿蒙丹
+    status: verified
+  - event: 天道神威黑冰剑赠送雪瑶
+    result: 返还神器诛仙天冰剑
+    status: verified
+  - event: 三名仙帝级气运之敌识别
+    result: 黑神、破玄、冥法进入击杀任务，奖励为系统返还道具库全体升级
+    status: verified
+  relationship_result: 初殷与徐霄建立私人联系；凤青玄与雪瑶共同维护徐霄；徐霄与黑神、破玄、冥法形成公开敌对
+  pending:
+  - 徐霄上古至尊仙帝自述的客观真实性
+  - 初殷后续关系兑现
+  - 三名气运之敌背后的域外天修完整计划
+  document: docs/01-timeline/node-0107.md
+  evidence: sources/evidence/chapters-854-863.yaml
