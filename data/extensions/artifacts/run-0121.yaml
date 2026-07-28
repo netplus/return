@@ -1,0 +1,37 @@
+schema_version: 1
+run_id: RUN-0121
+artifacts:
+- {id: ART-0139, name: 尘玉返还道器（正式名称待确认）, category: 道器, grade: 道器, first_chapter: 824, current_holder: 徐霄, acquisition: GIFT-0235返还, effect: 待确认, current_state: 已获得, status: pending, related_nodes: [NODE-0105], source_chapters: [823, 824]}
+- {id: ART-0140, name: 混元神火符, category: 符箓, grade: 大罗九重, first_chapter: 826, current_holder: 徐霄, acquisition: GIFT-0236万倍暴击返还, effect: 大罗九重火系符箓；完整威力待确认, current_state: 未使用, status: partial, related_nodes: [NODE-0105], source_chapters: [826]}
+- {id: ART-0141, name: 天道神威黑冰剑, category: 规则道器, grade: 规则道器, first_chapter: 827, current_holder: 徐霄, acquisition: GIFT-0238中大道玄冰剑赠送返还, effect: 冰系规则神剑；完整能力待确认, current_state: 已获得, status: partial, related_nodes: [NODE-0105], source_chapters: [827]}
+artifact_updates:
+- id: ART-0097
+  name: 大道玄冰剑
+  update: {transfer_event_add: [GIFT-0238], current_holder_change: 蝎晴, current_state_change: 已赠送蝎晴并触发规则道器返还, related_nodes_add: [NODE-0105], source_chapters_add: [827]}
+- id: ART-0016
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0237, chapter: 827, quantity: 1, status: verified}, {chapter: 827, quantity: 1, source: 蝎晴羁绊首次提升, status: verified}, {chapter: 830, quantity: 1, source: 魔无花羁绊提升, status: partial}]
+    usage_add: [{chapter: 827, user: 徐霄, quantity: 2, result: 鸿蒙真气增至八十股, status: verified}, {chapter: 830, user: 徐霄, quantity: 1, result: 鸿蒙真气增至八十一股, status: partial}]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [827, 830]
+- id: ART-0136
+  name: 大罗鸿蒙丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0239, chapter: 829, quantity: 10, status: verified}, {gift_id: GIFT-0240, chapter: 824, quantity: 30, status: partial}]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [824, 829]
+- id: ART-0102
+  name: 金仙道丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0235, chapter: 824, quantity: 100, status: partial}]
+    transfer_add: [{gift_id: GIFT-0237, chapter: 827, recipient: 蝎晴, quantity: 10, status: verified}]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [824, 827]
+- id: ART-0114
+  name: 太乙聚仙丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0237, chapter: 827, quantity: 45, status: verified}]
+    transfer_add: [{gift_id: GIFT-0239, chapter: 829, recipient: 魔无花, quantity: 10, status: verified}, {gift_id: GIFT-0240, chapter: 824, recipient: 龙贞等六名万妖仙宗高层, quantity: 60, status: verified}]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [824, 827, 829, 830]
