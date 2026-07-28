@@ -1,0 +1,88 @@
+schema_version: 1
+run_id: RUN-0113
+artifacts:
+- id: ART-0110
+  name: 道气玄天丹
+  category: 丹药
+  grade: 玄仙突破资源
+  first_chapter: 732
+  current_holder: 徐霄
+  acquisition: GIFT-0195万倍暴击返还
+  effect: 服用后使五脏五行之气完美生成玄仙道气，突破玄仙不再存在瓶颈
+  current_state: 已于第736章服用
+  final_user: 徐霄
+  status: verified
+  related_nodes: [NODE-0097]
+  source_chapters: [732, 736]
+- id: ART-0111
+  name: 照妖宝镜
+  category: 宗门检测法器
+  grade: pending
+  first_chapter: 732
+  current_holder: 万妖仙宗
+  acquisition: 万妖仙宗入门选拔公用法器
+  effect: 检测修士资质；蓝光对应道体、红光对应圣体、金光对应仙体，光芒强度反映同层资质差异
+  current_state: 万妖仙宗选拔使用
+  status: verified
+  related_nodes: [NODE-0097]
+  source_chapters: [732, 733, 734]
+- id: ART-0112
+  name: 雪小星获赠顶级至尊仙器（正式名称待确认）
+  category: 仙器
+  grade: 顶级至尊仙器
+  first_chapter: 736
+  current_holder: 雪小星
+  acquisition: GIFT-0197
+  effect: 正式名称、属性、能力及限制待确认
+  current_state: 已赠送雪小星
+  status: partial
+  related_nodes: [NODE-0097]
+  source_chapters: [736]
+- id: ART-0113
+  name: 玄仙巅峰大道神丹
+  category: 大道丹药
+  grade: 玄仙巅峰
+  first_chapter: 736
+  current_holder: 雪小星
+  acquisition: GIFT-0197
+  effect: 玄仙巅峰层级大道修炼资源；完整领悟效果与适用限制待确认
+  current_state: 已赠送雪小星，未确认服用
+  status: partial
+  related_nodes: [NODE-0097]
+  source_chapters: [736]
+artifact_updates:
+- id: ART-0102
+  name: 金仙道丹
+  update:
+    quantity_snapshot_add:
+    - {chapter: 735, value: 700, context: 徐霄公开加码时的库存自述, status: verified}
+    transfer_add:
+    - {gift_id: GIFT-0195, chapter: 732, recipient: 赤裳, quantity: 1, status: verified}
+    - {gift_id: GIFT-0196, chapter_range: {start: 735, end: 736}, recipient: 熊大, quantity: 6, status: verified}
+    related_nodes_add: [NODE-0097]
+    source_chapters_add: [731, 732, 734, 735, 736]
+- id: ART-0092
+  name: 玄元仙丹
+  update:
+    transfer_add:
+    - {gift_id: GIFT-0194, chapter: 729, recipient: 北鳞, quantity: 3, status: verified}
+    - {gift_id: GIFT-0197, chapter: 736, recipient: 雪小星, quantity: 10, status: verified}
+    related_nodes_add: [NODE-0097]
+    source_chapters_add: [729, 736]
+- id: ART-0098
+  name: 凤族血令
+  update:
+    current_holder_change: 天翎
+    current_state_change: 第730章由天翎从徐霄处收回
+    related_nodes_add: [NODE-0097]
+    source_chapters_add: [730]
+- id: ART-0105
+  name: 九天青木舟
+  update:
+    usage_add:
+    - chapter: 729
+      user: 徐霄
+      result: 搭载参选队伍跨越天瀑山脉并抵达万妖仙宗
+      status: verified
+    related_nodes_add: [NODE-0097]
+    source_chapters_add: [729]
