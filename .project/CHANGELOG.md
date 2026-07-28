@@ -1,26 +1,26 @@
 # Changelog
 
-## RUN-0106 — 2026-07-28
+## RUN-0107 — 2026-07-28
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only the unique pending `TASK-0092`; no completed task, Timeline node or entity ID was duplicated.
-- Resolved the adaptive boundary at Chapter 680: 大仙域来人、灵藏沦陷、宗门噩耗 and盘龙岛安顿 form one coherent arc; Chapter 681 begins青鸾妖身 and妖族身份谈判.
-- Created `NODE-0090`, covering Chapters 677—680.
-- Added 金虚、铁煞天、北鳞 and赤澜儿 as `CHAR-0166`—`CHAR-0169` with chapter-anchored first appearances.
-- Updated 徐霄、诸葛青天、凤青玄 and姬雪 with timed `growth_event_add` records.
-- Added `GIFT-0173`—`GIFT-0174`; updated五行仙丹、九霄山河图、九霄天梯 and传送仙台.
-- Recorded灵藏仙域沦陷、诸葛青天燃寿恢复 and盘龙岛跨界避难体系建立.
+- Resumed only the unique pending `TASK-0093`; no completed task, Timeline node or entity ID was duplicated.
+- Resolved the adaptive boundary at Chapter 688: 青鸾凤青玄妖族身份、神魂烙印豁免、天水城灵田制度、仙丹补偿策略 and玄雪识别 form one coherent arc; Chapter 689 begins凤青玄返回 and凤族血令.
+- Created `NODE-0091`, covering Chapters 681—688.
+- Added 玄雪 as `CHAR-0170` with a chapter-anchored first appearance.
+- Updated 徐霄、青鸾、凤青玄、赤澜儿、金虚、洛银纱、琉璃、姬雪、柳清浅 and绝柔 with timed `growth_event_add` records.
+- Added `GIFT-0175`—`GIFT-0176`; updated五行仙丹 and玄元仙丹.
+- Recorded青鸾两笔丹药返还、玄雪S级玄仙气运识别 and徐霄灵田巡察及仙丹补偿策略.
 - Source traceability passed with qualifications using official catalog, readable mirrors and archived per-chapter hashes; no full chapter text was committed.
-- Completed `TASK-0092` and queued `TASK-0093` beginning at Chapter 681.
+- Completed `TASK-0093` and queued `TASK-0094` beginning at Chapter 689.
+
+## RUN-0106 — 2026-07-28
+
+- Created `NODE-0090`, covering Chapters 677—680; completed `TASK-0092` and queued `TASK-0093`.
+- Added金虚铁煞天北鳞赤澜儿、灵藏沦陷 and盘龙岛安顿.
 
 ## RUN-0105 — 2026-07-28
 
 - Created `NODE-0089`, covering Chapters 667—676; completed `TASK-0091` and queued `TASK-0092`.
-- Added道一玄清赤眉玄蛇黑无忌、丁静关系、三宗上门 and一敌八威慑.
-
-## RUN-0104 — 2026-07-28
-
-- Created `NODE-0088`, covering Chapters 663—666; completed `TASK-0090` and queued `TASK-0091`.
 
 ## Audit history
 
