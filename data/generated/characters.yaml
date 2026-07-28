@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 82
+  extension_files: 83
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -163,6 +163,7 @@ characters:
   - NODE-0091
   - NODE-0092
   - NODE-0093
+  - NODE-0094
   source_chapters:
   - 1
   - 2
@@ -829,6 +830,16 @@ characters:
   - 703
   - 704
   - 705
+  - 706
+  - 707
+  - 708
+  - 709
+  - 710
+  - 711
+  - 712
+  - 713
+  - 714
+  - 715
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -903,6 +914,9 @@ characters:
   - 向邬秋提供仙剑魂丹并推动其在阴阳仙门安置
   - 与丁静正式确立关系
   - 与赤澜儿确立亲密关系
+  - 与玄雪公开对象关系
+  - 与青曼确立亲密关系
+  - 被周紫薇视为人族高层卧底
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -928,7 +942,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 天仙三重
+  cultivation_change: 天仙四重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -1097,6 +1111,10 @@ characters:
   - 天凤血脉进化为祖凤血脉
   - 造化涅槃重生能力
   - 五脏五气完美循环
+  - 道元圣体进化为太初仙体
+  - 完美领悟感知大道
+  - 鸿蒙真气六十三股
+  - 公开展现压制天地玄仙战力
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1473,6 +1491,20 @@ characters:
     - 由天水城受管制修士转为妖族执事主动示好的特殊人物
     - 灵藏人族灵植负担降低
     status: partial
+  - chapter_range:
+      start: 706
+      end: 715
+    event: 放走天玄养伤小队并在青木城首战保住阵眼
+    core_ability:
+    - 天仙四重
+    - 太初仙体
+    - 完美感知大道
+    - 可压制天地玄仙
+    impact:
+    - 建立天玄仙宗潜在线路
+    - 正式进入大仙域人妖前线
+    - 获得镇魂黑链等高阶资源
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1510,6 +1542,9 @@ characters:
   - ART-0097
   accepted_rewards:
   - ART-0101
+  - ART-0102
+  - ART-0103
+  - ART-0104
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -9933,6 +9968,7 @@ characters:
   - NODE-0090
   - NODE-0091
   - NODE-0092
+  - NODE-0094
   source_chapters:
   - 678
   - 685
@@ -9943,9 +9979,15 @@ characters:
   - 695
   - 696
   - 697
+  - 709
+  - 710
+  - 711
+  - 712
+  - 715
   verification_status: partial
   role_change:
   - 负责统计灵藏七宗每年上交灵植数量
+  - 代表灵藏人族加入天水城青木城支援小队
   growth_event:
   - chapter_range:
       start: 685
@@ -9961,6 +10003,13 @@ characters:
     impact:
     - 大仙域天地玄仙层级规则获得明确参照
     status: verified
+  - chapter_range:
+      start: 709
+      end: 715
+    event: 代表灵藏人族为万妖仙宗前线作战
+    impact:
+    - 灵藏七宗尝试以战功换取正式宗门身份
+    status: partial
   cultivation_change: 玄仙五重
 - id: CHAR-0167
   name: 铁煞天
@@ -10062,6 +10111,7 @@ characters:
   - NODE-0090
   - NODE-0091
   - NODE-0093
+  - NODE-0094
   source_chapters:
   - 678
   - 681
@@ -10072,6 +10122,13 @@ characters:
   - 701
   - 702
   - 703
+  - 709
+  - 710
+  - 711
+  - 712
+  - 713
+  - 714
+  - 715
   verification_status: partial
   identity_change:
   - SS级气运之女
@@ -10092,8 +10149,25 @@ characters:
     impact:
     - 城主府对徐霄的态度由管制转为合作和保护
     status: partial
+  - chapter_range:
+      start: 709
+      end: 715
+    event: 率天水城小队进入青木城并获得缚仙绳
+    core_ability:
+    - 玄仙六重
+    - 至尊神火剑
+    - 缚仙绳
+    impact:
+    - 天水城正式参与青木城前线争夺
+    status: partial
   stance_change:
   - 由迫于八族压力准备关押徐霄转为公开示好和保护
+  accepted_gifts:
+  - GIFT-0187
+  artifact:
+  - ART-0090
+  leadership_change:
+  - 带领天水城玄仙精锐支援青木城
 - id: CHAR-0170
   name: 玄雪
   status: alive
@@ -10117,6 +10191,7 @@ characters:
   - NODE-0091
   - NODE-0092
   - NODE-0093
+  - NODE-0094
   source_chapters:
   - 688
   - 691
@@ -10128,12 +10203,21 @@ characters:
   - 697
   - 704
   - 705
+  - 706
+  - 708
+  - 709
+  - 710
   verification_status: partial
   accepted_gifts:
   - GIFT-0178
   - GIFT-0179
+  - GIFT-0182
+  - GIFT-0184
+  - GIFT-0185
   relationship_change:
   - 因天凤血丹与凤族血令转为对徐霄谨慎合作
+  - 按玄灵安排与徐霄正式公开对象关系
+  - 获得长期天凤血丹承诺
   ability_change:
   - 炼化一颗天凤血丹后天凤血脉提升
   growth_event:
@@ -10152,6 +10236,15 @@ characters:
     event: 随玄灵伏击并清除火蜥族精锐
     impact:
     - 玄鸟族成为天水城八大妖族之外最强本地妖族力量
+    status: partial
+  - chapter_range:
+      start: 706
+      end: 710
+    event: 执行玄鸟族资源策略并与徐霄公开交往
+    core_ability:
+    - 持续获得天凤血丹
+    impact:
+    - 玄鸟族获得长期血脉升级资源路径
     status: partial
   strategic_role:
   - 参与玄鸟族伏击火蜥族精锐
@@ -10310,8 +10403,193 @@ characters:
     徐霄: 执行其针对火蜥族的战略安排
   related_nodes:
   - NODE-0093
+  - NODE-0094
   source_chapters:
   - 704
   - 705
+  - 706
+  - 707
+  - 708
+  - 709
+  - 710
+  document: null
+  verification_status: partial
+  accepted_gifts:
+  - GIFT-0182
+  - GIFT-0184
+  strategic_role:
+  - 安排玄雪以关系绑定徐霄资源
+  - 带队追踪并包围天玄养伤小队
+  growth_event:
+  - chapter_range:
+      start: 706
+      end: 710
+    event: 将玄雪关系策略转化为玄鸟族长期资源通道
+    impact:
+    - 玄鸟族补入天水城八大妖族并获得加入万妖仙宗机会
+    status: partial
+- id: CHAR-0176
+  name: 周紫薇
+  status: alive
+  role: supporting
+  affiliations:
+  - 天玄仙宗
+  identities:
+  - 天玄仙宗执事
+  - SS级气运之女
+  first_appearance:
+    chapter: 707
+    title: 包围人族
+    node: NODE-0094
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  abilities:
+  - 掌握法身自爆秘法
+  - 神魂具备脱离逃生手段
+  relationship_context:
+    徐霄: 误认为人族高层卧底并接受其救助与赠丹
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 707
+  - 708
+  document: null
+  verification_status: partial
+- id: CHAR-0177
+  name: 孔青
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 青木城
+  identities:
+  - 青木城前线大执事
+  first_appearance:
+    chapter: 711
+    title: 开始布置阵眼
+    node: NODE-0094
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  relationship_context:
+    赤澜儿: 关注其与徐霄关系
+    徐霄: 轻视并视为色魔
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 711
+  document: null
+  verification_status: partial
+- id: CHAR-0178
+  name: 凤天晴
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 天凤一族
+  - 青木城
+  identities:
+  - 青木城前线大执事
+  first_appearance:
+    chapter: 711
+    title: 开始布置阵眼
+    node: NODE-0094
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 711
+  document: null
+  verification_status: partial
+- id: CHAR-0179
+  name: 鹤仙儿
+  status: alive
+  role: supporting
+  affiliations:
+  - 白鹤一族
+  - 万妖仙宗
+  identities:
+  - 青木城阵法师
+  - SS级气运之女
+  first_appearance:
+    chapter: 711
+    title: 开始布置阵眼
+    node: NODE-0094
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  relationship_context:
+    徐霄: 对其前线泡妞行为强烈鄙视
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 711
+  - 712
+  - 713
+  - 714
+  - 715
+  document: null
+  verification_status: partial
+- id: CHAR-0180
+  name: 青曼
+  status: alive
+  role: supporting
+  affiliations:
+  - 青花蛇一族
+  - 天水城八大妖族
+  identities:
+  - 青花蛇族族长
+  - A级气运之女
+  first_appearance:
+    chapter: 712
+    title: 徐霄出手
+    node: NODE-0094
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  relationship_context:
+    徐霄: 被救治后确立亲密关系并获长期资源承诺
+  accepted_gifts:
+  - GIFT-0186
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 712
+  - 713
+  - 714
+  - 715
+  document: null
+  verification_status: partial
+- id: CHAR-0181
+  name: 赵四尊
+  status: alive
+  role: antagonist
+  affiliations:
+  - 天玄仙宗
+  identities:
+  - 天玄仙宗天地玄仙
+  first_appearance:
+    chapter: 714
+    title: 惊麻了的人妖两族
+    node: NODE-0094
+  cultivation:
+    current: 玄仙六重
+    status: verified
+  combat_result:
+    chapter: 715
+    result: 至尊仙器受损并被徐霄击退
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 714
+  - 715
   document: null
   verification_status: partial

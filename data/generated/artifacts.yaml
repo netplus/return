@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 76
+  extension_files: 77
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -150,6 +150,7 @@ artifacts:
   - NODE-0047
   - NODE-0052
   - NODE-0057
+  - NODE-0094
   acquisitions:
   - gift_id: GIFT-0008
     chapter: 23
@@ -190,6 +191,9 @@ artifacts:
     chapter: 438
     result: 未确认服用
     status: partial
+  - gift_id: GIFT-0183
+    chapter: 708
+    quantity: 1
   instances_acquired_total: 4
   instances_consumed_total: 4
   acquisition_result:
@@ -199,11 +203,15 @@ artifacts:
   source_chapters:
   - 328
   - 402
+  - 708
   consumption:
-    chapter: 402
+  - chapter: 402
     user: 徐霄
     result: 补全土之大道并形成五行大道阶段性圆满
     status: partial
+  - chapter: 708
+    user: 徐霄
+    result: 完美领悟感知大道
 - id: ART-0011
   name: 紫霄雷符
   category: 术法符箓
@@ -1029,6 +1037,9 @@ artifacts:
     chapter: 699
     quantity: 1
     status: verified
+  - gift_id: GIFT-0186
+    chapter: 713
+    quantity: 1
   effect: 激活后形成九天金莲护体，侧重防御
   complete_defense_limit: pending
   refinement_status: pending
@@ -1045,6 +1056,7 @@ artifacts:
   - NODE-0087
   - NODE-0092
   - NODE-0093
+  - NODE-0094
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1063,6 +1075,8 @@ artifacts:
   - 662
   - 692
   - 699
+  - 708
+  - 713
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -1102,6 +1116,10 @@ artifacts:
     consumer: 徐霄
     result: 鸿蒙真气增至五十二股
     status: partial
+  - chapter: 708
+    user: 徐霄
+    quantity: 2
+    result: 鸿蒙真气增至六十三股
   quantity_change_note:
   - 第662章新增两颗返还
 - id: ART-0045
@@ -1538,6 +1556,17 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0057
+  - NODE-0094
+  transfer_records:
+  - gift_id: GIFT-0184
+    chapter: 708
+  - gift_id: GIFT-0185
+    chapter: 709
+    recipient: 玄雪
+    quantity: 10
+  source_chapters:
+  - 708
+  - 709
 - id: ART-0056
   name: 仙魂神魄丹
   category: 丹药
@@ -2328,8 +2357,12 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0085
+  - NODE-0094
   source_chapters:
   - 644
+  - 715
+  current_holder_change: 赤澜儿
+  transfer_event: GIFT-0187
 - id: ART-0091
   name: 万佛金身丹
   category: 丹药
@@ -2546,3 +2579,49 @@ artifacts:
   source_chapters:
   - 704
   - 705
+- id: ART-0102
+  name: 金仙道丹
+  category: 丹药
+  grade: 金仙层级
+  first_chapter: 706
+  current_holder: 徐霄
+  acquisition: GIFT-0182、GIFT-0183及GIFT-0186返还，合计一百三十四颗
+  effect: 金仙层级修炼丹药；完整效果与适用限制待确认
+  quantity: 134
+  current_state: 未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 706
+  - 708
+  - 713
+- id: ART-0103
+  name: 太初仙体丹
+  category: 丹药
+  grade: 金仙层级特殊丹药
+  first_chapter: 708
+  current_holder: 徐霄
+  acquisition: 蜥雷及蜥红蝶任务特殊奖励链；精确拆分待确认
+  effect: 使道元圣体进化为太初仙体，强化自动修炼、大道领悟、灵力与肉身
+  current_state: 已服用
+  final_user: 徐霄
+  status: partial
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 708
+- id: ART-0104
+  name: 镇魂黑链
+  category: 道器
+  grade: 道器
+  first_chapter: 715
+  current_holder: 徐霄
+  acquisition: GIFT-0187返还
+  effect: 镇魂类道器；完整能力、限制与使用记录待确认
+  current_state: 已获得
+  status: partial
+  related_nodes:
+  - NODE-0094
+  source_chapters:
+  - 715

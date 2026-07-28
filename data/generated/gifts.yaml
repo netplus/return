@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 73
+  extension_files: 74
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2388,4 +2388,72 @@ gifts:
   system_valid: true
   reward: 一颗鸿蒙一气丹
   triggered_multiplier: 10000
+  status: verified
+- id: GIFT-0182
+  chapter: 706
+  node: NODE-0094
+  giver: 徐霄
+  recipient:
+  - 玄灵
+  - 玄雪
+  gift: 二十颗玄元仙丹
+  accepted: true
+  reward: 八十颗金仙道丹
+  triggered_multiplier: aggregate
+  status: verified
+- id: GIFT-0183
+  chapter_range:
+    start: 707
+    end: 708
+  node: NODE-0094
+  giver: 徐霄
+  recipient: 周紫薇
+  gift: 十颗玄元仙丹
+  accepted: true
+  reward: 一颗三千大道丹及四十五颗金仙道丹
+  triggered_multiplier:
+    first: 10000
+    remaining: 5
+  status: verified
+- id: GIFT-0184
+  chapter: 708
+  node: NODE-0094
+  giver: 徐霄
+  recipient: 玄鸟族八名玄仙
+  gift: 每人一颗天凤血丹
+  accepted: true
+  reward: 玄雪有效触发三颗高品天凤血丹；其余对象未触发
+  triggered_multiplier: partial
+  status: partial
+- id: GIFT-0185
+  chapter: 709
+  node: NODE-0094
+  giver: 徐霄
+  recipient: 玄雪
+  gift: 十颗天凤血丹
+  accepted: true
+  reward: 三十颗高品天凤血丹
+  triggered_multiplier: 3
+  status: verified
+- id: GIFT-0186
+  chapter: 713
+  node: NODE-0094
+  giver: 徐霄
+  recipient: 青曼
+  gift: 十颗玄元仙丹
+  accepted: true
+  reward: 一颗鸿蒙一气丹及九颗金仙道丹
+  triggered_multiplier:
+    first: 1000
+    remaining: 1
+  status: verified
+- id: GIFT-0187
+  chapter: 715
+  node: NODE-0094
+  giver: 徐霄
+  recipient: 赤澜儿
+  gift: 至尊仙器缚仙绳
+  accepted: true
+  reward: 道器镇魂黑链
+  triggered_multiplier: pending
   status: verified

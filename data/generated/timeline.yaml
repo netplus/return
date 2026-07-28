@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 82
+  extension_files: 83
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3666,3 +3666,42 @@ nodes:
   - 凤青玄关系恢复条件
   document: docs/01-timeline/node-0093.md
   evidence: sources/evidence/chapters-698-705.yaml
+- id: NODE-0094
+  title: 人族养伤小队、青木城阵眼与首战收束
+  chapters:
+    start: 706
+    end: 715
+  granularity: story_arc
+  status: verified
+  source_qualification: 用户提供的归档正文逐章核验；仓库索引固定标题偏移与SHA-256
+  boundary_reason: 第715章完成人族败退和阵眼保全；第716章转入终极卧底与新一轮赠送阶段
+  characters:
+  - 徐霄
+  - 玄灵
+  - 玄雪
+  - 周紫薇
+  - 赤澜儿
+  - 金虚
+  - 孔青
+  - 凤天晴
+  - 鹤仙儿
+  - 青曼
+  - 赵四尊
+  system_events:
+  - event: 周紫薇玄元仙丹赠送
+    result: 三千大道丹和四十五颗金仙道丹
+    status: verified
+  - event: 青曼玄元仙丹赠送
+    result: 鸿蒙一气丹和九颗金仙道丹
+    status: verified
+  - event: 缚仙绳赠送赤澜儿
+    result: 道器镇魂黑链
+    status: verified
+  relationship_result: 玄雪与徐霄公开对象关系；青曼获救后与徐霄确立关系；周紫薇将徐霄视为人族高层卧底
+  pending:
+  - 金仙道丹完整药效
+  - 太初仙体完整上限
+  - 镇魂黑链完整能力
+  - 青木城前线人物完整面板
+  document: docs/01-timeline/node-0094.md
+  evidence: sources/evidence/chapters-706-715.yaml
