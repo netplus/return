@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0109
+run_id: RUN-0110
 coverage:
-  chapters_covered_through: 705
-  chapters_promoted_in_run: [698, 699, 700, 701, 702, 703, 704, 705]
-  timeline_nodes: 93
+  chapters_covered_through: 715
+  chapters_promoted_in_run: [706, 707, 708, 709, 710, 711, 712, 713, 714, 715]
+  timeline_nodes: 94
   draft_nodes: 0
-  story_arc_nodes: 90
-  characters_documented: 175
+  story_arc_nodes: 91
+  characters_documented: 181
   characters_staged: 0
   system_records: 1
-  gift_events: 181
-  artifact_records: 101
+  gift_events: 187
+  artifact_records: 104
   artifacts_staged: 0
 entity_documents:
-  character_records: 175
-  artifact_records: 101
-  expected_generated_documents: 276
+  character_records: 181
+  artifact_records: 104
+  expected_generated_documents: 285
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, archive_chapters: [698, 699, 700, 701, 702, 703, 704, 705], official_catalog_chapters: [698, 699, 700, 701, 702, 703, 704, 705, 706], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第705章完成五年跳跃后的火蜥族结算及徐霄天仙三重血脉升级；第706章转入人族养伤小队}
-  materiality: {status: passed, entity_updates: [NODE-0093, 天翎蜥雷蜥红蝶玄灵新人物, 徐霄凤青玄焰灵赤澜儿铁煞天北鳞玄雪成长更新, GIFT-0181, ART-0100至ART-0101及鸿蒙一气丹更新]}
+  source_traceability: {status: passed, archive_chapters: [706, 707, 708, 709, 710, 711, 712, 713, 714, 715], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第715章完成人族败退和阵眼保全；第716章转入终极卧底阶段}
+  materiality: {status: passed, entity_updates: [NODE-0094, 周紫薇孔青凤天晴鹤仙儿青曼赵四尊新人物, 徐霄玄雪玄灵赤澜儿金虚成长更新, GIFT-0182至GIFT-0187, ART-0102至ART-0104]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 175, artifacts: 101}
+  entity_document_freshness: {status: passed, characters: 181, artifacts: 104}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 7, timed_growth_events: 7, new_characters_with_first_appearance: 4}
+  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 6}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_and_hashes}
 blockers: []
