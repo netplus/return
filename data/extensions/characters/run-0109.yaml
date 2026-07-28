@@ -1,0 +1,144 @@
+schema_version: 1
+run_id: RUN-0109
+characters:
+- id: CHAR-0172
+  name: 天翎
+  status: alive
+  role: supporting
+  affiliations: [万妖仙宗, 天凤一族]
+  identities: [天凤族金仙长老, 凤青玄师父]
+  first_appearance: {chapter: 699, title: 天翎长老, node: NODE-0093}
+  cultivation: {current: 金仙境, exact_level: pending, status: partial}
+  relationship_context: {凤青玄: 师徒, 徐霄: 要求暂时与凤青玄分开并公开提供政治庇护}
+  abilities: [可通过凤族血令远程降下灵气血凤分身]
+  related_nodes: [NODE-0093]
+  source_chapters: [699, 700, 701, 702]
+  document: null
+  verification_status: partial
+- id: CHAR-0173
+  name: 蜥雷
+  status: dead
+  role: antagonist
+  affiliations: [火蜥蜴一族, 天水城八大妖族]
+  identities: [火蜥族族长, 气运之敌]
+  first_appearance: {chapter: 701, title: 天翎灵气血凤, node: NODE-0093}
+  cultivation: {current: 玄仙境, exact_level: pending, status: partial}
+  death: {chapter_range: {start: 704, end: 705}, cause: 被玄鸟族伏击清除}
+  relationship_context: {蜥风: 父子, 徐霄: 为子报仇并成为系统击杀目标}
+  related_nodes: [NODE-0093]
+  source_chapters: [701, 702, 703, 704, 705]
+  document: null
+  verification_status: partial
+- id: CHAR-0174
+  name: 蜥红蝶
+  status: dead
+  role: antagonist
+  affiliations: [火蜥蜴一族, 天水城八大妖族]
+  identities: [火蜥族玄仙, C级气运之女]
+  first_appearance: {chapter: 701, title: 天翎灵气血凤, node: NODE-0093}
+  cultivation: {current: 玄仙境, exact_level: pending, status: partial}
+  death: {chapter_range: {start: 704, end: 705}, cause: 与火蜥族精锐一同被玄鸟族伏击清除}
+  relationship_context: {徐霄: 系统识别为C级气运对象但未建立赠送关系}
+  related_nodes: [NODE-0093]
+  source_chapters: [701, 704, 705]
+  document: null
+  verification_status: partial
+- id: CHAR-0175
+  name: 玄灵
+  status: alive
+  role: supporting
+  affiliations: [玄鸟一族, 天水城妖族]
+  identities: [玄鸟族老祖]
+  first_appearance: {chapter: 704, title: 特殊奖励, node: NODE-0093}
+  cultivation: {current: 玄仙六重, status: verified}
+  relationship_context: {玄雪: 同族长辈, 徐霄: 执行其针对火蜥族的战略安排}
+  related_nodes: [NODE-0093]
+  source_chapters: [704, 705]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 天仙三重
+    age_change: 1055岁
+    lifespan_change: 3010254年
+    ability_change_add: [鸿蒙真气六十一股, 天凤血脉进化为祖凤血脉, 造化涅槃重生能力, 五脏五气完美循环]
+    accepted_rewards_add: [ART-0101]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [698, 699, 700, 701, 702, 703, 704, 705]
+    growth_event_add:
+    - chapter_range: {start: 698, end: 705}
+      event: 借天翎金仙庇护完成天水城权力反转并晋升天仙三重
+      core_ability: [天仙三重, 鸿蒙真气六十一股, 祖凤血脉, 造化涅槃重生]
+      impact: [由天水城受管制修士转为妖族执事主动示好的特殊人物, 灵藏人族灵植负担降低]
+      status: partial
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    relationship_change_add: [因天翎命令与徐霄暂时分开, 对徐霄迅速同意分手强烈不满]
+    conflict_change_add: [师父天翎对其与徐霄关系进行强制干预]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [699, 700, 701, 702]
+    growth_event_add:
+    - chapter_range: {start: 699, end: 702}
+      event: 面对天翎强制干预与徐霄暂时分手
+      impact: [与徐霄关系进入暂时中断状态, 与师父在私人关系问题上出现冲突]
+      status: partial
+- id: CHAR-0146
+  name: 焰灵
+  update:
+    accepted_gifts_add: [GIFT-0181]
+    relationship_change_add: [与徐霄羁绊度提升至二并在争执后恢复关系]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [698, 699, 703, 704]
+    growth_event_add:
+    - chapter_range: {start: 698, end: 704}
+      event: 羁绊度提升并获得地仙巅峰大道神丹
+      core_ability: [获得地仙巅峰大道修炼资源]
+      impact: [对徐霄的长期资源依赖和亲密关系进一步加深]
+      status: partial
+- id: CHAR-0169
+  name: 赤澜儿
+  update:
+    stance_change_add: [由迫于八族压力准备关押徐霄转为公开示好和保护]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [698, 699, 701, 702, 703]
+    growth_event_add:
+    - chapter_range: {start: 701, end: 703}
+      event: 天翎介入后调整天水城执法立场
+      impact: [城主府对徐霄的态度由管制转为合作和保护]
+      status: partial
+- id: CHAR-0167
+  name: 铁煞天
+  update:
+    stance_change_add: [天翎介入后公开支持徐霄击杀蜥风]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [701, 702, 703]
+    growth_event_add:
+    - chapter_range: {start: 701, end: 703}
+      event: 由要求关押徐霄转为公开为其辩护
+      impact: [天水城妖族行政力量对徐霄的权力约束显著下降]
+      status: partial
+- id: CHAR-0168
+  name: 北鳞
+  update:
+    stance_change_add: [天翎介入后否认支持蜥风强迫婚配并转为示好徐霄]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [701, 702, 703]
+    growth_event_add:
+    - chapter_range: {start: 701, end: 703}
+      event: 在金仙长老威慑下撤回对火蜥族的政治支持
+      impact: [天水城原有妖族权力联盟出现公开松动]
+      status: partial
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    strategic_role_add: [参与玄鸟族伏击火蜥族精锐]
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [704, 705]
+    growth_event_add:
+    - chapter_range: {start: 704, end: 705}
+      event: 随玄灵伏击并清除火蜥族精锐
+      impact: [玄鸟族成为天水城八大妖族之外最强本地妖族力量]
+      status: partial
