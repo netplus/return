@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 90
+  extension_files: 91
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3985,3 +3985,47 @@ nodes:
   - 徐霄太初第一圣子名号是否获六宗正式承认
   document: docs/01-timeline/node-0101.md
   evidence: sources/evidence/chapters-763-772.yaml
+- id: NODE-0102
+  title: 轩辕拍卖会、道伤资源争夺与订婚变局
+  chapters:
+    start: 773
+    end: 792
+  granularity: story_arc
+  status: verified
+  source_qualification: 第773—792章由两段临时归档正文窗口逐章阅读并以仓库归档SHA-256核验；第793章转入姬雪恢复前世记忆与外出历练
+  boundary_reason: 第792章完成拍卖会、轩辕订婚对象变更、噬魂血宗冲突及返宗后的高层处置；第793章开始姬雪前世衣钵新阶段
+  characters:
+  - 徐霄
+  - 赤裳
+  - 轩辕婉君
+  - 轩辕正誉
+  - 血无涯
+  - 血魁
+  - 魔无花
+  - 魔无天
+  - 凤溪
+  - 龙九天
+  - 周紫薇
+  - 万萱
+  - 绝云神
+  system_events:
+  - event: 轩辕婉君灵精与法器赠送返还
+    result: 一千零五十万极品灵精及道器通神仙玉
+    status: verified
+  - event: 魔无花道器与丹药赠送返还
+    result: 规则道器五行九天神威金轮及二百颗太乙聚仙丹
+    status: verified
+  - event: 轩辕婉君订婚复合赠礼
+    result: 一千五百颗太乙聚仙丹及八十颗太乙巅峰大道神丹
+    status: verified
+  - event: 凤溪复合赠礼
+    result: 一千五百颗太乙聚仙丹及规则道器天道神威御火剑
+    status: verified
+  relationship_result: 徐霄与轩辕婉君完成订婚并形成长期资源关系；魔无花接受徐霄支持并约定共同对付魔无天；万妖仙宗与噬魂血宗公开决裂
+  pending:
+  - 轩辕婉君道伤最终修复结果
+  - 八颗赠礼丹药在魂丹与大道神丹之间的正文称谓冲突
+  - 龙九天十颗太乙聚仙丹的精确系统返还
+  - 噬魂血宗后续报复方式
+  document: docs/01-timeline/node-0102.md
+  evidence: sources/evidence/chapters-773-792.yaml

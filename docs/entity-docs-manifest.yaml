@@ -387,7 +387,7 @@ groups:
     - id: CHAR-0189
       path: docs/02-characters/赤裳.md
     - id: CHAR-0190
-      path: docs/02-characters/天穹.md
+      path: docs/02-characters/赤裳-CHAR-0190.md
     - id: CHAR-0191
       path: docs/02-characters/孔玄.md
     - id: CHAR-0192
@@ -425,7 +425,7 @@ groups:
     - id: CHAR-0208
       path: docs/02-characters/血无涯.md
   artifacts:
-    count: 122
+    count: 132
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -673,10 +673,30 @@ groups:
       path: docs/06-artifacts/祖凤血丹.md
     - id: ART-0122
       path: docs/06-artifacts/九天太乙冰符.md
+    - id: ART-0123
+      path: docs/06-artifacts/大道槐树根.md
+    - id: ART-0124
+      path: docs/06-artifacts/化体神丹.md
+    - id: ART-0125
+      path: docs/06-artifacts/仙灵聚气玉.md
+    - id: ART-0126
+      path: docs/06-artifacts/通神仙玉.md
+    - id: ART-0127
+      path: docs/06-artifacts/混元破空盘.md
+    - id: ART-0128
+      path: docs/06-artifacts/轩辕五行环.md
+    - id: ART-0129
+      path: docs/06-artifacts/五行九天神威金轮.md
+    - id: ART-0130
+      path: docs/06-artifacts/乾元护天阵盘.md
+    - id: ART-0131
+      path: docs/06-artifacts/天道神威御火剑.md
+    - id: ART-0132
+      path: docs/06-artifacts/太乙巅峰大道神丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
   characters_with_growth_line: 208
-  growth_events: 861
+  growth_events: 871
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
