@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 89
+  extension_files: 90
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3939,3 +3939,49 @@ nodes:
   - 猿浩六件至尊仙棍正式名称
   document: docs/01-timeline/node-0100.md
   evidence: sources/evidence/chapters-752-762.yaml
+- id: NODE-0101
+  title: 云花海安置、轩辕仙城会盟与太初第一圣子上位
+  chapters:
+    start: 763
+    end: 772
+  granularity: story_arc
+  status: verified
+  source_qualification: 第763—772章由归档正文逐章阅读并以仓库归档SHA-256核验；第773章转入轩辕拍卖会
+  boundary_reason: 第772章完成六宗会盟冲突、徐霄公开战力与太初仙域第一圣子名号落地；第773章开始拍卖会新阶段
+  characters:
+  - 徐霄
+  - 云花海
+  - 焰灵
+  - 赤澜儿
+  - 玄灵
+  - 玄雪
+  - 天翎
+  - 凤溪
+  - 轩辕婉君
+  - 轩辕正誉
+  - 魔无天
+  - 朱圆圆
+  - 绝云神
+  - 万萱
+  - 血无涯
+  - 周紫薇
+  - 熊大
+  - 魔无花
+  system_events:
+  - event: 云花海复合赠礼返还
+    result: 鸿蒙一气丹、九十颗玄元仙丹、十颗玄仙巅峰魂丹及一柄道器仙剑
+    status: verified
+  - event: 玄灵复合赠礼与羁绊提升
+    result: 祖凤血丹、金仙道丹、道器及九天太乙冰符
+    status: verified
+  - event: 新气运任务
+    result: 魔无天与血无涯被识别为气运之子并分别发布击杀任务
+    status: verified
+  relationship_result: 云花海迁入万妖仙宗并成为熊大弟子；赤澜儿与玄雪婚事落地；徐霄在轩辕仙城公开取得太初仙域第一圣子名号
+  pending:
+  - 云花海返还道器仙剑正式名称
+  - 玄灵返还道器正式名称
+  - 轩辕婉君噬神大道缺陷的最终治疗结果
+  - 徐霄太初第一圣子名号是否获六宗正式承认
+  document: docs/01-timeline/node-0101.md
+  evidence: sources/evidence/chapters-763-772.yaml

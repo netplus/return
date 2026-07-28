@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 200
+    count: 208
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -391,9 +391,9 @@ groups:
     - id: CHAR-0191
       path: docs/02-characters/孔玄.md
     - id: CHAR-0192
-      path: docs/02-characters/熊大.md
+      path: docs/02-characters/魔无花.md
     - id: CHAR-0193
-      path: docs/02-characters/熊大-CHAR-0193.md
+      path: docs/02-characters/熊大.md
     - id: CHAR-0194
       path: docs/02-characters/雪小星.md
     - id: CHAR-0195
@@ -408,8 +408,24 @@ groups:
       path: docs/02-characters/凤溪.md
     - id: CHAR-0200
       path: docs/02-characters/猿浩.md
+    - id: CHAR-0201
+      path: docs/02-characters/云花海-CHAR-0201.md
+    - id: CHAR-0202
+      path: docs/02-characters/轩辕婉君.md
+    - id: CHAR-0203
+      path: docs/02-characters/轩辕正誉.md
+    - id: CHAR-0204
+      path: docs/02-characters/魔无天.md
+    - id: CHAR-0205
+      path: docs/02-characters/朱圆圆.md
+    - id: CHAR-0206
+      path: docs/02-characters/绝云神.md
+    - id: CHAR-0207
+      path: docs/02-characters/万萱.md
+    - id: CHAR-0208
+      path: docs/02-characters/血无涯.md
   artifacts:
-    count: 119
+    count: 122
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -651,10 +667,16 @@ groups:
       path: docs/06-artifacts/诸葛青天两柄道器神剑（正式名称待确认）.md
     - id: ART-0119
       path: docs/06-artifacts/鹤仙儿返还三件道器（正式名称待确认）.md
+    - id: ART-0120
+      path: docs/06-artifacts/云花海返还道器仙剑（正式名称待确认）.md
+    - id: ART-0121
+      path: docs/06-artifacts/祖凤血丹.md
+    - id: ART-0122
+      path: docs/06-artifacts/九天太乙冰符.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 200
-  growth_events: 835
+  characters_with_growth_line: 208
+  growth_events: 861
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

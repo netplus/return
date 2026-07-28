@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 89
+  extension_files: 90
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -170,6 +170,7 @@ characters:
   - NODE-0098
   - NODE-0099
   - NODE-0100
+  - NODE-0101
   source_chapters:
   - 1
   - 2
@@ -893,6 +894,16 @@ characters:
   - 760
   - 761
   - 762
+  - 763
+  - 764
+  - 765
+  - 766
+  - 767
+  - 768
+  - 769
+  - 770
+  - 771
+  - 772
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -1006,7 +1017,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 玄仙二重
+  cultivation_change: 玄仙三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -1197,6 +1208,9 @@ characters:
   - 鸿蒙真气增至七十二股
   - 符箓阵法返还库上限提升至太乙仙
   - 公开展现五行道器剑阵与金仙层级肉身战力
+  - 鸿蒙真气增至七十三股
+  - 公开施展完美噬神大道与五行道器剑阵
+  - 获得太初仙域第一圣子名号
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1670,6 +1684,20 @@ characters:
     - 获得唯一圣子身份
     - 对宗门资源与政治网络的控制显著增强
     status: verified
+  - chapter_range:
+      start: 763
+      end: 772
+    event: 完成灵藏关系安置并在轩辕仙城六宗会盟中公开上位
+    core_ability:
+    - 玄仙三重
+    - 鸿蒙真气七十三股
+    - 完美噬神大道
+    - 五行道器剑阵
+    impact:
+    - 云花海、赤澜儿和玄雪安置落地
+    - 击杀噬魂血宗金仙长老
+    - 取得太初仙域第一圣子名号
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1684,6 +1712,7 @@ characters:
   - 熊大麾下首席执事
   - 公开自称仙帝转世
   - 获任万妖仙宗唯一圣子
+  - 太初仙域第一圣子（公开名号）
   assessment_result:
   - event: 阴阳仙门道侣大会六维评测
     result: 天资样貌肉身法器气运修为六项全部甲，天资与气运为金色
@@ -10455,6 +10484,7 @@ characters:
   - NODE-0094
   - NODE-0098
   - NODE-0100
+  - NODE-0101
   source_chapters:
   - 678
   - 681
@@ -10479,6 +10509,7 @@ characters:
   - 756
   - 761
   - 762
+  - 764
   verification_status: partial
   identity_change:
   - SS级气运之女
@@ -10487,6 +10518,7 @@ characters:
   - 与徐霄确立亲密关系并为其免除神魂烙印
   - 与徐霄明面分手但秘密复合并持续接受资源
   - 与徐霄的公开婚事进入聘礼商议阶段
+  - 接受超品太乙聚仙丹聘礼并与徐霄正式成婚
   growth_event:
   - chapter_range:
       start: 681
@@ -10524,11 +10556,18 @@ characters:
     impact:
     - 关系由私下交往推进至赤狐族婚事谈判
     status: verified
+  - chapter: 764
+    event: 赤狐族接受聘礼并完成婚事
+    impact:
+    - 由婚事谈判进入正式关系
+    - 迁入天魁峰体系
+    status: verified
   stance_change:
   - 由迫于八族压力准备关押徐霄转为公开示好和保护
   accepted_gifts:
   - GIFT-0187
   - GIFT-0204
+  - GIFT-0206
   artifact:
   - ART-0090
   leadership_change:
@@ -10563,6 +10602,7 @@ characters:
   - NODE-0097
   - NODE-0098
   - NODE-0099
+  - NODE-0101
   source_chapters:
   - 688
   - 691
@@ -10591,6 +10631,8 @@ characters:
   - 745
   - 746
   - 751
+  - 765
+  - 766
   verification_status: partial
   accepted_gifts:
   - GIFT-0178
@@ -10607,6 +10649,7 @@ characters:
   - 继续接受徐霄资源但对其多重关系保持不满
   - 继续与徐霄公开复合并接受高品天凤血丹和超品玄元仙丹
   - 与徐霄羁绊度提升至二
+  - 与徐霄完成天凤峰出嫁流程并正式迁入天魁峰
   ability_change:
   - 炼化一颗天凤血丹后天凤血脉提升
   - 照妖宝镜确认金色仙体天赋
@@ -10670,6 +10713,12 @@ characters:
     event: 与徐霄关系进一步稳定，系统羁绊度提升至二
     impact:
     - 成为更稳定的高阶气运关系对象
+    status: verified
+  - chapter: 766
+    event: 天翎接受聘礼后完成出嫁流程
+    impact:
+    - 与徐霄关系正式落地
+    - 天凤峰与天魁峰资源关系加强
     status: verified
   strategic_role:
   - 参与玄鸟族伏击火蜥族精锐
@@ -10739,6 +10788,7 @@ characters:
   - NODE-0096
   - NODE-0097
   - NODE-0098
+  - NODE-0101
   source_chapters:
   - 699
   - 700
@@ -10756,6 +10806,15 @@ characters:
   - 738
   - 739
   - 744
+  - 764
+  - 765
+  - 766
+  - 767
+  - 768
+  - 769
+  - 770
+  - 771
+  - 772
   document: null
   verification_status: partial
   surveillance_change:
@@ -10785,6 +10844,14 @@ characters:
     - 形成可重复的资源问责关系
     - 继续保留天凤神光约束
     status: verified
+  - chapter_range:
+      start: 764
+      end: 766
+    event: 以天凤峰长老身份收取玄雪聘礼并完成出嫁安排
+    impact:
+    - 获得大量太乙聚仙丹返还链资源
+    - 与徐霄的政治资源交换进一步制度化
+    status: verified
   system_profile:
     luck_grade: SSS
     return_multiplier: 100
@@ -10800,10 +10867,12 @@ characters:
   - 玄雪直属长老
   accepted_gifts:
   - GIFT-0198
+  - GIFT-0209
   resource_change:
   - 获得十颗金仙道丹
   stance_change:
   - 以凤青玄为由继续公开问责徐霄并保留天凤神光威慑
+  - 接受聘礼后正式同意玄雪与徐霄婚事
 - id: CHAR-0173
   name: 蜥雷
   status: dead
@@ -10898,6 +10967,7 @@ characters:
   - NODE-0096
   - NODE-0097
   - NODE-0098
+  - NODE-0101
   source_chapters:
   - 704
   - 705
@@ -10913,12 +10983,15 @@ characters:
   - 733
   - 742
   - 743
+  - 765
+  - 766
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0182
   - GIFT-0184
   - GIFT-0201
+  - GIFT-0208
   strategic_role:
   - 安排玄雪以关系绑定徐霄资源
   - 带队追踪并包围天玄养伤小队
@@ -10951,6 +11024,14 @@ characters:
     - 被视为具有金仙潜力的万妖仙宗天才
     - 获得徐霄高阶疗伤资源
     status: verified
+  - chapter_range:
+      start: 765
+      end: 766
+    event: 代天翎谈判玄雪聘礼并与徐霄关系进一步深化
+    impact:
+    - 获得血脉、修炼、道器和符箓资源
+    - 羁绊度提升至二
+    status: verified
   identity_change:
   - 获得万妖仙宗选拔推荐
   - 万妖仙宗天翎麾下执事
@@ -10960,6 +11041,8 @@ characters:
   - 闯过锁妖塔第十六层并在第十七层败退
   status_change:
   - 接受高品天凤血丹和玄元仙丹疗伤
+  relationship_change:
+  - 与徐霄羁绊度提升至二
 - id: CHAR-0176
   name: 周紫薇
   status: alive
@@ -10986,17 +11069,23 @@ characters:
   - NODE-0094
   - NODE-0095
   - NODE-0096
+  - NODE-0101
   source_chapters:
   - 707
   - 708
   - 721
   - 722
   - 727
+  - 769
+  - 770
+  - 771
+  - 772
   document: null
   verification_status: partial
   relationship_change:
   - 与徐霄正式确立关系并承诺保守终极卧底身份
   - 公开支持徐霄作为人妖沟通桥梁并接受长期资源支持
+  - 在轩辕仙城公开支持徐霄并接受万萱默许
   strategic_role:
   - 协助诸葛绫撤离并向天玄仙宗隐藏徐霄真实战力与身份
   growth_event:
@@ -11012,8 +11101,17 @@ characters:
     impact:
     - 与徐霄关系和天玄仙宗内部沟通通道进一步稳定
     status: verified
+  - chapter_range:
+      start: 769
+      end: 772
+    event: 在六宗会盟中公开维持与徐霄关系
+    impact:
+    - 天玄仙宗高层将徐霄卧底叙事纳入长期战略
+    - 获得持续修炼资源
+    status: verified
   accepted_gifts:
   - GIFT-0193
+  - GIFT-0211
 - id: CHAR-0177
   name: 孔青
   status: alive
@@ -11605,7 +11703,7 @@ characters:
   document: null
   verification_status: partial
 - id: CHAR-0192
-  name: 熊大
+  name: 魔无花
   status: alive
   role: supporting
   affiliations:
@@ -11631,6 +11729,7 @@ characters:
   related_nodes:
   - NODE-0097
   - NODE-0098
+  - NODE-0101
   source_chapters:
   - 734
   - 735
@@ -11642,6 +11741,12 @@ characters:
   - 741
   - 744
   - 745
+  - 767
+  - 768
+  - 769
+  - 770
+  - 771
+  - 772
   document: null
   verification_status: verified
   cultivation_progress:
@@ -11657,6 +11762,15 @@ characters:
     - 接近金仙二重瓶颈
     - 与徐霄的长期资源合作进一步固化
     status: verified
+  - chapter_range:
+      start: 767
+      end: 772
+    event: 随万妖仙宗参加轩辕仙城会盟并面对魔罗圣门旧关系压力
+    impact:
+    - 其与魔罗圣门的敌对背景进一步显化
+    status: partial
+  relationship_change:
+  - 在轩辕仙城与魔罗圣门一方呈现持续敌意背景
 - id: CHAR-0193
   name: 熊大
   status: alive
@@ -11682,12 +11796,23 @@ characters:
   related_nodes:
   - NODE-0097
   - NODE-0100
+  - NODE-0101
   source_chapters:
   - 734
   - 752
   - 753
   - 755
   - 762
+  - 763
+  - 764
+  - 765
+  - 766
+  - 767
+  - 768
+  - 769
+  - 770
+  - 771
+  - 772
   document: null
   verification_status: partial
   relationship_change:
@@ -11700,6 +11825,16 @@ characters:
     impact:
     - 天魁峰成为徐霄圣子身份落地后的核心据点
     status: verified
+  - chapter_range:
+      start: 763
+      end: 772
+    event: 协助安置灵藏关系人物并在轩辕仙城为徐霄造势
+    impact:
+    - 天魁峰成为灵藏人族安置核心
+    - 公开推动徐霄第一圣子名号
+    status: verified
+  status_change:
+  - 在六宗会盟中公开推举徐霄为太初仙域第一圣子
 - id: CHAR-0194
   name: 雪小星
   status: alive
@@ -11729,12 +11864,21 @@ characters:
     徐霄: 接受复合资源并确立关系
   accepted_gifts:
   - GIFT-0197
+  - GIFT-0207
   related_nodes:
   - NODE-0097
+  - NODE-0101
   source_chapters:
   - 736
+  - 765
   document: null
   verification_status: partial
+  growth_event:
+  - chapter: 765
+    event: 继续接受玄元仙丹修炼资源
+    impact:
+    - 获得稳定长期资源支持
+    status: verified
 - id: CHAR-0195
   name: 公孙飞龙
   status: dead
@@ -11919,6 +12063,7 @@ characters:
   related_nodes:
   - NODE-0099
   - NODE-0100
+  - NODE-0101
   source_chapters:
   - 746
   - 756
@@ -11928,11 +12073,20 @@ characters:
   - 760
   - 761
   - 762
+  - 765
+  - 766
+  - 767
+  - 768
+  - 769
+  - 770
+  - 771
+  - 772
   document: null
   verification_status: partial
   stance_change:
   - 识别问责背后的资源争夺并支持保留徐霄
   - 见证其圣子晋升
+  - 接受太乙聚仙丹后承诺以天凤族力量压制宗门反徐舆论
   growth_event:
   - chapter_range:
       start: 756
@@ -11941,6 +12095,16 @@ characters:
     impact:
     - 确认徐霄拥有至尊金仙级战力与宗门继承价值
     status: verified
+  - chapter_range:
+      start: 765
+      end: 772
+    event: 以万妖仙宗大长老身份带队参加轩辕仙城会盟
+    impact:
+    - 获得太乙聚仙丹
+    - 公开维护徐霄并重新评估其圣子实力
+    status: verified
+  accepted_gifts:
+  - GIFT-0210
 - id: CHAR-0200
   name: 猿浩
   status: alive
@@ -11970,5 +12134,187 @@ characters:
   - 759
   - 760
   - 761
+  document: null
+  verification_status: verified
+- id: CHAR-0201
+  name: 云花海
+  status: alive
+  role: supporting
+  affiliations:
+  - 五灵仙门
+  - 灵藏仙域人族
+  identities:
+  - 五灵仙门掌门
+  - SSS级气运之女
+  first_appearance:
+    chapter: 763
+    title: 云花海来访
+    node: NODE-0101
+  cultivation:
+    current: 人仙境以上，精确境界待确认
+    status: partial
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 763
+  document: null
+  verification_status: partial
+- id: CHAR-0202
+  name: 轩辕婉君
+  status: alive
+  role: supporting
+  affiliations:
+  - 轩辕家
+  - 轩辕仙城
+  identities:
+  - 轩辕家大小姐
+  - SSS级气运之女
+  - 噬神大道修士
+  first_appearance:
+    chapter: 767
+    title: 到达轩辕仙城
+    node: NODE-0101
+  cultivation:
+    current: 金仙境，精确层级待确认
+    status: partial
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 767
+  document: null
+  verification_status: partial
+- id: CHAR-0203
+  name: 轩辕正誉
+  status: alive
+  role: supporting
+  affiliations:
+  - 轩辕家
+  - 轩辕仙城
+  identities:
+  - 轩辕家主
+  - 轩辕仙城城主
+  first_appearance:
+    chapter: 768
+    title: 各大仙宗驾临
+    node: NODE-0101
+  cultivation:
+    current: 高阶仙境，精确境界待确认
+    status: partial
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 768
+  document: null
+  verification_status: partial
+- id: CHAR-0204
+  name: 魔无天
+  status: alive
+  role: antagonist
+  affiliations:
+  - 魔罗圣门
+  identities:
+  - 魔罗圣门掌门
+  - 气运之子
+  first_appearance:
+    chapter: 768
+    title: 各大仙宗驾临
+    node: NODE-0101
+  cultivation:
+    current: 太乙仙境
+    status: verified
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 768
+  document: null
+  verification_status: verified
+- id: CHAR-0205
+  name: 朱圆圆
+  status: alive
+  role: supporting
+  affiliations:
+  - 四兽仙宗
+  - 朱雀族
+  identities:
+  - 四兽仙宗掌门
+  - 朱雀族长
+  first_appearance:
+    chapter: 769
+    title: 百万年人族大计
+    node: NODE-0101
+  cultivation:
+    current: 太乙仙境
+    status: verified
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 769
+  document: null
+  verification_status: verified
+- id: CHAR-0206
+  name: 绝云神
+  status: alive
+  role: supporting
+  affiliations:
+  - 太初仙宗
+  identities:
+  - 太初仙宗圣子
+  - 道空仙体
+  first_appearance:
+    chapter: 769
+    title: 百万年人族大计
+    node: NODE-0101
+  cultivation:
+    current: 金仙巅峰
+    status: verified
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 769
+  document: null
+  verification_status: verified
+- id: CHAR-0207
+  name: 万萱
+  status: alive
+  role: supporting
+  affiliations:
+  - 天玄仙宗
+  identities:
+  - 天玄仙宗大长老
+  - 周紫薇师尊
+  first_appearance:
+    chapter: 769
+    title: 百万年人族大计
+    node: NODE-0101
+  cultivation:
+    current: 太乙仙境
+    status: verified
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 769
+  document: null
+  verification_status: verified
+- id: CHAR-0208
+  name: 血无涯
+  status: alive
+  role: antagonist
+  affiliations:
+  - 噬魂血宗
+  identities:
+  - 噬魂血宗圣子
+  - 气运之子
+  - 血灵仙体
+  first_appearance:
+    chapter: 770
+    title: 太初仙域第一圣子
+    node: NODE-0101
+  cultivation:
+    current: 金仙巅峰
+    status: verified
+  related_nodes:
+  - NODE-0101
+  source_chapters:
+  - 770
   document: null
   verification_status: verified
