@@ -1,42 +1,38 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0113
+run_id: RUN-0114
 coverage:
-  chapters_covered_through: 736
-  chapters_promoted_in_run: [729, 730, 731, 732, 733, 734, 735, 736]
-  timeline_nodes: 97
+  chapters_covered_through: 745
+  chapters_promoted_in_run: [737, 738, 739, 740, 741, 742, 743, 744, 745]
+  timeline_nodes: 98
   draft_nodes: 0
-  story_arc_nodes: 94
-  characters_documented: 194
+  story_arc_nodes: 95
+  characters_documented: 198
   characters_staged: 0
   system_records: 1
-  gift_events: 197
-  artifact_records: 113
+  gift_events: 201
+  artifact_records: 117
   artifacts_staged: 0
 entity_documents:
-  character_records: 194
-  artifact_records: 113
-  expected_generated_documents: 307
+  character_records: 198
+  artifact_records: 117
+  expected_generated_documents: 315
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
   presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
-  growth_line:
-    mode: stage_summary_plus_append_only_run_history
-    stage_window_chapters: 50
-    continuity_effective_run: RUN-0082
-    temporal_accuracy: no_backfill_from_merged_current_snapshot
+  growth_line: {mode: stage_summary_plus_append_only_run_history, stage_window_chapters: 50, continuity_effective_run: RUN-0082, temporal_accuracy: no_backfill_from_merged_current_snapshot}
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [729, 730, 731, 732, 733, 734, 735, 736], transient_artifact_run: 30356958388, source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第736章完成选拔与天魁峰入驻；第737章发生三年时间跳跃并转入天翎再次问责}
-  materiality: {status: passed, entity_updates: [NODE-0097, 韵幽天穹赤裳孔玄熊大魔无花雪小星新人物, 徐霄诸葛青天独孤惊云天翎玄灵玄雪金虚青曼雀鸢北鳞成长更新, GIFT-0194至GIFT-0197, ART-0110至ART-0113, ART-0092 ART-0098 ART-0102 ART-0105更新]}
+  source_traceability: {status: passed, archive_chapters: [737, 738, 739, 740, 741, 742, 743, 744, 745], transient_artifact_run: 30356958388, source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第745章完成徐霄通关锁妖塔十八层并获得龙魂仙牌；第746章转入诸葛青天燃烧寿元后的新阶段}
+  materiality: {status: passed, entity_updates: [NODE-0098, 公孙飞龙阴萱龙泽龙九天新人物, 徐霄凤青玄天翎熊大玄灵玄雪诸葛青天独孤惊云刘爱花成长更新, GIFT-0198至GIFT-0201, ART-0114至ART-0117及既有丹药更新]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 194, artifacts: 113}
+  entity_document_freshness: {status: passed, characters: 198, artifacts: 117}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 7}
+  character_growth_continuity: {status: passed, material_character_updates: 9, timed_growth_events: 9, new_characters_with_first_appearance: 4}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
 blockers: []
