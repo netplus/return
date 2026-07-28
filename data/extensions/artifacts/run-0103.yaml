@@ -1,0 +1,41 @@
+schema_version: 1
+run_id: RUN-0103
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_records_add:
+    - {gift_id: GIFT-0160, chapter: 662, quantity: 1, status: verified}
+    - {gift_id: GIFT-0165, chapter: 662, quantity: 1, status: partial}
+    quantity_change_note_add: [第662章新增两颗返还]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [662]
+- id: ART-0046
+  name: 仙元丹
+  update:
+    transfer_event_add: [GIFT-0160, GIFT-0161, GIFT-0162, GIFT-0166]
+    transferred_in_chapter_add: [662]
+    quantity_change_note_add: [向瑶光丁静阴萱及参与保人的地仙巅峰长老发放]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    acquisition_records_add:
+    - {gift_id: GIFT-0160, chapter: 662, quantity: 45, status: verified}
+    - {gift_id: GIFT-0161, chapter: 662, quantity: 10, status: verified}
+    - {gift_id: GIFT-0162, chapter: 662, quantity: 30, status: verified}
+    transfer_event_add: [GIFT-0163, GIFT-0164, GIFT-0165, GIFT-0166]
+    transferred_in_chapter_add: [662]
+    quantity_change_note_add: [第662章系统返还八十五颗；同时向青鸾东方青邬秋及参与保人的天仙长老发放]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+- id: ART-0092
+  name: 玄元仙丹
+  update:
+    acquisition_records_add:
+    - {gift_id: GIFT-0163, chapter: 662, quantity: 100, status: verified}
+    - {gift_id: GIFT-0165, chapter: 662, quantity: 90, status: partial}
+    quantity_change_note_add: [第662章新增一百九十颗返还]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [662]
