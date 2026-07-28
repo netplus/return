@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 165
+    count: 169
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -117,7 +117,7 @@ groups:
     - id: CHAR-0054
       path: docs/02-characters/玉冰-CHAR-0054.md
     - id: CHAR-0055
-      path: docs/02-characters/白玉龙.md
+      path: docs/02-characters/凤青玄-CHAR-0055.md
     - id: CHAR-0056
       path: docs/02-characters/凤青玄-CHAR-0056.md
     - id: CHAR-0057
@@ -338,6 +338,14 @@ groups:
       path: docs/02-characters/玄蛇.md
     - id: CHAR-0165
       path: docs/02-characters/黑无忌-CHAR-0165.md
+    - id: CHAR-0166
+      path: docs/02-characters/金虚.md
+    - id: CHAR-0167
+      path: docs/02-characters/铁煞天.md
+    - id: CHAR-0168
+      path: docs/02-characters/北鳞.md
+    - id: CHAR-0169
+      path: docs/02-characters/赤澜儿.md
   artifacts:
     count: 97
     index: data/generated/artifacts.yaml
@@ -540,7 +548,7 @@ groups:
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 165
-  growth_events: 685
+  characters_with_growth_line: 169
+  growth_events: 697
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

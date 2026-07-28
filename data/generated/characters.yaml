@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 78
+  extension_files: 79
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -159,6 +159,7 @@ characters:
   - NODE-0087
   - NODE-0088
   - NODE-0089
+  - NODE-0090
   source_chapters:
   - 1
   - 2
@@ -796,6 +797,10 @@ characters:
   - 674
   - 675
   - 676
+  - 677
+  - 678
+  - 679
+  - 680
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -988,6 +993,7 @@ characters:
   - 以五行仙丹推动太上长老正式保下邬秋
   - 获任执法堂预备执法长老并转正内门长老
   - 成为阴阳仙门至尊天仙级战略核心
+  - 建立盘龙岛跨界避难与资源供应体系
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -1379,6 +1385,18 @@ characters:
     - 邬秋追责暂时终止
     - 获得大道玄冰剑
     status: partial
+  - chapter_range:
+      start: 679
+      end: 680
+    event: 灵藏沦陷后转移核心关系人物至盘龙岛
+    core_ability:
+    - 九霄山河图批量收纳
+    - 九霄天梯下界
+    - 传送仙台跨界供给
+    impact:
+    - 建立长期安全后方
+    - 核心关系网络脱离妖族直接控制
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1452,6 +1470,7 @@ characters:
   - NODE-0068
   - NODE-0074
   - NODE-0079
+  - NODE-0090
   source_chapters:
   - 1
   - 2
@@ -1474,6 +1493,7 @@ characters:
   - 607
   - 608
   - 609
+  - 679
   verification_status: verified
   status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
@@ -1549,8 +1569,14 @@ characters:
     - 真实身份被系统识别但继续保密
     - 形成双重身份资源关系
     status: verified
+  - chapter: 679
+    event: 以刘爱花身份接受仙元丹并维持资源关系
+    impact:
+    - 继续隐藏雪瑶仙帝身份并加速恢复
+    status: partial
   accepted_gifts:
   - GIFT-0142
+  - GIFT-0174
   identity_change:
   - 刘爱花伪装被系统确认但未被徐霄公开揭穿
   resource_change:
@@ -4016,7 +4042,7 @@ characters:
     - 继续承担无妄仙宗与盘龙岛关系枢纽
     status: partial
 - id: CHAR-0055
-  name: 白玉龙
+  name: 凤青玄
   status: dead
   role: antagonist
   affiliations:
@@ -4045,12 +4071,25 @@ characters:
     status: partial
   related_nodes:
   - NODE-0038
+  - NODE-0090
   source_chapters:
   - 283
   - 284
   - 287
+  - 679
   document: null
   verification_status: partial
+  cultivation_change: 地仙二重
+  accepted_gifts:
+  - GIFT-0173
+  relationship_change:
+  - 与徐霄情侣关系进一步确认
+  growth_event:
+  - chapter: 679
+    event: 达到地仙二重并接受仙元丹
+    impact:
+    - 天凤血脉与长期资源支持继续加速修炼
+    status: partial
 - id: CHAR-0056
   name: 凤青玄
   status: dead
@@ -8927,6 +8966,7 @@ characters:
   - NODE-0085
   - NODE-0087
   - NODE-0089
+  - NODE-0090
   source_chapters:
   - 639
   - 640
@@ -8941,6 +8981,7 @@ characters:
   - 669
   - 670
   - 676
+  - 677
   document: null
   verification_status: partial
   system_behavior:
@@ -8970,11 +9011,21 @@ characters:
     - 前世力量线进入下一阶段
     - 与徐霄矛盾持续升级
     status: partial
+  - chapter: 677
+    event: 再次燃烧寿元恢复天仙巅峰
+    impact:
+    - 战力恢复但寿元大幅下降至四十万年
+    status: partial
   condition_change:
   - 未参与保人承诺并在返程资源分配中被排除后再次气昏
   - 恢复伤势并觉醒前世力量
   conflict_change:
   - 因丁静与徐霄关系公开再次形成强烈敌意
+  cultivation_change: 天仙巅峰
+  lifespan_change: 四十万年
+  ability_change:
+  - 以寿元换取三柄至尊仙器
+  - 当前共持有六件至尊仙器
 - id: CHAR-0150
   name: 邬秋
   status: alive
@@ -9617,4 +9668,86 @@ characters:
   - 674
   - 675
   document: null
+  verification_status: partial
+- id: CHAR-0166
+  name: 金虚
+  status: alive
+  role: supporting
+  affiliations:
+  - 天水城
+  - 妖族附庸
+  identities:
+  - 天水城天地玄仙
+  - 灵藏跨域传送话事人
+  first_appearance:
+    chapter: 678
+    title: 灵藏沦陷
+    node: NODE-0090
+  cultivation:
+    current: 天地玄仙
+    status: partial
+  related_nodes:
+  - NODE-0090
+  source_chapters:
+  - 678
+  verification_status: partial
+- id: CHAR-0167
+  name: 铁煞天
+  status: alive
+  role: antagonist
+  affiliations:
+  - 大仙域妖族
+  identities:
+  - 占领灵藏仙域的妖族使者
+  first_appearance:
+    chapter: 678
+    title: 灵藏沦陷
+    node: NODE-0090
+  cultivation:
+    current: 天地玄仙
+    status: partial
+  related_nodes:
+  - NODE-0090
+  source_chapters:
+  - 678
+  verification_status: partial
+- id: CHAR-0168
+  name: 北鳞
+  status: alive
+  role: antagonist
+  affiliations:
+  - 大仙域妖族
+  identities:
+  - 占领灵藏仙域的妖族使者
+  first_appearance:
+    chapter: 678
+    title: 灵藏沦陷
+    node: NODE-0090
+  cultivation:
+    current: 天地玄仙
+    status: partial
+  related_nodes:
+  - NODE-0090
+  source_chapters:
+  - 678
+  verification_status: partial
+- id: CHAR-0169
+  name: 赤澜儿
+  status: alive
+  role: antagonist
+  affiliations:
+  - 大仙域妖族
+  identities:
+  - 占领灵藏仙域的妖族使者
+  first_appearance:
+    chapter: 678
+    title: 灵藏沦陷
+    node: NODE-0090
+  cultivation:
+    current: 天地玄仙
+    status: partial
+  related_nodes:
+  - NODE-0090
+  source_chapters:
+  - 678
   verification_status: partial

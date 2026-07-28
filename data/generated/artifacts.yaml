@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 72
+  extension_files: 73
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1881,9 +1881,15 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0068
+  - NODE-0090
   source_chapters:
   - 517
   - 520
+  - 680
+  usage:
+  - chapter: 680
+    event: 将九霄山河图内人员送往天元大陆盘龙岛
+    status: partial
 - id: ART-0072
   name: 仙灵冰魄剑
   category: 仙器神剑
@@ -2067,8 +2073,15 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0077
+  - NODE-0090
   source_chapters:
   - 597
+  - 680
+  deployment:
+  - chapter: 680
+    location: 天元大陆盘龙岛缥缈宗
+    purpose: 为下界避难人物定期输送仙界资源
+    status: partial
 - id: ART-0083
   name: 九霄山河图
   category: 空间仙器
@@ -2083,11 +2096,13 @@ artifacts:
   - NODE-0078
   - NODE-0081
   - NODE-0089
+  - NODE-0090
   source_chapters:
   - 599
   - 617
   - 674
   - 675
+  - 680
   combat_record:
   - chapter: 617
     event: 一击收纳由血灵宗三名人仙长老融合形成的人仙巅峰血光巨人
@@ -2096,6 +2111,10 @@ artifacts:
   - 第674至675章收纳黑无忌等战败者神魂，并在三宗退走前归还
   ability:
   - 五色仙光可跨越人仙层级差距瞬间收纳人仙巅峰目标
+  usage:
+  - chapter: 680
+    event: 收纳十一名核心关系人物并配合九霄天梯完成下界转移
+    status: partial
 - id: ART-0084
   name: 地仙巅峰魂丹
   category: 丹药
@@ -2122,6 +2141,10 @@ artifacts:
     gift_id: GIFT-0149
     quantity: 45
     status: verified
+  - chapter: 679
+    quantity: 200
+    source: GIFT-0173与GIFT-0174返还
+    status: partial
   quantity: pending_total
   effects:
   - 用于天仙境五行体系修炼
@@ -2136,6 +2159,7 @@ artifacts:
   - NODE-0084
   - NODE-0086
   - NODE-0087
+  - NODE-0090
   source_chapters:
   - 572
   - 612
@@ -2147,6 +2171,7 @@ artifacts:
   - 660
   - 661
   - 662
+  - 679
   transfer_records:
   - gift_id: GIFT-0150
     chapter: 635
