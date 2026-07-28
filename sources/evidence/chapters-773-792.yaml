@@ -1,0 +1,167 @@
+schema_version: 1
+run_id: RUN-0118
+work: 万倍返还，年迈的我去当舔狗
+coverage:
+  start: 773
+  end: 792
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0751-0800.yaml
+  transient_artifacts:
+  - source-chapters-729-778
+  - source-chapters-779-828
+chapters:
+- chapter: 773
+  title: 拍卖会开始
+  sha256: 104d463c0ea8489309e713e8a20237be2e0ce179a155ba466fde2ddc4e5a6d0f
+  source_line_range: {start: 84183, end: 84293}
+  source_char_range: {start: 1758814, end: 1761521}
+  facts: [赤裳获得五十颗金仙道丹补充聘礼并触发五百颗太乙聚仙丹返还, 轩辕拍卖会开始，大道槐树根被徐霄拍得]
+  status: verified
+- chapter: 774
+  title: 开始竞拍
+  sha256: 2a2aa6e6133573c8820d9491966226cde6ef7e591d3d0bb21531ca19bf41c9e0
+  source_line_range: {start: 84296, end: 84381}
+  source_char_range: {start: 1761521, end: 1763690}
+  facts: [徐霄拍得大道槐树根并向轩辕婉君赠送一万极品灵精, 系统返还一千万极品灵精，徐霄继续竞拍化体神丹]
+  status: verified
+- chapter: 775
+  title: 让人惊叹的拍卖会
+  sha256: 0d14ccc040b942ed1bb2d444dae85ce408a342a54b3a5fac9a10421058f19015
+  source_line_range: {start: 84384, end: 84475}
+  source_char_range: {start: 1763690, end: 1765859}
+  facts: [徐霄拍得化体神丹并与血无涯竞争仙灵聚气玉]
+  status: verified
+- chapter: 776
+  title: 气炸的血无涯
+  sha256: adf01080206a5c410bce67f57084fb1500ff1cbcf4ed9718b3da67796a4456f3
+  source_line_range: {start: 84478, end: 84595}
+  source_char_range: {start: 1765859, end: 1768484}
+  facts: [仙灵聚气玉竞价升至五十万极品灵精，血无涯退出]
+  status: verified
+- chapter: 777
+  title: 惊懵全场
+  sha256: 3bfad7ddbec8aba7b68e63f77352aab5cc56f0d2aac80a34e96ae26e81783aaa
+  source_line_range: {start: 84598, end: 84694}
+  source_char_range: {start: 1768484, end: 1770620}
+  facts: [徐霄将仙灵聚气玉赠送轩辕婉君, 系统返还顶级道器通神仙玉]
+  status: verified
+- chapter: 778
+  title: 愤怒的万萱
+  sha256: 4244a12686fc9f075256a063cdcd543128b8264e680108a04dd5a3765824027f
+  source_line_range: {start: 84697, end: 84787}
+  source_char_range: {start: 1770620, end: 1772742}
+  facts: [周紫薇接受一万极品灵精并返还五十万极品灵精, 万萱将周紫薇带回并公开问责]
+  status: verified
+- chapter: 779
+  title: 道器，轩辕五行环
+  sha256: 3df61060449f92806dc8e5ab10803dfa7e675c08bbcf3c4c8e22aaca772dc294
+  source_line_range: {start: 84790, end: 84917}
+  source_char_range: {start: 1772742, end: 1775536}
+  facts: [徐霄拍得混元破空盘, 轩辕五行环竞拍引发魔无花与魔无天冲突]
+  status: verified
+- chapter: 780
+  title: 震怒的魔无天
+  sha256: 9a228bbab910149427c992f283265eb81e7c404dbb2869805a6d81c645b1c5d0
+  source_line_range: {start: 84920, end: 85004}
+  source_char_range: {start: 1775536, end: 1777527}
+  facts: [徐霄以一百四十万极品灵精拍得轩辕五行环]
+  status: verified
+- chapter: 781
+  title: 天地大阵，全场气炸
+  sha256: 29fa9d0bc9440a0cc27fffbf119a97ee4e3a2dc189d168e217903ca24867ff5c
+  source_line_range: {start: 85007, end: 85109}
+  source_char_range: {start: 1777527, end: 1779769}
+  facts: [徐霄将轩辕五行环赠送魔无花并返还五行九天神威金轮, 徐霄拍得太乙仙六重乾元护天阵盘]
+  status: verified
+- chapter: 782
+  title: 订婚礼开始
+  sha256: ed4c65214ae20678fa74238a515fc83ad4920783305952202a743f218c74e06d
+  source_line_range: {start: 85112, end: 85201}
+  source_char_range: {start: 1779769, end: 1781954}
+  facts: [徐霄向魔无花赠送太乙聚仙丹与金仙道丹并建立复仇合作, 徐霄服用鸿蒙一气丹后鸿蒙真气增至七十四股]
+  status: verified
+- chapter: 783
+  title: 送礼，九幽血菩提
+  sha256: b77a97728053a3344ac7025fb4867b4c208507ff82534dcd545827f291f49bde
+  source_line_range: {start: 85204, end: 85286}
+  source_char_range: {start: 1781954, end: 1784128}
+  facts: [噬魂血宗以九幽血菩提作为轩辕婉君订婚核心资源]
+  status: verified
+- chapter: 784
+  title: 徐霄私人送礼开始
+  sha256: 374409bde3fd1fa90b6217ff1405317ece2b9960a6a97b1ba6621fc526ce4fd9
+  source_line_range: {start: 85289, end: 85374}
+  source_char_range: {start: 1784128, end: 1786209}
+  facts: [徐霄开始向轩辕婉君赠送十颗太乙聚仙丹与五十颗金仙道丹]
+  status: verified
+- chapter: 785
+  title: 八颗金仙巅峰大道神丹
+  sha256: 5360306bdebd0380f8b99692dbe955dd3c360a8bcbbd1e23e3de4d276ebdff97
+  source_line_range: {start: 85377, end: 85477}
+  source_char_range: {start: 1786209, end: 1788511}
+  facts: [徐霄追加八颗含完美弑神大道的高阶丹药，为轩辕婉君提供道伤替代方案]
+  status: verified
+- chapter: 786
+  title: 这踏马是纯爱？
+  sha256: ab850593010e9b2e82d6364f81891d80d68d23a2eae2ce99f052b9a44d0a52b9
+  source_line_range: {start: 85480, end: 85550}
+  source_char_range: {start: 1788511, end: 1790767}
+  facts: [轩辕婉君拒绝继续与血无涯订婚并接受徐霄赠礼, 血无涯准备动手]
+  status: verified
+- chapter: 787
+  title: 事态白热化
+  sha256: 2cdf8cc0e23145705278c218ca6fb7a4f7c5b6c0e0c1115c5a84c37a973ff5c0
+  source_line_range: {start: 85553, end: 85632}
+  source_char_range: {start: 1790767, end: 1793058}
+  facts: [血宗与徐霄对峙，徐霄使用龙魂仙牌与五行九天神威金轮, 凤溪介入]
+  status: verified
+- chapter: 788
+  title: 凤溪大长老神威
+  sha256: c9d5dcdc5fa10f4562bd9f8593f2d49366e91b1144c11bbd74ead05bbd503dce
+  source_line_range: {start: 85635, end: 85716}
+  source_char_range: {start: 1793058, end: 1795255}
+  facts: [凤溪展现太乙仙六重并击退血宗, 徐霄以规则道器重创血无涯]
+  status: verified
+- chapter: 789
+  title: 轩辕家同意
+  sha256: b1a46e241e348eca9129e5b1875374ca2ae5758c9b0d101a42adf01272f4da85
+  source_line_range: {start: 85719, end: 85804}
+  source_char_range: {start: 1795255, end: 1797375}
+  facts: [轩辕家同意改与徐霄联姻, 轩辕婉君接受订婚]
+  status: verified
+- chapter: 790
+  title: 预定道侣
+  sha256: ff146747abcf74ed4157c93021b8b81112b9a15f6fb1abf9c48406fce3eef0d5
+  source_line_range: {start: 85807, end: 85895}
+  source_char_range: {start: 1797375, end: 1799495}
+  facts: [徐霄与轩辕婉君完成订婚, 三组赠礼返还一千五百颗太乙聚仙丹与八十颗太乙巅峰大道神丹]
+  status: verified
+- chapter: 791
+  title: 千万不用客气
+  sha256: fd7bb7d17128267e54092533790197a0cc8f39274c31df75b9608400db6f800b
+  source_line_range: {start: 85898, end: 85967}
+  source_char_range: {start: 1799495, end: 1801726}
+  facts: [轩辕家将噬魂血宗贺礼退回, 轩辕联姻与万妖仙宗联盟消息传开]
+  status: verified
+- chapter: 792
+  title: 略微出手摆平
+  sha256: 1ed4124cd624b40f3b1d6b436aad7c9b30c7ec501211d1633d55af7922252ee0
+  source_line_range: {start: 85970, end: 86050}
+  source_char_range: {start: 1801726, end: 1803940}
+  facts: [徐霄兑现凤溪资源，返还一千五百颗太乙聚仙丹与天道神威御火剑, 龙九天接受资源并转为协调太上长老保护徐霄]
+  status: verified
+boundary_probe:
+  chapter: 793
+  title: 姬雪动向
+  reason: 转入姬雪恢复前世记忆并外出取回衣钵的新阶段
+pending:
+- 轩辕婉君道伤最终修复结果
+- 八颗赠礼丹药在魂丹与大道神丹之间的正文称谓冲突
+- 龙九天赠礼的精确系统返还
+copyright_boundary:
+  full_chapter_text_stored: false
+  stored_content: original_summary_structured_facts_titles_offsets_and_hashes
