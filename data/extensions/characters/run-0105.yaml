@@ -1,0 +1,175 @@
+schema_version: 1
+run_id: RUN-0105
+characters:
+- id: CHAR-0161
+  name: 道一
+  status: alive
+  role: supporting
+  affiliations: [天一仙门]
+  identities: [天一仙门太上长老]
+  first_appearance: {chapter: 670, title: 天一上门, node: NODE-0089}
+  cultivation: {current: 至尊天仙, exact_level: pending, status: partial}
+  related_nodes: [NODE-0089]
+  source_chapters: [670, 671, 672, 673, 674, 675]
+  document: null
+  verification_status: partial
+- id: CHAR-0162
+  name: 玄清
+  status: alive
+  role: supporting
+  affiliations: [天一仙门]
+  identities: [天一仙门太上长老]
+  first_appearance: {chapter: 670, title: 天一上门, node: NODE-0089}
+  cultivation: {current: 至尊天仙, exact_level: pending, status: partial}
+  related_nodes: [NODE-0089]
+  source_chapters: [670, 672, 673, 674, 675]
+  document: null
+  verification_status: partial
+- id: CHAR-0163
+  name: 赤眉
+  status: alive
+  role: supporting
+  affiliations: [金光佛门]
+  identities: [金光佛门太上长老]
+  first_appearance: {chapter: 670, title: 天一上门, node: NODE-0089}
+  cultivation: {current: 至尊天仙, exact_level: pending, status: partial}
+  related_nodes: [NODE-0089]
+  source_chapters: [670, 672, 673, 674, 675]
+  document: null
+  verification_status: partial
+- id: CHAR-0164
+  name: 玄蛇
+  status: alive
+  role: supporting
+  affiliations: [九阴玄门]
+  identities: [九阴玄门太上长老]
+  first_appearance: {chapter: 670, title: 天一上门, node: NODE-0089}
+  cultivation: {current: 至尊天仙, exact_level: pending, status: partial}
+  related_nodes: [NODE-0089]
+  source_chapters: [670, 672, 673, 674, 675]
+  document: null
+  verification_status: partial
+- id: CHAR-0165
+  name: 黑无忌
+  status: alive
+  role: supporting
+  affiliations: [九阴玄门]
+  identities: [九阴玄门大长老]
+  first_appearance: {chapter: 670, title: 天一上门, node: NODE-0089}
+  cultivation: {current: 天仙六重, status: partial}
+  condition: {法身: 第674章被徐霄摧毁, 神魂: 被九霄山河图收纳后归还, status: partial}
+  related_nodes: [NODE-0089]
+  source_chapters: [670, 672, 673, 674, 675]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 地仙三重
+    age_change: 1050
+    lifespan_change: 2010259年
+    ability_change_add: [鸿蒙真气增至五十五股, 修成万佛金身, 公开以五柄至尊仙剑和多重大道压制八名天仙高手]
+    role_change_add: [获任执法堂预备执法长老并转正内门长老, 成为阴阳仙门至尊天仙级战略核心]
+    relationship_change_add: [与丁静正式确立关系]
+    obtained_artifacts_add: [ART-0097]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [667, 668, 669, 670, 671, 672, 673, 674, 675, 676]
+    growth_event_add:
+    - chapter_range: {start: 667, end: 676}
+      event: 晋升地仙三重并以仙帝传承威慑击退三宗
+      core_ability: [万佛金身, 鸿蒙真气五十五股, 五柄至尊仙剑, 剑力遁等完美大道, 九霄山河图]
+      impact: [宗门地位提升为至尊天仙级核心, 邬秋追责暂时终止, 获得大道玄冰剑]
+      status: partial
+- id: CHAR-0140
+  name: 丁静
+  update:
+    accepted_gifts_add: [GIFT-0172]
+    relationship_change_add: [接受徐霄追求并正式确立关系]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [668, 669, 670]
+    growth_event_add:
+    - chapter_range: {start: 668, end: 670}
+      event: 接受九阴绝寒剑并与徐霄确立关系
+      core_ability: [地仙巅峰, 获至尊仙器九阴绝寒剑]
+      impact: [进入徐霄长期资源支持网络, 执法堂及全宗舆论爆炸]
+      status: partial
+- id: CHAR-0149
+  name: 诸葛青天
+  update:
+    condition_change_add: [恢复伤势并觉醒前世力量]
+    conflict_change_add: [因丁静与徐霄关系公开再次形成强烈敌意]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [667, 668, 669, 670, 676]
+    growth_event_add:
+    - chapter_range: {start: 667, end: 670}
+      event: 满血恢复后因丁静关系变化重新卷入宗门冲突
+      impact: [前世力量线进入下一阶段, 与徐霄矛盾持续升级]
+      status: partial
+- id: CHAR-0150
+  name: 邬秋
+  update:
+    role_change_add: [阴阳仙门内门长老身份在三宗上门冲突中得到公开维护]
+    relationship_change_add: [在外部追杀压力下继续依赖徐霄保护]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [670, 671, 672, 675]
+    growth_event_add:
+    - chapter_range: {start: 670, end: 675}
+      event: 在三宗联合追责中被徐霄和阴阳仙门公开保下
+      impact: [即时跨宗追杀暂时终止, 内门长老身份进一步稳固]
+      status: partial
+- id: CHAR-0156
+  name: 独孤惊云
+  update:
+    conflict_change_add: [参与八人围攻徐霄并遭全面压制]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [670, 672, 673, 674, 675]
+    growth_event_add:
+    - chapter_range: {start: 672, end: 675}
+      event: 联合三宗高手挑战徐霄失败
+      impact: [对徐霄战力判断由天仙级对手升级为仙帝传承威胁]
+      status: partial
+- id: CHAR-0153
+  name: 崔云
+  update:
+    condition_change_add: [与三宗高手围攻徐霄时法身被毁，神魂获归还]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [670, 672, 673, 674, 675]
+    growth_event_add:
+    - chapter_range: {start: 673, end: 675}
+      event: 围攻徐霄失败并失去法身
+      impact: [修为预计倒退, 五灵仙门对徐霄转入高风险威胁判断]
+      status: partial
+- id: CHAR-0147
+  name: 尘玉
+  update:
+    role_change_add: [确认徐霄具备上古仙帝传承和至尊天仙级战略价值]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [672, 673, 674, 675, 676]
+    growth_event_add:
+    - chapter_range: {start: 672, end: 676}
+      event: 见证徐霄击退三宗并重构其宗门地位
+      impact: [由约束风险转为推动其进入灵华山高层培养体系]
+      status: partial
+- id: CHAR-0130
+  name: 万青
+  update:
+    role_change_add: [认可徐霄仙帝传承与至尊天仙级战力]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [672, 673, 674, 675, 676]
+    growth_event_add:
+    - chapter_range: {start: 672, end: 676}
+      event: 见证徐霄一敌八获胜并全面认可其长期价值
+      impact: [对徐霄与罗素关系的支持进一步强化]
+      status: partial
+- id: CHAR-0131
+  name: 罗方
+  update:
+    role_change_add: [认可徐霄仙帝传承与至尊天仙级战力]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [672, 673, 674, 675, 676]
+    growth_event_add:
+    - chapter_range: {start: 672, end: 676}
+      event: 见证徐霄一敌八获胜并全面认可其长期价值
+      impact: [徐霄在罗素家族体系中的地位进一步巩固]
+      status: partial
