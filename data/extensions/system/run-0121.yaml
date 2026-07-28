@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0121
+gift_events:
+- {id: GIFT-0235, chapter: 823, node: NODE-0105, giver: 徐霄, recipient: 尘玉, gift: 十颗超级玄元仙丹、一颗玄仙巅峰大道神丹及一件至尊仙器, accepted: true, system_valid: true, reward: 一百颗金仙道丹、十颗金仙巅峰大道神丹及一件道器, triggered_multiplier: partial, relationship_result: 尘玉获得执事资源并与徐霄确立关系, status: partial}
+- {id: GIFT-0236, chapter: 826, node: NODE-0105, giver: 徐霄, recipient: 尘玉, gift: 金仙巅峰火符, accepted: true, system_valid: true, reward: 大罗九重混元神火符, triggered_multiplier: 10000, relationship_result: 首次羁绊提升暴击, status: verified}
+- {id: GIFT-0237, chapter: 827, node: NODE-0105, giver: 徐霄, recipient: 蝎晴, gift: 十颗金仙道丹, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹及四十五颗太乙聚仙丹, triggered_multiplier: partial, relationship_result: 蝎晴接受徐霄长期资源支持, status: verified}
+- {id: GIFT-0238, chapter: 827, node: NODE-0105, giver: 徐霄, recipient: 蝎晴, gift: 道器大道玄冰剑, accepted: true, system_valid: true, reward: 规则道器天道神威黑冰剑, triggered_multiplier: partial, relationship_result: 蝎晴与徐霄确立关系, status: verified}
+- {id: GIFT-0239, chapter: 829, node: NODE-0105, giver: 徐霄, recipient: 魔无花, gift: 十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 十颗大罗鸿蒙丹, triggered_multiplier: partial, relationship_result: 魔无花获得长期资源与回归魔罗圣门承诺, status: verified}
+- {id: GIFT-0240, chapter: 824, node: NODE-0105, giver: 徐霄, recipient: 龙贞等六名万妖仙宗高层, gift: 六十颗太乙聚仙丹处置孔玄预付款, accepted: true, system_valid: true, reward: 三十颗大罗鸿蒙丹, triggered_multiplier: partial, relationship_result: 六名高层接受处置孔玄任务并于第830章完成, status: partial}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0235, GIFT-0236, GIFT-0237, GIFT-0238, GIFT-0239, GIFT-0240]
+    rule_add:
+    - {chapter: 827, rule: 蝎晴被识别为SS级气运之女、50倍返还、羁绊度一, status: verified}
+    - {chapter: 830, rule: 孔玄任务完成后法器返还库上限提升至神器, status: verified}
+    reward_resolution_add:
+    - {chapter: 826, result: 尘玉首次羁绊暴击将金仙巅峰火符返还为大罗九重混元神火符, status: verified}
+    - {chapter: 827, result: 蝎晴复合赠礼返还鸿蒙一气丹、太乙聚仙丹及天道神威黑冰剑, status: verified}
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [822, 823, 824, 825, 826, 827, 828, 829, 830]

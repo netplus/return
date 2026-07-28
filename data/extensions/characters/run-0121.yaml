@@ -1,0 +1,149 @@
+schema_version: 1
+run_id: RUN-0121
+characters:
+- id: CHAR-0215
+  name: 蝎晴
+  status: alive
+  role: supporting
+  affiliations: [万妖仙宗, 天毒蝎族]
+  identities: [天毒蝎族老祖, 万妖仙宗金仙长老, 徐霄助手, SS级气运之女]
+  first_appearance: {chapter: 825, title: 凤青玄出关, node: NODE-0105}
+  cultivation: {current: 金仙六重, status: verified}
+  system_profile: {luck_grade: SS, return_multiplier: 50, bond: 2, status: verified}
+  relationship_context: {徐霄: 接受金仙道丹与大道玄冰剑后确立关系}
+  accepted_gifts: [GIFT-0237, GIFT-0238]
+  related_nodes: [NODE-0105]
+  source_chapters: [825, 826, 827, 828]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 金仙二重
+    ability_change_add: [鸿蒙真气增至八十一股, 法器返还库上限提升至神器, 获得混元神火符与天道神威黑冰剑]
+    relationship_change_add: [与尘玉确立关系, 与蝎晴确立关系, 向魔无花承诺资源支持及重返魔罗圣门]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [822, 823, 824, 825, 826, 827, 828, 829, 830]
+    growth_event_add:
+    - chapter_range: {start: 822, end: 830}
+      event: 返回万妖仙宗、安置灵藏仙域亲信并完成孔玄任务
+      core_ability: [金仙二重, 鸿蒙真气八十一股, 神器级法器返还库]
+      impact: [重建天魁峰行动网络, 获得两件高阶返还物, 与尘玉和蝎晴确立关系]
+      status: verified
+- id: CHAR-0147
+  name: 尘玉
+  update:
+    identity_change_add: [万妖仙宗执事, 天魁峰府邸成员]
+    accepted_gifts_add: [GIFT-0235, GIFT-0236]
+    relationship_change_add: [与徐霄确立关系并获得长期资源保障]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [822, 823, 824, 825, 826]
+    growth_event_add:
+    - chapter_range: {start: 822, end: 826}
+      event: 进入万妖仙宗并接受复合资源
+      impact: [取得执事身份, 迁入天魁峰, 与徐霄确立长期关系]
+      status: verified
+- id: CHAR-0121
+  name: 东方青
+  update:
+    identity_change_add: [万妖仙宗执事, 天魁峰府邸管理人员]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [822, 823, 824, 825, 826]
+    growth_event_add:
+    - chapter_range: {start: 822, end: 826}
+      event: 随徐霄进入万妖仙宗并负责天魁峰府邸事务
+      impact: 从灵藏仙域宗门长老转为大仙宗执事与徐霄亲信
+      status: verified
+- id: CHAR-0107
+  name: 邹蒙
+  update:
+    identity_change_add: [万妖仙宗执事, 天魁峰府邸管理人员]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [822, 823, 824, 825, 826]
+    growth_event_add:
+    - chapter_range: {start: 822, end: 826}
+      event: 随徐霄进入万妖仙宗并取得执事身份
+      impact: 获得大仙域长期修炼与资源入口
+      status: verified
+- id: CHAR-0118
+  name: 莫问书
+  update:
+    identity_change_add: [万妖仙宗执事, 天魁峰府邸管理人员]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [822, 823, 824, 825, 826]
+    growth_event_add:
+    - chapter_range: {start: 822, end: 826}
+      event: 随徐霄进入万妖仙宗并取得执事身份
+      impact: 获得大仙域长期修炼与资源入口
+      status: verified
+- id: CHAR-0193
+  name: 魔无花
+  update:
+    accepted_gifts_add: [GIFT-0239]
+    relationship_change_add: [与徐霄关系公开化并获得重返魔罗圣门承诺]
+    cultivation_change: 太乙仙
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [826, 829, 830]
+    growth_event_add:
+    - chapter_range: {start: 829, end: 830}
+      event: 接受太乙聚仙丹并获得徐霄协助回归魔罗圣门的承诺
+      impact: 与徐霄关系公开化，复仇与宗门回归路线获得外部支持
+      status: verified
+- id: CHAR-0191
+  name: 孔玄
+  update:
+    status_change_add: [被龙贞等万妖仙宗高层间接击杀]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [824, 830]
+    growth_event_add:
+    - chapter_range: {start: 824, end: 830}
+      event: 被列为处置目标并最终死亡
+      impact: 气运之敌任务完成，触发法器返还库升级
+      status: verified
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    identity_change_add: [完成历代天凤圣女涅槃融合, 天凤老祖天羽]
+    ability_change_add: [继承三十二代圣女记忆, 继承二十三股鸿蒙真气, 取得天地灵根类规则道器及五道无主鸿蒙真气]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [825, 828, 829]
+    growth_event_add:
+    - chapter_range: {start: 825, end: 829}
+      event: 完成天羽涅槃融合并以分魂下界夺取盘龙岛机缘
+      core_ability: [历代圣女记忆, 二十三股传承鸿蒙真气, 天地灵根类规则道器]
+      impact: 天凤族仙帝竞争能力显著提升并开始控制徐霄下界关系网络
+      status: partial
+- id: CHAR-0210
+  name: 龙贞
+  update:
+    action_change_add: [接受资源委托并参与安排孔玄处置]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [824, 830]
+    growth_event_add:
+    - chapter_range: {start: 824, end: 830}
+      event: 组织宗门高层处置孔玄
+      impact: 继续作为徐霄在万妖仙宗的高层执行节点
+      status: partial
+- id: CHAR-0212
+  name: 孔金
+  update:
+    action_change_add: [接受资源后同意处置直系后辈孔玄]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [824, 830]
+    growth_event_add:
+    - chapter_range: {start: 824, end: 830}
+      event: 接受处置孔玄方案并参与执行
+      impact: 宗族血缘立场让位于万妖仙宗高层资源联盟
+      status: verified
+- id: CHAR-0198
+  name: 龙九天
+  update:
+    action_change_add: [参与孔玄处置并继续为徐霄安排宗门身份与舆论保护]
+    related_nodes_add: [NODE-0105]
+    source_chapters_add: [823, 824, 830]
+    growth_event_add:
+    - chapter_range: {start: 823, end: 830}
+      event: 配合安置徐霄亲信并参与孔玄处置
+      impact: 与徐霄的资源交换和宗门保护关系进一步制度化
+      status: verified
