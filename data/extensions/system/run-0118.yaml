@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0118
+gift_events:
+- {id: GIFT-0212, chapter: 773, node: NODE-0102, giver: 徐霄, recipient: 赤裳, gift: 五十颗金仙道丹作为赤澜儿补充聘礼, accepted: true, system_valid: true, reward: 五百颗太乙聚仙丹, triggered_multiplier: 10, relationship_result: 赤裳接受补充聘礼并继续支持赤澜儿婚事, status: verified}
+- {id: GIFT-0213, chapter: 774, node: NODE-0102, giver: 徐霄, recipient: 轩辕婉君, gift: 一万极品灵精小费, accepted: true, system_valid: true, reward: 一千万极品灵精, triggered_multiplier: 10000, relationship_result: 轩辕婉君对徐霄态度由鄙视转为重新评估, status: verified}
+- {id: GIFT-0214, chapter: 777, node: NODE-0102, giver: 徐霄, recipient: 轩辕婉君, gift: 至尊仙器仙灵聚气玉, accepted: true, system_valid: true, reward: 道器通神仙玉, triggered_multiplier: qualitative_upgrade, relationship_result: 徐霄公开介入轩辕婉君与血无涯的订婚关系, status: verified}
+- {id: GIFT-0215, chapter: 778, node: NODE-0102, giver: 徐霄, recipient: 周紫薇, gift: 一万极品灵精, accepted: true, system_valid: true, reward: 五十万极品灵精, triggered_multiplier: 50, relationship_result: 周紫薇继续确认与徐霄的长期关系, status: verified}
+- {id: GIFT-0216, chapter: 781, node: NODE-0102, giver: 徐霄, recipient: 魔无花, gift: 道器轩辕五行环, accepted: true, system_valid: true, reward: 规则道器五行九天神威金轮, triggered_multiplier: qualitative_upgrade, relationship_result: 魔无花获得复仇魔罗圣门的关键道器支持, status: verified}
+- {id: GIFT-0217, chapter: 782, node: NODE-0102, giver: 徐霄, recipient: 魔无花, gift: 一颗太乙聚仙丹及十颗金仙道丹, accepted: true, system_valid: true, reward: 二百颗太乙聚仙丹, triggered_multiplier: composite, relationship_result: 魔无花接受长期资源支持并约定共同击杀魔无天, status: verified}
+- {id: GIFT-0218, chapter: 790, node: NODE-0102, giver: 徐霄, recipient: 轩辕婉君, gift: 十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 一千颗太乙聚仙丹, triggered_multiplier: 100, relationship_result: 轩辕婉君接受订婚并建立长期资源关系, status: verified}
+- {id: GIFT-0219, chapter: 790, node: NODE-0102, giver: 徐霄, recipient: 轩辕婉君, gift: 五十颗金仙道丹, accepted: true, system_valid: true, reward: 五百颗太乙聚仙丹, triggered_multiplier: qualitative_upgrade, relationship_result: 轩辕婉君接受订婚并建立长期资源关系, status: verified}
+- {id: GIFT-0220, chapter: 790, node: NODE-0102, giver: 徐霄, recipient: 轩辕婉君, gift: 八颗含完美弑神大道的金仙巅峰高阶丹药, accepted: true, system_valid: true, reward: 八十颗太乙巅峰大道神丹, triggered_multiplier: 10, relationship_result: 轩辕婉君获得修复道伤的替代资源并与徐霄完成订婚, status: partial}
+- {id: GIFT-0221, chapter: 792, node: NODE-0102, giver: 徐霄, recipient: 凤溪, gift: 十五颗太乙聚仙丹及大道天火剑, accepted: true, system_valid: true, reward: 一千五百颗太乙聚仙丹及规则道器天道神威御火剑, triggered_multiplier: composite, relationship_result: 凤溪公开支持轩辕联姻并维护徐霄, status: verified}
+- {id: GIFT-0222, chapter: 792, node: NODE-0102, giver: 徐霄, recipient: 龙九天, gift: 十颗太乙聚仙丹, accepted: true, system_valid: true, reward: pending, triggered_multiplier: pending, relationship_result: 龙九天转为协调太上长老保护徐霄, status: partial}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0212, GIFT-0213, GIFT-0214, GIFT-0215, GIFT-0216, GIFT-0217, GIFT-0218, GIFT-0219, GIFT-0220, GIFT-0221, GIFT-0222]
+    reward_resolution_add:
+    - {chapter: 777, result: 至尊仙器仙灵聚气玉返还道器通神仙玉, status: verified}
+    - {chapter: 781, result: 道器轩辕五行环返还规则道器五行九天神威金轮, status: verified}
+    - {chapter: 790, result: 轩辕婉君复合订婚赠礼返还一千五百颗太乙聚仙丹及八十颗太乙巅峰大道神丹, status: partial}
+    - {chapter: 792, result: 凤溪复合赠礼返还一千五百颗太乙聚仙丹及规则道器天道神威御火剑, status: verified}
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 774, 777, 778, 781, 782, 790, 792]
