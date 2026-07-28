@@ -104,7 +104,7 @@ tasks:
   run_id: RUN-0104
   target: {chapter_start: 663, chapter_end: 666, node: NODE-0088, boundary: adaptive}
   outputs: [docs/01-timeline/node-0088.md, data/extensions/timeline/run-0104.yaml, data/extensions/characters/run-0104.yaml, data/extensions/system/run-0104.yaml, data/extensions/artifacts/run-0104.yaml, sources/evidence/chapters-663-666.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: pending_ci, entity_document_readability: pending_ci, character_identity_alignment: pending_ci, character_growth_continuity: pending_ci, growth_temporal_accuracy: pending_ci, copyright_boundary: passed}
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0089]
 - id: TASK-0091
   title: Build the 诸葛青天恢复、执法堂爆炸与天一上门 story arc from Chapter 667 onward
