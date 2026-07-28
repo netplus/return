@@ -1,0 +1,96 @@
+schema_version: 1
+run_id: RUN-0108
+characters:
+- id: CHAR-0171
+  name: 蜥风
+  status: dead
+  role: antagonist
+  affiliations: [火蜥蜴一族, 天水城妖族]
+  identities: [火蜥蜴一族公子, 气运之敌]
+  first_appearance: {chapter: 693, title: 玄雪金虚惊了, node: NODE-0092}
+  cultivation: {current: 天仙境, exact_level: pending, status: partial}
+  death: {chapter: 696, cause: 被徐霄以大道玄冰剑贯穿击杀}
+  relationship_context: {焰灵: 试图强迫其成为妾室, 徐霄: 系统发布击杀任务并被其击杀}
+  related_nodes: [NODE-0092]
+  source_chapters: [693, 694, 695, 696]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 地仙五重
+    ability_change_add: [鸿蒙真气五十七股, 丹药返还库上限提升至金仙]
+    acquired_artifacts_add: [ART-0098]
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [689, 690, 691, 692, 693, 694, 695, 696, 697]
+    growth_event_add:
+    - chapter_range: {start: 689, end: 697}
+      event: 获得凤族血令并完成蜥风气运之敌任务
+      core_ability: [地仙五重, 鸿蒙真气五十七股, 大道玄冰剑, 丹药返还库金仙上限]
+      impact: [获得天凤族金仙层级保护, 在天水城公开击杀火蜥族成员并压下现场追责]
+      status: partial
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    affiliation_change_add: [万妖仙宗, 天凤一族]
+    identity_change_add: [天翎长老亲传弟子]
+    accepted_gifts_add: [GIFT-0177]
+    relationship_change_add: [将凤族血令交给徐霄并要求其未来到凤族正式迎娶]
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [689, 690]
+    growth_event_add:
+    - chapter_range: {start: 689, end: 690}
+      event: 返回天水城并将天翎长老凤族血令交给徐霄
+      impact: [正式进入天凤族体系, 将徐霄纳入金仙长老庇护范围]
+      status: partial
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    accepted_gifts_add: [GIFT-0178, GIFT-0179]
+    relationship_change_add: [因天凤血丹与凤族血令转为对徐霄谨慎合作]
+    ability_change_add: [炼化一颗天凤血丹后天凤血脉提升]
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [691, 692, 693, 694, 695, 696, 697]
+    growth_event_add:
+    - chapter_range: {start: 691, end: 693}
+      event: 接受天凤血丹并确认徐霄持有凤族血令
+      ability_change: [天凤血脉获得可感知提升]
+      impact: [由单纯敌视转为受资源与金仙背景约束的谨慎合作]
+      status: partial
+- id: CHAR-0146
+  name: 焰灵
+  update:
+    accepted_gifts_add: [GIFT-0180]
+    relationship_change_add: [获得徐霄公开保护并进入长期资源支持关系]
+    condition_change_add: [摆脱火蜥族强迫婚配]
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [694, 695, 696, 697]
+    growth_event_add:
+    - chapter_range: {start: 694, end: 697}
+      event: 摆脱蜥风强迫婚配并接受徐霄仙元丹支持
+      impact: [从妖族强迫对象转为徐霄公开保护和长期资源支持对象]
+      status: partial
+- id: CHAR-0166
+  name: 金虚
+  update:
+    cultivation_change: 玄仙五重
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [693, 694, 695, 696, 697]
+    growth_event_add:
+    - chapter: 693
+      event: 公开确认天地玄仙分层及自身玄仙五重境界
+      core_ability: [玄仙五重]
+      impact: [大仙域天地玄仙层级规则获得明确参照]
+      status: verified
+- id: CHAR-0168
+  name: 北鳞
+  update:
+    conflict_change_add: [许可火蜥族带走焰灵，引发蜥风被杀与后续妖族追责]
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [693, 694, 695]
+    growth_event_add:
+    - chapter_range: {start: 693, end: 695}
+      event: 许可火蜥族强制带走焰灵
+      impact: [其行政命令触发徐霄与天水城妖族的直接冲突]
+      status: partial
