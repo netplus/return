@@ -18,7 +18,7 @@ tasks:
   run_id: RUN-0111
   target: {chapter_start: 716, chapter_end: 722, node: NODE-0095, boundary: adaptive}
   outputs: [docs/01-timeline/node-0095.md, data/extensions/timeline/run-0111.yaml, data/extensions/characters/run-0111.yaml, data/extensions/system/run-0111.yaml, data/extensions/artifacts/run-0111.yaml, sources/evidence/chapters-716-722.yaml]
-  quality_gates: {source_traceability: pending_ci, arc_coherence: passed, materiality: passed, cross_index_consistency: pending_ci, duplicate_work_check: passed, yaml_structure_review: pending_ci, entity_document_freshness: pending_ci, entity_document_readability: pending_ci, character_identity_alignment: pending_ci, character_growth_continuity: pending_ci, growth_temporal_accuracy: pending_ci, copyright_boundary: passed}
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0096]
 - id: TASK-0098
   title: Build the 造化滴血重生、妖族大胜与最后谈判 story arc from Chapter 723 onward
