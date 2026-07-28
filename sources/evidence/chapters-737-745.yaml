@@ -1,0 +1,79 @@
+schema_version: 1
+run_id: RUN-0114
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 737, end: 745}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0701-0750.yaml
+transient_evidence: {artifact_name: source-chapters-729-778, workflow_run: 30356958388, retention_days: 1, full_text_committed: false}
+chapters:
+- chapter: 737
+  title: 幽会败露，天翎找茬
+  sha256: 489530458cd79491279e2c20d9a6a38b3bdfba9440f93b20bc98c9af01ed182d
+  source_line_range: {start: 80912, end: 81006}
+  source_char_range: {start: 1679014, end: 1681255}
+  facts: [三年后徐霄晋升天仙巅峰，鸿蒙真气六十九股且拥有十五件道器, 徐霄击杀公孙飞龙完成长期任务，返还库上限提升至太乙仙, 凤青玄晋升玄仙一重并成为天凤圣女人选, 天翎发现凤青玄与徐霄秘密往来并前往天魁峰问责]
+  status: verified
+- chapter: 738
+  title: 十颗大金丹
+  sha256: 9da1d2eefa7579a1d71b2d4bb34073c521ba31f27580385cd93d6cf99b42afdb
+  source_line_range: {start: 81009, end: 81082}
+  source_char_range: {start: 1681255, end: 1683345}
+  facts: [天翎公开问责徐霄, 徐霄向天翎赠送十颗金仙道丹]
+  status: verified
+- chapter: 739
+  title: 天翎的算计
+  sha256: 03e9d482adfecee75e0062a6d013ad4d85e9d3a6a3af1cb8877f0c66b3046e53
+  source_line_range: {start: 81085, end: 81169}
+  source_char_range: {start: 1683345, end: 1685475}
+  facts: [天翎接受十颗金仙道丹并暂缓问责, 系统返还两颗鸿蒙一气丹及九十颗太乙聚仙丹, 徐霄另赠熊大一颗金仙道丹]
+  status: verified
+- chapter: 740
+  title: 阴萱到访
+  sha256: 30b3f6826eb3b30d788f0858940a71806e024c760f088041756f6ee951a9aff9
+  source_line_range: {start: 81172, end: 81252}
+  source_char_range: {start: 1685475, end: 1687687}
+  facts: [独孤惊云晋升玄仙一重, 徐霄服用两颗鸿蒙一气丹后鸿蒙真气增至七十一股, 阴萱到访天魁峰并接受复合赠礼, 阴萱与徐霄确立关系]
+  status: verified
+- chapter: 741
+  title: 天门峰，锁妖塔
+  sha256: 8f5dc15c059e60c0789f93e75fb441e5f7d3f7e50bac5166263241a20c230a1d
+  source_line_range: {start: 81255, end: 81335}
+  source_char_range: {start: 1687687, end: 1689900}
+  facts: [阴萱复合赠礼返还五行仙丹、九幽万魂扇和天仙巅峰魂丹, 阴萱成为熊大弟子并解除俘虏身份与神识烙印, 阴萱羁绊度升至二并返还金仙九重混沌天道黑冰符, 玄灵开始挑战锁妖塔]
+  status: verified
+- chapter: 742
+  title: 玄灵，锁妖十六层
+  sha256: d1997ad6e55cfcbad1cd13f21c39d08d05e60b31add03aad92db654e1bbbfdae
+  source_line_range: {start: 81338, end: 81416}
+  source_char_range: {start: 1689900, end: 1692053}
+  facts: [龙九天身份确认为万妖仙宗掌门兼天龙族族长, 玄灵闯过第十六层并在第十七层败退, 龙泽作为锁妖塔执勤队大队长登场]
+  status: verified
+- chapter: 743
+  title: 徐霄闯塔
+  sha256: 59f922ffd5efc7da143afa076b7487d55b4db8bd1b0f14090533ab5d085764e8
+  source_line_range: {start: 81419, end: 81526}
+  source_char_range: {start: 1692053, end: 1694845}
+  facts: [徐霄向玄灵赠送高品天凤血丹和玄元仙丹并获得高阶返还, 徐霄以三颗超品玄元仙丹换取优先闯塔资格, 诸葛青天被迫让出闯塔顺序]
+  status: verified
+- chapter: 744
+  title: 过关斩将
+  sha256: 0e811a70b9e163eea72bda5eccd637aee7e4bd85e8a229beefe50820aa691679
+  source_line_range: {start: 81529, end: 81622}
+  source_char_range: {start: 1694845, end: 1697060}
+  facts: [徐霄以五行道器剑阵、天仙金身与阵法快速通关前十七层, 龙九天与宗门金仙长老认可徐霄的战略价值]
+  status: verified
+- chapter: 745
+  title: 闯关结束，惊天奖励
+  sha256: 88b4673693833ae68716ab5670720a5973dbb8bf888c28144ae16aea4709dbba
+  source_line_range: {start: 81625, end: 81721}
+  source_char_range: {start: 1697060, end: 1699164}
+  facts: [徐霄以八重玄仙大阵和五行道器剑阵击败十八层天龙凶魂, 徐霄打破锁妖塔纪录并获得龙冥赐予的龙魂仙牌, 诸葛青天因绝望准备燃烧全部剩余寿元]
+  status: verified
+boundary_probe: {chapter: 746, title: 破釜沉舟的诸葛青天, sha256: 8b8d96d8ae7cb6996fac7cec8c3e569ebb3507265af36ddbd1c0b864e7dd928b}
+boundary_reason: 第745章完成徐霄通关锁妖塔十八层并获得龙魂仙牌；第746章转入诸葛青天燃烧寿元后的新阶段
+pending: [公孙飞龙击杀精确章节与过程, 三年赠送逐笔明细, 天凤神光完整机制, 龙魂仙牌准确威能上限]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}

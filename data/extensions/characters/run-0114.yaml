@@ -1,0 +1,174 @@
+schema_version: 1
+run_id: RUN-0114
+characters:
+- id: CHAR-0195
+  name: 公孙飞龙
+  status: dead
+  role: supporting
+  affiliations: [天元界缥缈仙宗]
+  identities: [缥缈仙宗掌门, 气运之子, 徐霄长期系统任务目标]
+  first_appearance: {chapter: 737, title: 幽会败露，天翎找茬, node: NODE-0098}
+  cultivation: {current: pending, status: pending}
+  status_change: {chapter: 737, result: 在三年时间跃迁期间被徐霄返回下界秘密击杀}
+  related_nodes: [NODE-0098]
+  source_chapters: [737]
+  document: null
+  verification_status: partial
+- id: CHAR-0196
+  name: 阴萱
+  status: alive
+  role: supporting
+  affiliations: [阴阳仙门, 万妖仙宗, 天魁峰, 熊大麾下]
+  identities: [阴阳仙门长老, S级气运之女, 万妖仙宗普通弟子, 徐霄关系人物]
+  first_appearance: {chapter: 740, title: 阴萱到访, node: NODE-0098}
+  cultivation: {current: 地仙巅峰, status: verified}
+  system_profile: {luck_grade: S, return_multiplier: 30, bond: 2, status: verified}
+  relationship_context: {徐霄: 接受复合赠礼并确立长期关系, 绝柔: 旧识闺蜜}
+  accepted_gifts: [GIFT-0200]
+  related_nodes: [NODE-0098]
+  source_chapters: [740, 741]
+  document: null
+  verification_status: verified
+- id: CHAR-0197
+  name: 龙泽
+  status: alive
+  role: supporting
+  affiliations: [万妖仙宗, 天门峰, 天龙族]
+  identities: [锁妖塔执勤队大队长, 万妖仙宗大执事]
+  first_appearance: {chapter: 742, title: 玄灵，锁妖十六层, node: NODE-0098}
+  cultivation: {current: 玄仙巅峰, status: verified}
+  relationship_context: {徐霄: 接受三颗超品玄元仙丹并允许其优先闯塔}
+  related_nodes: [NODE-0098]
+  source_chapters: [742, 743, 745]
+  document: null
+  verification_status: verified
+- id: CHAR-0198
+  name: 龙九天
+  status: alive
+  role: supporting
+  affiliations: [万妖仙宗, 天龙族]
+  identities: [万妖仙宗掌门, 天龙族族长]
+  first_appearance: {chapter: 742, title: 玄灵，锁妖十六层, node: NODE-0098}
+  cultivation: {current: 金仙境, exact_level: pending, status: partial}
+  relationship_context: {徐霄: 由不满其作风转为认可其宗门战略价值}
+  related_nodes: [NODE-0098]
+  source_chapters: [742, 744, 745]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 天仙巅峰
+    ability_change_add: [鸿蒙真气增至七十一股, 完美阵之大道可瞬发八重玄仙大阵, 打穿锁妖塔十八层, 系统返还库上限提升至太乙仙]
+    artifact_change_add: [获得龙魂仙牌, 获得九幽万魂扇, 获得九十颗太乙聚仙丹]
+    status_change_add: [击杀公孙飞龙并完成长期系统任务, 锁妖塔十八层纪录保持者]
+    relationship_change_add: [与阴萱确立关系, 继续与凤青玄维持秘密关系]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [737, 738, 739, 740, 741, 742, 743, 744, 745]
+    growth_event_add:
+    - chapter_range: {start: 737, end: 745}
+      event: 三年资源跃迁后完成系统任务并打穿锁妖塔十八层
+      core_ability: [天仙巅峰, 鸿蒙真气七十一股, 完美阵之大道, 五行道器剑阵, 八重玄仙大阵]
+      impact: [返还库上限提升至太乙仙, 获得龙魂仙牌, 成为万妖仙宗公开认可的顶尖天才]
+      status: verified
+- id: CHAR-0169
+  name: 凤青玄
+  update:
+    cultivation_change: 玄仙一重
+    identity_change_add: [天凤族圣女人选]
+    relationship_change_add: [与徐霄明面分手但秘密复合并持续接受资源]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [737, 738, 739]
+    growth_event_add:
+    - chapter: 737
+      event: 三年内晋升玄仙一重并进入天凤圣女培养序列
+      impact: [与徐霄秘密关系被天翎发现, 天凤族身份约束进一步增强]
+      status: verified
+- id: CHAR-0172
+  name: 天翎
+  update:
+    accepted_gifts_add: [GIFT-0198]
+    resource_change_add: [获得十颗金仙道丹]
+    stance_change_add: [以凤青玄为由继续公开问责徐霄并保留天凤神光威慑]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [737, 738, 739, 744]
+    growth_event_add:
+    - chapter_range: {start: 737, end: 739}
+      event: 再次以凤青玄关系公开问责徐霄并接受十颗金仙道丹
+      impact: [形成可重复的资源问责关系, 继续保留天凤神光约束]
+      status: verified
+- id: CHAR-0192
+  name: 熊大
+  update:
+    accepted_gifts_add: [GIFT-0199]
+    cultivation_progress_add: [炼化多年金仙道丹后接近金仙二重瓶颈]
+    status_change_add: [继续将天魁峰洞府作为徐霄关系人物安置中心]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [737, 738, 739, 740, 741, 744, 745]
+    growth_event_add:
+    - chapter_range: {start: 737, end: 745}
+      event: 持续以金仙长老身份安置徐霄关系人物并获得资源
+      impact: [接近金仙二重瓶颈, 与徐霄的长期资源合作进一步固化]
+      status: verified
+- id: CHAR-0175
+  name: 玄灵
+  update:
+    accepted_gifts_add: [GIFT-0201]
+    combat_change_add: [闯过锁妖塔第十六层并在第十七层败退]
+    status_change_add: [接受高品天凤血丹和玄元仙丹疗伤]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [742, 743]
+    growth_event_add:
+    - chapter_range: {start: 742, end: 743}
+      event: 挑战锁妖塔并闯过第十六层
+      core_ability: [至尊玄仙层级战力, 天凤血脉]
+      impact: [被视为具有金仙潜力的万妖仙宗天才, 获得徐霄高阶疗伤资源]
+      status: verified
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    accepted_gifts_add: [GIFT-0200]
+    relationship_change_add: [继续与徐霄公开复合并接受高品天凤血丹和超品玄元仙丹]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [741, 742, 743, 745]
+    growth_event_add:
+    - chapter_range: {start: 741, end: 745}
+      event: 继续接受徐霄资源并见证其打穿锁妖塔
+      impact: [对徐霄关系进一步强化, 公开支持其锁妖塔成就]
+      status: verified
+- id: CHAR-0149
+  name: 诸葛青天
+  update:
+    conflict_change_add: [徐霄优先闯塔并打破纪录后陷入极度绝望，准备燃烧全部剩余寿元]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [740, 742, 743, 744, 745]
+    growth_event_add:
+    - chapter_range: {start: 740, end: 745}
+      event: 筹划通过锁妖塔获取震惊值，却被徐霄抢先打破全部纪录
+      impact: [与徐霄冲突升级至破釜沉舟阶段, 第746章准备燃烧全部剩余寿元]
+      status: verified
+- id: CHAR-0156
+  name: 独孤惊云
+  update:
+    cultivation_change: 玄仙一重
+    conflict_change_add: [见证徐霄打穿锁妖塔后进一步陷入绝望与敌意]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [740, 742, 743, 744, 745]
+    growth_event_add:
+    - chapter_range: {start: 740, end: 745}
+      event: 三年内晋升玄仙一重并见证徐霄打破锁妖塔纪录
+      impact: [个人晋升成果被徐霄压制, 长期敌对进一步升级]
+      status: verified
+- id: CHAR-0032
+  name: 刘爱花
+  update:
+    cultivation_change: 玄仙二重
+    identity_change_add: [万妖仙宗执事]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [737]
+    growth_event_add:
+    - chapter: 737
+      event: 三年内晋升玄仙二重并取得万妖仙宗执事身份
+      impact: [雪瑶仙帝重生准备继续推进, 进入万妖仙宗正式身份体系]
+      status: verified

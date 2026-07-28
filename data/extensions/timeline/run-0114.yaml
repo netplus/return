@@ -1,0 +1,46 @@
+schema_version: 1
+run_id: RUN-0114
+nodes:
+- id: NODE-0098
+  title: 三年跃迁、天翎再问责与锁妖塔通关
+  chapters:
+    start: 737
+    end: 745
+  granularity: story_arc
+  status: verified
+  source_qualification: 用户提供归档整文件与逐章哈希固定第737—745章；上一Run生成的一天期第729—778章正文产物完成逐章核验
+  boundary_reason: 第745章完成徐霄通关锁妖塔十八层并获得龙魂仙牌；第746章诸葛青天燃烧全部剩余寿元，转入破釜沉舟新阶段
+  characters:
+  - 徐霄
+  - 凤青玄
+  - 天翎
+  - 熊大
+  - 阴萱
+  - 玄雪
+  - 玄灵
+  - 诸葛青天
+  - 独孤惊云
+  - 龙泽
+  - 龙九天
+  - 公孙飞龙
+  system_events:
+  - event: 返还库上限升级
+    result: 击杀公孙飞龙完成长期任务后，丹药与道具返还上限提升至太乙仙
+    status: partial
+  - event: 天翎十颗金仙道丹返还
+    result: 首颗返还两颗鸿蒙一气丹，余九颗返还九十颗太乙聚仙丹
+    status: verified
+  - event: 阴萱复合赠礼返还
+    result: 三十颗五行仙丹、道器九幽万魂扇及三颗天仙巅峰魂丹
+    status: verified
+  - event: 玄灵疗伤赠礼返还
+    result: 五百颗高品天凤血丹及五十颗金仙道丹
+    status: verified
+  relationship_result: 阴萱加入天魁峰并与徐霄确立关系；徐霄打破锁妖塔纪录后成为万妖仙宗公开认可的顶尖天才
+  pending:
+  - 公孙飞龙击杀精确章节与过程
+  - 三年赠送明细
+  - 天凤神光完整机制
+  - 龙魂仙牌准确威能上限
+  document: docs/01-timeline/node-0098.md
+  evidence: sources/evidence/chapters-737-745.yaml

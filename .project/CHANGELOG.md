@@ -1,27 +1,26 @@
 # Changelog
 
-## RUN-0113 — 2026-07-28
+## RUN-0114 — 2026-07-28
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only the unique pending `TASK-0099`; no completed task, Timeline node or entity ID was duplicated.
-- Repaired the evidence-access blocker by generating a one-day Chapters 729—778 artifact through temporary PR #80, then closed the PR without merge after hash verification.
-- Confirmed the adaptive boundary at Chapter 736: 万妖仙宗抵达、公开问责、两轮选拔、身份落位 and天魁峰入驻 form one coherent arc; Chapter 737 begins a three-year time jump and renewed天翎 conflict.
-- Created `NODE-0097`, covering Chapters 729—736.
-- Added 韵幽、天穹、赤裳、孔玄、熊大、魔无花 and雪小星 as `CHAR-0188`—`CHAR-0194` with chapter-anchored first appearances.
-- Updated 徐霄、诸葛青天、独孤惊云、天翎、玄灵、玄雪、金虚、青曼、雀鸢 and北鳞 with timed growth events.
-- Added `GIFT-0194`—`GIFT-0197` and `ART-0110`—`ART-0113`; recorded凤族血令回收、金仙道丹与玄元仙丹转移及九天青木舟使用.
-- Recorded道气玄天丹万倍返还、太初仙体极致金光、玄仙道气形成 and天魁峰首席执事身份.
-- Source traceability passed using archived per-chapter hashes and the transient evidence artifact; no full chapter text was committed.
-- Completed `TASK-0099` and queued `TASK-0100` beginning at Chapter 737.
+- Resumed only the unique pending `TASK-0100`; no completed task, Timeline node or entity ID was duplicated.
+- Reused the verified one-day Chapters 729—778 evidence artifact and confirmed all Chapter 737—745 hashes against the archived source index.
+- Confirmed the adaptive boundary at Chapter 745: three-year progression, renewed天翎问责, 阴萱入驻 and锁妖塔十八层通关 form one coherent arc; Chapter 746 begins诸葛青天破釜沉舟.
+- Created `NODE-0098`, covering Chapters 737—745.
+- Added 公孙飞龙、阴萱、龙泽 and龙九天 as `CHAR-0195`—`CHAR-0198` with chapter-anchored first appearances.
+- Updated 徐霄、凤青玄、天翎、熊大、玄灵、玄雪、诸葛青天、独孤惊云 and刘爱花 with timed growth events.
+- Added `GIFT-0198`—`GIFT-0201` and `ART-0114`—`ART-0117`; updated existing high-level丹药 records.
+- Recorded返还库上限提升至太乙仙、徐霄天仙巅峰、鸿蒙真气七十一股、锁妖塔十八层纪录 and龙魂仙牌.
+- Completed `TASK-0100` and queued `TASK-0101` beginning at Chapter 746.
+
+## RUN-0113 — 2026-07-28
+
+- Created `NODE-0097`, covering Chapters 729—736; completed `TASK-0099` and queued `TASK-0100`.
+- Added韵幽、天穹、赤裳、孔玄、熊大、魔无花、雪小星、道气玄天丹 and天魁峰首席执事身份.
 
 ## RUN-0112 — 2026-07-28
 
 - Created `NODE-0096`, covering Chapters 723—728; completed `TASK-0098` and queued `TASK-0099`.
-- Added雀鸢、苏破天、温晴岚、玉龙、大道山河图 and金仙巅峰魂丹.
-
-## RUN-0111 — 2026-07-28
-
-- Created `NODE-0095`, covering Chapters 716—722; completed `TASK-0097` and queued `TASK-0098`.
 
 ## Audit history
 

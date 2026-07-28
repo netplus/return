@@ -1,0 +1,93 @@
+schema_version: 1
+run_id: RUN-0114
+artifacts:
+- id: ART-0114
+  name: 太乙聚仙丹
+  category: 丹药
+  grade: 太乙仙层级
+  first_chapter: 739
+  current_holder: 徐霄
+  acquisition: GIFT-0198返还九十颗
+  effect: 太乙仙层级修炼丹药；完整功效与适用境界待确认
+  quantity: 90
+  current_state: 未确认使用
+  status: partial
+  related_nodes: [NODE-0098]
+  source_chapters: [739]
+- id: ART-0115
+  name: 玉骨仙扇
+  category: 仙器
+  grade: 至尊仙器
+  first_chapter: 740
+  current_holder: 阴萱
+  acquisition: 徐霄赠送
+  effect: 内含百万阴魂，适合阴灵出身修士使用
+  current_state: 已赠送阴萱
+  status: verified
+  related_nodes: [NODE-0098]
+  source_chapters: [740, 741]
+- id: ART-0116
+  name: 九幽万魂扇
+  category: 道器
+  grade: 道器
+  first_chapter: 741
+  current_holder: 徐霄
+  acquisition: GIFT-0200中玉骨仙扇返还
+  effect: 万魂类道器；完整能力与上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0098]
+  source_chapters: [741]
+- id: ART-0117
+  name: 龙魂仙牌
+  category: 令牌
+  grade: 超越金仙顶级符箓的护命法宝
+  first_chapter: 745
+  current_holder: 徐霄
+  acquisition: 打穿锁妖塔十八层后由龙冥遗留意志赐予
+  effect: 包含龙冥前辈一击之力；准确境界上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0098]
+  source_chapters: [745]
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0198, chapter: 739, quantity: 2, status: verified}
+    usage_add:
+    - {chapter: 740, user: 徐霄, quantity: 2, result: 鸿蒙真气由六十九股增至七十一股, status: verified}
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [739, 740]
+- id: ART-0102
+  name: 金仙道丹
+  update:
+    transfer_add:
+    - {gift_id: GIFT-0198, chapter: 738, recipient: 天翎, quantity: 10}
+    - {gift_id: GIFT-0199, chapter: 739, recipient: 熊大, quantity: 1}
+    acquisition_add:
+    - {gift_id: GIFT-0201, chapter: 743, quantity: 50, status: verified}
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [738, 739, 743]
+- id: ART-0092
+  name: 玄元仙丹
+  update:
+    transfer_add:
+    - {gift_id: GIFT-0201, chapter: 743, recipient: 玄灵, quantity: 10}
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [743]
+- id: ART-0099
+  name: 天凤血丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0201, chapter: 743, quantity: 500, quality: 高品, status: verified}
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [743]
+- id: ART-0095
+  name: 天仙巅峰魂丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0200, chapter: 741, quantity: 3, status: verified}
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [741]
