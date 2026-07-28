@@ -1,27 +1,27 @@
 schema_version: 2
 workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
-history_note: Full task metadata through RUN-0102 remains auditable in Git history and .project/CHANGELOG.md.
+history_note: Full task metadata through RUN-0103 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
-- {id: TASK-0088, status: done, run_id: RUN-0102}
 - {id: TASK-0089, status: done, run_id: RUN-0103}
 - {id: TASK-0090, status: done, run_id: RUN-0104}
 - {id: TASK-0091, status: done, run_id: RUN-0105}
 - {id: TASK-0092, status: done, run_id: RUN-0106}
 - {id: TASK-0093, status: done, run_id: RUN-0107}
-- id: TASK-0094
-  title: Build the 凤青玄返回、凤族血令与天水城冲突 story arc from Chapter 689 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0108
-  target: {chapter_start: 689, chapter_end: 697, node: NODE-0092, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0092.md, data/extensions/timeline/run-0108.yaml, data/extensions/characters/run-0108.yaml, data/extensions/system/run-0108.yaml, data/extensions/artifacts/run-0108.yaml, sources/evidence/chapters-689-697.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0093]
+- {id: TASK-0094, status: done, run_id: RUN-0108}
 - id: TASK-0095
   title: Build the 八大妖族逼宫、天翎介入与天水城反转 story arc from Chapter 698 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 698, provisional_chapter_end: 705, node: NODE-0093, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0109
+  target: {chapter_start: 698, chapter_end: 705, node: NODE-0093, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0093.md, data/extensions/timeline/run-0109.yaml, data/extensions/characters/run-0109.yaml, data/extensions/system/run-0109.yaml, data/extensions/artifacts/run-0109.yaml, sources/evidence/chapters-698-705.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0094]
+- id: TASK-0096
+  title: Build the 人族养伤小队、天水城包围与青木城出发 story arc from Chapter 706 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 706, provisional_chapter_end: 713, node: NODE-0094, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0095]
