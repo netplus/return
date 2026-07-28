@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 96
+  extension_files: 97
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -177,6 +177,7 @@ characters:
   - NODE-0105
   - NODE-0106
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 1
   - 2
@@ -1001,6 +1002,19 @@ characters:
   - 861
   - 862
   - 863
+  - 864
+  - 865
+  - 866
+  - 867
+  - 868
+  - 869
+  - 870
+  - 871
+  - 872
+  - 873
+  - 874
+  - 875
+  - 876
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -1100,6 +1114,8 @@ characters:
   - 与雪瑶公开确认关系
   - 与凤青玄公开决裂后复合
   - 与初殷建立私人关系与传讯联系
+  - 与雪瑶羁绊度提升至3
+  - 与凤青玄羁绊度提升至3
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -1125,7 +1141,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 太乙仙二重
+  cultivation_change: 大罗仙
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -1339,6 +1355,11 @@ characters:
   - 公开以五十股鸿蒙真气、混元神体和万佛金身正面击退冥法仙帝
   - 五行顶级规则道器剑阵秒杀至尊太乙修罗擎天
   - 获得鸿蒙一气丹、四千九百颗大罗鸿蒙丹及神器诛仙天冰剑
+  - 丹药返还库上限提升至鸿蒙仙
+  - 以万佛金身击杀破玄
+  - 以五行规则剑阵击杀冥法
+  - 以完美幻象大道破解黑魂心魔
+  - 以诛仙神火剑与诛仙天冰剑击杀黑神及神无机
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1897,6 +1918,22 @@ characters:
     - 与黑神破玄冥法形成公开敌对
     - 与初殷建立资源关系
     status: verified
+  - chapter_range:
+      start: 864
+      end: 876
+    event: 化解炼神鼎浩劫并覆灭神煞界核心，重组九大仙域后于三年内晋升大罗
+    core_ability:
+    - 大罗仙
+    - 一百余股鸿蒙真气
+    - 万佛金身
+    - 完美幻象大道
+    - 三件神器
+    impact:
+    - 成为至尊仙帝
+    - 执掌太初仙域
+    - 系统升级
+    - 正文主线完结
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1917,6 +1954,8 @@ characters:
   - 凤青玄公开道侣
   - 初殷仙帝寿宴切磋第一名
   - 公开自称上古至尊仙帝
+  - 九大仙域至高无上至尊仙帝
+  - 太初仙域仙帝
   assessment_result:
   - event: 阴阳仙门道侣大会六维评测
     result: 天资样貌肉身法器气运修为六项全部甲，天资与气运为金色
@@ -2007,6 +2046,7 @@ characters:
   - NODE-0103
   - NODE-0104
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 1
   - 2
@@ -2052,6 +2092,9 @@ characters:
   - 861
   - 862
   - 863
+  - 864
+  - 875
+  - 876
   verification_status: verified
   status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
@@ -2060,6 +2103,8 @@ characters:
   - 幽冥天绝阵危局中主动准备携徐霄破界撤离
   - 决定以刘爱花身份持续接受徐霄资源
   - 以雪瑶身份参加寿宴并与凤青玄共同维护徐霄
+  - 与徐霄羁绊度提升至3
+  - 以雪瑶身份怀有徐霄子嗣
   cultivation_change: 仙帝层级（恢复过程）
   constitution:
   - 元灵圣体
@@ -2157,6 +2202,14 @@ characters:
     impact:
     - 获得顶级规则道器
     - 与凤青玄形成临时共同阵线
+    status: verified
+  - chapter_range:
+      start: 864
+      end: 876
+    event: 炼神鼎脱险后与徐霄共同重建仙界秩序，三年后进入孕期
+    impact:
+    - 与徐霄羁绊达到三级
+    - 定居太初仙帝宫
     status: verified
   accepted_gifts:
   - GIFT-0142
@@ -3979,6 +4032,7 @@ characters:
   - NODE-0105
   - NODE-0106
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 233
   - 234
@@ -4032,6 +4086,9 @@ characters:
   - 861
   - 862
   - 863
+  - 864
+  - 875
+  - 876
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -4055,7 +4112,9 @@ characters:
   - 与雪瑶发生神魂大战
   - 与徐霄公开决裂后复合
   - 在寿宴公开确认徐霄为道侣并与雪瑶暂时共同维护徐霄
-  cultivation_change: 大罗仙级准仙帝战力
+  - 与徐霄羁绊度提升至3
+  - 怀有徐霄子嗣
+  cultivation_change: 仙帝
   affiliation:
   - 阴阳仙门内门
   - 青鸾长老门下
@@ -4115,6 +4174,14 @@ characters:
     impact:
     - 与雪瑶形成暂时共同保护关系
     - 继续准备挑战初殷仙帝之位
+    status: verified
+  - chapter_range:
+      start: 864
+      end: 876
+    event: 炼神鼎脱险后执掌冥幽与金玄两大仙域，并在三年后进入孕期
+    impact:
+    - 成为仙帝
+    - 与徐霄羁绊达到三级
     status: verified
   affiliation_change:
   - 万妖仙宗
@@ -11202,6 +11269,7 @@ characters:
   - NODE-0103
   - NODE-0104
   - NODE-0106
+  - NODE-0108
   source_chapters:
   - 699
   - 700
@@ -11242,6 +11310,9 @@ characters:
   - 850
   - 851
   - 852
+  - 867
+  - 875
+  - 876
   document: null
   verification_status: partial
   surveillance_change:
@@ -11299,6 +11370,14 @@ characters:
     - 天凤族关系公开化
     - 获得长期血脉与修炼资源
     status: verified
+  - chapter_range:
+      start: 867
+      end: 876
+    event: 在炼神鼎内获赠太乙聚仙丹并随徐霄脱险
+    impact:
+    - 生还
+    - 进入太初仙帝宫终局关系网络
+    status: verified
   system_profile:
     luck_grade: SSS
     return_multiplier: 100
@@ -11318,6 +11397,7 @@ characters:
   - GIFT-0228
   - GIFT-0232
   - GIFT-0245
+  - GIFT-0253
   resource_change:
   - 获得十颗金仙道丹
   stance_change:
@@ -12422,6 +12502,7 @@ characters:
   - NODE-0101
   - NODE-0105
   - NODE-0106
+  - NODE-0108
   source_chapters:
   - 734
   - 752
@@ -12445,6 +12526,10 @@ characters:
   - 835
   - 838
   - 842
+  - 866
+  - 867
+  - 875
+  - 876
   document: null
   verification_status: partial
   relationship_change:
@@ -12478,10 +12563,19 @@ characters:
     event: 魔无天死亡后获得魔罗圣门掌门身份
     impact: 复仇主线完成并正式重返魔罗圣门权力核心
     status: verified
+  - chapter_range:
+      start: 866
+      end: 876
+    event: 在炼神鼎内获得五十颗太乙聚仙丹保命，终局迁入太初仙帝宫
+    impact:
+    - 生还
+    - 与徐霄关系继续深化
+    status: verified
   status_change:
   - 在六宗会盟中公开推举徐霄为太初仙域第一圣子
   accepted_gifts:
   - GIFT-0239
+  - GIFT-0252
   cultivation_change: 太乙仙
   identity_change:
   - 在魔祖与幽姬认可下成为魔罗圣门新掌门
@@ -13103,10 +13197,30 @@ characters:
     status: verified
   related_nodes:
   - NODE-0101
+  - NODE-0108
   source_chapters:
   - 769
+  - 868
+  - 875
+  - 876
   document: null
   verification_status: verified
+  system_profile:
+    luck_grade: SSS
+    return_multiplier: 100
+    bond: 1
+    status: verified
+  accepted_gifts:
+  - GIFT-0256
+  growth_event:
+  - chapter_range:
+      start: 868
+      end: 876
+    event: 在炼神鼎内获救并与徐霄建立关系，终局进入太初仙帝宫
+    impact:
+    - 四兽仙宗核心人员生还
+    - 成为至尊仙帝关系成员
+    status: verified
 - id: CHAR-0206
   name: 绝云神
   status: alive
@@ -13440,10 +13554,25 @@ characters:
     status: verified
   related_nodes:
   - NODE-0106
+  - NODE-0108
   source_chapters:
   - 831
+  - 867
+  - 875
+  - 876
   document: null
   verification_status: verified
+  accepted_gifts:
+  - GIFT-0254
+  growth_event:
+  - chapter_range:
+      start: 867
+      end: 876
+    event: 在炼神鼎内获赠太乙聚仙丹并随徐霄脱险
+    impact:
+    - 生还
+    - 进入太初仙帝宫终局关系网络
+    status: verified
 - id: CHAR-0217
   name: 轩辕金花
   status: alive
@@ -13463,10 +13592,25 @@ characters:
     status: verified
   related_nodes:
   - NODE-0106
+  - NODE-0108
   source_chapters:
   - 833
+  - 869
+  - 875
+  - 876
   document: null
   verification_status: verified
+  accepted_gifts:
+  - GIFT-0258
+  growth_event:
+  - chapter_range:
+      start: 869
+      end: 876
+    event: 在炼神鼎内获赠太乙聚仙丹并推动轩辕家整体获救
+    impact:
+    - 轩辕家生还
+    - 进入太初仙帝宫终局关系网络
+    status: verified
 - id: CHAR-0218
   name: 轩辕宏
   status: alive
@@ -13574,6 +13718,7 @@ characters:
   related_nodes:
   - NODE-0106
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 838
   - 854
@@ -13586,6 +13731,9 @@ characters:
   - 861
   - 862
   - 863
+  - 864
+  - 875
+  - 876
   document: null
   verification_status: verified
   system_profile:
@@ -13607,6 +13755,16 @@ characters:
     - 与徐霄建立资源及私人关系
     - 见证徐霄压制冥法仙帝
     status: verified
+  - chapter_range:
+      start: 864
+      end: 876
+    event: 炼神鼎脱险后接管黑魂仙域并清剿黑神旧部
+    impact:
+    - 由太初仙域仙帝转任黑魂仙域仙帝
+    - 进入徐霄终局关系网络
+    status: verified
+  identity_change:
+  - 黑魂仙域仙帝
 - id: CHAR-0223
   name: 霄天
   status: alive
@@ -13669,10 +13827,22 @@ characters:
     status: verified
   related_nodes:
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 854
+  - 864
+  - 873
+  - 874
   document: null
   verification_status: verified
+  status_change: dead
+  growth_event:
+  - chapter_range:
+      start: 864
+      end: 874
+    event: 联合神煞界发动炼神鼎计划，黑魂心魔被徐霄破解后遭神器击杀
+    result: 肉身与神魂俱灭
+    status: verified
 - id: CHAR-0226
   name: 破玄
   status: alive
@@ -13691,10 +13861,22 @@ characters:
     status: verified
   related_nodes:
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 854
+  - 864
+  - 871
+  - 872
   document: null
   verification_status: verified
+  status_change: dead
+  growth_event:
+  - chapter_range:
+      start: 864
+      end: 872
+    event: 以鸿蒙金身挑战徐霄，败于万佛金身并被炼化神魂
+    result: 死亡
+    status: verified
 - id: CHAR-0227
   name: 冥法
   status: alive
@@ -13713,10 +13895,22 @@ characters:
     status: verified
   related_nodes:
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 854
+  - 864
+  - 872
+  - 873
   document: null
   verification_status: verified
+  status_change: dead
+  growth_event:
+  - chapter_range:
+      start: 864
+      end: 873
+    event: 以弱水、火龙与三才剑阵围攻徐霄，最终被五行剑阵绞灭
+    result: 死亡
+    status: verified
 - id: CHAR-0228
   name: 灵心
   status: alive
@@ -13734,10 +13928,29 @@ characters:
     status: verified
   related_nodes:
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 854
+  - 867
+  - 875
   document: null
   verification_status: verified
+  system_profile:
+    luck_grade: SSS+
+    return_multiplier: 100
+    bond: 1
+    status: verified
+  accepted_gifts:
+  - GIFT-0255
+  growth_event:
+  - chapter_range:
+      start: 867
+      end: 875
+    event: 在炼神鼎内接受徐霄大罗道天丹并获救
+    impact:
+    - 建立长期资源关系
+    - 见证徐霄成为至尊仙帝
+    status: verified
 - id: CHAR-0229
   name: 万道
   status: alive
@@ -13864,7 +14077,54 @@ characters:
     status: verified
   related_nodes:
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 861
+  - 870
+  - 875
+  - 876
+  document: null
+  verification_status: verified
+  system_profile:
+    luck_grade: SSS
+    return_multiplier: 100
+    bond: 1
+    status: verified
+  accepted_gifts:
+  - GIFT-0259
+  growth_event:
+  - chapter_range:
+      start: 870
+      end: 876
+    event: 以建立关系换取噬魂血宗救援，后与徐霄正式结为道侣
+    impact:
+    - 噬魂血宗残余高层生还
+    - 进入太初仙帝宫
+    status: verified
+- id: CHAR-0235
+  name: 神无机
+  status: dead
+  role: antagonist
+  affiliations:
+  - 神煞界
+  identities:
+  - 神煞界神王
+  - 气运之子
+  - 炼神鼎持有者
+  first_appearance:
+    chapter: 864
+    title: 炼神鼎
+    node: NODE-0108
+  cultivation:
+    current: 大罗九重
+    status: verified
+  related_nodes:
+  - NODE-0108
+  source_chapters:
+  - 864
+  - 865
+  - 870
+  - 874
+  - 875
   document: null
   verification_status: verified

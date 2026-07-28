@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 90
+  extension_files: 91
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2928,17 +2928,23 @@ artifacts:
   - NODE-0095
   - NODE-0100
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 720
   - 721
   - 760
   - 861
+  - 872
+  - 873
   combat_record:
   - chapter: 760
     event: 击溃猿浩天猿万棍阵并摧毁其肉身及六件至尊仙棍
     status: verified
   - chapter: 861
     event: 以五柄顶级规则道器神剑组成剑阵，摧毁修罗擎天全部法器并绞灭肉身
+    status: verified
+  - chapter: 873
+    event: 绞灭冥法肉身并摧毁其多件规则道器
     status: verified
 - id: ART-0108
   name: 大道山河图
@@ -3634,8 +3640,15 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0106
+  - NODE-0108
   source_chapters:
   - 851
+  - 874
+  - 875
+  combat_record:
+  - chapter: 874
+    event: 与诛仙天冰剑共同击杀黑神、二十余名神煞界大罗及神无机
+    status: verified
 - id: ART-0145
   name: 化仙神炉
   category: 规则道器
@@ -3662,5 +3675,58 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0107
+  - NODE-0108
   source_chapters:
   - 859
+  - 874
+  - 875
+  combat_record:
+  - chapter: 874
+    event: 与诛仙神火剑共同击杀黑神、二十余名神煞界大罗及神无机
+    status: verified
+- id: ART-0147
+  name: 炼神鼎
+  category: 神器
+  grade: 神器
+  first_chapter: 864
+  current_holder: 徐霄
+  acquisition: 击杀神无机后收取
+  effect: 以神煞界界面本源炼成，内部可承载大量大罗阵法并炼化修士灵力、生命本源与神魂
+  current_state: 已收取
+  status: verified
+  related_nodes:
+  - NODE-0108
+  source_chapters:
+  - 864
+  - 865
+  - 870
+  - 874
+  - 875
+- id: ART-0148
+  name: 传送仙台
+  category: 系统道具
+  grade: pending
+  first_chapter: 866
+  current_holder: 徐霄
+  acquisition: 血无涯死亡任务奖励
+  effect: 具体传送范围与使用规则待确认
+  current_state: 已获得
+  status: partial
+  related_nodes:
+  - NODE-0108
+  source_chapters:
+  - 866
+- id: ART-0149
+  name: 鸿蒙仙丹
+  category: 丹药
+  grade: 鸿蒙仙
+  first_chapter: 867
+  current_holder: 徐霄
+  acquisition: 大罗道天丹赠送返还
+  effect: 每颗蕴含精纯灵力及十分之一股鸿蒙真气
+  current_state: 已获得并持续返还
+  status: verified
+  related_nodes:
+  - NODE-0108
+  source_chapters:
+  - 867

@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 96
+  extension_files: 97
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -4238,3 +4238,47 @@ nodes:
   - 三名气运之敌背后的域外天修完整计划
   document: docs/01-timeline/node-0107.md
   evidence: sources/evidence/chapters-854-863.yaml
+- id: NODE-0108
+  title: 炼神鼎浩劫、神煞界覆灭与仙界终局
+  chapters:
+    start: 864
+    end: 876
+  granularity: story_arc
+  status: verified
+  source_qualification: 第864—876章由未过期的一天期正文证据逐章阅读，并与归档逐章SHA-256匹配
+  boundary_reason: 第876章为正文终章，完成炼神鼎危机、神煞界入侵、九大仙域重组、三年跃迁与太初仙帝宫终局；其后转入番外
+  characters:
+  - 徐霄
+  - 神无机
+  - 黑神
+  - 破玄
+  - 冥法
+  - 灵心
+  - 魔无花
+  - 天翎
+  - 狐嫣
+  - 朱圆圆
+  - 朱九彩
+  - 轩辕金花
+  - 血玉罗
+  - 万萱
+  - 云傲
+  - 凤青玄
+  - 雪瑶
+  - 初殷
+  system_events:
+  - event: 血无涯与绝云神死亡结算
+    result: 获得传送仙台并将丹药返还库上限提升至鸿蒙仙
+    status: verified
+  - event: 神无机击杀任务完成
+    result: 系统升级；羁绊度上限提升至3，三级羁绊返还数量增加10倍
+    status: verified
+  - event: 黑神破玄冥法联合任务完成
+    result: 三次返还道具库升级机会暂时保留
+    status: verified
+  relationship_result: 徐霄借炼神鼎救援与六大上宗、轩辕家及多名气运之女建立长期资源关系；最终成为九大仙域至尊仙帝
+  pending:
+  - 三次返还道具库升级机会的最终使用方向
+  - 番外人物关系与黑虫族后续不纳入本正文节点
+  document: docs/01-timeline/node-0108.md
+  evidence: sources/evidence/chapters-864-876.yaml

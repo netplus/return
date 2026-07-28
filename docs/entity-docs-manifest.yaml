@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 234
+    count: 235
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -476,8 +476,10 @@ groups:
       path: docs/02-characters/黑麻仙.md
     - id: CHAR-0234
       path: docs/02-characters/血玉罗.md
+    - id: CHAR-0235
+      path: docs/02-characters/神无机.md
   artifacts:
-    count: 146
+    count: 149
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -773,10 +775,16 @@ groups:
       path: docs/06-artifacts/化仙神炉.md
     - id: ART-0146
       path: docs/06-artifacts/诛仙天冰剑.md
+    - id: ART-0147
+      path: docs/06-artifacts/炼神鼎.md
+    - id: ART-0148
+      path: docs/06-artifacts/传送仙台.md
+    - id: ART-0149
+      path: docs/06-artifacts/鸿蒙仙丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 234
-  growth_events: 965
+  characters_with_growth_line: 235
+  growth_events: 981
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
