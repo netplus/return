@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0123
+artifacts:
+- id: ART-0146
+  name: 诛仙天冰剑
+  category: 神器
+  grade: 神器
+  first_chapter: 859
+  current_holder: 徐霄
+  acquisition: GIFT-0251返还
+  effect: 冰系神器神剑；完整规则与上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0107]
+  source_chapters: [859]
+artifact_updates:
+- id: ART-0136
+  name: 大罗鸿蒙丹
+  update:
+    transfer_event_add: [GIFT-0250]
+    quantity_change_add:
+    - {chapter: 856, delta: 4850, reason: 赠送五十颗并返还四千九百颗, status: verified}
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [855, 856]
+- id: ART-0141
+  name: 天道神威黑冰剑
+  update:
+    transfer_event_add: [GIFT-0251]
+    current_holder_change: 姬雪／雪瑶
+    current_state_change: 已赠送雪瑶并触发神器诛仙天冰剑返还
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [858, 859]
+- id: ART-0107
+  name: 五行道器剑阵
+  update:
+    combat_record_add:
+    - {chapter: 861, event: 以五柄顶级规则道器神剑组成剑阵，摧毁修罗擎天全部法器并绞灭肉身, status: verified}
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [861]

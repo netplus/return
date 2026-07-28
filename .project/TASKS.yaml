@@ -2,7 +2,6 @@ schema_version: 2
 workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0103 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
-- {id: TASK-0098, status: done, run_id: RUN-0112}
 - {id: TASK-0099, status: done, run_id: RUN-0113}
 - {id: TASK-0100, status: done, run_id: RUN-0114}
 - {id: TASK-0101, status: done, run_id: RUN-0115}
@@ -12,20 +11,21 @@ tasks:
 - {id: TASK-0105, status: done, run_id: RUN-0119}
 - {id: TASK-0106, status: done, run_id: RUN-0120}
 - {id: TASK-0107, status: done, run_id: RUN-0121}
-- id: TASK-0108
-  title: Build the Chapter 831 onward story arc
-  type: story_arc
-  status: done
-  completed_at: '2026-07-29'
-  run_id: RUN-0122
-  target: {chapter_start: 831, chapter_end: 853, node: NODE-0106, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0106.md, data/extensions/timeline/run-0122.yaml, data/extensions/characters/run-0122.yaml, data/extensions/system/run-0122.yaml, data/extensions/artifacts/run-0122.yaml, sources/evidence/chapters-831-853.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0107]
+- {id: TASK-0108, status: done, run_id: RUN-0122}
 - id: TASK-0109
   title: Build the Chapter 854 onward仙帝寿宴 story arc
   type: story_arc
-  status: pending
-  target: {chapter_start: 854, provisional_chapter_end: 863, node: NODE-0107, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-29'
+  run_id: RUN-0123
+  target: {chapter_start: 854, chapter_end: 863, node: NODE-0107, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0107.md, data/extensions/timeline/run-0123.yaml, data/extensions/characters/run-0123.yaml, data/extensions/system/run-0123.yaml, data/extensions/artifacts/run-0123.yaml, sources/evidence/chapters-854-863.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0108]
+- id: TASK-0110
+  title: Build the Chapter 864 onward炼神鼎与域外天修 story arc
+  type: story_arc
+  status: pending
+  target: {chapter_start: 864, provisional_chapter_end: 872, node: NODE-0108, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0109]

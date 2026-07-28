@@ -1,38 +1,38 @@
 schema_version: 2
 updated_at: '2026-07-29'
-run_id: RUN-0122
+run_id: RUN-0123
 coverage:
-  chapters_covered_through: 853
-  chapters_promoted_in_run: [831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853]
-  timeline_nodes: 106
+  chapters_covered_through: 863
+  chapters_promoted_in_run: [854, 855, 856, 857, 858, 859, 860, 861, 862, 863]
+  timeline_nodes: 107
   draft_nodes: 0
-  story_arc_nodes: 103
-  characters_documented: 224
+  story_arc_nodes: 104
+  characters_documented: 234
   characters_staged: 0
   system_records: 1
-  gift_events: 249
-  artifact_records: 145
+  gift_events: 251
+  artifact_records: 146
   artifacts_staged: 0
 entity_documents:
-  character_records: 224
-  artifact_records: 145
-  expected_generated_documents: 369
+  character_records: 234
+  artifact_records: 146
+  expected_generated_documents: 380
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
   presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
   growth_line: {mode: stage_summary_plus_append_only_run_history, stage_window_chapters: 50, continuity_effective_run: RUN-0082, temporal_accuracy: no_backfill_from_merged_current_snapshot}
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853], transient_artifacts: [source-chapters-827-876], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第853章完成天羽复合与寿宴出发；第854章转入仙帝寿宴}
-  materiality: {status: passed, entity_updates: [NODE-0106, 九名新人物, 六名既有人物成长更新, GIFT-0241至GIFT-0249, ART-0142至ART-0145]}
+  source_traceability: {status: passed, archive_chapters: [854, 855, 856, 857, 858, 859, 860, 861, 862, 863], transient_artifacts: [source-chapters-827-876], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第863章完成寿宴切磋与仙帝战力公开验证；第864章转入炼神鼎绑架危机}
+  materiality: {status: passed, entity_updates: [NODE-0107, 十名新人物, 四名既有人物成长更新, GIFT-0250至GIFT-0251, ART-0146]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 224, artifacts: 145}
+  entity_document_freshness: {status: passed, characters: 234, artifacts: 146}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 6, timed_growth_events: 6, new_characters_with_first_appearance: 9}
+  character_growth_continuity: {status: passed, material_character_updates: 4, timed_growth_events: 4, new_characters_with_first_appearance: 10}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_and_hashes}
 blockers: []

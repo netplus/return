@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: RUN-0123
+gift_events:
+- id: GIFT-0250
+  chapter: 856
+  node: NODE-0107
+  giver: 徐霄
+  recipient: 初殷
+  gift: 五十颗大罗鸿蒙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及四千九百颗大罗鸿蒙丹
+  triggered_multiplier: 首次万倍暴击与后续100倍结算
+  relationship_result: 初殷与徐霄建立私人传讯及资源关系
+  status: verified
+- id: GIFT-0251
+  chapter: 858
+  node: NODE-0107
+  giver: 徐霄
+  recipient: 姬雪／雪瑶
+  gift: 天道神威黑冰剑
+  accepted: true
+  system_valid: true
+  reward: 神器诛仙天冰剑
+  triggered_multiplier: pending
+  relationship_result: 雪瑶接受规则道器并继续维护徐霄
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0250, GIFT-0251]
+    rule_add:
+    - {chapter: 858, rule: 系统可同时识别三名仙帝级气运之敌并生成联合击杀任务, status: verified}
+    reward_resolution_add:
+    - {chapter: 856, result: 五十颗大罗鸿蒙丹赠送初殷后返还一颗鸿蒙一气丹及四千九百颗大罗鸿蒙丹, status: verified}
+    - {chapter: 858, result: 天道神威黑冰剑赠送雪瑶后返还神器诛仙天冰剑, status: verified}
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [855, 856, 858, 859]
