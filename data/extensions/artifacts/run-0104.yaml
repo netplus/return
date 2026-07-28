@@ -1,0 +1,43 @@
+schema_version: 1
+run_id: RUN-0104
+artifacts:
+- id: ART-0094
+  name: 荡魔真武剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 664
+  current_holder: 徐霄
+  acquisition: GIFT-0170返还
+  effect: 完整能力、剑阵机制与使用上限待后续确认
+  current_state: 已收入徐霄空间库
+  status: partial
+  related_nodes: [NODE-0088]
+  source_chapters: [664]
+- id: ART-0095
+  name: 天仙巅峰魂丹
+  category: 魂丹
+  grade: 天仙巅峰
+  first_chapter: 666
+  current_holder: 邬秋
+  acquisition: GIFT-0171；原始获得链与精确赠送章节待确认
+  effect: 蕴含天仙巅峰层级修为与大道感悟，可作为高阶神魂修炼资源
+  current_state: 已由邬秋持有，尚未确认服用
+  status: partial
+  related_nodes: [NODE-0088]
+  source_chapters: [666]
+artifact_updates:
+- id: ART-0054
+  name: 九天荡魔剑
+  update:
+    current_holder_change: 邬秋
+    transfer_event_add: [GIFT-0170]
+    current_state_change: 第664章由徐霄赠送邬秋作为防身仙剑
+    related_nodes_add: [NODE-0088]
+    source_chapters_add: [664]
+- id: ART-0092
+  name: 玄元仙丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0167, chapter: 663, quantity: 100, status: verified}
+    related_nodes_add: [NODE-0088]
+    source_chapters_add: [663]

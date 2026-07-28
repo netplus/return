@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0103
+run_id: RUN-0104
 coverage:
-  chapters_covered_through: 662
-  chapters_promoted_in_run: [659, 660, 661, 662]
-  timeline_nodes: 87
+  chapters_covered_through: 666
+  chapters_promoted_in_run: [663, 664, 665, 666]
+  timeline_nodes: 88
   draft_nodes: 0
-  story_arc_nodes: 84
-  characters_documented: 158
+  story_arc_nodes: 85
+  characters_documented: 160
   characters_staged: 0
   system_records: 1
-  gift_events: 166
-  artifact_records: 93
+  gift_events: 171
+  artifact_records: 95
   artifacts_staged: 0
 entity_documents:
-  character_records: 158
-  artifact_records: 93
-  expected_generated_documents: 251
+  character_records: 160
+  artifact_records: 95
+  expected_generated_documents: 255
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, archive_chapters: [659, 660, 661, 662], readable_cross_check_chapters: [659, 660, 661, 662], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第662章完成外部保人冲突、资源兑现和返还并返回宗门；第663章转入太上长老审理}
-  materiality: {status: passed, entity_updates: [NODE-0087, 徐霄邬秋东方青洛银纱琉璃惠慈独孤惊云崔云诸葛青天青鸾丁静阴萱成长更新, GIFT-0160至GIFT-0166, ART-0044 ART-0046 ART-0085 ART-0092更新]}
+  source_traceability: {status: passed_with_qualifications, archive_chapters: [663, 664, 665, 666], readable_cross_check_chapters: [663, 664, 665, 666], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第666章完成太上长老保人、邬秋安置和关系认知转折；第667章转入诸葛青天恢复后的新阶段}
+  materiality: {status: passed, entity_updates: [NODE-0088, 道阳真玉新人物, 徐霄邬秋尘玉万青罗方凌白烟罗素成长更新, GIFT-0167至GIFT-0171, ART-0054 ART-0092更新, ART-0094至ART-0095]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 158, artifacts: 93}
+  entity_document_freshness: {status: passed, characters: 160, artifacts: 95}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 12, timed_growth_events: 12, new_characters_with_first_appearance: 0}
+  character_growth_continuity: {status: passed, material_character_updates: 7, timed_growth_events: 7, new_characters_with_first_appearance: 2}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
 blockers: []
