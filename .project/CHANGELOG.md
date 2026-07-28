@@ -1,28 +1,26 @@
 # Changelog
 
-## RUN-0119 — 2026-07-29
+## RUN-0120 — 2026-07-29
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
-- Resumed only the unique pending `TASK-0105`; no completed task, Timeline node or entity ID was duplicated.
-- Reused the one-day Chapters 779—828 artifact and matched Chapters 793—807 to archived per-chapter SHA-256 values.
-- Extended the provisional boundary from Chapter 800 to Chapter 807 because雪瑶仙帝复仇、万妖仙宗太上长老处置、仙帝宫法令冲突、孔青死亡 and系统升级 form one continuous arc; Chapter 808 begins赴飘雪仙域与雪瑶直接问责.
-- Created `NODE-0103`, covering Chapters 793—807.
-- Added朱萧、龙贞、凤四老、孔金 and鹤霜英 as `CHAR-0209`—`CHAR-0213` with chapter-anchored first appearances.
-- Updated徐霄、姬雪、青曼、赤裳、赤澜儿、天翎、万萱、孔青、龙九天、凤溪 and熊大 with timed growth events.
-- Added `GIFT-0223`—`GIFT-0230` and `ART-0133`—`ART-0136`.
-- Recorded徐霄金仙一重、鸿蒙真气七十八股、混元神体、完美破空大道、孔青死亡 and丹药返还库提升至大罗仙.
-- Completed `TASK-0105` and queued only `TASK-0106` beginning at Chapter 808.
+- Resumed only the unique pending `TASK-0106`; no completed task, Timeline node or entity ID was duplicated.
+- Reused the unexpired one-day Chapters 779—828 artifact and matched Chapters 808—821 to archived per-chapter SHA-256 values.
+- Confirmed the adaptive boundary at Chapter 821: 雪瑶加冕、仙帝宫拘禁、大罗鸿蒙丹赠送 and徐霄脱困 form one coherent arc; Chapter 822 begins返回天水城与万妖仙宗.
+- Created `NODE-0104`, covering Chapters 808—821.
+- Added上官清 as `CHAR-0214` with a chapter-anchored first appearance.
+- Updated徐霄、姬雪、天翎、天穹、周紫薇、熊大、龙贞、玄灵、玄雪 and赤裳 with timed growth events.
+- Added `GIFT-0231`—`GIFT-0234`, `ART-0137` 天道神威绝金剑 and `ART-0138` 混元大罗神冰符; updated `ART-0136` 大罗鸿蒙丹.
+- Recorded天穹死亡、符箓阵法返还库提升至大罗仙、雪瑶获得十颗大罗鸿蒙丹 and徐霄脱困.
+- Completed `TASK-0106` and queued only `TASK-0107` beginning at Chapter 822.
+
+## RUN-0119 — 2026-07-29
+
+- Created `NODE-0103`, covering Chapters 793—807; completed `TASK-0105` and queued `TASK-0106`.
+- Added朱萧、龙贞、凤四老、孔金 and鹤霜英; added `GIFT-0223`—`GIFT-0230` and `ART-0133`—`ART-0136`.
 
 ## RUN-0118 — 2026-07-29
 
 - Created `NODE-0102`, covering Chapters 773—792; completed `TASK-0104` and queued `TASK-0105`.
-- Added no new character IDs; appended timed growth events for 徐霄、赤裳、轩辕婉君、轩辕正誉、血无涯、魔无花、凤溪、龙九天、周紫薇 and魔无天.
-- Added `GIFT-0212`—`GIFT-0222` and `ART-0123`—`ART-0132`.
-
-## RUN-0117 — 2026-07-28
-
-- Created `NODE-0101`, covering Chapters 763—772; completed `TASK-0103` and queued `TASK-0104`.
-- Added云花海、轩辕婉君、轩辕正誉、魔无天、朱圆圆、绝云神、万萱 and血无涯.
 
 ## Audit history
 

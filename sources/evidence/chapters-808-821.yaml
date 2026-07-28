@@ -1,0 +1,114 @@
+schema_version: 1
+run_id: RUN-0120
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 808, end: 821}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0801-0850.yaml
+  transient_artifact: source-chapters-779-828
+chapters:
+- chapter: 808
+  title: 坦言刘爱花
+  sha256: f735dbd2484a182ff8977e3b6d102c71d19c10f06ba6d7be08f6dda7bf3f4590
+  source_line_range: {start: 87306, end: 87384}
+  source_char_range: {start: 1837678, end: 1839821}
+  facts: [徐霄向万妖仙宗高层坦言刘爱花可能就是雪瑶仙帝, 高层确认雪瑶问责风险]
+  status: verified
+- chapter: 809
+  title: 龙冥的恐吓
+  sha256: db73e5236acfb710463605eccfc21b24dc3441204fac557152ab3371db96a186
+  source_line_range: {start: 87387, end: 87462}
+  source_char_range: {start: 1839821, end: 1841972}
+  facts: [龙冥说明仙帝宫禁制与大罗仙威胁, 徐霄开始筹备道具库与高层资源策略]
+  status: verified
+- chapter: 810
+  title: 天翎的完美计划
+  sha256: 694270e75adae478b380ef1e5cc6d617e5c6751eeb5b26b028b6911066e08787
+  source_line_range: {start: 87465, end: 87542}
+  source_char_range: {start: 1841972, end: 1844134}
+  facts: [六名高层接受处置天穹的资源委托, 三十颗太乙聚仙丹返还三十颗大罗鸿蒙丹, 天翎接受复合赠礼并与徐霄建立秘密关系]
+  status: verified
+- chapter: 811
+  title: 出发太初仙帝宫
+  sha256: 4f522f6212f271e2cf7e4aa082715ec9883ad1bd9a8d53723f18b7b8582642f0
+  source_line_range: {start: 87545, end: 87621}
+  source_char_range: {start: 1844134, end: 1846332}
+  facts: [大道天金剑返还天道神威绝金剑, 天穹被击杀, 符箓阵法返还库上限提升至大罗仙, 万妖仙宗代表出发]
+  status: verified
+- chapter: 812
+  title: 仙帝姬雪
+  sha256: 58c73ac575ab62b65a608469f07f0733d930b25904fbebf93ef9b425c45e6be4
+  source_line_range: {start: 87624, end: 87701}
+  source_char_range: {start: 1846332, end: 1848541}
+  facts: [周紫薇获赠金仙巅峰冰符并返还混元大罗神冰符, 雪瑶计划接管徐霄关系网络]
+  status: verified
+- chapter: 813
+  title: 卖成仆人
+  sha256: d12e7a7aaabb5b83b2455dd5478cc2cfb253ce73302c24a6812fc176d3b6b8dc
+  source_line_range: {start: 87704, end: 87791}
+  source_char_range: {start: 1848541, end: 1851072}
+  facts: [雪瑶完成加冕, 绝云神被识别为气运之子, 徐霄一行被太初仙帝宫转交为飘雪仙帝宫仆人]
+  status: verified
+- chapter: 814
+  title: 气运之女上官清
+  sha256: 3e381e8464ad3f3fabd26e4710af9f3ca514cef8851e98c2a9a6bc0e6535e7d0
+  source_line_range: {start: 87794, end: 87861}
+  source_char_range: {start: 1851072, end: 1853200}
+  facts: [上官清首次正式登场并被识别为SSS级气运之女, 徐霄说明雪瑶与姬雪身份关系]
+  status: verified
+- chapter: 815
+  title: 舒畅的太初修士
+  sha256: 1fb60926119250239aa4b68c72870150449582c5bc26a6346a0424eade42fabe
+  source_line_range: {start: 87864, end: 87937}
+  source_char_range: {start: 1853200, end: 1855404}
+  facts: [太初仙域确认徐霄一行被留在飘雪仙帝宫, 徐霄与雪瑶正式师徒相认]
+  status: verified
+- chapter: 816
+  title: 安排任务
+  sha256: 801b045a88c78f4cd02ddadba22ca7e255f1909986ead0f9233caad4f9429443
+  source_line_range: {start: 87940, end: 88022}
+  source_char_range: {start: 1855404, end: 1857857}
+  facts: [雪瑶以规则道器束缚徐霄并向众人植入控制阵法, 熊大与多名关系人物被分配仙帝宫职责]
+  status: verified
+- chapter: 817
+  title: 开始丫鬟干活
+  sha256: bf91b22b44064804339fd614e927bce9220aefd5928856ec76f647a1a2d5ed5f
+  source_line_range: {start: 88025, end: 88099}
+  source_char_range: {start: 1857857, end: 1859997}
+  facts: [仙帝宫侍女与仆人任务开始执行, 徐霄安抚众人并寻找脱困方案]
+  status: verified
+- chapter: 818
+  title: 太初仙域狂欢潮
+  sha256: cbba1562d7509c02dd69aabe8534728032c348b0f24e66a6c87f9d3364952161
+  source_line_range: {start: 88102, end: 88187}
+  source_char_range: {start: 1859997, end: 1862185}
+  facts: [雪瑶持续监督并惩戒仙帝宫仆从, 太初仙域因徐霄被处置出现狂欢]
+  status: verified
+- chapter: 819
+  title: 徐霄开始出手
+  sha256: acd3f0f1bc1796471fe1dfd6bce169f2c9744c76fb0f7d8ab7c39e0dc135cd80
+  source_line_range: {start: 88190, end: 88260}
+  source_char_range: {start: 1862185, end: 1864171}
+  facts: [徐霄向雪瑶展示大罗鸿蒙丹, 雪瑶确认丹药蕴含未认主鸿蒙真气]
+  status: verified
+- chapter: 820
+  title: 与师父坦诚布公
+  sha256: 479e76290d7f7ff20c1d0360ab2b2fe28a3726a51cca1fbe48f13a4278689fac
+  source_line_range: {start: 88263, end: 88333}
+  source_char_range: {start: 1864171, end: 1866370}
+  facts: [徐霄赠送雪瑶十颗大罗鸿蒙丹, 系统返还一千颗大罗鸿蒙丹, 雪瑶仍坚持控制徐霄]
+  status: verified
+- chapter: 821
+  title: 终于脱困
+  sha256: 66bf9f7132a4bb72f608ff4a16e279d30b362ac2ae566c2edf282faa2b33ba14
+  source_line_range: {start: 88336, end: 88414}
+  source_char_range: {start: 1866370, end: 1868476}
+  facts: [徐霄借混元破空盘脱离仙帝宫, 雪瑶暂时允许其外出但继续控制留宫众人]
+  status: verified
+boundary_probe: {chapter: 822, title: 返回万妖仙宗}
+boundary_reason: 第821章完成雪瑶问责、大罗鸿蒙丹赠送与徐霄脱困；第822章转入返回天水城和万妖仙宗
+pending: [六名高层预付款精确拆分, 仙帝宫规则道器正式名称, 控制阵法长期效力, 仙帝宫侍女组解除时间]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}

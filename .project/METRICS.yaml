@@ -1,38 +1,38 @@
 schema_version: 2
 updated_at: '2026-07-29'
-run_id: RUN-0119
+run_id: RUN-0120
 coverage:
-  chapters_covered_through: 807
-  chapters_promoted_in_run: [793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807]
-  timeline_nodes: 103
+  chapters_covered_through: 821
+  chapters_promoted_in_run: [808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821]
+  timeline_nodes: 104
   draft_nodes: 0
-  story_arc_nodes: 100
-  characters_documented: 213
+  story_arc_nodes: 101
+  characters_documented: 214
   characters_staged: 0
   system_records: 1
-  gift_events: 230
-  artifact_records: 136
+  gift_events: 234
+  artifact_records: 138
   artifacts_staged: 0
 entity_documents:
-  character_records: 213
-  artifact_records: 136
-  expected_generated_documents: 349
+  character_records: 214
+  artifact_records: 138
+  expected_generated_documents: 352
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
   presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
   growth_line: {mode: stage_summary_plus_append_only_run_history, stage_window_chapters: 50, continuity_effective_run: RUN-0082, temporal_accuracy: no_backfill_from_merged_current_snapshot}
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807], transient_artifacts: [source-chapters-779-828], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第807章完成雪瑶仙帝复仇、宗门高层处置、孔青死亡与系统升级；第808章转入赴飘雪仙域问责}
-  materiality: {status: passed, entity_updates: [NODE-0103, 朱萧龙贞凤四老孔金鹤霜英新人物, 徐霄姬雪青曼赤裳赤澜儿天翎万萱孔青龙九天凤溪熊大成长更新, GIFT-0223至GIFT-0230, ART-0133至ART-0136]}
+  source_traceability: {status: passed, archive_chapters: [808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821], transient_artifacts: [source-chapters-779-828], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第821章完成雪瑶问责、大罗鸿蒙丹赠送与徐霄脱困；第822章转入返回天水城和万妖仙宗}
+  materiality: {status: passed, entity_updates: [NODE-0104, 上官清新人物, 徐霄姬雪天翎天穹周紫薇熊大龙贞玄灵玄雪赤裳成长更新, GIFT-0231至GIFT-0234, ART-0137至ART-0138, ART-0136更新]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 213, artifacts: 136}
+  entity_document_freshness: {status: passed, characters: 214, artifacts: 138}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 11, timed_growth_events: 11, new_characters_with_first_appearance: 5}
+  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 1}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
 blockers: []

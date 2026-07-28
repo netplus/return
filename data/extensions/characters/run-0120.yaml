@@ -1,0 +1,125 @@
+schema_version: 1
+run_id: RUN-0120
+characters:
+- id: CHAR-0214
+  name: 上官清
+  status: alive
+  role: supporting
+  affiliations: [飘雪仙帝宫, 万花仙宗]
+  identities: [雪瑶仙帝核心亲信, 万花仙宗临时掌门, SSS级气运之女]
+  first_appearance: {chapter: 814, title: 气运之女上官清, node: NODE-0104}
+  system_profile: {luck_grade: SSS, return_multiplier: 100, bond: 1, status: verified}
+  related_nodes: [NODE-0104]
+  source_chapters: [814, 815, 816, 817]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821]
+    growth_event_add:
+    - chapter_range: {start: 808, end: 821}
+      event: 直面雪瑶仙帝问责、完成高阶赠送并从仙帝宫脱困
+      impact: 获得一千颗大罗鸿蒙丹、两件大罗层级返还物并暂时摆脱仙帝宫拘禁
+      status: verified
+    ability_change_add: [符箓阵法返还库上限提升至大罗仙, 获得天道神威绝金剑, 获得混元大罗神冰符]
+    resource_change_add: [获得三十颗及一千颗大罗鸿蒙丹]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [808, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821]
+    growth_event_add:
+    - chapter_range: {start: 812, end: 821}
+      event: 完成雪瑶仙帝加冕并接管徐霄及其关系网络
+      impact: 建立飘雪仙帝宫统治秩序，获得十颗大罗鸿蒙丹并继续约束徐霄
+      status: verified
+    accepted_gifts_add: [GIFT-0234]
+    identity_change_add: [正式入驻飘雪仙帝宫]
+- id: CHAR-0172
+  name: 天翎
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [810, 811]
+    growth_event_add:
+    - chapter_range: {start: 810, end: 811}
+      event: 接受祖凤血丹、太乙聚仙丹和大道天金剑
+      impact: 与徐霄建立秘密关系并获得顶级道器
+      status: verified
+    accepted_gifts_add: [GIFT-0232]
+    relationship_change_add: [与徐霄建立秘密情侣关系]
+- id: CHAR-0189
+  name: 天穹
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [810, 811]
+    growth_event_add:
+    - chapter_range: {start: 810, end: 811}
+      event: 被龙贞等六名万妖仙宗高层处置
+      impact: 气运之敌任务完成，人物死亡
+      status: verified
+    status_change_add: [被万妖仙宗高层击杀]
+- id: CHAR-0176
+  name: 周紫薇
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [812, 813, 814, 816, 817, 818, 821]
+    growth_event_add:
+    - chapter_range: {start: 812, end: 821}
+      event: 接受金仙巅峰冰符并被留在飘雪仙帝宫
+      impact: 首次羁绊暴击完成，转为雪瑶仙帝贴身侍女之一
+      status: verified
+    accepted_gifts_add: [GIFT-0233]
+- id: CHAR-0192
+  name: 熊大
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [811, 813, 814, 815, 816, 817, 818, 821]
+    growth_event_add:
+    - chapter_range: {start: 813, end: 821}
+      event: 被雪瑶仙帝留在仙帝宫长期守门
+      impact: 暂时失去万妖仙宗行动自由，承担无轮值守门职责
+      status: verified
+- id: CHAR-0210
+  name: 龙贞
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [808, 809, 810, 811]
+    growth_event_add:
+    - chapter_range: {start: 810, end: 811}
+      event: 接受徐霄资源委托并参与处置天穹
+      impact: 继续成为徐霄在万妖仙宗的高层执行与保护节点
+      status: verified
+    accepted_gifts_add: [GIFT-0231]
+- id: CHAR-0175
+  name: 玄灵
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [811, 814, 816, 817, 818, 821]
+    growth_event_add:
+    - chapter_range: {start: 814, end: 821}
+      event: 被留在飘雪仙帝宫并承担贴身侍奉职责
+      impact: 暂时失去返回万妖仙宗的自由
+      status: verified
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [811, 814, 816, 817, 818, 821]
+    growth_event_add:
+    - chapter_range: {start: 814, end: 821}
+      event: 被留在飘雪仙帝宫负责西部宫殿群花草
+      impact: 暂时失去返回万妖仙宗的自由
+      status: verified
+- id: CHAR-0190
+  name: 赤裳
+  update:
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [811, 814, 816, 817, 818, 821]
+    growth_event_add:
+    - chapter_range: {start: 814, end: 821}
+      event: 被留在飘雪仙帝宫负责广场花草
+      impact: 暂时失去返回万妖仙宗的自由
+      status: verified

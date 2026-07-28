@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0120
+nodes:
+- id: NODE-0104
+  title: 雪瑶仙帝问责、仙帝宫拘禁与徐霄脱困
+  chapters: {start: 808, end: 821}
+  granularity: story_arc
+  status: verified
+  source_qualification: 第808—821章由归档逐章SHA-256及一次性正文产物核验
+  boundary_reason: 第821章完成大罗鸿蒙丹赠送、雪瑶处置与徐霄脱困；第822章转入返回天水城和万妖仙宗
+  characters: [徐霄, 姬雪, 天翎, 天穹, 上官清, 周紫薇, 熊大, 龙贞, 凤四老, 孔金, 鹤霜英, 凤溪, 龙九天, 玄灵, 玄雪, 赤裳, 赤澜儿, 青曼, 雀鸢, 雪小星, 阴萱, 云花海]
+  system_events:
+  - {event: 天穹气运之敌任务完成, result: 符箓阵法返还库上限提升至大罗仙, status: verified}
+  - {event: 大罗鸿蒙丹赠送雪瑶, result: 十颗返还一千颗大罗鸿蒙丹, status: verified}
+  relationship_result: 雪瑶以仙帝身份接管徐霄及其关系网络；徐霄脱困但维持师徒与资源关系
+  pending: [六名高层预付款精确拆分, 仙帝宫规则道器正式名称, 控制阵法长期效力, 仙帝宫侍女组解除时间]
+  document: docs/01-timeline/node-0104.md
+  evidence: sources/evidence/chapters-808-821.yaml
