@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 160
+    count: 165
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -328,8 +328,18 @@ groups:
       path: docs/02-characters/道阳.md
     - id: CHAR-0160
       path: docs/02-characters/真玉.md
+    - id: CHAR-0161
+      path: docs/02-characters/道一.md
+    - id: CHAR-0162
+      path: docs/02-characters/玄清.md
+    - id: CHAR-0163
+      path: docs/02-characters/赤眉.md
+    - id: CHAR-0164
+      path: docs/02-characters/玄蛇.md
+    - id: CHAR-0165
+      path: docs/02-characters/黑无忌-CHAR-0165.md
   artifacts:
-    count: 95
+    count: 97
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -523,10 +533,14 @@ groups:
       path: docs/06-artifacts/荡魔真武剑.md
     - id: ART-0095
       path: docs/06-artifacts/天仙巅峰魂丹.md
+    - id: ART-0096
+      path: docs/06-artifacts/九阴绝寒剑.md
+    - id: ART-0097
+      path: docs/06-artifacts/大道玄冰剑.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 160
-  growth_events: 666
+  characters_with_growth_line: 165
+  growth_events: 685
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

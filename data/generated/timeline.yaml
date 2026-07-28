@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 77
+  extension_files: 78
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3471,3 +3471,43 @@ nodes:
   - 纯阳仙门后续追凶方式
   document: docs/01-timeline/node-0088.md
   evidence: sources/evidence/chapters-663-666.yaml
+- id: NODE-0089
+  title: 地仙跃迁、三宗上门与仙帝传承威慑
+  chapters:
+    start: 667
+    end: 676
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录、仓库归档逐章哈希及可访问正文镜像共同核验第667至676章
+  boundary_reason: 第676章完成三宗败退、徐霄宗门地位重构和内部舆论余波；第677章转入大仙域来人与灵藏危机
+  characters:
+  - 徐霄
+  - 丁静
+  - 诸葛青天
+  - 邬秋
+  - 尘玉
+  - 万青
+  - 罗方
+  - 东方青
+  - 独孤惊云
+  - 崔云
+  - 道一
+  - 玄清
+  - 赤眉
+  - 玄蛇
+  - 黑无忌
+  system_events:
+  - event: 九阴绝寒剑赠送返还
+    result: 返还道器大道玄冰剑
+    status: partial
+  - event: 万佛金身与境界跃迁
+    result: 鸿蒙真气增至五十五股并晋升地仙三重
+    status: partial
+  conflict_result: 徐霄一敌八压制三宗天仙高手，三宗退走并暂时停止追究邬秋
+  pending:
+  - 诸葛青天前世身份与准确境界
+  - 三宗新人物完整面板
+  - 大道玄冰剑完整能力
+  - 八名战败者逐人伤势
+  document: docs/01-timeline/node-0089.md
+  evidence: sources/evidence/chapters-667-676.yaml

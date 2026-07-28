@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 71
+  extension_files: 72
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2082,14 +2082,18 @@ artifacts:
   related_nodes:
   - NODE-0078
   - NODE-0081
+  - NODE-0089
   source_chapters:
   - 599
   - 617
+  - 674
+  - 675
   combat_record:
   - chapter: 617
     event: 一击收纳由血灵宗三名人仙长老融合形成的人仙巅峰血光巨人
     result: 血灵宗最后三名长老伏诛，宗门清剿任务完成
     status: verified
+  - 第674至675章收纳黑无忌等战败者神魂，并在三宗退走前归还
   ability:
   - 五色仙光可跨越人仙层级差距瞬间收纳人仙巅峰目标
 - id: ART-0084
@@ -2274,13 +2278,20 @@ artifacts:
   first_chapter: 653
   current_holder: 徐霄
   acquisition: GIFT-0159首次赠送万倍暴击返还
-  effect: 完整炼体或金身效果、服用条件及境界上限待后续确认
-  current_state: 未确认服用
+  effect:
+  - 完整炼体或金身效果、服用条件及境界上限待后续确认
+  - 佛陀金身进阶形态
+  - 推动徐霄由人仙巅峰晋升地仙三重
+  current_state: 已服用并修成万佛金身
   status: partial
   related_nodes:
   - NODE-0086
+  - NODE-0089
   source_chapters:
   - 653
+  - 667
+  - 668
+  final_user: 徐霄
 - id: ART-0092
   name: 玄元仙丹
   category: 丹药
@@ -2367,3 +2378,32 @@ artifacts:
   - NODE-0088
   source_chapters:
   - 666
+- id: ART-0096
+  name: 九阴绝寒剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 669
+  current_holder: 丁静
+  acquisition: GIFT-0172
+  effect: 冰系至尊仙剑；完整能力、法阵与使用限制待确认
+  current_state: 已由丁静接受
+  status: partial
+  related_nodes:
+  - NODE-0089
+  source_chapters:
+  - 669
+  - 670
+- id: ART-0097
+  name: 大道玄冰剑
+  category: 道器神剑
+  grade: 道器
+  first_chapter: 669
+  current_holder: 徐霄
+  acquisition: GIFT-0172系统返还
+  effect: 玄冰大道类道器；完整能力、法阵与使用限制待确认
+  current_state: 徐霄持有，未确认实战使用
+  status: partial
+  related_nodes:
+  - NODE-0089
+  source_chapters:
+  - 669

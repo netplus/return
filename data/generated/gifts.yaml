@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 68
+  extension_files: 69
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2276,4 +2276,16 @@ gifts:
   reward: pending
   triggered_multiplier: pending
   relationship_result: 邬秋获得长期修炼资源并进一步确认徐霄资源承诺
+  status: partial
+- id: GIFT-0172
+  chapter: 669
+  node: NODE-0089
+  giver: 徐霄
+  recipient: 丁静
+  gift: 至尊仙器九阴绝寒剑
+  accepted: true
+  system_valid: true
+  reward: 道器大道玄冰剑
+  triggered_multiplier: pending
+  relationship_result: 丁静接受徐霄追求并进入长期资源支持关系
   status: partial
