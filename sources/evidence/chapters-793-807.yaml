@@ -1,0 +1,122 @@
+schema_version: 1
+run_id: RUN-0119
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 793, end: 807}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_files:
+  - sources/archive/fanqienovel-7423641263695481880/chapters-0751-0800.yaml
+  - sources/archive/fanqienovel-7423641263695481880/chapters-0801-0850.yaml
+chapters:
+- chapter: 793
+  title: 姬雪动向
+  sha256: acfc263bb5a06e06d7c8ec45e8635c597004eb8d48647cb2252ffbc19ffeab9f
+  source_line_range: {start: 86053, end: 86126}
+  source_char_range: {start: 1803940, end: 1806120}
+  facts: [姬雪恢复完整记忆并离开万妖仙宗寻找前世衣钵, 五十颗金仙道丹赠送姬雪返还一百颗太乙聚仙丹]
+  status: verified
+- chapter: 794
+  title: 雪瑶仙帝
+  sha256: 3874269a44b383fedd95aa01b819bbb041b6299acf48def44c6d2f53d7c745d6
+  source_line_range: {start: 86129, end: 86241}
+  source_char_range: {start: 1806120, end: 1808872}
+  facts: [姬雪恢复雪瑶仙帝真容并达到金仙三重, 青曼与赤裳赠礼分别返还太玄仙体丹和规则道器]
+  status: verified
+- chapter: 795
+  title: 两件大事
+  sha256: 302bc737d932409db6e981b4292b2fd8f40c5312a96e3fdc36eddf562a36d271
+  source_line_range: {start: 86244, end: 86320}
+  source_char_range: {start: 1808872, end: 1810949}
+  facts: [朱萧以至尊太乙噬灵大阵图谋鸿蒙真气, 姬雪以天地人三规则道器破阵并取回二十六丝鸿蒙真气]
+  status: verified
+- chapter: 796
+  title: 四大太上长老
+  sha256: 63d6b20719dd33ecb248e4e05ab133d58eaf83d65fd218f2cfe54823451f4a5a
+  source_line_range: {start: 86323, end: 86401}
+  source_char_range: {start: 1810949, end: 1813272}
+  facts: [万妖仙宗四大太上长老登场, 龙贞与鹤霜英被识别为SSS级气运之女]
+  status: verified
+- chapter: 797
+  title: 送礼彻底摆平
+  sha256: 22f2335911031032c7a1a1439da8b01ccb71eee49ddf446fef9d9c0ab2949159
+  source_line_range: {start: 86404, end: 86474}
+  source_char_range: {start: 1813272, end: 1815395}
+  facts: [徐霄以两轮太乙聚仙丹将六名高层纳入保护网络]
+  status: verified
+- chapter: 798
+  title: 上古祖凤血丹
+  sha256: 66212d29be4aa40b41319c10295dce5e8a33a109dbe3fb6629fec3c923585a9f
+  source_line_range: {start: 86477, end: 86559}
+  source_char_range: {start: 1815395, end: 1817635}
+  facts: [赤澜儿获赠太玄仙体丹, 徐霄晋升玄仙四重并获得混元神体与完美破空大道]
+  status: verified
+- chapter: 799
+  title: 跟着徐哥混，三天饱十顿
+  sha256: 1ab4da5ac7a0a074729c2c6a8c9af3f2a02995dfccc3670f9e44adb99bfe5295
+  source_line_range: {start: 86562, end: 86644}
+  source_char_range: {start: 1817635, end: 1819719}
+  facts: [天翎以释放灵藏人族为条件接受三颗祖凤血丹, 返还一百颗太乙聚仙丹及三百颗祖凤血丹]
+  status: verified
+- chapter: 800
+  title: 飘雪仙域一手情报
+  sha256: d01eccc88b1f89041a452678317e3f265654b6e2121629b065ae061232602d1b
+  source_line_range: {start: 86647, end: 86725}
+  source_char_range: {start: 1819719, end: 1822092}
+  facts: [龙九天提供飘雪仙域内部情报, 雪瑶仙帝复仇已扩展到顶级仙宗]
+  status: verified
+- chapter: 801
+  title: 四大长老出场威慑
+  sha256: dfb9d5e81e2063124ce167b978f8b3d4824b61b3409f1ec945d77fc2cf13540f
+  source_line_range: {start: 86728, end: 86804}
+  source_char_range: {start: 1822092, end: 1824211}
+  facts: [噬魂血宗持仙帝宫旧法令来捉徐霄, 万妖仙宗四大太上长老公开保护圣子]
+  status: verified
+- chapter: 802
+  title: 徐霄出场，心态爆炸
+  sha256: ec47615562f9bf4da56bde4cecb61cda5c436cde12873ba3c532936a15f71430
+  source_line_range: {start: 86807, end: 86886}
+  source_char_range: {start: 1824211, end: 1826506}
+  facts: [龙贞出示更新后的仙帝宫法令, 徐霄与血无涯公开冲突]
+  status: verified
+- chapter: 803
+  title: 打发天玄仙宗
+  sha256: 0fda158e0790a6e14a720d18e17f0733bbb61783fcf88bc9a2c823fa2d0f3f95
+  source_line_range: {start: 86889, end: 86969}
+  source_char_range: {start: 1826506, end: 1828659}
+  facts: [万萱被识别为SSS级气运之女, 天玄仙宗对徐霄卧底叙事提出公开质疑]
+  status: verified
+- chapter: 804
+  title: 孔青上门围堵
+  sha256: 025c9852bd3eff1d7ea3c7c8c509c04b26f995de4cb8d3b3766e4a752fa93ee5
+  source_line_range: {start: 86972, end: 87057}
+  source_char_range: {start: 1828659, end: 1831041}
+  facts: [万萱接受十颗太乙聚仙丹, 孔青组织门人围堵天魁峰]
+  status: verified
+- chapter: 805
+  title: 本天才被你们骗了！
+  sha256: a3e602919bbe6c8a100178e099da16a0e4ba30c0ebcaf913ba46d2001dc0e06e
+  source_line_range: {start: 87060, end: 87143}
+  source_char_range: {start: 1831041, end: 1833210}
+  facts: [徐霄反制围堵并击杀孔青]
+  status: verified
+- chapter: 806
+  title: 大罗鸿蒙丹
+  sha256: b1c2e804f64f39884ec6c349541f7fce8fd6c521b9912f42f2565d50909aec33
+  source_line_range: {start: 87146, end: 87209}
+  source_char_range: {start: 1833210, end: 1835033}
+  facts: [孔青任务完成，丹药返还库上限提升至大罗仙, 高层赠礼返还三十颗大罗鸿蒙丹]
+  status: verified
+- chapter: 807
+  title: 飘雪仙域大战结束
+  sha256: e62e0f180621007db20fd5a1b63e7f3ace31760dfb4bf168fb0f92dcb26d6dc1
+  source_line_range: {start: 87212, end: 87303}
+  source_char_range: {start: 1835033, end: 1837678}
+  facts: [徐霄状态更新为金仙一重、七十八股鸿蒙真气与千万年寿命, 飘雪仙域大战阶段结束并转入雪瑶仙帝邀请]
+  status: verified
+boundary_probe: {chapter: 808, title: 坦言刘爱花}
+boundary_reason: 第807章完成雪瑶仙帝复仇、万妖仙宗高层处置、孔青死亡与返还库升级；第808章转入赴飘雪仙域直面雪瑶仙帝
+pending: [雪瑶仙帝复仇完整伤亡清单, 高层复合赠礼逐人返还拆分, 神霄仙玉舟原始赠礼链]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: 原创摘要、结构化事实、标题、偏移与哈希}
