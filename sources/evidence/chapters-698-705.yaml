@@ -1,0 +1,58 @@
+schema_version: 1
+run_id: RUN-0109
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 698, end: 705}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 698, title: 八大妖族逼宫}
+  - {chapter: 699, title: 天翎长老}
+  - {chapter: 700, title: 生气的凤青玄}
+  - {chapter: 701, title: 天翎灵气血凤}
+  - {chapter: 702, title: 崩溃的天水城妖族}
+  - {chapter: 703, title: 灵植减半}
+  - {chapter: 704, title: 特殊奖励}
+  - {chapter: 705, title: 境界提升，天仙三重}
+  boundary_probe: {chapter: 706, title: 人族养伤小队}
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  chapter_index_files: [sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml, sources/archive/fanqienovel-7423641263695481880/chapters-0701-0750.yaml]
+  chapters_hash_verified: [698, 699, 700, 701, 702, 703, 704, 705]
+readable_cross_check:
+  providers: [CP小说网, 书海阁]
+  chapters_cross_checked: [698, 699, 700, 701, 702, 704, 705]
+chapter_facts:
+- chapter: 698
+  facts: [蜥风死亡后八大妖族开始集体逼宫, 焰灵与徐霄关系继续深化]
+  status: partial
+- chapter: 699
+  facts: [焰灵羁绊度提升至二, 一颗地仙巅峰大道神丹返还一颗鸿蒙一气丹, 天翎通过凤族血令介入]
+  status: verified
+- chapter: 700
+  facts: [天翎要求徐霄与凤青玄分开并承诺处理蜥风事件, 徐霄暂时同意, 凤青玄对此强烈不满]
+  status: partial
+- chapter: 701
+  facts: [系统识别蜥雷为气运之敌并发布击杀任务, 系统识别蜥红蝶为C级气运之女, 八族继续要求关押徐霄]
+  status: verified
+- chapter: 702
+  facts: [天翎灵气血凤介入后天水城执事与妖族立场反转, 赤澜儿铁煞天北鳞转为示好徐霄]
+  status: partial
+- chapter: 703
+  facts: [灵藏人族灵植上缴任务减半, 焰灵与徐霄争执后恢复关系]
+  status: partial
+- chapter: 704
+  facts: [五年时间跳跃, 玄灵玄雪率玄鸟族伏击火蜥族精锐, 蜥雷蜥红蝶进入死亡结算]
+  status: partial
+- chapter: 705
+  facts: [徐霄晋升天仙三重, 鸿蒙真气达到六十一股, 天凤血脉进化为祖凤血脉并获得造化涅槃重生能力, 玄灵境界确认为玄仙六重]
+  status: verified
+boundary_reason: 第705章完成五年跳跃后的任务结算和徐霄境界血脉升级；第706章转入人族养伤小队与边境战事
+pending:
+- 天翎灵气血凤完整能力和限制
+- 蜥雷任务随机道具库升级的具体类别
+- 蜥红蝶死亡特殊补偿的完整奖励拆分
+- 祖凤天血丹完整来源品阶与剩余数量
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
