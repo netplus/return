@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0124
+gift_events:
+- {id: GIFT-0252, chapter: 866, node: NODE-0108, giver: 徐霄, recipient: 魔无花, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 一百颗大罗鸿蒙丹, triggered_multiplier: 2倍, relationship_result: 魔无花脱离炼化危机, status: verified}
+- {id: GIFT-0253, chapter: 867, node: NODE-0108, giver: 徐霄, recipient: 天翎, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 与狐嫣赠礼合计返还二百颗大罗鸿蒙丹, triggered_multiplier: pending, relationship_result: 天翎脱离炼化危机, status: partial}
+- {id: GIFT-0254, chapter: 867, node: NODE-0108, giver: 徐霄, recipient: 狐嫣, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 与天翎赠礼合计返还二百颗大罗鸿蒙丹, triggered_multiplier: pending, relationship_result: 狐嫣脱离炼化危机, status: partial}
+- {id: GIFT-0255, chapter: 867, node: NODE-0108, giver: 徐霄, recipient: 灵心, gift: 十颗大罗道天丹, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹及九颗鸿蒙仙丹, triggered_multiplier: 首次暴击加后续结算, relationship_result: 建立资源关系, status: verified}
+- {id: GIFT-0256, chapter: 868, node: NODE-0108, giver: 徐霄, recipient: 朱圆圆, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 五十颗大罗鸿蒙丹, triggered_multiplier: 1倍, relationship_result: 朱圆圆获救并建立关系, status: verified}
+- {id: GIFT-0257, chapter: 869, node: NODE-0108, giver: 徐霄, recipient: 朱九彩, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 五十颗大罗鸿蒙丹, triggered_multiplier: 1倍, relationship_result: 朱九彩获救并建立关系, status: verified}
+- {id: GIFT-0258, chapter: 869, node: NODE-0108, giver: 徐霄, recipient: 轩辕金花, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: 五十颗大罗鸿蒙丹, triggered_multiplier: 1倍, relationship_result: 轩辕金花获救并推动轩辕家整体获救, status: verified}
+- {id: GIFT-0259, chapter: 870, node: NODE-0108, giver: 徐霄, recipient: 血玉罗, gift: 五十颗太乙聚仙丹, accepted: true, system_valid: true, reward: pending, triggered_multiplier: pending, relationship_result: 血玉罗与徐霄建立关系并换取噬魂血宗救援, status: partial}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0252, GIFT-0253, GIFT-0254, GIFT-0255, GIFT-0256, GIFT-0257, GIFT-0258, GIFT-0259]
+    rule_add:
+    - {chapter: 866, rule: 丹药返还库上限提升至鸿蒙仙, status: verified}
+    - {chapter: 875, rule: 羁绊度上限提升至3；三级羁绊气运之女返还数量额外增加10倍, status: verified}
+    reward_resolution_add:
+    - {chapter: 866, result: 血无涯死亡获得传送仙台；绝云神死亡触发丹药返还库升级, status: verified}
+    - {chapter: 875, result: 击杀黑神破玄冥法获得三次暂存升级机会；击杀神无机完成系统升级, status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 865, 866, 867, 868, 869, 870, 875, 876]
