@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 76
+  extension_files: 77
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2524,4 +2524,54 @@ gifts:
   reward: pending
   triggered_multiplier: pending
   relationship_result: 周紫薇公开支持徐霄并稳定天玄仙宗内部沟通关系
+  status: partial
+- id: GIFT-0194
+  chapter: 729
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 北鳞
+  gift: 三颗玄元仙丹
+  accepted: true
+  system_valid: false
+  reward: none
+  triggered_multiplier: none
+  relationship_result: 北鳞承诺照看徐霄留在天水城的关系人物
+  status: verified
+- id: GIFT-0195
+  chapter: 732
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 赤裳
+  gift: 一颗超绝品质巨型金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一颗道气玄天丹
+  triggered_multiplier: 10000
+  relationship_result: 赤裳停止公开处置并暂时接受徐霄与赤澜儿的关系现实
+  status: verified
+- id: GIFT-0196
+  chapter_range:
+    start: 735
+    end: 736
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 熊大
+  gift: 六颗超绝品质巨型金仙道丹
+  accepted: true
+  system_valid: false
+  reward: none
+  triggered_multiplier: none
+  relationship_result: 徐霄获首席执事身份，青曼、雀鸢、雪小星获得熊大麾下执事席位
+  status: verified
+- id: GIFT-0197
+  chapter: 736
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 雪小星
+  gift: 十颗玄元仙丹、一件顶级至尊仙器及一颗玄仙巅峰大道神丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 雪小星与徐霄确立关系并共同入驻天魁峰
   status: partial

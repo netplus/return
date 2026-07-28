@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 85
+  extension_files: 86
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3779,3 +3779,48 @@ nodes:
   - 万妖仙宗选拔身份兑现
   document: docs/01-timeline/node-0096.md
   evidence: sources/evidence/chapters-723-728.yaml
+- id: NODE-0097
+  title: 万妖仙宗抵达、公开问责与入门选拔
+  chapters:
+    start: 729
+    end: 736
+  granularity: story_arc
+  status: verified
+  source_qualification: 用户提供归档整文件与逐章哈希固定第729—736章；GitHub Actions一天期临时正文产物完成逐章核验
+  boundary_reason: 第736章完成选拔、首席执事与天魁峰入驻；第737章发生三年时间跳跃并转入天翎再次问责
+  characters:
+  - 徐霄
+  - 韵幽
+  - 诸葛青天
+  - 独孤惊云
+  - 天穹
+  - 天翎
+  - 赤裳
+  - 孔玄
+  - 熊大
+  - 魔无花
+  - 雪小星
+  - 金虚
+  - 玄灵
+  - 玄雪
+  - 青曼
+  - 雀鸢
+  - 北鳞
+  system_events:
+  - event: 赤裳首次有效赠送
+    result: 一颗超绝品质金仙道丹万倍暴击返还道气玄天丹
+    status: verified
+  - event: 高阶气运对象识别
+    result: 天翎与赤裳为SSS级一百倍对象，雪小星为A级十倍对象
+    status: verified
+  - event: 道气玄天丹服用
+    result: 五脏五行之气凝成玄仙道气且突破玄仙无瓶颈
+    status: verified
+  relationship_result: 徐霄以资源合作获得熊大首席执事身份并为青曼、雀鸢、雪小星取得执事席位；雪小星与徐霄确立关系
+  pending:
+  - 天凤金光完整机制
+  - 雪小星复合赠礼返还
+  - 顶级至尊仙器正式名称
+  - 天穹魔无花孔玄精确境界
+  document: docs/01-timeline/node-0097.md
+  evidence: sources/evidence/chapters-729-736.yaml

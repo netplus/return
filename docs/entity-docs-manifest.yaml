@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 187
+    count: 194
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -382,8 +382,22 @@ groups:
       path: docs/02-characters/温晴岚.md
     - id: CHAR-0187
       path: docs/02-characters/玉龙.md
+    - id: CHAR-0188
+      path: docs/02-characters/韵幽.md
+    - id: CHAR-0189
+      path: docs/02-characters/天穹.md
+    - id: CHAR-0190
+      path: docs/02-characters/赤裳.md
+    - id: CHAR-0191
+      path: docs/02-characters/孔玄.md
+    - id: CHAR-0192
+      path: docs/02-characters/熊大.md
+    - id: CHAR-0193
+      path: docs/02-characters/魔无花.md
+    - id: CHAR-0194
+      path: docs/02-characters/雪小星.md
   artifacts:
-    count: 109
+    count: 113
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -605,10 +619,18 @@ groups:
       path: docs/06-artifacts/大道山河图.md
     - id: ART-0109
       path: docs/06-artifacts/金仙巅峰魂丹.md
+    - id: ART-0110
+      path: docs/06-artifacts/道气玄天丹.md
+    - id: ART-0111
+      path: docs/06-artifacts/照妖宝镜.md
+    - id: ART-0112
+      path: docs/06-artifacts/雪小星获赠顶级至尊仙器（正式名称待确认）.md
+    - id: ART-0113
+      path: docs/06-artifacts/玄仙巅峰大道神丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 187
-  growth_events: 774
+  characters_with_growth_line: 194
+  growth_events: 799
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
