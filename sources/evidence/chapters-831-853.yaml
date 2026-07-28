@@ -1,0 +1,38 @@
+schema_version: 1
+run_id: RUN-0122
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 831, end: 853}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_files: [sources/archive/fanqienovel-7423641263695481880/chapters-0801-0850.yaml, transient source-chapters-827-876 artifact]
+chapters:
+- {chapter: 831, title: 出发接亲, sha256: 92c06deba2d2caa30c6dfd7501a82da106e6eb349d89a205edde6dea2f18ecc2, source_line_range: {start: 89235, end: 89319}, source_char_range: {start: 1888291, end: 1890375}, facts: [万妖仙宗高层组织轩辕仙城接亲, 狐嫣被识别为SSS级气运之女], status: verified}
+- {chapter: 832, title: 轩辕仙城六宗汇聚, sha256: 2e351512c7cd8440d0923ca3a66719b251164138729d79fbee418dab6f8a7612, source_line_range: {start: 89322, end: 89400}, source_char_range: {start: 1890375, end: 1892577}, facts: [六大上宗强者汇聚轩辕仙城], status: verified}
+- {chapter: 833, title: 雄起的万妖仙宗, sha256: 2a07458378176b6f8675a09bc953880c20287748eaa49294d0bff2e4123b381e, source_line_range: {start: 89403, end: 89493}, source_char_range: {start: 1892577, end: 1894769}, facts: [轩辕金花与轩辕宏接受见面礼并支持接亲], status: verified}
+- {chapter: 834, title: 小试身手, sha256: 73ec7da15b2613ae3e8cc5627fa9f7753178e9c37bdcd2760bc3cd5eddf71a99, source_line_range: {start: 89496, end: 89595}, source_char_range: {start: 1894769, end: 1896796}, facts: [魔无天阻拦接亲后被徐霄击杀], status: verified}
+- {chapter: 835, title: 太乙巅峰符箓, sha256: d78d8c6f8ec61052ff2628459bb3f39790b0d8e2d1cf7920ec34a06d72cd289c, source_line_range: {start: 89598, end: 89700}, source_char_range: {start: 1896796, end: 1899104}, facts: [魔无天气运任务完成并奖励混元破界九霄天梯], status: verified}
+- {chapter: 836, title: 轩辕霄天, sha256: b7c70b46202f52b96a0b5220028d1ac5e43ae6c9cd3d169b74c75f1a13ad398f, source_line_range: {start: 89703, end: 89800}, source_char_range: {start: 1899104, end: 1901255}, facts: [轩辕霄天接受资源并支持婚事], status: verified}
+- {chapter: 837, title: 大婚当日, sha256: 5236627e9a9ab73ffeaceb3a3e504e0bfb2fd3efdb99d74ec51026edc0e32da5, source_line_range: {start: 89803, end: 89903}, source_char_range: {start: 1901255, end: 1903503}, facts: [徐霄与轩辕婉君完成大婚], status: verified}
+- {chapter: 838, title: 仙帝宫叫嚣, sha256: 43d027bd74eb2b46784b5bf4912897a221cc07150e5ade7467e747cc2b1f216c, source_line_range: {start: 89906, end: 89991}, source_char_range: {start: 1903503, end: 1905559}, facts: [魔祖与幽姬在仙帝宫问责万妖仙宗], status: verified}
+- {chapter: 839, title: 悲伤的龙冥, sha256: a24ddc84f1b059965e54e83fcdd185f2048a197a3237e97eeb9da568d732ba4c, source_line_range: {start: 89994, end: 90091}, source_char_range: {start: 1905559, end: 1907734}, facts: [初殷发现大罗道天丹内含鸿蒙真气], status: verified}
+- {chapter: 840, title: 凤青玄的愤怒, sha256: ca965b29fb423aa1f25ea932a949e34ec15ed1ab7ac81ff73cfc583e6e7067cc, source_line_range: {start: 90094, end: 90188}, source_char_range: {start: 1907734, end: 1909846}, facts: [凤青玄获知徐霄近况并准备出关], status: verified}
+- {chapter: 841, title: 刘爱花提分手, sha256: eb52f0d474d4b2a1cbeb705ee5f92e69dd4846b6e6b1bc123d18d835cbefef33, source_line_range: {start: 90191, end: 90272}, source_char_range: {start: 1909846, end: 1911959}, facts: [刘爱花提出分手并获赠规则道器], status: verified}
+- {chapter: 842, title: 十五年后, sha256: 3001709e06365ab578e18c824f562612f2501b596a433424f54ab8c377c928a9, source_line_range: {start: 90275, end: 90373}, source_char_range: {start: 1911959, end: 1914136}, facts: [刘爱花放弃分手, 十五年时间跃迁开始], status: verified}
+- {chapter: 843, title: 宗门开大会, sha256: a2cadb9d1a1b213d9db98e229e7aa05bbd2ad3449e36e5a47d258951fa262a87, source_line_range: {start: 90376, end: 90472}, source_char_range: {start: 1914136, end: 1916405}, facts: [十五年后徐霄晋升太乙仙一重并将鸿蒙真气增至九十股], status: verified}
+- {chapter: 844, title: 天凤族大婚, sha256: aa1b927ae477494b1a0f284fe3233e0828387f9a28adb4a08f2fabeb43da11d2, source_line_range: {start: 90475, end: 90567}, source_char_range: {start: 1916405, end: 1918527}, facts: [天翎与徐霄公开大婚], status: verified}
+- {chapter: 845, title: 凤青玄，出关, sha256: ce8f8ee8db611d985fecefc8e997800de4a492ff5e08500aa31b32c6d17ee710, source_line_range: {start: 90570, end: 90666}, source_char_range: {start: 1918527, end: 1920666}, facts: [凤青玄以天羽身份出关问责], status: verified}
+- {chapter: 846, title: 强强相遇, sha256: 5f3625a756fa9e5e7e17249691b19f1b77b6897ff5f64359143440102323fdad, source_line_range: {start: 90669, end: 90763}, source_char_range: {start: 1920666, end: 1922807}, facts: [凤青玄要求恢复唯一道侣关系], status: verified}
+- {chapter: 847, title: 两人大战, sha256: 92c2f048ceae794f2861c86361b3ae9e35c62f7b6a686f46fd89070100bc2be4, source_line_range: {start: 90766, end: 90852}, source_char_range: {start: 1922807, end: 1925024}, facts: [雪瑶与凤青玄发生神魂大战], status: verified}
+- {chapter: 848, title: 暂时二选一, sha256: ece17c2ad9b7723882769d5108c2975909eb1fe685f6f5404577ab12fe0f6145, source_line_range: {start: 90855, end: 90937}, source_char_range: {start: 1925024, end: 1927158}, facts: [雪瑶公开承认刘爱花身份, 徐霄暂选雪瑶], status: verified}
+- {chapter: 849, title: 雪瑶坦白, sha256: a18718e6bf0f4332bdb26d9d45aa3d75ae7618bb13ec05b176e10f078a558791, source_line_range: {start: 90940, end: 91047}, source_char_range: {start: 1927158, end: 1929770}, facts: [凤青玄公开决裂并返回天凤峰], status: verified}
+- {chapter: 850, title: 凤青玄的态度, sha256: 897503bc32f6ee5fee609e60984daa59c63d08ab63000f50c076f052561b9694, source_line_range: {start: 91050, end: 91137}, source_char_range: {start: 1929770, end: 1931918}, facts: [徐霄进入天凤峰安抚凤青玄], status: verified}
+- {chapter: 851, title: 两人返场, sha256: 2b4da88793431d9f99608bd7008051d33b5ad5aa54735b015dd146dad92ac809, facts: [凤青玄接受复合赠礼并与徐霄复合], status: verified}
+- {chapter: 852, title: 初殷仙帝的心思, sha256: 51cc189b237c7463f4057fac0d0f22394157a3ae902b60bca3b6564937fc19f9, facts: [凤青玄公开恢复道侣关系, 初殷关注徐霄资源], status: verified}
+- {chapter: 853, title: 各方道贺, sha256: 4f6760a89af56a0f962f99e88be1c2cbc1fb321a7e6b78b0ff4960efe2f909b3, facts: [凤青玄获得大罗巅峰大道神丹, 徐霄晋升太乙二重并出发寿宴], status: verified}
+boundary_probe: {chapter: 854, title: 万妖仙宗到, sha256: 3c88f3a1304375fab90e07eb6636614bfff08981d7a30b4425c96a3fec2609e0}
+boundary_reason: 第853章完成十五年跃迁、天羽复合与寿宴出发；第854章正式抵达仙帝寿宴
+pending: [十五年内全部赠礼明细, 徐霄兵解仙帝自述真实性, 化仙神炉完整能力]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
