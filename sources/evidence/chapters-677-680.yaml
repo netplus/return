@@ -1,0 +1,43 @@
+schema_version: 1
+run_id: RUN-0106
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 677, end: 680}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 677, title: 大仙域来人}
+  - {chapter: 678, title: 灵藏沦陷}
+  - {chapter: 679, title: 惊天噩耗，全场心痛}
+  - {chapter: 680, title: 盘龙岛安顿}
+  boundary_probe: {chapter: 681, title: 青鸾妖身}
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  chapter_index: sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml
+  chapter_hashes:
+    677: d2214a02b8707ee3c86f4da5ee50aec3677ace2d9c9e19f794c9d0ff15832aad
+    678: 22634a0f86e0595f6d638cc967e32c7155fbf6bbb2af65ca94e98298c404ee02
+    679: f2fad28127f2d061070553442016c44631096a7a1e4e4cee543680095ed16e26
+    680: c7ecc51c9149cc99986f7ac4b44ac4d8ac179598c4f3cf09acc1d27ce7301a62
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [677, 678, 679, 680]
+chapter_facts:
+- chapter: 677
+  facts: [诸葛青天燃烧寿元恢复天仙巅峰, 获得三柄至尊仙器并仅余四十万年寿元]
+  status: partial
+- chapter: 678
+  facts: [天水城失守且金虚投降妖族, 铁煞天北鳞赤澜儿三名天地玄仙进入灵藏, 七大仙门被迫接受妖族统治]
+  status: partial
+- chapter: 679
+  facts: [凤青玄达到地仙二重并获赠仙元丹, 姬雪以刘爱花身份获赠仙元丹, 阴阳仙门获知灵藏沦陷和地仙以上征调消息]
+  status: partial
+- chapter: 680
+  facts: [徐霄将十一名核心关系人物转移至盘龙岛, 传送仙台留置盘龙岛提供长期资源, 下界成为安全后方]
+  status: partial
+boundary_reason: 第680章完成盘龙岛安顿；第681章转入青鸾妖身与妖族身份谈判
+pending: [三名妖族使者完整面板, 金虚后续处置, 传送仙台精确编号, 避难人物返仙条件]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
