@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0116
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 752, end: 762}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0751-0800.yaml
+chapters:
+- {chapter: 752, title: 徐霄装都不装了, sha256: fdcf2f3fac928a4a1b28549aa3849f1adc8d81e3f395f6a23bb02a879b630d60, facts: [赤裳再次问责, 赤裳和赤澜儿接受高阶丹药, 婚事转入聘礼谈判], status: verified}
+- {chapter: 753, title: 天水城现状, sha256: 1e2248da2ecf472aeaff382c9eca7ce1cb8e1d46321d0cf4fe8652b07b9ebbfe, facts: [熊大成为天魁峰保护盟友, 龙九天考虑徐霄圣子身份, 天水城人族仍受俘虏制度约束], status: verified}
+- {chapter: 754, title: 凄惨的独孤惊云, sha256: 689f47cd29b9eb4aafbc21da5e54d61de10b2124337af2087e6c863ab96acda7, facts: [一年时间跳跃, 徐霄玄仙二重和鸿蒙真气七十二股, 大道山河图击杀独孤惊云, 符箓阵法返还上限提升至太乙仙], status: verified}
+- {chapter: 755, title: 十八峰爆炸, sha256: 2d8c3cc1ba13015f22cf73b6e633c724b6c0fa71c49a042b7a9e592ef83a8bd8, facts: [天穹发动全宗舆论, 天穹被识别为气运之敌, 十八峰开始声讨徐霄], status: verified}
+- {chapter: 756, title: 天门峰，舆论哗然, sha256: 36147c28c9cb8fb243bb01825a31e94a48a1fa4bd41a0dda09797dcdefa8a119, facts: [全宗修士聚集天门峰, 龙九天凤溪讨论平息问责, 长老利益诉求转向徐霄资源], status: verified}
+- {chapter: 757, title: 全宗定罪, sha256: 84d68ef595085d92d7ecb697a566eacd29ae08304a6633c93b12070c7f305daf, facts: [宗门公开定罪压力达到顶点, 徐霄拒绝认罪, 高层准备资源化解], status: verified}
+- {chapter: 758, title: 太乙聚仙丹, sha256: fdce2a51056773c4ce9f4e27757e2dc95c460515c9908c68c3ad7db96ed6df23, facts: [徐霄向龙九天赠送太乙聚仙丹, 龙九天公开认定徐霄无罪, 反徐长老联盟问责失败], status: verified}
+- {chapter: 759, title: 单挑就单挑, sha256: 1e18cea59677d1b51c086604bd60a9f879c3b5583638270a94c5cbf2a358e65d, facts: [猿浩提出单挑, 徐霄接受挑战, 宗门冲突转入公开战斗], status: verified}
+- {chapter: 760, title: 仙帝转世, sha256: 4df3d6db098fabf0f1b9820e6613d751e52d32a327e9257535ec24d0d4df93f0, facts: [徐霄展现万佛金身和五行道器剑阵, 摧毁猿浩肉身及六件至尊仙棍, 公开自称仙帝转世], status: verified}
+- {chapter: 761, title: 爱仙帝大人, sha256: 96b55edbe5218646a8cf9264a892f7437bb1ab5439ccaf2fa039650e36daa9f6, facts: [猿浩仅神魂存活, 龙九天授予徐霄唯一圣子身份, 宗门问责正式反转], status: verified}
+- {chapter: 762, title: 崩溃的万妖仙宗, sha256: 603ff5fc1fe78edecc965adb74fda079a2efa381bcd9e6de6a8ae60e14e92cce, facts: [圣子身份在宗门落地, 天魁峰成为核心据点, 问责阶段完成收束], status: verified}
+boundary_probe: {chapter: 763, title: 云花海来访, sha256: 7f02ac2c8f83ba49acd92e03aac5bdc2dc914741127b43a1d2c6da1b8be4052d}
+boundary_reason: 第762章完成全宗问责、单挑战果和圣子身份落地；第763章转入云花海来访与五灵仙门安置
+pending: [仙帝转世真实性, 四名同行妖修姓名, 猿浩六件至尊仙棍正式名称]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}

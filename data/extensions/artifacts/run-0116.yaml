@@ -1,0 +1,42 @@
+schema_version: 1
+run_id: RUN-0116
+artifacts: []
+artifact_updates:
+- id: ART-0114
+  name: 太乙聚仙丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0203, chapter: 752, quantity: 100, status: verified}
+    transfer_add:
+    - {chapter: 758, recipient: 龙九天, quantity: 1, purpose: 平息宗门问责, status: verified}
+    quantity_change_note_add: [第754章储备明确达到190颗，第758章赠出一颗给龙九天]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752, 754, 758]
+- id: ART-0102
+  name: 金仙道丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0204, chapter: 752, quantity: 50, status: verified}
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752]
+- id: ART-0109
+  name: 金仙巅峰魂丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0204, chapter: 752, quantity: 5, status: verified}
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752]
+- id: ART-0108
+  name: 大道山河图
+  update:
+    usage_add:
+    - {chapter: 754, user: 徐霄, result: 收入并炼化独孤惊云及四名同行妖修, status: verified}
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [754]
+- id: ART-0107
+  name: 五行道器剑阵
+  update:
+    combat_record_add:
+    - {chapter: 760, event: 击溃猿浩天猿万棍阵并摧毁其肉身及六件至尊仙棍, status: verified}
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [760]

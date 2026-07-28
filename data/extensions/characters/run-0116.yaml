@@ -1,0 +1,116 @@
+schema_version: 1
+run_id: RUN-0116
+characters:
+- id: CHAR-0200
+  name: 猿浩
+  status: alive
+  role: supporting
+  affiliations: [万妖仙宗, 天猿族]
+  identities: [万妖仙宗金仙长老, 天猿族长老]
+  first_appearance: {chapter: 756, title: 天门峰，舆论哗然, node: NODE-0100}
+  cultivation: {current: 金仙六重, status: verified}
+  combat_result: {chapter: 760, result: 与徐霄单挑时肉身及六件至尊仙棍被毁，仅神魂存活}
+  related_nodes: [NODE-0100]
+  source_chapters: [756, 757, 758, 759, 760, 761]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 玄仙二重
+    age_change: 1060岁
+    lifespan_change: 剩余5010249年
+    ability_change_add: [鸿蒙真气增至七十二股, 符箓阵法返还库上限提升至太乙仙, 公开展现五行道器剑阵与金仙层级肉身战力]
+    identity_change_add: [公开自称仙帝转世, 获任万妖仙宗唯一圣子]
+    status_change_add: [以大道山河图秘密击杀独孤惊云及四名同行妖修, 击毁猿浩肉身并保留其神魂]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762]
+    growth_event_add:
+    - chapter_range: {start: 752, end: 762}
+      event: 通过资源、战力和宗门政治化解全宗问责并成为万妖仙宗圣子
+      core_ability: [玄仙二重, 鸿蒙真气七十二股, 五行道器剑阵, 金仙层级肉身战力, 太乙仙级符箓阵法返还上限]
+      impact: [清除独孤惊云, 击败金仙六重猿浩, 获得唯一圣子身份, 对宗门资源与政治网络的控制显著增强]
+      status: verified
+- id: CHAR-0156
+  name: 独孤惊云
+  update:
+    status_change: dead
+    cultivation_change: 玄仙一重
+    conflict_change_add: [在万妖森林采集灵草时被徐霄以大道山河图秘密炼化]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [754, 755]
+    growth_event_add:
+    - chapter: 754
+      event: 晋升玄仙后外出寻宝，被徐霄伏击并死亡
+      impact: [反徐阵营最后核心人物消失, 其死亡引发万妖仙宗全宗问责]
+      status: verified
+- id: CHAR-0190
+  name: 天穹
+  update:
+    conflict_change_add: [独孤惊云死亡后发动全宗舆论问责徐霄, 被系统识别为气运之敌]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [755, 756, 757, 758, 759, 761]
+    growth_event_add:
+    - chapter_range: {start: 755, end: 761}
+      event: 因独孤惊云死亡推动宗门定罪徐霄
+      impact: [与徐霄冲突升级为系统气运之敌任务, 问责在太乙聚仙丹与战力展示后失败]
+      status: verified
+- id: CHAR-0198
+  name: 龙九天
+  update:
+    stance_change_add: [接受太乙聚仙丹后公开认定徐霄无罪, 授予其万妖仙宗唯一圣子身份]
+    resource_change_add: [获得一颗太乙聚仙丹]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [753, 756, 757, 758, 759, 760, 761, 762]
+    growth_event_add:
+    - chapter_range: {start: 756, end: 762}
+      event: 处理全宗定罪危机并将徐霄提升为圣子
+      impact: [以掌门权威终止问责, 将徐霄纳入万妖仙宗最高继承培养序列]
+      status: verified
+- id: CHAR-0199
+  name: 凤溪
+  update:
+    stance_change_add: [识别问责背后的资源争夺并支持保留徐霄, 见证其圣子晋升]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [756, 757, 758, 759, 760, 761, 762]
+    growth_event_add:
+    - chapter_range: {start: 756, end: 762}
+      event: 参与处理宗门问责并重新评估徐霄的长期价值
+      impact: [确认徐霄拥有至尊金仙级战力与宗门继承价值]
+      status: verified
+- id: CHAR-0189
+  name: 赤裳
+  update:
+    accepted_gifts_add: [GIFT-0203]
+    stance_change_add: [接受十颗金仙道丹后由问责转为商议赤澜儿聘礼]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752, 761, 762]
+    growth_event_add:
+    - chapter: 752
+      event: 再次问责徐霄并接受十颗金仙道丹
+      impact: [对赤澜儿关系由反对转为聘礼谈判]
+      status: verified
+- id: CHAR-0169
+  name: 赤澜儿
+  update:
+    accepted_gifts_add: [GIFT-0204]
+    relationship_change_add: [与徐霄的公开婚事进入聘礼商议阶段]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752, 756, 761, 762]
+    growth_event_add:
+    - chapter: 752
+      event: 接受高阶丹药并公开坚持与徐霄关系
+      impact: [关系由私下交往推进至赤狐族婚事谈判]
+      status: verified
+- id: CHAR-0193
+  name: 熊大
+  update:
+    relationship_change_add: [进一步成为徐霄在天魁峰的核心行政与保护盟友]
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752, 753, 755, 762]
+    growth_event_add:
+    - chapter_range: {start: 752, end: 762}
+      event: 在问责危机中持续保护和协助徐霄
+      impact: [天魁峰成为徐霄圣子身份落地后的核心据点]
+      status: verified
