@@ -1,0 +1,139 @@
+schema_version: 1
+run_id: RUN-0124
+characters:
+- id: CHAR-0235
+  name: 神无机
+  status: dead
+  role: antagonist
+  affiliations: [神煞界]
+  identities: [神煞界神王, 气运之子, 炼神鼎持有者]
+  first_appearance: {chapter: 864, title: 炼神鼎, node: NODE-0108}
+  cultivation: {current: 大罗九重, status: verified}
+  related_nodes: [NODE-0108]
+  source_chapters: [864, 865, 870, 874, 875]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 大罗仙
+    identity_change_add: [九大仙域至高无上至尊仙帝, 太初仙域仙帝]
+    ability_change_add: [丹药返还库上限提升至鸿蒙仙, 以万佛金身击杀破玄, 以五行规则剑阵击杀冥法, 以完美幻象大道破解黑魂心魔, 以诛仙神火剑与诛仙天冰剑击杀黑神及神无机]
+    relationship_change_add: [与雪瑶羁绊度提升至3, 与凤青玄羁绊度提升至3]
+    growth_event_add:
+    - chapter_range: {start: 864, end: 876}
+      event: 化解炼神鼎浩劫并覆灭神煞界核心，重组九大仙域后于三年内晋升大罗
+      core_ability: [大罗仙, 一百余股鸿蒙真气, 万佛金身, 完美幻象大道, 三件神器]
+      impact: [成为至尊仙帝, 执掌太初仙域, 系统升级, 正文主线完结]
+      status: verified
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876]
+- id: CHAR-0225
+  name: 黑神
+  update:
+    status_change: dead
+    growth_event_add:
+    - {chapter_range: {start: 864, end: 874}, event: 联合神煞界发动炼神鼎计划，黑魂心魔被徐霄破解后遭神器击杀, result: 肉身与神魂俱灭, status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 873, 874]
+- id: CHAR-0226
+  name: 破玄
+  update:
+    status_change: dead
+    growth_event_add:
+    - {chapter_range: {start: 864, end: 872}, event: 以鸿蒙金身挑战徐霄，败于万佛金身并被炼化神魂, result: 死亡, status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 871, 872]
+- id: CHAR-0227
+  name: 冥法
+  update:
+    status_change: dead
+    growth_event_add:
+    - {chapter_range: {start: 864, end: 873}, event: 以弱水、火龙与三才剑阵围攻徐霄，最终被五行剑阵绞灭, result: 死亡, status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 872, 873]
+- id: CHAR-0228
+  name: 灵心
+  update:
+    system_profile: {luck_grade: SSS+, return_multiplier: 100, bond: 1, status: verified}
+    accepted_gifts_add: [GIFT-0255]
+    growth_event_add:
+    - {chapter_range: {start: 867, end: 875}, event: 在炼神鼎内接受徐霄大罗道天丹并获救, impact: [建立长期资源关系, 见证徐霄成为至尊仙帝], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [867, 875]
+- id: CHAR-0193
+  name: 魔无花
+  update:
+    accepted_gifts_add: [GIFT-0252]
+    growth_event_add:
+    - {chapter_range: {start: 866, end: 876}, event: 在炼神鼎内获得五十颗太乙聚仙丹保命，终局迁入太初仙帝宫, impact: [生还, 与徐霄关系继续深化], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [866, 867, 875, 876]
+- id: CHAR-0172
+  name: 天翎
+  update:
+    accepted_gifts_add: [GIFT-0253]
+    growth_event_add:
+    - {chapter_range: {start: 867, end: 876}, event: 在炼神鼎内获赠太乙聚仙丹并随徐霄脱险, impact: [生还, 进入太初仙帝宫终局关系网络], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [867, 875, 876]
+- id: CHAR-0216
+  name: 狐嫣
+  update:
+    accepted_gifts_add: [GIFT-0254]
+    growth_event_add:
+    - {chapter_range: {start: 867, end: 876}, event: 在炼神鼎内获赠太乙聚仙丹并随徐霄脱险, impact: [生还, 进入太初仙帝宫终局关系网络], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [867, 875, 876]
+- id: CHAR-0205
+  name: 朱圆圆
+  update:
+    system_profile: {luck_grade: SSS, return_multiplier: 100, bond: 1, status: verified}
+    accepted_gifts_add: [GIFT-0256]
+    growth_event_add:
+    - {chapter_range: {start: 868, end: 876}, event: 在炼神鼎内获救并与徐霄建立关系，终局进入太初仙帝宫, impact: [四兽仙宗核心人员生还, 成为至尊仙帝关系成员], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [868, 875, 876]
+- id: CHAR-0217
+  name: 轩辕金花
+  update:
+    accepted_gifts_add: [GIFT-0258]
+    growth_event_add:
+    - {chapter_range: {start: 869, end: 876}, event: 在炼神鼎内获赠太乙聚仙丹并推动轩辕家整体获救, impact: [轩辕家生还, 进入太初仙帝宫终局关系网络], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [869, 875, 876]
+- id: CHAR-0234
+  name: 血玉罗
+  update:
+    system_profile: {luck_grade: SSS, return_multiplier: 100, bond: 1, status: verified}
+    accepted_gifts_add: [GIFT-0259]
+    growth_event_add:
+    - {chapter_range: {start: 870, end: 876}, event: 以建立关系换取噬魂血宗救援，后与徐霄正式结为道侣, impact: [噬魂血宗残余高层生还, 进入太初仙帝宫], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [870, 875, 876]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    cultivation_change: 仙帝
+    relationship_change_add: [与徐霄羁绊度提升至3, 怀有徐霄子嗣]
+    growth_event_add:
+    - {chapter_range: {start: 864, end: 876}, event: 炼神鼎脱险后执掌冥幽与金玄两大仙域，并在三年后进入孕期, impact: [成为仙帝, 与徐霄羁绊达到三级], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 875, 876]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    relationship_change_add: [与徐霄羁绊度提升至3, 以雪瑶身份怀有徐霄子嗣]
+    growth_event_add:
+    - {chapter_range: {start: 864, end: 876}, event: 炼神鼎脱险后与徐霄共同重建仙界秩序，三年后进入孕期, impact: [与徐霄羁绊达到三级, 定居太初仙帝宫], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 875, 876]
+- id: CHAR-0222
+  name: 初殷
+  update:
+    identity_change_add: [黑魂仙域仙帝]
+    growth_event_add:
+    - {chapter_range: {start: 864, end: 876}, event: 炼神鼎脱险后接管黑魂仙域并清剿黑神旧部, impact: [由太初仙域仙帝转任黑魂仙域仙帝, 进入徐霄终局关系网络], status: verified}
+    related_nodes_add: [NODE-0108]
+    source_chapters_add: [864, 875, 876]
