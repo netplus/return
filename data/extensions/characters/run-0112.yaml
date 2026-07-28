@@ -1,0 +1,152 @@
+schema_version: 1
+run_id: RUN-0112
+characters:
+- id: CHAR-0184
+  name: 雀鸢
+  status: alive
+  role: supporting
+  affiliations: [火雀族, 妖族阵营]
+  identities: [火雀族族长, A级气运之女]
+  first_appearance: {chapter: 725, title: 最后的谈判, node: NODE-0096}
+  cultivation: {current: 玄仙三重, status: verified}
+  relationship_context: {徐霄: 接受复合高阶赠礼并确立长期关系}
+  accepted_gifts: [GIFT-0192]
+  related_nodes: [NODE-0096]
+  source_chapters: [725]
+  document: null
+  verification_status: verified
+- id: CHAR-0185
+  name: 苏破天
+  status: alive
+  role: supporting
+  affiliations: [天玄仙宗, 人族阵营]
+  identities: [人族最终谈判代表, 天玄仙宗高阶修士]
+  first_appearance: {chapter: 725, title: 最后的谈判, node: NODE-0096}
+  cultivation: {current: 天地玄仙境, exact_level: pending, status: partial}
+  relationship_context: {徐霄: 由敌对审视转为认可其两族沟通价值}
+  related_nodes: [NODE-0096]
+  source_chapters: [725, 726, 727]
+  document: null
+  verification_status: partial
+- id: CHAR-0186
+  name: 温晴岚
+  status: alive
+  role: supporting
+  affiliations: [天玄仙宗, 人族阵营]
+  identities: [天玄仙宗高阶修士, SS级气运之女]
+  first_appearance: {chapter: 727, title: 两族认怂, node: NODE-0096}
+  cultivation: {current: 天地玄仙境, exact_level: pending, status: partial}
+  system_profile: {luck_grade: SS, return_multiplier: 50, bond: 1, status: verified}
+  relationship_context: {徐霄: 支持将其视为两族沟通桥梁并进入系统长期观察范围}
+  related_nodes: [NODE-0096]
+  source_chapters: [727]
+  document: null
+  verification_status: partial
+- id: CHAR-0187
+  name: 玉龙
+  status: alive
+  role: supporting
+  affiliations: [飞云城人族, 妖族阵营]
+  identities: [人族俘虏修士, 青木城战功修士, 万妖仙宗选拔推荐者]
+  first_appearance: {chapter: 728, title: 高兴的灵藏人族, node: NODE-0096}
+  cultivation: {current: 玄仙六重, status: verified}
+  status_change: {chapter: 728, result: 解除俘虏身份并获得万妖仙宗选拔推荐}
+  related_nodes: [NODE-0096]
+  source_chapters: [728]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [完美领悟阵之大道, 鸿蒙真气增至六十六股, 获得大道山河图与金仙巅峰魂丹]
+    identity_change_add: [获得万妖仙宗选拔推荐与两千宗门贡献资格]
+    relationship_change_add: [与雀鸢确立关系, 与温晴岚建立潜在资源关系, 被人妖双方视为特殊沟通桥梁]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 724, 725, 726, 727, 728]
+    growth_event_add:
+    - chapter_range: {start: 723, end: 728}
+      event: 结算战后返还、掌握阵之大道并迫使人妖两族接受其妖族身份路线
+      core_ability: [鸿蒙真气六十六股, 完美阵之大道, 大道山河图, 顶级至尊玄仙符箓威慑]
+      impact: [获得万妖仙宗选拔入口, 成为人妖双方停战后的特殊关系节点, 与雀鸢确立长期关系]
+      status: verified
+- id: CHAR-0178
+  name: 凤天晴
+  update:
+    accepted_gifts_add: [GIFT-0191]
+    stance_change_add: [由强硬问责徐霄关系网络转为接受资源并实施务实约束, 认可其青木城最高战功]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 724, 725, 726, 727, 728]
+    growth_event_add:
+    - chapter_range: {start: 724, end: 728}
+      event: 在战后资源与政治现实下调整对徐霄的处置立场
+      impact: [从要求严惩转为保护停战秩序并推荐徐霄参加万妖仙宗选拔]
+      status: verified
+- id: CHAR-0177
+  name: 孔青
+  update:
+    conflict_change_add: [暗杀计划失败后试图推动徐霄返回人族, 在顶级至尊玄仙符箓威慑下被迫暂时认怂]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [724, 725, 726, 727, 728]
+    growth_event_add:
+    - chapter_range: {start: 724, end: 728}
+      event: 暗杀与政治驱逐计划连续失败
+      impact: [与徐霄的生死冲突持续升级但暂时失去公开处置能力]
+      status: partial
+- id: CHAR-0176
+  name: 周紫薇
+  update:
+    accepted_gifts_add: [GIFT-0193]
+    relationship_change_add: [公开支持徐霄作为人妖沟通桥梁并接受长期资源支持]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [727]
+    growth_event_add:
+    - chapter: 727
+      event: 在最终谈判后公开拥抱徐霄并接受十颗玄元仙丹
+      impact: [与徐霄关系和天玄仙宗内部沟通通道进一步稳定]
+      status: verified
+- id: CHAR-0166
+  name: 金虚
+  update:
+    status_change_add: [因青木城战功解除俘虏身份并获得万妖仙宗选拔推荐]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [725, 728]
+    growth_event_add:
+    - chapter: 728
+      event: 战功结算后解除俘虏身份并进入万妖仙宗选拔序列
+      impact: [由妖族控制下的人族俘虏转为正式妖族阵营成员候选]
+      status: verified
+- id: CHAR-0175
+  name: 玄灵
+  update:
+    identity_change_add: [获得万妖仙宗选拔推荐]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 725, 728]
+    growth_event_add:
+    - chapter: 728
+      event: 以玄鸟族族长身份获得万妖仙宗选拔推荐
+      impact: [玄鸟族正式进入大仙宗身份竞争阶段]
+      status: verified
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    identity_change_add: [获得万妖仙宗选拔推荐]
+    relationship_change_add: [继续接受徐霄资源但对其多重关系保持不满]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 725, 728]
+    growth_event_add:
+    - chapter_range: {start: 723, end: 728}
+      event: 战后获得资源并进入万妖仙宗选拔序列
+      impact: [个人仙路由天水城族长层级转向大仙宗身份竞争]
+      status: partial
+- id: CHAR-0172
+  name: 天翎
+  update:
+    surveillance_change_add: [继续通过金羽小鸟分身监视徐霄并积累其关系网络证据]
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 724, 725]
+    growth_event_add:
+    - chapter_range: {start: 723, end: 725}
+      event: 通过金羽分身持续监视徐霄在青木城的行为
+      impact: [为第729章后万妖仙宗公开问责积累直接证据]
+      status: verified
