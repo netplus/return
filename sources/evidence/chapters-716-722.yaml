@@ -1,0 +1,53 @@
+schema_version: 1
+run_id: RUN-0111
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 716, end: 722}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0701-0750.yaml
+  chapters:
+  - {chapter: 716, title: 终极卧底, sha256: f00d36f14a2130308d2d0331ad85a6c7dd855c0adf65ce7b126d2c06571a0fcd}
+  - {chapter: 717, title: 返还，大道玉衣, sha256: 78fc642f2ac6de0d9b60e8fc754da9f0b6de7467f71bf974c32c009a2aa656a5}
+  - {chapter: 718, title: 人族据点, sha256: 2cc5784c9170878fb82d7c4ccf76a8066eaa8ec3c226478c09316d13e7bad855}
+  - {chapter: 719, title: 前有狼，后有虎, sha256: 0c5e80f6617fee23566e3464083e5e9189228a3496646c197cd82b526a275278}
+  - {chapter: 720, title: 超越天地玄仙的战斗, sha256: 4ccf7175f87f33603ada499b66c7c274ca88f7a8d84ae0cb7af36a51aeafc808}
+  - {chapter: 721, title: 被唬住的诸葛绫, sha256: fa548d7ec13dcfaa23556e26668e47321e833d12f2bd2a3859d6d6e4488f8a0c}
+  - {chapter: 722, title: 返回青木城, sha256: eefe20dc46442c382a15663c08ab54f85c30c4337d6ed52040a268233a061aae}
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters: [716, 717, 718, 719, 720, 721, 722, 723]
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [716, 717, 718, 719, 720, 721, 722]
+chapter_facts:
+- chapter: 716
+  facts: [释放陈大浩神魂并强化终极卧底叙事, 九霄玉舟赠送青曼返还九天青木舟, 通天如意针赠送玄雪]
+  status: verified
+- chapter: 717
+  facts: [青木城妖修舆论与孔青敌意升级, 陈大浩承诺保密卧底身份, 大道玉衣返还到账但原始映射未完整展示]
+  status: partial
+- chapter: 718
+  facts: [天翎派凤天晴制止徐霄继续建立妖族关系, 天翎放出金羽小鸟监视徐霄, 人族据点开始部署截杀]
+  status: verified
+- chapter: 719
+  facts: [天玄仙宗与孔青分别派出暗杀队, 周紫薇与青曼关系线继续推进, 徐霄向青曼配置高阶保命资源]
+  status: partial
+- chapter: 720
+  facts: [三名人族顶级天地玄仙率队进攻阵眼, 徐霄以大道玉衣和高阶法器独自迎战, 妖族暗杀队同步接近]
+  status: verified
+- chapter: 721
+  facts: [徐霄首次施展五行道器剑阵, 击杀大部分人妖伏击者, 诸葛绫被识别为SS级气运之女并获放过]
+  status: verified
+- chapter: 722
+  facts: [周紫薇与徐霄正式确立关系并承诺保密, 诸葛绫撤离并隐瞒战斗真相, 徐霄返回青木城完成身份掩护]
+  status: verified
+boundary_probe:
+  chapter: 723
+  title: 造化滴血重生
+  reason: 转入韵幽关系、丹药返还和造化滴血重生的新阶段
+pending: [大道玉衣原始赠礼与倍率, 通天如意针精确返还, 五行道器逐柄获得链, 陈大浩等次要人物完整面板]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_and_hashes}
