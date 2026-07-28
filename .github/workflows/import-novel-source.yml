@@ -1,16 +1,19 @@
 name: Import novel source index
 
 on:
+  pull_request:
+    paths:
+      - .github/workflows/import-novel-source.yml
   workflow_dispatch:
     inputs:
       artifact_start:
         description: First chapter in the transient evidence window
         required: true
-        default: '581'
+        default: '729'
       artifact_end:
         description: Last chapter in the transient evidence window
         required: true
-        default: '630'
+        default: '778'
 
 permissions:
   contents: write
@@ -22,12 +25,13 @@ jobs:
       - name: Check out selected branch
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref || github.ref_name }}
           fetch-depth: 0
 
       - name: Validate requested window
         env:
-          START: ${{ inputs.artifact_start }}
-          END: ${{ inputs.artifact_end }}
+          START: ${{ inputs.artifact_start || '729' }}
+          END: ${{ inputs.artifact_end || '778' }}
         run: |
           python - <<'PY'
           import os
@@ -41,8 +45,8 @@ jobs:
 
       - name: Download, index, and extract review window
         env:
-          START: ${{ inputs.artifact_start }}
-          END: ${{ inputs.artifact_end }}
+          START: ${{ inputs.artifact_start || '729' }}
+          END: ${{ inputs.artifact_end || '778' }}
         run: |
           python scripts/archive_source_index.py \
             --url 'https://archive.org/download/fanqienovel-7423641263695481880/%E4%B8%87%E5%80%8D%E8%BF%94%E8%BF%98%EF%BC%8C%E5%B9%B4%E8%BF%88%E7%9A%84%E6%88%91%E5%8E%BB%E5%BD%93%E8%88%94%E7%8B%97-2025092121.txt' \
@@ -55,7 +59,7 @@ jobs:
       - name: Upload transient evidence window
         uses: actions/upload-artifact@v4
         with:
-          name: source-chapters-${{ inputs.artifact_start }}-${{ inputs.artifact_end }}
+          name: source-chapters-${{ inputs.artifact_start || '729' }}-${{ inputs.artifact_end || '778' }}
           path: source-artifact/
           retention-days: 1
           if-no-files-found: error
@@ -70,4 +74,4 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add sources/archive
           git commit -m 'chore(source): refresh archived novel metadata index'
-          git push
+          git push origin "HEAD:${{ github.head_ref || github.ref_name }}"
