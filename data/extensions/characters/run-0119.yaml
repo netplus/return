@@ -1,0 +1,227 @@
+schema_version: 1
+run_id: RUN-0119
+characters:
+- id: CHAR-0209
+  name: 朱萧
+  status: unknown
+  role: supporting
+  affiliations:
+  - 飞雪仙宗
+  identities:
+  - 飞雪仙宗第一太上长老
+  - 雪瑶仙帝旧部叛徒
+  first_appearance:
+    chapter: 795
+    title: 两件大事
+    node: NODE-0103
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 795
+  document: null
+  verification_status: partial
+- id: CHAR-0210
+  name: 龙贞
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 龙族
+  identities:
+  - 万妖仙宗太上长老
+  - SSS级气运之女
+  first_appearance:
+    chapter: 796
+    title: 四大太上长老
+    node: NODE-0103
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 796
+  document: null
+  verification_status: verified
+- id: CHAR-0211
+  name: 凤四老
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 天凤族
+  identities:
+  - 万妖仙宗太上长老
+  first_appearance:
+    chapter: 796
+    title: 四大太上长老
+    node: NODE-0103
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 796
+  document: null
+  verification_status: verified
+- id: CHAR-0212
+  name: 孔金
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 孔雀族
+  identities:
+  - 万妖仙宗太上长老
+  first_appearance:
+    chapter: 796
+    title: 四大太上长老
+    node: NODE-0103
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 796
+  document: null
+  verification_status: verified
+- id: CHAR-0213
+  name: 鹤霜英
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 白鹤族
+  identities:
+  - 万妖仙宗太上长老
+  - SSS级气运之女
+  first_appearance:
+    chapter: 796
+    title: 四大太上长老
+    node: NODE-0103
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 796
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807]
+    growth_event_add:
+    - chapter_range: {start: 793, end: 807}
+      event: 完成宗门高层资源整合并击杀孔青
+      impact: 晋升金仙一重，鸿蒙真气增至七十八股，丹药返还库上限提升至大罗仙
+      status: verified
+    cultivation_change: 金仙一重
+    age_change: 1065
+    lifespan_change: 10010244
+    ability_change_add: [鸿蒙真气七十八股, 混元神体, 完美破空大道, 获得三十颗大罗鸿蒙丹]
+    conflict_change_add: [击杀孔青]
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [793, 794, 795, 807]
+    growth_event_add:
+    - chapter_range: {start: 793, end: 807}
+      event: 恢复雪瑶仙帝记忆、衣钵与鸿蒙真气并完成复仇阶段
+      impact: 身份由姬雪/刘爱花彻底回归雪瑶仙帝，恢复仙帝层级主导力
+      status: verified
+    identity_change_add: [雪瑶仙帝转世归来]
+    cultivation_change: 仙帝层级（恢复过程）
+- id: CHAR-0180
+  name: 青曼
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [793, 794]
+    growth_event_add:
+    - chapter_range: {start: 793, end: 794}
+      event: 接受化体神丹
+      impact: 获得提升资质资源并触发太玄仙体丹返还
+      status: verified
+    accepted_gifts_add: [GIFT-0224]
+- id: CHAR-0190
+  name: 赤裳
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [794]
+    growth_event_add:
+    - chapter: 794
+      event: 接受金仙巅峰大道神丹
+      impact: 羁绊度升至2并获得长期道器与丹药支持
+      status: verified
+    accepted_gifts_add: [GIFT-0225]
+    relationship_change_add: [与徐霄羁绊度升至2]
+- id: CHAR-0140
+  name: 赤澜儿
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [798]
+    growth_event_add:
+    - chapter: 798
+      event: 接受太玄仙体丹
+      impact: 获得太玄仙体资源并触发混元神体丹返还
+      status: verified
+    accepted_gifts_add: [GIFT-0227]
+- id: CHAR-0172
+  name: 天翎
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [799, 807]
+    growth_event_add:
+    - chapter_range: {start: 799, end: 807}
+      event: 以三颗祖凤血丹交换释放灵藏人族
+      impact: 晋升太乙仙并承诺解除俘虏身份
+      status: verified
+    accepted_gifts_add: [GIFT-0228]
+    cultivation_change: 太乙仙
+- id: CHAR-0207
+  name: 万萱
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [803, 804]
+    growth_event_add:
+    - chapter_range: {start: 803, end: 804}
+      event: 被识别为SSS级气运之女并接受太乙聚仙丹
+      impact: 转为可持续高阶赠送对象
+      status: verified
+    accepted_gifts_add: [GIFT-0229]
+- id: CHAR-0177
+  name: 孔青
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [804, 805, 806]
+    growth_event_add:
+    - chapter_range: {start: 804, end: 806}
+      event: 带领门人围堵徐霄后被反杀
+      impact: 气运之子任务完成，人物死亡
+      status: verified
+    status_change_add: [被徐霄击杀]
+- id: CHAR-0198
+  name: 龙九天
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [796, 797, 801, 807]
+    growth_event_add:
+    - chapter_range: {start: 796, end: 807}
+      event: 参与四大太上长老处置与仙帝宫法令冲突
+      impact: 由宗门掌门转为徐霄政治保护网络核心之一
+      status: verified
+- id: CHAR-0199
+  name: 凤溪
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [796, 797, 801, 807]
+    growth_event_add:
+    - chapter_range: {start: 796, end: 807}
+      event: 参与高层资源分配和对外法令冲突
+      impact: 继续公开维护徐霄圣子身份
+      status: verified
+- id: CHAR-0192
+  name: 熊大
+  update:
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [793, 807]
+    growth_event_add:
+    - chapter_range: {start: 793, end: 807}
+      event: 继续承担天魁峰后勤并晋升金仙一重
+      impact: 成为徐霄核心后勤与外出行动伙伴
+      status: verified
+    cultivation_change: 金仙一重
