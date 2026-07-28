@@ -9,20 +9,21 @@ tasks:
 - {id: TASK-0093, status: done, run_id: RUN-0107}
 - {id: TASK-0094, status: done, run_id: RUN-0108}
 - {id: TASK-0095, status: done, run_id: RUN-0109}
-- id: TASK-0096
-  title: Build the 人族养伤小队、天水城包围与青木城出发 story arc from Chapter 706 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0110
-  target: {chapter_start: 706, chapter_end: 715, node: NODE-0094, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0094.md, data/extensions/timeline/run-0110.yaml, data/extensions/characters/run-0110.yaml, data/extensions/system/run-0110.yaml, data/extensions/artifacts/run-0110.yaml, sources/evidence/chapters-706-715.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0095]
+- {id: TASK-0096, status: done, run_id: RUN-0110}
 - id: TASK-0097
   title: Build the 终极卧底、大道玉衣与人族据点 story arc from Chapter 716 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 716, provisional_chapter_end: 722, node: NODE-0095, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0111
+  target: {chapter_start: 716, chapter_end: 722, node: NODE-0095, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0095.md, data/extensions/timeline/run-0111.yaml, data/extensions/characters/run-0111.yaml, data/extensions/system/run-0111.yaml, data/extensions/artifacts/run-0111.yaml, sources/evidence/chapters-716-722.yaml]
+  quality_gates: {source_traceability: pending_ci, arc_coherence: passed, materiality: passed, cross_index_consistency: pending_ci, duplicate_work_check: passed, yaml_structure_review: pending_ci, entity_document_freshness: pending_ci, entity_document_readability: pending_ci, character_identity_alignment: pending_ci, character_growth_continuity: pending_ci, growth_temporal_accuracy: pending_ci, copyright_boundary: passed}
   depends_on: [TASK-0096]
+- id: TASK-0098
+  title: Build the 造化滴血重生、妖族大胜与最后谈判 story arc from Chapter 723 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 723, provisional_chapter_end: 728, node: NODE-0096, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0097]
