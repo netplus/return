@@ -1,0 +1,48 @@
+schema_version: 1
+run_id: RUN-0111
+artifacts:
+- id: ART-0105
+  name: 九天青木舟
+  category: 飞舟仙器
+  grade: 至尊仙器
+  first_chapter: 716
+  current_holder: 徐霄
+  acquisition: GIFT-0188返还
+  abilities: [高阶飞行, 具体破界与瞬移能力待确认]
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0095]
+  source_chapters: [716]
+- id: ART-0106
+  name: 大道玉衣
+  category: 防御道器
+  grade: 道器
+  first_chapter: 717
+  current_holder: 徐霄
+  acquisition: 第717章系统返还；原始赠礼和倍率待确认
+  abilities: [可承受天地玄仙及以上攻击, 在第720至721章伏击战中保护徐霄]
+  current_state: 已炼化并投入实战
+  status: partial
+  related_nodes: [NODE-0095]
+  source_chapters: [717, 720, 721]
+- id: ART-0107
+  name: 五行道器剑阵
+  category: 道器剑阵
+  grade: 顶级道器组合
+  first_chapter: 721
+  current_holder: 徐霄
+  acquisition: 大道玄冰剑、大道天金剑、大道天木剑、大道天火剑和大道神土剑组成；逐柄返还链待确认
+  abilities: [五剑齐出形成五行剑阵, 可击毁至尊仙器并泯灭天地玄仙肉身神魂]
+  current_state: 已首次公开实战
+  status: partial
+  related_nodes: [NODE-0095]
+  source_chapters: [720, 721]
+artifact_updates:
+- id: ART-0062
+  name: 九霄玉舟
+  update:
+    current_holder_change: 青曼
+    transfer_event_add: [GIFT-0188]
+    current_state_change: 第716章赠送青曼作为破界移动与保命资源
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [716]
