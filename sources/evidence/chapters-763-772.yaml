@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-0117
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 763, end: 772}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0751-0800.yaml
+  transient_artifact: source-chapters-729-778
+chapters:
+- {chapter: 763, title: 云花海来访, sha256: 7f02ac2c8f83ba49acd92e03aac5bdc2dc914741127b43a1d2c6da1b8be4052d, facts: [云花海为五灵仙门门人安置拜访天魁峰, 徐霄承诺争取解除五灵仙门俘虏身份并提供资源], status: verified}
+- {chapter: 764, title: 轩辕仙城，订婚仪式, sha256: c978a9ab302ff214b277df656a5c739bea58ec8ae5124675386be381fe1da045, facts: [云花海接受复合赠礼并迁入万妖仙宗, 赤狐族接受超品太乙聚仙丹聘礼并完成赤澜儿婚事, 轩辕仙城订婚礼邀请形成], status: verified}
+- {chapter: 765, title: 玄灵拜访, sha256: d534a0d8b3b711debc4b5dd62c2bb98cc26df8ea9fbfbe2068c0ba69daaa4bca, facts: [徐霄晋升玄仙三重并使鸿蒙真气增至七十三股, 雪小星接受玄元仙丹, 玄灵代天翎谈判玄雪聘礼], status: verified}
+- {chapter: 766, title: 九幽血菩提, sha256: c3ff097020b472b3373568a794c76dd71687cf53d6a7ecd4733d32010b366a4d, facts: [玄灵复合赠礼返还祖凤血丹等资源并羁绊提升至二, 天翎接受聘礼并完成玄雪出嫁流程, 凤溪被系统识别为SSS级气运之女], status: verified}
+- {chapter: 767, title: 到达轩辕仙城, sha256: 73b3e02a586f64f18dd78eb04e36c82e3f312ed753416453ec156c6b5030a237, facts: [凤溪接受太乙聚仙丹并返还三千天道丹, 万妖仙宗代表团抵达轩辕仙城, 轩辕婉君被识别为SSS级气运之女], status: verified}
+- {chapter: 768, title: 各大仙宗驾临, sha256: 61cd63597295b67f69ccf63a5ab84ed04b140d14e2d884871f0aa70d378a151f, facts: [六大仙宗陆续抵达轩辕仙城, 魔无天被识别为气运之子并发布击杀任务, 轩辕婉君噬神大道缺陷与徐霄治疗资源形成关联], status: verified}
+- {chapter: 769, title: 百万年人族大计, sha256: 386ac1aaf31942c3bea860a07767342ad89395e396ea2a803abecfe0bf0ee9fb, facts: [四兽仙宗太初仙宗和天玄仙宗代表完成会盟登场, 万萱接受徐霄人族卧底叙事], status: verified}
+- {chapter: 770, title: 太初仙域第一圣子, sha256: 68822869699a99123e5c9daaa1ed250354ce24e068dbe4963ddeca83cc814261, facts: [周紫薇公开接受赠礼, 血无涯被识别为气运之子并发布击杀任务, 太初第一圣子争论爆发], status: verified}
+- {chapter: 771, title: 徐霄不装了, sha256: 5e1b7cf278cfcf46b400c1991d308ae0c9e3e41966c7f32cc6511222d7372063, facts: [熊大公开推举徐霄为太初仙域第一圣子, 徐霄公开进入圣子争夺并展示战力意图], status: verified}
+- {chapter: 772, title: 成功上位, sha256: e9ab28c8ad6c4d071eb225379703982a72f4c60cb9e40a7b15c1cd3c488e0c11, facts: [徐霄击杀噬魂血宗金仙长老并公开展示五件道器与噬神大道, 血无涯停止争夺且徐霄第一圣子名号传开], status: verified}
+boundary_reason: 第772章完成徐霄公开战力与太初第一圣子名号落地；第773章转入拍卖会
+pending: [云花海返还道器仙剑正式名称, 玄灵返还道器正式名称, 轩辕婉君噬神大道缺陷的最终治疗结果, 徐霄太初第一圣子名号是否获六宗正式承认]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
