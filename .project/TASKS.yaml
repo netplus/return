@@ -2,7 +2,6 @@ schema_version: 2
 workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0103 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
-- {id: TASK-0091, status: done, run_id: RUN-0105}
 - {id: TASK-0092, status: done, run_id: RUN-0106}
 - {id: TASK-0093, status: done, run_id: RUN-0107}
 - {id: TASK-0094, status: done, run_id: RUN-0108}
@@ -12,20 +11,21 @@ tasks:
 - {id: TASK-0098, status: done, run_id: RUN-0112}
 - {id: TASK-0099, status: done, run_id: RUN-0113}
 - {id: TASK-0100, status: done, run_id: RUN-0114}
-- id: TASK-0101
-  title: Build the 诸葛青天破釜沉舟、锁妖塔爆炸与后续处置 story arc from Chapter 746 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0115
-  target: {chapter_start: 746, chapter_end: 751, node: NODE-0099, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0099.md, data/extensions/timeline/run-0115.yaml, data/extensions/characters/run-0115.yaml, data/extensions/system/run-0115.yaml, data/extensions/artifacts/run-0115.yaml, sources/evidence/chapters-746-751.yaml]
-  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0100]
+- {id: TASK-0101, status: done, run_id: RUN-0115}
 - id: TASK-0102
   title: Build the 赤裳再问责、天水城现状与后续资源安排 story arc from Chapter 752 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 752, provisional_chapter_end: 760, node: NODE-0100, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0116
+  target: {chapter_start: 752, chapter_end: 762, node: NODE-0100, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0100.md, data/extensions/timeline/run-0116.yaml, data/extensions/characters/run-0116.yaml, data/extensions/system/run-0116.yaml, data/extensions/artifacts/run-0116.yaml, sources/evidence/chapters-752-762.yaml]
+  quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0101]
+- id: TASK-0103
+  title: Build the 云花海来访、灵藏人族安置与轩辕仙城准备 story arc from Chapter 763 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 763, provisional_chapter_end: 771, node: NODE-0101, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0102]
