@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-29'
-last_run_id: RUN-0123
+last_run_id: RUN-0124
 milestone: M18
 workflow:
   standard_version: 2.4
@@ -9,39 +9,35 @@ workflow:
   boundary_mode: adaptive
   standard_document: docs/00-project/WORKFLOW.md
   effective_from_chapter: 4
-indexing:
-  mode: base_plus_extensions
-  extension_document: data/extensions/README.md
+indexing: {mode: base_plus_extensions, extension_document: data/extensions/README.md}
 entity_documents:
   mode: canonical_materialized
   presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
   generator: scripts/render_character_growth.py
   base_renderer: scripts/render_entity_docs.py
   manifest: docs/entity-docs-manifest.yaml
-  character_documents: 234
-  artifact_documents: 146
+  character_documents: 235
+  artifact_documents: 149
   identity_alignment_validator: scripts/validate_entity_identity.py
   growth_continuity_effective_run: RUN-0082
   growth_stage_window_chapters: 50
   growth_temporal_accuracy: no_backfill_from_merged_current_snapshot
 scope: {chapter_start: 851, chapter_end: 876}
 progress:
-  chapters_covered_through: 863
-  chapters_examined_through: 864
+  chapters_covered_through: 876
+  chapters_examined_through: 876
   chapters_verified_through: 16
-  source_qualified_chapter_ranges:
-  - {start: 12, end: 42}
-  - {start: 44, end: 863}
+  source_qualified_chapter_ranges: [{start: 12, end: 42}, {start: 44, end: 876}]
   source_qualification_exceptions: [43]
-  nodes_completed: 107
+  nodes_completed: 108
   nodes_drafted: 0
-  characters_documented: 234
+  characters_documented: 235
   characters_staged: 0
   system_records: 1
-  gift_events: 251
-  artifact_records: 146
+  gift_events: 259
+  artifact_records: 149
   artifacts_staged: 0
-  last_completed_node: NODE-0107
-current: {next_task: TASK-0110, task_status: pending, next_chapter: 864, provisional_arc_end: 872}
-status: active
+  last_completed_node: NODE-0108
+current: {next_task: null, task_status: complete, next_chapter: null, provisional_arc_end: null}
+status: complete
 blockers: []
