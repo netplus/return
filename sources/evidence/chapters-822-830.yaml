@@ -1,0 +1,86 @@
+schema_version: 1
+run_id: RUN-0121
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 822, end: 830}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 524
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0801-0850.yaml
+transient_artifacts:
+- {name: source-chapters-779-828, status: reused_and_hash_checked}
+- {name: source-chapters-827-876, status: generated_after_range_correction_and_hash_checked}
+failed_evidence_attempt:
+  requested_range: {start: 829, end: 878}
+  result: failed
+  reason: 归档正文最大连续章节为第876章，无法完整覆盖829—878
+  remediation: 修正为827—876的连续50章窗口后成功
+chapters:
+- chapter: 822
+  title: 返回万妖仙宗
+  sha256: c0c2048905e951a7daed6b534e735e49395b7fdf017809347c73fc59cdf68709
+  source_line_range: {start: 88417, end: 88499}
+  source_char_range: {start: 1868476, end: 1870801}
+  facts: [徐霄从飘雪仙帝宫脱困后返回灵藏仙域, 徐霄准备将尘玉等人带入万妖仙宗]
+  status: verified
+- chapter: 823
+  title: 天魁峰安排
+  sha256: 9212ef7b3062ea29203353d062632b52822aa12cc00a17c8d7e607a8657fb5e6
+  source_line_range: {start: 88502, end: 88588}
+  source_char_range: {start: 1870801, end: 1872958}
+  facts: [尘玉东方青邹蒙莫问书进入万妖仙宗, 四人获得执事身份并入住天魁峰, 尘玉接受复合高阶赠礼]
+  status: verified
+- chapter: 824
+  title: 安排孔玄
+  sha256: 6559bfb897d90a79d771c94e523e9f7eeecd912868fca521021429999d64606a
+  source_line_range: {start: 88591, end: 88677}
+  source_char_range: {start: 1872958, end: 1875112}
+  facts: [尘玉赠礼结算出金仙道丹金仙巅峰大道神丹及道器, 徐霄以太乙聚仙丹委托六名高层处置孔玄]
+  status: partial
+- chapter: 825
+  title: 凤青玄出关
+  sha256: 37a0f2907ddcf265a48887c71bb0e1a2ab531203f3132d0391838d310bbe54fd
+  source_line_range: {start: 88680, end: 88769}
+  source_char_range: {start: 1875112, end: 1877484}
+  facts: [凤青玄完成历代天凤圣女涅槃融合, 继承天羽身份三十二代圣女记忆及二十三股鸿蒙真气, 蝎晴首次进入当前剧情]
+  status: verified
+- chapter: 826
+  title: 蝎晴到访
+  sha256: 86716db2aea83eb3090cb0a2c47924aef40b4520860c25e9f1b3d4cd05645ab4
+  source_line_range: {start: 88772, end: 88862}
+  source_char_range: {start: 1877484, end: 1879599}
+  facts: [蝎晴作为天毒蝎族金仙六重老祖到访, 尘玉金仙巅峰火符触发首次羁绊万倍暴击并返还混元神火符]
+  status: verified
+- chapter: 827
+  title: 返还两颗鸿蒙一气丹
+  sha256: 405bda645d19b34ef67a9adc36d6b7fcd5f9a5d1dae5a0b9fd417a043198e7de
+  source_line_range: {start: 88865, end: 88965}
+  source_char_range: {start: 1879599, end: 1881824}
+  facts: [蝎晴被识别为SS级气运之女, 金仙道丹赠送返还鸿蒙一气丹和太乙聚仙丹, 大道玄冰剑赠送返还天道神威黑冰剑, 徐霄鸿蒙真气增至八十股]
+  status: verified
+- chapter: 828
+  title: 凤青玄下界
+  sha256: 76d79017ac13f9980d852715c60a69ff24abde1f35ac376cb78631a858964e94
+  source_line_range: {start: 88968, end: 89060}
+  source_char_range: {start: 1881824, end: 1884044}
+  facts: [凤青玄以分魂下界前往盘龙岛, 徐霄与蝎晴关系确立, 凤青玄开始调查徐霄下界秘密]
+  status: verified
+- chapter: 829
+  title: 盘龙岛秘密曝光
+  sha256: ace601472b3b9909b30a749694d8f5b549adfa4538e1dca00146da62eee786d6
+  source_line_range: {start: 89063, end: 89144}
+  source_char_range: {start: 1884044, end: 1886161}
+  facts: [凤青玄取得天地灵根类规则道器及五道无主鸿蒙真气, 盘龙岛秘密关系网络被凤青玄掌握, 魔无花接受太乙聚仙丹及回归魔罗圣门承诺]
+  status: partial
+- chapter: 830
+  title: 解决孔玄，升级神器
+  sha256: 1c55dfb9e24a372db14157cfc97cccf863b2c8ef301b7271c527621e9f19e218
+  source_line_range: {start: 89147, end: 89232}
+  source_char_range: {start: 1886161, end: 1888291}
+  facts: [孔玄被万妖仙宗高层处置并死亡, 法器返还库上限提升至神器, 徐霄晋升金仙二重, 徐霄鸿蒙真气增至八十一股]
+  status: verified
+boundary_probe: {chapter: 831, title: 出发接亲}
+boundary_reason: 第830章完成孔玄处置、任务结算及法器返还库升级；第831章转入轩辕仙城接亲与六宗汇聚
+pending: [尘玉返还道器正式名称与能力, 凤青玄规则道器正式名称和炼化结果, 孔玄具体死亡过程, 魔无花羁绊返还精确时点]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
