@@ -1,0 +1,15 @@
+schema_version: 1
+run_id: RUN-0109
+gift_events:
+- {id: GIFT-0181, chapter: 699, node: NODE-0093, giver: 徐霄, recipient: 焰灵, gift: 一颗地仙巅峰大道神丹, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹, triggered_multiplier: 10000, status: verified}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0181]
+    enemy_task_add:
+    - {chapter: 701, target: 蜥雷, identity: 火蜥族族长, reward: 返还道具库随机升级, result: 第704—705章阶段经玄鸟族伏击完成, status: partial}
+    special_resolution_add:
+    - {chapter_range: {start: 704, end: 705}, target: 蜥红蝶, identity: C级气运之女, event: 未建立赠送关系前死亡后系统给予特殊补偿, reward_breakdown: pending, status: partial}
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [699, 701, 704, 705]
