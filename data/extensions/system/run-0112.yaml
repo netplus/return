@@ -1,0 +1,66 @@
+schema_version: 1
+run_id: RUN-0112
+gift_events:
+- id: GIFT-0190
+  chapter: 723
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 韵幽
+  gift: 先前赠送仙丹（正式名称与数量待确认）
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及四十五颗金仙道丹
+  triggered_multiplier: pending
+  relationship_result: 徐霄与韵幽关系持续加深
+  status: partial
+- id: GIFT-0191
+  chapter: 724
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 凤天晴
+  gift: 十颗超品玄元仙丹及一颗玄仙顶级大道神丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 凤天晴由强硬问责转为务实约束并接受徐霄战功地位
+  status: partial
+- id: GIFT-0192
+  chapter: 725
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 雀鸢
+  gift: 仙丹、九霄山河图及玄仙巅峰魂丹复合赠礼
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹、九颗金仙道丹、道器大道山河图及金仙巅峰魂丹
+  triggered_multiplier: partial
+  relationship_result: 雀鸢与徐霄正式确立长期关系
+  status: verified
+- id: GIFT-0193
+  chapter: 727
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 周紫薇
+  gift: 十颗玄元仙丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 周紫薇公开支持徐霄并稳定天玄仙宗内部沟通关系
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0190, GIFT-0191, GIFT-0192, GIFT-0193]
+    rule_add:
+    - chapter: 727
+      rule: 系统可在最终谈判场景继续识别新的高阶气运对象；温晴岚被识别为SS级、50倍返还、羁绊度一
+      status: verified
+    reward_resolution_add:
+    - chapter: 725
+      result: 雀鸢复合赠礼分别返还修炼丹药、道器大道山河图与金仙巅峰魂丹
+      status: verified
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 724, 725, 727]

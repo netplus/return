@@ -1,0 +1,80 @@
+schema_version: 1
+run_id: RUN-0112
+artifacts:
+- id: ART-0108
+  name: 大道山河图
+  category: 道器
+  grade: 道器
+  first_chapter: 725
+  current_holder: 徐霄
+  acquisition: GIFT-0192返还
+  effect: 山河空间类道器；完整世界规则、镇压能力与上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0096]
+  source_chapters: [725]
+- id: ART-0109
+  name: 金仙巅峰魂丹
+  category: 丹药
+  grade: 金仙巅峰
+  first_chapter: 725
+  current_holder: 徐霄
+  acquisition: GIFT-0192中玄仙巅峰魂丹赠送返还
+  effect: 金仙巅峰层级神魂资源；完整效果与使用对象待确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes: [NODE-0096]
+  source_chapters: [725]
+artifact_updates:
+- id: ART-0083
+  name: 九霄山河图
+  update:
+    transfer_event_add: [GIFT-0192]
+    current_holder_change: 雀鸢
+    current_state_change: 已赠送雀鸢并触发大道山河图返还
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [725]
+- id: ART-0078
+  name: 三千天道丹
+  update:
+    usage_add:
+    - chapter: 725
+      user: 徐霄
+      result: 完美领悟阵之大道
+      status: verified
+    current_state_change: 已服用本阶段确认的一颗
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [725]
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - gift_id: GIFT-0190
+      chapter: 723
+      quantity: 1
+      status: partial
+    - gift_id: GIFT-0192
+      chapter: 725
+      quantity: 1
+      status: verified
+    usage_add:
+    - chapter: 725
+      user: 徐霄
+      result: 鸿蒙真气增至六十六股
+      status: verified
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 725]
+- id: ART-0102
+  name: 金仙道丹
+  update:
+    acquisition_add:
+    - gift_id: GIFT-0190
+      chapter: 723
+      quantity: 45
+      status: partial
+    - gift_id: GIFT-0192
+      chapter: 725
+      quantity: 9
+      status: verified
+    related_nodes_add: [NODE-0096]
+    source_chapters_add: [723, 725]

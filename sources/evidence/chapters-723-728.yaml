@@ -1,0 +1,71 @@
+schema_version: 1
+run_id: RUN-0112
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 723, end: 728}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0701-0750.yaml
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 723, title: 造化滴血重生}
+  - {chapter: 724, title: 两个月，妖族大胜}
+  - {chapter: 725, title: 最后的谈判}
+  - {chapter: 726, title: 全场瑟瑟发抖}
+  - {chapter: 727, title: 两族认怂}
+  - {chapter: 728, title: 高兴的灵藏人族}
+  boundary_probe: {chapter: 729, title: 到达万妖仙宗}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [723, 724, 725, 726, 727, 728]
+chapters:
+- chapter: 723
+  title: 造化滴血重生
+  sha256: d68f850c6afb907f379cb420a7cb3aefdf481f2e040e20ec9a26a016754bf055
+  source_line_range: {start: 79607, end: 79698}
+  source_char_range: {start: 1647222, end: 1649508}
+  facts: [先前仙丹赠送结算为一颗鸿蒙一气丹及四十五颗金仙道丹, 天翎继续通过金羽分身监视徐霄, 青木城统计阵眼战功]
+  status: partial
+- chapter: 724
+  title: 两个月，妖族大胜
+  sha256: b0ee9198496d31cf95ffa076228d0fd2e2dad59fef43b69ae9035c67deaf7b62
+  source_line_range: {start: 79701, end: 79791}
+  source_char_range: {start: 1649508, end: 1651723}
+  facts: [两个月后妖族取得前线决定性优势, 凤天晴公开问责徐霄关系网络, 徐霄向凤天晴赠送超品玄元仙丹和玄仙顶级大道神丹]
+  status: verified
+- chapter: 725
+  title: 最后的谈判
+  sha256: e8d52bb19b33cd3e1c96d1483a457e8fc620f4be283b6876dd78443ac080bc90
+  source_line_range: {start: 79794, end: 79908}
+  source_char_range: {start: 1651723, end: 1654647}
+  facts: [雀鸢确认为A级气运之女和玄仙三重火雀族族长, 复合赠礼返还大道山河图与金仙巅峰魂丹等资源, 徐霄鸿蒙真气增至六十六股, 徐霄完美领悟阵之大道, 人妖双方开始最终谈判]
+  status: verified
+- chapter: 726
+  title: 全场瑟瑟发抖
+  sha256: 6112dceb67173adadff837a6b8d61fa841cf21a13214a476bc266c46da9701f0
+  source_line_range: {start: 79911, end: 79991}
+  source_char_range: {start: 1654647, end: 1656777}
+  facts: [人族要求徐霄回归但徐霄拒绝, 妖族试图劝离徐霄, 徐霄坚持以天水城和万妖仙宗为当前发展路径]
+  status: verified
+- chapter: 727
+  title: 两族认怂
+  sha256: fb3c7c5390399cbde15eed5419e3122c10d41f86d29066ce90b607036ee66c0f
+  source_line_range: {start: 79994, end: 80076}
+  source_char_range: {start: 1656777, end: 1658803}
+  facts: [顶级至尊玄仙符箓迫使孔青及妖族代表暂时认怂, 人族代表将徐霄视为两族沟通桥梁, 温晴岚被识别为SS级气运之女, 周紫薇接受十颗玄元仙丹]
+  status: verified
+- chapter: 728
+  title: 高兴的灵藏人族
+  sha256: 77c2967d8e8b4ef6f0fe8d45a0f157775aa564302f9a47b39d1afd008092b122
+  source_line_range: {start: 80079, end: 80167}
+  source_char_range: {start: 1658803, end: 1661144}
+  facts: [青木城战功正式结算, 玉龙金虚等人解除俘虏身份, 多名人族与妖族修士获得万妖仙宗选拔推荐, 徐霄因最高战功获得选拔推荐与两千宗门贡献资格]
+  status: verified
+boundary_reason: 第728章完成两族停战、战功结算和万妖仙宗选拔推荐；第729章转入抵达万妖仙宗的新地点与选拔阶段
+pending: [原始仙丹赠送链, 凤天晴复合赠礼返还, 周紫薇赠礼返还, 顶级至尊玄仙符箓正式名称与来源]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
