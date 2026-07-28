@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 78
+  extension_files: 79
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1040,6 +1040,14 @@ artifacts:
   - gift_id: GIFT-0186
     chapter: 713
     quantity: 1
+  - gift_id: GIFT-0190
+    chapter: 723
+    quantity: 1
+    status: partial
+  - gift_id: GIFT-0192
+    chapter: 725
+    quantity: 1
+    status: verified
   effect: 激活后形成九天金莲护体，侧重防御
   complete_defense_limit: pending
   refinement_status: pending
@@ -1057,6 +1065,7 @@ artifacts:
   - NODE-0092
   - NODE-0093
   - NODE-0094
+  - NODE-0096
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1077,6 +1086,8 @@ artifacts:
   - 699
   - 708
   - 713
+  - 723
+  - 725
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -1122,6 +1133,11 @@ artifacts:
     result: 鸿蒙真气增至六十三股
   quantity_change_note:
   - 第662章新增两颗返还
+  usage:
+  - chapter: 725
+    user: 徐霄
+    result: 鸿蒙真气增至六十六股
+    status: verified
 - id: ART-0045
   name: 雷灵丹
   category: 丹药
@@ -2047,6 +2063,7 @@ artifacts:
   - NODE-0076
   - NODE-0077
   - NODE-0084
+  - NODE-0096
   source_chapters:
   - 574
   - 575
@@ -2054,16 +2071,22 @@ artifacts:
   - 594
   - 595
   - 643
+  - 725
   effect_change:
   - 使徐霄完美领悟剑之大道
   use:
   - 第595章由徐霄服用并完美领悟力之大道
-  current_state_change: 再次返还的一颗已消耗
+  current_state_change: 已服用本阶段确认的一颗
   consumption:
   - chapter: 643
     consumer: 徐霄
     result: 完美领悟遁之大道
     status: partial
+  usage:
+  - chapter: 725
+    user: 徐霄
+    result: 完美领悟阵之大道
+    status: verified
 - id: ART-0079
   name: 罗素获赠顶级仙器（正式名称待确认）
   category: 仙器
@@ -2144,12 +2167,14 @@ artifacts:
   - NODE-0081
   - NODE-0089
   - NODE-0090
+  - NODE-0096
   source_chapters:
   - 599
   - 617
   - 674
   - 675
   - 680
+  - 725
   combat_record:
   - chapter: 617
     event: 一击收纳由血灵宗三名人仙长老融合形成的人仙巅峰血光巨人
@@ -2162,6 +2187,10 @@ artifacts:
   - chapter: 680
     event: 收纳十一名核心关系人物并配合九霄天梯完成下界转移
     status: partial
+  transfer_event:
+  - GIFT-0192
+  current_holder_change: 雀鸢
+  current_state_change: 已赠送雀鸢并触发大道山河图返还
 - id: ART-0084
   name: 地仙巅峰魂丹
   category: 丹药
@@ -2591,17 +2620,29 @@ artifacts:
   grade: 金仙层级
   first_chapter: 706
   current_holder: 徐霄
-  acquisition: GIFT-0182、GIFT-0183及GIFT-0186返还，合计一百三十四颗
+  acquisition:
+  - GIFT-0182、GIFT-0183及GIFT-0186返还，合计一百三十四颗
+  - gift_id: GIFT-0190
+    chapter: 723
+    quantity: 45
+    status: partial
+  - gift_id: GIFT-0192
+    chapter: 725
+    quantity: 9
+    status: verified
   effect: 金仙层级修炼丹药；完整效果与适用限制待确认
   quantity: 134
   current_state: 未确认服用
   status: partial
   related_nodes:
   - NODE-0094
+  - NODE-0096
   source_chapters:
   - 706
   - 708
   - 713
+  - 723
+  - 725
 - id: ART-0103
   name: 太初仙体丹
   category: 丹药
@@ -2682,3 +2723,31 @@ artifacts:
   source_chapters:
   - 720
   - 721
+- id: ART-0108
+  name: 大道山河图
+  category: 道器
+  grade: 道器
+  first_chapter: 725
+  current_holder: 徐霄
+  acquisition: GIFT-0192返还
+  effect: 山河空间类道器；完整世界规则、镇压能力与上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes:
+  - NODE-0096
+  source_chapters:
+  - 725
+- id: ART-0109
+  name: 金仙巅峰魂丹
+  category: 丹药
+  grade: 金仙巅峰
+  first_chapter: 725
+  current_holder: 徐霄
+  acquisition: GIFT-0192中玄仙巅峰魂丹赠送返还
+  effect: 金仙巅峰层级神魂资源；完整效果与使用对象待确认
+  current_state: 未确认使用
+  status: partial
+  related_nodes:
+  - NODE-0096
+  source_chapters:
+  - 725

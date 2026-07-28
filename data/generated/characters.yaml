@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 84
+  extension_files: 85
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -165,6 +165,7 @@ characters:
   - NODE-0093
   - NODE-0094
   - NODE-0095
+  - NODE-0096
   source_chapters:
   - 1
   - 2
@@ -848,6 +849,12 @@ characters:
   - 720
   - 721
   - 722
+  - 723
+  - 724
+  - 725
+  - 726
+  - 727
+  - 728
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -927,6 +934,9 @@ characters:
   - 被周紫薇视为人族高层卧底
   - 与周紫薇正式确立关系
   - 取得诸葛绫对卧底身份的保密
+  - 与雀鸢确立关系
+  - 与温晴岚建立潜在资源关系
+  - 被人妖双方视为特殊沟通桥梁
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -1128,6 +1138,9 @@ characters:
   - 获得大道玉衣
   - 首次施展五行道器剑阵
   - 战力达到至尊玄仙威慑层级
+  - 完美领悟阵之大道
+  - 鸿蒙真气增至六十六股
+  - 获得大道山河图与金仙巅峰魂丹
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1531,6 +1544,20 @@ characters:
     - 孔青暗杀力量被清除
     - 与周紫薇关系正式确立
     status: verified
+  - chapter_range:
+      start: 723
+      end: 728
+    event: 结算战后返还、掌握阵之大道并迫使人妖两族接受其妖族身份路线
+    core_ability:
+    - 鸿蒙真气六十六股
+    - 完美阵之大道
+    - 大道山河图
+    - 顶级至尊玄仙符箓威慑
+    impact:
+    - 获得万妖仙宗选拔入口
+    - 成为人妖双方停战后的特殊关系节点
+    - 与雀鸢确立长期关系
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1540,6 +1567,7 @@ characters:
   identity_change:
   - 柳清浅第三名亲传弟子
   - 阴阳仙门内门执法执事
+  - 获得万妖仙宗选拔推荐与两千宗门贡献资格
   assessment_result:
   - event: 阴阳仙门道侣大会六维评测
     result: 天资样貌肉身法器气运修为六项全部甲，天资与气运为金色
@@ -9998,6 +10026,7 @@ characters:
   - NODE-0091
   - NODE-0092
   - NODE-0094
+  - NODE-0096
   source_chapters:
   - 678
   - 685
@@ -10013,6 +10042,8 @@ characters:
   - 711
   - 712
   - 715
+  - 725
+  - 728
   verification_status: partial
   role_change:
   - 负责统计灵藏七宗每年上交灵植数量
@@ -10039,7 +10070,14 @@ characters:
     impact:
     - 灵藏七宗尝试以战功换取正式宗门身份
     status: partial
+  - chapter: 728
+    event: 战功结算后解除俘虏身份并进入万妖仙宗选拔序列
+    impact:
+    - 由妖族控制下的人族俘虏转为正式妖族阵营成员候选
+    status: verified
   cultivation_change: 玄仙五重
+  status_change:
+  - 因青木城战功解除俘虏身份并获得万妖仙宗选拔推荐
 - id: CHAR-0167
   name: 铁煞天
   status: alive
@@ -10222,6 +10260,7 @@ characters:
   - NODE-0093
   - NODE-0094
   - NODE-0095
+  - NODE-0096
   source_chapters:
   - 688
   - 691
@@ -10238,6 +10277,9 @@ characters:
   - 709
   - 710
   - 716
+  - 723
+  - 725
+  - 728
   verification_status: partial
   accepted_gifts:
   - GIFT-0178
@@ -10250,6 +10292,7 @@ characters:
   - 因天凤血丹与凤族血令转为对徐霄谨慎合作
   - 按玄灵安排与徐霄正式公开对象关系
   - 获得长期天凤血丹承诺
+  - 继续接受徐霄资源但对其多重关系保持不满
   ability_change:
   - 炼化一颗天凤血丹后天凤血脉提升
   growth_event:
@@ -10285,10 +10328,19 @@ characters:
     impact:
     - 玄鸟族与徐霄的长期资源关系继续加深
     status: partial
+  - chapter_range:
+      start: 723
+      end: 728
+    event: 战后获得资源并进入万妖仙宗选拔序列
+    impact:
+    - 个人仙路由天水城族长层级转向大仙宗身份竞争
+    status: partial
   strategic_role:
   - 参与玄鸟族伏击火蜥族精锐
   artifact:
   - 通天如意针
+  identity_change:
+  - 获得万妖仙宗选拔推荐
 - id: CHAR-0171
   name: 蜥风
   status: dead
@@ -10347,13 +10399,27 @@ characters:
   - 可通过凤族血令远程降下灵气血凤分身
   related_nodes:
   - NODE-0093
+  - NODE-0096
   source_chapters:
   - 699
   - 700
   - 701
   - 702
+  - 723
+  - 724
+  - 725
   document: null
   verification_status: partial
+  surveillance_change:
+  - 继续通过金羽小鸟分身监视徐霄并积累其关系网络证据
+  growth_event:
+  - chapter_range:
+      start: 723
+      end: 725
+    event: 通过金羽分身持续监视徐霄在青木城的行为
+    impact:
+    - 为第729章后万妖仙宗公开问责积累直接证据
+    status: verified
 - id: CHAR-0173
   name: 蜥雷
   status: dead
@@ -10445,6 +10511,7 @@ characters:
   related_nodes:
   - NODE-0093
   - NODE-0094
+  - NODE-0096
   source_chapters:
   - 704
   - 705
@@ -10453,6 +10520,9 @@ characters:
   - 708
   - 709
   - 710
+  - 723
+  - 725
+  - 728
   document: null
   verification_status: partial
   accepted_gifts:
@@ -10469,6 +10539,13 @@ characters:
     impact:
     - 玄鸟族补入天水城八大妖族并获得加入万妖仙宗机会
     status: partial
+  - chapter: 728
+    event: 以玄鸟族族长身份获得万妖仙宗选拔推荐
+    impact:
+    - 玄鸟族正式进入大仙宗身份竞争阶段
+    status: verified
+  identity_change:
+  - 获得万妖仙宗选拔推荐
 - id: CHAR-0176
   name: 周紫薇
   status: alive
@@ -10494,15 +10571,18 @@ characters:
   related_nodes:
   - NODE-0094
   - NODE-0095
+  - NODE-0096
   source_chapters:
   - 707
   - 708
   - 721
   - 722
+  - 727
   document: null
   verification_status: partial
   relationship_change:
   - 与徐霄正式确立关系并承诺保守终极卧底身份
+  - 公开支持徐霄作为人妖沟通桥梁并接受长期资源支持
   strategic_role:
   - 协助诸葛绫撤离并向天玄仙宗隐藏徐霄真实战力与身份
   growth_event:
@@ -10513,6 +10593,13 @@ characters:
     impact:
     - 成为徐霄在天玄仙宗内部的保密与关系通道
     status: verified
+  - chapter: 727
+    event: 在最终谈判后公开拥抱徐霄并接受十颗玄元仙丹
+    impact:
+    - 与徐霄关系和天玄仙宗内部沟通通道进一步稳定
+    status: verified
+  accepted_gifts:
+  - GIFT-0193
 - id: CHAR-0177
   name: 孔青
   status: alive
@@ -10536,6 +10623,7 @@ characters:
   related_nodes:
   - NODE-0094
   - NODE-0095
+  - NODE-0096
   source_chapters:
   - 711
   - 717
@@ -10544,10 +10632,17 @@ characters:
   - 720
   - 721
   - 722
+  - 724
+  - 725
+  - 726
+  - 727
+  - 728
   document: null
   verification_status: partial
   conflict_change:
   - 暗派五名妖族天地玄仙跟踪并击杀徐霄但全员被反杀
+  - 暗杀计划失败后试图推动徐霄返回人族
+  - 在顶级至尊玄仙符箓威慑下被迫暂时认怂
   growth_event:
   - chapter_range:
       start: 717
@@ -10556,6 +10651,13 @@ characters:
     impact:
     - 与徐霄冲突升级为隐蔽生死斗争
     - 暗杀计划暂未被公开追责
+    status: partial
+  - chapter_range:
+      start: 724
+      end: 728
+    event: 暗杀与政治驱逐计划连续失败
+    impact:
+    - 与徐霄的生死冲突持续升级但暂时失去公开处置能力
     status: partial
 - id: CHAR-0178
   name: 凤天晴
@@ -10577,10 +10679,30 @@ characters:
     status: partial
   related_nodes:
   - NODE-0094
+  - NODE-0096
   source_chapters:
   - 711
+  - 723
+  - 724
+  - 725
+  - 726
+  - 727
+  - 728
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0191
+  stance_change:
+  - 由强硬问责徐霄关系网络转为接受资源并实施务实约束
+  - 认可其青木城最高战功
+  growth_event:
+  - chapter_range:
+      start: 724
+      end: 728
+    event: 在战后资源与政治现实下调整对徐霄的处置立场
+    impact:
+    - 从要求严惩转为保护停战秩序并推荐徐霄参加万妖仙宗选拔
+    status: verified
 - id: CHAR-0179
   name: 鹤仙儿
   status: alive
@@ -10740,3 +10862,116 @@ characters:
   - 722
   document: null
   verification_status: partial
+- id: CHAR-0184
+  name: 雀鸢
+  status: alive
+  role: supporting
+  affiliations:
+  - 火雀族
+  - 妖族阵营
+  identities:
+  - 火雀族族长
+  - A级气运之女
+  first_appearance:
+    chapter: 725
+    title: 最后的谈判
+    node: NODE-0096
+  cultivation:
+    current: 玄仙三重
+    status: verified
+  relationship_context:
+    徐霄: 接受复合高阶赠礼并确立长期关系
+  accepted_gifts:
+  - GIFT-0192
+  related_nodes:
+  - NODE-0096
+  source_chapters:
+  - 725
+  document: null
+  verification_status: verified
+- id: CHAR-0185
+  name: 苏破天
+  status: alive
+  role: supporting
+  affiliations:
+  - 天玄仙宗
+  - 人族阵营
+  identities:
+  - 人族最终谈判代表
+  - 天玄仙宗高阶修士
+  first_appearance:
+    chapter: 725
+    title: 最后的谈判
+    node: NODE-0096
+  cultivation:
+    current: 天地玄仙境
+    exact_level: pending
+    status: partial
+  relationship_context:
+    徐霄: 由敌对审视转为认可其两族沟通价值
+  related_nodes:
+  - NODE-0096
+  source_chapters:
+  - 725
+  - 726
+  - 727
+  document: null
+  verification_status: partial
+- id: CHAR-0186
+  name: 温晴岚
+  status: alive
+  role: supporting
+  affiliations:
+  - 天玄仙宗
+  - 人族阵营
+  identities:
+  - 天玄仙宗高阶修士
+  - SS级气运之女
+  first_appearance:
+    chapter: 727
+    title: 两族认怂
+    node: NODE-0096
+  cultivation:
+    current: 天地玄仙境
+    exact_level: pending
+    status: partial
+  system_profile:
+    luck_grade: SS
+    return_multiplier: 50
+    bond: 1
+    status: verified
+  relationship_context:
+    徐霄: 支持将其视为两族沟通桥梁并进入系统长期观察范围
+  related_nodes:
+  - NODE-0096
+  source_chapters:
+  - 727
+  document: null
+  verification_status: partial
+- id: CHAR-0187
+  name: 玉龙
+  status: alive
+  role: supporting
+  affiliations:
+  - 飞云城人族
+  - 妖族阵营
+  identities:
+  - 人族俘虏修士
+  - 青木城战功修士
+  - 万妖仙宗选拔推荐者
+  first_appearance:
+    chapter: 728
+    title: 高兴的灵藏人族
+    node: NODE-0096
+  cultivation:
+    current: 玄仙六重
+    status: verified
+  status_change:
+    chapter: 728
+    result: 解除俘虏身份并获得万妖仙宗选拔推荐
+  related_nodes:
+  - NODE-0096
+  source_chapters:
+  - 728
+  document: null
+  verification_status: verified

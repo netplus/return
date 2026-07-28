@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 75
+  extension_files: 76
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2476,4 +2476,52 @@ gifts:
   accepted: true
   reward: pending
   triggered_multiplier: pending
+  status: partial
+- id: GIFT-0190
+  chapter: 723
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 韵幽
+  gift: 先前赠送仙丹（正式名称与数量待确认）
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及四十五颗金仙道丹
+  triggered_multiplier: pending
+  relationship_result: 徐霄与韵幽关系持续加深
+  status: partial
+- id: GIFT-0191
+  chapter: 724
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 凤天晴
+  gift: 十颗超品玄元仙丹及一颗玄仙顶级大道神丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 凤天晴由强硬问责转为务实约束并接受徐霄战功地位
+  status: partial
+- id: GIFT-0192
+  chapter: 725
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 雀鸢
+  gift: 仙丹、九霄山河图及玄仙巅峰魂丹复合赠礼
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹、九颗金仙道丹、道器大道山河图及金仙巅峰魂丹
+  triggered_multiplier: partial
+  relationship_result: 雀鸢与徐霄正式确立长期关系
+  status: verified
+- id: GIFT-0193
+  chapter: 727
+  node: NODE-0096
+  giver: 徐霄
+  recipient: 周紫薇
+  gift: 十颗玄元仙丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 周紫薇公开支持徐霄并稳定天玄仙宗内部沟通关系
   status: partial

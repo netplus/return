@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 84
+  extension_files: 85
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3738,3 +3738,44 @@ nodes:
   - 前线次要人物完整面板
   document: docs/01-timeline/node-0095.md
   evidence: sources/evidence/chapters-716-722.yaml
+- id: NODE-0096
+  title: 造化滴血重生、两族停战与万妖仙宗选拔资格
+  chapters:
+    start: 723
+    end: 728
+  granularity: story_arc
+  status: verified
+  source_qualification: 番茄小说官方目录确认第723—729章标题顺序与边界；第723—728章由归档逐章哈希及可读镜像交叉核验
+  boundary_reason: 第728章完成停战、战功结算与选拔推荐；第729章抵达万妖仙宗并转入宗门选拔
+  characters:
+  - 徐霄
+  - 凤天晴
+  - 雀鸢
+  - 孔青
+  - 温晴岚
+  - 苏破天
+  - 玉龙
+  - 金虚
+  - 玄灵
+  - 玄雪
+  - 周紫薇
+  - 天翎
+  system_events:
+  - event: 仙丹赠送结算
+    result: 鸿蒙一气丹及金仙道丹入账
+    exact_original_gift: pending
+    status: partial
+  - event: 雀鸢复合赠礼返还
+    result: 大道山河图、金仙巅峰魂丹、鸿蒙一气丹及金仙道丹
+    status: verified
+  - event: 三千天道丹服用
+    result: 完美领悟阵之大道
+    status: verified
+  relationship_result: 徐霄与雀鸢确立关系；人妖双方在符箓威慑下接受徐霄留在妖族并将其视为两族特殊沟通节点
+  pending:
+  - 凤天晴赠礼精确返还
+  - 周紫薇赠礼精确返还
+  - 顶级至尊玄仙符箓正式名称与来源
+  - 万妖仙宗选拔身份兑现
+  document: docs/01-timeline/node-0096.md
+  evidence: sources/evidence/chapters-723-728.yaml
