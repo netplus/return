@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 80
+  extension_files: 81
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3588,3 +3588,40 @@ nodes:
   - 后续仙丹补偿赠送明细
   document: docs/01-timeline/node-0091.md
   evidence: sources/evidence/chapters-681-688.yaml
+- id: NODE-0092
+  title: 凤族血令、天凤血丹与火蜥冲突
+  chapters:
+    start: 689
+    end: 697
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第689—698章标题顺序与边界；第689—697章由用户提供归档逐章核验
+  boundary_reason: 第697章完成蜥风击杀后的妖族追责压制及焰灵资源安置；第698章转入八大妖族集体逼宫
+  characters:
+  - 徐霄
+  - 凤青玄
+  - 玄雪
+  - 焰灵
+  - 蜥风
+  - 金虚
+  - 北鳞
+  - 云花海
+  - 月华
+  system_events:
+  - event: 天凤血丹赠送玄雪
+    result: 首颗返还鸿蒙一气丹且余九颗返还二十七颗高品天凤血丹
+    status: verified
+  - event: 击杀蜥风任务
+    result: 丹药返还库上限提升至金仙
+    status: verified
+  - event: 焰灵仙元丹赠送
+    result: 十颗仙元丹返还五十颗五行仙丹
+    status: verified
+  relationship_result: 凤青玄提供金仙层级信物；玄雪转为谨慎合作；焰灵获得保护与长期资源支持
+  pending:
+  - 凤族血令完整权限
+  - 天凤血丹完整品阶与炼制方式
+  - 玄雪最终血脉蜕变
+  - 火蜥族与八大妖族后续追责
+  document: docs/01-timeline/node-0092.md
+  evidence: sources/evidence/chapters-689-697.yaml

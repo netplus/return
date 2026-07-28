@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 80
+  extension_files: 81
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -161,6 +161,7 @@ characters:
   - NODE-0089
   - NODE-0090
   - NODE-0091
+  - NODE-0092
   source_chapters:
   - 1
   - 2
@@ -810,6 +811,15 @@ characters:
   - 686
   - 687
   - 688
+  - 689
+  - 690
+  - 691
+  - 692
+  - 693
+  - 694
+  - 695
+  - 696
+  - 697
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -909,7 +919,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 地仙三重
+  cultivation_change: 地仙五重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -1072,6 +1082,8 @@ characters:
   - 鸿蒙真气增至五十五股
   - 修成万佛金身
   - 公开以五柄至尊仙剑和多重大道压制八名天仙高手
+  - 鸿蒙真气五十七股
+  - 丹药返还库上限提升至金仙
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1422,6 +1434,19 @@ characters:
     - 由被征服修士转为天水城特殊关系对象
     - 将强制种植任务转化为赠送返还渠道
     status: partial
+  - chapter_range:
+      start: 689
+      end: 697
+    event: 获得凤族血令并完成蜥风气运之敌任务
+    core_ability:
+    - 地仙五重
+    - 鸿蒙真气五十七股
+    - 大道玄冰剑
+    - 丹药返还库金仙上限
+    impact:
+    - 获得天凤族金仙层级保护
+    - 在天水城公开击杀火蜥族成员并压下现场追责
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1448,6 +1473,7 @@ characters:
   - 青锋案嫌疑公开化并与纯阳仙门形成直接冲突
   acquired_artifacts:
   - ART-0089
+  - ART-0098
   obtained_artifacts:
   - ART-0090
   - ART-0091
@@ -3391,6 +3417,7 @@ characters:
   - GIFT-0080
   - GIFT-0081
   - GIFT-0126
+  - GIFT-0177
   current_artifacts:
   - 三光分水剑
   relationship_context:
@@ -3405,6 +3432,7 @@ characters:
   - NODE-0056
   - NODE-0057
   - NODE-0074
+  - NODE-0092
   source_chapters:
   - 233
   - 234
@@ -3430,6 +3458,8 @@ characters:
   - 567
   - 568
   - 569
+  - 689
+  - 690
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -3447,6 +3477,7 @@ characters:
   relationship_change:
   - 对徐霄的安全与资源能力形成更深长期依赖
   - 接受徐霄长期承担修炼资源但暂未正式确认道侣
+  - 将凤族血令交给徐霄并要求其未来到凤族正式迎娶
   cultivation_change: 人仙二重
   affiliation:
   - 阴阳仙门内门
@@ -3461,6 +3492,19 @@ characters:
     - 确认青鸾长老门下内门身份
     - 与徐霄建立长期资源承诺
     status: partial
+  - chapter_range:
+      start: 689
+      end: 690
+    event: 返回天水城并将天翎长老凤族血令交给徐霄
+    impact:
+    - 正式进入天凤族体系
+    - 将徐霄纳入金仙长老庇护范围
+    status: partial
+  affiliation_change:
+  - 万妖仙宗
+  - 天凤一族
+  identity_change:
+  - 天翎长老亲传弟子
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -8888,24 +8932,40 @@ characters:
   accepted_gifts:
   - GIFT-0149
   - GIFT-0153
+  - GIFT-0180
   related_nodes:
   - NODE-0082
   - NODE-0083
+  - NODE-0092
   source_chapters:
   - 627
   - 628
   - 636
   - 637
+  - 694
+  - 695
+  - 696
+  - 697
   document: null
   verification_status: verified
   relationship_change:
   - 接受徐霄对大会伤势和后遗症长期负责
+  - 获得徐霄公开保护并进入长期资源支持关系
   growth_event:
   - chapter: 637
     event: 接受仙剑和长期伤势补偿承诺
     impact:
     - 与徐霄的资源关系进一步建立
     status: partial
+  - chapter_range:
+      start: 694
+      end: 697
+    event: 摆脱蜥风强迫婚配并接受徐霄仙元丹支持
+    impact:
+    - 从妖族强迫对象转为徐霄公开保护和长期资源支持对象
+    status: partial
+  condition_change:
+  - 摆脱火蜥族强迫婚配
 - id: CHAR-0147
   name: 尘玉
   status: alive
@@ -9811,11 +9871,17 @@ characters:
   related_nodes:
   - NODE-0090
   - NODE-0091
+  - NODE-0092
   source_chapters:
   - 678
   - 685
   - 686
   - 688
+  - 693
+  - 694
+  - 695
+  - 696
+  - 697
   verification_status: partial
   role_change:
   - 负责统计灵藏七宗每年上交灵植数量
@@ -9827,6 +9893,14 @@ characters:
     impact:
     - 免除亲自种植但进一步固定为妖族附庸管理者
     status: partial
+  - chapter: 693
+    event: 公开确认天地玄仙分层及自身玄仙五重境界
+    core_ability:
+    - 玄仙五重
+    impact:
+    - 大仙域天地玄仙层级规则获得明确参照
+    status: verified
+  cultivation_change: 玄仙五重
 - id: CHAR-0167
   name: 铁煞天
   status: alive
@@ -9864,9 +9938,23 @@ characters:
     status: partial
   related_nodes:
   - NODE-0090
+  - NODE-0092
   source_chapters:
   - 678
+  - 693
+  - 694
+  - 695
   verification_status: partial
+  conflict_change:
+  - 许可火蜥族带走焰灵，引发蜥风被杀与后续妖族追责
+  growth_event:
+  - chapter_range:
+      start: 693
+      end: 695
+    event: 许可火蜥族强制带走焰灵
+    impact:
+    - 其行政命令触发徐霄与天水城妖族的直接冲突
+    status: partial
 - id: CHAR-0169
   name: 赤澜儿
   status: alive
@@ -9924,6 +10012,64 @@ characters:
     status: partial
   related_nodes:
   - NODE-0091
+  - NODE-0092
   source_chapters:
   - 688
+  - 691
+  - 692
+  - 693
+  - 694
+  - 695
+  - 696
+  - 697
+  verification_status: partial
+  accepted_gifts:
+  - GIFT-0178
+  - GIFT-0179
+  relationship_change:
+  - 因天凤血丹与凤族血令转为对徐霄谨慎合作
+  ability_change:
+  - 炼化一颗天凤血丹后天凤血脉提升
+  growth_event:
+  - chapter_range:
+      start: 691
+      end: 693
+    event: 接受天凤血丹并确认徐霄持有凤族血令
+    ability_change:
+    - 天凤血脉获得可感知提升
+    impact:
+    - 由单纯敌视转为受资源与金仙背景约束的谨慎合作
+    status: partial
+- id: CHAR-0171
+  name: 蜥风
+  status: dead
+  role: antagonist
+  affiliations:
+  - 火蜥蜴一族
+  - 天水城妖族
+  identities:
+  - 火蜥蜴一族公子
+  - 气运之敌
+  first_appearance:
+    chapter: 693
+    title: 玄雪金虚惊了
+    node: NODE-0092
+  cultivation:
+    current: 天仙境
+    exact_level: pending
+    status: partial
+  death:
+    chapter: 696
+    cause: 被徐霄以大道玄冰剑贯穿击杀
+  relationship_context:
+    焰灵: 试图强迫其成为妾室
+    徐霄: 系统发布击杀任务并被其击杀
+  related_nodes:
+  - NODE-0092
+  source_chapters:
+  - 693
+  - 694
+  - 695
+  - 696
+  document: null
   verification_status: partial

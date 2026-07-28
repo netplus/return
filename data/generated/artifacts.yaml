@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 74
+  extension_files: 75
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1021,6 +1021,10 @@ artifacts:
     chapter: 640
     quantity: 1
     status: partial
+  - gift_id: GIFT-0178
+    chapter: 692
+    quantity: 1
+    status: verified
   effect: 激活后形成九天金莲护体，侧重防御
   complete_defense_limit: pending
   refinement_status: pending
@@ -1035,6 +1039,7 @@ artifacts:
   - NODE-0080
   - NODE-0084
   - NODE-0087
+  - NODE-0092
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1051,6 +1056,7 @@ artifacts:
   - 640
   - 643
   - 662
+  - 692
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -2149,6 +2155,14 @@ artifacts:
     quantity: 100
     source: GIFT-0175返还
     status: partial
+  - gift_id: GIFT-0177
+    chapter: 690
+    quantity: 100
+    status: verified
+  - gift_id: GIFT-0180
+    chapter: 697
+    quantity: 50
+    status: verified
   quantity: pending_total
   effects:
   - 用于天仙境五行体系修炼
@@ -2165,6 +2179,7 @@ artifacts:
   - NODE-0087
   - NODE-0090
   - NODE-0091
+  - NODE-0092
   source_chapters:
   - 572
   - 612
@@ -2178,6 +2193,8 @@ artifacts:
   - 662
   - 679
   - 686
+  - 690
+  - 697
   transfer_records:
   - gift_id: GIFT-0150
     chapter: 635
@@ -2447,5 +2464,47 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0089
+  - NODE-0092
   source_chapters:
   - 669
+  - 696
+  combat_record:
+  - chapter: 696
+    event: 一击贯穿并击杀蜥风及五名火蜥族随从
+    status: verified
+- id: ART-0098
+  name: 凤族血令
+  category: 妖族血脉令牌
+  grade: 金仙长老信物
+  first_chapter: 690
+  current_holder: 徐霄
+  acquisition: 凤青玄从天翎长老处求得后交给徐霄
+  abilities:
+  - 以天凤血脉炼成并对普通妖族形成血脉压制
+  - 代表万妖仙宗天翎长老和天凤一族的政治庇护
+  current_state: 已在第693章及第697章公开展示
+  status: partial
+  related_nodes:
+  - NODE-0092
+  source_chapters:
+  - 690
+  - 693
+  - 697
+- id: ART-0099
+  name: 天凤血丹
+  category: 血脉丹药
+  grade: pending
+  first_chapter: 691
+  current_holder: 徐霄
+  acquisition: 仙帝传承资源；系统返还历史与总量仅部分确认
+  effects:
+  - 蕴含精纯天凤血气
+  - 玄鸟血脉炼化后可提升天凤血脉
+  quantity_context: 第692章赠送十颗后仍有约一百一十颗，并返还二十七颗高品天凤血丹
+  status: partial
+  related_nodes:
+  - NODE-0092
+  source_chapters:
+  - 691
+  - 692
+  - 693
