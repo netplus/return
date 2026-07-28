@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 208
+    count: 213
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -287,7 +287,7 @@ groups:
     - id: CHAR-0139
       path: docs/02-characters/孟凡.md
     - id: CHAR-0140
-      path: docs/02-characters/丁静.md
+      path: docs/02-characters/赤澜儿.md
     - id: CHAR-0141
       path: docs/02-characters/端木莹.md
     - id: CHAR-0142
@@ -345,7 +345,7 @@ groups:
     - id: CHAR-0168
       path: docs/02-characters/北鳞.md
     - id: CHAR-0169
-      path: docs/02-characters/赤澜儿.md
+      path: docs/02-characters/赤澜儿-CHAR-0169.md
     - id: CHAR-0170
       path: docs/02-characters/玄雪.md
     - id: CHAR-0171
@@ -391,9 +391,9 @@ groups:
     - id: CHAR-0191
       path: docs/02-characters/孔玄.md
     - id: CHAR-0192
-      path: docs/02-characters/魔无花.md
-    - id: CHAR-0193
       path: docs/02-characters/熊大.md
+    - id: CHAR-0193
+      path: docs/02-characters/熊大-CHAR-0193.md
     - id: CHAR-0194
       path: docs/02-characters/雪小星.md
     - id: CHAR-0195
@@ -424,8 +424,18 @@ groups:
       path: docs/02-characters/万萱.md
     - id: CHAR-0208
       path: docs/02-characters/血无涯.md
+    - id: CHAR-0209
+      path: docs/02-characters/朱萧.md
+    - id: CHAR-0210
+      path: docs/02-characters/龙贞.md
+    - id: CHAR-0211
+      path: docs/02-characters/凤四老.md
+    - id: CHAR-0212
+      path: docs/02-characters/孔金.md
+    - id: CHAR-0213
+      path: docs/02-characters/鹤霜英.md
   artifacts:
-    count: 132
+    count: 136
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -693,10 +703,18 @@ groups:
       path: docs/06-artifacts/天道神威御火剑.md
     - id: ART-0132
       path: docs/06-artifacts/太乙巅峰大道神丹.md
+    - id: ART-0133
+      path: docs/06-artifacts/太玄仙体丹.md
+    - id: ART-0134
+      path: docs/06-artifacts/天道神威破空剑.md
+    - id: ART-0135
+      path: docs/06-artifacts/混元神体丹.md
+    - id: ART-0136
+      path: docs/06-artifacts/大罗鸿蒙丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 208
-  growth_events: 871
+  characters_with_growth_line: 213
+  growth_events: 892
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

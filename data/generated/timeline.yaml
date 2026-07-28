@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 91
+  extension_files: 92
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -4029,3 +4029,43 @@ nodes:
   - 噬魂血宗后续报复方式
   document: docs/01-timeline/node-0102.md
   evidence: sources/evidence/chapters-773-792.yaml
+- id: NODE-0103
+  title: 雪瑶仙帝归来、太上长老收编与孔青覆灭
+  chapters:
+    start: 793
+    end: 807
+  granularity: story_arc
+  status: verified
+  source_qualification: 第793—807章由归档逐章SHA-256及一次性正文产物核验
+  boundary_reason: 第807章完成雪瑶仙帝复仇阶段、万妖仙宗高层处置、孔青死亡与系统升级；第808章转入赴飘雪仙域直面雪瑶的新阶段
+  characters:
+  - 徐霄
+  - 姬雪
+  - 朱萧
+  - 龙贞
+  - 凤四老
+  - 孔金
+  - 鹤霜英
+  - 赤裳
+  - 青曼
+  - 赤澜儿
+  - 天翎
+  - 万萱
+  - 孔青
+  - 龙九天
+  - 凤溪
+  - 熊大
+  system_events:
+  - event: 孔青气运之子任务完成
+    result: 丹药返还库上限提升至大罗仙
+    status: verified
+  - event: 太乙聚仙丹赠送高层
+    result: 返还三十颗大罗鸿蒙丹
+    status: verified
+  relationship_result: 徐霄以高阶资源将万妖仙宗四大太上长老纳入政治保护网络；姬雪恢复雪瑶仙帝身份并完成飘雪仙域复仇阶段
+  pending:
+  - 雪瑶仙帝复仇期间全部宗门伤亡清单
+  - 两轮高层赠礼逐人返还拆分
+  - 神霄仙玉舟原始赠礼链
+  document: docs/01-timeline/node-0103.md
+  evidence: sources/evidence/chapters-793-807.yaml

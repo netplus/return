@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 82
+  extension_files: 83
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2874,4 +2874,100 @@ gifts:
   reward: pending
   triggered_multiplier: pending
   relationship_result: 龙九天转为协调太上长老保护徐霄
+  status: partial
+- id: GIFT-0223
+  chapter: 793
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 姬雪
+  gift: 五十颗金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗太乙聚仙丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0224
+  chapter: 794
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 青曼
+  gift: 化体神丹
+  accepted: true
+  system_valid: true
+  reward: 太玄仙体丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0225
+  chapter: 794
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 赤裳
+  gift: 金仙巅峰大道神丹
+  accepted: true
+  system_valid: true
+  reward: 天道神威破空剑及鸿蒙一气丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0226
+  chapter: 797
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 龙贞等六名万妖仙宗高层
+  gift: 两轮太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 鸿蒙一气丹、三千天道丹及大量太乙聚仙丹，逐人拆分待确认
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: partial
+- id: GIFT-0227
+  chapter: 798
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 赤澜儿
+  gift: 太玄仙体丹
+  accepted: true
+  system_valid: true
+  reward: 混元神体丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0228
+  chapter: 799
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 天翎
+  gift: 三颗祖凤血丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗太乙聚仙丹及三百颗祖凤血丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0229
+  chapter: 804
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 万萱
+  gift: 十颗太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及九百颗太乙聚仙丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0230
+  chapter: 806
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 龙贞等六名万妖仙宗高层
+  gift: 三十颗太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 三十颗大罗鸿蒙丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
   status: partial

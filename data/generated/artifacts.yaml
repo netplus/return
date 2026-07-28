@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 85
+  extension_files: 86
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -3332,3 +3332,61 @@ artifacts:
   - NODE-0102
   source_chapters:
   - 790
+- id: ART-0133
+  name: 太玄仙体丹
+  category: 丹药
+  grade: 仙体丹
+  first_chapter: 794
+  current_holder: 徐霄
+  acquisition: GIFT-0224返还
+  effect: 服用后获得太玄仙体，大幅提升五行大道领悟速度
+  current_state: 后续赠送赤澜儿
+  status: verified
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 794
+  - 798
+- id: ART-0134
+  name: 天道神威破空剑
+  category: 规则道器
+  grade: 规则道器
+  first_chapter: 794
+  current_holder: 徐霄
+  acquisition: GIFT-0225返还
+  effect: 破空类规则道器，完整能力待确认
+  current_state: 已获得
+  status: partial
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 794
+- id: ART-0135
+  name: 混元神体丹
+  category: 丹药
+  grade: 神体丹
+  first_chapter: 798
+  current_holder: 已消耗
+  acquisition: GIFT-0227返还
+  effect: 使太初仙体进化为混元神体
+  current_state: 徐霄已服用
+  status: verified
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 798
+- id: ART-0136
+  name: 大罗鸿蒙丹
+  category: 丹药
+  grade: 大罗仙顶级
+  first_chapter: 806
+  current_holder: 徐霄
+  acquisition: GIFT-0230返还三十颗
+  effect: 蕴含大罗仙道力与少量鸿蒙真气
+  current_state: 三十颗入库，未确认服用
+  status: verified
+  related_nodes:
+  - NODE-0103
+  source_chapters:
+  - 806
+  - 807
