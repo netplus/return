@@ -1,0 +1,46 @@
+schema_version: 1
+run_id: RUN-0108
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 689, end: 697}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 689, title: 凤青玄回来}
+  - {chapter: 690, title: 凤族血令}
+  - {chapter: 691, title: 天凤血丹，出手}
+  - {chapter: 692, title: 震惊的玄雪}
+  - {chapter: 693, title: 玄雪金虚惊了}
+  - {chapter: 694, title: 火蜥蜴一族}
+  - {chapter: 695, title: 七仙门的无尽惊恐}
+  - {chapter: 696, title: 出手，一击必杀}
+  - {chapter: 697, title: 灵藏药丸}
+  boundary_probe: {chapter: 698, title: 八大妖族逼宫}
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  storage_policy: metadata_only_no_full_chapter_text
+  chapter_hashes:
+    689: d2e7495b010fc3cb721ca1f18a7c47165b342bd7fecb6519eedf1a164189d13a
+    690: 4b8083a4f5f8038af053b73d57e87954df23feef33015b81fd09f3bb87069386
+    691: ef19732b271e981109e78db28a23180e6f5aa906339096e07bec2fdc6fb35c49
+    692: 457d7c5406ef3cb60d9271b350f226dc960e57923960e485028992f817d6d28f
+    693: 73b8d8a7cd5cd909c7c7915cfa6c789ee23052d4c6597b65dba582739464dc6e
+    694: 9dd7a12e452a90f7fe101e1cece1d5690abd530d0b46a125fce9e227f8c0bd2f
+    695: 794d65c5c459defd8b912a24c5999977a7051f830da392ba953f48d823530333
+    696: a660e18abc3d74954953d590b92fca124580834d8eb5a11a808b696ecf5ca31a
+    697: fe4dc500b6777b2109ac918621326d37f1c0f72b06008f5d832a6aa4888416f8
+chapter_facts:
+- {chapter: 689, facts: [徐霄修为确认地仙五重且鸿蒙真气五十七股, 凤青玄从万妖仙宗返回并携带天翎长老信物], status: partial}
+- {chapter: 690, facts: [凤青玄将凤族血令交给徐霄, 十颗仙元丹赠送凤青玄返还一百颗五行仙丹], status: verified}
+- {chapter: 691, facts: [六名修士逃跑被万魂盘烙印击落, 徐霄以十颗天凤血丹为其求情], status: verified}
+- {chapter: 692, facts: [玄雪接受血丹并暂缓处决, 首颗返还鸿蒙一气丹且余九颗返还二十七颗高品天凤血丹], status: verified}
+- {chapter: 693, facts: [金虚确认自身玄仙五重, 玄雪确认天凤血丹和凤族血令价值, 蜥风获准带走焰灵], status: partial}
+- {chapter: 694, facts: [系统识别蜥风为气运之敌并发布击杀任务, 蜥风试图强迫焰灵成为妾室], status: verified}
+- {chapter: 695, facts: [徐霄公开阻止火蜥族带走焰灵, 玄雪因血丹和血令暂不干预], status: verified}
+- {chapter: 696, facts: [徐霄以大道玄冰剑击杀蜥风及五名随从, 丹药返还库上限提升至金仙], status: verified}
+- {chapter: 697, facts: [徐霄以凤族血令压下现场追责, 焰灵接受十颗仙元丹并返还五十颗五行仙丹], status: verified}
+boundary_reason: 第697章完成击杀后追责压制及焰灵资源安置；第698章开始八大妖族集体逼宫
+pending: [凤族血令完整权限, 天凤血丹完整品阶与炼制方式, 火蜥族和八大妖族后续追责]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_and_hashes}
