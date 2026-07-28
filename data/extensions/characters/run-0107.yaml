@@ -1,0 +1,132 @@
+schema_version: 1
+run_id: RUN-0107
+characters:
+- id: CHAR-0170
+  name: 玄雪
+  status: alive
+  role: supporting
+  affiliations: [玄鸟一族, 大仙域妖族]
+  identities: [玄鸟族长, 天水城灵田巡视者, S级气运之女]
+  first_appearance: {chapter: 688, title: 灵田巡视，妖族懵逼, node: NODE-0091}
+  cultivation: {current: 玄仙境, exact_level: pending, status: partial}
+  related_nodes: [NODE-0091]
+  source_chapters: [688]
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    role_change_add: [免除万魂盘神魂烙印, 获任天水城灵田巡察, 建立仙丹补偿灵田灵力消耗策略]
+    relationship_change_add: [与赤澜儿确立亲密关系]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [681, 682, 683, 684, 685, 686, 687, 688]
+    growth_event_add:
+    - chapter_range: {start: 681, end: 688}
+      event: 借青鸾凤青玄担保进入妖族体系并以仙丹支持灵田种植
+      core_ability: [免除神魂烙印, 妖族巡察身份, 仙丹资源补偿]
+      impact: [由被征服修士转为天水城特殊关系对象, 将强制种植任务转化为赠送返还渠道]
+      status: partial
+- id: CHAR-0154
+  name: 青鸾
+  update:
+    identity_change_add: [上古青鸾血脉获得妖族确认, 万妖仙宗重点吸纳对象]
+    accepted_gifts_add: [GIFT-0175, GIFT-0176]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [681, 682, 683, 686]
+    growth_event_add:
+    - chapter_range: {start: 681, end: 686}
+      event: 显露青鸾妖身并接受两笔高阶丹药赠送
+      impact: [为阴阳仙门核心和徐霄争取免烙印待遇, 准备进入万妖仙宗体系]
+      status: partial
+- id: CHAR-0055
+  name: 凤青玄
+  update:
+    identity_change_add: [纯血天凤身份在大仙域妖族公开, 万妖仙宗核心天才候选]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [682, 683, 686]
+    growth_event_add:
+    - chapter_range: {start: 682, end: 686}
+      event: 显露纯血天凤血脉并为徐霄提供妖族身份担保
+      impact: [获得进入万妖仙宗的核心资格, 阴阳仙门至尊天仙免除神魂烙印]
+      status: partial
+- id: CHAR-0169
+  name: 赤澜儿
+  update:
+    identity_change_add: [SS级气运之女]
+    relationship_change_add: [与徐霄确立亲密关系并为其免除神魂烙印]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [681, 683, 684]
+    growth_event_add:
+    - chapter_range: {start: 681, end: 684}
+      event: 被系统识别为SS级气运之女并与徐霄建立关系
+      impact: [徐霄获得妖族特殊保护和天水城行动空间]
+      status: partial
+- id: CHAR-0166
+  name: 金虚
+  update:
+    role_change_add: [负责统计灵藏七宗每年上交灵植数量]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [685, 686, 688]
+    growth_event_add:
+    - chapter_range: {start: 685, end: 688}
+      event: 代表妖族管理灵藏修士灵田任务
+      impact: [免除亲自种植但进一步固定为妖族附庸管理者]
+      status: partial
+- id: CHAR-0152
+  name: 洛银纱
+  update:
+    resource_support_add: [徐霄承诺以五行仙丹补偿灵田灵力消耗]
+    relationship_change_add: [与徐霄关系进一步公开]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [686, 687, 688]
+    growth_event_add:
+    - chapter_range: {start: 686, end: 688}
+      event: 获得灵田仙丹补偿承诺并公开与徐霄关系
+      impact: [强制种植对修炼的损耗获得资源缓冲]
+      status: partial
+- id: CHAR-0158
+  name: 琉璃
+  update:
+    resource_support_add: [徐霄承诺以五行仙丹补偿灵田灵力消耗]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [686, 687, 688]
+    growth_event_add:
+    - chapter_range: {start: 686, end: 688}
+      event: 获得灵田仙丹补偿承诺
+      impact: [强制种植对修炼的损耗获得资源缓冲]
+      status: partial
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    resource_support_add: [以刘爱花身份获得徐霄无限仙丹养灵植承诺]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [688]
+    growth_event_add:
+    - chapter: 688
+      event: 以刘爱花身份争取灵田仙丹补偿
+      impact: [维持隐藏身份同时避免种植任务拖慢恢复]
+      status: partial
+- id: CHAR-0113
+  name: 柳清浅
+  update:
+    resource_support_add: [获得徐霄仙丹养灵植承诺]
+    relationship_change_add: [在灵田公开与徐霄关系]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [687, 688]
+    growth_event_add:
+    - chapter_range: {start: 687, end: 688}
+      event: 在俘虏种植阶段公开关系并争取仙丹补偿
+      impact: [获得维持修炼速度的资源保障]
+      status: partial
+- id: CHAR-0127
+  name: 绝柔
+  update:
+    resource_support_add: [获得徐霄仙丹养灵植承诺]
+    relationship_change_add: [在灵田公开与徐霄关系]
+    related_nodes_add: [NODE-0091]
+    source_chapters_add: [687, 688]
+    growth_event_add:
+    - chapter_range: {start: 687, end: 688}
+      event: 在俘虏种植阶段公开关系并争取仙丹补偿
+      impact: [获得维持修炼速度的资源保障]
+      status: partial
