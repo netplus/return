@@ -1,0 +1,73 @@
+schema_version: 1
+run_id: RUN-0113
+gift_events:
+- id: GIFT-0194
+  chapter: 729
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 北鳞
+  gift: 三颗玄元仙丹
+  accepted: true
+  system_valid: false
+  reward: none
+  triggered_multiplier: none
+  relationship_result: 北鳞承诺照看徐霄留在天水城的关系人物
+  status: verified
+- id: GIFT-0195
+  chapter: 732
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 赤裳
+  gift: 一颗超绝品质巨型金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一颗道气玄天丹
+  triggered_multiplier: 10000
+  relationship_result: 赤裳停止公开处置并暂时接受徐霄与赤澜儿的关系现实
+  status: verified
+- id: GIFT-0196
+  chapter_range: {start: 735, end: 736}
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 熊大
+  gift: 六颗超绝品质巨型金仙道丹
+  accepted: true
+  system_valid: false
+  reward: none
+  triggered_multiplier: none
+  relationship_result: 徐霄获首席执事身份，青曼、雀鸢、雪小星获得熊大麾下执事席位
+  status: verified
+- id: GIFT-0197
+  chapter: 736
+  node: NODE-0097
+  giver: 徐霄
+  recipient: 雪小星
+  gift: 十颗玄元仙丹、一件顶级至尊仙器及一颗玄仙巅峰大道神丹
+  accepted: true
+  system_valid: true
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 雪小星与徐霄确立关系并共同入驻天魁峰
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0194, GIFT-0195, GIFT-0196, GIFT-0197]
+    rule_add:
+    - chapter: 730
+      rule: 天翎被确认是SSS级气运之女，返还倍数一百，羁绊度一
+      status: verified
+    - chapter: 731
+      rule: 赤裳被确认是SSS级气运之女，返还倍数一百，羁绊度一
+      status: verified
+    - chapter: 736
+      rule: 雪小星被确认是A级气运之女，返还倍数十，羁绊度一
+      status: verified
+    reward_resolution_add:
+    - chapter: 732
+      gift_id: GIFT-0195
+      result: 赤裳首次赠送触发万倍暴击并返还道气玄天丹
+      status: verified
+    related_nodes_add: [NODE-0097]
+    source_chapters_add: [729, 730, 731, 732, 735, 736]
