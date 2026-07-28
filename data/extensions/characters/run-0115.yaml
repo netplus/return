@@ -1,0 +1,104 @@
+schema_version: 1
+run_id: RUN-0115
+characters:
+- id: CHAR-0199
+  name: 凤溪
+  status: alive
+  role: supporting
+  affiliations: [万妖仙宗, 天凤族]
+  identities: [万妖仙宗大长老, 宗门高层培养决策者]
+  first_appearance: {chapter: 746, title: 破釜沉舟的诸葛青天, node: NODE-0099}
+  cultivation: {current: 金仙境, exact_level: pending, status: partial}
+  relationship_context: {徐霄: 认可其太乙仙潜力并主张纳入宗门长期培养}
+  related_nodes: [NODE-0099]
+  source_chapters: [746]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [法器返还库上限提升至规则道器, 完美领悟幻象大道]
+    status_change_add: [秘密触发锁妖塔十八层火符并完成诸葛青天气运任务]
+    relationship_change_add: [与鹤仙儿建立封口型长期资源关系, 与玄雪羁绊度提升至二]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [746, 747, 748, 749, 750, 751]
+    growth_event_add:
+    - chapter_range: {start: 746, end: 751}
+      event: 借锁妖塔阵眼清除诸葛青天并处理鹤仙儿揭发风险
+      core_ability: [规则道器返还上限, 完美幻象大道]
+      impact: [完成长期气运之子冲突, 以资源建立鹤仙儿保密关系, 维持锁妖塔唯一通关纪录]
+      status: verified
+- id: CHAR-0149
+  name: 诸葛青天
+  update:
+    status_change: dead
+    cultivation_change: 玄仙巅峰
+    lifespan_change: 燃尽剩余万年寿元，仅留一天后死亡
+    ability_change_add: [持有两柄道器神剑, 获得金仙突破契机]
+    conflict_change_add: [冲击锁妖塔十八层时触发徐霄预留火符，肉身与神魂俱灭]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [746, 747, 748, 749, 750]
+    growth_event_add:
+    - chapter_range: {start: 746, end: 750}
+      event: 燃尽寿元冲击锁妖塔与金仙境，最终在爆炸中死亡
+      core_ability: [玄仙巅峰, 两柄道器神剑, 金仙突破契机]
+      impact: [气运之子任务被徐霄完成, 锁妖塔上半部毁坏, 遗留道器被龙九天收走]
+      status: verified
+- id: CHAR-0179
+  name: 鹤仙儿
+  update:
+    accepted_gifts_add: [GIFT-0202]
+    relationship_change_add: [察觉徐霄激活锁妖塔阵眼后以揭发相威胁，并以复合高阶赠礼换取保密]
+    resource_change_add: [获得十颗超品玄元仙丹、三件至尊仙器及三颗玄仙巅峰丹药，并获得长期玄元仙丹供应承诺]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [750, 751]
+    growth_event_add:
+    - chapter_range: {start: 750, end: 751}
+      event: 识破锁妖塔爆炸与徐霄的关联并达成封口交易
+      impact: [掌握徐霄重大隐秘, 建立持续资源关系, 获得多件高阶法宝与丹药]
+      status: partial
+- id: CHAR-0198
+  name: 龙九天
+  update:
+    status_change_add: [宣布锁妖塔因幻阵年久失修爆炸并暂时封闭, 收走诸葛青天遗留的两柄道器神剑]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [746, 748, 749, 750, 751]
+    growth_event_add:
+    - chapter_range: {start: 749, end: 751}
+      event: 处置锁妖塔爆炸及诸葛青天死亡
+      impact: [以技术事故结论稳定宗门, 暂时封闭锁妖塔, 控制两柄无主道器]
+      status: verified
+- id: CHAR-0190
+  name: 天穹
+  update:
+    status_change_add: [原计划收诸葛青天为亲传弟子，因其锁妖塔陨落而失去候选弟子]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [748, 749]
+    growth_event_add:
+    - chapter_range: {start: 748, end: 749}
+      event: 准备收诸葛青天为亲传弟子却见证其陨落
+      impact: [失去仙帝转世候选弟子, 与锁妖塔事故形成直接利益损失]
+      status: verified
+- id: CHAR-0156
+  name: 独孤惊云
+  update:
+    conflict_change_add: [诸葛青天死亡后失去主要反徐盟友]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [746, 747, 750]
+    growth_event_add:
+    - chapter_range: {start: 746, end: 750}
+      event: 短暂因诸葛青天恢复希望，随后因其死亡再次陷入绝望
+      impact: [反徐阵营失去核心战力与盟友, 长期敌对处境进一步恶化]
+      status: verified
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    relationship_change_add: [与徐霄羁绊度提升至二]
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [746, 751]
+    growth_event_add:
+    - chapter: 751
+      event: 与徐霄关系进一步稳定，系统羁绊度提升至二
+      impact: [成为更稳定的高阶气运关系对象]
+      status: verified
