@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0117
+artifacts:
+- {id: ART-0120, name: 云花海返还道器仙剑（正式名称待确认）, category: 道器, grade: 道器, first_chapter: 764, current_holder: 徐霄, acquisition: GIFT-0205返还, effect: 剑类道器，完整能力待确认, current_state: 已获得, status: partial, related_nodes: [NODE-0101], source_chapters: [764]}
+- {id: ART-0121, name: 祖凤血丹, category: 丹药, grade: 祖凤血脉资源, first_chapter: 766, current_holder: 徐霄, acquisition: GIFT-0208返还二十五颗, effect: 提升或激活祖凤血脉，完整适用范围待确认, current_state: 已获得, status: partial, related_nodes: [NODE-0101], source_chapters: [766]}
+- {id: ART-0122, name: 九天太乙冰符, category: 符箓, grade: 太乙仙顶级, first_chapter: 766, current_holder: 徐霄, acquisition: GIFT-0208中玄仙巅峰符箓赠送暴击返还, effect: 太乙仙层级冰属性符箓, current_state: 已获得, status: partial, related_nodes: [NODE-0101], source_chapters: [766]}
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0205, chapter: 764, quantity: 1, status: verified}]
+    usage_add: [{chapter: 765, user: 徐霄, result: 鸿蒙真气增至七十三股, status: verified}]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [764, 765]
+- id: ART-0114
+  name: 太乙聚仙丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0206, chapter: 764, quantity: 100, status: verified}, {gift_id: GIFT-0209, chapter: 766, quantity: 600, status: verified}]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [764, 766]
+- id: ART-0078
+  name: 三千天道丹
+  update:
+    acquisition_add: [{gift_id: GIFT-0210, chapter: 767, quantity: 1, status: verified}]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [767]
