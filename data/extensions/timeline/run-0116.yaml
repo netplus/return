@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: RUN-0116
+nodes:
+- id: NODE-0100
+  title: 赤裳再问责、全宗定罪与圣子确立
+  chapters: {start: 752, end: 762}
+  granularity: story_arc
+  status: verified
+  source_qualification: 第752—762章由归档正文逐章阅读并以仓库归档SHA-256核验；第763章转入云花海来访与五灵仙门安置
+  boundary_reason: 第762章完成独孤惊云死亡引发的全宗问责、猿浩单挑、徐霄实力公开与圣子身份确立；第763章进入新的访客和宗门安置阶段
+  characters: [徐霄, 赤裳, 赤澜儿, 独孤惊云, 天穹, 龙九天, 凤溪, 猿浩, 熊大, 玄雪]
+  system_events:
+  - {event: 赤裳与赤澜儿赠送返还, result: 一百颗太乙聚仙丹、五十颗金仙道丹及五颗金仙巅峰魂丹, status: verified}
+  - {event: 击杀独孤惊云任务, result: 符箓阵法返还库上限提升至太乙仙, status: verified}
+  - {event: 气运之敌识别, result: 天穹被识别为气运之敌并发布击杀任务, status: verified}
+  relationship_result: 赤裳接受资源后同意继续商议赤澜儿婚事；龙九天公开洗清徐霄嫌疑并授予万妖仙宗圣子身份
+  pending: [徐霄仙帝转世说法的真实性, 独孤惊云同行四名猿猴族修士正式姓名, 猿浩六件至尊仙棍正式名称]
+  document: docs/01-timeline/node-0100.md
+  evidence: sources/evidence/chapters-752-762.yaml
