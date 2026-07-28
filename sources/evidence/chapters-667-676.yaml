@@ -1,0 +1,42 @@
+schema_version: 1
+run_id: RUN-0105
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 667, end: 676}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 667, title: 满血复活的诸葛青天}
+  - {chapter: 668, title: 懵逼的丁静}
+  - {chapter: 669, title: 执法堂爆炸}
+  - {chapter: 670, title: 天一上门}
+  - {chapter: 671, title: 徐霄，正道之光}
+  - {chapter: 672, title: 嚣张的徐霄}
+  - {chapter: 673, title: 徐霄，一打八}
+  - {chapter: 674, title: 上古仙帝传承}
+  - {chapter: 675, title: 徐霄的宗门地位}
+  - {chapter: 676, title: 气炸全宗的徐霄}
+  boundary_probe: {chapter: 677, title: 大仙域来人}
+archive_index:
+  source_id: fanqienovel-7423641263695481880
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml
+  chapters_hash_verified: [667, 668, 669, 670, 671, 672, 673, 674, 675, 676]
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [667, 668, 669, 670, 671, 672, 673, 674, 675, 676]
+chapter_facts:
+- {chapter: 667, facts: [诸葛青天恢复并觉醒前世力量, 宗门因徐霄邬秋事件舆论爆炸], status: partial}
+- {chapter: 668, facts: [徐霄修成万佛金身, 鸿蒙真气增至五十五股, 晋升地仙三重, 获任执法堂预备执法长老], status: partial}
+- {chapter: 669, facts: [丁静接受九阴绝寒剑, 系统返还大道玄冰剑, 两人关系公开化], status: partial}
+- {chapter: 670, facts: [天一金光九阴三宗上门, 要求废除徐霄修为并交出邬秋], status: partial}
+- {chapter: 671, facts: [徐霄公开为邬秋辩护并拒绝三宗要求], status: partial}
+- {chapter: 672, facts: [道一玄清赤眉玄蛇等至尊天仙参与问责, 徐霄主动提出战斗解决], status: partial}
+- {chapter: 673, facts: [徐霄提出同时迎战八名三宗高手], status: partial}
+- {chapter: 674, facts: [徐霄以万佛金身仙神魂胎大道神通和至尊仙剑压制对手, 黑无忌法身被毁神魂被收纳], status: partial}
+- {chapter: 675, facts: [徐霄碾压获胜并归还战败者神魂, 三宗退走, 邬秋追责暂时终止], status: partial}
+- {chapter: 676, facts: [徐霄转正内门长老并获得至尊天仙级宗门地位, 宗门舆论持续爆炸], status: partial}
+boundary_reason: 第676章完成三宗败退和徐霄宗门地位重构；第677章转入大仙域来人与灵藏危机
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}

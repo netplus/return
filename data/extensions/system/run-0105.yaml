@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0105
+gift_events:
+- id: GIFT-0172
+  chapter: 669
+  node: NODE-0089
+  giver: 徐霄
+  recipient: 丁静
+  gift: 至尊仙器九阴绝寒剑
+  accepted: true
+  system_valid: true
+  reward: 道器大道玄冰剑
+  triggered_multiplier: pending
+  relationship_result: 丁静接受徐霄追求并进入长期资源支持关系
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0172]
+    rule_add:
+    - chapter: 669
+      rule: 至尊仙器赠送可进入道器返还库；本次九阴绝寒剑返还大道玄冰剑
+      status: partial
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [669]

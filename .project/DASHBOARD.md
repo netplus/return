@@ -5,47 +5,47 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 666
-- **Current evidence exploration through:** Chapter 667
+- **Canonical coverage through:** Chapter 676
+- **Current evidence exploration through:** Chapter 677
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 88
+- **Completed timeline nodes:** 89
 - **Draft timeline nodes:** 0
-- **Documented characters:** 160
-- **Generated character profiles:** 160
-- **Gift events:** 171
-- **Artifact records:** 95
-- **Generated artifact profiles:** 95
-- **Last run:** `RUN-0104`
-- **Last completed node:** `NODE-0088`
-- **Next task:** `TASK-0091` — 诸葛青天恢复、执法堂爆炸与天一上门 story arc
-- **Provisional exploration range:** Chapters 667–676
+- **Documented characters:** 165
+- **Generated character profiles:** 165
+- **Gift events:** 172
+- **Artifact records:** 97
+- **Generated artifact profiles:** 97
+- **Last run:** `RUN-0105`
+- **Last completed node:** `NODE-0089`
+- **Next task:** `TASK-0092` — 大仙域来人、灵藏沦陷与盘龙岛安顿 story arc
+- **Provisional exploration range:** Chapters 677–680
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0088` covers Chapters 663—666. 徐霄再次以五行仙丹推动尘玉、万青和罗方正式保下邬秋。纯阳仙门长老道阳以吕玄一等十具尸身占卜追凶时遭天道规则反噬，万倍返还系统同时屏蔽针对徐霄的卦象之力。徐霄向邬秋赠送九天荡魔剑并返还荡魔真武剑，又提供天仙巅峰魂丹；邬秋获得阴阳仙门安置，但在认识凌白烟、南宫嫣、罗素等既有关系对象后产生持续冲突。
+`NODE-0089` covers Chapters 667—676. 徐霄修成万佛金身，鸿蒙真气增至五十五股并晋升地仙三重；向丁静赠送九阴绝寒剑并返还道器大道玄冰剑。天一、金光、九阴三宗上门追究邬秋，徐霄公开拒绝妥协，以一敌八压制多名天仙高手，并以“上古仙帝传承”解释自身资源与战力。三宗战败退走，邬秋追责暂时终止，徐霄转正内门长老并成为阴阳仙门至尊天仙级战略核心。
 
 ## Character growth updates
 
-`RUN-0104` adds 道阳 and 真玉 with chapter-anchored first appearances, and timed growth events for 徐霄、邬秋、尘玉、万青、罗方、凌白烟 and罗素.
+`RUN-0105` adds 道一、玄清、赤眉、玄蛇 and 黑无忌 with chapter-anchored first appearances, and timed growth events for 徐霄、丁静、诸葛青天、邬秋、独孤惊云、崔云、尘玉、万青 and 罗方.
 
-## Quality gates — RUN-0104
+## Quality gates — RUN-0105
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed with qualifications — archive hashes plus readable cross-check |
+| Source traceability | Passed with qualifications — official catalog, archive hashes and readable cross-check |
 | Arc coherence | Passed |
 | Materiality | Passed |
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 160 character and 95 artifact records |
+| Entity-document freshness | Passed — 165 character and 97 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 7 timed material updates and 2 new first appearances |
+| Character growth continuity | Passed — 9 timed material updates and 5 new first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-The official catalog, archived per-chapter hashes and readable mirrors jointly fix Chapters 663—666 and the Chapter 667 boundary. Full chapter text is not stored. 万青罗方本轮赠丹独立返还、天仙巅峰魂丹精确赠送链、邬秋正式任命手续 and纯阳仙门后续追凶方式 remain pending.
+The official catalog, archived per-chapter hashes and readable mirrors jointly fix Chapters 667—676 and the Chapter 677 boundary. Full chapter text is not stored. 诸葛青天前世身份、三宗新人物完整面板、大道玄冰剑完整能力 and八名战败者逐人伤势 remain pending.

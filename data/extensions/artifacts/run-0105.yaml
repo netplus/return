@@ -1,0 +1,42 @@
+schema_version: 1
+run_id: RUN-0105
+artifacts:
+- id: ART-0096
+  name: 九阴绝寒剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 669
+  current_holder: 丁静
+  acquisition: GIFT-0172
+  effect: 冰系至尊仙剑；完整能力、法阵与使用限制待确认
+  current_state: 已由丁静接受
+  status: partial
+  related_nodes: [NODE-0089]
+  source_chapters: [669, 670]
+- id: ART-0097
+  name: 大道玄冰剑
+  category: 道器神剑
+  grade: 道器
+  first_chapter: 669
+  current_holder: 徐霄
+  acquisition: GIFT-0172系统返还
+  effect: 玄冰大道类道器；完整能力、法阵与使用限制待确认
+  current_state: 徐霄持有，未确认实战使用
+  status: partial
+  related_nodes: [NODE-0089]
+  source_chapters: [669]
+artifact_updates:
+- id: ART-0091
+  name: 万佛金身丹
+  update:
+    final_user: 徐霄
+    current_state: 已服用并修成万佛金身
+    effect_add: [佛陀金身进阶形态, 推动徐霄由人仙巅峰晋升地仙三重]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [667, 668]
+- id: ART-0083
+  name: 九霄山河图
+  update:
+    combat_record_add: [第674至675章收纳黑无忌等战败者神魂，并在三宗退走前归还]
+    related_nodes_add: [NODE-0089]
+    source_chapters_add: [674, 675]
