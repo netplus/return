@@ -1,0 +1,68 @@
+schema_version: 1
+run_id: RUN-0122
+artifacts:
+- id: ART-0142
+  name: 混元破界九霄天梯
+  category: 神器
+  grade: 神器
+  first_chapter: 835
+  current_holder: 徐霄
+  acquisition: 魔无天气运任务奖励
+  effect: 可穿梭界面，无界不破；内含须臾灵气小世界，可携带一界之人
+  current_state: 已获得并于第849章穿越天凤峰防御阵法
+  status: verified
+  related_nodes: [NODE-0106]
+  source_chapters: [835, 849]
+- id: ART-0143
+  name: 天地双神环
+  category: 神器
+  grade: 神器
+  first_chapter: 842
+  current_holder: 徐霄
+  acquisition: GIFT-0243返还
+  effect: 神器级双环；完整能力待确认
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0106]
+  source_chapters: [842, 843]
+- id: ART-0144
+  name: 诛仙神火剑
+  category: 神器
+  grade: 神器
+  first_chapter: 851
+  current_holder: 徐霄
+  acquisition: GIFT-0247中天道神威御火剑返还
+  effect: 火系神器神剑；完整规则与上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes: [NODE-0106]
+  source_chapters: [851]
+- id: ART-0145
+  name: 化仙神炉
+  category: 规则道器
+  grade: 顶级规则道器
+  first_chapter: 849
+  current_holder: 凤青玄
+  acquisition: 万妖仙宗镇宗传承
+  effect: 万妖仙宗顶级传承规则道器，可释放金焰与化仙威能
+  current_state: 已由凤青玄掌控
+  status: partial
+  related_nodes: [NODE-0106]
+  source_chapters: [849]
+artifact_updates:
+- id: ART-0129
+  name: 五行九天神威金轮
+  update:
+    transfer_event_add: [GIFT-0243]
+    current_holder_change: 刘爱花／雪瑶
+    current_state_change: 赠送雪瑶并在第849章用于对峙凤青玄
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [842, 849]
+- id: ART-0131
+  name: 天道神威御火剑
+  update:
+    transfer_event_add: [GIFT-0247]
+    current_holder_change: 凤青玄
+    current_state_change: 赠送凤青玄并触发神器诛仙神火剑返还
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [851]
