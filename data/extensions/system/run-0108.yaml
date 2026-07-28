@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0108
+gift_events:
+- {id: GIFT-0177, chapter: 690, node: NODE-0092, giver: 徐霄, recipient: 凤青玄, gift: 十颗超品仙元丹, accepted: true, system_valid: true, reward: 一百颗五行仙丹, triggered_multiplier: 10, status: verified}
+- {id: GIFT-0178, chapter: 692, node: NODE-0092, giver: 徐霄, recipient: 玄雪, gift: 一颗天凤血丹, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹, triggered_multiplier: 10000, status: verified}
+- {id: GIFT-0179, chapter: 692, node: NODE-0092, giver: 徐霄, recipient: 玄雪, gift: 九颗天凤血丹, accepted: true, system_valid: true, reward: 二十七颗高品天凤血丹, triggered_multiplier: 3, status: verified}
+- {id: GIFT-0180, chapter: 697, node: NODE-0092, giver: 徐霄, recipient: 焰灵, gift: 十颗仙元丹, accepted: true, system_valid: true, reward: 五十颗五行仙丹, triggered_multiplier: 5, status: verified}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0177, GIFT-0178, GIFT-0179, GIFT-0180]
+    enemy_task_add:
+    - {chapter: 694, target: 蜥风, identity: 天水城火蜥蜴一族公子, reward: 返还道具库随机升级, result: 第696章击杀完成, status: verified}
+    library_upgrade_add:
+    - {chapter: 696, category: 丹药返还库, previous_cap: 玄仙, new_cap: 金仙, trigger: 击杀蜥风任务完成, status: verified}
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [690, 692, 694, 696, 697]

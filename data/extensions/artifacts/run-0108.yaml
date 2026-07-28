@@ -1,0 +1,50 @@
+schema_version: 1
+run_id: RUN-0108
+artifacts:
+- id: ART-0098
+  name: 凤族血令
+  category: 妖族血脉令牌
+  grade: 金仙长老信物
+  first_chapter: 690
+  current_holder: 徐霄
+  acquisition: 凤青玄从天翎长老处求得后交给徐霄
+  abilities: [以天凤血脉炼成并对普通妖族形成血脉压制, 代表万妖仙宗天翎长老和天凤一族的政治庇护]
+  current_state: 已在第693章及第697章公开展示
+  status: partial
+  related_nodes: [NODE-0092]
+  source_chapters: [690, 693, 697]
+- id: ART-0099
+  name: 天凤血丹
+  category: 血脉丹药
+  grade: pending
+  first_chapter: 691
+  current_holder: 徐霄
+  acquisition: 仙帝传承资源；系统返还历史与总量仅部分确认
+  effects: [蕴含精纯天凤血气, 玄鸟血脉炼化后可提升天凤血脉]
+  quantity_context: 第692章赠送十颗后仍有约一百一十颗，并返还二十七颗高品天凤血丹
+  status: partial
+  related_nodes: [NODE-0092]
+  source_chapters: [691, 692, 693]
+artifact_updates:
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0177, chapter: 690, quantity: 100, status: verified}
+    - {gift_id: GIFT-0180, chapter: 697, quantity: 50, status: verified}
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [690, 697]
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0178, chapter: 692, quantity: 1, status: verified}
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [692]
+- id: ART-0097
+  name: 大道玄冰剑
+  update:
+    combat_record_add:
+    - {chapter: 696, event: 一击贯穿并击杀蜥风及五名火蜥族随从, status: verified}
+    related_nodes_add: [NODE-0092]
+    source_chapters_add: [696]
