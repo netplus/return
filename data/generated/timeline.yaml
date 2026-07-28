@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 94
+  extension_files: 95
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -4153,3 +4153,47 @@ nodes:
   - 魔无花羁绊返还精确时点
   document: docs/01-timeline/node-0105.md
   evidence: sources/evidence/chapters-822-830.yaml
+- id: NODE-0106
+  title: 轩辕接亲、十五年跃迁与雪瑶天羽争夺
+  chapters:
+    start: 831
+    end: 853
+  granularity: story_arc
+  status: verified
+  source_qualification: 第831—853章由留存的一天期正文证据逐章阅读，并与归档逐章SHA-256匹配
+  boundary_reason: 第853章完成十五年跃迁后的天羽复合与寿宴出发准备；第854章正式抵达初殷仙帝寿宴，转入跨仙域寿宴与域外冲突新阶段
+  characters:
+  - 徐霄
+  - 轩辕婉君
+  - 狐嫣
+  - 轩辕金花
+  - 轩辕宏
+  - 魔无天
+  - 魔无花
+  - 牛通天
+  - 凤青玄
+  - 雪瑶
+  - 天翎
+  - 初殷
+  - 霄天
+  - 龙冥
+  - 魔祖
+  - 幽姬
+  system_events:
+  - event: 魔无天气运之子任务完成
+    result: 获得混元破界九霄天梯
+    status: verified
+  - event: 规则道器赠送刘爱花
+    result: 返还神器天地双神环
+    status: verified
+  - event: 凤青玄复合赠礼
+    result: 返还祖凤血丹、大罗鸿蒙丹及神器诛仙神火剑
+    status: verified
+  relationship_result: 轩辕婉君正式与徐霄完婚；雪瑶公开承认刘爱花身份；凤青玄与徐霄经历公开决裂后复合，并准备共同参加初殷寿宴
+  pending:
+  - 徐霄兵解仙帝自述真实性
+  - 十五年内全部赠礼账务拆分
+  - 化仙神炉完整能力与归属历史
+  - 初殷寿宴最终结果
+  document: docs/01-timeline/node-0106.md
+  evidence: sources/evidence/chapters-831-853.yaml

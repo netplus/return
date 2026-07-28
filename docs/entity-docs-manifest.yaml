@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 215
+    count: 224
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -438,8 +438,26 @@ groups:
       path: docs/02-characters/上官清.md
     - id: CHAR-0215
       path: docs/02-characters/蝎晴.md
+    - id: CHAR-0216
+      path: docs/02-characters/狐嫣.md
+    - id: CHAR-0217
+      path: docs/02-characters/轩辕金花.md
+    - id: CHAR-0218
+      path: docs/02-characters/轩辕宏.md
+    - id: CHAR-0219
+      path: docs/02-characters/牛通天.md
+    - id: CHAR-0220
+      path: docs/02-characters/魔祖.md
+    - id: CHAR-0221
+      path: docs/02-characters/幽姬.md
+    - id: CHAR-0222
+      path: docs/02-characters/初殷.md
+    - id: CHAR-0223
+      path: docs/02-characters/霄天.md
+    - id: CHAR-0224
+      path: docs/02-characters/龙冥.md
   artifacts:
-    count: 141
+    count: 145
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -725,10 +743,18 @@ groups:
       path: docs/06-artifacts/混元神火符.md
     - id: ART-0141
       path: docs/06-artifacts/天道神威黑冰剑.md
+    - id: ART-0142
+      path: docs/06-artifacts/混元破界九霄天梯.md
+    - id: ART-0143
+      path: docs/06-artifacts/天地双神环.md
+    - id: ART-0144
+      path: docs/06-artifacts/诛仙神火剑.md
+    - id: ART-0145
+      path: docs/06-artifacts/化仙神炉.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 215
-  growth_events: 917
+  characters_with_growth_line: 224
+  growth_events: 941
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
