@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0109
+artifacts:
+- id: ART-0100
+  name: 地仙巅峰大道神丹
+  category: 大道丹药
+  grade: 地仙巅峰
+  first_chapter: 699
+  current_holder: 焰灵
+  acquisition: GIFT-0181
+  effect: 用于地仙境大道修炼；完整大道属性与服用结果待确认
+  current_state: 已赠送焰灵，是否服用待确认
+  status: partial
+  related_nodes: [NODE-0093]
+  source_chapters: [699]
+- id: ART-0101
+  name: 祖凤天血丹
+  category: 血脉丹药
+  grade: pending
+  first_chapter: 704
+  current_holder: 徐霄
+  acquisition: 蜥雷任务及蜥红蝶特殊补偿阶段获得；精确奖励拆分待确认
+  effects: [使天凤血脉进化为祖凤血脉, 可形成造化涅槃重生能力, 服用后推动徐霄一夜连升三重]
+  current_state: 已由徐霄服用
+  status: partial
+  related_nodes: [NODE-0093]
+  source_chapters: [704, 705]
+artifact_updates:
+- id: ART-0044
+  name: 鸿蒙一气丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0181, chapter: 699, quantity: 1, status: verified}
+    related_nodes_add: [NODE-0093]
+    source_chapters_add: [699]
