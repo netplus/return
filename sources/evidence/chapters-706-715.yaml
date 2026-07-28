@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0110
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 706, end: 715}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  evidence_artifact: source-chapters-0689-0738
+  chapters:
+  - {chapter: 706, title: 人族养伤小队, sha256: ca46f5f37f78e4f3acf2231747de86439826c69d42c59e591e19f4d145c5d344}
+  - {chapter: 707, title: 包围人族, sha256: 3f72fffe7d5fc7e01836082b406919702e3792c5d7f40a0ed24e19d35d03fce4}
+  - {chapter: 708, title: 天水城，为所欲为, sha256: c12e038b12d5bedbb44a4c19782be3c908e551df6b4bda9e05ad0f5ec4a219f1}
+  - {chapter: 709, title: 铁仙楼商议, sha256: 15a57903e6a39ab83784d6b0f6a3029b2ebdb6dd3fe622880999a206513c209d}
+  - {chapter: 710, title: 抵达青木城, sha256: ac79a7dfa2fea449abc3ec1182730a76c576dd8738d9015ebd6e132b8353dbda}
+  - {chapter: 711, title: 开始布置阵眼, sha256: e5316d306b4555ddad50e6d74ca99d6bab73cfbb26e500054b636178b44dee66}
+  - {chapter: 712, title: 徐霄出手, sha256: 11b314534970fb33a8190dbfe0e0a30c3b1ff1fa3de0ea7c8306448322056b6e}
+  - {chapter: 713, title: 看傻了的白鹤三人, sha256: b1a542c06ac7504230833def59262350a71a4ad60700b8dae1b934f4a0bde93a}
+  - {chapter: 714, title: 惊麻了的人妖两族, sha256: 93316e0443cc0cda956d1f64d3e268bab74fb6aea3cab927702c5892ecca486c}
+  - {chapter: 715, title: 人族败退, sha256: 6dd17684cbc53784d131e70cecda99d42a58164d5e4e8f6d7b039212d5ed28f1}
+chapter_facts:
+- {chapter: 706, facts: [玄灵玄雪接受玄元仙丹, 系统返还八十颗金仙道丹, 玄鸟族锁定天玄养伤小队]}
+- {chapter: 707, facts: [周紫薇准备自爆, 系统识别SS级气运之女, 徐霄决定放走整支人族小队]}
+- {chapter: 708, facts: [周紫薇接受玄元仙丹并将徐霄视为卧底, 返还三千大道丹和金仙道丹, 徐霄晋升太初仙体与天仙四重并领悟感知大道]}
+- {chapter: 709, facts: [玄雪与徐霄公开对象关系, 玄鸟族补入天水城八大妖族, 天水城决定支援青木城]}
+- {chapter: 710, facts: [天水城玄仙精锐抵达青木城, 确认一百零八阵眼任务]}
+- {chapter: 711, facts: [凤天晴孔青主持青木城前线, 鹤仙儿被系统识别为SS级气运之女, 白鹤族开始布置阵眼]}
+- {chapter: 712, facts: [青曼被识别为A级气运之女, 徐霄击杀追杀青曼的人族玄仙]}
+- {chapter: 713, facts: [徐霄以三光神水治愈青曼, 青曼接受玄元仙丹并确立关系, 返还鸿蒙一气丹和金仙道丹]}
+- {chapter: 714, facts: [赵四尊突破防线攻击阵眼, 人妖双方关注徐霄前线行为]}
+- {chapter: 715, facts: [徐霄正面击退赵四尊, 天玄小队撤退, 阵眼保住, 缚仙绳赠送赤澜儿返还镇魂黑链]}
+boundary_reason: 第715章完成人族败退与阵眼保全；第716章转入终极卧底和后续资源阶段
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_and_hashes}
