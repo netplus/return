@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 84
+  extension_files: 85
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -3019,3 +3019,75 @@ gifts:
   triggered_multiplier: 100
   relationship_result: 师徒资源关系加深，但雪瑶仍坚持控制徐霄
   status: verified
+- id: GIFT-0235
+  chapter: 823
+  node: NODE-0105
+  giver: 徐霄
+  recipient: 尘玉
+  gift: 十颗超级玄元仙丹、一颗玄仙巅峰大道神丹及一件至尊仙器
+  accepted: true
+  system_valid: true
+  reward: 一百颗金仙道丹、十颗金仙巅峰大道神丹及一件道器
+  triggered_multiplier: partial
+  relationship_result: 尘玉获得执事资源并与徐霄确立关系
+  status: partial
+- id: GIFT-0236
+  chapter: 826
+  node: NODE-0105
+  giver: 徐霄
+  recipient: 尘玉
+  gift: 金仙巅峰火符
+  accepted: true
+  system_valid: true
+  reward: 大罗九重混元神火符
+  triggered_multiplier: 10000
+  relationship_result: 首次羁绊提升暴击
+  status: verified
+- id: GIFT-0237
+  chapter: 827
+  node: NODE-0105
+  giver: 徐霄
+  recipient: 蝎晴
+  gift: 十颗金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及四十五颗太乙聚仙丹
+  triggered_multiplier: partial
+  relationship_result: 蝎晴接受徐霄长期资源支持
+  status: verified
+- id: GIFT-0238
+  chapter: 827
+  node: NODE-0105
+  giver: 徐霄
+  recipient: 蝎晴
+  gift: 道器大道玄冰剑
+  accepted: true
+  system_valid: true
+  reward: 规则道器天道神威黑冰剑
+  triggered_multiplier: partial
+  relationship_result: 蝎晴与徐霄确立关系
+  status: verified
+- id: GIFT-0239
+  chapter: 829
+  node: NODE-0105
+  giver: 徐霄
+  recipient: 魔无花
+  gift: 十颗太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 十颗大罗鸿蒙丹
+  triggered_multiplier: partial
+  relationship_result: 魔无花获得长期资源与回归魔罗圣门承诺
+  status: verified
+- id: GIFT-0240
+  chapter: 824
+  node: NODE-0105
+  giver: 徐霄
+  recipient: 龙贞等六名万妖仙宗高层
+  gift: 六十颗太乙聚仙丹处置孔玄预付款
+  accepted: true
+  system_valid: true
+  reward: 三十颗大罗鸿蒙丹
+  triggered_multiplier: partial
+  relationship_result: 六名高层接受处置孔玄任务并于第830章完成
+  status: partial

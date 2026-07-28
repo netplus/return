@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 214
+    count: 215
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -393,7 +393,7 @@ groups:
     - id: CHAR-0192
       path: docs/02-characters/熊大.md
     - id: CHAR-0193
-      path: docs/02-characters/熊大-CHAR-0193.md
+      path: docs/02-characters/魔无花.md
     - id: CHAR-0194
       path: docs/02-characters/雪小星.md
     - id: CHAR-0195
@@ -436,8 +436,10 @@ groups:
       path: docs/02-characters/鹤霜英.md
     - id: CHAR-0214
       path: docs/02-characters/上官清.md
+    - id: CHAR-0215
+      path: docs/02-characters/蝎晴.md
   artifacts:
-    count: 138
+    count: 141
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -717,10 +719,16 @@ groups:
       path: docs/06-artifacts/天道神威绝金剑.md
     - id: ART-0138
       path: docs/06-artifacts/混元大罗神冰符.md
+    - id: ART-0139
+      path: docs/06-artifacts/尘玉返还道器（正式名称待确认）.md
+    - id: ART-0140
+      path: docs/06-artifacts/混元神火符.md
+    - id: ART-0141
+      path: docs/06-artifacts/天道神威黑冰剑.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 214
-  growth_events: 904
+  characters_with_growth_line: 215
+  growth_events: 917
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

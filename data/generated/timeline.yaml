@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 93
+  extension_files: 94
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -4116,3 +4116,40 @@ nodes:
   - 仙帝宫侍女组解除时间
   document: docs/01-timeline/node-0104.md
   evidence: sources/evidence/chapters-808-821.yaml
+- id: NODE-0105
+  title: 返回万妖仙宗、天魁峰安置与孔玄处置
+  chapters:
+    start: 822
+    end: 830
+  granularity: story_arc
+  status: verified
+  source_qualification: 第822—830章由归档逐章SHA-256及一次性正文产物核验
+  boundary_reason: 第830章完成孔玄处置和法器返还库升级；第831章转入轩辕仙城接亲
+  characters:
+  - 徐霄
+  - 尘玉
+  - 东方青
+  - 邹蒙
+  - 莫问书
+  - 蝎晴
+  - 魔无花
+  - 孔玄
+  - 凤青玄
+  - 龙贞
+  - 孔金
+  - 龙九天
+  system_events:
+  - event: 孔玄气运之敌任务完成
+    result: 法器返还库上限提升至神器
+    status: verified
+  - event: 蝎晴复合赠礼返还
+    result: 鸿蒙一气丹、太乙聚仙丹及天道神威黑冰剑
+    status: verified
+  relationship_result: 尘玉与蝎晴分别与徐霄确立关系；魔无花获得长期资源和回归魔罗圣门承诺
+  pending:
+  - 尘玉返还道器正式名称
+  - 凤青玄规则道器正式名称与炼化结果
+  - 孔玄具体死亡过程
+  - 魔无花羁绊返还精确时点
+  document: docs/01-timeline/node-0105.md
+  evidence: sources/evidence/chapters-822-830.yaml

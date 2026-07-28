@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 93
+  extension_files: 94
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -174,6 +174,7 @@ characters:
   - NODE-0102
   - NODE-0103
   - NODE-0104
+  - NODE-0105
   source_chapters:
   - 1
   - 2
@@ -956,6 +957,15 @@ characters:
   - 819
   - 820
   - 821
+  - 822
+  - 823
+  - 824
+  - 825
+  - 826
+  - 827
+  - 828
+  - 829
+  - 830
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -1047,6 +1057,9 @@ characters:
   - 与轩辕婉君完成订婚
   - 与魔无花建立共同对付魔无天的资源合作
   - 以资源促使凤溪和龙九天支持其政治处置
+  - 与尘玉确立关系
+  - 与蝎晴确立关系
+  - 向魔无花承诺资源支持及重返魔罗圣门
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -1072,7 +1085,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 金仙一重
+  cultivation_change: 金仙二重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -1277,6 +1290,9 @@ characters:
   - 符箓阵法返还库上限提升至大罗仙
   - 获得天道神威绝金剑
   - 获得混元大罗神冰符
+  - 鸿蒙真气增至八十一股
+  - 法器返还库上限提升至神器
+  - 获得混元神火符与天道神威黑冰剑
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1791,6 +1807,19 @@ characters:
       end: 821
     event: 直面雪瑶仙帝问责、完成高阶赠送并从仙帝宫脱困
     impact: 获得一千颗大罗鸿蒙丹、两件大罗层级返还物并暂时摆脱仙帝宫拘禁
+    status: verified
+  - chapter_range:
+      start: 822
+      end: 830
+    event: 返回万妖仙宗、安置灵藏仙域亲信并完成孔玄任务
+    core_ability:
+    - 金仙二重
+    - 鸿蒙真气八十一股
+    - 神器级法器返还库
+    impact:
+    - 重建天魁峰行动网络
+    - 获得两件高阶返还物
+    - 与尘玉和蝎晴确立关系
     status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
@@ -3850,6 +3879,7 @@ characters:
   - NODE-0074
   - NODE-0092
   - NODE-0093
+  - NODE-0105
   source_chapters:
   - 233
   - 234
@@ -3881,6 +3911,9 @@ characters:
   - 700
   - 701
   - 702
+  - 825
+  - 828
+  - 829
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -3931,13 +3964,29 @@ characters:
     - 与徐霄关系进入暂时中断状态
     - 与师父在私人关系问题上出现冲突
     status: partial
+  - chapter_range:
+      start: 825
+      end: 829
+    event: 完成天羽涅槃融合并以分魂下界夺取盘龙岛机缘
+    core_ability:
+    - 历代圣女记忆
+    - 二十三股传承鸿蒙真气
+    - 天地灵根类规则道器
+    impact: 天凤族仙帝竞争能力显著提升并开始控制徐霄下界关系网络
+    status: partial
   affiliation_change:
   - 万妖仙宗
   - 天凤一族
   identity_change:
   - 天翎长老亲传弟子
+  - 完成历代天凤圣女涅槃融合
+  - 天凤老祖天羽
   conflict_change:
   - 师父天翎对其与徐霄关系进行强制干预
+  ability_change:
+  - 继承三十二代圣女记忆
+  - 继承二十三股鸿蒙真气
+  - 取得天地灵根类规则道器及五道无主鸿蒙真气
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -6909,6 +6958,7 @@ characters:
   - NODE-0070
   - NODE-0071
   - NODE-0081
+  - NODE-0105
   source_chapters:
   - 522
   - 523
@@ -6923,6 +6973,11 @@ characters:
   - 617
   - 618
   - 619
+  - 822
+  - 823
+  - 824
+  - 825
+  - 826
   verification_status: partial
   condition_change: 因代挖连坐受到十天禁闭处罚
   growth_event:
@@ -6949,6 +7004,12 @@ characters:
     impact:
     - 职业与资源路径由矿工转为长期直属班底
     status: verified
+  - chapter_range:
+      start: 822
+      end: 826
+    event: 随徐霄进入万妖仙宗并取得执事身份
+    impact: 获得大仙域长期修炼与资源入口
+    status: verified
   accepted_resources:
   - GIFT-0117中的十枚雷灵丹
   relationship_change:
@@ -6958,6 +7019,9 @@ characters:
   - 徐霄护院守卫和内门执法弟子
   accepted_gifts:
   - GIFT-0148
+  identity_change:
+  - 万妖仙宗执事
+  - 天魁峰府邸管理人员
 - id: CHAR-0108
   name: 范有通
   status: alive
@@ -7626,6 +7690,7 @@ characters:
   - NODE-0078
   - NODE-0079
   - NODE-0081
+  - NODE-0105
   source_chapters:
   - 547
   - 548
@@ -7647,6 +7712,11 @@ characters:
   - 606
   - 618
   - 619
+  - 822
+  - 823
+  - 824
+  - 825
+  - 826
   verification_status: partial
   current_action:
   - 参加道侣大会重新评测自身状态
@@ -7686,6 +7756,12 @@ characters:
     impact:
     - 成为长期护院和执法班底成员
     status: verified
+  - chapter_range:
+      start: 822
+      end: 826
+    event: 随徐霄进入万妖仙宗并取得执事身份
+    impact: 获得大仙域长期修炼与资源入口
+    status: verified
   resource_change:
   - 三颗化仙丹
   role_change:
@@ -7693,6 +7769,8 @@ characters:
   - 徐霄直属内门执法弟子和护院成员
   identity_change:
   - 阴阳仙门内门执法弟子
+  - 万妖仙宗执事
+  - 天魁峰府邸管理人员
   cultivation_change: 人仙四重
 - id: CHAR-0119
   name: 凌白烟
@@ -7997,6 +8075,7 @@ characters:
   - NODE-0085
   - NODE-0086
   - NODE-0087
+  - NODE-0105
   source_chapters:
   - 557
   - 560
@@ -8035,6 +8114,11 @@ characters:
   - 660
   - 661
   - 662
+  - 822
+  - 823
+  - 824
+  - 825
+  - 826
   document: null
   verification_status: partial
   conflict_change:
@@ -8115,6 +8199,12 @@ characters:
     - 阴阳仙门与天一仙门冲突升级
     - 邬秋处置权转入本宗
     status: partial
+  - chapter_range:
+      start: 822
+      end: 826
+    event: 随徐霄进入万妖仙宗并负责天魁峰府邸事务
+    impact: 从灵藏仙域宗门长老转为大仙宗执事与徐霄亲信
+    status: verified
   cultivation_change: 天仙一重
   system_behavior:
   - 计划通过持续做好事加速修炼并重新争取罗素
@@ -8123,6 +8213,8 @@ characters:
   - 赠送气运之子的物品原封不动返还
   identity_change:
   - 被万倍返还系统识别为气运之子
+  - 万妖仙宗执事
+  - 天魁峰府邸管理人员
   accepted_gifts:
   - GIFT-0138
   - GIFT-0139
@@ -9446,6 +9538,7 @@ characters:
   - NODE-0083
   - NODE-0088
   - NODE-0089
+  - NODE-0105
   source_chapters:
   - 633
   - 634
@@ -9457,10 +9550,17 @@ characters:
   - 674
   - 675
   - 676
+  - 822
+  - 823
+  - 824
+  - 825
+  - 826
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0167
+  - GIFT-0235
+  - GIFT-0236
   role_change:
   - 正式宣布阴阳仙门可保下有冤情的邬秋
   - 确认徐霄具备上古仙帝传承和至尊天仙级战略价值
@@ -9477,6 +9577,20 @@ characters:
     impact:
     - 由约束风险转为推动其进入灵华山高层培养体系
     status: partial
+  - chapter_range:
+      start: 822
+      end: 826
+    event: 进入万妖仙宗并接受复合资源
+    impact:
+    - 取得执事身份
+    - 迁入天魁峰
+    - 与徐霄确立长期关系
+    status: verified
+  identity_change:
+  - 万妖仙宗执事
+  - 天魁峰府邸成员
+  relationship_change:
+  - 与徐霄确立关系并获得长期资源保障
 - id: CHAR-0148
   name: 金华
   status: alive
@@ -11980,12 +12094,24 @@ characters:
     徐霄: 持审视和潜在敌对立场
   related_nodes:
   - NODE-0097
+  - NODE-0105
   source_chapters:
   - 731
   - 732
   - 735
+  - 824
+  - 830
   document: null
   verification_status: partial
+  status_change:
+  - 被龙贞等万妖仙宗高层间接击杀
+  growth_event:
+  - chapter_range:
+      start: 824
+      end: 830
+    event: 被列为处置目标并最终死亡
+    impact: 气运之敌任务完成，触发法器返还库升级
+    status: verified
 - id: CHAR-0192
   name: 熊大
   status: alive
@@ -12100,7 +12226,7 @@ characters:
   - 获得道器轩辕五行环
   cultivation_change: 金仙一重
 - id: CHAR-0193
-  name: 熊大
+  name: 魔无花
   status: alive
   role: supporting
   affiliations:
@@ -12125,6 +12251,7 @@ characters:
   - NODE-0097
   - NODE-0100
   - NODE-0101
+  - NODE-0105
   source_chapters:
   - 734
   - 752
@@ -12141,10 +12268,14 @@ characters:
   - 770
   - 771
   - 772
+  - 826
+  - 829
+  - 830
   document: null
   verification_status: partial
   relationship_change:
   - 进一步成为徐霄在天魁峰的核心行政与保护盟友
+  - 与徐霄关系公开化并获得重返魔罗圣门承诺
   growth_event:
   - chapter_range:
       start: 752
@@ -12161,8 +12292,17 @@ characters:
     - 天魁峰成为灵藏人族安置核心
     - 公开推动徐霄第一圣子名号
     status: verified
+  - chapter_range:
+      start: 829
+      end: 830
+    event: 接受太乙聚仙丹并获得徐霄协助回归魔罗圣门的承诺
+    impact: 与徐霄关系公开化，复仇与宗门回归路线获得外部支持
+    status: verified
   status_change:
   - 在六宗会盟中公开推举徐霄为太初仙域第一圣子
+  accepted_gifts:
+  - GIFT-0239
+  cultivation_change: 太乙仙
 - id: CHAR-0194
   name: 雪小星
   status: alive
@@ -12325,6 +12465,7 @@ characters:
   - NODE-0100
   - NODE-0102
   - NODE-0103
+  - NODE-0105
   source_chapters:
   - 742
   - 744
@@ -12347,6 +12488,9 @@ characters:
   - 797
   - 801
   - 807
+  - 823
+  - 824
+  - 830
   document: null
   verification_status: partial
   status_change:
@@ -12381,6 +12525,12 @@ characters:
     event: 参与四大太上长老处置与仙帝宫法令冲突
     impact: 由宗门掌门转为徐霄政治保护网络核心之一
     status: verified
+  - chapter_range:
+      start: 823
+      end: 830
+    event: 配合安置徐霄亲信并参与孔玄处置
+    impact: 与徐霄的资源交换和宗门保护关系进一步制度化
+    status: verified
   stance_change:
   - 接受太乙聚仙丹后公开认定徐霄无罪
   - 授予其万妖仙宗唯一圣子身份
@@ -12389,6 +12539,8 @@ characters:
   - 获得一颗太乙聚仙丹
   accepted_gifts:
   - GIFT-0222
+  action_change:
+  - 参与孔玄处置并继续为徐霄安排宗门身份与舆论保护
 - id: CHAR-0199
   name: 凤溪
   status: alive
@@ -12886,12 +13038,15 @@ characters:
   related_nodes:
   - NODE-0103
   - NODE-0104
+  - NODE-0105
   source_chapters:
   - 796
   - 808
   - 809
   - 810
   - 811
+  - 824
+  - 830
   document: null
   verification_status: verified
   growth_event:
@@ -12901,8 +13056,16 @@ characters:
     event: 接受徐霄资源委托并参与处置天穹
     impact: 继续成为徐霄在万妖仙宗的高层执行与保护节点
     status: verified
+  - chapter_range:
+      start: 824
+      end: 830
+    event: 组织宗门高层处置孔玄
+    impact: 继续作为徐霄在万妖仙宗的高层执行节点
+    status: partial
   accepted_gifts:
   - GIFT-0231
+  action_change:
+  - 接受资源委托并参与安排孔玄处置
 - id: CHAR-0211
   name: 凤四老
   status: alive
@@ -12937,10 +13100,22 @@ characters:
     node: NODE-0103
   related_nodes:
   - NODE-0103
+  - NODE-0105
   source_chapters:
   - 796
+  - 824
+  - 830
   document: null
   verification_status: verified
+  action_change:
+  - 接受资源后同意处置直系后辈孔玄
+  growth_event:
+  - chapter_range:
+      start: 824
+      end: 830
+    event: 接受处置孔玄方案并参与执行
+    impact: 宗族血缘立场让位于万妖仙宗高层资源联盟
+    status: verified
 - id: CHAR-0213
   name: 鹤霜英
   status: alive
@@ -12988,5 +13163,43 @@ characters:
   - 815
   - 816
   - 817
+  document: null
+  verification_status: verified
+- id: CHAR-0215
+  name: 蝎晴
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 天毒蝎族
+  identities:
+  - 天毒蝎族老祖
+  - 万妖仙宗金仙长老
+  - 徐霄助手
+  - SS级气运之女
+  first_appearance:
+    chapter: 825
+    title: 凤青玄出关
+    node: NODE-0105
+  cultivation:
+    current: 金仙六重
+    status: verified
+  system_profile:
+    luck_grade: SS
+    return_multiplier: 50
+    bond: 2
+    status: verified
+  relationship_context:
+    徐霄: 接受金仙道丹与大道玄冰剑后确立关系
+  accepted_gifts:
+  - GIFT-0237
+  - GIFT-0238
+  related_nodes:
+  - NODE-0105
+  source_chapters:
+  - 825
+  - 826
+  - 827
+  - 828
   document: null
   verification_status: verified
