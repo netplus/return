@@ -1,0 +1,72 @@
+schema_version: 1
+run_id: RUN-0120
+gift_events:
+- id: GIFT-0231
+  chapter: 810
+  node: NODE-0104
+  giver: 徐霄
+  recipient: 龙贞等六名万妖仙宗高层
+  gift: 三十颗太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 三十颗大罗鸿蒙丹
+  triggered_multiplier: partial
+  relationship_result: 六名高层接受处置天穹的资源委托
+  status: partial
+- id: GIFT-0232
+  chapter: 810
+  node: NODE-0104
+  giver: 徐霄
+  recipient: 天翎
+  gift: 十颗祖凤血丹、十颗太乙聚仙丹及大道天金剑
+  accepted: true
+  system_valid: true
+  reward: 规则道器天道神威绝金剑；丹药返还拆分待确认
+  triggered_multiplier: partial
+  relationship_result: 天翎与徐霄建立秘密关系
+  status: partial
+- id: GIFT-0233
+  chapter: 812
+  node: NODE-0104
+  giver: 徐霄
+  recipient: 周紫薇
+  gift: 金仙巅峰冰符
+  accepted: true
+  system_valid: true
+  reward: 大罗九重混元大罗神冰符
+  triggered_multiplier: 10000
+  relationship_result: 使用首次羁绊提升暴击
+  status: verified
+- id: GIFT-0234
+  chapter: 820
+  node: NODE-0104
+  giver: 徐霄
+  recipient: 雪瑶
+  gift: 十颗大罗鸿蒙丹
+  accepted: true
+  system_valid: true
+  reward: 一千颗大罗鸿蒙丹
+  triggered_multiplier: 100
+  relationship_result: 师徒资源关系加深，但雪瑶仍坚持控制徐霄
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0231, GIFT-0232, GIFT-0233, GIFT-0234]
+    rule_add:
+    - chapter: 811
+      rule: 击杀气运之敌天穹后，符箓与阵法返还库上限提升至大罗仙
+      status: verified
+    - chapter: 814
+      rule: 上官清被识别为SSS级气运之女，返还倍数100，羁绊度1
+      status: verified
+    reward_resolution_add:
+    - chapter: 812
+      result: 周紫薇首次羁绊暴击使金仙巅峰冰符返还为大罗九重混元大罗神冰符
+      status: verified
+    - chapter: 820
+      result: 十颗大罗鸿蒙丹赠送雪瑶后返还一千颗
+      status: verified
+    related_nodes_add: [NODE-0104]
+    source_chapters_add: [808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821]
