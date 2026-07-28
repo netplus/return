@@ -1,0 +1,95 @@
+schema_version: 1
+run_id: RUN-0111
+characters:
+- id: CHAR-0182
+  name: 陈大浩
+  status: alive
+  role: supporting
+  affiliations: [天玄仙宗]
+  identities: [天玄仙宗执事, 人族养伤小队成员]
+  first_appearance: {chapter: 716, title: 终极卧底, node: NODE-0095}
+  cultivation: {current: 玄仙境, exact_level: pending, status: partial}
+  condition: {body: destroyed, soul: released_to_rebuild_body, status: partial}
+  relationship_context: {徐霄: 误认为百万年人族计划的终极卧底并承诺保密}
+  related_nodes: [NODE-0095]
+  source_chapters: [716, 717]
+  document: null
+  verification_status: partial
+- id: CHAR-0183
+  name: 诸葛绫
+  status: alive
+  role: supporting
+  affiliations: [天玄仙宗]
+  identities: [天玄仙宗天地玄仙, SS级气运之女]
+  first_appearance: {chapter: 720, title: 超越天地玄仙的战斗, node: NODE-0095}
+  cultivation: {current: 玄仙六重, status: partial}
+  condition: {chapter: 721, result: 五行至尊仙剑受损并身受重伤}
+  relationship_context: {徐霄: 被放过后接受其卧底叙事并参与保密, 周紫薇: 同门师妹}
+  related_nodes: [NODE-0095]
+  source_chapters: [720, 721, 722]
+  document: null
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [获得大道玉衣, 首次施展五行道器剑阵, 战力达到至尊玄仙威慑层级]
+    relationship_change_add: [与周紫薇正式确立关系, 取得诸葛绫对卧底身份的保密]
+    accepted_rewards_add: [ART-0105, ART-0106, ART-0107]
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [716, 717, 718, 719, 720, 721, 722]
+    growth_event_add:
+    - chapter_range: {start: 716, end: 722}
+      event: 维持终极卧底叙事并击溃人妖双向伏击
+      core_ability: [大道玉衣, 五行道器剑阵, 至尊玄仙级战力]
+      impact: [天玄仙宗内部形成持续保密通道, 孔青暗杀力量被清除, 与周紫薇关系正式确立]
+      status: verified
+- id: CHAR-0176
+  name: 周紫薇
+  update:
+    relationship_change_add: [与徐霄正式确立关系并承诺保守终极卧底身份]
+    strategic_role_add: [协助诸葛绫撤离并向天玄仙宗隐藏徐霄真实战力与身份]
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [721, 722]
+    growth_event_add:
+    - chapter_range: {start: 721, end: 722}
+      event: 救援诸葛绫并与徐霄正式确立关系
+      impact: [成为徐霄在天玄仙宗内部的保密与关系通道]
+      status: verified
+- id: CHAR-0177
+  name: 孔青
+  update:
+    conflict_change_add: [暗派五名妖族天地玄仙跟踪并击杀徐霄但全员被反杀]
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [717, 718, 719, 720, 721, 722]
+    growth_event_add:
+    - chapter_range: {start: 717, end: 722}
+      event: 对徐霄实施秘密截杀但亲信队伍全部覆灭
+      impact: [与徐霄冲突升级为隐蔽生死斗争, 暗杀计划暂未被公开追责]
+      status: partial
+- id: CHAR-0180
+  name: 青曼
+  update:
+    accepted_gifts_add: [GIFT-0188]
+    artifact_add: [九霄玉舟]
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [716]
+    growth_event_add:
+    - chapter: 716
+      event: 接受九霄玉舟作为长期保命与跨界移动资源
+      core_ability: [获得具备破界瞬移能力的顶级飞舟仙器]
+      impact: [与徐霄长期关系和资源绑定进一步稳定]
+      status: verified
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    accepted_gifts_add: [GIFT-0189]
+    artifact_add: [通天如意针]
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [716]
+    growth_event_add:
+    - chapter: 716
+      event: 接受顶级至尊仙器通天如意针
+      core_ability: [新增高阶攻防仙器]
+      impact: [玄鸟族与徐霄的长期资源关系继续加深]
+      status: partial

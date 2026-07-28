@@ -1,0 +1,35 @@
+schema_version: 1
+run_id: RUN-0111
+gift_events:
+- id: GIFT-0188
+  chapter: 716
+  node: NODE-0095
+  giver: 徐霄
+  recipient: 青曼
+  gift: 九霄玉舟
+  accepted: true
+  reward: 九天青木舟
+  triggered_multiplier: pending
+  status: verified
+- id: GIFT-0189
+  chapter: 716
+  node: NODE-0095
+  giver: 徐霄
+  recipient: 玄雪
+  gift: 通天如意针
+  accepted: true
+  reward: pending
+  triggered_multiplier: pending
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0188, GIFT-0189]
+    recognized_targets_add: [诸葛绫]
+    rule_add:
+    - chapter: 721
+      rule: 战斗中识别到新的气运之女后，宿主可中止击杀并转入关系与赠送路径
+      status: verified
+    related_nodes_add: [NODE-0095]
+    source_chapters_add: [716, 717, 721, 722]

@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0110
+run_id: RUN-0111
 coverage:
-  chapters_covered_through: 715
-  chapters_promoted_in_run: [706, 707, 708, 709, 710, 711, 712, 713, 714, 715]
-  timeline_nodes: 94
+  chapters_covered_through: 722
+  chapters_promoted_in_run: [716, 717, 718, 719, 720, 721, 722]
+  timeline_nodes: 95
   draft_nodes: 0
-  story_arc_nodes: 91
-  characters_documented: 181
+  story_arc_nodes: 92
+  characters_documented: 183
   characters_staged: 0
   system_records: 1
-  gift_events: 187
-  artifact_records: 104
+  gift_events: 189
+  artifact_records: 107
   artifacts_staged: 0
 entity_documents:
-  character_records: 181
-  artifact_records: 104
-  expected_generated_documents: 285
+  character_records: 183
+  artifact_records: 107
+  expected_generated_documents: 290
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [706, 707, 708, 709, 710, 711, 712, 713, 714, 715], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第715章完成人族败退和阵眼保全；第716章转入终极卧底阶段}
-  materiality: {status: passed, entity_updates: [NODE-0094, 周紫薇孔青凤天晴鹤仙儿青曼赵四尊新人物, 徐霄玄雪玄灵赤澜儿金虚成长更新, GIFT-0182至GIFT-0187, ART-0102至ART-0104]}
+  source_traceability: {status: passed, archive_chapters: [716, 717, 718, 719, 720, 721, 722], mirror_cross_check_chapters: [716, 717, 718, 719, 720, 721, 722], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第722章完成双向伏击、卧底保密与返回青木城；第723章转入造化滴血重生阶段}
+  materiality: {status: passed, entity_updates: [NODE-0095, 陈大浩诸葛绫新人物, 徐霄周紫薇孔青青曼玄雪成长更新, GIFT-0188至GIFT-0189, ART-0105至ART-0107, ART-0062更新]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 181, artifacts: 104}
+  entity_document_freshness: {status: passed, characters: 183, artifacts: 107}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 6}
+  character_growth_continuity: {status: passed, material_character_updates: 5, timed_growth_events: 5, new_characters_with_first_appearance: 2}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_and_hashes}
 blockers: []
