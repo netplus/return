@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0106
+nodes:
+- id: NODE-0090
+  title: 大仙域来人、灵藏沦陷与盘龙岛安顿
+  chapters: {start: 677, end: 680}
+  granularity: story_arc
+  status: partial
+  source_qualification: 官方目录、归档逐章哈希与可读镜像共同核验第677—680章
+  boundary_reason: 第680章完成核心关系人物下界安顿；第681章转入青鸾妖身与妖族身份谈判
+  characters: [徐霄, 诸葛青天, 凤青玄, 姬雪, 金虚, 铁煞天, 北鳞, 赤澜儿, 尘玉, 万青, 罗方]
+  system_events:
+  - {event: 凤青玄仙元丹赠送, gift_id: GIFT-0173, result: 返还一百颗五行仙丹, status: partial}
+  - {event: 姬雪仙元丹赠送, gift_id: GIFT-0174, result: 返还一百颗五行仙丹, status: partial}
+  relationship_result: 徐霄将十一名核心关系人物转移至盘龙岛并建立长期跨界资源供应
+  pending: [妖族三使完整面板, 金虚职责与后续处置, 盘龙岛传送仙台精确编号, 避难人物返仙条件]
+  document: docs/01-timeline/node-0090.md
+  evidence: sources/evidence/chapters-677-680.yaml

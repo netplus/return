@@ -1,0 +1,97 @@
+schema_version: 1
+run_id: RUN-0106
+characters:
+- id: CHAR-0166
+  name: 金虚
+  status: alive
+  role: supporting
+  affiliations: [天水城, 妖族附庸]
+  identities: [天水城天地玄仙, 灵藏跨域传送话事人]
+  first_appearance: {chapter: 678, title: 灵藏沦陷, node: NODE-0090}
+  cultivation: {current: 天地玄仙, status: partial}
+  related_nodes: [NODE-0090]
+  source_chapters: [678]
+  verification_status: partial
+- id: CHAR-0167
+  name: 铁煞天
+  status: alive
+  role: antagonist
+  affiliations: [大仙域妖族]
+  identities: [占领灵藏仙域的妖族使者]
+  first_appearance: {chapter: 678, title: 灵藏沦陷, node: NODE-0090}
+  cultivation: {current: 天地玄仙, status: partial}
+  related_nodes: [NODE-0090]
+  source_chapters: [678]
+  verification_status: partial
+- id: CHAR-0168
+  name: 北鳞
+  status: alive
+  role: antagonist
+  affiliations: [大仙域妖族]
+  identities: [占领灵藏仙域的妖族使者]
+  first_appearance: {chapter: 678, title: 灵藏沦陷, node: NODE-0090}
+  cultivation: {current: 天地玄仙, status: partial}
+  related_nodes: [NODE-0090]
+  source_chapters: [678]
+  verification_status: partial
+- id: CHAR-0169
+  name: 赤澜儿
+  status: alive
+  role: antagonist
+  affiliations: [大仙域妖族]
+  identities: [占领灵藏仙域的妖族使者]
+  first_appearance: {chapter: 678, title: 灵藏沦陷, node: NODE-0090}
+  cultivation: {current: 天地玄仙, status: partial}
+  related_nodes: [NODE-0090]
+  source_chapters: [678]
+  verification_status: partial
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    role_change_add: [建立盘龙岛跨界避难与资源供应体系]
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [677, 678, 679, 680]
+    growth_event_add:
+    - chapter_range: {start: 679, end: 680}
+      event: 灵藏沦陷后转移核心关系人物至盘龙岛
+      core_ability: [九霄山河图批量收纳, 九霄天梯下界, 传送仙台跨界供给]
+      impact: [建立长期安全后方, 核心关系网络脱离妖族直接控制]
+      status: partial
+- id: CHAR-0149
+  name: 诸葛青天
+  update:
+    cultivation_change: 天仙巅峰
+    lifespan_change: 四十万年
+    ability_change_add: [以寿元换取三柄至尊仙器, 当前共持有六件至尊仙器]
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [677]
+    growth_event_add:
+    - chapter: 677
+      event: 再次燃烧寿元恢复天仙巅峰
+      impact: [战力恢复但寿元大幅下降至四十万年]
+      status: partial
+- id: CHAR-0055
+  name: 凤青玄
+  update:
+    cultivation_change: 地仙二重
+    accepted_gifts_add: [GIFT-0173]
+    relationship_change_add: [与徐霄情侣关系进一步确认]
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [679]
+    growth_event_add:
+    - chapter: 679
+      event: 达到地仙二重并接受仙元丹
+      impact: [天凤血脉与长期资源支持继续加速修炼]
+      status: partial
+- id: CHAR-0002
+  name: 姬雪
+  update:
+    accepted_gifts_add: [GIFT-0174]
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [679]
+    growth_event_add:
+    - chapter: 679
+      event: 以刘爱花身份接受仙元丹并维持资源关系
+      impact: [继续隐藏雪瑶仙帝身份并加速恢复]
+      status: partial
