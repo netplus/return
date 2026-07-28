@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 86
+  extension_files: 87
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -3381,12 +3381,62 @@ artifacts:
   grade: 大罗仙顶级
   first_chapter: 806
   current_holder: 徐霄
-  acquisition: GIFT-0230返还三十颗
+  acquisition:
+  - GIFT-0230返还三十颗
+  - gift_id: GIFT-0231
+    chapter: 810
+    quantity: 30
+    status: partial
+  - gift_id: GIFT-0234
+    chapter: 820
+    quantity: 1000
+    status: verified
   effect: 蕴含大罗仙道力与少量鸿蒙真气
   current_state: 三十颗入库，未确认服用
   status: verified
   related_nodes:
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 806
   - 807
+  - 810
+  - 819
+  - 820
+  - 821
+  transfer:
+  - gift_id: GIFT-0234
+    chapter: 820
+    recipient: 雪瑶
+    quantity: 10
+    status: verified
+  current_state_change: 本阶段新增一千零三十颗返还，另赠送雪瑶十颗
+- id: ART-0137
+  name: 天道神威绝金剑
+  category: 规则道器
+  grade: 规则道器
+  first_chapter: 811
+  current_holder: 徐霄
+  acquisition: GIFT-0232中大道天金剑赠送返还
+  effect: 金之大道规则神剑；完整能力与战斗上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes:
+  - NODE-0104
+  source_chapters:
+  - 810
+  - 811
+- id: ART-0138
+  name: 混元大罗神冰符
+  category: 符箓
+  grade: 大罗九重
+  first_chapter: 812
+  current_holder: 徐霄
+  acquisition: GIFT-0233返还
+  effect: 大罗九重冰系符箓，可对大罗仙形成高强度威慑
+  current_state: 未使用
+  status: partial
+  related_nodes:
+  - NODE-0104
+  source_chapters:
+  - 812

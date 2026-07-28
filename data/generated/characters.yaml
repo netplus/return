@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 92
+  extension_files: 93
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -173,6 +173,7 @@ characters:
   - NODE-0101
   - NODE-0102
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 1
   - 2
@@ -941,6 +942,20 @@ characters:
   - 805
   - 806
   - 807
+  - 808
+  - 809
+  - 810
+  - 811
+  - 812
+  - 813
+  - 814
+  - 815
+  - 816
+  - 817
+  - 818
+  - 819
+  - 820
+  - 821
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -1259,6 +1274,9 @@ characters:
   - 混元神体
   - 完美破空大道
   - 获得三十颗大罗鸿蒙丹
+  - 符箓阵法返还库上限提升至大罗仙
+  - 获得天道神威绝金剑
+  - 获得混元大罗神冰符
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1297,6 +1315,7 @@ characters:
   - 天仙符箓两张
   - 上品灵精一万八千余枚
   - 鸿蒙真气五十股
+  - 获得三十颗及一千颗大罗鸿蒙丹
   system_interaction: 完成萧彭春气运之子任务，法器返还库上限升级至仙器
   knowledge:
   - 渡劫九重规则
@@ -1767,6 +1786,12 @@ characters:
     event: 完成宗门高层资源整合并击杀孔青
     impact: 晋升金仙一重，鸿蒙真气增至七十八股，丹药返还库上限提升至大罗仙
     status: verified
+  - chapter_range:
+      start: 808
+      end: 821
+    event: 直面雪瑶仙帝问责、完成高阶赠送并从仙帝宫脱困
+    impact: 获得一千颗大罗鸿蒙丹、两件大罗层级返还物并暂时摆脱仙帝宫拘禁
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1871,6 +1896,7 @@ characters:
   - NODE-0090
   - NODE-0091
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 1
   - 2
@@ -1899,6 +1925,17 @@ characters:
   - 794
   - 795
   - 807
+  - 808
+  - 812
+  - 813
+  - 814
+  - 815
+  - 816
+  - 817
+  - 818
+  - 819
+  - 820
+  - 821
   verification_status: verified
   status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
@@ -1990,12 +2027,20 @@ characters:
     event: 恢复雪瑶仙帝记忆、衣钵与鸿蒙真气并完成复仇阶段
     impact: 身份由姬雪/刘爱花彻底回归雪瑶仙帝，恢复仙帝层级主导力
     status: verified
+  - chapter_range:
+      start: 812
+      end: 821
+    event: 完成雪瑶仙帝加冕并接管徐霄及其关系网络
+    impact: 建立飘雪仙帝宫统治秩序，获得十颗大罗鸿蒙丹并继续约束徐霄
+    status: verified
   accepted_gifts:
   - GIFT-0142
   - GIFT-0174
+  - GIFT-0234
   identity_change:
   - 刘爱花伪装被系统确认但未被徐霄公开揭穿
   - 雪瑶仙帝转世归来
+  - 正式入驻飘雪仙帝宫
   resource_change:
   - 十颗化仙丹
   resource_support:
@@ -10694,6 +10739,7 @@ characters:
   - NODE-0098
   - NODE-0099
   - NODE-0101
+  - NODE-0104
   source_chapters:
   - 688
   - 691
@@ -10724,6 +10770,12 @@ characters:
   - 751
   - 765
   - 766
+  - 811
+  - 814
+  - 816
+  - 817
+  - 818
+  - 821
   verification_status: partial
   accepted_gifts:
   - GIFT-0178
@@ -10811,6 +10863,12 @@ characters:
     - 与徐霄关系正式落地
     - 天凤峰与天魁峰资源关系加强
     status: verified
+  - chapter_range:
+      start: 814
+      end: 821
+    event: 被留在飘雪仙帝宫负责西部宫殿群花草
+    impact: 暂时失去返回万妖仙宗的自由
+    status: verified
   strategic_role:
   - 参与玄鸟族伏击火蜥族精锐
   artifact:
@@ -10881,6 +10939,7 @@ characters:
   - NODE-0098
   - NODE-0101
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 699
   - 700
@@ -10909,6 +10968,8 @@ characters:
   - 772
   - 799
   - 807
+  - 810
+  - 811
   document: null
   verification_status: partial
   surveillance_change:
@@ -10952,6 +11013,12 @@ characters:
     event: 以三颗祖凤血丹交换释放灵藏人族
     impact: 晋升太乙仙并承诺解除俘虏身份
     status: verified
+  - chapter_range:
+      start: 810
+      end: 811
+    event: 接受祖凤血丹、太乙聚仙丹和大道天金剑
+    impact: 与徐霄建立秘密关系并获得顶级道器
+    status: verified
   system_profile:
     luck_grade: SSS
     return_multiplier: 100
@@ -10969,12 +11036,15 @@ characters:
   - GIFT-0198
   - GIFT-0209
   - GIFT-0228
+  - GIFT-0232
   resource_change:
   - 获得十颗金仙道丹
   stance_change:
   - 以凤青玄为由继续公开问责徐霄并保留天凤神光威慑
   - 接受聘礼后正式同意玄雪与徐霄婚事
   cultivation_change: 太乙仙
+  relationship_change:
+  - 与徐霄建立秘密情侣关系
 - id: CHAR-0173
   name: 蜥雷
   status: dead
@@ -11070,6 +11140,7 @@ characters:
   - NODE-0097
   - NODE-0098
   - NODE-0101
+  - NODE-0104
   source_chapters:
   - 704
   - 705
@@ -11087,6 +11158,12 @@ characters:
   - 743
   - 765
   - 766
+  - 811
+  - 814
+  - 816
+  - 817
+  - 818
+  - 821
   document: null
   verification_status: partial
   accepted_gifts:
@@ -11134,6 +11211,12 @@ characters:
     - 获得血脉、修炼、道器和符箓资源
     - 羁绊度提升至二
     status: verified
+  - chapter_range:
+      start: 814
+      end: 821
+    event: 被留在飘雪仙帝宫并承担贴身侍奉职责
+    impact: 暂时失去返回万妖仙宗的自由
+    status: verified
   identity_change:
   - 获得万妖仙宗选拔推荐
   - 万妖仙宗天翎麾下执事
@@ -11173,6 +11256,7 @@ characters:
   - NODE-0096
   - NODE-0101
   - NODE-0102
+  - NODE-0104
   source_chapters:
   - 707
   - 708
@@ -11186,6 +11270,13 @@ characters:
   - 773
   - 778
   - 779
+  - 812
+  - 813
+  - 814
+  - 816
+  - 817
+  - 818
+  - 821
   document: null
   verification_status: partial
   relationship_change:
@@ -11224,10 +11315,17 @@ characters:
     - 获得一万极品灵精
     - 被万萱公开带回并面临长期禁闭
     status: verified
+  - chapter_range:
+      start: 812
+      end: 821
+    event: 接受金仙巅峰冰符并被留在飘雪仙帝宫
+    impact: 首次羁绊暴击完成，转为雪瑶仙帝贴身侍女之一
+    status: verified
   accepted_gifts:
   - GIFT-0193
   - GIFT-0211
   - GIFT-0215
+  - GIFT-0233
 - id: CHAR-0177
   name: 孔青
   status: alive
@@ -11700,7 +11798,7 @@ characters:
   document: null
   verification_status: partial
 - id: CHAR-0189
-  name: 赤裳
+  name: 天穹
   status: alive
   role: supporting
   affiliations:
@@ -11724,6 +11822,7 @@ characters:
   related_nodes:
   - NODE-0097
   - NODE-0100
+  - NODE-0104
   source_chapters:
   - 729
   - 730
@@ -11732,6 +11831,8 @@ characters:
   - 752
   - 761
   - 762
+  - 810
+  - 811
   document: null
   verification_status: partial
   accepted_gifts:
@@ -11744,6 +11845,14 @@ characters:
     impact:
     - 对赤澜儿关系由反对转为聘礼谈判
     status: verified
+  - chapter_range:
+      start: 810
+      end: 811
+    event: 被龙贞等六名万妖仙宗高层处置
+    impact: 气运之敌任务完成，人物死亡
+    status: verified
+  status_change:
+  - 被万妖仙宗高层击杀
 - id: CHAR-0190
   name: 赤裳
   status: alive
@@ -11780,6 +11889,7 @@ characters:
   - NODE-0100
   - NODE-0102
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 731
   - 732
@@ -11796,6 +11906,12 @@ characters:
   - 791
   - 792
   - 794
+  - 811
+  - 814
+  - 816
+  - 817
+  - 818
+  - 821
   document: null
   verification_status: verified
   status_change:
@@ -11828,6 +11944,12 @@ characters:
   - chapter: 794
     event: 接受金仙巅峰大道神丹
     impact: 羁绊度升至2并获得长期道器与丹药支持
+    status: verified
+  - chapter_range:
+      start: 814
+      end: 821
+    event: 被留在飘雪仙帝宫负责广场花草
+    impact: 暂时失去返回万妖仙宗的自由
     status: verified
   conflict_change:
   - 独孤惊云死亡后发动全宗舆论问责徐霄
@@ -11896,6 +12018,7 @@ characters:
   - NODE-0101
   - NODE-0102
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 734
   - 735
@@ -11921,6 +12044,14 @@ characters:
   - 792
   - 793
   - 807
+  - 811
+  - 813
+  - 814
+  - 815
+  - 816
+  - 817
+  - 818
+  - 821
   document: null
   verification_status: verified
   cultivation_progress:
@@ -11955,6 +12086,12 @@ characters:
       end: 807
     event: 继续承担天魁峰后勤并晋升金仙一重
     impact: 成为徐霄核心后勤与外出行动伙伴
+    status: verified
+  - chapter_range:
+      start: 813
+      end: 821
+    event: 被雪瑶仙帝留在仙帝宫长期守门
+    impact: 暂时失去万妖仙宗行动自由，承担无轮值守门职责
     status: verified
   relationship_change:
   - 在轩辕仙城与魔罗圣门一方呈现持续敌意背景
@@ -12748,10 +12885,24 @@ characters:
     node: NODE-0103
   related_nodes:
   - NODE-0103
+  - NODE-0104
   source_chapters:
   - 796
+  - 808
+  - 809
+  - 810
+  - 811
   document: null
   verification_status: verified
+  growth_event:
+  - chapter_range:
+      start: 810
+      end: 811
+    event: 接受徐霄资源委托并参与处置天穹
+    impact: 继续成为徐霄在万妖仙宗的高层执行与保护节点
+    status: verified
+  accepted_gifts:
+  - GIFT-0231
 - id: CHAR-0211
   name: 凤四老
   status: alive
@@ -12808,5 +12959,34 @@ characters:
   - NODE-0103
   source_chapters:
   - 796
+  document: null
+  verification_status: verified
+- id: CHAR-0214
+  name: 上官清
+  status: alive
+  role: supporting
+  affiliations:
+  - 飘雪仙帝宫
+  - 万花仙宗
+  identities:
+  - 雪瑶仙帝核心亲信
+  - 万花仙宗临时掌门
+  - SSS级气运之女
+  first_appearance:
+    chapter: 814
+    title: 气运之女上官清
+    node: NODE-0104
+  system_profile:
+    luck_grade: SSS
+    return_multiplier: 100
+    bond: 1
+    status: verified
+  related_nodes:
+  - NODE-0104
+  source_chapters:
+  - 814
+  - 815
+  - 816
+  - 817
   document: null
   verification_status: verified
