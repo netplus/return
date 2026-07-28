@@ -1,0 +1,20 @@
+schema_version: 1
+run_id: RUN-0124
+artifact: source-chapters-827-876
+artifact_sha256: fb7f238ecac1671f981c773e16764ef4673e1c553cce4f4a1b1b133a3aed2e06
+retention: transient_one_day
+chapters:
+- {chapter: 864, title: 炼神鼎, sha256: 0f2be34fd0e164a982dd1a43410385333eeea0c2540348bdc5e6d59339cd8307}
+- {chapter: 865, title: 神煞界情况, sha256: 689cccf1338f8118ec27a75b5f50528fae1f626181383816c314ce4d0ca9594a}
+- {chapter: 866, title: 徐霄送丹救人, sha256: 842bfcdba5de1e0411cf8d4925662eeac408acee4ea3856befbfc2a6780a78e9}
+- {chapter: 867, title: 炼神鼎内救人, sha256: f4f596fc3aae583521b1baaea9634801ee1c30a96c308c1ff994d3dc51db8c91}
+- {chapter: 868, title: 拯救四兽仙宗, sha256: 85136cbe7a3072479df84d1de53cd5c33c72e7146d2982b7a7b4fc595c1b6815}
+- {chapter: 869, title: 各宗出人, sha256: ca6c5726826dae62225e3ed19b17bd2cd37aae152f779a6e0c3746b16789ce13}
+- {chapter: 870, title: 被传送出鼎, sha256: 7432aff26e3d9e0ddc9a2c34eb0fddf81528a865a6043640bc2932302962b208}
+- {chapter: 871, title: 真正的万佛金身, sha256: df49a545011843c0eaa4e2c1a554ac6732fa907906fb4c38f13a2a23c8ae64c3}
+- {chapter: 872, title: 绝望的冥法, sha256: be54bf2177e5c5d604bc24182412db0c2521630064a7b9e162a52294b9ccdff9}
+- {chapter: 873, title: 黑魂心魔, sha256: 4c3c6671d95a624aff65b15535b504d2c444c5362c00a86ba7cf02d40ac475e7}
+- {chapter: 874, title: 破心魔, sha256: a04bbaaf302cf692aa64b726aaf2ce2857190247b20bd6ad4e2df6920f24c983}
+- {chapter: 875, title: 仙界安排, sha256: abfb8c7b49b2464bf60333a0f15ee7e9c6fc2be2aafded2b6bfe4f8b78e98b1e}
+- {chapter: 876, title: 终章，太初仙帝宫, sha256: ff958547dccff40fbdee0b06b1d0c2c5646f83d4f48e003bf3df33987e7dc84b}
+verification: {read_in_full: true, hashes_matched: true, full_text_committed: false, notes: 原创摘要与结构化事实进入知识库；整章正文未进入Git历史}
