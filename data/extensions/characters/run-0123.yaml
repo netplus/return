@@ -160,7 +160,7 @@ character_updates:
       status: verified
     related_nodes_add: [NODE-0107]
     source_chapters_add: [854, 855, 856, 857, 858, 859, 860, 861, 862, 863]
-- id: CHAR-0020
+- id: CHAR-0002
   name: 姬雪
   update:
     accepted_gifts_add: [GIFT-0251]
