@@ -1,0 +1,114 @@
+schema_version: 1
+run_id: RUN-0119
+gift_events:
+- id: GIFT-0223
+  chapter: 793
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 姬雪
+  gift: 五十颗金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗太乙聚仙丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0224
+  chapter: 794
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 青曼
+  gift: 化体神丹
+  accepted: true
+  system_valid: true
+  reward: 太玄仙体丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0225
+  chapter: 794
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 赤裳
+  gift: 金仙巅峰大道神丹
+  accepted: true
+  system_valid: true
+  reward: 天道神威破空剑及鸿蒙一气丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0226
+  chapter: 797
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 龙贞等六名万妖仙宗高层
+  gift: 两轮太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 鸿蒙一气丹、三千天道丹及大量太乙聚仙丹，逐人拆分待确认
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: partial
+- id: GIFT-0227
+  chapter: 798
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 赤澜儿
+  gift: 太玄仙体丹
+  accepted: true
+  system_valid: true
+  reward: 混元神体丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0228
+  chapter: 799
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 天翎
+  gift: 三颗祖凤血丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗太乙聚仙丹及三百颗祖凤血丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0229
+  chapter: 804
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 万萱
+  gift: 十颗太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及九百颗太乙聚仙丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: verified
+- id: GIFT-0230
+  chapter: 806
+  node: NODE-0103
+  giver: 徐霄
+  recipient: 龙贞等六名万妖仙宗高层
+  gift: 三十颗太乙聚仙丹
+  accepted: true
+  system_valid: true
+  reward: 三十颗大罗鸿蒙丹
+  triggered_multiplier: partial
+  relationship_result: 高阶资源交换形成长期关系或政治支持
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0223, GIFT-0224, GIFT-0225, GIFT-0226, GIFT-0227, GIFT-0228, GIFT-0229, GIFT-0230]
+    rule_add:
+    - chapter: 806
+      rule: 击杀气运之子孔青后丹药返还库上限提升至大罗仙
+      status: verified
+    reward_resolution_add:
+    - chapter: 806
+      result: 三十颗太乙聚仙丹返还三十颗大罗鸿蒙丹
+      status: verified
+    related_nodes_add: [NODE-0103]
+    source_chapters_add: [793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807]
