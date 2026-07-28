@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 86
+  extension_files: 87
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -3198,4 +3198,28 @@ gifts:
   reward: 鸿蒙一气丹
   triggered_multiplier: bond
   relationship_result: 轩辕婉君羁绊度提升至二
+  status: verified
+- id: GIFT-0250
+  chapter: 856
+  node: NODE-0107
+  giver: 徐霄
+  recipient: 初殷
+  gift: 五十颗大罗鸿蒙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及四千九百颗大罗鸿蒙丹
+  triggered_multiplier: 首次万倍暴击与后续100倍结算
+  relationship_result: 初殷与徐霄建立私人传讯及资源关系
+  status: verified
+- id: GIFT-0251
+  chapter: 858
+  node: NODE-0107
+  giver: 徐霄
+  recipient: 姬雪／雪瑶
+  gift: 天道神威黑冰剑
+  accepted: true
+  system_valid: true
+  reward: 神器诛仙天冰剑
+  triggered_multiplier: pending
+  relationship_result: 雪瑶接受规则道器并继续维护徐霄
   status: verified

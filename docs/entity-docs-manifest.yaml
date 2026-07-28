@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 224
+    count: 234
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -456,8 +456,28 @@ groups:
       path: docs/02-characters/霄天.md
     - id: CHAR-0224
       path: docs/02-characters/龙冥.md
+    - id: CHAR-0225
+      path: docs/02-characters/黑神.md
+    - id: CHAR-0226
+      path: docs/02-characters/破玄.md
+    - id: CHAR-0227
+      path: docs/02-characters/冥法.md
+    - id: CHAR-0228
+      path: docs/02-characters/灵心.md
+    - id: CHAR-0229
+      path: docs/02-characters/万道.md
+    - id: CHAR-0230
+      path: docs/02-characters/万尘.md
+    - id: CHAR-0231
+      path: docs/02-characters/龙天.md
+    - id: CHAR-0232
+      path: docs/02-characters/修罗擎天.md
+    - id: CHAR-0233
+      path: docs/02-characters/黑麻仙.md
+    - id: CHAR-0234
+      path: docs/02-characters/血玉罗.md
   artifacts:
-    count: 145
+    count: 146
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -751,10 +771,12 @@ groups:
       path: docs/06-artifacts/诛仙神火剑.md
     - id: ART-0145
       path: docs/06-artifacts/化仙神炉.md
+    - id: ART-0146
+      path: docs/06-artifacts/诛仙天冰剑.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 224
-  growth_events: 941
+  characters_with_growth_line: 234
+  growth_events: 965
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

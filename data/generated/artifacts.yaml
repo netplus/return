@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 89
+  extension_files: 90
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2927,13 +2927,18 @@ artifacts:
   related_nodes:
   - NODE-0095
   - NODE-0100
+  - NODE-0107
   source_chapters:
   - 720
   - 721
   - 760
+  - 861
   combat_record:
   - chapter: 760
     event: 击溃猿浩天猿万棍阵并摧毁其肉身及六件至尊仙棍
+    status: verified
+  - chapter: 861
+    event: 以五柄顶级规则道器神剑组成剑阵，摧毁修罗擎天全部法器并绞灭肉身
     status: verified
 - id: ART-0108
   name: 大道山河图
@@ -3482,6 +3487,7 @@ artifacts:
   - NODE-0103
   - NODE-0104
   - NODE-0105
+  - NODE-0107
   source_chapters:
   - 806
   - 807
@@ -3491,6 +3497,8 @@ artifacts:
   - 821
   - 824
   - 829
+  - 855
+  - 856
   transfer:
   - gift_id: GIFT-0234
     chapter: 820
@@ -3498,6 +3506,13 @@ artifacts:
     quantity: 10
     status: verified
   current_state_change: 本阶段新增一千零三十颗返还，另赠送雪瑶十颗
+  transfer_event:
+  - GIFT-0250
+  quantity_change:
+  - chapter: 856
+    delta: 4850
+    reason: 赠送五十颗并返还四千九百颗
+    status: verified
 - id: ART-0137
   name: 天道神威绝金剑
   category: 规则道器
@@ -3568,8 +3583,15 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0105
+  - NODE-0107
   source_chapters:
   - 827
+  - 858
+  - 859
+  transfer_event:
+  - GIFT-0251
+  current_holder_change: 姬雪／雪瑶
+  current_state_change: 已赠送雪瑶并触发神器诛仙天冰剑返还
 - id: ART-0142
   name: 混元破界九霄天梯
   category: 神器
@@ -3628,3 +3650,17 @@ artifacts:
   - NODE-0106
   source_chapters:
   - 849
+- id: ART-0146
+  name: 诛仙天冰剑
+  category: 神器
+  grade: 神器
+  first_chapter: 859
+  current_holder: 徐霄
+  acquisition: GIFT-0251返还
+  effect: 冰系神器神剑；完整规则与上限待确认
+  current_state: 已获得
+  status: partial
+  related_nodes:
+  - NODE-0107
+  source_chapters:
+  - 859
