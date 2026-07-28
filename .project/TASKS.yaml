@@ -2,114 +2,24 @@ schema_version: 2
 workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
 history_note: Full task metadata through RUN-0101 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
-- {id: TASK-0001, status: done}
-- {id: TASK-0002, status: done}
-- {id: TASK-0003, status: done}
-- {id: TASK-0004, status: done}
-- {id: TASK-0005, status: done}
-- {id: TASK-0006, status: done}
-- {id: TASK-0007, status: done}
-- {id: TASK-0008, status: done}
-- {id: TASK-0009, status: done}
-- {id: TASK-0010, status: done}
-- {id: TASK-0011, status: done}
-- {id: TASK-0012, status: done}
-- {id: TASK-0013, status: done}
-- {id: TASK-0014, status: done}
-- {id: TASK-0015, status: done}
-- {id: TASK-0016, status: done}
-- {id: TASK-0017, status: done}
-- {id: TASK-0018, status: done}
-- {id: TASK-0019, status: done}
-- {id: TASK-0020, status: done}
-- {id: TASK-0021, status: done}
-- {id: TASK-0022, status: done}
-- {id: TASK-0023, status: done}
-- {id: TASK-0024, status: done}
-- {id: TASK-0025, status: done}
-- {id: TASK-0026, status: done}
-- {id: TASK-0027, status: done}
-- {id: TASK-0028, status: done}
-- {id: TASK-0029, status: done}
-- {id: TASK-0030, status: done}
-- {id: TASK-0031, status: done}
-- {id: TASK-0032, status: done}
-- {id: TASK-0033, status: done}
-- {id: TASK-0034, status: done}
-- {id: TASK-0035, status: done}
-- {id: TASK-0036, status: done}
-- {id: TASK-0037, status: done}
-- {id: TASK-0038, status: done}
-- {id: TASK-0039, status: done}
-- {id: TASK-0040, status: done}
-- {id: TASK-0041, status: done}
-- {id: TASK-0042, status: done}
-- {id: TASK-0043, status: done}
-- {id: TASK-0044, status: done}
-- {id: TASK-0045, status: done}
-- {id: TASK-0046, status: done}
-- {id: TASK-0047, status: done}
-- {id: TASK-0048, status: done}
-- {id: TASK-0049, status: done}
-- {id: TASK-0050, status: done}
-- {id: TASK-0051, status: done}
-- {id: TASK-0052, status: done}
-- {id: TASK-0053, status: done}
-- {id: TASK-0054, status: done}
-- {id: TASK-0055, status: done}
-- {id: TASK-0056, status: done}
-- {id: TASK-0057, status: done}
-- {id: TASK-0058, status: done}
-- {id: TASK-0059, status: done}
-- {id: TASK-0060, status: done}
-- {id: TASK-0061, status: done}
-- {id: TASK-0062, status: done}
-- {id: TASK-0063, status: done}
-- {id: TASK-0064, status: done}
-- {id: TASK-0065, status: done, run_id: RUN-0074}
-- {id: TASK-0066, status: done, run_id: RUN-0075}
-- {id: TASK-0067M, status: done, run_id: RUN-0076}
-- {id: TASK-0067, status: done, run_id: RUN-0077}
-- {id: TASK-0068R, status: done, run_id: RUN-0078}
-- {id: TASK-0068I, status: done, run_id: RUN-0079}
-- {id: TASK-0068, status: done, run_id: RUN-0080}
-- {id: TASK-0069G, status: done, run_id: RUN-0081}
-- {id: TASK-0069T, status: done, run_id: RUN-0082}
-- {id: TASK-0069, status: done, run_id: RUN-0083}
-- {id: TASK-0070, status: done, run_id: RUN-0084}
-- {id: TASK-0071, status: done, run_id: RUN-0085}
-- {id: TASK-0072, status: done, run_id: RUN-0086}
-- {id: TASK-0073, status: done, run_id: RUN-0087}
-- {id: TASK-0074, status: done, run_id: RUN-0088}
-- {id: TASK-0075, status: done, run_id: RUN-0089}
-- {id: TASK-0076, status: done, run_id: RUN-0090}
-- {id: TASK-0077, status: done, run_id: RUN-0091}
-- {id: TASK-0078, status: done, run_id: RUN-0092}
-- {id: TASK-0079, status: done, run_id: RUN-0093}
-- {id: TASK-0080, status: done, run_id: RUN-0094}
-- {id: TASK-0081, status: done, run_id: RUN-0095}
-- {id: TASK-0082, status: done, run_id: RUN-0096}
-- {id: TASK-0083, status: done, run_id: RUN-0097}
-- {id: TASK-0084, status: done, run_id: RUN-0098}
-- {id: TASK-0085, status: done, run_id: RUN-0099}
-- {id: TASK-0086, status: done, run_id: RUN-0100}
 - {id: TASK-0087, status: done, run_id: RUN-0101}
 - {id: TASK-0088, status: done, run_id: RUN-0102}
 - {id: TASK-0089, status: done, run_id: RUN-0103}
-- id: TASK-0090
-  title: Build the 太上长老保人、邬秋控诉与宗门安置 story arc from Chapter 663 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0104
-  target: {chapter_start: 663, chapter_end: 666, node: NODE-0088, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0088.md, data/extensions/timeline/run-0104.yaml, data/extensions/characters/run-0104.yaml, data/extensions/system/run-0104.yaml, data/extensions/artifacts/run-0104.yaml, sources/evidence/chapters-663-666.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0089]
+- {id: TASK-0090, status: done, run_id: RUN-0104}
 - id: TASK-0091
   title: Build the 诸葛青天恢复、执法堂爆炸与天一上门 story arc from Chapter 667 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 667, provisional_chapter_end: 676, node: NODE-0089, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0105
+  target: {chapter_start: 667, chapter_end: 676, node: NODE-0089, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0089.md, data/extensions/timeline/run-0105.yaml, data/extensions/characters/run-0105.yaml, data/extensions/system/run-0105.yaml, data/extensions/artifacts/run-0105.yaml, sources/evidence/chapters-667-676.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0090]
+- id: TASK-0092
+  title: Build the 大仙域来人、灵藏沦陷与盘龙岛安顿 story arc from Chapter 677 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 677, provisional_chapter_end: 680, node: NODE-0090, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0091]
