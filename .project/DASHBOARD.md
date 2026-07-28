@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 662
-- **Current evidence exploration through:** Chapter 663
+- **Canonical coverage through:** Chapter 666
+- **Current evidence exploration through:** Chapter 667
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 87
+- **Completed timeline nodes:** 88
 - **Draft timeline nodes:** 0
-- **Documented characters:** 158
-- **Generated character profiles:** 158
-- **Gift events:** 166
-- **Artifact records:** 93
-- **Generated artifact profiles:** 93
-- **Last run:** `RUN-0103`
-- **Last completed node:** `NODE-0087`
-- **Next task:** `TASK-0090` — 太上长老保人、邬秋控诉与宗门安置 story arc
-- **Provisional exploration range:** Chapters 663–666
+- **Documented characters:** 160
+- **Generated character profiles:** 160
+- **Gift events:** 171
+- **Artifact records:** 95
+- **Generated artifact profiles:** 95
+- **Last run:** `RUN-0104`
+- **Last completed node:** `NODE-0088`
+- **Next task:** `TASK-0091` — 诸葛青天恢复、执法堂爆炸与天一上门 story arc
+- **Provisional exploration range:** Chapters 667–676
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0087` covers Chapters 659—662. 徐霄公开阻止天一仙门处决邬秋，并以高阶丹药承诺推动阴阳仙门高层集体改为保人。洛银纱、琉璃代表刹女仙门站队，惠慈率众愿佛门加入威慑，迫使天一仙门暂时退让。返程途中徐霄履行资源承诺并完成多笔系统返还，新增两颗鸿蒙一气丹、八十五颗五行仙丹和一百九十颗玄元仙丹，最终带邬秋返回阴阳仙门接受后续审理。
+`NODE-0088` covers Chapters 663—666. 徐霄再次以五行仙丹推动尘玉、万青和罗方正式保下邬秋。纯阳仙门长老道阳以吕玄一等十具尸身占卜追凶时遭天道规则反噬，万倍返还系统同时屏蔽针对徐霄的卦象之力。徐霄向邬秋赠送九天荡魔剑并返还荡魔真武剑，又提供天仙巅峰魂丹；邬秋获得阴阳仙门安置，但在认识凌白烟、南宫嫣、罗素等既有关系对象后产生持续冲突。
 
 ## Character growth updates
 
-`RUN-0103` adds timed growth events for 徐霄、邬秋、东方青、洛银纱、琉璃、惠慈、独孤惊云、崔云、诸葛青天、青鸾、丁静 and阴萱.
+`RUN-0104` adds 道阳 and 真玉 with chapter-anchored first appearances, and timed growth events for 徐霄、邬秋、尘玉、万青、罗方、凌白烟 and罗素.
 
-## Quality gates — RUN-0103
+## Quality gates — RUN-0104
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 158 character and 93 artifact records |
-| Entity-document readability | Passed |
-| Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 12 timed material updates |
-| Growth temporal accuracy | Passed |
+| Entity-document freshness | Pending CI — 160 character and 95 artifact records |
+| Entity-document readability | Pending CI |
+| Character identity alignment | Pending CI |
+| Character growth continuity | Pending CI — 7 timed material updates and 2 new first appearances |
+| Growth temporal accuracy | Pending CI |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-The official catalog, archived per-chapter hashes and readable mirrors jointly fix Chapters 659—662 and the Chapter 663 boundary. Full chapter text is not stored. The exact list of non-system-qualified elders, individual distribution totals and 邬秋's formal sect judgment remain pending.
+The official catalog, archived per-chapter hashes and readable mirrors jointly fix Chapters 663—666 and the Chapter 667 boundary. Full chapter text is not stored. 万青罗方本轮赠丹独立返还、天仙巅峰魂丹精确赠送链、邬秋正式任命手续 and纯阳仙门后续追凶方式 remain pending.
