@@ -1,22 +1,22 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0112
+run_id: RUN-0113
 coverage:
-  chapters_covered_through: 728
-  chapters_promoted_in_run: [723, 724, 725, 726, 727, 728]
-  timeline_nodes: 96
+  chapters_covered_through: 736
+  chapters_promoted_in_run: [729, 730, 731, 732, 733, 734, 735, 736]
+  timeline_nodes: 97
   draft_nodes: 0
-  story_arc_nodes: 93
-  characters_documented: 187
+  story_arc_nodes: 94
+  characters_documented: 194
   characters_staged: 0
   system_records: 1
-  gift_events: 193
-  artifact_records: 109
+  gift_events: 197
+  artifact_records: 113
   artifacts_staged: 0
 entity_documents:
-  character_records: 187
-  artifact_records: 109
-  expected_generated_documents: 296
+  character_records: 194
+  artifact_records: 113
+  expected_generated_documents: 307
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [723, 724, 725, 726, 727, 728], mirror_cross_check_chapters: [723, 724, 725, 726, 727, 728], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第728章完成停战战功结算与选拔推荐；第729章转入万妖仙宗新地点和宗门选拔}
-  materiality: {status: passed, entity_updates: [NODE-0096, 雀鸢苏破天温晴岚玉龙新人物, 徐霄凤天晴孔青周紫薇金虚玄灵玄雪天翎成长更新, GIFT-0190至GIFT-0193, ART-0108至ART-0109, ART-0044 ART-0078 ART-0083 ART-0102更新]}
+  source_traceability: {status: passed, archive_chapters: [729, 730, 731, 732, 733, 734, 735, 736], transient_artifact_run: 30356958388, source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第736章完成选拔与天魁峰入驻；第737章发生三年时间跳跃并转入天翎再次问责}
+  materiality: {status: passed, entity_updates: [NODE-0097, 韵幽天穹赤裳孔玄熊大魔无花雪小星新人物, 徐霄诸葛青天独孤惊云天翎玄灵玄雪金虚青曼雀鸢北鳞成长更新, GIFT-0194至GIFT-0197, ART-0110至ART-0113, ART-0092 ART-0098 ART-0102 ART-0105更新]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 187, artifacts: 109}
+  entity_document_freshness: {status: passed, characters: 194, artifacts: 113}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 8, timed_growth_events: 8, new_characters_with_first_appearance: 4}
+  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 7}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
 blockers: []
