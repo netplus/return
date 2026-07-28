@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-0117
+gift_events:
+- {id: GIFT-0205, chapter: 764, node: NODE-0101, giver: 徐霄, recipient: 云花海, gift: 一颗五行仙丹、九颗五行仙丹、一颗天仙巅峰魂丹及一柄至尊仙剑, accepted: true, system_valid: true, reward: 一颗鸿蒙一气丹、九十颗玄元仙丹、十颗玄仙巅峰魂丹及一柄道器仙剑, triggered_multiplier: composite, relationship_result: 云花海迁入万妖仙宗并成为熊大弟子, status: verified}
+- {id: GIFT-0206, chapter: 764, node: NODE-0101, giver: 徐霄, recipient: 赤澜儿, gift: 一颗超品太乙聚仙丹聘礼, accepted: true, system_valid: true, reward: 一百颗太乙聚仙丹, triggered_multiplier: composite, relationship_result: 赤狐族同意婚事并完成关系落地, status: verified}
+- {id: GIFT-0207, chapter: 765, node: NODE-0101, giver: 徐霄, recipient: 雪小星, gift: 十颗玄元仙丹, accepted: true, system_valid: true, reward: 十颗金仙道丹, triggered_multiplier: 1, relationship_result: 继续获得稳定修炼资源, status: verified}
+- {id: GIFT-0208, chapter: 766, node: NODE-0101, giver: 徐霄, recipient: 玄灵, gift: 高品天凤血丹、玄元仙丹、至尊仙器及玄仙巅峰符箓复合赠礼, accepted: true, system_valid: true, reward: 高品天凤血丹、祖凤血丹、金仙道丹、道器及九天太乙冰符, triggered_multiplier: composite, relationship_result: 羁绊度提升至二, status: verified}
+- {id: GIFT-0209, chapter: 766, node: NODE-0101, giver: 徐霄, recipient: 天翎, gift: 一颗太乙聚仙丹及五十颗金仙道丹聘礼, accepted: true, system_valid: true, reward: 六百颗太乙聚仙丹, triggered_multiplier: composite, relationship_result: 正式同意玄雪婚事, status: verified}
+- {id: GIFT-0210, chapter: 767, node: NODE-0101, giver: 徐霄, recipient: 凤溪, gift: 一颗太乙聚仙丹, accepted: true, system_valid: true, reward: 一颗三千天道丹, triggered_multiplier: 10000, relationship_result: 承诺压制宗门反徐舆论, status: verified}
+- {id: GIFT-0211, chapter: 770, node: NODE-0101, giver: 徐霄, recipient: 周紫薇, gift: 十颗玄元仙丹, accepted: true, system_valid: true, reward: 五十颗金仙道丹, triggered_multiplier: 5, relationship_result: 公开关系获得万萱默许, status: verified}
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0205, GIFT-0206, GIFT-0207, GIFT-0208, GIFT-0209, GIFT-0210, GIFT-0211]
+    rule_add:
+    - {chapter: 767, rule: 轩辕婉君被识别为SSS级气运之女，返还倍数一百，羁绊度一, status: verified}
+    task_add:
+    - {chapter: 768, target: 魔无天, type: 气运之子击杀任务, reward: 混元破界九霄仙梯, status: verified}
+    - {chapter: 770, target: 血无涯, type: 气运之子击杀任务, reward: 额外一座传送仙台, status: verified}
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [764, 765, 766, 767, 768, 770]

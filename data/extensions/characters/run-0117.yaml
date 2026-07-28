@@ -1,0 +1,121 @@
+schema_version: 1
+run_id: RUN-0117
+characters:
+- {id: CHAR-0201, name: 云花海, status: alive, role: supporting, affiliations: [五灵仙门, 灵藏仙域人族], identities: [五灵仙门掌门, SSS级气运之女], first_appearance: {chapter: 763, title: 云花海来访, node: NODE-0101}, cultivation: {current: 人仙境以上，精确境界待确认, status: partial}, related_nodes: [NODE-0101], source_chapters: [763], document: null, verification_status: partial}
+- {id: CHAR-0202, name: 轩辕婉君, status: alive, role: supporting, affiliations: [轩辕家, 轩辕仙城], identities: [轩辕家大小姐, SSS级气运之女, 噬神大道修士], first_appearance: {chapter: 767, title: 到达轩辕仙城, node: NODE-0101}, cultivation: {current: 金仙境，精确层级待确认, status: partial}, related_nodes: [NODE-0101], source_chapters: [767], document: null, verification_status: partial}
+- {id: CHAR-0203, name: 轩辕正誉, status: alive, role: supporting, affiliations: [轩辕家, 轩辕仙城], identities: [轩辕家主, 轩辕仙城城主], first_appearance: {chapter: 768, title: 各大仙宗驾临, node: NODE-0101}, cultivation: {current: 高阶仙境，精确境界待确认, status: partial}, related_nodes: [NODE-0101], source_chapters: [768], document: null, verification_status: partial}
+- {id: CHAR-0204, name: 魔无天, status: alive, role: antagonist, affiliations: [魔罗圣门], identities: [魔罗圣门掌门, 气运之子], first_appearance: {chapter: 768, title: 各大仙宗驾临, node: NODE-0101}, cultivation: {current: 太乙仙境, status: verified}, related_nodes: [NODE-0101], source_chapters: [768], document: null, verification_status: verified}
+- {id: CHAR-0205, name: 朱圆圆, status: alive, role: supporting, affiliations: [四兽仙宗, 朱雀族], identities: [四兽仙宗掌门, 朱雀族长], first_appearance: {chapter: 769, title: 百万年人族大计, node: NODE-0101}, cultivation: {current: 太乙仙境, status: verified}, related_nodes: [NODE-0101], source_chapters: [769], document: null, verification_status: verified}
+- {id: CHAR-0206, name: 绝云神, status: alive, role: supporting, affiliations: [太初仙宗], identities: [太初仙宗圣子, 道空仙体], first_appearance: {chapter: 769, title: 百万年人族大计, node: NODE-0101}, cultivation: {current: 金仙巅峰, status: verified}, related_nodes: [NODE-0101], source_chapters: [769], document: null, verification_status: verified}
+- {id: CHAR-0207, name: 万萱, status: alive, role: supporting, affiliations: [天玄仙宗], identities: [天玄仙宗大长老, 周紫薇师尊], first_appearance: {chapter: 769, title: 百万年人族大计, node: NODE-0101}, cultivation: {current: 太乙仙境, status: verified}, related_nodes: [NODE-0101], source_chapters: [769], document: null, verification_status: verified}
+- {id: CHAR-0208, name: 血无涯, status: alive, role: antagonist, affiliations: [噬魂血宗], identities: [噬魂血宗圣子, 气运之子, 血灵仙体], first_appearance: {chapter: 770, title: 太初仙域第一圣子, node: NODE-0101}, cultivation: {current: 金仙巅峰, status: verified}, related_nodes: [NODE-0101], source_chapters: [770], document: null, verification_status: verified}
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 玄仙三重
+    ability_change_add: [鸿蒙真气增至七十三股, 公开施展完美噬神大道与五行道器剑阵, 获得太初仙域第一圣子名号]
+    identity_change_add: [太初仙域第一圣子（公开名号）]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [763, 764, 765, 766, 767, 768, 769, 770, 771, 772]
+    growth_event_add:
+    - chapter_range: {start: 763, end: 772}
+      event: 完成灵藏关系安置并在轩辕仙城六宗会盟中公开上位
+      core_ability: [玄仙三重, 鸿蒙真气七十三股, 完美噬神大道, 五行道器剑阵]
+      impact: [云花海、赤澜儿和玄雪安置落地, 击杀噬魂血宗金仙长老, 取得太初仙域第一圣子名号]
+      status: verified
+- id: CHAR-0199
+  name: 凤溪
+  update:
+    accepted_gifts_add: [GIFT-0210]
+    stance_change_add: [接受太乙聚仙丹后承诺以天凤族力量压制宗门反徐舆论]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [765, 766, 767, 768, 769, 770, 771, 772]
+    growth_event_add:
+    - chapter_range: {start: 765, end: 772}
+      event: 以万妖仙宗大长老身份带队参加轩辕仙城会盟
+      impact: [获得太乙聚仙丹, 公开维护徐霄并重新评估其圣子实力]
+      status: verified
+- id: CHAR-0175
+  name: 玄灵
+  update:
+    accepted_gifts_add: [GIFT-0208]
+    relationship_change_add: [与徐霄羁绊度提升至二]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [765, 766]
+    growth_event_add:
+    - chapter_range: {start: 765, end: 766}
+      event: 代天翎谈判玄雪聘礼并与徐霄关系进一步深化
+      impact: [获得血脉、修炼、道器和符箓资源, 羁绊度提升至二]
+      status: verified
+- id: CHAR-0170
+  name: 玄雪
+  update:
+    relationship_change_add: [与徐霄完成天凤峰出嫁流程并正式迁入天魁峰]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [765, 766]
+    growth_event_add:
+    - {chapter: 766, event: 天翎接受聘礼后完成出嫁流程, impact: [与徐霄关系正式落地, 天凤峰与天魁峰资源关系加强], status: verified}
+- id: CHAR-0169
+  name: 赤澜儿
+  update:
+    accepted_gifts_add: [GIFT-0206]
+    relationship_change_add: [接受超品太乙聚仙丹聘礼并与徐霄正式成婚]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [764]
+    growth_event_add:
+    - {chapter: 764, event: 赤狐族接受聘礼并完成婚事, impact: [由婚事谈判进入正式关系, 迁入天魁峰体系], status: verified}
+- id: CHAR-0172
+  name: 天翎
+  update:
+    accepted_gifts_add: [GIFT-0209]
+    stance_change_add: [接受聘礼后正式同意玄雪与徐霄婚事]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [764, 765, 766, 767, 768, 769, 770, 771, 772]
+    growth_event_add:
+    - chapter_range: {start: 764, end: 766}
+      event: 以天凤峰长老身份收取玄雪聘礼并完成出嫁安排
+      impact: [获得大量太乙聚仙丹返还链资源, 与徐霄的政治资源交换进一步制度化]
+      status: verified
+- id: CHAR-0194
+  name: 雪小星
+  update:
+    accepted_gifts_add: [GIFT-0207]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [765]
+    growth_event_add:
+    - {chapter: 765, event: 继续接受玄元仙丹修炼资源, impact: [获得稳定长期资源支持], status: verified}
+- id: CHAR-0176
+  name: 周紫薇
+  update:
+    accepted_gifts_add: [GIFT-0211]
+    relationship_change_add: [在轩辕仙城公开支持徐霄并接受万萱默许]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [769, 770, 771, 772]
+    growth_event_add:
+    - chapter_range: {start: 769, end: 772}
+      event: 在六宗会盟中公开维持与徐霄关系
+      impact: [天玄仙宗高层将徐霄卧底叙事纳入长期战略, 获得持续修炼资源]
+      status: verified
+- id: CHAR-0193
+  name: 熊大
+  update:
+    status_change_add: [在六宗会盟中公开推举徐霄为太初仙域第一圣子]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [763, 764, 765, 766, 767, 768, 769, 770, 771, 772]
+    growth_event_add:
+    - chapter_range: {start: 763, end: 772}
+      event: 协助安置灵藏关系人物并在轩辕仙城为徐霄造势
+      impact: [天魁峰成为灵藏人族安置核心, 公开推动徐霄第一圣子名号]
+      status: verified
+- id: CHAR-0192
+  name: 魔无花
+  update:
+    relationship_change_add: [在轩辕仙城与魔罗圣门一方呈现持续敌意背景]
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [767, 768, 769, 770, 771, 772]
+    growth_event_add:
+    - chapter_range: {start: 767, end: 772}
+      event: 随万妖仙宗参加轩辕仙城会盟并面对魔罗圣门旧关系压力
+      impact: [其与魔罗圣门的敌对背景进一步显化]
+      status: partial
