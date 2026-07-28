@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0116
+gift_events:
+- id: GIFT-0203
+  chapter: 752
+  node: NODE-0100
+  giver: 徐霄
+  recipient: 赤裳
+  gift: 十颗金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗太乙聚仙丹
+  triggered_multiplier: 10
+  relationship_result: 赤裳停止强硬问责并转入赤澜儿聘礼谈判
+  status: verified
+- id: GIFT-0204
+  chapter: 752
+  node: NODE-0100
+  giver: 徐霄
+  recipient: 赤澜儿
+  gift: 十颗玄元仙丹及一颗玄仙巅峰魂丹
+  accepted: true
+  system_valid: true
+  reward: 五十颗金仙道丹及五颗金仙巅峰魂丹
+  triggered_multiplier: 5
+  relationship_result: 赤澜儿继续公开维持关系并进入婚事谈判
+  status: verified
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0203, GIFT-0204]
+    rule_add:
+    - chapter: 754
+      rule: 击杀气运之子独孤惊云后，符箓阵法返还库上限提升至太乙仙
+      status: verified
+    task_add:
+    - chapter: 755
+      target: 天穹
+      type: 气运之敌击杀任务
+      reward: 返还道具库随机升级
+      status: pending
+    related_nodes_add: [NODE-0100]
+    source_chapters_add: [752, 754, 755]
