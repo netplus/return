@@ -1,0 +1,33 @@
+schema_version: 1
+run_id: RUN-0106
+gift_events:
+- id: GIFT-0173
+  chapter: 679
+  node: NODE-0090
+  giver: 徐霄
+  recipient: 凤青玄
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗五行仙丹
+  triggered_multiplier: 10
+  status: partial
+- id: GIFT-0174
+  chapter: 679
+  node: NODE-0090
+  giver: 徐霄
+  recipient: 姬雪
+  recipient_identity: 刘爱花
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗五行仙丹
+  triggered_multiplier: 10
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0173, GIFT-0174]
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [679]
