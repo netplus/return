@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 194
+    count: 198
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -71,7 +71,7 @@ groups:
     - id: CHAR-0031
       path: docs/02-characters/白九儿.md
     - id: CHAR-0032
-      path: docs/02-characters/猿洪.md
+      path: docs/02-characters/刘爱花.md
     - id: CHAR-0033
       path: docs/02-characters/虎奔.md
     - id: CHAR-0034
@@ -345,7 +345,7 @@ groups:
     - id: CHAR-0168
       path: docs/02-characters/北鳞.md
     - id: CHAR-0169
-      path: docs/02-characters/赤澜儿.md
+      path: docs/02-characters/凤青玄-CHAR-0169.md
     - id: CHAR-0170
       path: docs/02-characters/玄雪.md
     - id: CHAR-0171
@@ -396,8 +396,16 @@ groups:
       path: docs/02-characters/魔无花.md
     - id: CHAR-0194
       path: docs/02-characters/雪小星.md
+    - id: CHAR-0195
+      path: docs/02-characters/公孙飞龙.md
+    - id: CHAR-0196
+      path: docs/02-characters/阴萱-CHAR-0196.md
+    - id: CHAR-0197
+      path: docs/02-characters/龙泽.md
+    - id: CHAR-0198
+      path: docs/02-characters/龙九天.md
   artifacts:
-    count: 113
+    count: 117
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -627,10 +635,18 @@ groups:
       path: docs/06-artifacts/雪小星获赠顶级至尊仙器（正式名称待确认）.md
     - id: ART-0113
       path: docs/06-artifacts/玄仙巅峰大道神丹.md
+    - id: ART-0114
+      path: docs/06-artifacts/太乙聚仙丹.md
+    - id: ART-0115
+      path: docs/06-artifacts/玉骨仙扇.md
+    - id: ART-0116
+      path: docs/06-artifacts/九幽万魂扇.md
+    - id: ART-0117
+      path: docs/06-artifacts/龙魂仙牌.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 194
-  growth_events: 799
+  characters_with_growth_line: 198
+  growth_events: 816
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

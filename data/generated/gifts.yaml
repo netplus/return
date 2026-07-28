@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 77
+  extension_files: 78
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2575,3 +2575,51 @@ gifts:
   triggered_multiplier: pending
   relationship_result: 雪小星与徐霄确立关系并共同入驻天魁峰
   status: partial
+- id: GIFT-0198
+  chapter: 738
+  node: NODE-0098
+  giver: 徐霄
+  recipient: 天翎
+  gift: 十颗金仙道丹
+  accepted: true
+  system_valid: true
+  reward: 两颗鸿蒙一气丹及九十颗太乙聚仙丹
+  triggered_multiplier: 首颗万倍暴击，其余十倍
+  relationship_result: 天翎暂缓公开处置并继续保留天凤神光威慑
+  status: verified
+- id: GIFT-0199
+  chapter: 739
+  node: NODE-0098
+  giver: 徐霄
+  recipient: 熊大
+  gift: 一颗金仙道丹
+  accepted: true
+  system_valid: false
+  reward: 无系统返还记录
+  triggered_multiplier: null
+  relationship_result: 熊大继续承担关系人物安置与保护职责
+  status: verified
+- id: GIFT-0200
+  chapter: 740
+  node: NODE-0098
+  giver: 徐霄
+  recipient: 阴萱
+  gift: 十颗仙元丹、至尊仙器玉骨仙扇及一颗地仙巅峰魂丹
+  accepted: true
+  system_valid: true
+  reward: 三十颗五行仙丹、道器九幽万魂扇及三颗天仙巅峰魂丹
+  triggered_multiplier: 3
+  relationship_result: 阴萱与徐霄确立关系并加入万妖仙宗天魁峰
+  status: verified
+- id: GIFT-0201
+  chapter: 743
+  node: NODE-0098
+  giver: 徐霄
+  recipient: 玄灵
+  gift: 十颗高品天凤血丹及十颗玄元仙丹
+  accepted: true
+  system_valid: true
+  reward: 五百颗高品天凤血丹及五十颗金仙道丹
+  triggered_multiplier: 高品血丹五十倍，玄元仙丹五倍
+  relationship_result: 玄灵接受疗伤资源但未确认关系变化
+  status: verified
