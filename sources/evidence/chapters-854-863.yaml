@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-0123
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 854, end: 863}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  artifact: source-chapters-827-876
+chapters:
+- {chapter: 854, title: 万妖仙宗到, sha256: 3c88f3a1304375fab90e07eb6636614bfff08981d7a30b4425c96a3fec2609e0, facts: [万妖仙宗抵达初殷四千万岁寿宴, 黑神破玄冥法携域外黑袍修士出席], status: verified}
+- {chapter: 855, title: 踩着仙帝送礼, sha256: 5e98ee410f837482f74e8fcc135ba259a56f8ecb3ad7922d7ed4f52e84736351, facts: [初殷被系统识别为SSS+级气运之女, 徐霄准备以大罗鸿蒙丹贺寿], status: verified}
+- {chapter: 856, title: 全场呆滞，惊恐懵比, sha256: aac8c4ea22294d57b4d9593deecd81f4ddac6a07f3d8cf2455d23805e7374314, facts: [徐霄赠送初殷五十颗大罗鸿蒙丹, 系统返还鸿蒙一气丹及四千九百颗大罗鸿蒙丹], status: verified}
+- {chapter: 857, title: 域外天修, sha256: 95218a3407da49fc6f32feea70d88f42e3ca359c3d4814b0168ff204a028c98c, facts: [万尘龙天万道等仙帝抵达, 黑袍域外天修继续隐藏身份], status: verified}
+- {chapter: 858, title: 雪瑶登场, sha256: 32a1169f4d4a84daf3a821c3e57cea24e927fa0c22a6a9e152f944e3b4ca24c9, facts: [黑神破玄冥法被识别为气运之敌, 雪瑶抵达并接受天道神威黑冰剑], status: verified}
+- {chapter: 859, title: 寿宴开始, sha256: a9970d5d081e52a08063f16e7c1756f3d5f619d2aab593d18b0b9da9df6b6215, facts: [神器诛仙天冰剑返还到账, 寿宴正式开始并转入太乙仙切磋], status: verified}
+- {chapter: 860, title: 开始切磋, sha256: bbed66dd47fc90871ea6fe2d02117ad4a52c6743bafff8b756447de6c0bf5d71, facts: [徐霄参加三十二人太乙切磋, 首轮对手为修罗擎天], status: verified}
+- {chapter: 861, title: 徐霄略微出手, sha256: 33feee9115f71bc94266d0f867f506c12676e127f3fdafe8843de11d404f792d, facts: [徐霄五行规则剑阵摧毁修罗擎天法器与肉身, 弑神大道炼化其神魂], status: verified}
+- {chapter: 862, title: 被气懵的冥法, sha256: e3619761e8cff9b3bcb0d1c9bf0ea777c1739d116a6e664ea3e56638532ba4ac, facts: [冥法公开问责徐霄, 凤青玄与雪瑶共同维护徐霄], status: verified}
+- {chapter: 863, title: 至尊仙帝, sha256: a181b1747ae0ea937839c15bb7c07d7c2242d302045cd073250c69182d571a21, facts: [徐霄以五十股鸿蒙真气及金身一掌击退冥法, 徐霄被判定寿宴切磋第一名], status: verified}
+boundary_probe: {chapter: 864, title: 炼神鼎, sha256: 0f2be34fd0e164a982dd1a43410385333eeea0c2540348bdc5e6d59339cd8307}
+boundary_reason: 第863章完成寿宴切磋与仙帝级战力公开验证；第864章仙帝宫被传送入炼神鼎，转入域外天修危机
+pending: [三名气运之敌背后的域外天修完整组织关系, 上古至尊仙帝身份真实性]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_and_hashes}
