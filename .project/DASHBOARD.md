@@ -5,47 +5,47 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 728
-- **Current evidence exploration through:** Chapter 729
+- **Canonical coverage through:** Chapter 736
+- **Current evidence exploration through:** Chapter 737
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 96
+- **Completed timeline nodes:** 97
 - **Draft timeline nodes:** 0
-- **Documented characters:** 187
-- **Generated character profiles:** 187
-- **Gift events:** 193
-- **Artifact records:** 109
-- **Generated artifact profiles:** 109
-- **Last run:** `RUN-0112`
-- **Last completed node:** `NODE-0096`
-- **Next task:** `TASK-0099` — 万妖仙宗抵达、公开问责与入门选拔 story arc
-- **Provisional exploration range:** Chapters 729–736
+- **Documented characters:** 194
+- **Generated character profiles:** 194
+- **Gift events:** 197
+- **Artifact records:** 113
+- **Generated artifact profiles:** 113
+- **Last run:** `RUN-0113`
+- **Last completed node:** `NODE-0097`
+- **Next task:** `TASK-0100` — 三年跃迁、天翎再问责与锁妖塔闯关 story arc
+- **Provisional exploration range:** Chapters 737–745
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0096` covers Chapters 723—728. 青木城战后系统继续结算高阶仙丹返还；两个月后妖族取得决定性优势，人妖双方进入最终谈判。徐霄向凤天晴配置资源并与火雀族族长雀鸢确立关系，获得大道山河图和金仙巅峰魂丹；服用鸿蒙一气丹后鸿蒙真气增至六十六股，并以三千天道丹完美领悟阵之大道。徐霄拒绝回归人族，以顶级至尊玄仙符箓迫使双方接受其继续留在妖族。战功结算后，徐霄、玉龙、金虚、玄灵、玄雪等人获得万妖仙宗选拔入口。
+`NODE-0097` covers Chapters 729—736. 徐霄一行抵达万妖仙宗后遭遇天翎、赤裳等金仙长老公开问责；诸葛青天燃烧寿元升至玄仙六重，独孤惊云凭道天仙体进入天穹亲传序列。照妖宝镜确认徐霄太初仙体具有最强金光，但其声誉使金仙长老集体拒绝接收。徐霄随后以六颗巨型金仙道丹与新晋长老熊大建立资源合作，成为天魁峰首席执事，并为青曼、雀鸢和雪小星取得执事席位。赤裳赠送返还的道气玄天丹被服用后，徐霄形成玄仙道气且突破玄仙不再有瓶颈。
 
 ## Character growth updates
 
-`RUN-0112` adds 雀鸢、苏破天、温晴岚 and玉龙 with chapter-anchored first appearances, and timed growth events for 徐霄、凤天晴、孔青、周紫薇、金虚、玄灵、玄雪 and天翎.
+`RUN-0113` adds 韵幽、天穹、赤裳、孔玄、熊大、魔无花 and雪小星 with chapter-anchored first appearances, and timed growth events for 徐霄、诸葛青天、独孤惊云、天翎、玄灵、玄雪、金虚、青曼、雀鸢 and北鳞.
 
-## Quality gates — RUN-0112
+## Quality gates — RUN-0113
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed — official catalog, archived hashes and readable mirror |
+| Source traceability | Passed — archived hashes and one-day transient evidence artifact |
 | Arc coherence | Passed |
 | Materiality | Passed |
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 187 character and 109 artifact records |
+| Entity-document freshness | Passed — 194 character and 113 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 8 timed material updates and 4 new first appearances |
+| Character growth continuity | Passed — 10 timed material updates and 7 new first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-Chapters 723—728 are fixed by the archived per-chapter hashes and official catalog and were cross-checked through readable mirrors. No full chapter text is stored. 原始仙丹赠送链、凤天晴与周紫薇精确返还、顶级至尊玄仙符箓正式名称及万妖仙宗选拔兑现 remain pending.
+Chapters 729—736 were reviewed from the user-supplied Internet Archive source through a one-day GitHub Actions artifact and tied to stored per-chapter hashes. Evidence PR #80 was closed without merge, and no full chapter text entered Git history. 天凤金光完整机制、雪小星复合赠礼返还及相关仙器正式名称 remain pending.

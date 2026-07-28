@@ -1,0 +1,72 @@
+schema_version: 1
+run_id: RUN-0113
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 729, end: 736}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0701-0750.yaml
+  transient_artifact: {workflow_run_id: 30356958388, artifact_id: 8687186210, chapter_range: {start: 729, end: 778}, retention_days: 1, merged_to_git: false}
+chapters:
+- chapter: 729
+  title: 到达万妖仙宗
+  sha256: bef4612573b6df4a9f0451be478015771122ad7b3ac9346da9d9afcdea4fd0a9
+  source_line_range: {start: 80170, end: 80254}
+  source_char_range: {start: 1661144, end: 1663377}
+  facts: [诸葛青天燃烧寿元升至玄仙六重且仅余一万年寿元, 独孤惊云获得天穹长老引荐, 徐霄以三颗玄元仙丹委托北鳞保护天水城关系人物, 参选队伍抵达万妖仙宗]
+  status: verified
+- chapter: 730
+  title: 愤怒的天翎长老
+  sha256: 0bca7c8819372a2a09e6073b337c345318550232506633688e78dc9e72855f98
+  source_line_range: {start: 80257, end: 80344}
+  source_char_range: {start: 1663377, end: 1665595}
+  facts: [诸葛青天与独孤惊云清除万魂盘烙印, 天翎收回凤族血令, 天翎在徐霄识海植入天凤金光, 天翎被系统识别为SSS级一百倍对象]
+  status: verified
+- chapter: 731
+  title: 徐霄公开处刑
+  sha256: 7d28d1132c77cdd323f1f7197ded533aeadd7b4e6604eded82788f5a08837e5b
+  source_line_range: {start: 80347, end: 80433}
+  source_char_range: {start: 1665595, end: 1667933}
+  facts: [赤裳以赤狐族老祖身份准备处置徐霄, 赤裳被识别为SSS级一百倍对象, 孔玄与多名金仙长老到场, 徐霄取出超绝品质巨型金仙道丹]
+  status: verified
+- chapter: 732
+  title: 开始选拔
+  sha256: d2ae0aba4ef1b4ed332aa3c4b60240c0ae0cb0144de28731463807a834baadeb
+  source_line_range: {start: 80436, end: 80519}
+  source_char_range: {start: 1667933, end: 1670073}
+  facts: [赤裳接受金仙道丹并停止处置, 首次赠送赤裳万倍暴击返还道气玄天丹, 照妖宝镜选拔规则公开, 入门选拔正式开始]
+  status: verified
+- chapter: 733
+  title: 金光冲天，超级天赋
+  sha256: fd0f1afaa0a58dc1f0c820f4e0d8390ce1f50002522bfa3672d47c95b26df4ec
+  source_line_range: {start: 80522, end: 80600}
+  source_char_range: {start: 1670073, end: 1672194}
+  facts: [独孤惊云凭道天仙体成为天穹亲传弟子, 诸葛青天成为天穹普通弟子, 玄灵玄雪呈现金色仙体天赋并进入天翎麾下, 徐霄太初仙体呈现最强金光但因声誉无人接收]
+  status: verified
+- chapter: 734
+  title: 现场收人
+  sha256: 04dbf858c94e5e22f5c3a29bdb857fc35543514f8c92cbeb8520a2a749541a11
+  source_line_range: {start: 80603, end: 80704}
+  source_char_range: {start: 1672194, end: 1674754}
+  facts: [金虚成为天穹执事, 韵幽月华墨玉成为魔无花普通弟子, 徐霄进入神通法器测试并以金仙道丹公开加码]
+  status: verified
+- chapter: 735
+  title: 大金丹加码
+  sha256: aa0b2fefb5c3d09dacf8f67ffe4303100c9aba125a49c9e281abcf2a709476c6
+  source_line_range: {start: 80707, end: 80812}
+  source_char_range: {start: 1674754, end: 1676996}
+  facts: [熊大接受三颗金仙道丹并任命徐霄为首席执事, 徐霄再以一颗金仙道丹为青曼取得执事席位, 徐霄公开库存至少七百颗金仙道丹]
+  status: verified
+- chapter: 736
+  title: 入驻天魁峰
+  sha256: 803b9541d2012db8905ebe8462fc07139c44ca36662605d29e02a5a3fdc1a818
+  source_line_range: {start: 80815, end: 80909}
+  source_char_range: {start: 1676996, end: 1679014}
+  facts: [雀鸢和雪小星在徐霄资源支持下获得熊大执事席位, 雪小星被识别为A级十倍对象并与徐霄确立关系, 徐霄一行入驻天魁峰, 徐霄服用道气玄天丹并凝成玄仙道气]
+  status: verified
+boundary_probe: {chapter: 737, title: 幽会败露，天翎找茬, transition: 三年时间跳跃并转入天魁峰关系网络扩张与天翎再次问责}
+boundary_reason: 第736章完成到宗选拔、身份落位与天魁峰入驻；第737章发生三年跳跃并开启新冲突
+pending: [天凤金光完整机制, 雪小星复合赠礼返还, 顶级至尊仙器正式名称, 天穹魔无花孔玄精确境界]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
