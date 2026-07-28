@@ -94,30 +94,22 @@ tasks:
 - {id: TASK-0085, status: done, run_id: RUN-0099}
 - {id: TASK-0086, status: done, run_id: RUN-0100}
 - {id: TASK-0087, status: done, run_id: RUN-0101}
-- id: TASK-0088
-  title: Build the 神御黑冰、青鸾长老与阿鼻地狱追捕 story arc from Chapter 651 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0102
-  target: {chapter_start: 651, chapter_end: 658, node: NODE-0086, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0086.md, data/extensions/timeline/run-0102.yaml, data/extensions/characters/run-0102.yaml, data/extensions/system/run-0102.yaml, data/extensions/artifacts/run-0102.yaml, sources/evidence/chapters-651-658.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0087]
-- id: TASK-0089
-  title: Build the 徐霄保人、刹女站队与疯狂返还 story arc from Chapter 659 onward
-  type: story_arc
-  status: done
-  completed_at: '2026-07-28'
-  run_id: RUN-0103
-  target: {chapter_start: 659, chapter_end: 662, node: NODE-0087, boundary: adaptive}
-  outputs: [docs/01-timeline/node-0087.md, data/extensions/timeline/run-0103.yaml, data/extensions/characters/run-0103.yaml, data/extensions/system/run-0103.yaml, data/extensions/artifacts/run-0103.yaml, sources/evidence/chapters-659-662.yaml]
-  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
-  depends_on: [TASK-0088]
+- {id: TASK-0088, status: done, run_id: RUN-0102}
+- {id: TASK-0089, status: done, run_id: RUN-0103}
 - id: TASK-0090
   title: Build the 太上长老保人、邬秋控诉与宗门安置 story arc from Chapter 663 onward
   type: story_arc
-  status: pending
-  target: {chapter_start: 663, provisional_chapter_end: 666, node: NODE-0088, boundary: adaptive}
-  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  status: done
+  completed_at: '2026-07-28'
+  run_id: RUN-0104
+  target: {chapter_start: 663, chapter_end: 666, node: NODE-0088, boundary: adaptive}
+  outputs: [docs/01-timeline/node-0088.md, data/extensions/timeline/run-0104.yaml, data/extensions/characters/run-0104.yaml, data/extensions/system/run-0104.yaml, data/extensions/artifacts/run-0104.yaml, sources/evidence/chapters-663-666.yaml]
+  quality_gates: {source_traceability: passed_with_qualifications, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: pending_ci, entity_document_readability: pending_ci, character_identity_alignment: pending_ci, character_growth_continuity: pending_ci, growth_temporal_accuracy: pending_ci, copyright_boundary: passed}
   depends_on: [TASK-0089]
+- id: TASK-0091
+  title: Build the 诸葛青天恢复、执法堂爆炸与天一上门 story arc from Chapter 667 onward
+  type: story_arc
+  status: pending
+  target: {chapter_start: 667, provisional_chapter_end: 676, node: NODE-0089, boundary: adaptive}
+  rules: [Read and verify each covered chapter as evidence., End at a coherent story-arc boundary., Update only material and persistent entity changes., Append a timed growth_event_add for every materially changed character., Deliver the entire arc as one complete commit or record blockers.]
+  depends_on: [TASK-0090]
