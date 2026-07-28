@@ -1,0 +1,132 @@
+schema_version: 1
+run_id: RUN-0118
+characters: []
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [获得规则道器五行九天神威金轮, 获得乾元护天阵盘与混元破空盘, 获得规则道器天道神威御火剑, 鸿蒙真气增至七十四股]
+    identity_change_add: [轩辕婉君预定道侣]
+    relationship_change_add: [与轩辕婉君完成订婚, 与魔无花建立共同对付魔无天的资源合作, 以资源促使凤溪和龙九天支持其政治处置]
+    conflict_change_add: [重创血无涯并促成万妖仙宗与噬魂血宗公开决裂]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792]
+    growth_event_add:
+    - chapter_range: {start: 773, end: 792}
+      event: 主导轩辕拍卖会资源交换、改变订婚对象并完成宗门政治收束
+      core_ability: [鸿蒙真气七十四股, 五行九天神威金轮, 乾元护天阵盘, 天道神威御火剑]
+      impact: [与轩辕婉君完成订婚, 重创血无涯, 万妖仙宗与噬魂血宗公开决裂, 轩辕仙城转为万妖仙宗盟友]
+      status: verified
+- id: CHAR-0190
+  name: 赤裳
+  update:
+    accepted_gifts_add: [GIFT-0212]
+    relationship_change_add: [接受补充聘礼并与徐霄关系进一步加深]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 778, 791, 792]
+    growth_event_add:
+    - chapter_range: {start: 773, end: 792}
+      event: 获得赤澜儿婚事补充资源并继续参与万妖仙宗内部关系网络
+      impact: [获得五十颗金仙道丹, 与徐霄的资源关系进一步稳定]
+      status: verified
+- id: CHAR-0202
+  name: 轩辕婉君
+  update:
+    accepted_gifts_add: [GIFT-0213, GIFT-0214, GIFT-0218, GIFT-0219, GIFT-0220]
+    identity_change_add: [徐霄预定道侣]
+    relationship_change_add: [终止与血无涯的订婚安排并与徐霄完成订婚]
+    resource_change_add: [获得仙灵聚气玉、十颗太乙聚仙丹、五十颗金仙道丹及八颗含完美弑神大道的高阶丹药]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792]
+    growth_event_add:
+    - chapter_range: {start: 773, end: 792}
+      event: 在拍卖会和订婚冲突中获得修复道伤的替代资源并改变联姻对象
+      impact: [与血无涯订婚终止, 与徐霄完成订婚, 道伤修复资源由九幽血菩提转为多颗完美弑神大道丹药]
+      status: verified
+- id: CHAR-0203
+  name: 轩辕正誉
+  update:
+    stance_change_add: [在噬魂血宗撤退后同意轩辕婉君与徐霄订婚, 将轩辕仙城政治立场转向万妖仙宗]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791]
+    growth_event_add:
+    - chapter_range: {start: 773, end: 791}
+      event: 主持拍卖会并在抢亲冲突后重新选择家族联姻对象
+      impact: [轩辕家终止与噬魂血宗联姻, 接受与万妖仙宗建立婚姻联盟]
+      status: verified
+- id: CHAR-0208
+  name: 血无涯
+  update:
+    status_change_add: [被五行九天神威金轮绞碎肉身后依靠血灵仙体重聚并遭受重伤]
+    relationship_change_add: [与轩辕婉君订婚关系终止]
+    conflict_change_add: [与徐霄及万妖仙宗进入公开不死不休状态]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [775, 776, 777, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792]
+    growth_event_add:
+    - chapter_range: {start: 775, end: 792}
+      event: 在拍卖与订婚争夺中连续失败并被徐霄重创
+      impact: [失去轩辕婉君订婚关系, 道器受损, 噬魂血宗与万妖仙宗公开决裂]
+      status: verified
+- id: CHAR-0192
+  name: 魔无花
+  update:
+    accepted_gifts_add: [GIFT-0216, GIFT-0217]
+    artifact_change_add: [获得道器轩辕五行环]
+    relationship_change_add: [接受徐霄长期资源支持并约定共同击杀魔无天]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [779, 780, 781, 782, 791, 792]
+    growth_event_add:
+    - chapter_range: {start: 779, end: 792}
+      event: 在拍卖会获得轩辕五行环并接受冲击太乙仙的长期资源
+      impact: [重返魔罗圣门和击杀魔无天的复仇路线获得关键道器与丹药支持]
+      status: verified
+- id: CHAR-0199
+  name: 凤溪
+  update:
+    accepted_gifts_add: [GIFT-0221]
+    cultivation_change: 太乙仙六重
+    artifact_change_add: [获得大道天火剑]
+    stance_change_add: [公开支持徐霄与轩辕婉君订婚并击退噬魂血宗]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792]
+    growth_event_add:
+    - chapter_range: {start: 787, end: 792}
+      event: 以太乙仙六重实力介入订婚冲突并公开改变万妖仙宗对外立场
+      core_ability: [太乙仙六重, 大道天火剑]
+      impact: [击退噬魂血宗, 支持轩辕联姻, 获得十五颗太乙聚仙丹和道器神剑]
+      status: verified
+- id: CHAR-0198
+  name: 龙九天
+  update:
+    accepted_gifts_add: [GIFT-0222]
+    stance_change_add: [接受资源后承诺在太上长老层面维护徐霄并处理噬魂血宗冲突]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [792]
+    growth_event_add:
+    - chapter: 792
+      event: 处理轩辕仙城事件引发的宗门危机并调整对徐霄的处置
+      impact: [由主张撤销圣子身份转为协调太上长老保护徐霄]
+      status: verified
+- id: CHAR-0176
+  name: 周紫薇
+  update:
+    accepted_gifts_add: [GIFT-0215]
+    relationship_change_add: [在轩辕仙城继续秘密维持与徐霄关系并因此被万萱带回]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [773, 778, 779]
+    growth_event_add:
+    - chapter_range: {start: 773, end: 779}
+      event: 在轩辕仙城继续秘密维持与徐霄的关系
+      impact: [获得一万极品灵精, 被万萱公开带回并面临长期禁闭]
+      status: verified
+- id: CHAR-0204
+  name: 魔无天
+  update:
+    conflict_change_add: [阻挠魔无花竞拍道器失败并成为其获得长期资源后明确复仇目标]
+    related_nodes_add: [NODE-0102]
+    source_chapters_add: [779, 780, 781, 782]
+    growth_event_add:
+    - chapter_range: {start: 779, end: 782}
+      event: 在轩辕五行环竞拍中阻挠魔无花并与徐霄正面交恶
+      impact: [魔无花获得道器与长期丹药支持后，其掌门地位面临更具体的复仇威胁]
+      status: verified
