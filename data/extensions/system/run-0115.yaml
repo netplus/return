@@ -1,0 +1,26 @@
+schema_version: 1
+run_id: RUN-0115
+gift_events:
+- id: GIFT-0202
+  chapter: 751
+  node: NODE-0099
+  giver: 徐霄
+  recipient: 鹤仙儿
+  gift: 十颗超品玄元仙丹、三件至尊仙器及三颗玄仙巅峰丹药（类型叙述冲突）
+  accepted: true
+  system_valid: true
+  reward: 一颗三千天道丹、四十五颗金仙道丹、三件道器及十五颗金仙巅峰魂丹
+  triggered_multiplier: 首颗玄元仙丹万倍，其余玄元仙丹五倍；至尊仙器一倍；丹药五倍
+  relationship_result: 鹤仙儿承诺保守锁妖塔秘密，并获得长期玄元仙丹供应
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0202]
+    rule_add:
+    - {chapter: 750, rule: 击杀气运之子诸葛青天后，法器返还库上限提升至规则道器, status: verified}
+    reward_resolution_add:
+    - {chapter: 751, result: 鹤仙儿复合赠礼返还三千天道丹、金仙道丹、三件道器与金仙巅峰魂丹, status: partial}
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [750, 751]

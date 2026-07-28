@@ -1,0 +1,58 @@
+schema_version: 1
+run_id: RUN-0115
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 746, end: 751}
+source_gate: passed
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  selected_sequence: 525
+  whole_file_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_files: [sources/archive/fanqienovel-7423641263695481880/chapters-0701-0750.yaml, sources/archive/fanqienovel-7423641263695481880/chapters-0751-0800.yaml]
+  transient_artifact: source-chapters-729-778
+chapters:
+- chapter: 746
+  title: 破釜沉舟的诸葛青天
+  sha256: 8b8d96d8ae7cb6996fac7cec8c3e569ebb3507265af36ddbd1c0b864e7dd928b
+  source_line_range: {start: 81724, end: 81814}
+  source_char_range: {start: 1699164, end: 1701326}
+  facts: [诸葛青天因绝望启动最强燃烧模块，准备燃尽万年寿元, 凤溪主张将徐霄视为太乙仙潜力对象并长期培养]
+  status: verified
+- chapter: 747
+  title: 满血复活的两大天才
+  sha256: afc36b9f191e7a1728f6e39524c65b0e46dbf560d2d7fdaf367aced8fddf340e
+  source_line_range: {start: 81817, end: 81893}
+  source_char_range: {start: 1701326, end: 1703458}
+  facts: [诸葛青天仅留一天寿命并提升至玄仙巅峰, 系统额外提供道器神剑，使其持有两件道器]
+  status: verified
+- chapter: 748
+  title: 诸葛青天，金仙契机
+  sha256: e3569075293ad2f3cee5dc17697a934f59ad20b11502b765ee19146b716f9a16
+  source_line_range: {start: 81896, end: 81986}
+  source_char_range: {start: 1703458, end: 1705695}
+  facts: [诸葛青天隐匿真实境界并快速闯入十八层, 击败十八层目标后获得金仙突破契机, 天穹计划将其收为亲传弟子]
+  status: verified
+- chapter: 749
+  title: 锁妖塔爆炸
+  sha256: baa2ce693973b1447ad8abf6091e81a1f4fb212a19604ee9983c80753e92c136
+  source_line_range: {start: 81989, end: 82084}
+  source_char_range: {start: 1705695, end: 1707872}
+  facts: [徐霄预留的玄仙顶级火符在十八层触发, 诸葛青天肉身神魂俱灭, 锁妖塔十二层以上炸毁, 龙九天收走两柄遗留道器]
+  status: verified
+- chapter: 750
+  title: 鹤仙儿拿捏
+  sha256: c2fb7baee57f4d98a31de5e717e9981474239425d276af27e54789e6a72380a3
+  source_line_range: {start: 82087, end: 82186}
+  source_char_range: {start: 1707872, end: 1710066}
+  facts: [系统确认诸葛青天气运任务完成, 法器返还库上限提升至规则道器, 鹤仙儿察觉徐霄激活阵眼并尝试以揭发相威胁]
+  status: verified
+- chapter: 751
+  title: 被鹤仙儿敲诈
+  sha256: 7c40747ed5de32475cc23bcee8a11faded3dc67318fa80cf38976796b45eb43e
+  source_line_range: {start: 82189, end: 82272}
+  source_char_range: {start: 1710066, end: 1712179}
+  facts: [鹤仙儿接受复合高阶赠礼并承诺保密, 系统返还三千天道丹金仙道丹三件道器与金仙巅峰魂丹, 龙九天将事故归因于幻阵年久失修, 徐霄服用三千天道丹并完美领悟幻象大道, 玄雪羁绊度提升至二]
+  status: partial
+boundary_probe: {chapter: 752, title: 徐霄装都不装了, sha256: fdcf2f3fac928a4a1b28549aa3849f1adc8d81e3f395f6a23bb02a879b630d60}
+boundary_reason: 第751章完成锁妖塔事故调查、鹤仙儿封口交易与幻象大道落地；第752章转入赤裳为赤澜儿再次问责
+pending: [两柄道器神剑及三件返还道器正式名称, 玄仙顶级火符正式名称, 鹤仙儿三颗赠礼丹药类型冲突]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}

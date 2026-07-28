@@ -1,0 +1,52 @@
+schema_version: 1
+run_id: RUN-0115
+artifacts:
+- id: ART-0118
+  name: 诸葛青天两柄道器神剑（正式名称待确认）
+  category: 道器
+  grade: 道器
+  first_chapter: 747
+  current_holder: 龙九天
+  acquisition: 诸葛青天系统燃烧与既有资源形成两柄道器；第749章死亡后由龙九天收走
+  effect: 剑类道器，可显著提升玄仙巅峰闯塔战力；具体规则能力待确认
+  current_state: 由龙九天暂存，后续归属待宗门决定
+  status: partial
+  related_nodes: [NODE-0099]
+  source_chapters: [747, 748, 749, 750]
+- id: ART-0119
+  name: 鹤仙儿返还三件道器（正式名称待确认）
+  category: 道器
+  grade: 道器
+  first_chapter: 751
+  current_holder: 徐霄
+  acquisition: GIFT-0202中三件至尊仙器返还
+  effect: 三件道器的类别与规则能力均待确认
+  current_state: 已获得，未确认使用
+  status: partial
+  related_nodes: [NODE-0099]
+  source_chapters: [751]
+artifact_updates:
+- id: ART-0078
+  name: 三千天道丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0202, chapter: 751, quantity: 1, status: verified}
+    usage_add:
+    - {chapter: 751, user: 徐霄, result: 完美领悟幻象大道, status: verified}
+    current_state_change: 本阶段返还的一颗已服用
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [751]
+- id: ART-0102
+  name: 金仙道丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0202, chapter: 751, quantity: 45, status: verified}
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [751]
+- id: ART-0109
+  name: 金仙巅峰魂丹
+  update:
+    acquisition_add:
+    - {gift_id: GIFT-0202, chapter: 751, quantity: 15, status: partial}
+    related_nodes_add: [NODE-0099]
+    source_chapters_add: [751]
