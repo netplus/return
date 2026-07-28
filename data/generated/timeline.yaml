@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 79
+  extension_files: 80
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3549,3 +3549,42 @@ nodes:
   - 避难人物返仙条件
   document: docs/01-timeline/node-0090.md
   evidence: sources/evidence/chapters-677-680.yaml
+- id: NODE-0091
+  title: 妖族身份豁免、天水城灵田与仙丹种植
+  chapters:
+    start: 681
+    end: 688
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录、Internet Archive逐章哈希与可访问正文镜像共同核验第681—688章
+  boundary_reason: 第688章完成灵田巡视、仙丹补偿策略和玄雪识别；第689章凤青玄返回并转入凤族血令新阶段
+  characters:
+  - 徐霄
+  - 青鸾
+  - 凤青玄
+  - 赤澜儿
+  - 铁煞天
+  - 北鳞
+  - 金虚
+  - 玄雪
+  - 洛银纱
+  - 琉璃
+  - 姬雪
+  - 柳清浅
+  - 绝柔
+  system_events:
+  - event: 青鸾丹药赠送
+    result: 十颗仙元丹返还一百颗五行仙丹；十颗五行仙丹返还一百颗玄元仙丹
+    status: partial
+  - event: 玄雪气运识别
+    result: S级气运之女且为首个明确玄仙境气运对象
+    status: partial
+  relationship_result: 青鸾凤青玄担保使徐霄免除神魂烙印；徐霄与赤澜儿确立关系并获任灵田巡察
+  pending:
+  - 神魂印记完整能力
+  - 青鸾凤青玄万妖仙宗正式身份
+  - 徐霄巡察权限
+  - 第687章丹药服用精确结果
+  - 后续仙丹补偿赠送明细
+  document: docs/01-timeline/node-0091.md
+  evidence: sources/evidence/chapters-681-688.yaml

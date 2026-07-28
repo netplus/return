@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 70
+  extension_files: 71
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2310,5 +2310,27 @@ gifts:
   accepted: true
   system_valid: true
   reward: 一百颗五行仙丹
+  triggered_multiplier: 10
+  status: partial
+- id: GIFT-0175
+  chapter: 686
+  node: NODE-0091
+  giver: 徐霄
+  recipient: 青鸾
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗五行仙丹
+  triggered_multiplier: 10
+  status: partial
+- id: GIFT-0176
+  chapter: 686
+  node: NODE-0091
+  giver: 徐霄
+  recipient: 青鸾
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗玄元仙丹
   triggered_multiplier: 10
   status: partial

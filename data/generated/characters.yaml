@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 79
+  extension_files: 80
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -160,6 +160,7 @@ characters:
   - NODE-0088
   - NODE-0089
   - NODE-0090
+  - NODE-0091
   source_chapters:
   - 1
   - 2
@@ -801,6 +802,14 @@ characters:
   - 678
   - 679
   - 680
+  - 681
+  - 682
+  - 683
+  - 684
+  - 685
+  - 686
+  - 687
+  - 688
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -874,6 +883,7 @@ characters:
   - 与刹女仙门和众愿佛门合作关系强化
   - 向邬秋提供仙剑魂丹并推动其在阴阳仙门安置
   - 与丁静正式确立关系
+  - 与赤澜儿确立亲密关系
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -994,6 +1004,9 @@ characters:
   - 获任执法堂预备执法长老并转正内门长老
   - 成为阴阳仙门至尊天仙级战略核心
   - 建立盘龙岛跨界避难与资源供应体系
+  - 免除万魂盘神魂烙印
+  - 获任天水城灵田巡察
+  - 建立仙丹补偿灵田灵力消耗策略
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -1397,6 +1410,18 @@ characters:
     - 建立长期安全后方
     - 核心关系网络脱离妖族直接控制
     status: partial
+  - chapter_range:
+      start: 681
+      end: 688
+    event: 借青鸾凤青玄担保进入妖族体系并以仙丹支持灵田种植
+    core_ability:
+    - 免除神魂烙印
+    - 妖族巡察身份
+    - 仙丹资源补偿
+    impact:
+    - 由被征服修士转为天水城特殊关系对象
+    - 将强制种植任务转化为赠送返还渠道
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1471,6 +1496,7 @@ characters:
   - NODE-0074
   - NODE-0079
   - NODE-0090
+  - NODE-0091
   source_chapters:
   - 1
   - 2
@@ -1494,6 +1520,7 @@ characters:
   - 608
   - 609
   - 679
+  - 688
   verification_status: verified
   status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
@@ -1574,6 +1601,11 @@ characters:
     impact:
     - 继续隐藏雪瑶仙帝身份并加速恢复
     status: partial
+  - chapter: 688
+    event: 以刘爱花身份争取灵田仙丹补偿
+    impact:
+    - 维持隐藏身份同时避免种植任务拖慢恢复
+    status: partial
   accepted_gifts:
   - GIFT-0142
   - GIFT-0174
@@ -1581,6 +1613,8 @@ characters:
   - 刘爱花伪装被系统确认但未被徐霄公开揭穿
   resource_change:
   - 十颗化仙丹
+  resource_support:
+  - 以刘爱花身份获得徐霄无限仙丹养灵植承诺
 - id: CHAR-0003
   name: 独孤灵
   status: alive
@@ -4072,11 +4106,15 @@ characters:
   related_nodes:
   - NODE-0038
   - NODE-0090
+  - NODE-0091
   source_chapters:
   - 283
   - 284
   - 287
   - 679
+  - 682
+  - 683
+  - 686
   document: null
   verification_status: partial
   cultivation_change: 地仙二重
@@ -4090,6 +4128,17 @@ characters:
     impact:
     - 天凤血脉与长期资源支持继续加速修炼
     status: partial
+  - chapter_range:
+      start: 682
+      end: 686
+    event: 显露纯血天凤血脉并为徐霄提供妖族身份担保
+    impact:
+    - 获得进入万妖仙宗的核心资格
+    - 阴阳仙门至尊天仙免除神魂烙印
+    status: partial
+  identity_change:
+  - 纯血天凤身份在大仙域妖族公开
+  - 万妖仙宗核心天才候选
 - id: CHAR-0056
   name: 凤青玄
   status: dead
@@ -6699,6 +6748,7 @@ characters:
   - NODE-0075
   - NODE-0079
   - NODE-0085
+  - NODE-0091
   source_chapters:
   - 538
   - 541
@@ -6722,6 +6772,8 @@ characters:
   - 605
   - 606
   - 644
+  - 687
+  - 688
   verification_status: partial
   relationship_change:
   - 确认徐霄为第三名亲传弟子并承诺未来进入内门时一并带入
@@ -6729,6 +6781,7 @@ characters:
   - 即使徐霄转拜掌门后仍获得长期修炼资源承诺
   - 与徐霄形成对外保密的关系
   - 与徐霄关系继续保持非公开
+  - 在灵田公开与徐霄关系
   growth_event:
   - node: NODE-0072
     event: 将徐霄由记名弟子晋升为第三名亲传弟子
@@ -6779,6 +6832,13 @@ characters:
     - 持续获得徐霄高阶资源支持
     - 双方关系仍未公开
     status: partial
+  - chapter_range:
+      start: 687
+      end: 688
+    event: 在俘虏种植阶段公开关系并争取仙丹补偿
+    impact:
+    - 获得维持修炼速度的资源保障
+    status: partial
   assessment_result:
   - 天资: 甲
     容貌: 甲
@@ -6795,6 +6855,8 @@ characters:
   - 阴阳仙门内门弟子
   resource_change:
   - 十颗仙元丹及长期资源承诺
+  resource_support:
+  - 获得徐霄仙丹养灵植承诺
 - id: CHAR-0114
   name: 南宫嫣
   status: alive
@@ -7844,12 +7906,27 @@ characters:
     status: partial
   related_nodes:
   - NODE-0073
+  - NODE-0091
   source_chapters:
   - 562
   - 563
   - 564
+  - 687
+  - 688
   document: null
   verification_status: partial
+  resource_support:
+  - 获得徐霄仙丹养灵植承诺
+  relationship_change:
+  - 在灵田公开与徐霄关系
+  growth_event:
+  - chapter_range:
+      start: 687
+      end: 688
+    event: 在俘虏种植阶段公开关系并争取仙丹补偿
+    impact:
+    - 获得维持修炼速度的资源保障
+    status: partial
 - id: CHAR-0128
   name: 苍松
   status: alive
@@ -9199,6 +9276,7 @@ characters:
   - NODE-0085
   - NODE-0086
   - NODE-0087
+  - NODE-0091
   source_chapters:
   - 648
   - 649
@@ -9207,11 +9285,15 @@ characters:
   - 660
   - 661
   - 662
+  - 686
+  - 687
+  - 688
   document: null
   verification_status: partial
   relationship_change:
   - 在离开无间地狱途中继续与徐霄保持亲密关系并允许琉璃共享气运接触
   - 与徐霄合作由气运接触扩展至公开宗门站队
+  - 与徐霄关系进一步公开
   growth_event:
   - chapter: 658
     event: 与徐霄共同离开无间地狱并延续刹女仙门关系网络
@@ -9225,8 +9307,17 @@ characters:
     impact:
     - 刹女仙门与阴阳仙门形成阶段性共同立场
     status: partial
+  - chapter_range:
+      start: 686
+      end: 688
+    event: 获得灵田仙丹补偿承诺并公开与徐霄关系
+    impact:
+    - 强制种植对修炼的损耗获得资源缓冲
+    status: partial
   role_change:
   - 代表刹女仙门加入保下邬秋的跨宗门阵线
+  resource_support:
+  - 徐霄承诺以五行仙丹补偿灵田灵力消耗
 - id: CHAR-0153
   name: 崔云
   status: alive
@@ -9310,6 +9401,7 @@ characters:
   related_nodes:
   - NODE-0086
   - NODE-0087
+  - NODE-0091
   source_chapters:
   - 652
   - 653
@@ -9319,10 +9411,16 @@ characters:
   - 660
   - 661
   - 662
+  - 681
+  - 682
+  - 683
+  - 686
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0163
+  - GIFT-0175
+  - GIFT-0176
   role_change:
   - 参与阴阳仙门保人并接受十颗五行仙丹
   growth_event:
@@ -9334,6 +9432,17 @@ characters:
     - 接受十颗五行仙丹
     - 对应返还一百颗玄元仙丹
     status: partial
+  - chapter_range:
+      start: 681
+      end: 686
+    event: 显露青鸾妖身并接受两笔高阶丹药赠送
+    impact:
+    - 为阴阳仙门核心和徐霄争取免烙印待遇
+    - 准备进入万妖仙宗体系
+    status: partial
+  identity_change:
+  - 上古青鸾血脉获得妖族确认
+  - 万妖仙宗重点吸纳对象
 - id: CHAR-0155
   name: 萧天
   status: dead
@@ -9471,11 +9580,15 @@ characters:
   related_nodes:
   - NODE-0086
   - NODE-0087
+  - NODE-0091
   source_chapters:
   - 658
   - 660
   - 661
   - 662
+  - 686
+  - 687
+  - 688
   document: null
   verification_status: partial
   role_change:
@@ -9490,6 +9603,15 @@ characters:
     impact:
     - 徐霄与刹女仙门大长老层联系继续稳定
     status: partial
+  - chapter_range:
+      start: 686
+      end: 688
+    event: 获得灵田仙丹补偿承诺
+    impact:
+    - 强制种植对修炼的损耗获得资源缓冲
+    status: partial
+  resource_support:
+  - 徐霄承诺以五行仙丹补偿灵田灵力消耗
 - id: CHAR-0159
   name: 道阳
   status: alive
@@ -9688,9 +9810,23 @@ characters:
     status: partial
   related_nodes:
   - NODE-0090
+  - NODE-0091
   source_chapters:
   - 678
+  - 685
+  - 686
+  - 688
   verification_status: partial
+  role_change:
+  - 负责统计灵藏七宗每年上交灵植数量
+  growth_event:
+  - chapter_range:
+      start: 685
+      end: 688
+    event: 代表妖族管理灵藏修士灵田任务
+    impact:
+    - 免除亲自种植但进一步固定为妖族附庸管理者
+    status: partial
 - id: CHAR-0167
   name: 铁煞天
   status: alive
@@ -9748,6 +9884,46 @@ characters:
     status: partial
   related_nodes:
   - NODE-0090
+  - NODE-0091
   source_chapters:
   - 678
+  - 681
+  - 683
+  - 684
+  verification_status: partial
+  identity_change:
+  - SS级气运之女
+  relationship_change:
+  - 与徐霄确立亲密关系并为其免除神魂烙印
+  growth_event:
+  - chapter_range:
+      start: 681
+      end: 684
+    event: 被系统识别为SS级气运之女并与徐霄建立关系
+    impact:
+    - 徐霄获得妖族特殊保护和天水城行动空间
+    status: partial
+- id: CHAR-0170
+  name: 玄雪
+  status: alive
+  role: supporting
+  affiliations:
+  - 玄鸟一族
+  - 大仙域妖族
+  identities:
+  - 玄鸟族长
+  - 天水城灵田巡视者
+  - S级气运之女
+  first_appearance:
+    chapter: 688
+    title: 灵田巡视，妖族懵逼
+    node: NODE-0091
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  related_nodes:
+  - NODE-0091
+  source_chapters:
+  - 688
   verification_status: partial

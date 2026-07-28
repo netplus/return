@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 73
+  extension_files: 74
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2145,6 +2145,10 @@ artifacts:
     quantity: 200
     source: GIFT-0173与GIFT-0174返还
     status: partial
+  - chapter: 686
+    quantity: 100
+    source: GIFT-0175返还
+    status: partial
   quantity: pending_total
   effects:
   - 用于天仙境五行体系修炼
@@ -2160,6 +2164,7 @@ artifacts:
   - NODE-0086
   - NODE-0087
   - NODE-0090
+  - NODE-0091
   source_chapters:
   - 572
   - 612
@@ -2172,6 +2177,7 @@ artifacts:
   - 661
   - 662
   - 679
+  - 686
   transfer_records:
   - gift_id: GIFT-0150
     chapter: 635
@@ -2194,6 +2200,11 @@ artifacts:
     recipient: 诸葛青天
     quantity: 3
     returned_unchanged: true
+    status: partial
+  - chapter: 686
+    quantity: 10
+    recipient: 青鸾
+    gift_id: GIFT-0176
     status: partial
   transfer_event:
   - GIFT-0159
@@ -2330,6 +2341,10 @@ artifacts:
     chapter: 663
     quantity: 100
     status: verified
+  - chapter: 686
+    quantity: 100
+    source: GIFT-0176返还
+    status: partial
   effect: 完整修炼效果、适用境界及后续分配待确认
   current_state: 九十颗入库
   status: partial
@@ -2337,10 +2352,12 @@ artifacts:
   - NODE-0086
   - NODE-0087
   - NODE-0088
+  - NODE-0091
   source_chapters:
   - 653
   - 662
   - 663
+  - 686
   acquisition_records:
   - gift_id: GIFT-0163
     chapter: 662
