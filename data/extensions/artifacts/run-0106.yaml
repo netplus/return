@@ -1,0 +1,41 @@
+schema_version: 1
+run_id: RUN-0106
+artifact_updates:
+- id: ART-0082
+  name: 额外传送仙台
+  update:
+    deployment_add:
+    - chapter: 680
+      location: 天元大陆盘龙岛缥缈宗
+      purpose: 为下界避难人物定期输送仙界资源
+      status: partial
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [680]
+- id: ART-0083
+  name: 九霄山河图
+  update:
+    usage_add:
+    - chapter: 680
+      event: 收纳十一名核心关系人物并配合九霄天梯完成下界转移
+      status: partial
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [680]
+- id: ART-0071
+  name: 九霄天梯
+  update:
+    usage_add:
+    - chapter: 680
+      event: 将九霄山河图内人员送往天元大陆盘龙岛
+      status: partial
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [680]
+- id: ART-0085
+  name: 五行仙丹
+  update:
+    acquisition_add:
+    - chapter: 679
+      quantity: 200
+      source: GIFT-0173与GIFT-0174返还
+      status: partial
+    related_nodes_add: [NODE-0090]
+    source_chapters_add: [679]
