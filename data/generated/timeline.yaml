@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 76
+  extension_files: 77
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3434,3 +3434,40 @@ nodes:
   - 返还丹药后续使用
   document: docs/01-timeline/node-0087.md
   evidence: sources/evidence/chapters-659-662.yaml
+- id: NODE-0088
+  title: 太上长老保人、邬秋安置与纯阳占卜
+  chapters:
+    start: 663
+    end: 666
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录、仓库归档逐章哈希及可读正文镜像共同核验第663—666章
+  boundary_reason: 第666章完成邬秋控诉、宗门安置和关系认知转折；第667章转入诸葛青天恢复后的新事件
+  characters:
+  - 徐霄
+  - 邬秋
+  - 尘玉
+  - 万青
+  - 罗方
+  - 道阳
+  - 真玉
+  - 凌白烟
+  - 罗素
+  system_events:
+  - event: 太上长老资源保人
+    result: 尘玉万青罗方支持复核邬秋冤情并由阴阳仙门保下
+    status: partial
+  - event: 占卜屏蔽
+    result: 系统检测并屏蔽纯阳仙门针对徐霄的卦象之力
+    status: verified
+  - event: 九天荡魔剑返还
+    result: 至尊仙器荡魔真武剑
+    status: verified
+  relationship_result: 邬秋获得宗门保护和长老安置，与徐霄关系深化后因其既有关系网络产生持续冲突
+  pending:
+  - 万青罗方本轮赠丹独立返还
+  - 天仙巅峰魂丹精确赠送与返还链
+  - 邬秋正式职位手续
+  - 纯阳仙门后续追凶方式
+  document: docs/01-timeline/node-0088.md
+  evidence: sources/evidence/chapters-663-666.yaml

@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 158
+    count: 160
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -324,8 +324,12 @@ groups:
       path: docs/02-characters/忌口.md
     - id: CHAR-0158
       path: docs/02-characters/琉璃.md
+    - id: CHAR-0159
+      path: docs/02-characters/道阳.md
+    - id: CHAR-0160
+      path: docs/02-characters/真玉.md
   artifacts:
-    count: 93
+    count: 95
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -515,10 +519,14 @@ groups:
       path: docs/06-artifacts/玄元仙丹.md
     - id: ART-0093
       path: docs/06-artifacts/地脉岩火剑.md
+    - id: ART-0094
+      path: docs/06-artifacts/荡魔真武剑.md
+    - id: ART-0095
+      path: docs/06-artifacts/天仙巅峰魂丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 158
-  growth_events: 655
+  characters_with_growth_line: 160
+  growth_events: 666
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

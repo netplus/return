@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 76
+  extension_files: 77
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -157,6 +157,7 @@ characters:
   - NODE-0085
   - NODE-0086
   - NODE-0087
+  - NODE-0088
   source_chapters:
   - 1
   - 2
@@ -780,6 +781,10 @@ characters:
   - 660
   - 661
   - 662
+  - 663
+  - 664
+  - 665
+  - 666
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -809,7 +814,9 @@ characters:
   reputation_change:
   - 在人族阵营中的负面声望开始逆转
   - 因留守主持撤离和安全回归，九宗对其评价出现阶段性正向修正
-  system_behavior: 被白九儿窃取精气时系统按30倍返还
+  system_behavior:
+  - 被白九儿窃取精气时系统按30倍返还
+  - 确认万倍返还系统可自动屏蔽针对宿主的占卜卦象之力
   major_conflict:
   - 使用九天神雷符摧毁通天神棍阵并击杀猿华及八名猿族长老
   - 抵挡猿族元帅炼虚一击并在炼虚对峙中保住性命
@@ -849,6 +856,7 @@ characters:
   - 与琉璃建立亲密联系
   - 与邬秋信任及情感关系显著推进
   - 与刹女仙门和众愿佛门合作关系强化
+  - 向邬秋提供仙剑魂丹并推动其在阴阳仙门安置
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -965,6 +973,7 @@ characters:
   - 建立十余人的内门执法弟子与护院班底
   - 夺取地脉岩火剑并决定将邬秋带出小世界公开处置
   - 以资源承诺组织阴阳仙门刹女仙门众愿佛门联合保下邬秋
+  - 以五行仙丹推动太上长老正式保下邬秋
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -1325,6 +1334,19 @@ characters:
     - 阴阳仙门取得邬秋后续审理权
     - 新增鸿蒙一气丹五行仙丹玄元仙丹库存
     status: partial
+  - chapter_range:
+      start: 663
+      end: 666
+    event: 完成邬秋宗门保人安置并抵御纯阳仙门占卜追凶
+    core_ability:
+    - 宗门高层资源协调
+    - 万倍返还系统占卜屏蔽
+    - 高阶仙器与魂丹配置
+    impact:
+    - 邬秋获得阴阳仙门保护
+    - 纯阳仙门暂时无法通过卦象锁定凶手
+    - 获得荡魔真武剑
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1357,6 +1379,7 @@ characters:
   - ART-0092
   - ART-0044
   - ART-0085
+  - ART-0094
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -7091,6 +7114,7 @@ characters:
   - NODE-0079
   - NODE-0081
   - NODE-0084
+  - NODE-0088
   source_chapters:
   - 547
   - 548
@@ -7114,6 +7138,9 @@ characters:
   - 619
   - 642
   - 643
+  - 664
+  - 665
+  - 666
   verification_status: partial
   assessment_result:
   - 容貌: 甲
@@ -7164,6 +7191,13 @@ characters:
     - 姐妹关系转为冷战
     - 与徐霄的资源和感情线继续升级
     status: partial
+  - chapter_range:
+      start: 664
+      end: 666
+    event: 与新加入的邬秋形成公开关系竞争
+    impact:
+    - 徐霄洞府内部关系复杂度进一步提升
+    status: partial
   resource_change:
   - 三颗化仙丹
   identity_change:
@@ -7173,6 +7207,7 @@ characters:
   - 徐霄直属内门执法弟子和护院成员
   relationship_change:
   - 与云姑心因徐霄关系发生长期冷战
+  - 成为邬秋进入徐霄关系网络后的首要竞争对象之一
 - id: CHAR-0120
   name: 罗素
   status: alive
@@ -7210,6 +7245,7 @@ characters:
   - NODE-0079
   - NODE-0081
   - NODE-0083
+  - NODE-0088
   source_chapters:
   - 556
   - 557
@@ -7240,6 +7276,7 @@ characters:
   - 634
   - 635
   - 636
+  - 666
   document: null
   verification_status: partial
   luck_grade:
@@ -7255,6 +7292,7 @@ characters:
   - 与徐霄关系获得父母及外门长老团公开认可
   - 向云花海公开徐霄持续提供仙元丹并支持未来天仙资源
   - 面对太上长老问责仍坚持与徐霄关系
+  - 以既有核心伴侣身份与邬秋形成地位竞争
   enemy_relation:
   - 与东方青的旧道侣关系已终止五万年
   growth_event:
@@ -7310,6 +7348,11 @@ characters:
     event: 在太上长老责令分手时坚持徐霄关系
     impact:
     - 关系再次获得父母和尘玉默认接受
+    status: partial
+  - chapter: 666
+    event: 与邬秋正式接触并明确自身关系地位
+    impact:
+    - 邬秋对徐霄既有关系网络形成完整认知
     status: partial
   resource_change:
   - 十颗仙元丹
@@ -7806,6 +7849,7 @@ characters:
   related_nodes:
   - NODE-0075
   - NODE-0083
+  - NODE-0088
   source_chapters:
   - 575
   - 576
@@ -7817,10 +7861,12 @@ characters:
   - 634
   - 635
   - 636
+  - 663
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0151
+  - GIFT-0168
   relationship_change:
   - 继续认可徐霄与罗素关系并接受其现有关系结构
   growth_event:
@@ -7831,6 +7877,13 @@ characters:
     impact:
     - 由礼法问责转为维持家族认可
     status: partial
+  - chapter: 663
+    event: 接受五行仙丹并支持邬秋申诉
+    impact:
+    - 徐霄在太上长老层的资源联盟继续稳固
+    status: partial
+  role_change:
+  - 协助尘玉公开保下邬秋
 - id: CHAR-0131
   name: 罗方
   status: alive
@@ -7855,6 +7908,7 @@ characters:
   related_nodes:
   - NODE-0075
   - NODE-0083
+  - NODE-0088
   source_chapters:
   - 576
   - 577
@@ -7865,10 +7919,12 @@ characters:
   - 634
   - 635
   - 636
+  - 663
   document: null
   verification_status: partial
   accepted_gifts:
   - GIFT-0152
+  - GIFT-0169
   relationship_change:
   - 继续接受徐霄作为罗素长期道侣
   growth_event:
@@ -7879,6 +7935,13 @@ characters:
     impact:
     - 家族问责转为公开支持
     status: partial
+  - chapter: 663
+    event: 接受五行仙丹并支持邬秋申诉
+    impact:
+    - 徐霄在太上长老层的资源联盟继续稳固
+    status: partial
+  role_change:
+  - 协助尘玉公开保下邬秋
 - id: CHAR-0132
   name: 厉红魅
   status: alive
@@ -8670,13 +8733,25 @@ characters:
     status: partial
   related_nodes:
   - NODE-0083
+  - NODE-0088
   source_chapters:
   - 633
   - 634
   - 635
   - 636
+  - 663
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0167
+  role_change:
+  - 正式宣布阴阳仙门可保下有冤情的邬秋
+  growth_event:
+  - chapter: 663
+    event: 接受五行仙丹并转为公开支持复核邬秋冤情
+    impact:
+    - 邬秋获得太上长老层面的宗门保护
+    status: partial
 - id: CHAR-0148
   name: 金华
   status: alive
@@ -8815,6 +8890,7 @@ characters:
   - NODE-0085
   - NODE-0086
   - NODE-0087
+  - NODE-0088
   source_chapters:
   - 644
   - 645
@@ -8830,6 +8906,10 @@ characters:
   - 660
   - 661
   - 662
+  - 663
+  - 664
+  - 665
+  - 666
   document: null
   verification_status: partial
   condition_change:
@@ -8838,6 +8918,8 @@ characters:
   relationship_change:
   - 被忌口告知徐霄是其有缘人
   - 因徐霄联合多宗保命而显著提升信任和情感
+  - 与徐霄关系进一步确立
+  - 得知其既有多重关系后产生竞争与分手冲突
   artifact_change:
   - 主动交出储物袋和地脉岩火剑
   growth_event:
@@ -8859,8 +8941,24 @@ characters:
     - 获得十颗五行仙丹
     - 与徐霄有缘人关系进入实质推进
     status: partial
+  - chapter_range:
+      start: 663
+      end: 666
+    event: 获太上长老保下并进入阴阳仙门关系网络
+    core_ability:
+    - 天仙境
+    - 获九天荡魔剑与天仙巅峰魂丹
+    impact:
+    - 脱离即时追杀风险
+    - 获得宗门安置
+    - 与徐霄关系由感激转为亲密且矛盾化
+    status: partial
   accepted_gifts:
   - GIFT-0165
+  - GIFT-0170
+  - GIFT-0171
+  affiliation_change:
+  - 获阴阳仙门保护并按内门长老方向安置
 - id: CHAR-0151
   name: 惠慈
   status: alive
@@ -9185,3 +9283,48 @@ characters:
     impact:
     - 徐霄与刹女仙门大长老层联系继续稳定
     status: partial
+- id: CHAR-0159
+  name: 道阳
+  status: alive
+  role: supporting
+  affiliations:
+  - 纯阳仙门
+  identities:
+  - 纯阳仙门占卜长老
+  first_appearance:
+    chapter: 665
+    title: 懵逼的邬秋
+    node: NODE-0088
+  cultivation:
+    current: 天仙境
+    exact_level: pending
+    status: partial
+  related_nodes:
+  - NODE-0088
+  source_chapters:
+  - 664
+  - 665
+  document: null
+  verification_status: partial
+- id: CHAR-0160
+  name: 真玉
+  status: alive
+  role: supporting
+  affiliations:
+  - 纯阳仙门
+  identities:
+  - 纯阳仙门长老
+  first_appearance:
+    chapter: 665
+    title: 懵逼的邬秋
+    node: NODE-0088
+  cultivation:
+    current: 天仙境
+    exact_level: pending
+    status: partial
+  related_nodes:
+  - NODE-0088
+  source_chapters:
+  - 665
+  document: null
+  verification_status: partial

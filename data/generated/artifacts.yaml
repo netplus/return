@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 70
+  extension_files: 71
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1504,10 +1504,16 @@ artifacts:
   related_nodes:
   - NODE-0056
   - NODE-0057
+  - NODE-0088
   combat_record: 第436章开启荡魔仙阵并绞碎敖三的大乘灵宝长枪
   ability: 荡魔仙阵可正面压制并摧毁大乘层级灵宝攻势
   source_chapters:
   - 436
+  - 664
+  current_holder_change: 邬秋
+  transfer_event:
+  - GIFT-0170
+  current_state_change: 第664章由徐霄赠送邬秋作为防身仙剑
 - id: ART-0055
   name: 天凤血丹
   category: 丹药
@@ -2282,16 +2288,23 @@ artifacts:
   first_chapter: 653
   current_holder: 徐霄
   quantity: 90
-  acquisition: GIFT-0159余九颗五行仙丹返还
+  acquisition:
+  - GIFT-0159余九颗五行仙丹返还
+  - gift_id: GIFT-0167
+    chapter: 663
+    quantity: 100
+    status: verified
   effect: 完整修炼效果、适用境界及后续分配待确认
   current_state: 九十颗入库
   status: partial
   related_nodes:
   - NODE-0086
   - NODE-0087
+  - NODE-0088
   source_chapters:
   - 653
   - 662
+  - 663
   acquisition_records:
   - gift_id: GIFT-0163
     chapter: 662
@@ -2326,3 +2339,31 @@ artifacts:
   - 649
   - 650
   - 657
+- id: ART-0094
+  name: 荡魔真武剑
+  category: 至尊仙器神剑
+  grade: 至尊仙器
+  first_chapter: 664
+  current_holder: 徐霄
+  acquisition: GIFT-0170返还
+  effect: 完整能力、剑阵机制与使用上限待后续确认
+  current_state: 已收入徐霄空间库
+  status: partial
+  related_nodes:
+  - NODE-0088
+  source_chapters:
+  - 664
+- id: ART-0095
+  name: 天仙巅峰魂丹
+  category: 魂丹
+  grade: 天仙巅峰
+  first_chapter: 666
+  current_holder: 邬秋
+  acquisition: GIFT-0171；原始获得链与精确赠送章节待确认
+  effect: 蕴含天仙巅峰层级修为与大道感悟，可作为高阶神魂修炼资源
+  current_state: 已由邬秋持有，尚未确认服用
+  status: partial
+  related_nodes:
+  - NODE-0088
+  source_chapters:
+  - 666
