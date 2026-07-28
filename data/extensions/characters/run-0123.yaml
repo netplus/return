@@ -1,0 +1,174 @@
+schema_version: 1
+run_id: RUN-0123
+characters:
+- id: CHAR-0225
+  name: 黑神
+  status: alive
+  role: supporting
+  affiliations: [黑神仙域]
+  identities: [黑神仙域仙帝, 气运之敌]
+  first_appearance: {chapter: 854, title: 万妖仙宗到, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [854]
+  document: null
+  verification_status: verified
+- id: CHAR-0226
+  name: 破玄
+  status: alive
+  role: supporting
+  affiliations: [破玄仙域]
+  identities: [破玄仙域仙帝, 气运之敌]
+  first_appearance: {chapter: 854, title: 万妖仙宗到, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [854]
+  document: null
+  verification_status: verified
+- id: CHAR-0227
+  name: 冥法
+  status: alive
+  role: supporting
+  affiliations: [冥幽仙域]
+  identities: [冥幽仙域仙帝, 气运之敌]
+  first_appearance: {chapter: 854, title: 万妖仙宗到, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [854]
+  document: null
+  verification_status: verified
+- id: CHAR-0228
+  name: 灵心
+  status: alive
+  role: supporting
+  affiliations: [灵心仙域]
+  identities: [灵心仙域仙帝]
+  first_appearance: {chapter: 854, title: 万妖仙宗到, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [854]
+  document: null
+  verification_status: verified
+- id: CHAR-0229
+  name: 万道
+  status: alive
+  role: supporting
+  affiliations: [万法仙域]
+  identities: [万法仙域仙帝]
+  first_appearance: {chapter: 858, title: 雪瑶登场, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [858]
+  document: null
+  verification_status: verified
+- id: CHAR-0230
+  name: 万尘
+  status: alive
+  role: supporting
+  affiliations: [万佛仙域]
+  identities: [万佛仙域佛祖]
+  first_appearance: {chapter: 857, title: 域外天修, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [857]
+  document: null
+  verification_status: verified
+- id: CHAR-0231
+  name: 龙天
+  status: alive
+  role: supporting
+  affiliations: [天妖仙域]
+  identities: [天妖仙域仙帝]
+  first_appearance: {chapter: 857, title: 域外天修, node: NODE-0107}
+  cultivation: {current: 仙帝, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [857]
+  document: null
+  verification_status: verified
+- id: CHAR-0232
+  name: 修罗擎天
+  status: dead
+  role: supporting
+  affiliations: [冥幽仙域]
+  identities: [冥法麾下至尊太乙, 寿宴切磋者]
+  first_appearance: {chapter: 860, title: 开始切磋, node: NODE-0107}
+  cultivation: {current: 至尊太乙, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [860, 861]
+  document: null
+  verification_status: verified
+- id: CHAR-0233
+  name: 黑麻仙
+  status: alive
+  role: supporting
+  affiliations: [黑神仙域]
+  identities: [黑神麾下至尊太乙, 寿宴切磋者]
+  first_appearance: {chapter: 861, title: 徐霄略微出手, node: NODE-0107}
+  cultivation: {current: 至尊太乙, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [861]
+  document: null
+  verification_status: verified
+- id: CHAR-0234
+  name: 血玉罗
+  status: alive
+  role: supporting
+  affiliations: [噬魂血宗]
+  identities: [噬魂血宗至尊太乙, 寿宴切磋者]
+  first_appearance: {chapter: 861, title: 徐霄略微出手, node: NODE-0107}
+  cultivation: {current: 至尊太乙, status: verified}
+  related_nodes: [NODE-0107]
+  source_chapters: [861]
+  document: null
+  verification_status: verified
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    ability_change_add: [公开以五十股鸿蒙真气、混元神体和万佛金身正面击退冥法仙帝, 五行顶级规则道器剑阵秒杀至尊太乙修罗擎天, 获得鸿蒙一气丹、四千九百颗大罗鸿蒙丹及神器诛仙天冰剑]
+    identity_change_add: [初殷仙帝寿宴切磋第一名, 公开自称上古至尊仙帝]
+    relationship_change_add: [与初殷建立私人关系与传讯联系]
+    growth_event_add:
+    - chapter_range: {start: 854, end: 863}
+      event: 在初殷仙帝寿宴完成高阶赠礼、公开战力验证并识别三名仙帝级气运之敌
+      core_ability: [太乙仙二重, 五十股鸿蒙真气单次对掌, 混元神体与万佛金身, 五行规则剑阵]
+      impact: [获得寿宴切磋第一名, 击杀修罗擎天, 与黑神破玄冥法形成公开敌对, 与初殷建立资源关系]
+      status: verified
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [854, 855, 856, 857, 858, 859, 860, 861, 862, 863]
+- id: CHAR-0222
+  name: 初殷
+  update:
+    system_profile: {luck_grade: SSS+, return_multiplier: 100, bond: 1, status: verified}
+    accepted_gifts_add: [GIFT-0250]
+    relationship_change_add: [接受徐霄五十颗大罗鸿蒙丹并建立私人传讯关系]
+    growth_event_add:
+    - chapter_range: {start: 855, end: 863}
+      event: 在四千万岁寿宴接受徐霄重礼并公开维护其寿宴地位
+      impact: [获得五十颗大罗鸿蒙丹, 与徐霄建立资源及私人关系, 见证徐霄压制冥法仙帝]
+      status: verified
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [854, 855, 856, 857, 858, 859, 860, 861, 862, 863]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    relationship_change_add: [在寿宴公开确认徐霄为道侣并与雪瑶暂时共同维护徐霄]
+    growth_event_add:
+    - chapter_range: {start: 854, end: 863}
+      event: 参加初殷寿宴并公开维护徐霄对抗冥法
+      impact: [与雪瑶形成暂时共同保护关系, 继续准备挑战初殷仙帝之位]
+      status: verified
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [854, 855, 856, 857, 858, 859, 860, 861, 862, 863]
+- id: CHAR-0020
+  name: 姬雪
+  update:
+    accepted_gifts_add: [GIFT-0251]
+    relationship_change_add: [以雪瑶身份参加寿宴并与凤青玄共同维护徐霄]
+    growth_event_add:
+    - chapter_range: {start: 858, end: 863}
+      event: 接受天道神威黑冰剑并在寿宴冲突中保护徐霄
+      impact: [获得顶级规则道器, 与凤青玄形成临时共同阵线]
+      status: verified
+    related_nodes_add: [NODE-0107]
+    source_chapters_add: [858, 859, 860, 861, 862, 863]
