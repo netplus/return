@@ -1,0 +1,74 @@
+schema_version: 1
+run_id: RUN-0104
+gift_events:
+- id: GIFT-0167
+  chapter: 663
+  node: NODE-0088
+  giver: 徐霄
+  recipient: 尘玉
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗玄元仙丹
+  triggered_multiplier: 10
+  relationship_result: 尘玉转为公开支持复核邬秋冤情并宣布可由阴阳仙门保下
+  status: verified
+- id: GIFT-0168
+  chapter: 663
+  node: NODE-0088
+  giver: 徐霄
+  recipient: 万青
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 万青支持尘玉保下邬秋
+  status: partial
+- id: GIFT-0169
+  chapter: 663
+  node: NODE-0088
+  giver: 徐霄
+  recipient: 罗方
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 罗方支持尘玉保下邬秋
+  status: partial
+- id: GIFT-0170
+  chapter: 664
+  node: NODE-0088
+  giver: 徐霄
+  recipient: 邬秋
+  gift: 顶级仙器九天荡魔剑
+  accepted: true
+  system_valid: true
+  reward: 至尊仙器荡魔真武剑
+  triggered_multiplier: grade_upgrade
+  relationship_result: 邬秋获得防身仙剑并与徐霄关系深化
+  status: verified
+- id: GIFT-0171
+  chapter_range: {start: 664, end: 666}
+  node: NODE-0088
+  giver: 徐霄
+  recipient: 邬秋
+  gift: 一颗天仙巅峰魂丹
+  accepted: true
+  system_valid: pending
+  reward: pending
+  triggered_multiplier: pending
+  relationship_result: 邬秋获得长期修炼资源并进一步确认徐霄资源承诺
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0167, GIFT-0168, GIFT-0169, GIFT-0170, GIFT-0171]
+    rule_add:
+    - chapter: 665
+      rule: 系统可检测并自动屏蔽针对宿主的占卜卦象之力，使外部追凶无法锁定宿主
+      status: verified
+    related_nodes_add: [NODE-0088]
+    source_chapters_add: [663, 664, 665, 666]
