@@ -1,16 +1,16 @@
 schema_version: 2
 updated_at: '2026-07-28'
-run_id: RUN-0102
+run_id: RUN-0103
 coverage:
-  chapters_covered_through: 658
-  chapters_promoted_in_run: [651, 652, 653, 654, 655, 656, 657, 658]
-  timeline_nodes: 86
+  chapters_covered_through: 662
+  chapters_promoted_in_run: [659, 660, 661, 662]
+  timeline_nodes: 87
   draft_nodes: 0
-  story_arc_nodes: 83
+  story_arc_nodes: 84
   characters_documented: 158
   characters_staged: 0
   system_records: 1
-  gift_events: 159
+  gift_events: 166
   artifact_records: 93
   artifacts_staged: 0
 entity_documents:
@@ -27,16 +27,16 @@ entity_documents:
     continuity_effective_run: RUN-0082
     temporal_accuracy: no_backfill_from_merged_current_snapshot
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, archive_chapters: [651, 652, 653, 654, 655, 656, 657, 658], readable_cross_check_chapters: [651, 652, 653, 654, 655, 656, 657, 658], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第658章完成邬秋被捕、地脉岩火剑取得和离开无间地狱；第659章转入外部保人冲突}
-  materiality: {status: passed, entity_updates: [NODE-0086, 青鸾萧天独孤惊云忌口琉璃新人物, 徐霄吕玄一金华邬秋东方青洛银纱成长更新, GIFT-0159, ART-0077与ART-0085更新, ART-0091至ART-0093]}
+  source_traceability: {status: passed_with_qualifications, archive_chapters: [659, 660, 661, 662], readable_cross_check_chapters: [659, 660, 661, 662], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第662章完成外部保人冲突、资源兑现和返还并返回宗门；第663章转入太上长老审理}
+  materiality: {status: passed, entity_updates: [NODE-0087, 徐霄邬秋东方青洛银纱琉璃惠慈独孤惊云崔云诸葛青天青鸾丁静阴萱成长更新, GIFT-0160至GIFT-0166, ART-0044 ART-0046 ART-0085 ART-0092更新]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
   entity_document_freshness: {status: passed, characters: 158, artifacts: 93}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 6, timed_growth_events: 6, new_characters_with_first_appearance: 5}
+  character_growth_continuity: {status: passed, material_character_updates: 12, timed_growth_events: 12, new_characters_with_first_appearance: 0}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
 blockers: []

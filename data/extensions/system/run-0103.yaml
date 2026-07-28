@@ -1,0 +1,92 @@
+schema_version: 1
+run_id: RUN-0103
+gift_events:
+- id: GIFT-0160
+  chapter: 662
+  node: NODE-0087
+  giver: 徐霄
+  recipient: 瑶光
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及四十五颗五行仙丹
+  triggered_multiplier: {first_item: 10000, remaining_items: 5}
+  status: verified
+- id: GIFT-0161
+  chapter: 662
+  node: NODE-0087
+  giver: 徐霄
+  recipient: 丁静
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 十颗五行仙丹
+  triggered_multiplier: 1
+  status: verified
+- id: GIFT-0162
+  chapter: 662
+  node: NODE-0087
+  giver: 徐霄
+  recipient: 阴萱
+  gift: 十颗仙元丹
+  accepted: true
+  system_valid: true
+  reward: 三十颗五行仙丹
+  triggered_multiplier: 3
+  status: verified
+- id: GIFT-0163
+  chapter: 662
+  node: NODE-0087
+  giver: 徐霄
+  recipient: 青鸾
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 一百颗玄元仙丹
+  triggered_multiplier: 10
+  status: verified
+- id: GIFT-0164
+  chapter: 662
+  node: NODE-0087
+  giver: 徐霄
+  recipient: 东方青
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 十颗五行仙丹
+  triggered_multiplier: 1
+  status: verified
+- id: GIFT-0165
+  chapter: 662
+  node: NODE-0087
+  giver: 徐霄
+  recipient: 邬秋
+  gift: 十颗五行仙丹
+  accepted: true
+  system_valid: true
+  reward: 一颗鸿蒙一气丹及九十颗玄元仙丹
+  triggered_multiplier: {first_item: 10000, remaining_items: 10}
+  status: partial
+- id: GIFT-0166
+  chapter_range: {start: 660, end: 662}
+  node: NODE-0087
+  giver: 徐霄
+  recipients: [阴阳仙门参与保人的其他天仙长老, 阴阳仙门参与保人的其他地仙巅峰长老]
+  gift: 天仙长老各十颗五行仙丹；地仙巅峰长老各十颗仙元丹
+  accepted: true
+  system_valid: partial
+  reward: 未被系统逐笔展示的返还保持pending
+  triggered_multiplier: pending
+  relationship_result: 资源承诺促成阴阳仙门集体保下邬秋
+  status: partial
+system_updates:
+- id: SYS-0001
+  name: 万倍返还系统
+  update:
+    gift_ids_add: [GIFT-0160, GIFT-0161, GIFT-0162, GIFT-0163, GIFT-0164, GIFT-0165, GIFT-0166]
+    rule_add:
+    - chapter: 662
+      rule: 具有明确任务与合理赠送理由时，可连续向同一高阶对象赠送并正常返还
+      status: partial
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [659, 660, 661, 662]

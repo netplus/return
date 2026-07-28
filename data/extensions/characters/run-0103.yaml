@@ -1,0 +1,147 @@
+schema_version: 1
+run_id: RUN-0103
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    role_change_add: [以资源承诺组织阴阳仙门刹女仙门众愿佛门联合保下邬秋]
+    relationship_change_add: [与邬秋信任及情感关系显著推进, 与刹女仙门和众愿佛门合作关系强化]
+    obtained_artifacts_add: [ART-0044, ART-0085, ART-0092]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [659, 660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 659, end: 662}
+      event: 以资源整合三宗力量保下邬秋并完成高阶丹药批量返还
+      core_ability: [宗门高层资源协调, 多宗关系动员, 万倍返还系统批量结算]
+      impact: [邬秋避免即时处决, 阴阳仙门取得邬秋后续审理权, 新增鸿蒙一气丹五行仙丹玄元仙丹库存]
+      status: partial
+- id: CHAR-0150
+  name: 邬秋
+  update:
+    condition_change_add: [由天一仙门待处决对象转为阴阳仙门带回调查对象]
+    accepted_gifts_add: [GIFT-0165]
+    relationship_change_add: [因徐霄联合多宗保命而显著提升信任和情感]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [659, 660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 659, end: 662}
+      event: 被徐霄联合三宗保下并随阴阳仙门返回
+      impact: [避免即时处决, 获得十颗五行仙丹, 与徐霄有缘人关系进入实质推进]
+      status: partial
+- id: CHAR-0121
+  name: 东方青
+  update:
+    role_change_add: [代表阴阳仙门由交人立场转为公开保下邬秋]
+    accepted_gifts_add: [GIFT-0164]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [659, 660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 659, end: 662}
+      event: 接受资源承诺并组织阴阳仙门高层共同保人
+      impact: [阴阳仙门与天一仙门冲突升级, 邬秋处置权转入本宗]
+      status: partial
+- id: CHAR-0152
+  name: 洛银纱
+  update:
+    role_change_add: [代表刹女仙门加入保下邬秋的跨宗门阵线]
+    relationship_change_add: [与徐霄合作由气运接触扩展至公开宗门站队]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 660, end: 662}
+      event: 带领刹女仙门公开支持徐霄保下邬秋
+      impact: [刹女仙门与阴阳仙门形成阶段性共同立场]
+      status: partial
+- id: CHAR-0158
+  name: 琉璃
+  update:
+    role_change_add: [随洛银纱参与刹女仙门站队]
+    relationship_change_add: [与徐霄保持亲密联系并共同完成保人行动]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 660, end: 662}
+      event: 参与刹女仙门保人站队并返回本宗
+      impact: [徐霄与刹女仙门大长老层联系继续稳定]
+      status: partial
+- id: CHAR-0151
+  name: 惠慈
+  update:
+    role_change_add: [率众愿佛门以维护佛门清净为由压制天一仙门]
+    relationship_change_add: [实际协助女儿邬秋脱离即时处决]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [661]
+    growth_event_add:
+    - chapter: 661
+      event: 率众僧加入保人阵线迫使天一仙门退让
+      impact: [邬秋脱离天一仙门控制, 众愿佛门与阴阳仙门形成阶段性合作]
+      status: partial
+- id: CHAR-0156
+  name: 独孤惊云
+  update:
+    conflict_change_add: [在三宗联合威慑下被迫暂时放弃带走邬秋]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [659, 660, 661]
+    growth_event_add:
+    - chapter_range: {start: 659, end: 661}
+      event: 保人冲突中因多宗联合而退让
+      impact: [与徐霄及阴阳仙门敌意进一步加深]
+      status: partial
+- id: CHAR-0153
+  name: 崔云
+  update:
+    conflict_change_add: [在多宗联合压力下暂时放弃邬秋]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [659, 660, 661]
+    growth_event_add:
+    - chapter_range: {start: 659, end: 661}
+      event: 天一仙门处置邬秋计划被跨宗门联盟阻断
+      impact: [天一仙门与阴阳仙门矛盾公开升级]
+      status: partial
+- id: CHAR-0149
+  name: 诸葛青天
+  update:
+    condition_change_add: [未参与保人承诺并在返程资源分配中被排除后再次气昏]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 662]
+    growth_event_add:
+    - chapter_range: {start: 660, end: 662}
+      event: 未获资源分配并再次因徐霄受挫
+      impact: [与徐霄个人敌意继续积累]
+      status: partial
+- id: CHAR-0154
+  name: 青鸾
+  update:
+    accepted_gifts_add: [GIFT-0163]
+    role_change_add: [参与阴阳仙门保人并接受十颗五行仙丹]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 660, end: 662}
+      event: 参与保下邬秋并获得资源兑现
+      impact: [接受十颗五行仙丹, 对应返还一百颗玄元仙丹]
+      status: partial
+- id: CHAR-0140
+  name: 丁静
+  update:
+    accepted_gifts_add: [GIFT-0161]
+    role_change_add: [参与保人并接受十颗仙元丹]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 660, end: 662}
+      event: 参与保下邬秋并获得仙元丹兑现
+      impact: [资源关系继续深化]
+      status: partial
+- id: CHAR-0144
+  name: 阴萱
+  update:
+    accepted_gifts_add: [GIFT-0162]
+    role_change_add: [参与保人并接受十颗仙元丹]
+    related_nodes_add: [NODE-0087]
+    source_chapters_add: [660, 661, 662]
+    growth_event_add:
+    - chapter_range: {start: 660, end: 662}
+      event: 参与保下邬秋并获得仙元丹兑现
+      impact: [资源关系继续深化]
+      status: partial

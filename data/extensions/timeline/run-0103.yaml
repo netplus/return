@@ -1,0 +1,18 @@
+schema_version: 1
+run_id: RUN-0103
+nodes:
+- id: NODE-0087
+  title: 徐霄保人、三方站队与疯狂返还
+  chapters: {start: 659, end: 662}
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录、仓库归档逐章哈希及可读正文镜像共同核验第659—662章
+  boundary_reason: 第662章完成外部保人冲突、承诺资源发放和返还并返回宗门；第663章转入太上长老审理
+  characters: [徐霄, 邬秋, 东方青, 洛银纱, 琉璃, 惠慈, 独孤惊云, 崔云, 诸葛青天, 青鸾, 丁静, 阴萱, 瑶光]
+  system_events:
+  - {event: 跨宗门资源承诺保下邬秋, result: 阴阳仙门刹女仙门众愿佛门联合迫使天一仙门退让, status: partial}
+  - {event: 高阶丹药批量返还, result: 鸿蒙一气丹2颗、五行仙丹85颗、玄元仙丹190颗, status: partial}
+  relationship_result: 邬秋由待处决对象转为阴阳仙门调查对象并显著信任徐霄；徐霄与三宗高层合作关系强化
+  pending: [未被系统识别长老的完整名单与逐人发放, 邬秋宗门审理结果, 返还丹药后续使用]
+  document: docs/01-timeline/node-0087.md
+  evidence: sources/evidence/chapters-659-662.yaml

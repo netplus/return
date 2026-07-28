@@ -1,0 +1,42 @@
+schema_version: 1
+run_id: RUN-0103
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 659, end: 662}
+source_gate: passed_with_qualifications
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 659, title: 徐霄保人}
+  - {chapter: 660, title: 刹女仙门站队}
+  - {chapter: 661, title: 事情结束，发放丹药}
+  - {chapter: 662, title: 疯狂返还，回到宗门}
+  boundary_probe: {chapter: 663, title: 尘玉开口，保下邬秋}
+readable_cross_check:
+  provider: CP小说网及一页书小说
+  chapters_cross_checked: [659, 660, 661, 662]
+chapter_hashes:
+- {chapter: 659, sha256: 5b693bc1f7b0df1e22cdca22cb22ffca18a63f0e4020fe40d2a5712e52733903}
+- {chapter: 660, sha256: 69b50f58629f94759db4f5a011b7192b5bfa803602562858b2c2f0698c845a7a}
+- {chapter: 661, sha256: 745cf9d1af5513d9299e7acc062f88e637f25d3e0985a7f7e26f88bc543b83fe}
+- {chapter: 662, sha256: 8d1428cde11453057a093635e9861d9cfd8ad4004c211da7740506dfaf067f7c}
+chapter_facts:
+- chapter: 659
+  facts: [徐霄公开阻止天一仙门处决邬秋, 邬秋接受徐霄作为生存依靠并主动靠近, 东方青等最初要求交还邬秋]
+  status: partial
+- chapter: 660
+  facts: [徐霄向阴阳仙门天仙和地仙巅峰长老承诺五行仙丹或仙元丹, 阴阳仙门集体改为支持带回邬秋调查, 刹女仙门加入保人阵线]
+  status: partial
+- chapter: 661
+  facts: [惠慈率众愿佛门加入威慑, 天一仙门在多宗压力下暂时退让, 其他宗门陆续离场, 邬秋对徐霄信任和情感提升]
+  status: partial
+- chapter: 662
+  facts: [徐霄履行长老资源承诺, 瑶光丁静阴萱青鸾东方青多笔赠送完成系统返还, 邬秋接受十颗五行仙丹并触发首次赠送返还, 队伍返回阴阳仙门]
+  status: partial
+boundary_reason: 第662章完成外部保人冲突、资源兑现和返还并返回宗门；第663章转入太上长老对邬秋的宗门内审理
+pending: [非系统对象完整名单及逐人数量, 邬秋宗门审理结果, 邬秋赠送返还的正文逐项展示完整性]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
