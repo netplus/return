@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 75
+  extension_files: 76
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1025,6 +1025,10 @@ artifacts:
     chapter: 692
     quantity: 1
     status: verified
+  - gift_id: GIFT-0181
+    chapter: 699
+    quantity: 1
+    status: verified
   effect: 激活后形成九天金莲护体，侧重防御
   complete_defense_limit: pending
   refinement_status: pending
@@ -1040,6 +1044,7 @@ artifacts:
   - NODE-0084
   - NODE-0087
   - NODE-0092
+  - NODE-0093
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1057,6 +1062,7 @@ artifacts:
   - 643
   - 662
   - 692
+  - 699
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -2508,3 +2514,35 @@ artifacts:
   - 691
   - 692
   - 693
+- id: ART-0100
+  name: 地仙巅峰大道神丹
+  category: 大道丹药
+  grade: 地仙巅峰
+  first_chapter: 699
+  current_holder: 焰灵
+  acquisition: GIFT-0181
+  effect: 用于地仙境大道修炼；完整大道属性与服用结果待确认
+  current_state: 已赠送焰灵，是否服用待确认
+  status: partial
+  related_nodes:
+  - NODE-0093
+  source_chapters:
+  - 699
+- id: ART-0101
+  name: 祖凤天血丹
+  category: 血脉丹药
+  grade: pending
+  first_chapter: 704
+  current_holder: 徐霄
+  acquisition: 蜥雷任务及蜥红蝶特殊补偿阶段获得；精确奖励拆分待确认
+  effects:
+  - 使天凤血脉进化为祖凤血脉
+  - 可形成造化涅槃重生能力
+  - 服用后推动徐霄一夜连升三重
+  current_state: 已由徐霄服用
+  status: partial
+  related_nodes:
+  - NODE-0093
+  source_chapters:
+  - 704
+  - 705

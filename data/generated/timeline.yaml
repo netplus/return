@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 81
+  extension_files: 82
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3625,3 +3625,44 @@ nodes:
   - 火蜥族与八大妖族后续追责
   document: docs/01-timeline/node-0092.md
   evidence: sources/evidence/chapters-689-697.yaml
+- id: NODE-0093
+  title: 八族逼宫、天翎血凤与天水城反转
+  chapters:
+    start: 698
+    end: 705
+  granularity: story_arc
+  status: partial
+  source_qualification: 番茄小说官方目录确认第698—706章标题顺序与边界；第698—705章由归档哈希与可读镜像交叉核验
+  boundary_reason: 第705章完成五年时间跳跃、火蜥族伏击结算及徐霄晋升天仙三重；第706章转入人族养伤小队
+  characters:
+  - 徐霄
+  - 凤青玄
+  - 天翎
+  - 焰灵
+  - 蜥雷
+  - 蜥红蝶
+  - 玄灵
+  - 玄雪
+  - 赤澜儿
+  - 铁煞天
+  - 北鳞
+  - 金虚
+  system_events:
+  - event: 焰灵大道神丹赠送
+    result: 一颗地仙巅峰大道神丹返还一颗鸿蒙一气丹
+    status: verified
+  - event: 蜥雷气运之敌任务
+    result: 玄鸟族伏击后任务完成；随机道具库升级类别待确认
+    status: partial
+  - event: 蜥红蝶死亡特殊补偿
+    result: 系统给予特殊补偿但奖励拆分待确认
+    status: partial
+  relationship_result: 天翎公开保护徐霄并令其暂时与凤青玄分开；天水城妖族权力结构转向徐霄和灵藏人族
+  pending:
+  - 天翎灵气血凤完整能力
+  - 蜥雷任务随机升级类别
+  - 蜥红蝶特殊补偿完整拆分
+  - 祖凤天血丹完整来源品阶
+  - 凤青玄关系恢复条件
+  document: docs/01-timeline/node-0093.md
+  evidence: sources/evidence/chapters-698-705.yaml

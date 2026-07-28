@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 81
+  extension_files: 82
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -162,6 +162,7 @@ characters:
   - NODE-0090
   - NODE-0091
   - NODE-0092
+  - NODE-0093
   source_chapters:
   - 1
   - 2
@@ -820,6 +821,14 @@ characters:
   - 695
   - 696
   - 697
+  - 698
+  - 699
+  - 700
+  - 701
+  - 702
+  - 703
+  - 704
+  - 705
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -919,7 +928,7 @@ characters:
   - 使用山河灵图收纳并清除司空浩南及数十名伏击者
   - 单手破坏需要约五十万斤巨力的六阶金石，肉身被浑天认定为百万年级天才
   travel_plan: 选择远古战场作为二次化神雷劫优先地点
-  cultivation_change: 地仙五重
+  cultivation_change: 天仙三重
   tribulation_record: 远古战场九道强化雷劫；魔道以九名元婴巅峰修士叠加雷劫仍未阻止晋升
   artifact_loss: 渡劫后十一件主要法宝仅余四柄神剑
   combat_record:
@@ -1084,6 +1093,10 @@ characters:
   - 公开以五柄至尊仙剑和多重大道压制八名天仙高手
   - 鸿蒙真气五十七股
   - 丹药返还库上限提升至金仙
+  - 鸿蒙真气六十一股
+  - 天凤血脉进化为祖凤血脉
+  - 造化涅槃重生能力
+  - 五脏五气完美循环
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1127,8 +1140,8 @@ characters:
   - 渡劫九重规则
   - 两次雷劫间隔极限约两万年
   - 渡劫失败通常身死道消
-  age_change: 1050
-  lifespan_change: 2010259年
+  age_change: 1055岁
+  lifespan_change: 3010254年
   growth_event:
   - node: NODE-0067
     event: 反制幽冥天绝阵并完成阴灵阵营清算
@@ -1447,6 +1460,19 @@ characters:
     - 获得天凤族金仙层级保护
     - 在天水城公开击杀火蜥族成员并压下现场追责
     status: partial
+  - chapter_range:
+      start: 698
+      end: 705
+    event: 借天翎金仙庇护完成天水城权力反转并晋升天仙三重
+    core_ability:
+    - 天仙三重
+    - 鸿蒙真气六十一股
+    - 祖凤血脉
+    - 造化涅槃重生
+    impact:
+    - 由天水城受管制修士转为妖族执事主动示好的特殊人物
+    - 灵藏人族灵植负担降低
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1482,6 +1508,8 @@ characters:
   - ART-0085
   - ART-0094
   - ART-0097
+  accepted_rewards:
+  - ART-0101
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -3433,6 +3461,7 @@ characters:
   - NODE-0057
   - NODE-0074
   - NODE-0092
+  - NODE-0093
   source_chapters:
   - 233
   - 234
@@ -3460,6 +3489,10 @@ characters:
   - 569
   - 689
   - 690
+  - 699
+  - 700
+  - 701
+  - 702
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -3478,6 +3511,8 @@ characters:
   - 对徐霄的安全与资源能力形成更深长期依赖
   - 接受徐霄长期承担修炼资源但暂未正式确认道侣
   - 将凤族血令交给徐霄并要求其未来到凤族正式迎娶
+  - 因天翎命令与徐霄暂时分开
+  - 对徐霄迅速同意分手强烈不满
   cultivation_change: 人仙二重
   affiliation:
   - 阴阳仙门内门
@@ -3500,11 +3535,21 @@ characters:
     - 正式进入天凤族体系
     - 将徐霄纳入金仙长老庇护范围
     status: partial
+  - chapter_range:
+      start: 699
+      end: 702
+    event: 面对天翎强制干预与徐霄暂时分手
+    impact:
+    - 与徐霄关系进入暂时中断状态
+    - 与师父在私人关系问题上出现冲突
+    status: partial
   affiliation_change:
   - 万妖仙宗
   - 天凤一族
   identity_change:
   - 天翎长老亲传弟子
+  conflict_change:
+  - 师父天翎对其与徐霄关系进行强制干预
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -8933,10 +8978,12 @@ characters:
   - GIFT-0149
   - GIFT-0153
   - GIFT-0180
+  - GIFT-0181
   related_nodes:
   - NODE-0082
   - NODE-0083
   - NODE-0092
+  - NODE-0093
   source_chapters:
   - 627
   - 628
@@ -8946,11 +8993,16 @@ characters:
   - 695
   - 696
   - 697
+  - 698
+  - 699
+  - 703
+  - 704
   document: null
   verification_status: verified
   relationship_change:
   - 接受徐霄对大会伤势和后遗症长期负责
   - 获得徐霄公开保护并进入长期资源支持关系
+  - 与徐霄羁绊度提升至二并在争执后恢复关系
   growth_event:
   - chapter: 637
     event: 接受仙剑和长期伤势补偿承诺
@@ -8963,6 +9015,15 @@ characters:
     event: 摆脱蜥风强迫婚配并接受徐霄仙元丹支持
     impact:
     - 从妖族强迫对象转为徐霄公开保护和长期资源支持对象
+    status: partial
+  - chapter_range:
+      start: 698
+      end: 704
+    event: 羁绊度提升并获得地仙巅峰大道神丹
+    core_ability:
+    - 获得地仙巅峰大道修炼资源
+    impact:
+    - 对徐霄的长期资源依赖和亲密关系进一步加深
     status: partial
   condition_change:
   - 摆脱火蜥族强迫婚配
@@ -9918,9 +9979,23 @@ characters:
     status: partial
   related_nodes:
   - NODE-0090
+  - NODE-0093
   source_chapters:
   - 678
+  - 701
+  - 702
+  - 703
   verification_status: partial
+  stance_change:
+  - 天翎介入后公开支持徐霄击杀蜥风
+  growth_event:
+  - chapter_range:
+      start: 701
+      end: 703
+    event: 由要求关押徐霄转为公开为其辩护
+    impact:
+    - 天水城妖族行政力量对徐霄的权力约束显著下降
+    status: partial
 - id: CHAR-0168
   name: 北鳞
   status: alive
@@ -9939,11 +10014,15 @@ characters:
   related_nodes:
   - NODE-0090
   - NODE-0092
+  - NODE-0093
   source_chapters:
   - 678
   - 693
   - 694
   - 695
+  - 701
+  - 702
+  - 703
   verification_status: partial
   conflict_change:
   - 许可火蜥族带走焰灵，引发蜥风被杀与后续妖族追责
@@ -9955,6 +10034,15 @@ characters:
     impact:
     - 其行政命令触发徐霄与天水城妖族的直接冲突
     status: partial
+  - chapter_range:
+      start: 701
+      end: 703
+    event: 在金仙长老威慑下撤回对火蜥族的政治支持
+    impact:
+    - 天水城原有妖族权力联盟出现公开松动
+    status: partial
+  stance_change:
+  - 天翎介入后否认支持蜥风强迫婚配并转为示好徐霄
 - id: CHAR-0169
   name: 赤澜儿
   status: alive
@@ -9973,11 +10061,17 @@ characters:
   related_nodes:
   - NODE-0090
   - NODE-0091
+  - NODE-0093
   source_chapters:
   - 678
   - 681
   - 683
   - 684
+  - 698
+  - 699
+  - 701
+  - 702
+  - 703
   verification_status: partial
   identity_change:
   - SS级气运之女
@@ -9991,6 +10085,15 @@ characters:
     impact:
     - 徐霄获得妖族特殊保护和天水城行动空间
     status: partial
+  - chapter_range:
+      start: 701
+      end: 703
+    event: 天翎介入后调整天水城执法立场
+    impact:
+    - 城主府对徐霄的态度由管制转为合作和保护
+    status: partial
+  stance_change:
+  - 由迫于八族压力准备关押徐霄转为公开示好和保护
 - id: CHAR-0170
   name: 玄雪
   status: alive
@@ -10013,6 +10116,7 @@ characters:
   related_nodes:
   - NODE-0091
   - NODE-0092
+  - NODE-0093
   source_chapters:
   - 688
   - 691
@@ -10022,6 +10126,8 @@ characters:
   - 695
   - 696
   - 697
+  - 704
+  - 705
   verification_status: partial
   accepted_gifts:
   - GIFT-0178
@@ -10040,6 +10146,15 @@ characters:
     impact:
     - 由单纯敌视转为受资源与金仙背景约束的谨慎合作
     status: partial
+  - chapter_range:
+      start: 704
+      end: 705
+    event: 随玄灵伏击并清除火蜥族精锐
+    impact:
+    - 玄鸟族成为天水城八大妖族之外最强本地妖族力量
+    status: partial
+  strategic_role:
+  - 参与玄鸟族伏击火蜥族精锐
 - id: CHAR-0171
   name: 蜥风
   status: dead
@@ -10071,5 +10186,132 @@ characters:
   - 694
   - 695
   - 696
+  document: null
+  verification_status: partial
+- id: CHAR-0172
+  name: 天翎
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 天凤一族
+  identities:
+  - 天凤族金仙长老
+  - 凤青玄师父
+  first_appearance:
+    chapter: 699
+    title: 天翎长老
+    node: NODE-0093
+  cultivation:
+    current: 金仙境
+    exact_level: pending
+    status: partial
+  relationship_context:
+    凤青玄: 师徒
+    徐霄: 要求暂时与凤青玄分开并公开提供政治庇护
+  abilities:
+  - 可通过凤族血令远程降下灵气血凤分身
+  related_nodes:
+  - NODE-0093
+  source_chapters:
+  - 699
+  - 700
+  - 701
+  - 702
+  document: null
+  verification_status: partial
+- id: CHAR-0173
+  name: 蜥雷
+  status: dead
+  role: antagonist
+  affiliations:
+  - 火蜥蜴一族
+  - 天水城八大妖族
+  identities:
+  - 火蜥族族长
+  - 气运之敌
+  first_appearance:
+    chapter: 701
+    title: 天翎灵气血凤
+    node: NODE-0093
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  death:
+    chapter_range:
+      start: 704
+      end: 705
+    cause: 被玄鸟族伏击清除
+  relationship_context:
+    蜥风: 父子
+    徐霄: 为子报仇并成为系统击杀目标
+  related_nodes:
+  - NODE-0093
+  source_chapters:
+  - 701
+  - 702
+  - 703
+  - 704
+  - 705
+  document: null
+  verification_status: partial
+- id: CHAR-0174
+  name: 蜥红蝶
+  status: dead
+  role: antagonist
+  affiliations:
+  - 火蜥蜴一族
+  - 天水城八大妖族
+  identities:
+  - 火蜥族玄仙
+  - C级气运之女
+  first_appearance:
+    chapter: 701
+    title: 天翎灵气血凤
+    node: NODE-0093
+  cultivation:
+    current: 玄仙境
+    exact_level: pending
+    status: partial
+  death:
+    chapter_range:
+      start: 704
+      end: 705
+    cause: 与火蜥族精锐一同被玄鸟族伏击清除
+  relationship_context:
+    徐霄: 系统识别为C级气运对象但未建立赠送关系
+  related_nodes:
+  - NODE-0093
+  source_chapters:
+  - 701
+  - 704
+  - 705
+  document: null
+  verification_status: partial
+- id: CHAR-0175
+  name: 玄灵
+  status: alive
+  role: supporting
+  affiliations:
+  - 玄鸟一族
+  - 天水城妖族
+  identities:
+  - 玄鸟族老祖
+  first_appearance:
+    chapter: 704
+    title: 特殊奖励
+    node: NODE-0093
+  cultivation:
+    current: 玄仙六重
+    status: verified
+  relationship_context:
+    玄雪: 同族长辈
+    徐霄: 执行其针对火蜥族的战略安排
+  related_nodes:
+  - NODE-0093
+  source_chapters:
+  - 704
+  - 705
   document: null
   verification_status: partial

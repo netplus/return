@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 171
+    count: 175
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -350,8 +350,16 @@ groups:
       path: docs/02-characters/玄雪.md
     - id: CHAR-0171
       path: docs/02-characters/蜥风.md
+    - id: CHAR-0172
+      path: docs/02-characters/天翎.md
+    - id: CHAR-0173
+      path: docs/02-characters/蜥雷.md
+    - id: CHAR-0174
+      path: docs/02-characters/蜥红蝶.md
+    - id: CHAR-0175
+      path: docs/02-characters/玄灵.md
   artifacts:
-    count: 99
+    count: 101
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -553,10 +561,14 @@ groups:
       path: docs/06-artifacts/凤族血令.md
     - id: ART-0099
       path: docs/06-artifacts/天凤血丹-ART-0099.md
+    - id: ART-0100
+      path: docs/06-artifacts/地仙巅峰大道神丹.md
+    - id: ART-0101
+      path: docs/06-artifacts/祖凤天血丹.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 171
-  growth_events: 717
+  characters_with_growth_line: 175
+  growth_events: 732
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
