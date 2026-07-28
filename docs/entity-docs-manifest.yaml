@@ -519,6 +519,6 @@ growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
   characters_with_growth_line: 158
-  growth_events: 643
+  growth_events: 655
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

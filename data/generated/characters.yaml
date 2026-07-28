@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 75
+  extension_files: 76
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -156,6 +156,7 @@ characters:
   - NODE-0084
   - NODE-0085
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 1
   - 2
@@ -775,6 +776,10 @@ characters:
   - 656
   - 657
   - 658
+  - 659
+  - 660
+  - 661
+  - 662
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -842,6 +847,8 @@ characters:
   - 与洛银纱建立亲密关系
   - 被忌口认定为邬秋有缘人
   - 与琉璃建立亲密联系
+  - 与邬秋信任及情感关系显著推进
+  - 与刹女仙门和众愿佛门合作关系强化
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -957,6 +964,7 @@ characters:
   - 成为天元界飞升者资源与关系核心
   - 建立十余人的内门执法弟子与护院班底
   - 夺取地脉岩火剑并决定将邬秋带出小世界公开处置
+  - 以资源承诺组织阴阳仙门刹女仙门众愿佛门联合保下邬秋
   body_effect: 五行炼体丹使五脏化为五行之源，形成生生不息的五行灵力循环
   affiliation: 无妄仙宗天阵阁
   identity:
@@ -1304,6 +1312,19 @@ characters:
     - 获得万佛金身丹和九十颗玄元仙丹
     - 取得地脉岩火剑并控制邬秋
     status: partial
+  - chapter_range:
+      start: 659
+      end: 662
+    event: 以资源整合三宗力量保下邬秋并完成高阶丹药批量返还
+    core_ability:
+    - 宗门高层资源协调
+    - 多宗关系动员
+    - 万倍返还系统批量结算
+    impact:
+    - 邬秋避免即时处决
+    - 阴阳仙门取得邬秋后续审理权
+    - 新增鸿蒙一气丹五行仙丹玄元仙丹库存
+    status: partial
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1334,6 +1355,8 @@ characters:
   - ART-0090
   - ART-0091
   - ART-0092
+  - ART-0044
+  - ART-0085
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -7319,6 +7342,7 @@ characters:
   - NODE-0083
   - NODE-0085
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 557
   - 560
@@ -7353,6 +7377,10 @@ characters:
   - 656
   - 657
   - 658
+  - 659
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: partial
   conflict_change:
@@ -7425,6 +7453,14 @@ characters:
     - 阴阳仙门取得至尊仙器地脉岩火剑
     - 见证徐霄具备至尊之下顶级战力
     status: partial
+  - chapter_range:
+      start: 659
+      end: 662
+    event: 接受资源承诺并组织阴阳仙门高层共同保人
+    impact:
+    - 阴阳仙门与天一仙门冲突升级
+    - 邬秋处置权转入本宗
+    status: partial
   cultivation_change: 天仙一重
   system_behavior:
   - 计划通过持续做好事加速修炼并重新争取罗素
@@ -7436,6 +7472,7 @@ characters:
   accepted_gifts:
   - GIFT-0138
   - GIFT-0139
+  - GIFT-0164
   resource_change:
   - 五颗高品质五行仙丹
   relationship_change:
@@ -7445,6 +7482,7 @@ characters:
   - 亲自担保徐霄直接担任内门执法执事
   - 统筹阴阳仙门跨域追捕及无间地狱队伍编组
   - 代表阴阳仙门接收地脉岩火剑
+  - 代表阴阳仙门由交人立场转为公开保下邬秋
   obtained_artifacts:
   - ART-0093
 - id: CHAR-0122
@@ -8306,12 +8344,14 @@ characters:
     status: verified
   accepted_gifts:
   - GIFT-0144
+  - GIFT-0161
   relationship_context:
     徐霄: 接受其仙元丹并免除当年执事任务，同时明确要求保持正常上下级关系
     status: verified
   related_nodes:
   - NODE-0080
   - NODE-0084
+  - NODE-0087
   source_chapters:
   - 610
   - 611
@@ -8321,6 +8361,9 @@ characters:
   - 640
   - 641
   - 642
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: verified
   conflict_change:
@@ -8333,6 +8376,15 @@ characters:
     impact:
     - 诸葛青天对徐霄形成持续私人敌意
     status: partial
+  - chapter_range:
+      start: 660
+      end: 662
+    event: 参与保下邬秋并获得仙元丹兑现
+    impact:
+    - 资源关系继续深化
+    status: partial
+  role_change:
+  - 参与保人并接受十颗仙元丹
 - id: CHAR-0141
   name: 端木莹
   status: alive
@@ -8467,10 +8519,26 @@ characters:
     status: partial
   related_nodes:
   - NODE-0080
+  - NODE-0087
   source_chapters:
   - 616
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: verified
+  accepted_gifts:
+  - GIFT-0162
+  role_change:
+  - 参与保人并接受十颗仙元丹
+  growth_event:
+  - chapter_range:
+      start: 660
+      end: 662
+    event: 参与保下邬秋并获得仙元丹兑现
+    impact:
+    - 资源关系继续深化
+    status: partial
 - id: CHAR-0145
   name: 云花海
   status: alive
@@ -8689,6 +8757,7 @@ characters:
   related_nodes:
   - NODE-0084
   - NODE-0085
+  - NODE-0087
   source_chapters:
   - 639
   - 640
@@ -8696,6 +8765,8 @@ characters:
   - 642
   - 646
   - 647
+  - 660
+  - 662
   document: null
   verification_status: partial
   system_behavior:
@@ -8710,6 +8781,15 @@ characters:
     - 十年后重新获得显著系统收益
     - 实际兑换状态待确认
     status: partial
+  - chapter_range:
+      start: 660
+      end: 662
+    event: 未获资源分配并再次因徐霄受挫
+    impact:
+    - 与徐霄个人敌意继续积累
+    status: partial
+  condition_change:
+  - 未参与保人承诺并在返程资源分配中被排除后再次气昏
 - id: CHAR-0150
   name: 邬秋
   status: alive
@@ -8734,6 +8814,7 @@ characters:
   related_nodes:
   - NODE-0085
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 644
   - 645
@@ -8745,12 +8826,18 @@ characters:
   - 656
   - 657
   - 658
+  - 659
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: partial
   condition_change:
   - 在阿鼻地狱金殿被徐霄率先控制
+  - 由天一仙门待处决对象转为阴阳仙门带回调查对象
   relationship_change:
   - 被忌口告知徐霄是其有缘人
+  - 因徐霄联合多宗保命而显著提升信任和情感
   artifact_change:
   - 主动交出储物袋和地脉岩火剑
   growth_event:
@@ -8763,6 +8850,17 @@ characters:
     - 处置方式由即时击杀转为公开审理
     - 与徐霄有缘人线索建立
     status: partial
+  - chapter_range:
+      start: 659
+      end: 662
+    event: 被徐霄联合三宗保下并随阴阳仙门返回
+    impact:
+    - 避免即时处决
+    - 获得十颗五行仙丹
+    - 与徐霄有缘人关系进入实质推进
+    status: partial
+  accepted_gifts:
+  - GIFT-0165
 - id: CHAR-0151
   name: 惠慈
   status: alive
@@ -8785,13 +8883,26 @@ characters:
     灵藏七仙门: 开放众佛小世界供其自行追捕
   related_nodes:
   - NODE-0085
+  - NODE-0087
   source_chapters:
   - 647
   - 648
   - 649
   - 650
+  - 661
   document: null
   verification_status: partial
+  role_change:
+  - 率众愿佛门以维护佛门清净为由压制天一仙门
+  relationship_change:
+  - 实际协助女儿邬秋脱离即时处决
+  growth_event:
+  - chapter: 661
+    event: 率众僧加入保人阵线迫使天一仙门退让
+    impact:
+    - 邬秋脱离天一仙门控制
+    - 众愿佛门与阴阳仙门形成阶段性合作
+    status: partial
 - id: CHAR-0152
   name: 洛银纱
   status: alive
@@ -8812,21 +8923,35 @@ characters:
   related_nodes:
   - NODE-0085
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 648
   - 649
   - 650
   - 658
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: partial
   relationship_change:
   - 在离开无间地狱途中继续与徐霄保持亲密关系并允许琉璃共享气运接触
+  - 与徐霄合作由气运接触扩展至公开宗门站队
   growth_event:
   - chapter: 658
     event: 与徐霄共同离开无间地狱并延续刹女仙门关系网络
     impact:
     - 徐霄与刹女仙门高层联系由掌门扩展至大长老琉璃
     status: partial
+  - chapter_range:
+      start: 660
+      end: 662
+    event: 带领刹女仙门公开支持徐霄保下邬秋
+    impact:
+    - 刹女仙门与阴阳仙门形成阶段性共同立场
+    status: partial
+  role_change:
+  - 代表刹女仙门加入保下邬秋的跨宗门阵线
 - id: CHAR-0153
   name: 崔云
   status: alive
@@ -8848,6 +8973,7 @@ characters:
     地脉岩火剑: 作为追捕竞争奖励
   related_nodes:
   - NODE-0085
+  - NODE-0087
   source_chapters:
   - 645
   - 646
@@ -8855,8 +8981,21 @@ characters:
   - 648
   - 649
   - 650
+  - 659
+  - 660
+  - 661
   document: null
   verification_status: partial
+  conflict_change:
+  - 在多宗联合压力下暂时放弃邬秋
+  growth_event:
+  - chapter_range:
+      start: 659
+      end: 661
+    event: 天一仙门处置邬秋计划被跨宗门联盟阻断
+    impact:
+    - 天一仙门与阴阳仙门矛盾公开升级
+    status: partial
 - id: CHAR-0154
   name: 青鸾
   status: alive
@@ -8879,14 +9018,31 @@ characters:
     徐霄: 接受其五行仙丹并警告不得伤害凤青玄
   related_nodes:
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 652
   - 653
   - 654
   - 655
   - 656
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0163
+  role_change:
+  - 参与阴阳仙门保人并接受十颗五行仙丹
+  growth_event:
+  - chapter_range:
+      start: 660
+      end: 662
+    event: 参与保下邬秋并获得资源兑现
+    impact:
+    - 接受十颗五行仙丹
+    - 对应返还一百颗玄元仙丹
+    status: partial
 - id: CHAR-0155
   name: 萧天
   status: dead
@@ -8939,14 +9095,28 @@ characters:
     徐霄: 在无间地狱以剑阵阻拦并形成持续竞争敌意
   related_nodes:
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 653
   - 654
   - 655
   - 656
   - 657
+  - 659
+  - 660
+  - 661
   document: null
   verification_status: partial
+  conflict_change:
+  - 在三宗联合威慑下被迫暂时放弃带走邬秋
+  growth_event:
+  - chapter_range:
+      start: 659
+      end: 661
+    event: 保人冲突中因多宗联合而退让
+    impact:
+    - 与徐霄及阴阳仙门敌意进一步加深
+    status: partial
 - id: CHAR-0157
   name: 忌口
   status: alive
@@ -8995,7 +9165,23 @@ characters:
     洛银纱: 同门高层
   related_nodes:
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 658
+  - 660
+  - 661
+  - 662
   document: null
   verification_status: partial
+  role_change:
+  - 随洛银纱参与刹女仙门站队
+  relationship_change:
+  - 与徐霄保持亲密联系并共同完成保人行动
+  growth_event:
+  - chapter_range:
+      start: 660
+      end: 662
+    event: 参与刹女仙门保人站队并返回本宗
+    impact:
+    - 徐霄与刹女仙门大长老层联系继续稳定
+    status: partial

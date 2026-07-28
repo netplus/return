@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 69
+  extension_files: 70
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -1034,6 +1034,7 @@ artifacts:
   - NODE-0070
   - NODE-0080
   - NODE-0084
+  - NODE-0087
   combat_record:
   - 第358章由十三股鸿蒙真气驱动，形成九道金莲防御虚影应对三名大乘修士
   - 第482—483章作为龙矶第七次雷劫防御依仗之一
@@ -1049,6 +1050,7 @@ artifacts:
   - 613
   - 640
   - 643
+  - 662
   transfer_event: GIFT-0103
   transferred_to: 龙矶
   transferred_in_chapter: 480
@@ -1070,6 +1072,14 @@ artifacts:
     quantity: 1
     trigger: 首次赠送千倍暴击
     status: verified
+  - gift_id: GIFT-0160
+    chapter: 662
+    quantity: 1
+    status: verified
+  - gift_id: GIFT-0165
+    chapter: 662
+    quantity: 1
+    status: partial
   usage_records:
   - chapter: 613
     user: 徐霄
@@ -1080,6 +1090,8 @@ artifacts:
     consumer: 徐霄
     result: 鸿蒙真气增至五十二股
     status: partial
+  quantity_change_note:
+  - 第662章新增两颗返还
 - id: ART-0045
   name: 雷灵丹
   category: 丹药
@@ -1231,6 +1243,7 @@ artifacts:
   - NODE-0062
   - NODE-0072
   - NODE-0080
+  - NODE-0087
   combat_record:
   - 识破并清除夺舍阴魂
   - 吞噬二十七具合体阴魂并形成魂丹
@@ -1256,13 +1269,23 @@ artifacts:
   - 613
   - 615
   - 616
+  - 660
+  - 661
+  - 662
   abilities:
   - 可吞噬大乘阴魂
   - 被吞噬阴魂可形成对应层级魂丹
   - 可拦截肉身死亡后逃逸的夺舍阴魂
-  transfer_event: GIFT-0097
+  transfer_event:
+  - GIFT-0097
+  - GIFT-0160
+  - GIFT-0161
+  - GIFT-0162
+  - GIFT-0166
   transferred_to: 月幽冥
-  transferred_in_chapter: 473
+  transferred_in_chapter:
+  - 473
+  - 662
   acquisition_records:
   - gift_id: GIFT-0121
     chapter: 548
@@ -1291,6 +1314,8 @@ artifacts:
     recipient: 道元
     quantity: 3
     status: verified
+  quantity_change_note:
+  - 向瑶光丁静阴萱及参与保人的地仙巅峰长老发放
 - id: ART-0047
   name: 混沌破金剑
   category: 先天灵宝神剑
@@ -2100,6 +2125,7 @@ artifacts:
   - NODE-0083
   - NODE-0084
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 572
   - 612
@@ -2108,6 +2134,9 @@ artifacts:
   - 636
   - 642
   - 653
+  - 660
+  - 661
+  - 662
   transfer_records:
   - gift_id: GIFT-0150
     chapter: 635
@@ -2133,10 +2162,29 @@ artifacts:
     status: partial
   transfer_event:
   - GIFT-0159
+  - GIFT-0163
+  - GIFT-0164
+  - GIFT-0165
+  - GIFT-0166
   transferred_in_chapter:
   - 653
+  - 662
   quantity_change_note:
   - 向青鸾赠送十颗
+  - 第662章系统返还八十五颗；同时向青鸾东方青邬秋及参与保人的天仙长老发放
+  acquisition_records:
+  - gift_id: GIFT-0160
+    chapter: 662
+    quantity: 45
+    status: verified
+  - gift_id: GIFT-0161
+    chapter: 662
+    quantity: 10
+    status: verified
+  - gift_id: GIFT-0162
+    chapter: 662
+    quantity: 30
+    status: verified
 - id: ART-0086
   name: 五气朝元丹
   category: 丹药
@@ -2240,8 +2288,21 @@ artifacts:
   status: partial
   related_nodes:
   - NODE-0086
+  - NODE-0087
   source_chapters:
   - 653
+  - 662
+  acquisition_records:
+  - gift_id: GIFT-0163
+    chapter: 662
+    quantity: 100
+    status: verified
+  - gift_id: GIFT-0165
+    chapter: 662
+    quantity: 90
+    status: partial
+  quantity_change_note:
+  - 第662章新增一百九十颗返还
 - id: ART-0093
   name: 地脉岩火剑
   category: 至尊仙器神剑
