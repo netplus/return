@@ -1,0 +1,43 @@
+schema_version: 1
+run_id: RUN-0104
+work: 万倍返还，年迈的我去当舔狗
+coverage: {start: 663, end: 666}
+source_gate: passed_with_qualifications
+official_catalog:
+  provider: 番茄小说
+  work_page: https://fanqienovel.com/page/7423641263695481880
+  confirmed_chapters:
+  - {chapter: 663, title: 尘玉开口，保下邬秋}
+  - {chapter: 664, title: 纯阳仙门，黯然悲痛}
+  - {chapter: 665, title: 懵逼的邬秋}
+  - {chapter: 666, title: 邬秋控诉}
+  boundary_probe: {chapter: 667, title: 满血复活的诸葛青天}
+archive_source:
+  source_id: fanqienovel-7423641263695481880
+  download_sha256: 59f5566f5b98687b998cbdefbf1d24bc092609f4b8295333620bbb320655c1b1
+  index_file: sources/archive/fanqienovel-7423641263695481880/chapters-0651-0700.yaml
+  chapters:
+  - {chapter: 663, sha256: 898fbd1823deb92d7795c5642865bb0517bd327a383ec7a67add3bd8d6fd00e8, source_line_range: {start: 73554, end: 73640}, source_char_range: {start: 1513434, end: 1515718}}
+  - {chapter: 664, sha256: bd3e8a08be2eaf60720e68de737922f5bf0c85c96fe519fd4a8e57496dc93ab7, source_line_range: {start: 73643, end: 73741}, source_char_range: {start: 1515718, end: 1518040}}
+  - {chapter: 665, sha256: 99d3f1b6449044a21c3eac056fa9acd85ff9ba8241707598a8272c398c998409, source_line_range: {start: 73744, end: 73858}, source_char_range: {start: 1518040, end: 1520431}}
+  - {chapter: 666, sha256: 65dc877e3a4574b041a5082decc91576303e34d276d04b3485859eddfac778b6, source_line_range: {start: 73861, end: 73945}, source_char_range: {start: 1520431, end: 1522608}}
+readable_cross_check:
+  provider: CP小说网
+  base_pattern: https://m.cpafarm.com/book/190473/{chapter}.html
+  chapters_cross_checked: [663, 664, 665, 666]
+chapter_facts:
+- chapter: 663
+  facts: [徐霄向尘玉万青罗方各赠十颗五行仙丹, 尘玉赠送返还一百颗玄元仙丹, 三位太上长老转为正式支持复核邬秋冤情并宣布可保下]
+  status: verified
+- chapter: 664
+  facts: [邬秋在徐霄洞府获得安置, 徐霄赠送九天荡魔剑并返还荡魔真武剑, 邬秋与徐霄关系深化, 纯阳仙门因吕玄一等人死亡进入悲痛和追凶阶段]
+  status: partial
+- chapter: 665
+  facts: [道阳以十具尸身占卜追凶时遭天道规则反噬, 系统检测并屏蔽针对徐霄的占卜卦象之力, 邬秋开始面对凌白烟等既有关系对象]
+  status: verified
+- chapter: 666
+  facts: [邬秋持有徐霄赠送的天仙巅峰魂丹, 邬秋陆续认识南宫嫣罗素等关系对象并产生强烈冲突, 邬秋被视为可在阴阳仙门担任内门长老]
+  status: partial
+boundary_reason: 第666章完成太上长老保人、邬秋安置和关系认知转折；第667章转入诸葛青天恢复后的新阶段
+pending: [万青罗方赠丹独立返还, 天仙巅峰魂丹精确赠送章节和返还链, 邬秋正式任命手续, 纯阳仙门后续追凶方式]
+copyright_boundary: {full_chapter_text_stored: false, stored_content: original_summary_structured_facts_titles_offsets_and_hashes}
