@@ -5,31 +5,31 @@
 - **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
-- **Canonical coverage through:** Chapter 722
-- **Current evidence exploration through:** Chapter 723
+- **Canonical coverage through:** Chapter 728
+- **Current evidence exploration through:** Chapter 729
 - **Directly verified through:** Chapter 16
-- **Completed timeline nodes:** 95
+- **Completed timeline nodes:** 96
 - **Draft timeline nodes:** 0
-- **Documented characters:** 183
-- **Generated character profiles:** 183
-- **Gift events:** 189
-- **Artifact records:** 107
-- **Generated artifact profiles:** 107
-- **Last run:** `RUN-0111`
-- **Last completed node:** `NODE-0095`
-- **Next task:** `TASK-0098` — 造化滴血重生、妖族大胜与最后谈判 story arc
-- **Provisional exploration range:** Chapters 723–728
+- **Documented characters:** 187
+- **Generated character profiles:** 187
+- **Gift events:** 193
+- **Artifact records:** 109
+- **Generated artifact profiles:** 109
+- **Last run:** `RUN-0112`
+- **Last completed node:** `NODE-0096`
+- **Next task:** `TASK-0099` — 万妖仙宗抵达、公开问责与入门选拔 story arc
+- **Provisional exploration range:** Chapters 729–736
 - **Blockers:** None
 
 ## Latest completed arc
 
-`NODE-0095` covers Chapters 716—722. 徐霄以“百万年人族终极卧底”身份释放陈大浩神魂并取得保密承诺；向青曼、玄雪配置高阶仙器并获得九天青木舟、大道玉衣及五行道器剑阵。孔青和天玄仙宗分别部署妖族、人族天地玄仙暗杀队，徐霄以五行道器剑阵击溃双向伏击。诸葛绫被识别为 SS 级气运之女后获放过，周紫薇与徐霄正式确立关系并协助隐藏战斗真相。
+`NODE-0096` covers Chapters 723—728. 青木城战后系统继续结算高阶仙丹返还；两个月后妖族取得决定性优势，人妖双方进入最终谈判。徐霄向凤天晴配置资源并与火雀族族长雀鸢确立关系，获得大道山河图和金仙巅峰魂丹；服用鸿蒙一气丹后鸿蒙真气增至六十六股，并以三千天道丹完美领悟阵之大道。徐霄拒绝回归人族，以顶级至尊玄仙符箓迫使双方接受其继续留在妖族。战功结算后，徐霄、玉龙、金虚、玄灵、玄雪等人获得万妖仙宗选拔入口。
 
 ## Character growth updates
 
-`RUN-0111` adds 陈大浩 and诸葛绫 with chapter-anchored first appearances, and timed growth events for 徐霄、周紫薇、孔青、青曼 and玄雪.
+`RUN-0112` adds 雀鸢、苏破天、温晴岚 and玉龙 with chapter-anchored first appearances, and timed growth events for 徐霄、凤天晴、孔青、周紫薇、金虚、玄灵、玄雪 and天翎.
 
-## Quality gates — RUN-0111
+## Quality gates — RUN-0112
 
 | Gate | Result |
 |---|---|
@@ -39,13 +39,13 @@
 | Cross-index consistency | Passed |
 | Duplicate-work check | Passed |
 | YAML structure review | Passed |
-| Entity-document freshness | Passed — 183 character and 107 artifact records |
+| Entity-document freshness | Passed — 187 character and 109 artifact records |
 | Entity-document readability | Passed |
 | Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 5 timed material updates and 2 new first appearances |
+| Character growth continuity | Passed — 8 timed material updates and 4 new first appearances |
 | Growth temporal accuracy | Passed |
 | Copyright boundary | Passed |
 
 ## Source qualification
 
-Chapters 716—722 are fixed by the archived per-chapter hashes and official catalog, and were cross-checked through readable chapter mirrors. No full chapter text is stored. 大道玉衣原始赠礼、通天如意针返还结果、五行道器逐柄获得链 and前线次要人物完整面板 remain pending.
+Chapters 723—728 are fixed by the archived per-chapter hashes and official catalog and were cross-checked through readable mirrors. No full chapter text is stored. 原始仙丹赠送链、凤天晴与周紫薇精确返还、顶级至尊玄仙符箓正式名称及万妖仙宗选拔兑现 remain pending.
