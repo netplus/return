@@ -1,38 +1,38 @@
 schema_version: 2
-updated_at: '2026-07-28'
-run_id: RUN-0117
+updated_at: '2026-07-29'
+run_id: RUN-0118
 coverage:
-  chapters_covered_through: 772
-  chapters_promoted_in_run: [763, 764, 765, 766, 767, 768, 769, 770, 771, 772]
-  timeline_nodes: 101
+  chapters_covered_through: 792
+  chapters_promoted_in_run: [773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792]
+  timeline_nodes: 102
   draft_nodes: 0
-  story_arc_nodes: 98
+  story_arc_nodes: 99
   characters_documented: 208
   characters_staged: 0
   system_records: 1
-  gift_events: 211
-  artifact_records: 122
+  gift_events: 222
+  artifact_records: 132
   artifacts_staged: 0
 entity_documents:
   character_records: 208
-  artifact_records: 122
-  expected_generated_documents: 330
+  artifact_records: 132
+  expected_generated_documents: 340
   base_renderer: scripts/render_entity_docs.py
   generator: scripts/render_character_growth.py
   manifest: docs/entity-docs-manifest.yaml
   presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
   growth_line: {mode: stage_summary_plus_append_only_run_history, stage_window_chapters: 50, continuity_effective_run: RUN-0082, temporal_accuracy: no_backfill_from_merged_current_snapshot}
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [763, 764, 765, 766, 767, 768, 769, 770, 771, 772], transient_artifact: source-chapters-729-778, source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第772章完成六宗会盟冲突与太初第一圣子名号落地；第773章转入拍卖会}
-  materiality: {status: passed, entity_updates: [NODE-0101, 云花海轩辕婉君轩辕正誉魔无天朱圆圆绝云神万萱血无涯新人物, 徐霄凤溪玄灵玄雪赤澜儿天翎雪小星周紫薇熊大魔无花成长更新, GIFT-0205至GIFT-0211, ART-0120至ART-0122]}
+  source_traceability: {status: passed, archive_chapters: [773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792], transient_artifacts: [source-chapters-729-778, source-chapters-779-828], source_hash_failures: 0}
+  arc_coherence: {status: passed, boundary: 第792章完成拍卖会、订婚对象变更、血宗冲突和返宗高层处置；第793章转入姬雪前世衣钵}
+  materiality: {status: passed, entity_updates: [NODE-0102, 徐霄赤裳轩辕婉君轩辕正誉血无涯魔无花凤溪龙九天周紫薇魔无天成长更新, GIFT-0212至GIFT-0222, ART-0123至ART-0132]}
   cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
   yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 208, artifacts: 122}
+  entity_document_freshness: {status: passed, characters: 208, artifacts: 132}
   entity_document_readability: {status: passed}
   character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 8}
+  character_growth_continuity: {status: passed, material_character_updates: 10, timed_growth_events: 10, new_characters_with_first_appearance: 0}
   growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
   copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_offsets_and_hashes}
 blockers: []
