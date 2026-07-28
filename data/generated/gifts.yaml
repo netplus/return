@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 74
+  extension_files: 75
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -2457,3 +2457,23 @@ gifts:
   reward: 道器镇魂黑链
   triggered_multiplier: pending
   status: verified
+- id: GIFT-0188
+  chapter: 716
+  node: NODE-0095
+  giver: 徐霄
+  recipient: 青曼
+  gift: 九霄玉舟
+  accepted: true
+  reward: 九天青木舟
+  triggered_multiplier: pending
+  status: verified
+- id: GIFT-0189
+  chapter: 716
+  node: NODE-0095
+  giver: 徐霄
+  recipient: 玄雪
+  gift: 通天如意针
+  accepted: true
+  reward: pending
+  triggered_multiplier: pending
+  status: partial

@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 83
+  extension_files: 84
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3705,3 +3705,36 @@ nodes:
   - 青木城前线人物完整面板
   document: docs/01-timeline/node-0094.md
   evidence: sources/evidence/chapters-706-715.yaml
+- id: NODE-0095
+  title: 终极卧底、大道玉衣与青木城双向伏击
+  chapters:
+    start: 716
+    end: 722
+  granularity: story_arc
+  status: verified
+  source_qualification: 番茄小说官方目录、仓库归档逐章哈希与可访问正文镜像共同核验第716—722章
+  boundary_reason: 第722章完成伏击处理、诸葛绫周紫薇保密与返回青木城；第723章转入韵幽关系和造化滴血重生
+  characters:
+  - 徐霄
+  - 周紫薇
+  - 诸葛绫
+  - 孔青
+  - 青曼
+  - 玄雪
+  - 陈大浩
+  system_events:
+  - event: 九霄玉舟赠送返还
+    result: 九天青木舟
+    status: verified
+  - event: 高阶仙器赠送与大道玉衣返还
+    result: 大道玉衣及五行道器剑阵资源
+    exact_mapping: pending
+    status: partial
+  relationship_result: 周紫薇与徐霄正式确立关系；诸葛绫接受卧底叙事并保密；孔青暗杀计划失败
+  pending:
+  - 大道玉衣原始赠礼与倍率
+  - 通天如意针精确返还结果
+  - 五行道器剑阵逐柄获得链
+  - 前线次要人物完整面板
+  document: docs/01-timeline/node-0095.md
+  evidence: sources/evidence/chapters-716-722.yaml

@@ -4,7 +4,7 @@ presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_ap
 source: data/generated
 groups:
   characters:
-    count: 181
+    count: 183
     index: data/generated/characters.yaml
     index_document: docs/02-characters/_INDEX.md
     documents:
@@ -370,8 +370,12 @@ groups:
       path: docs/02-characters/青曼.md
     - id: CHAR-0181
       path: docs/02-characters/赵四尊.md
+    - id: CHAR-0182
+      path: docs/02-characters/陈大浩.md
+    - id: CHAR-0183
+      path: docs/02-characters/诸葛绫.md
   artifacts:
-    count: 104
+    count: 107
     index: data/generated/artifacts.yaml
     index_document: docs/06-artifacts/_INDEX.md
     documents:
@@ -583,10 +587,16 @@ groups:
       path: docs/06-artifacts/太初仙体丹.md
     - id: ART-0104
       path: docs/06-artifacts/镇魂黑链.md
+    - id: ART-0105
+      path: docs/06-artifacts/九天青木舟.md
+    - id: ART-0106
+      path: docs/06-artifacts/大道玉衣.md
+    - id: ART-0107
+      path: docs/06-artifacts/五行道器剑阵.md
 growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
-  characters_with_growth_line: 181
-  growth_events: 749
+  characters_with_growth_line: 183
+  growth_events: 758
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml
