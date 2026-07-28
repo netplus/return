@@ -1,0 +1,85 @@
+schema_version: 1
+run_id: RUN-0122
+characters:
+- {id: CHAR-0216, name: 狐嫣, status: alive, role: supporting, affiliations: [万妖仙宗, 天狐族], identities: [万妖仙宗太乙仙长老, SSS级气运之女], first_appearance: {chapter: 831, title: 出发接亲, node: NODE-0106}, cultivation: {current: 太乙仙境, status: verified}, related_nodes: [NODE-0106], source_chapters: [831], document: null, verification_status: verified}
+- {id: CHAR-0217, name: 轩辕金花, status: alive, role: supporting, affiliations: [轩辕家, 轩辕仙城], identities: [轩辕家至尊太乙老祖, SSS级气运之女], first_appearance: {chapter: 833, title: 雄起的万妖仙宗, node: NODE-0106}, cultivation: {current: 至尊太乙, status: verified}, related_nodes: [NODE-0106], source_chapters: [833], document: null, verification_status: verified}
+- {id: CHAR-0218, name: 轩辕宏, status: alive, role: supporting, affiliations: [轩辕家, 轩辕仙城], identities: [轩辕家至尊太乙老祖], first_appearance: {chapter: 833, title: 雄起的万妖仙宗, node: NODE-0106}, cultivation: {current: 至尊太乙, status: verified}, related_nodes: [NODE-0106], source_chapters: [833], document: null, verification_status: verified}
+- {id: CHAR-0219, name: 牛通天, status: alive, role: supporting, affiliations: [万妖仙宗, 青牛族], identities: [青牛族老祖, 万妖仙宗太乙仙长老], first_appearance: {chapter: 834, title: 小试身手, node: NODE-0106}, cultivation: {current: 太乙仙六重, status: verified}, related_nodes: [NODE-0106], source_chapters: [834], document: null, verification_status: verified}
+- {id: CHAR-0220, name: 魔祖, status: alive, role: supporting, affiliations: [魔罗圣门], identities: [魔罗圣门大罗仙老祖], first_appearance: {chapter: 838, title: 仙帝宫叫嚣, node: NODE-0106}, cultivation: {current: 大罗仙, status: verified}, related_nodes: [NODE-0106], source_chapters: [838], document: null, verification_status: verified}
+- {id: CHAR-0221, name: 幽姬, status: alive, role: supporting, affiliations: [魔罗圣门], identities: [魔罗圣门大罗仙老祖, SSS级气运之女], first_appearance: {chapter: 838, title: 仙帝宫叫嚣, node: NODE-0106}, cultivation: {current: 大罗仙, status: verified}, related_nodes: [NODE-0106], source_chapters: [838], document: null, verification_status: verified}
+- {id: CHAR-0222, name: 初殷, status: alive, role: supporting, affiliations: [太初仙帝宫, 太初仙域], identities: [太初仙帝], first_appearance: {chapter: 838, title: 仙帝宫叫嚣, node: NODE-0106}, cultivation: {current: 仙帝, status: verified}, related_nodes: [NODE-0106], source_chapters: [838], document: null, verification_status: verified}
+- {id: CHAR-0223, name: 霄天, status: alive, role: supporting, affiliations: [轩辕家, 太初仙帝宫], identities: [轩辕家大罗仙代表], first_appearance: {chapter: 838, title: 仙帝宫叫嚣, node: NODE-0106}, cultivation: {current: 大罗仙, status: verified}, related_nodes: [NODE-0106], source_chapters: [838], document: null, verification_status: verified}
+- {id: CHAR-0224, name: 龙冥, status: alive, role: supporting, affiliations: [万妖仙宗, 太初仙帝宫], identities: [万妖仙宗大罗仙代表], first_appearance: {chapter: 838, title: 仙帝宫叫嚣, node: NODE-0106}, cultivation: {current: 大罗仙, status: verified}, related_nodes: [NODE-0106], source_chapters: [838], document: null, verification_status: verified}
+character_updates:
+- id: CHAR-0001
+  name: 徐霄
+  update:
+    cultivation_change: 太乙仙二重
+    age_change: 1080
+    lifespan_change: 30010229
+    ability_change_add: [鸿蒙真气增至九十一股, 获得混元破界九霄天梯与神器天地双神环、诛仙神火剑, 规则道器数量扩充并筹齐五行神剑]
+    identity_change_add: [轩辕婉君道侣, 凤青玄公开道侣]
+    relationship_change_add: [与轩辕婉君正式完婚, 与狐嫣羁绊度提升至二, 与雪瑶公开确认关系, 与凤青玄公开决裂后复合]
+    growth_event_add:
+    - chapter_range: {start: 831, end: 853}
+      event: 完成轩辕接亲、十五年修炼跃迁并处理雪瑶与凤青玄的仙帝级关系冲突
+      core_ability: [太乙仙二重, 鸿蒙真气九十一股, 两件神器, 多件规则道器]
+      impact: [击杀魔无天并取得跨界神器, 正式迎娶轩辕婉君, 雪瑶与凤青玄关系线公开化, 进入初殷寿宴阶段]
+      status: verified
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853]
+- id: CHAR-0202
+  name: 轩辕婉君
+  update:
+    cultivation_change: 太乙仙
+    relationship_change_add: [与徐霄正式完婚并羁绊度提升至二]
+    growth_event_add:
+    - chapter_range: {start: 831, end: 842}
+      event: 完成轩辕仙城接亲与大婚
+      impact: [成为徐霄公开道侣, 修复道伤后晋升太乙仙, 羁绊度提升至二]
+      status: verified
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842]
+- id: CHAR-0204
+  name: 魔无天
+  update:
+    status_change_add: [被徐霄规则道器神剑击碎肉身并以弑神大道炼化神魂，确认死亡]
+    growth_event_add:
+    - {chapter: 834, event: 阻拦接亲后被徐霄击杀, impact: 气运之子任务完成并触发混元破界九霄天梯奖励, status: verified}
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [831, 832, 833, 834, 835]
+- id: CHAR-0193
+  name: 魔无花
+  update:
+    identity_change_add: [在魔祖与幽姬认可下成为魔罗圣门新掌门]
+    growth_event_add:
+    - {chapter_range: {start: 834, end: 842}, event: 魔无天死亡后获得魔罗圣门掌门身份, impact: 复仇主线完成并正式重返魔罗圣门权力核心, status: verified}
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [834, 835, 838, 842]
+- id: CHAR-0045
+  name: 凤青玄
+  update:
+    cultivation_change: 大罗仙级准仙帝战力
+    ability_change_add: [鸿蒙真气增至二十八股, 炼化天地灵根类规则道器, 获得天道神威御火剑及祖凤血丹、大罗鸿蒙丹]
+    identity_change_add: [万妖仙宗天羽老祖, 徐霄公开道侣]
+    relationship_change_add: [与雪瑶发生神魂大战, 与徐霄公开决裂后复合]
+    growth_event_add:
+    - chapter_range: {start: 845, end: 853}
+      event: 以天羽身份出关，与雪瑶争夺徐霄并在决裂后复合
+      core_ability: [大罗仙级战力, 二十八股鸿蒙真气, 规则道器]
+      impact: [重回万妖仙宗最高权力层, 准备挑战初殷仙帝之位, 与徐霄关系公开化]
+      status: verified
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [845, 846, 847, 848, 849, 850, 851, 852, 853]
+- id: CHAR-0172
+  name: 天翎
+  update:
+    accepted_gifts_add: [GIFT-0245]
+    relationship_change_add: [与徐霄公开成婚, 转为凤青玄座下弟子]
+    growth_event_add:
+    - chapter_range: {start: 843, end: 852}
+      event: 接受祖凤血丹与资源后公开与徐霄成婚，随后纳入凤青玄门下
+      impact: [天凤族关系公开化, 获得长期血脉与修炼资源]
+      status: verified
+    related_nodes_add: [NODE-0106]
+    source_chapters_add: [843, 844, 845, 846, 847, 848, 849, 850, 851, 852]
