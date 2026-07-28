@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 87
+  extension_files: 88
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -168,6 +168,7 @@ characters:
   - NODE-0096
   - NODE-0097
   - NODE-0098
+  - NODE-0099
   source_chapters:
   - 1
   - 2
@@ -874,6 +875,12 @@ characters:
   - 743
   - 744
   - 745
+  - 746
+  - 747
+  - 748
+  - 749
+  - 750
+  - 751
   verification_status: partial
   appearance_recovery:
     value: 修为恢复后外貌与身体状态明显回春
@@ -960,6 +967,8 @@ characters:
   - 与雪小星确立关系
   - 与阴萱确立关系
   - 继续与凤青玄维持秘密关系
+  - 与鹤仙儿建立封口型长期资源关系
+  - 与玄雪羁绊度提升至二
   power_change:
   - 服用新的鸿蒙一气丹后体内鸿蒙真气增至三股并强化法宝操控
   - 服用鸿蒙一气丹后鸿蒙真气增至十股
@@ -1171,6 +1180,8 @@ characters:
   - 完美阵之大道可瞬发八重玄仙大阵
   - 打穿锁妖塔十八层
   - 系统返还库上限提升至太乙仙
+  - 法器返还库上限提升至规则道器
+  - 完美领悟幻象大道
   resource_change:
   - 获得GIFT-0074返还的鸿蒙一气丹
   - 获得GIFT-0075返还的十枚渡劫初期魂丹
@@ -1616,6 +1627,18 @@ characters:
     - 获得龙魂仙牌
     - 成为万妖仙宗公开认可的顶尖天才
     status: verified
+  - chapter_range:
+      start: 746
+      end: 751
+    event: 借锁妖塔阵眼清除诸葛青天并处理鹤仙儿揭发风险
+    core_ability:
+    - 规则道器返还上限
+    - 完美幻象大道
+    impact:
+    - 完成长期气运之子冲突
+    - 以资源建立鹤仙儿保密关系
+    - 维持锁妖塔唯一通关纪录
+    status: verified
   strategic_role:
   - 以高阶丹药解除矿区行政处罚并推动进入阴阳仙门
   affiliation_change:
@@ -1669,6 +1692,7 @@ characters:
   status_change:
   - 击杀公孙飞龙并完成长期系统任务
   - 锁妖塔十八层纪录保持者
+  - 秘密触发锁妖塔十八层火符并完成诸葛青天气运任务
 - id: CHAR-0002
   name: 姬雪
   status: alive
@@ -9338,6 +9362,7 @@ characters:
   - NODE-0090
   - NODE-0097
   - NODE-0098
+  - NODE-0099
   source_chapters:
   - 639
   - 640
@@ -9361,6 +9386,11 @@ characters:
   - 743
   - 744
   - 745
+  - 746
+  - 747
+  - 748
+  - 749
+  - 750
   document: null
   verification_status: partial
   system_behavior:
@@ -9414,25 +9444,38 @@ characters:
     - 与徐霄冲突升级至破釜沉舟阶段
     - 第746章准备燃烧全部剩余寿元
     status: verified
+  - chapter_range:
+      start: 746
+      end: 750
+    event: 燃尽寿元冲击锁妖塔与金仙境，最终在爆炸中死亡
+    core_ability:
+    - 玄仙巅峰
+    - 两柄道器神剑
+    - 金仙突破契机
+    impact:
+    - 气运之子任务被徐霄完成
+    - 锁妖塔上半部毁坏
+    - 遗留道器被龙九天收走
+    status: verified
   condition_change:
   - 未参与保人承诺并在返程资源分配中被排除后再次气昏
   - 恢复伤势并觉醒前世力量
   conflict_change:
   - 因丁静与徐霄关系公开再次形成强烈敌意
   - 徐霄优先闯塔并打破纪录后陷入极度绝望，准备燃烧全部剩余寿元
-  cultivation_change: 玄仙六重
-  lifespan_change:
-    remaining_years: 10000
-    status: verified
+  - 冲击锁妖塔十八层时触发徐霄预留火符，肉身与神魂俱灭
+  cultivation_change: 玄仙巅峰
+  lifespan_change: 燃尽剩余万年寿元，仅留一天后死亡
   ability_change:
   - 以寿元换取三柄至尊仙器
   - 当前共持有六件至尊仙器
+  - 持有两柄道器神剑
+  - 获得金仙突破契机
   identity_change:
   - 万妖仙宗天穹长老普通弟子
   artifact_change:
   - 储物袋内至尊仙器总数达到六件
-  status_change:
-  - 与独孤惊云共同清除万魂盘神识烙印
+  status_change: dead
 - id: CHAR-0150
   name: 邬秋
   status: alive
@@ -9829,6 +9872,7 @@ characters:
   - NODE-0089
   - NODE-0097
   - NODE-0098
+  - NODE-0099
   source_chapters:
   - 653
   - 654
@@ -9851,12 +9895,16 @@ characters:
   - 743
   - 744
   - 745
+  - 746
+  - 747
+  - 750
   document: null
   verification_status: partial
   conflict_change:
   - 在三宗联合威慑下被迫暂时放弃带走邬秋
   - 参与八人围攻徐霄并遭全面压制
   - 见证徐霄打穿锁妖塔后进一步陷入绝望与敌意
+  - 诸葛青天死亡后失去主要反徐盟友
   growth_event:
   - chapter_range:
       start: 659
@@ -9890,6 +9938,14 @@ characters:
     impact:
     - 个人晋升成果被徐霄压制
     - 长期敌对进一步升级
+    status: verified
+  - chapter_range:
+      start: 746
+      end: 750
+    event: 短暂因诸葛青天恢复希望，随后因其死亡再次陷入绝望
+    impact:
+    - 反徐阵营失去核心战力与盟友
+    - 长期敌对处境进一步恶化
     status: verified
   identity_change:
   - 万妖仙宗天穹长老亲传弟子
@@ -10450,6 +10506,7 @@ characters:
   - NODE-0096
   - NODE-0097
   - NODE-0098
+  - NODE-0099
   source_chapters:
   - 688
   - 691
@@ -10476,6 +10533,8 @@ characters:
   - 742
   - 743
   - 745
+  - 746
+  - 751
   verification_status: partial
   accepted_gifts:
   - GIFT-0178
@@ -10491,6 +10550,7 @@ characters:
   - 获得长期天凤血丹承诺
   - 继续接受徐霄资源但对其多重关系保持不满
   - 继续与徐霄公开复合并接受高品天凤血丹和超品玄元仙丹
+  - 与徐霄羁绊度提升至二
   ability_change:
   - 炼化一颗天凤血丹后天凤血脉提升
   - 照妖宝镜确认金色仙体天赋
@@ -10549,6 +10609,11 @@ characters:
     impact:
     - 对徐霄关系进一步强化
     - 公开支持其锁妖塔成就
+    status: verified
+  - chapter: 751
+    event: 与徐霄关系进一步稳定，系统羁绊度提升至二
+    impact:
+    - 成为更稳定的高阶气运关系对象
     status: verified
   strategic_role:
   - 参与玄鸟族伏击火蜥族精锐
@@ -11018,14 +11083,33 @@ characters:
     徐霄: 对其前线泡妞行为强烈鄙视
   related_nodes:
   - NODE-0094
+  - NODE-0099
   source_chapters:
   - 711
   - 712
   - 713
   - 714
   - 715
+  - 750
+  - 751
   document: null
   verification_status: partial
+  accepted_gifts:
+  - GIFT-0202
+  relationship_change:
+  - 察觉徐霄激活锁妖塔阵眼后以揭发相威胁，并以复合高阶赠礼换取保密
+  resource_change:
+  - 获得十颗超品玄元仙丹、三件至尊仙器及三颗玄仙巅峰丹药，并获得长期玄元仙丹供应承诺
+  growth_event:
+  - chapter_range:
+      start: 750
+      end: 751
+    event: 识破锁妖塔爆炸与徐霄的关联并达成封口交易
+    impact:
+    - 掌握徐霄重大隐秘
+    - 建立持续资源关系
+    - 获得多件高阶法宝与丹药
+    status: partial
 - id: CHAR-0180
   name: 青曼
   status: alive
@@ -11355,7 +11439,7 @@ characters:
   document: null
   verification_status: partial
 - id: CHAR-0190
-  name: 赤裳
+  name: 天穹
   status: alive
   role: supporting
   affiliations:
@@ -11384,11 +11468,25 @@ characters:
   - GIFT-0195
   related_nodes:
   - NODE-0097
+  - NODE-0099
   source_chapters:
   - 731
   - 732
+  - 748
+  - 749
   document: null
   verification_status: verified
+  status_change:
+  - 原计划收诸葛青天为亲传弟子，因其锁妖塔陨落而失去候选弟子
+  growth_event:
+  - chapter_range:
+      start: 748
+      end: 749
+    event: 准备收诸葛青天为亲传弟子却见证其陨落
+    impact:
+    - 失去仙帝转世候选弟子
+    - 与锁妖塔事故形成直接利益损失
+    status: verified
 - id: CHAR-0191
   name: 孔玄
   status: alive
@@ -11648,9 +11746,54 @@ characters:
     徐霄: 由不满其作风转为认可其宗门战略价值
   related_nodes:
   - NODE-0098
+  - NODE-0099
   source_chapters:
   - 742
   - 744
   - 745
+  - 746
+  - 748
+  - 749
+  - 750
+  - 751
+  document: null
+  verification_status: partial
+  status_change:
+  - 宣布锁妖塔因幻阵年久失修爆炸并暂时封闭
+  - 收走诸葛青天遗留的两柄道器神剑
+  growth_event:
+  - chapter_range:
+      start: 749
+      end: 751
+    event: 处置锁妖塔爆炸及诸葛青天死亡
+    impact:
+    - 以技术事故结论稳定宗门
+    - 暂时封闭锁妖塔
+    - 控制两柄无主道器
+    status: verified
+- id: CHAR-0199
+  name: 凤溪
+  status: alive
+  role: supporting
+  affiliations:
+  - 万妖仙宗
+  - 天凤族
+  identities:
+  - 万妖仙宗大长老
+  - 宗门高层培养决策者
+  first_appearance:
+    chapter: 746
+    title: 破釜沉舟的诸葛青天
+    node: NODE-0099
+  cultivation:
+    current: 金仙境
+    exact_level: pending
+    status: partial
+  relationship_context:
+    徐霄: 认可其太乙仙潜力并主张纳入宗门长期培养
+  related_nodes:
+  - NODE-0099
+  source_chapters:
+  - 746
   document: null
   verification_status: partial

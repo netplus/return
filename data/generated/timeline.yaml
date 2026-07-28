@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/timeline/nodes.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 87
+  extension_files: 88
 nodes:
 - id: NODE-0001
   title: 寿元将尽与首次万倍返还
@@ -3867,3 +3867,38 @@ nodes:
   - 龙魂仙牌准确威能上限
   document: docs/01-timeline/node-0098.md
   evidence: sources/evidence/chapters-737-745.yaml
+- id: NODE-0099
+  title: 诸葛青天孤注一掷、锁妖塔爆炸与鹤仙儿封口
+  chapters:
+    start: 746
+    end: 751
+  granularity: story_arc
+  status: verified
+  source_qualification: 第746—751章由归档逐章哈希及保留的一天期Actions正文产物核验；第752章作为边界探针
+  boundary_reason: 第751章完成诸葛青天死亡后的宗门调查、鹤仙儿封口交易及幻象大道落地；第752章转入赤裳为赤澜儿再次问责
+  characters:
+  - 徐霄
+  - 诸葛青天
+  - 鹤仙儿
+  - 龙九天
+  - 天穹
+  - 独孤惊云
+  - 玄雪
+  - 凤溪
+  system_events:
+  - event: 击杀气运之子诸葛青天
+    result: 法器返还库上限提升至规则道器
+    status: verified
+  - event: 鹤仙儿复合赠礼返还
+    result: 三千天道丹、四十五颗金仙道丹、三件道器及十五颗金仙巅峰魂丹
+    status: partial
+  - event: 三千天道丹服用
+    result: 徐霄完美领悟幻象大道
+    status: verified
+  relationship_result: 鹤仙儿以揭发锁妖塔真相相威胁，徐霄以长期高阶资源换取保密；玄雪羁绊度提升至二
+  pending:
+  - 诸葛青天两柄道器正式名称与分配
+  - 玄仙顶级火符正式名称
+  - 鹤仙儿三颗赠礼丹药类型冲突
+  document: docs/01-timeline/node-0099.md
+  evidence: sources/evidence/chapters-746-751.yaml

@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 81
+  extension_files: 82
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -2067,6 +2067,10 @@ artifacts:
   acquisition:
   - 第574章系统返还；原始赠礼与倍率待确认
   - 第594章由GIFT-0133再次返还一颗
+  - gift_id: GIFT-0202
+    chapter: 751
+    quantity: 1
+    status: verified
   effect: 服用后可完美领悟一条上位大道；与三千大道丹同属三千大道体系并随机出现
   current_state: 第583章由徐霄服用
   status: partial
@@ -2076,6 +2080,7 @@ artifacts:
   - NODE-0077
   - NODE-0084
   - NODE-0096
+  - NODE-0099
   source_chapters:
   - 574
   - 575
@@ -2084,11 +2089,12 @@ artifacts:
   - 595
   - 643
   - 725
+  - 751
   effect_change:
   - 使徐霄完美领悟剑之大道
   use:
   - 第595章由徐霄服用并完美领悟力之大道
-  current_state_change: 已服用本阶段确认的一颗
+  current_state_change: 本阶段返还的一颗已服用
   consumption:
   - chapter: 643
     consumer: 徐霄
@@ -2098,6 +2104,10 @@ artifacts:
   - chapter: 725
     user: 徐霄
     result: 完美领悟阵之大道
+    status: verified
+  - chapter: 751
+    user: 徐霄
+    result: 完美领悟幻象大道
     status: verified
 - id: ART-0079
   name: 罗素获赠顶级仙器（正式名称待确认）
@@ -2685,6 +2695,10 @@ artifacts:
     chapter: 743
     quantity: 50
     status: verified
+  - gift_id: GIFT-0202
+    chapter: 751
+    quantity: 45
+    status: verified
   effect: 金仙层级修炼丹药；完整效果与适用限制待确认
   quantity: 134
   current_state: 未确认服用
@@ -2694,6 +2708,7 @@ artifacts:
   - NODE-0096
   - NODE-0097
   - NODE-0098
+  - NODE-0099
   source_chapters:
   - 706
   - 708
@@ -2708,6 +2723,7 @@ artifacts:
   - 738
   - 739
   - 743
+  - 751
   quantity_snapshot:
   - chapter: 735
     value: 700
@@ -2841,14 +2857,21 @@ artifacts:
   grade: 金仙巅峰
   first_chapter: 725
   current_holder: 徐霄
-  acquisition: GIFT-0192中玄仙巅峰魂丹赠送返还
+  acquisition:
+  - GIFT-0192中玄仙巅峰魂丹赠送返还
+  - gift_id: GIFT-0202
+    chapter: 751
+    quantity: 15
+    status: partial
   effect: 金仙巅峰层级神魂资源；完整效果与使用对象待确认
   current_state: 未确认使用
   status: partial
   related_nodes:
   - NODE-0096
+  - NODE-0099
   source_chapters:
   - 725
+  - 751
 - id: ART-0110
   name: 道气玄天丹
   category: 丹药
@@ -2967,3 +2990,34 @@ artifacts:
   - NODE-0098
   source_chapters:
   - 745
+- id: ART-0118
+  name: 诸葛青天两柄道器神剑（正式名称待确认）
+  category: 道器
+  grade: 道器
+  first_chapter: 747
+  current_holder: 龙九天
+  acquisition: 诸葛青天系统燃烧与既有资源形成两柄道器；第749章死亡后由龙九天收走
+  effect: 剑类道器，可显著提升玄仙巅峰闯塔战力；具体规则能力待确认
+  current_state: 由龙九天暂存，后续归属待宗门决定
+  status: partial
+  related_nodes:
+  - NODE-0099
+  source_chapters:
+  - 747
+  - 748
+  - 749
+  - 750
+- id: ART-0119
+  name: 鹤仙儿返还三件道器（正式名称待确认）
+  category: 道器
+  grade: 道器
+  first_chapter: 751
+  current_holder: 徐霄
+  acquisition: GIFT-0202中三件至尊仙器返还
+  effect: 三件道器的类别与规则能力均待确认
+  current_state: 已获得，未确认使用
+  status: partial
+  related_nodes:
+  - NODE-0099
+  source_chapters:
+  - 751
