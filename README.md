@@ -123,7 +123,7 @@ python scripts/run_full_repository_audit.py \
 
 ## RUN-0127 全书统计与关系图
 
-`TASK-0113` 从 canonical generated indexes 构建冻结的统计与查询快照，不修改正文事实：
+`TASK-0113` 从 canonical generated indexes 构建冻结的统计与查询快照，不修改正文事实。合并后的物化流程将 `source_commit` 固定为 RUN-0127 业务提交，而不是后续自动生成提交：
 
 ```bash
 python scripts/analyze_repository.py \
