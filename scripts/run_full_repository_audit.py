@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -23,7 +24,12 @@ def life_status(row: dict) -> str | None:
     change = row.get("status_change")
     values = change if isinstance(change, list) else [change]
     for value in reversed(values):
-        if isinstance(value, str) and any(token in value.lower() for token in ("alive", "dead", "死亡", "陨落", "身亡", "存活", "击杀")):
+        if not isinstance(value, str):
+            continue
+        lowered = value.lower()
+        if any(token in lowered for token in ("alive", "dead", "死亡", "陨落", "身亡", "存活")):
+            return value
+        if re.search(r"(?:被|遭)[^，。；;]{0,30}击杀", value):
             return value
     value = row.get("life_status")
     if isinstance(value, str):
@@ -79,7 +85,7 @@ def apply_repository_policy(root: Path, result: dict) -> dict:
         f"focus identities not directly resolved: {unresolved}",
         f"duplicate canonical names for review={len(result['findings']['characters']['duplicate_names'])}",
         "focus matching uses canonical name and alias/identity fields only; name similarity never proves identity",
-        "life status prefers the latest time-based status_change over historical snapshot fields",
+        "life status prefers the latest time-based death/alive transition over historical snapshot fields",
     ]
     identity_check["status"] = "warning" if unresolved or result["findings"]["characters"]["duplicate_names"] else "passed"
 
