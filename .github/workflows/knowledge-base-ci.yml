@@ -92,7 +92,7 @@ jobs:
         shell: bash
         run: |
           status=0
-          python scripts/full_repository_audit.py \
+          python scripts/run_full_repository_audit.py \
             --run-id RUN-0125 \
             --task-id TASK-0111 \
             --version v1.0.0 \
@@ -172,7 +172,7 @@ jobs:
           python scripts/render_character_growth.py --generated-dir data/generated
           python scripts/render_character_growth.py --generated-dir data/generated --check
           if [ ! -f data/audits/run-0125.yaml ]; then
-            python scripts/full_repository_audit.py \
+            python scripts/run_full_repository_audit.py \
               --run-id RUN-0125 \
               --task-id TASK-0111 \
               --version v1.0.0 \
