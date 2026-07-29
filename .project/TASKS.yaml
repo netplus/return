@@ -54,33 +54,8 @@ tasks:
     creates_timeline_node: false
     goals: [verification_debt_cleanup, alias_identity_consistency, dead_character_active_state_consistency, artifact_ownership_conservation, gift_to_artifact_linkage, final_state_snapshot]
   evidence_policy: Do not reduce pending or merge identities without direct evidence.
-  outputs:
-  - data/extensions/characters/run-0126.yaml
-  - data/extensions/artifacts/run-0126.yaml
-  - data/extensions/system/run-0126.yaml
-  - data/normalization/run-0126.yaml
-  - scripts/normalize_repository.py
-  - data/audits/run-0126.yaml
-  - data/generated/final-state.yaml
-  - docs/08-analysis/entity-normalization.md
-  - docs/08-analysis/final-state-snapshot.md
-  quality_gates:
-    source_traceability: passed
-    normalization_coherence: passed
-    materiality: passed
-    cross_index_consistency: passed
-    duplicate_work_check: passed
-    yaml_structure: passed
-    alias_identity_consistency: passed
-    duplicate_name_disposition: passed
-    dead_character_active_state_consistency: passed
-    gift_participant_resolution: passed_with_explicit_unresolved
-    gift_component_disposition: passed_with_explicit_unresolved
-    artifact_ownership_conservation: passed
-    final_state_snapshot_consistency: passed
-    entity_document_freshness: passed
-    entity_document_readability: passed
-    copyright_boundary: passed
+  outputs: [data/extensions/characters/run-0126.yaml, data/extensions/artifacts/run-0126.yaml, data/extensions/system/run-0126.yaml, data/normalization/run-0126.yaml, scripts/normalize_repository.py, data/audits/run-0126.yaml, data/generated/final-state.yaml, docs/08-analysis/entity-normalization.md, docs/08-analysis/final-state-snapshot.md]
+  quality_gates: {source_traceability: passed, normalization_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure: passed, alias_identity_consistency: passed, duplicate_name_disposition: passed, dead_character_active_state_consistency: passed, gift_participant_resolution: passed_with_explicit_unresolved, gift_component_disposition: passed_with_explicit_unresolved, artifact_ownership_conservation: passed, final_state_snapshot_consistency: passed, entity_document_freshness: passed, entity_document_readability: passed, copyright_boundary: passed}
   findings:
   - Corrected four directly evidenced Character names and three directly evidenced Artifact names.
   - Resolved 雪瑶仙帝 to CHAR-0002 and 天羽 to CHAR-0045 as time-scoped identities.
@@ -92,9 +67,49 @@ tasks:
 - id: TASK-0113
   title: 全书统计分析与关系图
   type: analysis
-  status: pending
+  status: done
+  completed_at: '2026-07-29'
+  run_id: RUN-0127
   target:
     scope: canonical_generated_indexes
     creates_timeline_node: false
     outputs: [Markdown, JSON_or_JSONL, SQLite, Mermaid_or_Graphviz]
+  outputs:
+  - data/analysis/run-0127-config.yaml
+  - scripts/analyze_repository.py
+  - .github/workflows/full-book-analysis.yml
+  - data/audits/run-0127.yaml
+  - data/analysis/run-0127/summary.json
+  - data/analysis/run-0127/relationships.jsonl
+  - data/analysis/run-0127/full-book.sqlite3
+  - data/analysis/run-0127/schema.sql
+  - docs/08-analysis/full-book-analysis.md
+  - docs/08-analysis/relationship-graph.mmd
+  - docs/08-analysis/relationship-graph.dot
+  quality_gates:
+    source_count_reconciliation: passed
+    timeline_continuity: passed
+    superseded_exclusion: passed
+    relationship_endpoint_integrity: passed
+    ambiguity_preservation: passed
+    sqlite_reconciliation: passed
+    jsonl_reconciliation: passed
+    deterministic_serialization_contract: passed
+    copyright_boundary: passed
+  findings:
+  - Built 2,581 relationship edges: 2,376 Timeline co-occurrence, 103 explicit relationship, 98 Gift and 4 identity edges.
+  - Built an 11-table SQLite snapshot with 108 nodes, 235 Character records, 259 Gifts and 149 Artifacts.
+  - Preserved 53 ambiguous Timeline labels, 14 unresolved Gift participant labels and 14 ambiguous explicit relationship labels as findings.
+  - Generated a 30-node, 120-edge visual projection while retaining the complete edge set in JSONL and SQLite.
   depends_on: [TASK-0112]
+- id: TASK-0114
+  title: 番外 scope 盘点与独立命名空间初始化
+  type: extras
+  status: pending
+  target:
+    scope: extras
+    creates_main_timeline_node: false
+    goals: [source_inventory, namespace_definition, chapter_boundary_inventory, main_story_isolation_validation]
+    outputs: [inventory_report, machine_readable_scope_manifest, isolated_task_plan]
+  evidence_policy: Do not infer or mix extras into the completed Chapter 1-876 main-story Timeline.
+  depends_on: [TASK-0113]
