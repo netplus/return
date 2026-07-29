@@ -20,16 +20,16 @@ import knowledge_base as kb  # noqa: E402
 
 
 def life_status(row: dict) -> str | None:
-    for key in ("life_status", "status"):
-        value = row.get(key)
-        if isinstance(value, str):
-            return value
     change = row.get("status_change")
     values = change if isinstance(change, list) else [change]
     for value in reversed(values):
-        if isinstance(value, str) and any(token in value.lower() for token in ("alive", "dead", "死亡", "陨落", "身亡", "存活")):
+        if isinstance(value, str) and any(token in value.lower() for token in ("alive", "dead", "死亡", "陨落", "身亡", "存活", "击杀")):
             return value
-    return None
+    value = row.get("life_status")
+    if isinstance(value, str):
+        return value
+    value = row.get("status")
+    return value if isinstance(value, str) else None
 
 
 def apply_repository_policy(root: Path, result: dict) -> dict:
@@ -79,6 +79,7 @@ def apply_repository_policy(root: Path, result: dict) -> dict:
         f"focus identities not directly resolved: {unresolved}",
         f"duplicate canonical names for review={len(result['findings']['characters']['duplicate_names'])}",
         "focus matching uses canonical name and alias/identity fields only; name similarity never proves identity",
+        "life status prefers the latest time-based status_change over historical snapshot fields",
     ]
     identity_check["status"] = "warning" if unresolved or result["findings"]["characters"]["duplicate_names"] else "passed"
 
