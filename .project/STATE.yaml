@@ -1,10 +1,10 @@
 schema_version: 2
 updated_at: '2026-07-29'
-last_run_id: RUN-0126
+last_run_id: RUN-0127
 story_status: complete
 project_status: maintenance
 release_status: preparing_v1
-milestone: M20
+milestone: M21
 workflow:
   standard_version: 2.6
   unit: story_arc
@@ -30,7 +30,7 @@ entity_documents:
 scope: {chapter_start: 1, chapter_end: 876}
 scopes:
   main_story: {status: complete, chapter_start: 1, chapter_end: 876, timeline_namespace: NODE}
-  extras: {status: deferred, included_in_main_timeline: false, priority: after_v1_audit}
+  extras: {status: pending_inventory, included_in_main_timeline: false, priority: next, task_id: TASK-0114}
 progress:
   chapters_covered_through: 876
   chapters_examined_through: 876
@@ -82,13 +82,39 @@ normalization:
     gift_component_rows_dispositioned: 25
     artifact_lifecycle_repairs: 3
     explicit_unresolved_participant_gifts: [GIFT-0110, GIFT-0160, GIFT-0257]
+analysis:
+  run_id: RUN-0127
+  task_id: TASK-0113
+  status: passed_with_documented_ambiguity
+  creates_timeline_node: false
+  scope: canonical_generated_indexes
+  config: data/analysis/run-0127-config.yaml
+  generator: scripts/analyze_repository.py
+  machine_report: data/audits/run-0127.yaml
+  outputs:
+  - data/analysis/run-0127/summary.json
+  - data/analysis/run-0127/relationships.jsonl
+  - data/analysis/run-0127/full-book.sqlite3
+  - data/analysis/run-0127/schema.sql
+  - docs/08-analysis/full-book-analysis.md
+  - docs/08-analysis/relationship-graph.mmd
+  - docs/08-analysis/relationship-graph.dot
+  results:
+    relationship_edges: 2581
+    relationship_edge_types: {timeline_cooccurrence: 2376, explicit_relationship: 103, gift: 98, identity: 4}
+    sqlite_tables: 11
+    graph_nodes: 30
+    graph_edges: 120
+    ambiguous_timeline_labels: 53
+    unresolved_gift_participants: 14
+    ambiguous_explicit_relationship_labels: 14
 current:
-  next_task: TASK-0113
+  next_task: TASK-0114
   task_status: pending
-  task_type: analysis
+  task_type: extras
   next_chapter: null
   provisional_arc_end: null
-  last_completed_task: TASK-0112
+  last_completed_task: TASK-0113
 status: maintenance
 blockers:
 - id: BLOCK-0005
