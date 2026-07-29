@@ -1,13 +1,16 @@
 # Project dashboard
 
-- **Status:** Complete — main story coverage finished
-- **Current milestone:** M18 — Chapters 851–876
-- **Workflow standard:** v2.4 — Story-arc aggregation plus reader-friendly, identity-aligned and time-based character growth documents
+- **Story status:** Complete — main story covers Chapters 1—876
+- **Project status:** Maintenance
+- **Release status:** Preparing `v1.0.0`
+- **Current milestone:** M19 — Full-repository audit and v1 baseline
+- **Workflow standard:** v2.5 — Story construction plus maintenance, audit, analysis, release and extras isolation
 - **Canonical index mode:** Base indexes plus append-only extensions
 - **Entity-document mode:** Reader-friendly canonical projection with staged growth lines and collapsed audit appendix
 - **Canonical coverage through:** Chapter 876
 - **Current evidence exploration through:** Chapter 876
-- **Directly verified through:** Chapter 16
+- **Direct official verification through:** Chapter 16
+- **Archive text and per-chapter hash coverage through:** Chapter 876
 - **Completed timeline nodes:** 108
 - **Draft timeline nodes:** 0
 - **Documented characters:** 235
@@ -15,36 +18,64 @@
 - **Gift events:** 259
 - **Artifact records:** 149
 - **Generated artifact profiles:** 149
-- **Last run:** `RUN-0124`
+- **Last run:** `RUN-0125`
+- **Last completed task:** `TASK-0111`
 - **Last completed node:** `NODE-0108`
-- **Next task:** None — 正文主线已覆盖至终章
-- **Blockers:** None
+- **Next unique pending task:** `TASK-0112` — Pending、Conflict 与实体规范化
+- **Release blocker:** `BLOCK-0005` — authorized connector cannot create a tag or GitHub Release
 
-## Latest completed arc
+## RUN-0125 — full repository audit
 
-`NODE-0108` covers Chapters 864—876. 黑神、破玄、冥法与神煞界神王神无机将仙帝宫传送进炼神鼎；徐霄以系统返还和高阶丹药救下主要势力，随后依次击杀三帝、神煞界大罗与神无机。炼神鼎危机解除后，徐霄成为九大仙域至尊仙帝，三年后晋升大罗，正文在太初仙帝宫终局。
+`TASK-0111` audited the complete main-story canonical knowledge base without creating a new Timeline Node. The deterministic audit parses 511 YAML files, rebuilds all four canonical indexes, validates 751 global IDs, checks continuous Chapter 1—876 Timeline coverage, verifies 384 generated entity documents and records verification debt and reproducibility hashes.
 
-## Character growth updates
+The audit corrected one canonical chronology defect through an append-only extension: `GIFT-0027` now uses `NODE-0018` for the Chapter 116 gift and `NODE-0019` as the Chapter 119 resolution node.
 
-`RUN-0124` adds 神无机 and appends timed growth events for徐霄、黑神、破玄、冥法、灵心、魔无花、天翎、狐嫣、朱圆圆、轩辕金花、血玉罗、凤青玄、姬雪／雪瑶 and初殷.
+## Audit findings queued for TASK-0112
 
-## Quality gates — RUN-0124
+- Seven duplicate canonical character-name groups require evidence-based identity normalization; no similarity-based merge was performed.
+- Exact canonical identity labels `雪瑶仙帝` and `天羽` were not directly resolved and remain explicit review items.
+- Eighteen Gift participant identity candidates and twenty-five Gift rows without exact Artifact-name matching require structured normalization.
+- Three duplicate Artifact-name groups and three consumed-or-destroyed ownership candidates require lifecycle reconciliation.
+- No Timeline gap or overlap was found; no dead-character active-state candidate was found by the current structured-field audit.
+
+## Verification debt
+
+| Status | Field occurrences | Records containing status |
+|---|---:|---:|
+| verified | 579 | 265 |
+| partial | 1404 | 577 |
+| pending | 59 | 54 |
+| conflict | 0 | 0 |
+| inferred | 1 | 1 |
+
+“Official direct verification through Chapter 16” describes only one evidence channel. Chapters 17—876 were also read through archived text, checked against per-chapter SHA-256 metadata and, where applicable, cross-checked with readable mirrors; they are not equivalent to unread chapters.
+
+## Quality gates — RUN-0125
 
 | Gate | Result |
 |---|---|
-| Source traceability | Passed — archived hashes and retained transient evidence |
-| Arc coherence | Passed — Chapter 876 is the main-story ending |
+| Source traceability | Passed with evidence-channel qualifications |
+| Audit coherence | Passed — no new story node |
 | Materiality | Passed |
-| Cross-index consistency | Passed |
+| Cross-index consistency | Passed — 0 reference errors after correction |
 | Duplicate-work check | Passed |
-| YAML structure review | Passed |
+| YAML structure | Passed — 511 files |
+| Canonical rebuild | Passed; PR drift is refreshed automatically after merge |
+| Extension append-only | Passed with historical filename compatibility |
 | Entity-document freshness | Passed — 235 character and 149 artifact records |
 | Entity-document readability | Passed |
-| Character identity alignment | Passed — 0 mismatches |
-| Character growth continuity | Passed — 13 timed updates and 1 new first appearance |
-| Growth temporal accuracy | Passed |
+| Character identity alignment | Passed with queued findings |
+| Character growth continuity | Passed |
+| Growth temporal accuracy | Passed — latest time-based status takes precedence |
+| Gift—Artifact linkage | Passed with queued findings |
+| Artifact ownership lifecycle | Passed with queued findings |
+| Final-state consistency | Passed |
+| Pending/conflict accounting | Passed |
+| Audit reproducibility | Passed |
 | Copyright boundary | Passed |
 
-## Source qualification
+## Final-state and release boundary
 
-Chapters 864—876 were read from the unexpired `source-chapters-827-876` artifact and matched to archived per-chapter SHA-256 values. No full chapter text entered Git history. The three retained upgrade opportunities and the detailed rules of the传送仙台 remain pending.
+The main story remains closed at Chapter 876. Extras are excluded from the main Timeline and deferred until after the v1 audit. The **三次暂存升级机会 remain `pending`**; no usage result is inferred.
+
+Repository reports and `RELEASE_NOTES_v1.0.0.md` are prepared for automatic post-merge materialization. Git tag and GitHub Release `v1.0.0` are **not created** because the authorized connector exposes no tag/Release creation action; this remains `BLOCK-0005` rather than a fabricated success.
