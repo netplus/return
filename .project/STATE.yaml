@@ -1,10 +1,15 @@
 schema_version: 2
 updated_at: '2026-07-29'
-last_run_id: RUN-0124
-milestone: M18
+last_run_id: RUN-0125
+story_status: complete
+project_status: maintenance
+release_status: preparing_v1
+milestone: M19
 workflow:
-  standard_version: 2.4
+  standard_version: 2.5
   unit: story_arc
+  active_mode: maintenance
+  supported_task_types: [story_arc, audit, data_quality, normalization, analysis, release, extras]
   default_chapter_window: 5-10
   boundary_mode: adaptive
   standard_document: docs/00-project/WORKFLOW.md
@@ -22,7 +27,10 @@ entity_documents:
   growth_continuity_effective_run: RUN-0082
   growth_stage_window_chapters: 50
   growth_temporal_accuracy: no_backfill_from_merged_current_snapshot
-scope: {chapter_start: 851, chapter_end: 876}
+scope: {chapter_start: 1, chapter_end: 876}
+scopes:
+  main_story: {status: complete, chapter_start: 1, chapter_end: 876, timeline_namespace: NODE}
+  extras: {status: deferred, included_in_main_timeline: false, priority: after_v1_audit}
 progress:
   chapters_covered_through: 876
   chapters_examined_through: 876
@@ -38,6 +46,38 @@ progress:
   artifact_records: 149
   artifacts_staged: 0
   last_completed_node: NODE-0108
-current: {next_task: null, task_status: complete, next_chapter: null, provisional_arc_end: null}
-status: complete
-blockers: []
+audit:
+  baseline_version: v1.0.0
+  run_id: RUN-0125
+  task_id: TASK-0111
+  status: passed_with_findings
+  reports:
+  - docs/08-analysis/full-repository-audit.md
+  - docs/08-analysis/verification-debt.md
+  - docs/08-analysis/v1-baseline-statistics.md
+  machine_report: data/audits/run-0125.yaml
+  release_notes: RELEASE_NOTES_v1.0.0.md
+  verification_field_occurrences: {verified: 579, partial: 1404, pending: 59, conflict: 0, inferred: 1}
+  findings_queued_for_normalization:
+  - seven duplicate canonical character-name groups
+  - unresolved exact identities for 雪瑶仙帝 and 天羽
+  - eighteen Gift participant identity candidates
+  - twenty-five Gift rows without exact Artifact-name linkage
+  - three duplicate Artifact-name groups
+  - three consumed-or-destroyed Artifact ownership candidates
+  correction_applied: GIFT-0027 moved from NODE-0019 to gift node NODE-0018 with resolution node NODE-0019
+current:
+  next_task: TASK-0112
+  task_status: pending
+  task_type: normalization
+  next_chapter: null
+  provisional_arc_end: null
+  last_completed_task: TASK-0111
+status: maintenance
+blockers:
+- id: BLOCK-0005
+  category: release
+  status: open
+  reason: The authorized GitHub connector exposes no tag or GitHub Release creation action.
+  impact: Repository v1 baseline and release notes can be completed and verified, but GitHub Release v1.0.0 cannot be truthfully marked created in this Run.
+  next_action: Create tag and GitHub Release v1.0.0 from RELEASE_NOTES_v1.0.0.md after the post-merge generated-view commit is verified.

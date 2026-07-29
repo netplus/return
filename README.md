@@ -1,60 +1,100 @@
 # return
 
-《万倍返还，年迈的我去当舔狗》结构化知识库。
+《万倍返还，年迈的我去当舔狗》结构化剧情知识库。
 
-本仓库用于管理全书剧情时间线、人物成长、系统返还、境界变化、势力演化、法宝神通、战斗记录与来源核验。
+正文第 1—876 章已完成结构化覆盖。仓库现处于 `maintenance / audit / analysis / release` 阶段，继续维护人物身份、赠送与返还、物品流转、最终状态、核验债务和自动派生分析；正文完成不等于项目停止维护。
 
-## 项目目标
+## 项目状态
 
-- 以剧情阶段而非单章为主线，建立稳定、可维护的剧情节点。
-- 第一阶段第 1—50 章预计整理为约 8—12 个剧情阶段节点；后续按实际剧情密度动态调整。
-- 建立章节证据、人物、系统、境界、势力和物品之间的交叉索引。
-- 所有重要结论均保留来源与核验状态。
+- `story_status: complete`
+- `project_status: maintenance`
+- `release_status: preparing_v1`
+- 正文 Timeline 截止第 876 章；不得虚构第 877 章后的主线。
+- 番外使用独立 `scope: extras`，不进入正文节点连续性和正文完成统计。
+- 实时状态、唯一下一项 Task 和 blocker 以 `.project/STATE.yaml`、`.project/TASKS.yaml` 与 `.project/DASHBOARD.md` 为准。
+
+## 知识库目标
+
+- 以剧情阶段而非单章为主线，建立稳定、可维护的 Timeline。
+- 建立章节证据、人物、系统、境界、势力、物品和战斗之间的交叉索引。
 - 区分正文事实、上下文推断、来源冲突和待核实内容。
+- 从 canonical generated indexes 自动生成实体档案、审计报告和后续统计分析，避免手工维护第二份事实。
+- 不保存整章正文，只保存原创摘要、结构化事实、来源元数据、哈希和核验状态。
 
 ## 工作标准
 
 - 章节是证据单元，不默认一章一个 Timeline Node。
-- 一个剧情节点通常覆盖约 5—10 章，以冲突闭环、目标转换或重大状态变化为边界。
+- `story_arc` Task 以冲突闭环、目标转换或重大状态变化为边界。
+- 维护阶段支持 `audit`、`data_quality`、`normalization`、`analysis`、`release` 和隔离的 `extras` Task。
+- 每次 Run 只执行唯一下一项 pending Task，并使用新的 Run ID。
 - 人物、物品和系统档案只在出现长期有效的实质变化时增量更新。
-- 一个 Task 对应一个完整剧情阶段，并以一个完整 Git Commit 交付。
+- `data/generated/`、人物档案、物品档案和 manifest 是自动物化视图，不是手工事实源。
+- 修正必须进入基础索引或 append-only extensions。
 - 详细规范见 `docs/00-project/WORKFLOW.md`。
 
 ## 目录
 
 - `docs/00-project/`：项目规范、路线图与术语表
-- `docs/01-timeline/`：剧情节点与总时间线
-- `docs/02-characters/`：人物档案
+- `docs/01-timeline/`：正文剧情节点与总时间线
+- `docs/02-characters/`：自动物化的人物档案
 - `docs/03-system/`：系统与返还记录
 - `docs/04-world/`：世界观、地点与势力
 - `docs/05-realms/`：境界体系与成长轨迹
-- `docs/06-artifacts/`：法宝、丹药、功法与神通
+- `docs/06-artifacts/`：自动物化的法宝、丹药、功法与神通档案
 - `docs/07-battles/`：战斗记录
-- `docs/08-analysis/`：专题分析
+- `docs/08-analysis/`：审计与自动派生分析
 - `data/`：结构化 YAML 数据
 - `data/extensions/`：不可变追加记录与增量补丁
 - `data/generated/`：由脚本生成的完整 canonical indexes
-- `scripts/`：索引聚合与一致性校验工具
-- `templates/`：统一文档模板
-- `sources/`：来源索引与核验说明
+- `data/audits/`：机器可读审计基线
+- `scripts/`：索引聚合、渲染、身份校验、成长连续性和全库审计工具
+- `sources/`：来源索引、归档哈希与核验说明
 
-## 结构化索引
+## Canonical 索引
 
 仓库采用三层索引模型：
 
 1. `data/timeline/`、`data/characters/`、`data/system/`、`data/artifacts/` 保存周期性压缩后的基础索引；
 2. `data/extensions/` 保存每次 Run 的追加记录和对既有实体的增量更新；
-3. `data/generated/` 将基础索引与全部扩展实时合并，是外部程序默认应读取的完整索引。
+3. `data/generated/` 将基础索引与全部扩展合并，是外部程序默认应读取的完整索引。
 
 本地生成和校验：
 
 ```bash
 python -m pip install PyYAML==6.0.2
-python scripts/knowledge_base.py build
+python scripts/test_knowledge_base.py
+python scripts/test_render_entity_docs.py
+python scripts/test_validate_entity_identity.py
+python scripts/test_render_character_growth.py
+python scripts/knowledge_base.py validate
+python scripts/knowledge_base.py build --output-dir data/generated
 python scripts/knowledge_base.py validate --generated-dir data/generated
+python scripts/validate_entity_identity.py --generated-dir data/generated
+python scripts/render_character_growth.py --validate-continuity --effective-run 82
+python scripts/render_character_growth.py --generated-dir data/generated --check
 ```
 
-`Knowledge Base CI` 会检查 YAML、全局 ID、跨索引引用、Timeline 区间及 Project OS 统计，并在 `main` 更新后刷新 `data/generated/`。任何改变 canonical data 的 `main` 提交都会触发这一重建流程。`Compact Base Indexes` 每周将扩展安全合并回基础索引；扩展文件继续保留为增量审计记录。
+## v1 全库审计
+
+`RUN-0125` 增加可复现审计：
+
+```bash
+python scripts/run_full_repository_audit.py \
+  --run-id RUN-0125 \
+  --task-id TASK-0111 \
+  --version v1.0.0 \
+  --output-root build/audit
+```
+
+物化产物包括：
+
+- `docs/08-analysis/full-repository-audit.md`
+- `docs/08-analysis/verification-debt.md`
+- `docs/08-analysis/v1-baseline-statistics.md`
+- `data/audits/run-0125.yaml`
+- `RELEASE_NOTES_v1.0.0.md`
+
+审计明确区分官方页面直接核验、用户归档正文、逐章 SHA-256、可读镜像、单一来源、上下文推断和正文冲突。“官方直接核验至第 16 章”不表示第 17—876 章未经正文阅读。
 
 ## 核验状态
 
@@ -64,6 +104,14 @@ python scripts/knowledge_base.py validate --generated-dir data/generated
 - `conflict`：来源之间存在冲突
 - `pending`：尚未核实
 
-## 当前阶段
+不得为了减少 pending 数量进行无证据推断，也不得因名字相似擅自合并人物或物品。
 
-项目进度以 `.project/STATE.yaml` 和 `.project/DASHBOARD.md` 为准；README 不再手工复制易过期的章节进度数字。
+## 自动化与发布边界
+
+`Knowledge Base CI` 在 PR 中运行全部测试、临时 canonical 重建、实体文档校验和全库审计；`main` 更新后刷新 tracked generated views，并冻结尚未存在的 v1 审计产物。
+
+当前授权连接器不能创建 Git tag 或 GitHub Release，因此仓库内 Release Notes 可以完成，但 `v1.0.0` Release 在 GitHub 实际创建前始终保持 blocker，不会被虚构为已发布。
+
+## 版权边界
+
+本仓库不保存整章正文，仅保存原创摘要、结构化事实、来源元数据、哈希和核验状态。原作品版权归原作者及相关权利人所有。
