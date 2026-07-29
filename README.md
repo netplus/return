@@ -33,6 +33,7 @@
 - 重复人物 ID 通过 `record_status: superseded` 保留历史审计链；不得因名字相似删除或合并。
 - Gift 的人物解析与资源组件分类分开处理；普通资源批次不强制创建 Artifact。
 - 消耗或损毁 Artifact 不得继续保留 active `current_holder`。
+- Timeline 共现关系仅是分析派生边，不得反向写成 canonical 人物关系事实。
 - 详细规范见 `docs/00-project/WORKFLOW.md`。
 
 ## 目录
@@ -49,9 +50,10 @@
 - `data/`：结构化 YAML 数据
 - `data/extensions/`：不可变追加记录与增量补丁
 - `data/generated/`：由脚本生成的完整 canonical indexes 与终局快照
-- `data/audits/`：机器可读审计和规范化门禁结果
+- `data/audits/`：机器可读审计、规范化和分析门禁结果
 - `data/normalization/`：证据化规范化决策账本
-- `scripts/`：索引聚合、渲染、身份校验、成长连续性、全库审计和规范化工具
+- `data/analysis/`：统计摘要、完整关系边和 SQLite 查询快照
+- `scripts/`：索引聚合、渲染、身份校验、成长连续性、全库审计、规范化和分析工具
 - `sources/`：来源索引、归档哈希与核验说明
 
 ## Canonical 索引
@@ -119,6 +121,38 @@ python scripts/run_full_repository_audit.py \
 - `docs/08-analysis/entity-normalization.md`
 - `docs/08-analysis/final-state-snapshot.md`
 
+## RUN-0127 全书统计与关系图
+
+`TASK-0113` 从 canonical generated indexes 构建冻结的统计与查询快照，不修改正文事实。合并后的物化流程将 `source_commit` 固定为 RUN-0127 业务提交，而不是后续自动生成提交：
+
+```bash
+python scripts/analyze_repository.py \
+  --generated-dir data/generated \
+  --output-root . \
+  --source-commit "$(git rev-parse HEAD)" \
+  --analysis-date 2026-07-29
+```
+
+主要产物：
+
+- `data/analysis/run-0127/summary.json`：全书统计摘要；
+- `data/analysis/run-0127/relationships.jsonl`：完整关系边；
+- `data/analysis/run-0127/full-book.sqlite3`：11 表查询数据库；
+- `data/analysis/run-0127/schema.sql`：SQLite Schema；
+- `docs/08-analysis/full-book-analysis.md`：人类可读分析；
+- `docs/08-analysis/relationship-graph.mmd`：Mermaid 关系图；
+- `docs/08-analysis/relationship-graph.dot`：Graphviz 关系图；
+- `data/audits/run-0127.yaml`：机器门禁、输入哈希和输出哈希。
+
+关系边分为 Gift、显式关系、身份关系和 Timeline 共现。Timeline 共现只是同一剧情节点中的共同出现；无法唯一解析的人名或关系标签保留为 finding，不强制绑定 Character ID。
+
+SQLite 示例：
+
+```bash
+sqlite3 data/analysis/run-0127/full-book.sqlite3 \
+  "SELECT name, weighted_degree, neighbor_count FROM characters WHERE record_status != 'superseded' ORDER BY weighted_degree DESC LIMIT 10;"
+```
+
 ## 核验状态
 
 - `verified`：正文直接确认
@@ -131,7 +165,7 @@ python scripts/run_full_repository_audit.py \
 
 ## 自动化与发布边界
 
-`Knowledge Base CI` 在 PR 中运行全部测试、临时 canonical 重建、实体文档校验、全库审计和规范化门禁；`main` 更新后刷新 tracked generated views、终局快照和报告，并冻结尚未存在的 v1 审计产物。
+`Knowledge Base CI` 在 PR 中运行全部测试、临时 canonical 重建、实体文档校验、全库审计和规范化门禁；`Full Book Analysis` 生成并验证 JSON、JSONL、SQLite、Mermaid 和 Graphviz 产物。合并后，分析快照在 canonical refresh 完成后冻结，避免两个工作流竞争写入 `main`。
 
 当前授权连接器不能创建 Git tag 或 GitHub Release，因此仓库内 Release Notes 可以完成，但 `v1.0.0` Release 在 GitHub 实际创建前始终保持 blocker，不会被虚构为已发布。
 

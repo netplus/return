@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0127
+task_id: TASK-0113
+updated_at: '2026-07-29'
+type: analysis
+creates_timeline_node: false
+scope: canonical_generated_indexes
+freeze_after_materialization: true
+source_commit_policy: latest_non_generated_business_commit
+expected:
+  chapter_start: 1
+  chapter_end: 876
+  timeline_nodes: 108
+  characters_total: 235
+  characters_active: 233
+  gifts: 259
+  artifacts: 149
+analysis:
+  phase_size_chapters: 100
+  graph_top_characters: 30
+  graph_min_edge_weight: 2
+  edge_weights:
+    gift: 5
+    explicit_relationship: 3
+    identity: 2
+    timeline_cooccurrence: 1
+  exclude_superseded_from_active_analysis: true
+  preserve_ambiguous_labels_as_findings: true
+outputs:
+  machine_audit: data/audits/run-0127.yaml
+  summary_json: data/analysis/run-0127/summary.json
+  relationships_jsonl: data/analysis/run-0127/relationships.jsonl
+  sqlite: data/analysis/run-0127/full-book.sqlite3
+  sqlite_schema: data/analysis/run-0127/schema.sql
+  markdown: docs/08-analysis/full-book-analysis.md
+  mermaid: docs/08-analysis/relationship-graph.mmd
+  graphviz: docs/08-analysis/relationship-graph.dot
+quality_policy:
+  - statistics_must_be_derived_from_canonical_generated_indexes
+  - superseded_records_must_not_count_as_active_entities
+  - heuristic_cooccurrence_edges_must_be_labeled_as_analysis_only
+  - unresolved_or_ambiguous_labels_must_not_be_forced_to_character_ids
+  - sqlite_row_counts_must_reconcile_to_summary_json
+  - generated_outputs_must_be_deterministic_for_identical_inputs
