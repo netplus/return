@@ -1,0 +1,13 @@
+schema_version: 1
+run_id: RUN-0125
+updated_at: '2026-07-29'
+gift_updates:
+- id: GIFT-0027
+  update:
+    node_set: NODE-0018
+    resolution_node_set: NODE-0019
+    audit_correction_add:
+    - run: RUN-0125
+      reason: 第116章的虚天丹赠送属于NODE-0018；第119章血肉金身丹结算属于NODE-0019
+      evidence: [data/generated/timeline.yaml, data/generated/gifts.yaml]
+      status: verified
