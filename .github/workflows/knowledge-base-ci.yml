@@ -9,6 +9,11 @@ on:
       - 'docs/02-characters/**'
       - 'docs/06-artifacts/**'
       - 'docs/entity-docs-manifest.yaml'
+      - 'data/audits/run-0125.yaml'
+      - 'docs/08-analysis/full-repository-audit.md'
+      - 'docs/08-analysis/verification-debt.md'
+      - 'docs/08-analysis/v1-baseline-statistics.md'
+      - 'RELEASE_NOTES_v1.0.0.md'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
@@ -83,6 +88,16 @@ jobs:
             --output-root build/entity-docs \
             --check
 
+      - name: Run reproducible full-repository audit
+        run: |
+          python scripts/full_repository_audit.py \
+            --run-id RUN-0125 \
+            --task-id TASK-0111 \
+            --version v1.0.0 \
+            --audit-date 2026-07-29 \
+            --source-commit "${GITHUB_SHA}" \
+            --output-root build/audit
+
       - name: Check whitespace errors
         run: git diff --check
 
@@ -105,6 +120,17 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
+      - name: Upload v1 audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v1-audit-${{ github.sha }}
+          path: |
+            build/audit/docs/08-analysis
+            build/audit/data/audits/run-0125.yaml
+            build/audit/RELEASE_NOTES_v1.0.0.md
+          if-no-files-found: error
+          retention-days: 30
+
   refresh-generated:
     if: >-
       github.event_name == 'push' ||
@@ -125,7 +151,7 @@ jobs:
       - name: Install generator dependency
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
 
-      - name: Rebuild tracked generated indexes and entity documents
+      - name: Rebuild tracked generated views and freeze v1 audit once
         run: |
           python scripts/knowledge_base.py build --output-dir data/generated
           python scripts/knowledge_base.py validate --generated-dir data/generated
@@ -133,20 +159,40 @@ jobs:
           python scripts/render_character_growth.py --validate-continuity --effective-run 82
           python scripts/render_character_growth.py --generated-dir data/generated
           python scripts/render_character_growth.py --generated-dir data/generated --check
+          if [ ! -f data/audits/run-0125.yaml ]; then
+            python scripts/full_repository_audit.py \
+              --run-id RUN-0125 \
+              --task-id TASK-0111 \
+              --version v1.0.0 \
+              --audit-date 2026-07-29 \
+              --source-commit "${GITHUB_SHA}" \
+              --output-root .
+          fi
 
       - name: Commit and push refreshed generated views
         shell: bash
         run: |
           mkdir -p build
-          if [ -z "$(git status --porcelain -- data/generated docs/02-characters docs/06-artifacts docs/entity-docs-manifest.yaml)" ]; then
-            echo 'Generated indexes and entity documents are already current.' | tee build/push.log
+          TRACKED_PATHS=(
+            data/generated
+            docs/02-characters
+            docs/06-artifacts
+            docs/entity-docs-manifest.yaml
+            data/audits/run-0125.yaml
+            docs/08-analysis/full-repository-audit.md
+            docs/08-analysis/verification-debt.md
+            docs/08-analysis/v1-baseline-statistics.md
+            RELEASE_NOTES_v1.0.0.md
+          )
+          if [ -z "$(git status --porcelain -- "${TRACKED_PATHS[@]}")" ]; then
+            echo 'Generated views and v1 audit baseline are already current.' | tee build/push.log
             exit 0
           fi
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/generated docs/02-characters docs/06-artifacts docs/entity-docs-manifest.yaml
-          git commit -m 'chore(data): refresh generated indexes and entity docs'
+          git add "${TRACKED_PATHS[@]}"
+          git commit -m 'chore(data): refresh generated views and freeze v1 audit'
 
           set -o pipefail
           git push origin HEAD:main 2>&1 | tee build/push.log
