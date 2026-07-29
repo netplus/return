@@ -1,5 +1,11 @@
 schema_version: 2
-workflow: {standard_version: 2.4, unit: story_arc, default_chapter_window: 5-10, boundary_mode: adaptive}
+workflow:
+  standard_version: 2.5
+  unit: story_arc
+  active_mode: maintenance
+  supported_task_types: [story_arc, audit, data_quality, normalization, analysis, release, extras]
+  default_chapter_window: 5-10
+  boundary_mode: adaptive
 history_note: Full task metadata through RUN-0103 remains auditable in Git history and .project/CHANGELOG.md.
 tasks:
 - {id: TASK-0099, status: done, run_id: RUN-0113}
@@ -23,3 +29,65 @@ tasks:
   outputs: [docs/01-timeline/node-0108.md, data/extensions/timeline/run-0124.yaml, data/extensions/characters/run-0124.yaml, data/extensions/system/run-0124.yaml, data/extensions/artifacts/run-0124.yaml, sources/evidence/chapters-864-876.yaml]
   quality_gates: {source_traceability: passed, arc_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure_review: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed}
   depends_on: [TASK-0109]
+- id: TASK-0111
+  title: 全库审计与 v1.0 基线发布
+  type: audit
+  status: done
+  completed_at: '2026-07-29'
+  run_id: RUN-0125
+  target: {scope: main_story, chapter_start: 1, chapter_end: 876, creates_timeline_node: false, release_version: v1.0.0}
+  outputs:
+  - scripts/full_repository_audit.py
+  - scripts/run_full_repository_audit.py
+  - data/extensions/system/run-0125.yaml
+  - docs/08-analysis/full-repository-audit.md
+  - docs/08-analysis/verification-debt.md
+  - docs/08-analysis/v1-baseline-statistics.md
+  - data/audits/run-0125.yaml
+  - RELEASE_NOTES_v1.0.0.md
+  quality_gates:
+    source_traceability: passed_with_qualifications
+    audit_coherence: passed
+    materiality: passed
+    cross_index_consistency: passed
+    duplicate_work_check: passed
+    yaml_structure: passed
+    entity_document_freshness: passed
+    entity_document_readability: passed
+    character_identity_alignment: passed_with_findings
+    character_growth_continuity: passed
+    growth_temporal_accuracy: passed
+    copyright_boundary: passed
+    project_os_metrics_consistency: passed
+    audit_reproducibility: passed
+    final_state_consistency: passed
+    pending_conflict_accounting: passed
+  findings:
+  - Corrected GIFT-0027 gift node from NODE-0019 to NODE-0018 and retained NODE-0019 as resolution_node.
+  - Preserved seven duplicate canonical character-name groups for evidence-based normalization.
+  - Preserved unresolved exact identity labels 雪瑶仙帝 and 天羽; no name-similarity merge was performed.
+  - Queued Gift participant, Gift-to-Artifact and Artifact lifecycle candidates for TASK-0112.
+  release:
+    repository_baseline_prepared: true
+    github_release_created: false
+    blocker: BLOCK-0005
+  depends_on: [TASK-0110]
+- id: TASK-0112
+  title: Pending、Conflict 与实体规范化
+  type: normalization
+  status: pending
+  target:
+    scope: canonical_knowledge_base
+    creates_timeline_node: false
+    goals: [verification_debt_cleanup, alias_identity_consistency, dead_character_active_state_consistency, artifact_ownership_conservation, gift_to_artifact_linkage, final_state_snapshot]
+  evidence_policy: Do not reduce pending or merge identities without direct evidence.
+  depends_on: [TASK-0111]
+- id: TASK-0113
+  title: 全书统计分析与关系图
+  type: analysis
+  status: planned
+  target:
+    scope: canonical_generated_indexes
+    creates_timeline_node: false
+    outputs: [Markdown, JSON_or_JSONL, SQLite, Mermaid_or_Graphviz]
+  depends_on: [TASK-0112]
