@@ -1,5 +1,24 @@
 # Changelog
 
+## RUN-0125 — 2026-07-29
+
+- Read Workflow, State, Tasks, Metrics, Dashboard, Changelog, CI, generators, validators, extension rules, latest `main` and the latest generated-view commit before execution.
+- Confirmed the recovery baseline from the repository itself: `RUN-0124`, `TASK-0110`, `NODE-0108`, Chapters 1—876, 108 Timeline nodes, 235 characters, 259 Gift events, 149 Artifacts, no pending Task and no pre-existing blocker.
+- Created only the new audit task `TASK-0111`; did not create or modify any main-story Timeline Node and did not process extras.
+- Added deterministic full-repository audit tooling and PR/main CI integration. The audit parses all YAML, rebuilds canonical indexes, validates IDs, Timeline continuity, references, Project OS metrics, generated entity documents, character growth, final state, verification debt, copyright boundary and reproducibility hashes.
+- The first audit CI run failed with 44 reported blocking lines. Diagnostics showed that 41 lines came from an invalid assumption that historical extension filenames must equal Run IDs and that each Run may have only one root extension file; the historical extension contract permits those layouts. The audit policy now treats them as compatibility warnings while continuing to enforce deterministic rebuild and retention.
+- The same failed run exposed a real cross-index defect: `GIFT-0027` was anchored to `NODE-0019` although its gift chapter is 116 and belongs to `NODE-0018`. Added append-only `data/extensions/system/run-0125.yaml` to set `node: NODE-0018` and `resolution_node: NODE-0019`.
+- A later PR audit correctly reported tracked `data/generated/gifts.yaml` as stale after the canonical correction. The policy now permits that drift only on canonical-changing PRs after temporary rebuild validation; the post-merge `main` refresh must rebuild the tracked generated view before freezing the v1 baseline.
+- Corrected audit identity matching to use canonical name/alias/identity fields rather than arbitrary relationship text, and corrected final life-status reporting to prefer the latest time-based `status_change` over historical snapshot fields.
+- Full PR gates then passed: knowledge-base tests, entity renderer tests, identity tests, growth tests, base/extension validation, growth continuity, temporary canonical build and validation, entity-document rendering, full-repository audit, whitespace check and artifact uploads.
+- Audit baseline: 511 YAML files, 385 extension files, 751 canonical IDs, continuous Chapters 1—876, 108 Timeline nodes, 235 characters, 259 Gift events, 149 Artifacts and 384 generated entity documents.
+- Verification-field accounting: 579 `verified`, 1404 `partial`, 59 `pending`, 0 `conflict` and 1 `inferred`. These counts distinguish evidence states and do not imply that Chapters 17—876 were unread.
+- Queued evidence-based normalization findings for `TASK-0112`: seven duplicate character-name groups, unresolved exact identity labels `雪瑶仙帝` and `天羽`, eighteen Gift participant candidates, twenty-five Gift rows without exact Artifact-name matches, three duplicate Artifact-name groups and three Artifact lifecycle candidates.
+- Upgraded Workflow to v2.5 and transitioned Project OS to `story_status: complete`, `project_status: maintenance`, `release_status: preparing_v1`.
+- Completed `TASK-0111`; created `TASK-0112` as the single pending Task and `TASK-0113` as planned behind it.
+- Prepared full audit reports, a machine-readable audit and `RELEASE_NOTES_v1.0.0.md` for post-merge automatic materialization.
+- Registered `BLOCK-0005`: the authorized GitHub connector exposes no tag or GitHub Release creation action. `v1.0.0` is not claimed as created.
+
 ## RUN-0124 — 2026-07-29
 
 - Read Workflow v2.4, state, task queue, quality rules, metrics, changelog and dashboard before execution.
