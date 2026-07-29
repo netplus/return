@@ -1,5 +1,5 @@
 schema_version: 2
-updated_at: '2026-07-25'
+updated_at: '2026-07-29'
 verification_states:
 - verified
 - partial
@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 88
+  extension_files: 89
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -429,7 +429,7 @@ gifts:
   status: partial
 - id: GIFT-0027
   chapter: 116
-  node: NODE-0019
+  node: NODE-0018
   giver: 徐霄
   recipient: 妙玉
   gift: 一枚虚天丹
@@ -443,6 +443,14 @@ gifts:
   resolution_chapter: 119
   first_gift: true
   reward_storage: 系统空间库
+  resolution_node: NODE-0019
+  audit_correction:
+  - run: RUN-0125
+    reason: 第116章的虚天丹赠送属于NODE-0018；第119章血肉金身丹结算属于NODE-0019
+    evidence:
+    - data/generated/timeline.yaml
+    - data/generated/gifts.yaml
+    status: verified
 - id: GIFT-0028
   chapter: 118
   node: NODE-0019
