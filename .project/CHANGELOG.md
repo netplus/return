@@ -1,5 +1,24 @@
 # Changelog
 
+## RUN-0126 — 2026-07-29
+
+- Re-read Workflow, State, Tasks, Metrics, Dashboard, Changelog, the frozen RUN-0125 audit, canonical generators, CI and current `main` before execution; confirmed `TASK-0112` was the only pending Task and no concurrent normalization PR existed.
+- Created no Timeline Node and did not change the closed Chapter 1—876 main-story boundary or process extras.
+- Added append-only Character, Gift and Artifact normalization extensions plus `data/normalization/run-0126.yaml` as the machine-readable decision ledger.
+- Corrected four directly evidenced Character name assignments: `CHAR-0052` to 程双, `CHAR-0056` to 黑风, `CHAR-0111` to 司空浩南 and `CHAR-0140` to 丁静.
+- Resolved `雪瑶仙帝` as the restored reincarnation identity of `CHAR-0002` and `天羽` as the inherited identity of `CHAR-0045`; retained chapter ranges and did not use name similarity as proof.
+- Preserved legal same-name records for 凤青玄、玉冰 and 黑无忌. Marked the later duplicate 阴萱 and 云花海 records as superseded while retaining their IDs and migrating their later facts to the primary records.
+- Removed misapplied growth fields from the dead 猿族族长刘爱花, the dead 玉石宗掌门凤青玄 and 黑风, and migrated the supported growth facts to `CHAR-0002` or `CHAR-0045`.
+- Added structured participant resolutions for all 18 Gift candidates. Exact people, multi-person recipients and collectives are distinguished; `GIFT-0110`, `GIFT-0160` and `GIFT-0257` remain explicitly unresolved with reasons.
+- Replaced the old whole-row Gift—Artifact heuristic with a frozen component-disposition ledger covering all 25 candidates. Generic pills, currency, equipment groups and mixed bundles are classified without inventing Artifact IDs.
+- Corrected `ART-0017` to 九火琉璃罩, `ART-0018` to 流光星陨戒 and `ART-0044` to 九天神莲戒 from direct document, ability and event evidence.
+- Added lifecycle events to `ART-0017`, `ART-0023` and `ART-0026`, cleared their active holders after destruction or consumption, and preserved 徐霄 as former holder.
+- Classified `ART-0055` and `ART-0099` as the same Artifact type with distinct batch IDs rather than merging their acquisition pools.
+- Added `scripts/normalize_repository.py` to validate alias identities, duplicate-name dispositions, Gift participants, Gift component coverage, Artifact lifecycle conservation and final-state consistency from temporary canonical builds.
+- Added automatic outputs `data/audits/run-0126.yaml`, `data/generated/final-state.yaml`, `docs/08-analysis/entity-normalization.md` and `docs/08-analysis/final-state-snapshot.md` to PR validation and post-merge materialization.
+- Upgraded Workflow to v2.6 with explicit identity-relation, Gift participant/component and append-only Artifact lifecycle rules.
+- Completed `TASK-0112`; queued only `TASK-0113` as pending. `BLOCK-0005` remains open because the authorized connector still has no tag/GitHub Release creation action.
+
 ## RUN-0125 — 2026-07-29
 
 - Read Workflow, State, Tasks, Metrics, Dashboard, Changelog, CI, generators, validators, extension rules, latest `main` and the latest generated-view commit before execution.
