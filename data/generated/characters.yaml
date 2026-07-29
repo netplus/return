@@ -1,6 +1,6 @@
 schema_version: 2
 project: return
-updated_at: '2026-07-25'
+updated_at: '2026-07-29'
 verification_states:
 - verified
 - partial
@@ -11,7 +11,7 @@ index_mode: materialized
 materialized_from:
   base: data/characters/characters.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 97
+  extension_files: 98
 characters:
 - id: CHAR-0001
   name: 徐霄
@@ -2047,6 +2047,7 @@ characters:
   - NODE-0104
   - NODE-0107
   - NODE-0108
+  - NODE-0098
   source_chapters:
   - 1
   - 2
@@ -2095,6 +2096,7 @@ characters:
   - 864
   - 875
   - 876
+  - 737
   verification_status: verified
   status_change: 飞升灵藏仙域后以刘爱花化名进入阴阳仙门矿区服役
   relationship_change:
@@ -2224,6 +2226,28 @@ characters:
   - 十颗化仙丹
   resource_support:
   - 以刘爱花身份获得徐霄无限仙丹养灵植承诺
+  aliases:
+  - 刘爱花
+  - 雪瑶
+  - 雪瑶仙帝
+  identity_resolution:
+  - label: 刘爱花
+    relation_type: alias
+    effective_chapter: 519
+    status: verified
+    note: 该化名属于姬雪；与CHAR-0032猿族族长刘爱花为同名碰撞。
+  - label: 雪瑶仙帝
+    relation_type: reincarnation_identity
+    effective_chapter_range:
+      start: 793
+      end: 807
+    status: verified
+  normalization_history:
+  - chapter: 737
+    event: 以刘爱花身份在万妖仙宗体系中晋升玄仙二重并取得执事身份
+    impact: 雪瑶仙帝重生准备继续推进
+    status: verified
+    source_record: CHAR-0032
 - id: CHAR-0003
   name: 独孤灵
   status: alive
@@ -3597,16 +3621,16 @@ characters:
     chapter: 210
     event: 通天神棍阵伏击失败后被徐霄与狐族合作击杀
     status: partial
-  cultivation_change: 玄仙二重
-  identity_change:
-  - 万妖仙宗执事
-  growth_event:
-  - chapter: 737
-    event: 三年内晋升玄仙二重并取得万妖仙宗执事身份
-    impact:
-    - 雪瑶仙帝重生准备继续推进
-    - 进入万妖仙宗正式身份体系
+  cultivation_change: null
+  identity_change: []
+  growth_event: []
+  identity_resolution:
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0002
+    shared_label: 刘爱花
     status: verified
+    note: 本记录为猿族族长、猿华之父且第210章死亡，不与姬雪化名合并。
+  normalization_note: RUN-0126移除误挂的第737章雪瑶身份成长字段。
 - id: CHAR-0033
   name: 虎奔
   status: dead
@@ -4013,6 +4037,8 @@ characters:
   - GIFT-0081
   - GIFT-0126
   - GIFT-0177
+  - GIFT-0141
+  - GIFT-0173
   current_artifacts:
   - 三光分水剑
   relationship_context:
@@ -4033,6 +4059,10 @@ characters:
   - NODE-0106
   - NODE-0107
   - NODE-0108
+  - NODE-0068
+  - NODE-0079
+  - NODE-0090
+  - NODE-0091
   source_chapters:
   - 233
   - 234
@@ -4089,6 +4119,13 @@ characters:
   - 864
   - 875
   - 876
+  - 519
+  - 520
+  - 607
+  - 679
+  - 682
+  - 683
+  - 686
   document: null
   verification_status: partial
   current_vessel: 妙玉肉身
@@ -4114,6 +4151,7 @@ characters:
   - 在寿宴公开确认徐霄为道侣并与雪瑶暂时共同维护徐霄
   - 与徐霄羁绊度提升至3
   - 怀有徐霄子嗣
+  - 允许徐霄改称青玄并继续接受长期资源支持
   cultivation_change: 仙帝
   affiliation:
   - 阴阳仙门内门
@@ -4201,6 +4239,56 @@ characters:
   - 鸿蒙真气增至二十八股
   - 炼化天地灵根类规则道器
   - 获得天道神威御火剑及祖凤血丹、大罗鸿蒙丹
+  aliases:
+  - 青玄
+  - 天羽
+  - 天凤老祖天羽
+  - 万妖仙宗天羽老祖
+  resource_change:
+  - 十颗化仙丹
+  - 获后续仙剑承诺
+  identity_resolution:
+  - label: 天羽
+    relation_type: inherited_identity
+    effective_chapter_range:
+      start: 825
+      end: 853
+    status: verified
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0055
+    shared_label: 凤青玄
+    status: verified
+    note: CHAR-0055为第283章玉石宗掌门，属于同名异人。
+  normalization_history:
+  - chapter_range:
+      start: 519
+      end: 520
+    event: 晋升渡劫九重并飞升灵藏仙域
+    impact: 进入阴阳仙门矿区并被安排为矿工队长
+    status: partial
+    source_record: CHAR-0056
+  - chapter: 607
+    event: 接受新一批化仙丹并深化称呼与资源关系
+    core_ability:
+    - 人仙二重
+    - 十颗化仙丹
+    - 既有仙剑炼化中
+    impact:
+    - 与徐霄长期资源绑定加强
+    status: verified
+    source_record: CHAR-0052
+  - chapter: 679
+    event: 达到地仙二重并接受仙元丹
+    impact: 天凤血脉与长期资源支持继续加速修炼
+    status: partial
+    source_record: CHAR-0055
+  - chapter_range:
+      start: 682
+      end: 686
+    event: 显露纯血天凤血脉并为徐霄提供妖族身份担保
+    impact: 获得进入万妖仙宗的核心资格并免除神魂烙印
+    status: partial
+    source_record: CHAR-0055
 - id: CHAR-0046
   name: 黄龙飞
   status: pending
@@ -4434,6 +4522,12 @@ characters:
   resource_change: 获得先天灵宝铁焰神炉
   disciples:
   - 独孤灵
+  identity_resolution:
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0054
+    shared_label: 玉冰
+    status: verified
+    note: 本记录为无妄仙宗掌门及姬雪师父；CHAR-0054为天剑阁男性核心弟子。
 - id: CHAR-0049
   name: 第一婵
   status: alive
@@ -4641,7 +4735,7 @@ characters:
   accepted_resources:
   - 十枚虚天丹
 - id: CHAR-0052
-  name: 凤青玄
+  name: 程双
   status: alive
   role: supporting
   affiliations:
@@ -4662,7 +4756,6 @@ characters:
   - NODE-0036
   - NODE-0048
   - NODE-0056
-  - NODE-0079
   source_chapters:
   - 252
   - 253
@@ -4678,33 +4771,19 @@ characters:
   - 267
   - 371
   - 425
-  - 607
   document: null
   verification_status: partial
   bond_level: 2
   accepted_gifts:
   - GIFT-0044
-  - GIFT-0141
   relationship_change:
   - 与徐霄正式结为道侣并获得持续修炼资源承诺
-  - 与徐霄的道侣及长期资源支持关系继续稳定
-  - 允许徐霄改称青玄
   combat_record: 依靠徐霄赠送的两件法宝与五行阵法击败炼虚六重对手
   accepted_resources:
   - 十枚虚天丹
-  resource_change:
-  - 十颗化仙丹
-  - 获后续仙剑承诺
-  growth_event:
-  - chapter: 607
-    event: 接受新一批化仙丹并深化称呼与资源关系
-    core_ability:
-    - 人仙二重
-    - 十颗化仙丹
-    - 既有仙剑炼化中
-    impact:
-    - 与徐霄长期资源绑定加强
-    status: verified
+  resource_change: []
+  growth_event: []
+  normalization_note: 天阵阁三师姐；NODE-0034、NODE-0035及GIFT-0044直接列名程双。第607章凤青玄赠礼字段已迁回CHAR-0045。
 - id: CHAR-0053
   name: 林婉
   status: alive
@@ -4815,6 +4894,12 @@ characters:
     - 与徐霄重新举行道侣仪式
     - 继续承担无妄仙宗与盘龙岛关系枢纽
     status: partial
+  identity_resolution:
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0048
+    shared_label: 玉冰
+    status: verified
+    note: 本记录为天剑阁男性核心弟子，不与无妄仙宗掌门合并。
 - id: CHAR-0055
   name: 凤青玄
   status: dead
@@ -4857,30 +4942,20 @@ characters:
   - 686
   document: null
   verification_status: partial
-  cultivation_change: 地仙二重
-  accepted_gifts:
-  - GIFT-0173
-  relationship_change:
-  - 与徐霄情侣关系进一步确认
-  growth_event:
-  - chapter: 679
-    event: 达到地仙二重并接受仙元丹
-    impact:
-    - 天凤血脉与长期资源支持继续加速修炼
-    status: partial
-  - chapter_range:
-      start: 682
-      end: 686
-    event: 显露纯血天凤血脉并为徐霄提供妖族身份担保
-    impact:
-    - 获得进入万妖仙宗的核心资格
-    - 阴阳仙门至尊天仙免除神魂烙印
-    status: partial
-  identity_change:
-  - 纯血天凤身份在大仙域妖族公开
-  - 万妖仙宗核心天才候选
+  cultivation_change: null
+  accepted_gifts: []
+  relationship_change: []
+  growth_event: []
+  identity_change: []
+  identity_resolution:
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0045
+    shared_label: 凤青玄
+    status: verified
+    note: 本记录为第283章玉石宗掌门并已死亡；后期天凤血脉字段已迁回CHAR-0045。
+  normalization_note: RUN-0126移除误挂的第679—686章凤青玄成长字段。
 - id: CHAR-0056
-  name: 凤青玄
+  name: 黑风
   status: dead
   role: antagonist
   affiliations:
@@ -4921,20 +4996,12 @@ characters:
   - 520
   document: null
   verification_status: partial
-  cultivation_change: 渡劫九重
-  status_change: 姬雪飞升约一年后飞升灵藏仙域并被安排为矿工队长
-  growth_event:
-  - chapter_range:
-      start: 519
-      end: 520
-    event: 晋升渡劫九重并飞升灵藏仙域
-    core_ability:
-    - 渡劫九重
-    impact:
-    - 进入阴阳仙门矿区
-    - 因境界被安排为矿工队长
-    - 需完成百年矿役
-    status: partial
+  cultivation_change: null
+  status_change: null
+  growth_event: []
+  aliases:
+  - 银鳞城城主
+  normalization_note: NODE-0039直接以黑风列名并确认其为气运之敌及死亡对象；历史name字段误写为凤青玄。
 - id: CHAR-0057
   name: 方达飞
   status: dead
@@ -6348,6 +6415,12 @@ characters:
   status_change: 仍被山河灵图收纳，黑魔圣宗来访问责但未确认其最终生死
   conflict_change: 迎亲队被徐霄清算，与萧烬璃的婚约被欧阳惊虹宣布无效
   system_task_status: active
+  identity_resolution:
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0165
+    shared_label: 黑无忌
+    status: verified
+    note: 本记录为黑魔圣宗掌门；CHAR-0165为九阴玄门大长老。
 - id: CHAR-0089
   name: 黑蛇
   status: alive
@@ -7358,7 +7431,7 @@ characters:
     - 成为徐霄矿区离场与宗门准入的关键引荐人
     status: partial
 - id: CHAR-0111
-  name: 韩烟
+  name: 司空浩南
   status: dead
   role: antagonist
   affiliations:
@@ -7422,6 +7495,7 @@ characters:
   cultivation_change: 人仙一重
   accepted_gifts:
   - GIFT-0120
+  normalization_note: NODE-0069至NODE-0071直接列名司空浩南；其追求李香香并组织伏击的事实与本记录对应。
 - id: CHAR-0112
   name: 西门恨天
   status: alive
@@ -9343,7 +9417,7 @@ characters:
     - 促成徐霄与道元及飞升会核心人物建立联系
     status: verified
 - id: CHAR-0140
-  name: 赤澜儿
+  name: 丁静
   status: alive
   role: supporting
   affiliations:
@@ -9433,6 +9507,7 @@ characters:
   - 参与保人并接受十颗仙元丹
   relationship_change:
   - 接受徐霄追求并正式确立关系
+  normalization_note: 首次登场标题、赠礼记录及执法长老关系均直接指向丁静。
 - id: CHAR-0141
   name: 端木莹
   status: alive
@@ -9568,15 +9643,19 @@ characters:
   related_nodes:
   - NODE-0080
   - NODE-0087
+  - NODE-0098
   source_chapters:
   - 616
   - 660
   - 661
   - 662
+  - 740
+  - 741
   document: null
   verification_status: verified
   accepted_gifts:
   - GIFT-0162
+  - GIFT-0200
   role_change:
   - 参与保人并接受十颗仙元丹
   growth_event:
@@ -9587,6 +9666,13 @@ characters:
     impact:
     - 资源关系继续深化
     status: partial
+  relationship_change:
+  - 接受复合赠礼并与徐霄确立长期关系，随后进入万妖仙宗天魁峰体系
+  identity_resolution:
+  - relation_type: same_person
+    other_character_id: CHAR-0196
+    status: verified
+    note: 同名、同境界、同宗门长老身份且后续记录承接既有关系线。
 - id: CHAR-0145
   name: 云花海
   status: alive
@@ -9618,6 +9704,7 @@ characters:
   - NODE-0081
   - NODE-0082
   - NODE-0083
+  - NODE-0101
   source_chapters:
   - 619
   - 620
@@ -9632,6 +9719,7 @@ characters:
   - 632
   - 636
   - 637
+  - 763
   document: null
   verification_status: verified
   conflict_change:
@@ -9654,6 +9742,11 @@ characters:
     impact:
     - 对徐霄接近焰灵的警惕持续上升
     status: partial
+  identity_resolution:
+  - relation_type: same_person
+    other_character_id: CHAR-0201
+    status: verified
+    note: 两记录均为五灵仙门掌门及SSS级气运之女，后者为第763章再次到访。
 - id: CHAR-0146
   name: 焰灵
   status: alive
@@ -10751,6 +10844,12 @@ characters:
   - 675
   document: null
   verification_status: partial
+  identity_resolution:
+  - relation_type: distinct_same_name
+    other_character_id: CHAR-0088
+    shared_label: 黑无忌
+    status: verified
+    note: 本记录为九阴玄门大长老，不与黑魔圣宗掌门合并。
 - id: CHAR-0166
   name: 金虚
   status: alive
@@ -12687,6 +12786,9 @@ characters:
   - 741
   document: null
   verification_status: verified
+  record_status: superseded
+  canonical_character_id: CHAR-0144
+  normalization_note: 后续重复建档；事实已迁移至CHAR-0144，保留ID用于历史审计。
 - id: CHAR-0197
   name: 龙泽
   status: alive
@@ -12983,6 +13085,9 @@ characters:
   - 763
   document: null
   verification_status: partial
+  record_status: superseded
+  canonical_character_id: CHAR-0145
+  normalization_note: 后续重复建档；事实已迁移至CHAR-0145，保留ID用于历史审计。
 - id: CHAR-0202
   name: 轩辕婉君
   status: alive

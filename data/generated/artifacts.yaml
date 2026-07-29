@@ -1,5 +1,5 @@
 schema_version: 2
-updated_at: '2026-07-25'
+updated_at: '2026-07-29'
 sources:
 - chapter: 34
   title: 玄魔宗灭门惨案
@@ -33,7 +33,7 @@ index_mode: materialized
 materialized_from:
   base: data/artifacts/artifacts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 91
+  extension_files: 92
 artifacts:
 - id: ART-0001
   name: 寿元丹
@@ -433,10 +433,10 @@ artifacts:
     result: 鸿蒙真气增至八十一股
     status: partial
 - id: ART-0017
-  name: 三千大道丹
+  name: 九火琉璃罩
   category: 法宝
   first_chapter: 68
-  current_holder: 徐霄
+  current_holder: null
   abilities:
   - 可从系统空间直接驱动
   - 释放九条火龙
@@ -456,8 +456,17 @@ artifacts:
     chapter: 508
     quantity: 1
     status: partial
+  former_holder: 徐霄
+  lifecycle_status: destroyed
+  lifecycle_event:
+  - chapter: 183
+    event_type: destroyed
+    previous_holder: 徐霄
+    result: 第七道强化雷劫中损毁
+    status: partial
+  normalization_note: 能力、文档路径及战斗记录均直接指向九火琉璃罩，历史name字段误写为三千大道丹。
 - id: ART-0018
-  name: 玄天八卦阵
+  name: 流光星陨戒
   category: 法器
   grade: 绝品法器
   first_chapter: 72
@@ -476,6 +485,7 @@ artifacts:
     result: 抵挡炼虚游尸
   - chapter: 124
     result: 挡住慕容云河及八名死士
+  normalization_note: 文档路径、GIFT-0019转移记录及受益人均直接指向流光星陨戒，历史name字段误写为玄天八卦阵。
 - id: ART-0019
   name: 九阳龙血丹
   category: 丹药
@@ -596,7 +606,7 @@ artifacts:
   name: 净玉瓶
   category: 法宝
   first_chapter: 99
-  current_holder: 徐霄
+  current_holder: null
   acquisition: GIFT-0022
   ability: 凝练万年灵液并用于长期疗伤
   status: partial
@@ -607,6 +617,14 @@ artifacts:
   current_state: 第七道强化雷劫中损毁
   source_chapters:
   - 183
+  former_holder: 徐霄
+  lifecycle_status: destroyed
+  lifecycle_event:
+  - chapter: 183
+    event_type: destroyed
+    previous_holder: 徐霄
+    result: 第七道强化雷劫中损毁
+    status: partial
 - id: ART-0024
   name: 万锻玉骨丹
   category: 丹药
@@ -646,7 +664,7 @@ artifacts:
   category: 术法符箓
   grade: 合体九重
   first_chapter: 193
-  current_holder: 徐霄
+  current_holder: null
   acquisition: GIFT-0035千倍暴击返还
   status: partial
   related_nodes:
@@ -662,6 +680,14 @@ artifacts:
   source_chapters:
   - 284
   - 287
+  former_holder: 徐霄
+  lifecycle_status: consumed
+  lifecycle_event:
+  - chapter: 284
+    event_type: consumed
+    previous_holder: 徐霄
+    result: 用于清算玉石宗伏杀阵营
+    status: partial
 - id: ART-0027
   name: 天道冰剑符
   category: 术法符箓
@@ -1044,7 +1070,7 @@ artifacts:
   related_nodes:
   - NODE-0043
 - id: ART-0044
-  name: 鸿蒙一气丹
+  name: 九天神莲戒
   category: 先天灵宝
   grade: 先天灵宝
   first_chapter: 347
@@ -1193,6 +1219,7 @@ artifacts:
     user: 徐霄
     result: 鸿蒙真气增至七十四股
     status: verified
+  normalization_note: GIFT-0063返还、九道金莲防御能力及战斗记录均直接指向九天神莲戒，历史name字段误写为鸿蒙一气丹。
 - id: ART-0045
   name: 雷灵丹
   category: 丹药
@@ -1638,6 +1665,9 @@ artifacts:
   source_chapters:
   - 708
   - 709
+  artifact_type_key: 天凤血丹
+  batch_id: TFXD-BATCH-0435
+  duplicate_name_resolution: same_type_distinct_batch
 - id: ART-0056
   name: 仙魂神魄丹
   category: 丹药
@@ -2698,6 +2728,9 @@ artifacts:
   - 692
   - 693
   - 743
+  artifact_type_key: 天凤血丹
+  batch_id: TFXD-BATCH-0691
+  duplicate_name_resolution: same_type_distinct_batch
 - id: ART-0100
   name: 地仙巅峰大道神丹
   category: 大道丹药

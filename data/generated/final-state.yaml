@@ -1,0 +1,75 @@
+schema_version: 1
+generated_by: scripts/normalize_repository.py
+source:
+  run_id: RUN-0126
+  task_id: TASK-0112
+  commit: eb2a9e6a76c795bb475e19b4f31d2e7c8097ab88
+main_story:
+  status: complete
+  chapter_start: 1
+  chapter_end: 876
+  last_timeline_node: NODE-0108
+  timeline_nodes: 108
+entity_counts:
+  characters_total: 235
+  characters_active: 233
+  gifts: 259
+  artifacts: 149
+priority_characters:
+- id: CHAR-0001
+  name: 徐霄
+  aliases: []
+  status: alive
+  cultivation: 大罗仙
+  affiliations:
+  - 阴阳仙门外门
+  - 柳清浅亲传弟子
+  - 阴阳飞升会
+  - 加入万妖仙宗天魁峰
+- id: CHAR-0002
+  name: 姬雪
+  aliases:
+  - 刘爱花
+  - 雪瑶
+  - 雪瑶仙帝
+  status: alive
+  cultivation: 仙帝层级（恢复过程）
+  affiliations:
+  - 缥缈宗
+- id: CHAR-0045
+  name: 凤青玄
+  aliases:
+  - 天羽
+  status: alive
+  cultivation: 仙帝
+  affiliations:
+  - 万妖仙宗
+  - 天凤一族
+artifact_lifecycle:
+- id: ART-0017
+  name: 九火琉璃罩
+  state: destroyed
+  former_holder: 徐霄
+- id: ART-0023
+  name: 净玉瓶
+  state: destroyed
+  former_holder: 徐霄
+- id: ART-0026
+  name: 混沌极冰符
+  state: consumed
+  former_holder: 徐霄
+normalization:
+  status: passed_with_explicit_unresolved
+  superseded_character_records:
+    CHAR-0196: CHAR-0144
+    CHAR-0201: CHAR-0145
+  explicitly_unresolved_participant_gifts:
+  - GIFT-0110
+  - GIFT-0160
+  - GIFT-0257
+retained_upgrade_opportunities:
+  count: 3
+  status: pending
+extras:
+  status: deferred
+  included_in_main_timeline: false

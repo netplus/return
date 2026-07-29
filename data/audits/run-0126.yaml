@@ -1,0 +1,69 @@
+schema_version: 1
+normalization:
+  run_id: RUN-0126
+  task_id: TASK-0112
+  source_commit: eb2a9e6a76c795bb475e19b4f31d2e7c8097ab88
+  status: passed_with_explicit_unresolved
+  blocking_findings: []
+counts:
+  characters_total: 235
+  characters_active: 233
+  characters_superseded: 2
+  corrected_character_names: 4
+  resolved_identity_labels: 2
+  gift_participant_candidates: 18
+  gift_participants_explicitly_unresolved: 3
+  gift_component_rows_dispositioned: 25
+  artifact_name_corrections: 3
+  artifact_lifecycle_repairs: 3
+quality_gates:
+  alias_identity_consistency:
+    status: passed
+    detail: 雪瑶仙帝与天羽映射到时间化canonical身份
+  duplicate_name_disposition:
+    status: passed
+    detail: active duplicate groups=3; all classified
+  gift_participant_resolution:
+    status: passed
+    detail: covered=18
+  gift_component_disposition:
+    status: passed
+    detail: covered=25/25; artifact-linked=3; explicitly-pending=5
+  artifact_ownership_conservation:
+    status: passed
+    detail: destroyed/consumed candidates retain no active holder
+  final_state_snapshot_consistency:
+    status: passed
+    detail: snapshot is derived from canonical generated indexes
+findings:
+  active_duplicate_character_names:
+    凤青玄:
+    - CHAR-0045
+    - CHAR-0055
+    玉冰:
+    - CHAR-0048
+    - CHAR-0054
+    黑无忌:
+    - CHAR-0088
+    - CHAR-0165
+  participant_resolution_kinds:
+    collective: 1
+    exact_character: 4
+    exact_identity_alias: 4
+    exact_multi_character: 2
+    partially_resolved_collective: 4
+    unresolved: 2
+    unresolved_role_label: 1
+  unresolved_participant_gifts:
+  - GIFT-0110
+  - GIFT-0160
+  - GIFT-0257
+  pending_component_gifts:
+  - GIFT-0068
+  - GIFT-0078
+  - GIFT-0090
+  - GIFT-0092
+  - GIFT-0189
+  superseded_character_records:
+    CHAR-0196: CHAR-0144
+    CHAR-0201: CHAR-0145

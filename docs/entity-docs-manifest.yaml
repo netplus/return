@@ -111,7 +111,7 @@ groups:
     - id: CHAR-0051
       path: docs/02-characters/程芷.md
     - id: CHAR-0052
-      path: docs/02-characters/凤青玄-CHAR-0052.md
+      path: docs/02-characters/程双.md
     - id: CHAR-0053
       path: docs/02-characters/林婉.md
     - id: CHAR-0054
@@ -119,7 +119,7 @@ groups:
     - id: CHAR-0055
       path: docs/02-characters/凤青玄-CHAR-0055.md
     - id: CHAR-0056
-      path: docs/02-characters/凤青玄-CHAR-0056.md
+      path: docs/02-characters/黑风.md
     - id: CHAR-0057
       path: docs/02-characters/方达飞.md
     - id: CHAR-0058
@@ -229,7 +229,7 @@ groups:
     - id: CHAR-0110
       path: docs/02-characters/韩烟.md
     - id: CHAR-0111
-      path: docs/02-characters/韩烟-CHAR-0111.md
+      path: docs/02-characters/司空浩南.md
     - id: CHAR-0112
       path: docs/02-characters/西门恨天.md
     - id: CHAR-0113
@@ -287,7 +287,7 @@ groups:
     - id: CHAR-0139
       path: docs/02-characters/孟凡.md
     - id: CHAR-0140
-      path: docs/02-characters/赤澜儿.md
+      path: docs/02-characters/丁静.md
     - id: CHAR-0141
       path: docs/02-characters/端木莹.md
     - id: CHAR-0142
@@ -345,7 +345,7 @@ groups:
     - id: CHAR-0168
       path: docs/02-characters/北鳞.md
     - id: CHAR-0169
-      path: docs/02-characters/赤澜儿-CHAR-0169.md
+      path: docs/02-characters/赤澜儿.md
     - id: CHAR-0170
       path: docs/02-characters/玄雪.md
     - id: CHAR-0171
@@ -570,7 +570,7 @@ groups:
     - id: ART-0043
       path: docs/06-artifacts/九天精元丹.md
     - id: ART-0044
-      path: docs/06-artifacts/鸿蒙一气丹-ART-0044.md
+      path: docs/06-artifacts/九天神莲戒.md
     - id: ART-0045
       path: docs/06-artifacts/雷灵丹.md
     - id: ART-0046
@@ -785,6 +785,6 @@ growth_line:
   mode: stage_summary_plus_append_only_run_history
   stage_window_chapters: 50
   characters_with_growth_line: 235
-  growth_events: 981
+  growth_events: 988
   temporal_accuracy: no_backfill_from_merged_current_snapshot
   source: data/extensions/characters + data/generated/timeline.yaml

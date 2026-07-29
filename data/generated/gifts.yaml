@@ -39,7 +39,7 @@ index_mode: materialized
 materialized_from:
   base: data/system/gifts.yaml
   extensions: data/extensions/**/*.yaml
-  extension_files: 89
+  extension_files: 90
 gifts:
 - id: GIFT-0001
   chapter: 1
@@ -683,6 +683,12 @@ gifts:
   system_valid: true
   reward: pending
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0052
+    original_label: 程双
+    resolution: exact_character
+    status: verified
 - id: GIFT-0045
   chapter: 253
   node: NODE-0035
@@ -1233,6 +1239,13 @@ gifts:
   triggered_multiplier: pending
   allocation: 两名受赠者逐枚对应关系待确认
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0083
+    - CHAR-0086
+    original_label: 冷若云与欧阳惊虹
+    resolution: exact_multi_character
+    status: verified
 - id: GIFT-0088
   chapter: 456
   node: NODE-0060
@@ -1517,6 +1530,12 @@ gifts:
   triggered_multiplier: pending
   relationship_result: 战后赠送触发新返还；原始受赠对象和逐笔映射待后续证据确认
   status: partial
+  participant_resolution:
+    recipient_refs: []
+    original_label: pending
+    resolution: unresolved
+    reason: 原始受赠对象仍未获得直接证据
+    status: pending
 - id: GIFT-0111
   chapter: 517
   node: NODE-0068
@@ -1942,6 +1961,12 @@ gifts:
     remaining_items: 10
   relationship_result: 丁静免除徐霄当年执事任务并接受后续二十颗仙元丹承诺，但要求保持正常上下级关系
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0140
+    original_label: 丁静
+    resolution: exact_character
+    status: verified
 - id: GIFT-0145
   chapter: 613
   node: NODE-0080
@@ -2150,6 +2175,12 @@ gifts:
     first_item: 10000
     remaining_items: 5
   status: verified
+  participant_resolution:
+    recipient_refs: []
+    original_label: 瑶光
+    resolution: unresolved_role_label
+    reason: 仅确认瑶光长老身份，尚无独立canonical人物记录
+    status: pending
 - id: GIFT-0161
   chapter: 662
   node: NODE-0087
@@ -2161,6 +2192,12 @@ gifts:
   reward: 十颗五行仙丹
   triggered_multiplier: 1
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0140
+    original_label: 丁静
+    resolution: exact_character
+    status: verified
 - id: GIFT-0162
   chapter: 662
   node: NODE-0087
@@ -2297,6 +2334,12 @@ gifts:
   triggered_multiplier: pending
   relationship_result: 丁静接受徐霄追求并进入长期资源支持关系
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0140
+    original_label: 丁静
+    resolution: exact_character
+    status: verified
 - id: GIFT-0173
   chapter: 679
   node: NODE-0090
@@ -2433,6 +2476,13 @@ gifts:
   reward: 玄雪有效触发三颗高品天凤血丹；其余对象未触发
   triggered_multiplier: partial
   status: partial
+  participant_resolution:
+    recipient_refs: []
+    original_label: 玄鸟族八名玄仙
+    resolution: collective
+    collective_count: 8
+    collective_affiliation: 玄鸟族
+    status: verified
 - id: GIFT-0185
   chapter: 709
   node: NODE-0094
@@ -2931,6 +2981,14 @@ gifts:
   triggered_multiplier: partial
   relationship_result: 高阶资源交换形成长期关系或政治支持
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0210
+    original_label: 龙贞等六名万妖仙宗高层
+    resolution: partially_resolved_collective
+    collective_count: 6
+    unresolved_members: 5
+    status: partial
 - id: GIFT-0227
   chapter: 798
   node: NODE-0103
@@ -2979,6 +3037,14 @@ gifts:
   triggered_multiplier: partial
   relationship_result: 高阶资源交换形成长期关系或政治支持
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0210
+    original_label: 龙贞等六名万妖仙宗高层
+    resolution: partially_resolved_collective
+    collective_count: 6
+    unresolved_members: 5
+    status: partial
 - id: GIFT-0231
   chapter: 810
   node: NODE-0104
@@ -2991,6 +3057,14 @@ gifts:
   triggered_multiplier: partial
   relationship_result: 六名高层接受处置天穹的资源委托
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0210
+    original_label: 龙贞等六名万妖仙宗高层
+    resolution: partially_resolved_collective
+    collective_count: 6
+    unresolved_members: 5
+    status: partial
 - id: GIFT-0232
   chapter: 810
   node: NODE-0104
@@ -3027,6 +3101,12 @@ gifts:
   triggered_multiplier: 100
   relationship_result: 师徒资源关系加深，但雪瑶仍坚持控制徐霄
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0002
+    original_label: 雪瑶
+    resolution: exact_identity_alias
+    status: verified
 - id: GIFT-0235
   chapter: 823
   node: NODE-0105
@@ -3099,6 +3179,14 @@ gifts:
   triggered_multiplier: partial
   relationship_result: 六名高层接受处置孔玄任务并于第830章完成
   status: partial
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0210
+    original_label: 龙贞等六名万妖仙宗高层
+    resolution: partially_resolved_collective
+    collective_count: 6
+    unresolved_members: 5
+    status: partial
 - id: GIFT-0241
   chapter: 831
   node: NODE-0106
@@ -3123,6 +3211,13 @@ gifts:
   triggered_multiplier: partial
   relationship_result: 轩辕家高层正式支持接亲
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0217
+    - CHAR-0218
+    original_label: 轩辕金花与轩辕宏
+    resolution: exact_multi_character
+    status: verified
 - id: GIFT-0243
   chapter: 842
   node: NODE-0106
@@ -3135,6 +3230,12 @@ gifts:
   triggered_multiplier: partial
   relationship_result: 刘爱花放弃分手并确认长期关系
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0002
+    original_label: 刘爱花／雪瑶
+    resolution: exact_identity_alias
+    status: verified
 - id: GIFT-0244
   chapter: 842
   node: NODE-0106
@@ -3147,6 +3248,12 @@ gifts:
   triggered_multiplier: 100
   relationship_result: 雪瑶资源承诺继续兑现
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0002
+    original_label: 刘爱花／雪瑶
+    resolution: exact_identity_alias
+    status: verified
 - id: GIFT-0245
   chapter: 843
   node: NODE-0106
@@ -3231,6 +3338,12 @@ gifts:
   triggered_multiplier: pending
   relationship_result: 雪瑶接受规则道器并继续维护徐霄
   status: verified
+  participant_resolution:
+    recipient_refs:
+    - CHAR-0002
+    original_label: 姬雪／雪瑶
+    resolution: exact_identity_alias
+    status: verified
 - id: GIFT-0252
   chapter: 866
   node: NODE-0108
@@ -3303,6 +3416,12 @@ gifts:
   triggered_multiplier: 1倍
   relationship_result: 朱九彩获救并建立关系
   status: verified
+  participant_resolution:
+    recipient_refs: []
+    original_label: 朱九彩
+    resolution: unresolved
+    reason: canonical人物索引无直接匹配且不得以名字相似推断
+    status: pending
 - id: GIFT-0258
   chapter: 869
   node: NODE-0108
