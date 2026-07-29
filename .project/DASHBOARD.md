@@ -81,4 +81,6 @@ The SQLite snapshot contains 11 tables. Core row counts reconcile to 108 Timelin
 
 The next task is an inventory and namespace-design pass for extras. Extras remain isolated from the completed Chapter 1—876 main-story Timeline and must not reuse `NODE-*` main-story numbering.
 
+The **三次暂存升级机会 remain `pending`**; no usage result is inferred by the analysis snapshot or the extras inventory plan.
+
 The frozen v1 audit and `RELEASE_NOTES_v1.0.0.md` remain valid. Git tag and GitHub Release `v1.0.0` are **not created** because the authorized connector exposes no tag/Release creation action; this remains `BLOCK-0005` rather than a fabricated success.
