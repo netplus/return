@@ -1,0 +1,109 @@
+schema_version: 1
+run_id: RUN-0126
+task_id: TASK-0112
+updated_at: '2026-07-29'
+source_baseline: RUN-0125
+policy:
+  identity: Direct evidence is required for merge, alias, reincarnation or inherited-identity decisions.
+  gifts: Every audited row receives a component-level disposition; generic resources are not forced into Artifact IDs.
+  lifecycle: Consumed or destroyed Artifact records must not retain an active current_holder.
+character_name_groups:
+- label: 凤青玄
+  records: [CHAR-0045, CHAR-0052, CHAR-0055, CHAR-0056]
+  decisions:
+  - {record: CHAR-0045, disposition: canonical_primary}
+  - {record: CHAR-0052, disposition: corrected_name, corrected_name: 程双}
+  - {record: CHAR-0055, disposition: distinct_same_name}
+  - {record: CHAR-0056, disposition: corrected_name, corrected_name: 黑风}
+- label: 玉冰
+  records: [CHAR-0048, CHAR-0054]
+  decisions:
+  - {record: CHAR-0048, disposition: distinct_same_name}
+  - {record: CHAR-0054, disposition: distinct_same_name}
+- label: 黑无忌
+  records: [CHAR-0088, CHAR-0165]
+  decisions:
+  - {record: CHAR-0088, disposition: distinct_same_name}
+  - {record: CHAR-0165, disposition: distinct_same_name}
+- label: 韩烟
+  records: [CHAR-0110, CHAR-0111]
+  decisions:
+  - {record: CHAR-0110, disposition: canonical_primary}
+  - {record: CHAR-0111, disposition: corrected_name, corrected_name: 司空浩南}
+- label: 赤澜儿
+  records: [CHAR-0140, CHAR-0169]
+  decisions:
+  - {record: CHAR-0140, disposition: corrected_name, corrected_name: 丁静}
+  - {record: CHAR-0169, disposition: canonical_primary}
+- label: 阴萱
+  records: [CHAR-0144, CHAR-0196]
+  decisions:
+  - {record: CHAR-0144, disposition: canonical_primary}
+  - {record: CHAR-0196, disposition: superseded, canonical_character_id: CHAR-0144}
+- label: 云花海
+  records: [CHAR-0145, CHAR-0201]
+  decisions:
+  - {record: CHAR-0145, disposition: canonical_primary}
+  - {record: CHAR-0201, disposition: superseded, canonical_character_id: CHAR-0145}
+identity_labels:
+- {label: 雪瑶仙帝, character_id: CHAR-0002, relation_type: reincarnation_identity, status: verified}
+- {label: 天羽, character_id: CHAR-0045, relation_type: inherited_identity, status: verified}
+gift_participant_candidates:
+- GIFT-0044
+- GIFT-0087
+- GIFT-0110
+- GIFT-0144
+- GIFT-0160
+- GIFT-0161
+- GIFT-0172
+- GIFT-0184
+- GIFT-0226
+- GIFT-0230
+- GIFT-0231
+- GIFT-0234
+- GIFT-0240
+- GIFT-0242
+- GIFT-0243
+- GIFT-0244
+- GIFT-0251
+- GIFT-0257
+gift_component_dispositions:
+- {gift_id: GIFT-0005, disposition: generic_equipment_group, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0011, disposition: mixed_resource_bundle, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0014, disposition: mixed_resource_bundle, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0016, disposition: mixed_equipment_bundle, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0019, disposition: mixed_bundle_with_artifact, artifact_refs: [ART-0018], status: partial}
+- {gift_id: GIFT-0020, disposition: mixed_resource_bundle, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0023, disposition: commodity_resource, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0024, disposition: generic_resource, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0029, disposition: mixed_bundle_with_artifact, artifact_refs: [ART-0010], status: partial}
+- {gift_id: GIFT-0030, disposition: commodity_resource, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0032, disposition: generic_equipment_group, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0035, disposition: consumable_talisman_batch, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0054, disposition: composite_banquet_bundle, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0063, disposition: named_gift_and_linked_reward, artifact_refs: [ART-0044], status: partial}
+- {gift_id: GIFT-0066, disposition: currency_resource, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0068, disposition: unresolved_named_items, artifact_refs: [], status: pending}
+- {gift_id: GIFT-0073, disposition: commodity_pill, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0075, disposition: commodity_pill, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0078, disposition: unresolved_named_item_and_pending_reward, artifact_refs: [], status: pending}
+- {gift_id: GIFT-0087, disposition: commodity_pill, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0090, disposition: unresolved_named_item_and_pending_reward, artifact_refs: [], status: pending}
+- {gift_id: GIFT-0092, disposition: unresolved_named_item_and_pending_reward, artifact_refs: [], status: pending}
+- {gift_id: GIFT-0189, disposition: unresolved_named_item_and_pending_reward, artifact_refs: [], status: pending}
+- {gift_id: GIFT-0213, disposition: currency_resource, artifact_refs: [], status: classified}
+- {gift_id: GIFT-0215, disposition: currency_resource, artifact_refs: [], status: classified}
+artifact_name_groups:
+- label: 三千大道丹
+  records: [ART-0010, ART-0017]
+  decision: ART-0017 corrected to 九火琉璃罩
+- label: 鸿蒙一气丹
+  records: [ART-0016, ART-0044]
+  decision: ART-0044 corrected to 九天神莲戒
+- label: 天凤血丹
+  records: [ART-0055, ART-0099]
+  decision: same_type_distinct_batch
+artifact_lifecycle_candidates:
+- {artifact_id: ART-0017, final_state: destroyed, former_holder: 徐霄}
+- {artifact_id: ART-0023, final_state: destroyed, former_holder: 徐霄}
+- {artifact_id: ART-0026, final_state: consumed, former_holder: 徐霄}
