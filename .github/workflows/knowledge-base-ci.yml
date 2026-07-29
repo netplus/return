@@ -89,14 +89,25 @@ jobs:
             --check
 
       - name: Run reproducible full-repository audit
+        shell: bash
         run: |
+          status=0
           python scripts/full_repository_audit.py \
             --run-id RUN-0125 \
             --task-id TASK-0111 \
             --version v1.0.0 \
             --audit-date 2026-07-29 \
             --source-commit "${GITHUB_SHA}" \
-            --output-root build/audit
+            --output-root build/audit || status=$?
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+          path = Path('build/audit/data/audits/run-0125.yaml')
+          data = yaml.safe_load(path.read_text(encoding='utf-8'))
+          print('Audit blocking findings:')
+          print(yaml.safe_dump(data['audit']['blocking_findings'], allow_unicode=True, sort_keys=False))
+          PY
+          exit "$status"
 
       - name: Check whitespace errors
         run: git diff --check
@@ -121,6 +132,7 @@ jobs:
           retention-days: 14
 
       - name: Upload v1 audit artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: v1-audit-${{ github.sha }}
