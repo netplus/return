@@ -1,7 +1,7 @@
 # 实体规范化报告 — RUN-0126
 
 - Task：`TASK-0112`
-- 来源提交：`deae8949894d302fc323960795e01b3604b65cc4`
+- 来源提交：`743a9c3d3da59bddfcebdb9c233fb2da93a9266e`
 - 状态：**passed_with_explicit_unresolved**
 - 本 Run 不创建 Timeline Node，不改变正文第 1—876 章边界。
 
