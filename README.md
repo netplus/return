@@ -18,7 +18,7 @@
 - 以剧情阶段而非单章为主线，建立稳定、可维护的 Timeline。
 - 建立章节证据、人物、系统、境界、势力、物品和战斗之间的交叉索引。
 - 区分正文事实、上下文推断、来源冲突和待核实内容。
-- 从 canonical generated indexes 自动生成实体档案、审计报告和后续统计分析，避免手工维护第二份事实。
+- 从 canonical generated indexes 自动生成实体档案、审计报告、终局快照和后续统计分析，避免手工维护第二份事实。
 - 不保存整章正文，只保存原创摘要、结构化事实、来源元数据、哈希和核验状态。
 
 ## 工作标准
@@ -30,6 +30,9 @@
 - 人物、物品和系统档案只在出现长期有效的实质变化时增量更新。
 - `data/generated/`、人物档案、物品档案和 manifest 是自动物化视图，不是手工事实源。
 - 修正必须进入基础索引或 append-only extensions。
+- 重复人物 ID 通过 `record_status: superseded` 保留历史审计链；不得因名字相似删除或合并。
+- Gift 的人物解析与资源组件分类分开处理；普通资源批次不强制创建 Artifact。
+- 消耗或损毁 Artifact 不得继续保留 active `current_holder`。
 - 详细规范见 `docs/00-project/WORKFLOW.md`。
 
 ## 目录
@@ -42,12 +45,13 @@
 - `docs/05-realms/`：境界体系与成长轨迹
 - `docs/06-artifacts/`：自动物化的法宝、丹药、功法与神通档案
 - `docs/07-battles/`：战斗记录
-- `docs/08-analysis/`：审计与自动派生分析
+- `docs/08-analysis/`：审计、规范化与自动派生分析
 - `data/`：结构化 YAML 数据
 - `data/extensions/`：不可变追加记录与增量补丁
-- `data/generated/`：由脚本生成的完整 canonical indexes
-- `data/audits/`：机器可读审计基线
-- `scripts/`：索引聚合、渲染、身份校验、成长连续性和全库审计工具
+- `data/generated/`：由脚本生成的完整 canonical indexes 与终局快照
+- `data/audits/`：机器可读审计和规范化门禁结果
+- `data/normalization/`：证据化规范化决策账本
+- `scripts/`：索引聚合、渲染、身份校验、成长连续性、全库审计和规范化工具
 - `sources/`：来源索引、归档哈希与核验说明
 
 ## Canonical 索引
@@ -72,6 +76,7 @@ python scripts/knowledge_base.py validate --generated-dir data/generated
 python scripts/validate_entity_identity.py --generated-dir data/generated
 python scripts/render_character_growth.py --validate-continuity --effective-run 82
 python scripts/render_character_growth.py --generated-dir data/generated --check
+python scripts/normalize_repository.py --generated-dir data/generated --output-root .
 ```
 
 ## v1 全库审计
@@ -96,6 +101,24 @@ python scripts/run_full_repository_audit.py \
 
 审计明确区分官方页面直接核验、用户归档正文、逐章 SHA-256、可读镜像、单一来源、上下文推断和正文冲突。“官方直接核验至第 16 章”不表示第 17—876 章未经正文阅读。
 
+## RUN-0126 实体规范化
+
+`TASK-0112` 对审计 findings 进行证据化处置，不以减少 pending 数量为目标：
+
+- 人物 alias、转世身份、继承身份、合法同名和 superseded 记录分开表达；
+- Gift 保留原始受赠文本，并增加精确人物、群体或未决解析；
+- 25 条 Gift—Artifact 候选按资源组件分类，只有证据充分的唯一物品才绑定 Artifact ID；
+- Artifact 使用 append-only lifecycle event 表达转移、消耗和损毁；
+- `data/generated/final-state.yaml` 由 canonical indexes 自动派生。
+
+对应产物：
+
+- `data/normalization/run-0126.yaml`
+- `data/audits/run-0126.yaml`
+- `data/generated/final-state.yaml`
+- `docs/08-analysis/entity-normalization.md`
+- `docs/08-analysis/final-state-snapshot.md`
+
 ## 核验状态
 
 - `verified`：正文直接确认
@@ -108,7 +131,7 @@ python scripts/run_full_repository_audit.py \
 
 ## 自动化与发布边界
 
-`Knowledge Base CI` 在 PR 中运行全部测试、临时 canonical 重建、实体文档校验和全库审计；`main` 更新后刷新 tracked generated views，并冻结尚未存在的 v1 审计产物。
+`Knowledge Base CI` 在 PR 中运行全部测试、临时 canonical 重建、实体文档校验、全库审计和规范化门禁；`main` 更新后刷新 tracked generated views、终局快照和报告，并冻结尚未存在的 v1 审计产物。
 
 当前授权连接器不能创建 Git tag 或 GitHub Release，因此仓库内 Release Notes 可以完成，但 `v1.0.0` Release 在 GitHub 实际创建前始终保持 blocker，不会被虚构为已发布。
 
