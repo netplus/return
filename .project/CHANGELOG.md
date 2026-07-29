@@ -1,5 +1,22 @@
 # Changelog
 
+## RUN-0127 — 2026-07-29
+
+- Re-read Workflow, State, Tasks, Metrics, Dashboard, Changelog, current `main`, RUN-0126 normalization outputs, canonical indexes and both CI definitions before execution.
+- Confirmed `TASK-0113` was the only pending Task, `main` HEAD was `24a41e9b1dca059f07d340b36937498684d253df`, and no concurrent RUN-0127 PR existed.
+- Created no Timeline Node, changed no canonical story fact and did not process extras.
+- Added `data/analysis/run-0127-config.yaml` as the frozen analysis contract and `scripts/analyze_repository.py` as the deterministic generator.
+- Added `.github/workflows/full-book-analysis.yml`; PR runs generate and validate the complete artifact, while post-merge materialization waits for the canonical refresh commit to avoid competing writes to `main`.
+- Generated a continuous Chapter 1—876 statistical model: 108 Timeline Nodes with a mean span of 8.11 chapters, median 8, minimum 1 and maximum 23.
+- Counted 235 historical Character records, 233 active Characters, 2 superseded Characters, 259 Gifts and 149 Artifacts.
+- Built 2,581 relationship edges: 2,376 Timeline co-occurrence, 103 explicit relationship, 98 Gift and 4 identity edges.
+- Built a 30-node / 120-edge Mermaid and Graphviz projection; the full edge set remains in JSONL and SQLite.
+- Built an 11-table SQLite snapshot with reconciled rows for Timeline Nodes, Characters, aliases, affiliations, node appearances, Gifts, participants, Artifacts, lifecycle events, relationships and phase statistics.
+- Preserved 53 unresolved or ambiguous Timeline labels, 14 Gift participant labels and 14 explicit relationship labels as findings rather than forcing Character bindings.
+- Both Full Book Analysis and Knowledge Base CI passed in the initial complete PR run, including SQLite `integrity_check`, fixed source counts, full audit, entity rendering and copyright checks.
+- Completed `TASK-0113` and queued only `TASK-0114` for extras scope inventory and isolated namespace initialization.
+- Retained `BLOCK-0005`; the connector still cannot create Git tag or GitHub Release `v1.0.0`.
+
 ## RUN-0126 — 2026-07-29
 
 - Re-read Workflow, State, Tasks, Metrics, Dashboard, Changelog, the frozen RUN-0125 audit, canonical generators, CI and current `main` before execution; confirmed `TASK-0112` was the only pending Task and no concurrent normalization PR existed.
