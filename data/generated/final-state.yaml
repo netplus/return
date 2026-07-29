@@ -3,7 +3,7 @@ generated_by: scripts/normalize_repository.py
 source:
   run_id: RUN-0126
   task_id: TASK-0112
-  commit: 24a41e9b1dca059f07d340b36937498684d253df
+  commit: 8d1ab72db0c493dfac8c7fd0d41e1d067f2505e0
 main_story:
   status: complete
   chapter_start: 1
@@ -71,5 +71,5 @@ retained_upgrade_opportunities:
   count: 3
   status: pending
 extras:
-  status: deferred
+  status: pending_inventory
   included_in_main_timeline: false
