@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-29'
-run_id: RUN-0126
+run_id: RUN-0127
 coverage:
   chapters_covered_through: 876
   chapters_promoted_in_run: []
@@ -49,25 +49,39 @@ normalization:
   gift_component_rows_dispositioned: 25
   artifact_lifecycle_repairs: 3
   lifecycle_candidates_remaining: 0
+analysis:
+  task_id: TASK-0113
+  status: passed_with_documented_ambiguity
+  config: data/analysis/run-0127-config.yaml
+  machine_report: data/audits/run-0127.yaml
+  generator: scripts/analyze_repository.py
+  timeline:
+    nodes: 108
+    chapter_span: {min: 1, max: 23, mean: 8.11111111111111, median: 8.0}
+    status_counts: {verified: 26, partial: 82}
+  characters: {historical: 235, active: 233, superseded: 2}
+  gifts: {total: 259, accepted_true: 257, accepted_false: 1, accepted_unknown: 1, numeric_multiplier_rows: 92, max_multiplier: 10000}
+  artifacts: {total: 149, top_category: 丹药, top_category_count: 43}
+  relationships:
+    total_edges: 2581
+    by_type: {timeline_cooccurrence: 2376, explicit_relationship: 103, gift: 98, identity: 4}
+    visual_projection: {nodes: 30, edges: 120}
+  sqlite:
+    tables: 11
+    row_counts: {timeline_nodes: 108, characters: 235, character_aliases: 514, character_affiliations: 354, node_characters: 912, gifts: 259, gift_participants: 503, artifacts: 149, artifact_events: 3, relationships: 2581, phase_stats: 9}
+  ambiguity_findings: {timeline_labels: 53, gift_participants: 14, explicit_relationship_labels: 14}
 quality_gates:
-  source_traceability: {status: passed, policy: direct_evidence_or_explicit_unresolved}
-  normalization_coherence: {status: passed, scope: canonical_knowledge_base_without_new_timeline_node}
-  materiality: {status: passed, outputs: [append_only_corrections, decision_ledger, validator, machine_report, final_state_snapshot]}
-  cross_index_consistency: {status: passed}
-  duplicate_work_check: {status: passed, reused_task_ids: 0, new_timeline_nodes: 0}
-  yaml_structure: {status: passed}
-  alias_identity_consistency: {status: passed, exact_labels: [雪瑶仙帝, 天羽]}
-  duplicate_name_disposition: {status: passed, historical_groups_reviewed: 7}
-  dead_character_active_state_consistency: {status: passed, candidates: 0}
-  gift_participant_resolution: {status: passed_with_explicit_unresolved, candidates: 18, unresolved: 3}
-  gift_component_disposition: {status: passed_with_explicit_unresolved, rows: 25}
-  artifact_ownership_conservation: {status: passed, repaired: 3, remaining_candidates: 0}
-  final_state_snapshot_consistency: {status: passed, source: canonical_generated_indexes}
+  source_count_reconciliation: {status: passed, timeline_nodes: 108, characters_total: 235, characters_active: 233, gifts: 259, artifacts: 149}
+  timeline_continuity: {status: passed, coverage: 1-876}
+  superseded_exclusion: {status: passed, active: 233, superseded: 2}
+  relationship_endpoint_integrity: {status: passed, edges: 2581}
+  ambiguity_preservation: {status: passed, forced_ambiguous_bindings: 0}
+  sqlite_reconciliation: {status: passed, tables: 11}
+  jsonl_reconciliation: {status: passed, lines: 2581}
+  deterministic_serialization_contract: {status: passed, input_hashes_recorded: true}
+  knowledge_base_ci: {status: passed}
   entity_document_freshness: {status: passed, characters: 235, artifacts: 149, manifest_documents: 384}
-  entity_document_readability: {status: passed}
   character_growth_continuity: {status: passed}
-  growth_temporal_accuracy: {status: passed}
-  pending_conflict_accounting: {status: passed, unresolved_is_not_forced_to_verified: true}
   copyright_boundary: {status: passed, full_chapter_text_stored: false}
 blockers:
 - id: BLOCK-0005
