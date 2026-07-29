@@ -14,12 +14,8 @@ character_updates:
     identity_resolution_add:
     - {label: 刘爱花, relation_type: alias, effective_chapter: 519, status: verified, note: 该化名属于姬雪；与CHAR-0032猿族族长刘爱花为同名碰撞。}
     - {label: 雪瑶仙帝, relation_type: reincarnation_identity, effective_chapter_range: {start: 793, end: 807}, status: verified}
-    growth_event_add:
-    - chapter: 737
-      event: 以刘爱花身份在万妖仙宗体系中晋升玄仙二重并取得执事身份
-      impact: 雪瑶仙帝重生准备继续推进
-      status: verified
-      normalization_source: CHAR-0032误挂历史字段
+    normalization_history_add:
+    - {chapter: 737, event: 以刘爱花身份在万妖仙宗体系中晋升玄仙二重并取得执事身份, impact: 雪瑶仙帝重生准备继续推进, status: verified, source_record: CHAR-0032}
 - id: CHAR-0032
   update:
     cultivation_change_set: null
@@ -39,11 +35,11 @@ character_updates:
     identity_resolution_add:
     - {label: 天羽, relation_type: inherited_identity, effective_chapter_range: {start: 825, end: 853}, status: verified}
     - {relation_type: distinct_same_name, other_character_id: CHAR-0055, shared_label: 凤青玄, status: verified, note: CHAR-0055为第283章玉石宗掌门，属于同名异人。}
-    growth_event_add:
-    - {chapter_range: {start: 519, end: 520}, event: 晋升渡劫九重并飞升灵藏仙域, impact: 进入阴阳仙门矿区并被安排为矿工队长, status: partial, normalization_source: CHAR-0056误挂历史字段}
-    - {chapter: 607, event: 接受新一批化仙丹并深化称呼与资源关系, core_ability: [人仙二重, 十颗化仙丹, 既有仙剑炼化中], impact: [与徐霄长期资源绑定加强], status: verified, normalization_source: CHAR-0052混合建档字段}
-    - {chapter: 679, event: 达到地仙二重并接受仙元丹, impact: 天凤血脉与长期资源支持继续加速修炼, status: partial, normalization_source: CHAR-0055误挂历史字段}
-    - {chapter_range: {start: 682, end: 686}, event: 显露纯血天凤血脉并为徐霄提供妖族身份担保, impact: 获得进入万妖仙宗的核心资格并免除神魂烙印, status: partial, normalization_source: CHAR-0055误挂历史字段}
+    normalization_history_add:
+    - {chapter_range: {start: 519, end: 520}, event: 晋升渡劫九重并飞升灵藏仙域, impact: 进入阴阳仙门矿区并被安排为矿工队长, status: partial, source_record: CHAR-0056}
+    - {chapter: 607, event: 接受新一批化仙丹并深化称呼与资源关系, core_ability: [人仙二重, 十颗化仙丹, 既有仙剑炼化中], impact: [与徐霄长期资源绑定加强], status: verified, source_record: CHAR-0052}
+    - {chapter: 679, event: 达到地仙二重并接受仙元丹, impact: 天凤血脉与长期资源支持继续加速修炼, status: partial, source_record: CHAR-0055}
+    - {chapter_range: {start: 682, end: 686}, event: 显露纯血天凤血脉并为徐霄提供妖族身份担保, impact: 获得进入万妖仙宗的核心资格并免除神魂烙印, status: partial, source_record: CHAR-0055}
 - id: CHAR-0048
   update:
     identity_resolution_add:
