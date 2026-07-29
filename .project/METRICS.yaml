@@ -1,6 +1,6 @@
 schema_version: 2
 updated_at: '2026-07-29'
-run_id: RUN-0125
+run_id: RUN-0126
 coverage:
   chapters_covered_through: 876
   chapters_promoted_in_run: []
@@ -8,6 +8,8 @@ coverage:
   draft_nodes: 0
   story_arc_nodes: 105
   characters_documented: 235
+  characters_active_after_normalization: 233
+  characters_superseded: 2
   characters_staged: 0
   system_records: 1
   gift_events: 259
@@ -31,42 +33,42 @@ audit:
   canonical_ids: 751
   verification_field_occurrences: {verified: 579, partial: 1404, pending: 59, conflict: 0, inferred: 1}
   records_with_verification_state: {verified: 265, partial: 577, pending: 54, conflict: 0, inferred: 1}
-  findings:
-    timeline_gaps: 0
-    timeline_overlaps: 0
-    duplicate_character_name_groups: 7
-    unresolved_exact_identity_labels: [雪瑶仙帝, 天羽]
-    dead_character_active_state_candidates: 0
-    gift_participant_identity_candidates: 18
-    gift_rows_without_exact_artifact_name_match: 25
-    pending_gift_rows: 79
-    duplicate_artifact_name_groups: 3
-    artifact_lifecycle_candidates: 3
-  correction:
-    gift_id: GIFT-0027
-    previous_node: NODE-0019
-    gift_node: NODE-0018
-    resolution_node: NODE-0019
+normalization:
+  task_id: TASK-0112
+  status: passed_with_explicit_unresolved
+  decision_ledger: data/normalization/run-0126.yaml
+  machine_report: data/audits/run-0126.yaml
+  final_state: data/generated/final-state.yaml
+  corrected_character_names: 4
+  corrected_artifact_names: 3
+  resolved_identity_labels: 2
+  superseded_character_records: 2
+  active_duplicate_character_name_groups_classified: 3
+  gift_participant_candidates_dispositioned: 18
+  gift_participants_explicitly_unresolved: 3
+  gift_component_rows_dispositioned: 25
+  artifact_lifecycle_repairs: 3
+  lifecycle_candidates_remaining: 0
 quality_gates:
-  source_traceability: {status: passed_with_qualifications, official_direct_through: 16, archive_and_hash_coverage_through: 876}
-  audit_coherence: {status: passed, scope: full_main_story_without_new_timeline_node}
-  materiality: {status: passed, outputs: [deterministic_auditor, machine_audit, three_analysis_reports, release_notes, canonical_correction]}
-  cross_index_consistency: {status: passed, reference_errors: 0}
-  duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure: {status: passed, files_parsed: 511}
-  canonical_rebuild: {status: passed, pr_note: tracked generated gifts are refreshed only after merge; temporary canonical rebuild passed}
-  extension_append_only: {status: passed_with_legacy_compatibility, legacy_root_filenames: 21, legacy_multi_file_runs: 17}
+  source_traceability: {status: passed, policy: direct_evidence_or_explicit_unresolved}
+  normalization_coherence: {status: passed, scope: canonical_knowledge_base_without_new_timeline_node}
+  materiality: {status: passed, outputs: [append_only_corrections, decision_ledger, validator, machine_report, final_state_snapshot]}
+  cross_index_consistency: {status: passed}
+  duplicate_work_check: {status: passed, reused_task_ids: 0, new_timeline_nodes: 0}
+  yaml_structure: {status: passed}
+  alias_identity_consistency: {status: passed, exact_labels: [雪瑶仙帝, 天羽]}
+  duplicate_name_disposition: {status: passed, historical_groups_reviewed: 7}
+  dead_character_active_state_consistency: {status: passed, candidates: 0}
+  gift_participant_resolution: {status: passed_with_explicit_unresolved, candidates: 18, unresolved: 3}
+  gift_component_disposition: {status: passed_with_explicit_unresolved, rows: 25}
+  artifact_ownership_conservation: {status: passed, repaired: 3, remaining_candidates: 0}
+  final_state_snapshot_consistency: {status: passed, source: canonical_generated_indexes}
   entity_document_freshness: {status: passed, characters: 235, artifacts: 149, manifest_documents: 384}
   entity_document_readability: {status: passed}
-  character_identity_alignment: {status: passed_with_findings, duplicate_name_groups: 7, unresolved_exact_labels: 2}
   character_growth_continuity: {status: passed}
-  growth_temporal_accuracy: {status: passed, latest_time_based_status_precedence: true}
-  gift_artifact_linkage: {status: passed_with_findings, exact_gift_name_links: 197, exact_reward_name_links: 192}
-  artifact_ownership_lifecycle: {status: passed_with_findings, review_candidates: 3}
-  final_state_consistency: {status: passed, main_story_end: 876, retained_upgrade_opportunities: pending}
-  pending_conflict_accounting: {status: passed, pending_fields: 59, conflict_fields: 0, inferred_fields: 1}
-  audit_reproducibility: {status: passed, report: data/audits/run-0125.yaml}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_metadata_and_hashes}
+  growth_temporal_accuracy: {status: passed}
+  pending_conflict_accounting: {status: passed, unresolved_is_not_forced_to_verified: true}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false}
 blockers:
 - id: BLOCK-0005
   category: release
