@@ -1,9 +1,9 @@
 schema_version: 2
 updated_at: '2026-07-29'
-run_id: RUN-0124
+run_id: RUN-0125
 coverage:
   chapters_covered_through: 876
-  chapters_promoted_in_run: [864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876]
+  chapters_promoted_in_run: []
   timeline_nodes: 108
   draft_nodes: 0
   story_arc_nodes: 105
@@ -22,17 +22,53 @@ entity_documents:
   manifest: docs/entity-docs-manifest.yaml
   presentation: reader_friendly_with_staged_growth_line_and_collapsed_canonical_appendix
   growth_line: {mode: stage_summary_plus_append_only_run_history, stage_window_chapters: 50, continuity_effective_run: RUN-0082, temporal_accuracy: no_backfill_from_merged_current_snapshot}
+audit:
+  version: v1.0.0
+  task_id: TASK-0111
+  status: passed_with_findings
+  yaml_files: 511
+  extension_files: 385
+  canonical_ids: 751
+  verification_field_occurrences: {verified: 579, partial: 1404, pending: 59, conflict: 0, inferred: 1}
+  records_with_verification_state: {verified: 265, partial: 577, pending: 54, conflict: 0, inferred: 1}
+  findings:
+    timeline_gaps: 0
+    timeline_overlaps: 0
+    duplicate_character_name_groups: 7
+    unresolved_exact_identity_labels: [雪瑶仙帝, 天羽]
+    dead_character_active_state_candidates: 0
+    gift_participant_identity_candidates: 18
+    gift_rows_without_exact_artifact_name_match: 25
+    pending_gift_rows: 79
+    duplicate_artifact_name_groups: 3
+    artifact_lifecycle_candidates: 3
+  correction:
+    gift_id: GIFT-0027
+    previous_node: NODE-0019
+    gift_node: NODE-0018
+    resolution_node: NODE-0019
 quality_gates:
-  source_traceability: {status: passed, archive_chapters: [864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876], transient_artifacts: [source-chapters-827-876], source_hash_failures: 0}
-  arc_coherence: {status: passed, boundary: 第876章为正文终章并完成炼神鼎危机、神煞界覆灭与仙界权力重组；其后为番外}
-  materiality: {status: passed, entity_updates: [NODE-0108, 一名新人物, 十三名既有人物成长更新, GIFT-0252至GIFT-0259, ART-0147至ART-0149]}
-  cross_index_consistency: {status: passed, index_mode: base_plus_extensions}
+  source_traceability: {status: passed_with_qualifications, official_direct_through: 16, archive_and_hash_coverage_through: 876}
+  audit_coherence: {status: passed, scope: full_main_story_without_new_timeline_node}
+  materiality: {status: passed, outputs: [deterministic_auditor, machine_audit, three_analysis_reports, release_notes, canonical_correction]}
+  cross_index_consistency: {status: passed, reference_errors: 0}
   duplicate_work_check: {status: passed, duplicated_completed_tasks: 0, duplicated_nodes: 0, duplicated_character_ids: 0, duplicated_gift_ids: 0, duplicated_artifact_ids: 0}
-  yaml_structure_review: {status: passed}
-  entity_document_freshness: {status: passed, characters: 235, artifacts: 149}
+  yaml_structure: {status: passed, files_parsed: 511}
+  canonical_rebuild: {status: passed, pr_note: tracked generated gifts are refreshed only after merge; temporary canonical rebuild passed}
+  extension_append_only: {status: passed_with_legacy_compatibility, legacy_root_filenames: 21, legacy_multi_file_runs: 17}
+  entity_document_freshness: {status: passed, characters: 235, artifacts: 149, manifest_documents: 384}
   entity_document_readability: {status: passed}
-  character_identity_alignment: {status: passed, remaining_mismatches: 0}
-  character_growth_continuity: {status: passed, material_character_updates: 13, timed_growth_events: 13, new_characters_with_first_appearance: 1}
-  growth_temporal_accuracy: {status: passed, late_state_backfill_into_first_appearance: 0}
-  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_titles_and_hashes}
-blockers: []
+  character_identity_alignment: {status: passed_with_findings, duplicate_name_groups: 7, unresolved_exact_labels: 2}
+  character_growth_continuity: {status: passed}
+  growth_temporal_accuracy: {status: passed, latest_time_based_status_precedence: true}
+  gift_artifact_linkage: {status: passed_with_findings, exact_gift_name_links: 197, exact_reward_name_links: 192}
+  artifact_ownership_lifecycle: {status: passed_with_findings, review_candidates: 3}
+  final_state_consistency: {status: passed, main_story_end: 876, retained_upgrade_opportunities: pending}
+  pending_conflict_accounting: {status: passed, pending_fields: 59, conflict_fields: 0, inferred_fields: 1}
+  audit_reproducibility: {status: passed, report: data/audits/run-0125.yaml}
+  copyright_boundary: {status: passed, full_chapter_text_stored: false, output_type: original_summary_structured_facts_metadata_and_hashes}
+blockers:
+- id: BLOCK-0005
+  category: release
+  status: open
+  reason: Authorized GitHub connector has no tag or GitHub Release creation action.
