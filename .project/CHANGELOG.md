@@ -6,7 +6,7 @@
 - Confirmed `TASK-0113` was the only pending Task, `main` HEAD was `24a41e9b1dca059f07d340b36937498684d253df`, and no concurrent RUN-0127 PR existed.
 - Created no Timeline Node, changed no canonical story fact and did not process extras.
 - Added `data/analysis/run-0127-config.yaml` as the frozen analysis contract and `scripts/analyze_repository.py` as the deterministic generator.
-- Added `.github/workflows/full-book-analysis.yml`; PR runs generate and validate the complete artifact, while post-merge materialization waits for the canonical refresh commit to avoid competing writes to `main`.
+- Added `.github/workflows/full-book-analysis.yml` for PR and manual analysis validation. Final tracked analysis materialization is performed by the canonical refresh job so all generated views are committed atomically.
 - Generated a continuous Chapter 1—876 statistical model: 108 Timeline Nodes with a mean span of 8.11 chapters, median 8, minimum 1 and maximum 23.
 - Counted 235 historical Character records, 233 active Characters, 2 superseded Characters, 259 Gifts and 149 Artifacts.
 - Built 2,581 relationship edges: 2,376 Timeline co-occurrence, 103 explicit relationship, 98 Gift and 4 identity edges.
@@ -15,6 +15,10 @@
 - Preserved 53 unresolved or ambiguous Timeline labels, 14 Gift participant labels and 14 explicit relationship labels as findings rather than forcing Character bindings.
 - Both Full Book Analysis and Knowledge Base CI passed in the initial complete PR run, including SQLite `integrity_check`, fixed source counts, full audit, entity rendering and copyright checks.
 - Completed `TASK-0113` and queued only `TASK-0114` for extras scope inventory and isolated namespace initialization.
+- Squash-merged PR #99 as business commit `8d1ab72db0c493dfac8c7fd0d41e1d067f2505e0` after both final workflows passed against merge ref `92b00ee251b27a362de4b7aeac5fde8798cdc674`.
+- Post-merge verification confirmed canonical refresh commit `f0c8e6e7956fda6bc2704bc796204b06a065883d`, but the separate analysis materialization workflow did not start and `data/audits/run-0127.yaml` remained absent.
+- Confirmed the root cause against GitHub Actions behavior: events produced by a workflow using the repository `GITHUB_TOKEN` do not create another ordinary workflow run, which prevents recursive workflow chains.
+- Moved RUN-0127 materialization into the existing `refresh-generated` job, added analysis outputs to its atomic tracked path set and retained `Full Book Analysis` as a validation-only workflow. This recovery remains part of `RUN-0127` / `TASK-0113`, not a new Task.
 - Retained `BLOCK-0005`; the connector still cannot create Git tag or GitHub Release `v1.0.0`.
 
 ## RUN-0126 — 2026-07-29
