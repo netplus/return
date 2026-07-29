@@ -17,6 +17,9 @@
 - Upgraded Workflow to v2.5 and transitioned Project OS to `story_status: complete`, `project_status: maintenance`, `release_status: preparing_v1`.
 - Completed `TASK-0111`; created `TASK-0112` as the single pending Task and `TASK-0113` as planned behind it.
 - Prepared full audit reports, a machine-readable audit and `RELEASE_NOTES_v1.0.0.md` for post-merge automatic materialization.
+- Squash-merged PR #95 as business commit `cd24ac05347e6d1aad5bff3ae3d48373cac1d7af` after the final complete PR CI passed.
+- Post-merge verification found that the push-triggered materialization produced no generated-view commit: `data/audits/run-0125.yaml` and `RELEASE_NOTES_v1.0.0.md` were absent, while `data/generated/gifts.yaml` still showed `GIFT-0027.node: NODE-0019`. The connector exposed no push-run record or failure log, so no unverified root cause was asserted.
+- Added a merged-PR `closed` fallback, serialized the refresh job across trigger types, and pinned v1 audit generation to the verified business commit from `.project/STATE.yaml`. This recovery remains part of `RUN-0125` / `TASK-0111`, not a new Task.
 - Registered `BLOCK-0005`: the authorized GitHub connector exposes no tag or GitHub Release creation action. `v1.0.0` is not claimed as created.
 
 ## RUN-0124 — 2026-07-29

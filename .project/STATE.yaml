@@ -50,6 +50,7 @@ audit:
   baseline_version: v1.0.0
   run_id: RUN-0125
   task_id: TASK-0111
+  source_commit: cd24ac05347e6d1aad5bff3ae3d48373cac1d7af
   status: passed_with_findings
   reports:
   - docs/08-analysis/full-repository-audit.md
