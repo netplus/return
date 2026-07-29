@@ -14,6 +14,10 @@ artifact_updates:
     lifecycle_event_add:
     - {chapter: 183, event_type: destroyed, previous_holder: 徐霄, result: 第七道强化雷劫中损毁, status: partial}
     normalization_note_set: 能力、文档路径及战斗记录均直接指向九火琉璃罩，历史name字段误写为三千大道丹。
+- id: ART-0018
+  update:
+    name_set: 流光星陨戒
+    normalization_note_set: 文档路径、GIFT-0019转移记录及受益人均直接指向流光星陨戒，历史name字段误写为玄天八卦阵。
 - id: ART-0023
   update:
     current_holder_set: null
