@@ -1,0 +1,90 @@
+schema_version: 1
+analysis:
+  run_id: RUN-0127
+  task_id: TASK-0113
+  source_commit: 8d1ab72db0c493dfac8c7fd0d41e1d067f2505e0
+  analysis_date: '2026-07-29'
+  status: passed_with_documented_ambiguity
+  blocking_findings: []
+counts:
+  timeline_nodes: 108
+  characters_total: 235
+  characters_active: 233
+  gifts: 259
+  artifacts: 149
+  characters_superseded: 2
+  relationship_edges: 2581
+  sqlite_tables: 11
+  ambiguous_timeline_labels: 53
+  unresolved_gift_participants: 14
+  ambiguous_relationship_labels: 14
+quality_gates:
+  source_count_reconciliation:
+    status: passed
+    detail:
+      timeline_nodes: 108
+      characters_total: 235
+      characters_active: 233
+      gifts: 259
+      artifacts: 149
+  timeline_continuity:
+    status: passed
+    detail: coverage=1-876; nodes=108
+  superseded_exclusion:
+    status: passed
+    detail: active=233; superseded=2
+  relationship_endpoint_integrity:
+    status: passed
+    detail: edges=2581
+  ambiguity_preservation:
+    status: passed
+    detail:
+      timeline_labels: 53
+      gift_participants: 14
+      relationship_labels: 14
+  sqlite_reconciliation:
+    status: passed
+    detail:
+      timeline_nodes: 108
+      characters: 235
+      character_aliases: 514
+      character_affiliations: 354
+      node_characters: 912
+      gifts: 259
+      gift_participants: 503
+      artifacts: 149
+      artifact_events: 3
+      relationships: 2581
+      phase_stats: 9
+  jsonl_reconciliation:
+    status: passed
+    detail: lines=2581; edges=2581
+  deterministic_serialization_contract:
+    status: passed
+    detail: sorted JSON/JSONL rows, fixed SQLite schema and canonical input hashes
+  copyright_boundary:
+    status: passed
+    detail: structured facts and original analysis only; no full chapter text
+input_sha256:
+  timeline: 46ce64d559ad9055bea8257997afe7ed12eb4cee18e96d5581564373da6356bb
+  characters: f8e60f6b9c46ff6080d3b19700df7033f3b113689059145e773cb742da580772
+  gifts: 2d76837bc4547eff2e012c205457b25e2995790bbe7522331e93b227fa74d4d6
+  artifacts: 695a16a5969b073379cbf98082ff805699a2e8e883680e7f19e8dac4baa09c4a
+  config: 139f7bc9410506bd75be9a8cb08ef20e658d131604c983d8203a05fa25623a68
+output_sha256:
+  summary_json: 348e6d2ec57b1a8b64d4362586807dd26fe7d3c81a048872315062aadd8ceb4e
+  relationships_jsonl: acf72d63943fd50bebef6250dd1ef12a77cf0be688018c7e56963a6a99bdc64e
+  sqlite: a4b8eb1c796a7d6bce0dc261d245688e16e958c669b42ba5556affba9849498d
+  sqlite_schema: 4dc624509cbf2bd223db6ea4c03f9daffc74ba3880c557785d0a356b974ea2c5
+  markdown: 06de0633eed09313690d3a6d44688f2b4ae8c5027a3b91011f5b653b5a672e2f
+  mermaid: f7c73969a20d87ff3599ed6a4082dc8e3707b5621ca875d4d1df6d85f690d90b
+  graphviz: 7937ccb9a20c4c94ebacf739228f80252a30040641a439fa14c0ad7eddbbbbc3
+outputs:
+  summary_json: data/analysis/run-0127/summary.json
+  relationships_jsonl: data/analysis/run-0127/relationships.jsonl
+  sqlite: data/analysis/run-0127/full-book.sqlite3
+  sqlite_schema: data/analysis/run-0127/schema.sql
+  markdown: docs/08-analysis/full-book-analysis.md
+  mermaid: docs/08-analysis/relationship-graph.mmd
+  graphviz: docs/08-analysis/relationship-graph.dot
+  audit: data/audits/run-0127.yaml

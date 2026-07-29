@@ -1,0 +1,17 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+CREATE TABLE timeline_nodes (id TEXT PRIMARY KEY, title TEXT, chapter_start INTEGER NOT NULL, chapter_end INTEGER NOT NULL, chapter_span INTEGER NOT NULL, status TEXT, character_count INTEGER NOT NULL, location_count INTEGER NOT NULL, system_event_count INTEGER NOT NULL, conflict_event_count INTEGER NOT NULL);
+CREATE TABLE characters (id TEXT PRIMARY KEY, name TEXT NOT NULL, life_status TEXT, role TEXT, record_status TEXT, first_chapter INTEGER, verification_status TEXT, node_count INTEGER NOT NULL, gift_count INTEGER NOT NULL, weighted_degree INTEGER NOT NULL, neighbor_count INTEGER NOT NULL, pagerank REAL NOT NULL);
+CREATE TABLE character_aliases (character_id TEXT NOT NULL REFERENCES characters(id), alias TEXT NOT NULL, PRIMARY KEY(character_id, alias));
+CREATE TABLE character_affiliations (character_id TEXT NOT NULL REFERENCES characters(id), affiliation TEXT NOT NULL, PRIMARY KEY(character_id, affiliation));
+CREATE TABLE node_characters (node_id TEXT NOT NULL REFERENCES timeline_nodes(id), character_id TEXT NOT NULL REFERENCES characters(id), raw_label TEXT NOT NULL, resolution TEXT NOT NULL, PRIMARY KEY(node_id, character_id, raw_label));
+CREATE TABLE gifts (id TEXT PRIMARY KEY, chapter INTEGER, resolution_chapter INTEGER, giver_raw TEXT, recipient_raw TEXT, accepted INTEGER, system_valid INTEGER, status TEXT, max_multiplier INTEGER, gift_text TEXT, reward_text TEXT);
+CREATE TABLE gift_participants (gift_id TEXT NOT NULL REFERENCES gifts(id), participant_role TEXT NOT NULL, character_id TEXT REFERENCES characters(id), raw_label TEXT, resolution TEXT, status TEXT);
+CREATE TABLE artifacts (id TEXT PRIMARY KEY, name TEXT NOT NULL, category TEXT, grade TEXT, first_chapter INTEGER, current_holder TEXT, former_holder TEXT, lifecycle_status TEXT, verification_status TEXT, record_status TEXT);
+CREATE TABLE artifact_events (artifact_id TEXT NOT NULL REFERENCES artifacts(id), event_index INTEGER NOT NULL, chapter INTEGER, event_type TEXT, previous_holder TEXT, result TEXT, status TEXT, PRIMARY KEY(artifact_id, event_index));
+CREATE TABLE relationships (source_id TEXT NOT NULL REFERENCES characters(id), target_id TEXT NOT NULL REFERENCES characters(id), relation_type TEXT NOT NULL, directed INTEGER NOT NULL, weight INTEGER NOT NULL, evidence_count INTEGER NOT NULL, first_chapter INTEGER, last_chapter INTEGER, evidence_json TEXT NOT NULL, PRIMARY KEY(source_id, target_id, relation_type, directed));
+CREATE TABLE phase_stats (phase_start INTEGER NOT NULL, phase_end INTEGER NOT NULL, timeline_nodes INTEGER NOT NULL, new_characters INTEGER NOT NULL, gifts INTEGER NOT NULL, new_artifacts INTEGER NOT NULL, PRIMARY KEY(phase_start, phase_end));
+CREATE INDEX idx_node_characters_character ON node_characters(character_id);
+CREATE INDEX idx_gift_participants_character ON gift_participants(character_id);
+CREATE INDEX idx_relationships_target ON relationships(target_id);
+CREATE INDEX idx_character_affiliations_name ON character_affiliations(affiliation);

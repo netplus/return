@@ -1,0 +1,1697 @@
+{
+  "analysis_date": "2026-07-29",
+  "artifacts": {
+    "category_counts": [
+      [
+        "丹药",
+        43
+      ],
+      [
+        "道器",
+        9
+      ],
+      [
+        "仙器神剑",
+        7
+      ],
+      [
+        "法器",
+        6
+      ],
+      [
+        "符箓",
+        6
+      ],
+      [
+        "至尊仙器神剑",
+        6
+      ],
+      [
+        "规则道器",
+        6
+      ],
+      [
+        "仙器",
+        5
+      ],
+      [
+        "法宝",
+        5
+      ],
+      [
+        "神器",
+        5
+      ],
+      [
+        "术法符箓",
+        4
+      ],
+      [
+        "先天灵宝",
+        3
+      ],
+      [
+        "先天灵宝神剑",
+        3
+      ],
+      [
+        "大道丹药",
+        3
+      ],
+      [
+        "灵宝神剑",
+        3
+      ],
+      [
+        "防御仙器",
+        3
+      ],
+      [
+        "阵盘",
+        3
+      ],
+      [
+        "至尊仙器",
+        2
+      ],
+      [
+        "血脉丹药",
+        2
+      ],
+      [
+        "仙剑",
+        1
+      ],
+      [
+        "仙器法宝",
+        1
+      ],
+      [
+        "仙符",
+        1
+      ],
+      [
+        "令牌",
+        1
+      ],
+      [
+        "传送与资源交换设施",
+        1
+      ],
+      [
+        "先天灵宝魔剑",
+        1
+      ],
+      [
+        "天材地宝",
+        1
+      ],
+      [
+        "妖族血脉令牌",
+        1
+      ],
+      [
+        "宗门检测法器",
+        1
+      ],
+      [
+        "灵宝神剑组合",
+        1
+      ],
+      [
+        "灵宝魔器",
+        1
+      ],
+      [
+        "特殊破界宝物",
+        1
+      ],
+      [
+        "神魂丹药",
+        1
+      ],
+      [
+        "空间仙器",
+        1
+      ],
+      [
+        "系统道具",
+        1
+      ],
+      [
+        "血脉资源",
+        1
+      ],
+      [
+        "货币与修炼资源",
+        1
+      ],
+      [
+        "跨界辅助法器",
+        1
+      ],
+      [
+        "道器剑阵",
+        1
+      ],
+      [
+        "道器神剑",
+        1
+      ],
+      [
+        "防御道器",
+        1
+      ],
+      [
+        "飞舟仙器",
+        1
+      ],
+      [
+        "飞行与传送灵宝",
+        1
+      ],
+      [
+        "飞行仙器",
+        1
+      ],
+      [
+        "魂丹",
+        1
+      ]
+    ],
+    "lifecycle_counts": [
+      [
+        "未结构化",
+        51
+      ],
+      [
+        "已获得",
+        17
+      ],
+      [
+        "已服用",
+        11
+      ],
+      [
+        "未确认服用",
+        6
+      ],
+      [
+        "未确认使用",
+        5
+      ],
+      [
+        "已获得未确认使用",
+        4
+      ],
+      [
+        "未确认分配或使用",
+        3
+      ],
+      [
+        "destroyed",
+        2
+      ],
+      [
+        "已入徐霄空间库",
+        2
+      ],
+      [
+        "已获得，未确认使用",
+        2
+      ],
+      [
+        "未使用",
+        2
+      ],
+      [
+        "consumed",
+        1
+      ],
+      [
+        "万妖仙宗选拔使用",
+        1
+      ],
+      [
+        "三十颗入库，未确认服用",
+        1
+      ],
+      [
+        "两张已入徐霄空间库",
+        1
+      ],
+      [
+        "九十颗入库",
+        1
+      ],
+      [
+        "后续赠送赤澜儿",
+        1
+      ],
+      [
+        "尚未使用",
+        1
+      ],
+      [
+        "已于第736章服用",
+        1
+      ],
+      [
+        "已在第693章及第697章公开展示",
+        1
+      ],
+      [
+        "已展示并收回；剩余数量待确认",
+        1
+      ],
+      [
+        "已收入徐霄空间库",
+        1
+      ],
+      [
+        "已收入空间库",
+        1
+      ],
+      [
+        "已收取",
+        1
+      ],
+      [
+        "已服用并修成万佛金身",
+        1
+      ],
+      [
+        "已消耗",
+        1
+      ],
+      [
+        "已炼化并投入实战",
+        1
+      ],
+      [
+        "已用于凤青玄重新启动涅槃",
+        1
+      ],
+      [
+        "已用于徐霄飞升并保留后续往返能力",
+        1
+      ],
+      [
+        "已用于重创血无涯",
+        1
+      ],
+      [
+        "已由丁静接受",
+        1
+      ],
+      [
+        "已由云姑心接受，炼化进度待确认",
+        1
+      ],
+      [
+        "已由凤青玄掌控",
+        1
+      ],
+      [
+        "已由徐霄服用",
+        1
+      ],
+      [
+        "已由罗素展示并接受",
+        1
+      ],
+      [
+        "已由轩辕婉君佩戴",
+        1
+      ],
+      [
+        "已由邬秋持有，尚未确认服用",
+        1
+      ],
+      [
+        "已由魔无花持有",
+        1
+      ],
+      [
+        "已获得但尚未部署",
+        1
+      ],
+      [
+        "已获得并于第849章穿越天凤峰防御阵法",
+        1
+      ],
+      [
+        "已获得并持续返还",
+        1
+      ],
+      [
+        "已获得未使用",
+        1
+      ],
+      [
+        "已获得未部署",
+        1
+      ],
+      [
+        "已获得，首次明确使用章节待确认",
+        1
+      ],
+      [
+        "已赠送焰灵，是否服用待确认",
+        1
+      ],
+      [
+        "已赠送阴萱",
+        1
+      ],
+      [
+        "已赠送雪小星",
+        1
+      ],
+      [
+        "已赠送雪小星，未确认服用",
+        1
+      ],
+      [
+        "已首次公开实战",
+        1
+      ],
+      [
+        "徐霄已服用",
+        1
+      ],
+      [
+        "徐霄持有，未确认使用",
+        1
+      ],
+      [
+        "徐霄持有，未确认实战使用",
+        1
+      ],
+      [
+        "由龙九天暂存，后续归属待宗门决定",
+        1
+      ],
+      [
+        "第583章由徐霄服用",
+        1
+      ],
+      [
+        "阴阳仙门追捕奖励已取得",
+        1
+      ]
+    ],
+    "status_counts": [
+      [
+        "partial",
+        131
+      ],
+      [
+        "pending",
+        1
+      ],
+      [
+        "verified",
+        17
+      ]
+    ]
+  },
+  "characters": {
+    "life_status_counts": [
+      [
+        "active_undead",
+        1
+      ],
+      [
+        "alive",
+        194
+      ],
+      [
+        "alive_unknown",
+        1
+      ],
+      [
+        "dead",
+        36
+      ],
+      [
+        "pending",
+        2
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ],
+    "role_counts": [
+      [
+        "antagonist",
+        59
+      ],
+      [
+        "antagonist_supporting",
+        1
+      ],
+      [
+        "major_supporting",
+        5
+      ],
+      [
+        "major_supporting_antagonistic",
+        1
+      ],
+      [
+        "protagonist",
+        1
+      ],
+      [
+        "rival",
+        1
+      ],
+      [
+        "supporting",
+        164
+      ],
+      [
+        "supporting_antagonistic",
+        3
+      ]
+    ],
+    "top_affiliations": [
+      [
+        "万妖仙宗",
+        24
+      ],
+      [
+        "无妄仙宗",
+        20
+      ],
+      [
+        "阴阳仙门",
+        19
+      ],
+      [
+        "缥缈宗",
+        15
+      ],
+      [
+        "阴阳仙门内门",
+        12
+      ],
+      [
+        "阴阳仙门外门",
+        9
+      ],
+      [
+        "天玄仙宗",
+        7
+      ],
+      [
+        "纯阳仙门",
+        7
+      ],
+      [
+        "灵霄仙宗",
+        6
+      ],
+      [
+        "阴阳飞升会",
+        6
+      ],
+      [
+        "天一仙门",
+        5
+      ],
+      [
+        "轩辕家",
+        5
+      ],
+      [
+        "人族阵营",
+        4
+      ],
+      [
+        "合欢宗",
+        4
+      ],
+      [
+        "大仙域妖族",
+        4
+      ],
+      [
+        "天元仙宗",
+        4
+      ],
+      [
+        "天阵阁",
+        4
+      ],
+      [
+        "轩辕仙城",
+        4
+      ],
+      [
+        "魔罗圣门",
+        4
+      ],
+      [
+        "刹女仙门",
+        3
+      ]
+    ],
+    "top_by_network": [
+      {
+        "id": "CHAR-0001",
+        "name": "徐霄",
+        "neighbor_count": 230,
+        "pagerank": 0.17048398108328658,
+        "rank": 1,
+        "weighted_degree": 2234
+      },
+      {
+        "id": "CHAR-0002",
+        "name": "姬雪",
+        "neighbor_count": 112,
+        "pagerank": 0.020120982689316107,
+        "rank": 2,
+        "weighted_degree": 255
+      },
+      {
+        "id": "CHAR-0045",
+        "name": "凤青玄",
+        "neighbor_count": 88,
+        "pagerank": 0.01589069722462993,
+        "rank": 3,
+        "weighted_degree": 197
+      },
+      {
+        "id": "CHAR-0172",
+        "name": "天翎",
+        "neighbor_count": 63,
+        "pagerank": 0.012273351444879043,
+        "rank": 4,
+        "weighted_degree": 164
+      },
+      {
+        "id": "CHAR-0121",
+        "name": "东方青",
+        "neighbor_count": 54,
+        "pagerank": 0.012083903192700963,
+        "rank": 5,
+        "weighted_degree": 158
+      },
+      {
+        "id": "CHAR-0170",
+        "name": "玄雪",
+        "neighbor_count": 58,
+        "pagerank": 0.011703161702742586,
+        "rank": 6,
+        "weighted_degree": 159
+      },
+      {
+        "id": "CHAR-0114",
+        "name": "南宫嫣",
+        "neighbor_count": 43,
+        "pagerank": 0.011349987911304914,
+        "rank": 7,
+        "weighted_degree": 146
+      },
+      {
+        "id": "CHAR-0048",
+        "name": "玉冰",
+        "neighbor_count": 35,
+        "pagerank": 0.010216148256520377,
+        "rank": 8,
+        "weighted_degree": 131
+      },
+      {
+        "id": "CHAR-0169",
+        "name": "赤澜儿",
+        "neighbor_count": 52,
+        "pagerank": 0.009460541834281484,
+        "rank": 9,
+        "weighted_degree": 129
+      },
+      {
+        "id": "CHAR-0120",
+        "name": "罗素",
+        "neighbor_count": 32,
+        "pagerank": 0.009250288222778725,
+        "rank": 10,
+        "weighted_degree": 122
+      },
+      {
+        "id": "CHAR-0049",
+        "name": "第一婵",
+        "neighbor_count": 33,
+        "pagerank": 0.009005485246126333,
+        "rank": 11,
+        "weighted_degree": 116
+      },
+      {
+        "id": "CHAR-0119",
+        "name": "凌白烟",
+        "neighbor_count": 39,
+        "pagerank": 0.008713698280299517,
+        "rank": 12,
+        "weighted_degree": 109
+      },
+      {
+        "id": "CHAR-0003",
+        "name": "独孤灵",
+        "neighbor_count": 40,
+        "pagerank": 0.008564212039316482,
+        "rank": 13,
+        "weighted_degree": 103
+      },
+      {
+        "id": "CHAR-0193",
+        "name": "魔无花",
+        "neighbor_count": 53,
+        "pagerank": 0.008405134088942758,
+        "rank": 14,
+        "weighted_degree": 108
+      },
+      {
+        "id": "CHAR-0175",
+        "name": "玄灵",
+        "neighbor_count": 49,
+        "pagerank": 0.008382163012057213,
+        "rank": 15,
+        "weighted_degree": 112
+      },
+      {
+        "id": "CHAR-0176",
+        "name": "周紫薇",
+        "neighbor_count": 40,
+        "pagerank": 0.008163689585889183,
+        "rank": 16,
+        "weighted_degree": 107
+      },
+      {
+        "id": "CHAR-0024",
+        "name": "妙玉",
+        "neighbor_count": 34,
+        "pagerank": 0.00814755482663926,
+        "rank": 17,
+        "weighted_degree": 100
+      },
+      {
+        "id": "CHAR-0113",
+        "name": "柳清浅",
+        "neighbor_count": 40,
+        "pagerank": 0.007927435083811591,
+        "rank": 18,
+        "weighted_degree": 101
+      },
+      {
+        "id": "CHAR-0118",
+        "name": "莫问书",
+        "neighbor_count": 41,
+        "pagerank": 0.007876870529254265,
+        "rank": 19,
+        "weighted_degree": 98
+      },
+      {
+        "id": "CHAR-0192",
+        "name": "熊大",
+        "neighbor_count": 41,
+        "pagerank": 0.007466685686799621,
+        "rank": 20,
+        "weighted_degree": 101
+      }
+    ],
+    "top_by_timeline_appearance": [
+      {
+        "id": "CHAR-0001",
+        "life_status": "alive",
+        "name": "徐霄",
+        "node_count": 105,
+        "rank": 1
+      },
+      {
+        "id": "CHAR-0002",
+        "life_status": "alive",
+        "name": "姬雪",
+        "node_count": 19,
+        "rank": 2
+      },
+      {
+        "id": "CHAR-0045",
+        "life_status": "alive",
+        "name": "凤青玄",
+        "node_count": 15,
+        "rank": 3
+      },
+      {
+        "id": "CHAR-0121",
+        "life_status": "alive",
+        "name": "东方青",
+        "node_count": 14,
+        "rank": 4
+      },
+      {
+        "id": "CHAR-0049",
+        "life_status": "alive",
+        "name": "第一婵",
+        "node_count": 13,
+        "rank": 5
+      },
+      {
+        "id": "CHAR-0003",
+        "life_status": "alive",
+        "name": "独孤灵",
+        "node_count": 12,
+        "rank": 6
+      },
+      {
+        "id": "CHAR-0047",
+        "life_status": "alive",
+        "name": "叶尘",
+        "node_count": 12,
+        "rank": 7
+      },
+      {
+        "id": "CHAR-0048",
+        "life_status": "alive",
+        "name": "玉冰",
+        "node_count": 12,
+        "rank": 8
+      },
+      {
+        "id": "CHAR-0050",
+        "life_status": "alive",
+        "name": "秦朋",
+        "node_count": 12,
+        "rank": 9
+      },
+      {
+        "id": "CHAR-0114",
+        "life_status": "alive",
+        "name": "南宫嫣",
+        "node_count": 12,
+        "rank": 10
+      },
+      {
+        "id": "CHAR-0170",
+        "life_status": "alive",
+        "name": "玄雪",
+        "node_count": 12,
+        "rank": 11
+      },
+      {
+        "id": "CHAR-0012",
+        "life_status": "alive",
+        "name": "诸葛无方",
+        "node_count": 11,
+        "rank": 12
+      },
+      {
+        "id": "CHAR-0024",
+        "life_status": "alive",
+        "name": "妙玉",
+        "node_count": 11,
+        "rank": 13
+      },
+      {
+        "id": "CHAR-0119",
+        "life_status": "alive",
+        "name": "凌白烟",
+        "node_count": 11,
+        "rank": 14
+      },
+      {
+        "id": "CHAR-0014",
+        "life_status": "alive",
+        "name": "萧慕河",
+        "node_count": 10,
+        "rank": 15
+      },
+      {
+        "id": "CHAR-0118",
+        "life_status": "alive",
+        "name": "莫问书",
+        "node_count": 10,
+        "rank": 16
+      },
+      {
+        "id": "CHAR-0021",
+        "life_status": "alive",
+        "name": "段红绫",
+        "node_count": 9,
+        "rank": 17
+      },
+      {
+        "id": "CHAR-0120",
+        "life_status": "alive",
+        "name": "罗素",
+        "node_count": 9,
+        "rank": 18
+      },
+      {
+        "id": "CHAR-0172",
+        "life_status": "alive",
+        "name": "天翎",
+        "node_count": 9,
+        "rank": 19
+      },
+      {
+        "id": "CHAR-0025",
+        "life_status": "alive",
+        "name": "魇女",
+        "node_count": 8,
+        "rank": 20
+      }
+    ]
+  },
+  "coverage": {
+    "artifacts": 149,
+    "chapter_end": 876,
+    "chapter_start": 1,
+    "chapters": 876,
+    "characters_active": 233,
+    "characters_superseded": 2,
+    "characters_total": 235,
+    "gifts": 259,
+    "timeline_nodes": 108
+  },
+  "generated_by": "scripts/analyze_repository.py",
+  "gifts": {
+    "accepted_counts": {
+      "false": 1,
+      "true": 257,
+      "unknown": 1
+    },
+    "max_multiplier": 10000,
+    "multiplier_distribution": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        30,
+        1
+      ],
+      [
+        50,
+        2
+      ],
+      [
+        100,
+        6
+      ],
+      [
+        1000,
+        17
+      ],
+      [
+        10000,
+        25
+      ]
+    ],
+    "numeric_multiplier_gifts": 92,
+    "status_counts": [
+      [
+        "partial",
+        161
+      ],
+      [
+        "verified",
+        98
+      ]
+    ],
+    "system_valid_counts": {
+      "false": 6,
+      "true": 225,
+      "unknown": 28
+    },
+    "top_recipients": [
+      {
+        "gift_count": 8,
+        "id": "CHAR-0002",
+        "name": "姬雪",
+        "rank": 1
+      },
+      {
+        "gift_count": 8,
+        "id": "CHAR-0048",
+        "name": "玉冰",
+        "rank": 2
+      },
+      {
+        "gift_count": 7,
+        "id": "CHAR-0045",
+        "name": "凤青玄",
+        "rank": 3
+      },
+      {
+        "gift_count": 6,
+        "id": "CHAR-0049",
+        "name": "第一婵",
+        "rank": 4
+      },
+      {
+        "gift_count": 6,
+        "id": "CHAR-0114",
+        "name": "南宫嫣",
+        "rank": 5
+      },
+      {
+        "gift_count": 6,
+        "id": "CHAR-0172",
+        "name": "天翎",
+        "rank": 6
+      },
+      {
+        "gift_count": 6,
+        "id": "CHAR-0202",
+        "name": "轩辕婉君",
+        "rank": 7
+      },
+      {
+        "gift_count": 5,
+        "id": "CHAR-0083",
+        "name": "冷若云",
+        "rank": 8
+      },
+      {
+        "gift_count": 5,
+        "id": "CHAR-0113",
+        "name": "柳清浅",
+        "rank": 9
+      },
+      {
+        "gift_count": 5,
+        "id": "CHAR-0176",
+        "name": "周紫薇",
+        "rank": 10
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0003",
+        "name": "独孤灵",
+        "rank": 11
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0023",
+        "name": "木玉儿",
+        "rank": 12
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0058",
+        "name": "凤仪",
+        "rank": 13
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0063",
+        "name": "百里海棠",
+        "rank": 14
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0090",
+        "name": "月幽冥",
+        "rank": 15
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0120",
+        "name": "罗素",
+        "rank": 16
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0132",
+        "name": "厉红魅",
+        "rank": 17
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0146",
+        "name": "焰灵",
+        "rank": 18
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0147",
+        "name": "尘玉",
+        "rank": 19
+      },
+      {
+        "gift_count": 4,
+        "id": "CHAR-0154",
+        "name": "青鸾",
+        "rank": 20
+      }
+    ]
+  },
+  "phase_stats": [
+    {
+      "gifts": 23,
+      "new_artifacts": 23,
+      "new_characters": 23,
+      "phase_end": 100,
+      "phase_start": 1,
+      "timeline_nodes": 17
+    },
+    {
+      "gifts": 13,
+      "new_artifacts": 5,
+      "new_characters": 16,
+      "phase_end": 200,
+      "phase_start": 101,
+      "timeline_nodes": 12
+    },
+    {
+      "gifts": 17,
+      "new_artifacts": 9,
+      "new_characters": 18,
+      "phase_end": 300,
+      "phase_start": 201,
+      "timeline_nodes": 11
+    },
+    {
+      "gifts": 20,
+      "new_artifacts": 12,
+      "new_characters": 19,
+      "phase_end": 400,
+      "phase_start": 301,
+      "timeline_nodes": 12
+    },
+    {
+      "gifts": 34,
+      "new_artifacts": 19,
+      "new_characters": 26,
+      "phase_end": 500,
+      "phase_start": 401,
+      "timeline_nodes": 14
+    },
+    {
+      "gifts": 25,
+      "new_artifacts": 17,
+      "new_characters": 35,
+      "phase_end": 600,
+      "phase_start": 501,
+      "timeline_nodes": 12
+    },
+    {
+      "gifts": 43,
+      "new_artifacts": 15,
+      "new_characters": 35,
+      "phase_end": 700,
+      "phase_start": 601,
+      "timeline_nodes": 15
+    },
+    {
+      "gifts": 45,
+      "new_artifacts": 35,
+      "new_characters": 39,
+      "phase_end": 800,
+      "phase_start": 701,
+      "timeline_nodes": 10
+    },
+    {
+      "gifts": 31,
+      "new_artifacts": 14,
+      "new_characters": 22,
+      "phase_end": 876,
+      "phase_start": 801,
+      "timeline_nodes": 5
+    }
+  ],
+  "quality": {
+    "ambiguity_samples": {
+      "explicit_relationships": [
+        {
+          "candidate_ids": [],
+          "raw_label": "无妄仙宗",
+          "source_id": "CHAR-0058"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "林婉与花怜惜",
+          "source_id": "CHAR-0059"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0048",
+            "CHAR-0054"
+          ],
+          "raw_label": "玉冰",
+          "source_id": "CHAR-0073"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "长眉太上长老",
+          "source_id": "CHAR-0074"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "阴煞界",
+          "source_id": "CHAR-0076"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "虎力",
+          "source_id": "CHAR-0081"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0088",
+            "CHAR-0165"
+          ],
+          "raw_label": "黑无忌",
+          "source_id": "CHAR-0089"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0048",
+            "CHAR-0054"
+          ],
+          "raw_label": "玉冰",
+          "source_id": "CHAR-0092"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "raw_label": "凤青玄",
+          "source_id": "CHAR-0142"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "灵藏七仙门",
+          "source_id": "CHAR-0151"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "raw_label": "凤青玄",
+          "source_id": "CHAR-0154"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "raw_label": "凤青玄",
+          "source_id": "CHAR-0172"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "墨玉",
+          "source_id": "CHAR-0193"
+        },
+        {
+          "candidate_ids": [],
+          "raw_label": "月华",
+          "source_id": "CHAR-0193"
+        }
+      ],
+      "gift_participants": [
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "gift_id": "GIFT-0055",
+          "raw_label": "凤青玄",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0107",
+          "raw_label": "长眉；天阁；真灵；罗刹天魔",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0108",
+          "raw_label": "云心月；陆雪瑶；紫霄；血葵",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0109",
+          "raw_label": "长眉；天阁；陆亭舟；公孙长谋；神玉；血刀",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0110",
+          "raw_label": "pending",
+          "reason": "原始受赠对象仍未获得直接证据",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0117",
+          "raw_label": "邹蒙；陈念；一四六号矿队其他成员",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0118",
+          "raw_label": "陈玉；李薇",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0120",
+          "raw_label": "韩烟；李香香",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0122",
+          "raw_label": "莫问书；凌白烟",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0160",
+          "raw_label": "瑶光",
+          "reason": "仅确认瑶光长老身份，尚无独立canonical人物记录",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0182",
+          "raw_label": "玄灵；玄雪",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "gift_id": "GIFT-0247",
+          "raw_label": "凤青玄",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "gift_id": "GIFT-0248",
+          "raw_label": "凤青玄",
+          "role": "recipient"
+        },
+        {
+          "candidate_ids": [],
+          "gift_id": "GIFT-0257",
+          "raw_label": "朱九彩",
+          "reason": "canonical人物索引无直接匹配且不得以名字相似推断",
+          "role": "recipient"
+        }
+      ],
+      "timeline": [
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0007",
+          "raw_label": "鹰长老"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0007",
+          "raw_label": "林大动"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0007",
+          "raw_label": "金昊"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0013",
+          "raw_label": "上官金玉"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0015",
+          "raw_label": "上官飞炼"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0018",
+          "raw_label": "杨铁峰"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0024",
+          "raw_label": "猿洪"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0025",
+          "raw_label": "木长老"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0027",
+          "raw_label": "猿洪"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0029",
+          "raw_label": "猿洪"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0031",
+          "raw_label": "牛大力"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0032",
+          "raw_label": "宇文良恭"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0034",
+          "raw_label": "宇文良恭"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0036",
+          "raw_label": "剑辰"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0036",
+          "raw_label": "唐天霸"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0036",
+          "raw_label": "天昊"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0037",
+          "raw_label": "道元真人"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0037",
+          "raw_label": "唐天霸"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0037",
+          "raw_label": "莫一剑"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0038",
+          "raw_label": "白玉龙"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0039",
+          "raw_label": "血云魔尊"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0040",
+          "raw_label": "赤霞"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0040",
+          "raw_label": "蛮天"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0041",
+          "raw_label": "赤霞"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0041",
+          "raw_label": "蛮天"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0048",
+            "CHAR-0054"
+          ],
+          "node_id": "NODE-0042",
+          "raw_label": "玉冰"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0042",
+          "raw_label": "血云魔尊"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0043",
+          "raw_label": "丹阳"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0043",
+          "raw_label": "清风"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0045",
+          "raw_label": "丹阳"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0045",
+          "raw_label": "清风"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0048",
+            "CHAR-0054"
+          ],
+          "node_id": "NODE-0046",
+          "raw_label": "玉冰"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0048",
+            "CHAR-0054"
+          ],
+          "node_id": "NODE-0048",
+          "raw_label": "玉冰"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0054",
+          "raw_label": "地灵"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0054",
+          "raw_label": "万剑尊者"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0055",
+          "raw_label": "太一"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0057",
+          "raw_label": "虎力"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0057",
+          "raw_label": "蛮天"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0058",
+          "raw_label": "虎力"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0058",
+          "raw_label": "蛮天"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0062",
+          "raw_label": "天阁"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0048",
+            "CHAR-0054"
+          ],
+          "node_id": "NODE-0063",
+          "raw_label": "玉冰"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0065",
+          "raw_label": "长眉"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0065",
+          "raw_label": "天阁"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0067",
+          "raw_label": "血云魔尊"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0087",
+          "raw_label": "瑶光"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "node_id": "NODE-0090",
+          "raw_label": "凤青玄"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "node_id": "NODE-0091",
+          "raw_label": "凤青玄"
+        },
+        {
+          "candidate_ids": [],
+          "node_id": "NODE-0092",
+          "raw_label": "月华"
+        },
+        {
+          "candidate_ids": [
+            "CHAR-0045",
+            "CHAR-0055"
+          ],
+          "node_id": "NODE-0098",
+          "raw_label": "凤青玄"
+        }
+      ]
+    },
+    "ambiguous_relationship_labels": 14,
+    "ambiguous_timeline_labels": 53,
+    "blocking_findings": [],
+    "status": "passed_with_documented_ambiguity",
+    "timeline_continuity": true,
+    "unresolved_gift_participants": 14
+  },
+  "relationships": {
+    "edge_counts_by_type": [
+      [
+        "explicit_relationship",
+        103
+      ],
+      [
+        "gift",
+        98
+      ],
+      [
+        "identity",
+        4
+      ],
+      [
+        "timeline_cooccurrence",
+        2376
+      ]
+    ],
+    "edges_total": 2581,
+    "graph_edge_count": 120,
+    "graph_node_count": 30,
+    "weight_contract": {
+      "explicit_relationship": 3,
+      "gift": 5,
+      "identity": 2,
+      "timeline_cooccurrence": 1
+    }
+  },
+  "run_id": "RUN-0127",
+  "schema_version": 1,
+  "source": {
+    "canonical_input_sha256": {
+      "artifacts": "695a16a5969b073379cbf98082ff805699a2e8e883680e7f19e8dac4baa09c4a",
+      "characters": "f8e60f6b9c46ff6080d3b19700df7033f3b113689059145e773cb742da580772",
+      "config": "139f7bc9410506bd75be9a8cb08ef20e658d131604c983d8203a05fa25623a68",
+      "gifts": "2d76837bc4547eff2e012c205457b25e2995790bbe7522331e93b227fa74d4d6",
+      "timeline": "46ce64d559ad9055bea8257997afe7ed12eb4cee18e96d5581564373da6356bb"
+    },
+    "commit": "8d1ab72db0c493dfac8c7fd0d41e1d067f2505e0"
+  },
+  "sqlite": {
+    "row_counts": {
+      "artifact_events": 3,
+      "artifacts": 149,
+      "character_affiliations": 354,
+      "character_aliases": 514,
+      "characters": 235,
+      "gift_participants": 503,
+      "gifts": 259,
+      "node_characters": 912,
+      "phase_stats": 9,
+      "relationships": 2581,
+      "timeline_nodes": 108
+    }
+  },
+  "task_id": "TASK-0113",
+  "timeline": {
+    "span": {
+      "max": 23,
+      "mean": 8.11111111111111,
+      "median": 8.0,
+      "min": 1
+    },
+    "status_counts": [
+      [
+        "partial",
+        82
+      ],
+      [
+        "verified",
+        26
+      ]
+    ]
+  },
+  "verification_field_occurrences": {
+    "inferred": 1,
+    "partial": 1425,
+    "pending": 52,
+    "verified": 602
+  }
+}
