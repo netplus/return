@@ -1,0 +1,44 @@
+schema_version: 1
+run_id: RUN-0126
+task_id: TASK-0112
+updated_at: '2026-07-29'
+type: normalization
+creates_timeline_node: false
+artifact_updates:
+- id: ART-0017
+  update:
+    name_set: 九火琉璃罩
+    current_holder_set: null
+    former_holder_set: 徐霄
+    lifecycle_status_set: destroyed
+    lifecycle_event_add:
+    - {chapter: 183, event_type: destroyed, previous_holder: 徐霄, result: 第七道强化雷劫中损毁, status: partial}
+    normalization_note_set: 能力、文档路径及战斗记录均直接指向九火琉璃罩，历史name字段误写为三千大道丹。
+- id: ART-0023
+  update:
+    current_holder_set: null
+    former_holder_set: 徐霄
+    lifecycle_status_set: destroyed
+    lifecycle_event_add:
+    - {chapter: 183, event_type: destroyed, previous_holder: 徐霄, result: 第七道强化雷劫中损毁, status: partial}
+- id: ART-0026
+  update:
+    current_holder_set: null
+    former_holder_set: 徐霄
+    lifecycle_status_set: consumed
+    lifecycle_event_add:
+    - {chapter: 284, event_type: consumed, previous_holder: 徐霄, result: 用于清算玉石宗伏杀阵营, status: partial}
+- id: ART-0044
+  update:
+    name_set: 九天神莲戒
+    normalization_note_set: GIFT-0063返还、九道金莲防御能力及战斗记录均直接指向九天神莲戒，历史name字段误写为鸿蒙一气丹。
+- id: ART-0055
+  update:
+    artifact_type_key_set: 天凤血丹
+    batch_id_set: TFXD-BATCH-0435
+    duplicate_name_resolution_set: same_type_distinct_batch
+- id: ART-0099
+  update:
+    artifact_type_key_set: 天凤血丹
+    batch_id_set: TFXD-BATCH-0691
+    duplicate_name_resolution_set: same_type_distinct_batch
