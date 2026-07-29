@@ -1,6 +1,6 @@
 # 剧情知识库工作标准
 
-版本：2.5  
+版本：2.6  
 生效范围：自第 4 章起；第 1—3 章既有节点保留，不回溯拆改。正文第 876 章结束后，项目进入 maintenance / audit / analysis / release 模式。
 
 ## 1. 核心原则
@@ -104,7 +104,7 @@
 - Final-state consistency
 - Pending/conflict accounting
 
-审计和规范化阶段还应检查 alias identity consistency、dead-character active-state consistency、artifact ownership conservation、gift-to-artifact linkage completeness、relationship state transition validity、cultivation chronology 和 system-capability chronology。启发式候选必须作为 findings，不得无证据自动改写事实。
+审计和规范化阶段还应检查 alias identity consistency、dead-character active-state consistency、artifact ownership conservation、gift participant resolution、gift component disposition、gift-to-artifact linkage completeness、relationship state transition validity、cultivation chronology 和 system-capability chronology。启发式候选必须作为 findings，不得无证据自动改写事实。
 
 失败的门禁必须修复或写入 blocker；不得跳过、强制合并或把部分检查描述为全部通过。
 
@@ -130,9 +130,10 @@ python scripts/knowledge_base.py build
 python scripts/knowledge_base.py validate --generated-dir data/generated
 python scripts/validate_entity_identity.py --generated-dir data/generated
 python scripts/render_character_growth.py --validate-continuity --effective-run 82
+python scripts/normalize_repository.py --generated-dir data/generated --output-root .
 ```
 
-- 校验覆盖 YAML、ID、Timeline、文档和证据路径、跨索引引用、人物名称/档案路径、成长事件和 Project OS 统计。
+- 校验覆盖 YAML、ID、Timeline、文档和证据路径、跨索引引用、人物名称/档案路径、成长事件、规范化处置和 Project OS 统计。
 - GitHub Actions 在 `main` 更新后刷新生成索引，并每周将扩展合并回基础索引。
 - compaction 不删除扩展文件；扩展继续作为不可变 Run 审计记录。
 
@@ -162,4 +163,28 @@ python scripts/render_character_growth.py --validate-continuity --effective-run 
 - v1 基线记录业务 Commit、内容树 SHA-256、统计、门禁和核验债务；冻结后不随后续维护自动改写。
 - `verified`、`partial`、`pending`、`conflict`、`inferred` 必须分开统计；“官方直接核验至第 16 章”不得被误解为后续章节未经正文阅读。
 - GitHub Release 只有在所有门禁通过且通过 GitHub 实际验证后才能标记创建成功。连接器没有 tag/release 写能力时，必须登记 blocker 并保留完整 Release Notes，不得虚构发布。
-- 合并后必须验证 generated canonical indexes、人物/物品档案、manifest 和审计基线的自动物化提交。
+- 合并后必须验证 generated canonical indexes、人物/物品档案、manifest、审计基线、规范化报告和终局快照的自动物化提交。
+
+## 12. Identity、Gift 与 Artifact 规范化
+
+### 12.1 Identity relation
+
+- 人物身份关系使用 `identity_resolution` 追加记录表达，不再只依赖“合并/不合并”二元判断。
+- 支持 `same_person`、`alias`、`reincarnation_identity`、`inherited_identity`、`distinct_same_name` 和 `unresolved`。
+- 关系记录必须包含对端 ID 或原始 label、关系类型、证据状态；时间化身份应包含 `effective_chapter` 或 `effective_chapter_range`。
+- 重复建档不得删除历史 ID；使用 `record_status: superseded` 和 `canonical_character_id` 指向主记录，生成分析时默认排除 superseded 记录。
+- 名字相似、称号相近或剧情猜测不能单独证明身份关系。
+
+### 12.2 Gift participant and component disposition
+
+- Gift 保留原始 `recipient` 文本，同时使用 `participant_resolution` 保存 `recipient_refs`、解析类型、状态及未决原因。
+- 群体受赠者可使用 `collective` 或 `partially_resolved_collective`，不得为未知成员伪造人物 ID。
+- 赠礼和返还按组件处置：唯一命名物品可链接 Artifact；丹药批次、货币、灵石、泛化法器组和综合礼单可分类为资源，不强制创建 Artifact。
+- “完成处置”表示每个候选都有明确分类或未决原因，不等同于全部建立 Artifact 链接。
+
+### 12.3 Artifact lifecycle ledger
+
+- Artifact 的获得、转移、使用、消耗和损毁使用 append-only `lifecycle_event` 表达。
+- 记录进入 `consumed` 或 `destroyed` 后，不得继续保留 active `current_holder`；历史持有人写入 `former_holder` 或事件的 `previous_holder`。
+- 同名消耗品可通过 `artifact_type_key` 与不同 `batch_id` 表达同类型不同批次，不因同名强制合并。
+- `data/generated/final-state.yaml` 由 canonical indexes 派生，不得作为新的手工事实源。
