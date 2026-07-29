@@ -2,7 +2,7 @@ schema_version: 1
 normalization:
   run_id: RUN-0126
   task_id: TASK-0112
-  source_commit: 9e6c23f7a7854c383ba7b3f43266a207ae92bee1
+  source_commit: deae8949894d302fc323960795e01b3604b65cc4
   status: passed_with_explicit_unresolved
   blocking_findings: []
 counts:
