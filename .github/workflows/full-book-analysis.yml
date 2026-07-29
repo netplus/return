@@ -5,6 +5,7 @@ on:
     types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - '.github/workflows/full-book-analysis.yml'
+      - '.github/workflows/knowledge-base-ci.yml'
       - 'scripts/analyze_repository.py'
       - 'scripts/knowledge_base.py'
       - 'data/analysis/run-0127-config.yaml'
@@ -14,26 +15,17 @@ on:
       - 'data/artifacts/**'
       - 'data/extensions/**'
       - '.project/**'
-  push:
-    branches: [main]
-    paths-ignore:
-      - 'data/audits/run-0127.yaml'
-      - 'data/analysis/run-0127/**'
-      - 'docs/08-analysis/full-book-analysis.md'
-      - 'docs/08-analysis/relationship-graph.mmd'
-      - 'docs/08-analysis/relationship-graph.dot'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: full-book-analysis-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   validate:
-    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -92,73 +84,3 @@ jobs:
             build/analysis/docs/08-analysis/relationship-graph.dot
           if-no-files-found: error
           retention-days: 30
-
-  materialize:
-    if: >-
-      (github.event_name == 'push' &&
-       startsWith(github.event.head_commit.message, 'chore(data): refresh generated views and normalization outputs')) ||
-      github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install analysis dependency
-        run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
-
-      - name: Materialize frozen RUN-0127 analysis
-        shell: bash
-        run: |
-          mkdir -p build
-          if [ -f data/audits/run-0127.yaml ]; then
-            echo 'RUN-0127 analysis snapshot is already materialized.' | tee build/analysis-push.log
-            exit 0
-          fi
-          python scripts/knowledge_base.py build --output-dir build/canonical-indexes
-          python scripts/knowledge_base.py validate --generated-dir build/canonical-indexes
-          ANALYSIS_SOURCE_COMMIT="$(git log --format=%H --grep='complete RUN-0127' -1)"
-          if [ -z "${ANALYSIS_SOURCE_COMMIT}" ]; then
-            echo 'Unable to locate the RUN-0127 business commit.' >&2
-            exit 1
-          fi
-          python scripts/analyze_repository.py \
-            --generated-dir build/canonical-indexes \
-            --output-root . \
-            --source-commit "${ANALYSIS_SOURCE_COMMIT}" \
-            --analysis-date 2026-07-29
-
-      - name: Commit and push analysis snapshot
-        shell: bash
-        run: |
-          TRACKED_PATHS=(
-            data/audits/run-0127.yaml
-            data/analysis/run-0127
-            docs/08-analysis/full-book-analysis.md
-            docs/08-analysis/relationship-graph.mmd
-            docs/08-analysis/relationship-graph.dot
-          )
-          if [ -z "$(git status --porcelain -- "${TRACKED_PATHS[@]}")" ]; then
-            echo 'RUN-0127 analysis snapshot is already current.' | tee -a build/analysis-push.log
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add "${TRACKED_PATHS[@]}"
-          git commit -m 'chore(data): materialize RUN-0127 analysis snapshot'
-          set -o pipefail
-          git push origin HEAD:main 2>&1 | tee -a build/analysis-push.log
-
-      - name: Upload analysis materialization report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: full-book-analysis-push-${{ github.sha }}
-          path: build/analysis-push.log
-          if-no-files-found: warn
-          retention-days: 14
