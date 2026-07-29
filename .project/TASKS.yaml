@@ -1,6 +1,6 @@
 schema_version: 2
 workflow:
-  standard_version: 2.5
+  standard_version: 2.6
   unit: story_arc
   active_mode: maintenance
   supported_task_types: [story_arc, audit, data_quality, normalization, analysis, release, extras]
@@ -36,56 +36,63 @@ tasks:
   completed_at: '2026-07-29'
   run_id: RUN-0125
   target: {scope: main_story, chapter_start: 1, chapter_end: 876, creates_timeline_node: false, release_version: v1.0.0}
-  outputs:
-  - scripts/full_repository_audit.py
-  - scripts/run_full_repository_audit.py
-  - data/extensions/system/run-0125.yaml
-  - docs/08-analysis/full-repository-audit.md
-  - docs/08-analysis/verification-debt.md
-  - docs/08-analysis/v1-baseline-statistics.md
-  - data/audits/run-0125.yaml
-  - RELEASE_NOTES_v1.0.0.md
-  quality_gates:
-    source_traceability: passed_with_qualifications
-    audit_coherence: passed
-    materiality: passed
-    cross_index_consistency: passed
-    duplicate_work_check: passed
-    yaml_structure: passed
-    entity_document_freshness: passed
-    entity_document_readability: passed
-    character_identity_alignment: passed_with_findings
-    character_growth_continuity: passed
-    growth_temporal_accuracy: passed
-    copyright_boundary: passed
-    project_os_metrics_consistency: passed
-    audit_reproducibility: passed
-    final_state_consistency: passed
-    pending_conflict_accounting: passed
+  outputs: [scripts/full_repository_audit.py, scripts/run_full_repository_audit.py, data/extensions/system/run-0125.yaml, docs/08-analysis/full-repository-audit.md, docs/08-analysis/verification-debt.md, docs/08-analysis/v1-baseline-statistics.md, data/audits/run-0125.yaml, RELEASE_NOTES_v1.0.0.md]
+  quality_gates: {source_traceability: passed_with_qualifications, audit_coherence: passed, materiality: passed, cross_index_consistency: passed, duplicate_work_check: passed, yaml_structure: passed, entity_document_freshness: passed, entity_document_readability: passed, character_identity_alignment: passed_with_findings, character_growth_continuity: passed, growth_temporal_accuracy: passed, copyright_boundary: passed, project_os_metrics_consistency: passed, audit_reproducibility: passed, final_state_consistency: passed, pending_conflict_accounting: passed}
   findings:
   - Corrected GIFT-0027 gift node from NODE-0019 to NODE-0018 and retained NODE-0019 as resolution_node.
-  - Preserved seven duplicate canonical character-name groups for evidence-based normalization.
-  - Preserved unresolved exact identity labels 雪瑶仙帝 and 天羽; no name-similarity merge was performed.
-  - Queued Gift participant, Gift-to-Artifact and Artifact lifecycle candidates for TASK-0112.
-  release:
-    repository_baseline_prepared: true
-    github_release_created: false
-    blocker: BLOCK-0005
+  - Preserved normalization findings for TASK-0112 without similarity-based merges.
+  release: {repository_baseline_prepared: true, github_release_created: false, blocker: BLOCK-0005}
   depends_on: [TASK-0110]
 - id: TASK-0112
   title: Pending、Conflict 与实体规范化
   type: normalization
-  status: pending
+  status: done
+  completed_at: '2026-07-29'
+  run_id: RUN-0126
   target:
     scope: canonical_knowledge_base
     creates_timeline_node: false
     goals: [verification_debt_cleanup, alias_identity_consistency, dead_character_active_state_consistency, artifact_ownership_conservation, gift_to_artifact_linkage, final_state_snapshot]
   evidence_policy: Do not reduce pending or merge identities without direct evidence.
+  outputs:
+  - data/extensions/characters/run-0126.yaml
+  - data/extensions/artifacts/run-0126.yaml
+  - data/extensions/system/run-0126.yaml
+  - data/normalization/run-0126.yaml
+  - scripts/normalize_repository.py
+  - data/audits/run-0126.yaml
+  - data/generated/final-state.yaml
+  - docs/08-analysis/entity-normalization.md
+  - docs/08-analysis/final-state-snapshot.md
+  quality_gates:
+    source_traceability: passed
+    normalization_coherence: passed
+    materiality: passed
+    cross_index_consistency: passed
+    duplicate_work_check: passed
+    yaml_structure: passed
+    alias_identity_consistency: passed
+    duplicate_name_disposition: passed
+    dead_character_active_state_consistency: passed
+    gift_participant_resolution: passed_with_explicit_unresolved
+    gift_component_disposition: passed_with_explicit_unresolved
+    artifact_ownership_conservation: passed
+    final_state_snapshot_consistency: passed
+    entity_document_freshness: passed
+    entity_document_readability: passed
+    copyright_boundary: passed
+  findings:
+  - Corrected four directly evidenced Character names and three directly evidenced Artifact names.
+  - Resolved 雪瑶仙帝 to CHAR-0002 and 天羽 to CHAR-0045 as time-scoped identities.
+  - Superseded two duplicate Character records while retaining historical IDs.
+  - Dispositioned all 18 Gift participant candidates and all 25 Gift component candidates without forcing unresolved evidence.
+  - Removed active holders from three destroyed-or-consumed Artifact records and added lifecycle events.
+  - Preserved GIFT-0110, GIFT-0160 and GIFT-0257 as explicit unresolved participant records.
   depends_on: [TASK-0111]
 - id: TASK-0113
   title: 全书统计分析与关系图
   type: analysis
-  status: planned
+  status: pending
   target:
     scope: canonical_generated_indexes
     creates_timeline_node: false

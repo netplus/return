@@ -1,0 +1,118 @@
+schema_version: 1
+run_id: RUN-0126
+task_id: TASK-0112
+updated_at: '2026-07-29'
+type: normalization
+creates_timeline_node: false
+evidence_policy: Do not merge identities or reduce uncertainty without direct evidence.
+character_updates:
+- id: CHAR-0002
+  update:
+    aliases_add: [刘爱花, 雪瑶, 雪瑶仙帝]
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [737]
+    identity_resolution_add:
+    - {label: 刘爱花, relation_type: alias, effective_chapter: 519, status: verified, note: 该化名属于姬雪；与CHAR-0032猿族族长刘爱花为同名碰撞。}
+    - {label: 雪瑶仙帝, relation_type: reincarnation_identity, effective_chapter_range: {start: 793, end: 807}, status: verified}
+    normalization_history_add:
+    - {chapter: 737, event: 以刘爱花身份在万妖仙宗体系中晋升玄仙二重并取得执事身份, impact: 雪瑶仙帝重生准备继续推进, status: verified, source_record: CHAR-0032}
+- id: CHAR-0032
+  update:
+    cultivation_change_set: null
+    identity_change_set: []
+    growth_event_set: []
+    identity_resolution_add:
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0002, shared_label: 刘爱花, status: verified, note: 本记录为猿族族长、猿华之父且第210章死亡，不与姬雪化名合并。}
+    normalization_note_set: RUN-0126移除误挂的第737章雪瑶身份成长字段。
+- id: CHAR-0045
+  update:
+    aliases_add: [青玄, 天羽, 天凤老祖天羽, 万妖仙宗天羽老祖]
+    related_nodes_add: [NODE-0068, NODE-0079, NODE-0090, NODE-0091]
+    source_chapters_add: [519, 520, 607, 679, 682, 683, 686]
+    accepted_gifts_add: [GIFT-0141, GIFT-0173]
+    resource_change_add: [十颗化仙丹, 获后续仙剑承诺]
+    relationship_change_add: [允许徐霄改称青玄并继续接受长期资源支持]
+    identity_resolution_add:
+    - {label: 天羽, relation_type: inherited_identity, effective_chapter_range: {start: 825, end: 853}, status: verified}
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0055, shared_label: 凤青玄, status: verified, note: CHAR-0055为第283章玉石宗掌门，属于同名异人。}
+    normalization_history_add:
+    - {chapter_range: {start: 519, end: 520}, event: 晋升渡劫九重并飞升灵藏仙域, impact: 进入阴阳仙门矿区并被安排为矿工队长, status: partial, source_record: CHAR-0056}
+    - {chapter: 607, event: 接受新一批化仙丹并深化称呼与资源关系, core_ability: [人仙二重, 十颗化仙丹, 既有仙剑炼化中], impact: [与徐霄长期资源绑定加强], status: verified, source_record: CHAR-0052}
+    - {chapter: 679, event: 达到地仙二重并接受仙元丹, impact: 天凤血脉与长期资源支持继续加速修炼, status: partial, source_record: CHAR-0055}
+    - {chapter_range: {start: 682, end: 686}, event: 显露纯血天凤血脉并为徐霄提供妖族身份担保, impact: 获得进入万妖仙宗的核心资格并免除神魂烙印, status: partial, source_record: CHAR-0055}
+- id: CHAR-0048
+  update:
+    identity_resolution_add:
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0054, shared_label: 玉冰, status: verified, note: 本记录为无妄仙宗掌门及姬雪师父；CHAR-0054为天剑阁男性核心弟子。}
+- id: CHAR-0052
+  update:
+    name_set: 程双
+    related_nodes_remove: [NODE-0079]
+    source_chapters_remove: [607]
+    accepted_gifts_remove: [GIFT-0141]
+    resource_change_set: []
+    growth_event_set: []
+    relationship_change_remove: [允许徐霄改称青玄, 与徐霄的道侣及长期资源支持关系继续稳定]
+    normalization_note_set: 天阵阁三师姐；NODE-0034、NODE-0035及GIFT-0044直接列名程双。第607章凤青玄赠礼字段已迁回CHAR-0045。
+- id: CHAR-0054
+  update:
+    identity_resolution_add:
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0048, shared_label: 玉冰, status: verified, note: 本记录为天剑阁男性核心弟子，不与无妄仙宗掌门合并。}
+- id: CHAR-0055
+  update:
+    cultivation_change_set: null
+    accepted_gifts_set: []
+    relationship_change_set: []
+    growth_event_set: []
+    identity_change_set: []
+    identity_resolution_add:
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0045, shared_label: 凤青玄, status: verified, note: 本记录为第283章玉石宗掌门并已死亡；后期天凤血脉字段已迁回CHAR-0045。}
+    normalization_note_set: RUN-0126移除误挂的第679—686章凤青玄成长字段。
+- id: CHAR-0056
+  update:
+    name_set: 黑风
+    cultivation_change_set: null
+    status_change_set: null
+    growth_event_set: []
+    aliases_add: [银鳞城城主]
+    normalization_note_set: NODE-0039直接以黑风列名并确认其为气运之敌及死亡对象；历史name字段误写为凤青玄。
+- id: CHAR-0088
+  update:
+    identity_resolution_add:
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0165, shared_label: 黑无忌, status: verified, note: 本记录为黑魔圣宗掌门；CHAR-0165为九阴玄门大长老。}
+- id: CHAR-0111
+  update:
+    name_set: 司空浩南
+    normalization_note_set: NODE-0069至NODE-0071直接列名司空浩南；其追求李香香并组织伏击的事实与本记录对应。
+- id: CHAR-0140
+  update:
+    name_set: 丁静
+    normalization_note_set: 首次登场标题、赠礼记录及执法长老关系均直接指向丁静。
+- id: CHAR-0144
+  update:
+    related_nodes_add: [NODE-0098]
+    source_chapters_add: [740, 741]
+    accepted_gifts_add: [GIFT-0200]
+    relationship_change_add: [接受复合赠礼并与徐霄确立长期关系，随后进入万妖仙宗天魁峰体系]
+    identity_resolution_add:
+    - {relation_type: same_person, other_character_id: CHAR-0196, status: verified, note: 同名、同境界、同宗门长老身份且后续记录承接既有关系线。}
+- id: CHAR-0145
+  update:
+    related_nodes_add: [NODE-0101]
+    source_chapters_add: [763]
+    identity_resolution_add:
+    - {relation_type: same_person, other_character_id: CHAR-0201, status: verified, note: 两记录均为五灵仙门掌门及SSS级气运之女，后者为第763章再次到访。}
+- id: CHAR-0165
+  update:
+    identity_resolution_add:
+    - {relation_type: distinct_same_name, other_character_id: CHAR-0088, shared_label: 黑无忌, status: verified, note: 本记录为九阴玄门大长老，不与黑魔圣宗掌门合并。}
+- id: CHAR-0196
+  update:
+    record_status_set: superseded
+    canonical_character_id_set: CHAR-0144
+    normalization_note_set: 后续重复建档；事实已迁移至CHAR-0144，保留ID用于历史审计。
+- id: CHAR-0201
+  update:
+    record_status_set: superseded
+    canonical_character_id_set: CHAR-0145
+    normalization_note_set: 后续重复建档；事实已迁移至CHAR-0145，保留ID用于历史审计。

@@ -1,0 +1,61 @@
+schema_version: 1
+run_id: RUN-0126
+task_id: TASK-0112
+updated_at: '2026-07-29'
+type: normalization
+creates_timeline_node: false
+gift_updates:
+- id: GIFT-0044
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0052], original_label: 程双, resolution: exact_character, status: verified}
+- id: GIFT-0087
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0083, CHAR-0086], original_label: 冷若云与欧阳惊虹, resolution: exact_multi_character, status: verified}
+- id: GIFT-0110
+  update:
+    participant_resolution_set: {recipient_refs: [], original_label: pending, resolution: unresolved, reason: 原始受赠对象仍未获得直接证据, status: pending}
+- id: GIFT-0144
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0140], original_label: 丁静, resolution: exact_character, status: verified}
+- id: GIFT-0160
+  update:
+    participant_resolution_set: {recipient_refs: [], original_label: 瑶光, resolution: unresolved_role_label, reason: 仅确认瑶光长老身份，尚无独立canonical人物记录, status: pending}
+- id: GIFT-0161
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0140], original_label: 丁静, resolution: exact_character, status: verified}
+- id: GIFT-0172
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0140], original_label: 丁静, resolution: exact_character, status: verified}
+- id: GIFT-0184
+  update:
+    participant_resolution_set: {recipient_refs: [], original_label: 玄鸟族八名玄仙, resolution: collective, collective_count: 8, collective_affiliation: 玄鸟族, status: verified}
+- id: GIFT-0226
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0210], original_label: 龙贞等六名万妖仙宗高层, resolution: partially_resolved_collective, collective_count: 6, unresolved_members: 5, status: partial}
+- id: GIFT-0230
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0210], original_label: 龙贞等六名万妖仙宗高层, resolution: partially_resolved_collective, collective_count: 6, unresolved_members: 5, status: partial}
+- id: GIFT-0231
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0210], original_label: 龙贞等六名万妖仙宗高层, resolution: partially_resolved_collective, collective_count: 6, unresolved_members: 5, status: partial}
+- id: GIFT-0234
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0002], original_label: 雪瑶, resolution: exact_identity_alias, status: verified}
+- id: GIFT-0240
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0210], original_label: 龙贞等六名万妖仙宗高层, resolution: partially_resolved_collective, collective_count: 6, unresolved_members: 5, status: partial}
+- id: GIFT-0242
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0217, CHAR-0218], original_label: 轩辕金花与轩辕宏, resolution: exact_multi_character, status: verified}
+- id: GIFT-0243
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0002], original_label: 刘爱花／雪瑶, resolution: exact_identity_alias, status: verified}
+- id: GIFT-0244
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0002], original_label: 刘爱花／雪瑶, resolution: exact_identity_alias, status: verified}
+- id: GIFT-0251
+  update:
+    participant_resolution_set: {recipient_refs: [CHAR-0002], original_label: 姬雪／雪瑶, resolution: exact_identity_alias, status: verified}
+- id: GIFT-0257
+  update:
+    participant_resolution_set: {recipient_refs: [], original_label: 朱九彩, resolution: unresolved, reason: canonical人物索引无直接匹配且不得以名字相似推断, status: pending}

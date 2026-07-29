@@ -11,9 +11,12 @@ on:
       - 'docs/06-artifacts/**'
       - 'docs/entity-docs-manifest.yaml'
       - 'data/audits/run-0125.yaml'
+      - 'data/audits/run-0126.yaml'
       - 'docs/08-analysis/full-repository-audit.md'
       - 'docs/08-analysis/verification-debt.md'
       - 'docs/08-analysis/v1-baseline-statistics.md'
+      - 'docs/08-analysis/entity-normalization.md'
+      - 'docs/08-analysis/final-state-snapshot.md'
       - 'RELEASE_NOTES_v1.0.0.md'
   schedule:
     - cron: '17 * * * *'
@@ -90,6 +93,13 @@ jobs:
             --output-root build/entity-docs \
             --check
 
+      - name: Validate and materialize RUN-0126 normalization
+        run: |
+          python scripts/normalize_repository.py \
+            --generated-dir build/canonical-indexes \
+            --output-root build/normalization \
+            --source-commit "${GITHUB_SHA}"
+
       - name: Run reproducible full-repository audit
         shell: bash
         run: |
@@ -132,6 +142,19 @@ jobs:
             build/entity-docs/docs/entity-docs-manifest.yaml
           if-no-files-found: error
           retention-days: 14
+
+      - name: Upload normalization artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: normalization-${{ github.sha }}
+          path: |
+            build/normalization/data/audits/run-0126.yaml
+            build/normalization/data/generated/final-state.yaml
+            build/normalization/docs/08-analysis/entity-normalization.md
+            build/normalization/docs/08-analysis/final-state-snapshot.md
+          if-no-files-found: error
+          retention-days: 30
 
       - name: Upload v1 audit artifact
         if: always()
@@ -177,7 +200,7 @@ jobs:
       - name: Install generator dependency
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
 
-      - name: Rebuild tracked generated views and freeze v1 audit once
+      - name: Rebuild tracked generated views and normalization outputs
         shell: bash
         run: |
           python scripts/knowledge_base.py build --output-dir data/generated
@@ -186,6 +209,10 @@ jobs:
           python scripts/render_character_growth.py --validate-continuity --effective-run 82
           python scripts/render_character_growth.py --generated-dir data/generated
           python scripts/render_character_growth.py --generated-dir data/generated --check
+          python scripts/normalize_repository.py \
+            --generated-dir data/generated \
+            --output-root . \
+            --source-commit "$(git rev-parse HEAD)"
           if [ ! -f data/audits/run-0125.yaml ]; then
             AUDIT_SOURCE_COMMIT="$(python - <<'PY'
           from pathlib import Path
@@ -213,20 +240,23 @@ jobs:
             docs/06-artifacts
             docs/entity-docs-manifest.yaml
             data/audits/run-0125.yaml
+            data/audits/run-0126.yaml
             docs/08-analysis/full-repository-audit.md
             docs/08-analysis/verification-debt.md
             docs/08-analysis/v1-baseline-statistics.md
+            docs/08-analysis/entity-normalization.md
+            docs/08-analysis/final-state-snapshot.md
             RELEASE_NOTES_v1.0.0.md
           )
           if [ -z "$(git status --porcelain -- "${TRACKED_PATHS[@]}")" ]; then
-            echo 'Generated views and v1 audit baseline are already current.' | tee build/push.log
+            echo 'Generated views, audit baseline and normalization outputs are already current.' | tee build/push.log
             exit 0
           fi
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "${TRACKED_PATHS[@]}"
-          git commit -m 'chore(data): refresh generated views and freeze v1 audit'
+          git commit -m 'chore(data): refresh generated views and normalization outputs'
 
           set -o pipefail
           git push origin HEAD:main 2>&1 | tee build/push.log
