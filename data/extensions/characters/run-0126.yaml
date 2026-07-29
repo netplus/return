@@ -30,15 +30,18 @@ character_updates:
     normalization_note_set: RUN-0126移除误挂的第737章雪瑶身份成长字段。
 - id: CHAR-0045
   update:
-    aliases_add: [天羽, 天凤老祖天羽, 万妖仙宗天羽老祖]
-    related_nodes_add: [NODE-0068, NODE-0090, NODE-0091]
-    source_chapters_add: [519, 520, 679, 682, 683, 686]
-    accepted_gifts_add: [GIFT-0173]
+    aliases_add: [青玄, 天羽, 天凤老祖天羽, 万妖仙宗天羽老祖]
+    related_nodes_add: [NODE-0068, NODE-0079, NODE-0090, NODE-0091]
+    source_chapters_add: [519, 520, 607, 679, 682, 683, 686]
+    accepted_gifts_add: [GIFT-0141, GIFT-0173]
+    resource_change_add: [十颗化仙丹, 获后续仙剑承诺]
+    relationship_change_add: [允许徐霄改称青玄并继续接受长期资源支持]
     identity_resolution_add:
     - {label: 天羽, relation_type: inherited_identity, effective_chapter_range: {start: 825, end: 853}, status: verified}
     - {relation_type: distinct_same_name, other_character_id: CHAR-0055, shared_label: 凤青玄, status: verified, note: CHAR-0055为第283章玉石宗掌门，属于同名异人。}
     growth_event_add:
     - {chapter_range: {start: 519, end: 520}, event: 晋升渡劫九重并飞升灵藏仙域, impact: 进入阴阳仙门矿区并被安排为矿工队长, status: partial, normalization_source: CHAR-0056误挂历史字段}
+    - {chapter: 607, event: 接受新一批化仙丹并深化称呼与资源关系, core_ability: [人仙二重, 十颗化仙丹, 既有仙剑炼化中], impact: [与徐霄长期资源绑定加强], status: verified, normalization_source: CHAR-0052混合建档字段}
     - {chapter: 679, event: 达到地仙二重并接受仙元丹, impact: 天凤血脉与长期资源支持继续加速修炼, status: partial, normalization_source: CHAR-0055误挂历史字段}
     - {chapter_range: {start: 682, end: 686}, event: 显露纯血天凤血脉并为徐霄提供妖族身份担保, impact: 获得进入万妖仙宗的核心资格并免除神魂烙印, status: partial, normalization_source: CHAR-0055误挂历史字段}
 - id: CHAR-0048
@@ -48,8 +51,13 @@ character_updates:
 - id: CHAR-0052
   update:
     name_set: 程双
-    aliases_add: [青玄]
-    normalization_note_set: 天阵阁三师姐；NODE-0034与NODE-0035直接列名程双，历史name字段误写为凤青玄。
+    related_nodes_remove: [NODE-0079]
+    source_chapters_remove: [607]
+    accepted_gifts_remove: [GIFT-0141]
+    resource_change_set: []
+    growth_event_set: []
+    relationship_change_remove: [允许徐霄改称青玄, 与徐霄的道侣及长期资源支持关系继续稳定]
+    normalization_note_set: 天阵阁三师姐；NODE-0034、NODE-0035及GIFT-0044直接列名程双。第607章凤青玄赠礼字段已迁回CHAR-0045。
 - id: CHAR-0054
   update:
     identity_resolution_add:
