@@ -1,0 +1,60 @@
+schema_version: 1
+run_id: RUN-0129
+task_id: TASK-0115
+scope: extras
+status: passed_with_partial_content_evidence
+creates_main_timeline_node: false
+source_ref: EXTRA-SRC-0001
+namespace_contract:
+  source: EXTRA-SRC
+  timeline: EXTRA-NODE
+  character: EXTRA-CHAR
+  gift: EXTRA-GIFT
+  artifact: EXTRA-ART
+nodes:
+- id: EXTRA-NODE-0001
+  sequence: 1
+  title: 番外一，林嫣儿篇
+  source_chapter_sequence: 877
+  official_reader_id: '7536463745459946046'
+  verification: partial
+  summary: 林嫣儿随梦丹等人来到仙界，在仙帝宫送别徐霄出征域外黑虫族。她虽持续得到修炼资源，却因难以获得徐霄的直接情感回应而失落，番外聚焦她对旧日徐长老的依恋。
+  key_facts:
+  - 徐霄召集九大仙帝及各域修士出征域外黑虫族。
+  - 雪瑶与凤青玄因怀孕留在仙帝宫，没有随军出征。
+  - 林嫣儿已来到仙界并获得长期修炼资源，但其核心诉求是徐霄的情感回应。
+  main_story_character_refs: [CHAR-0001, CHAR-0002, CHAR-0006, CHAR-0045]
+  evidence:
+  - {channel: official_catalog, url: 'https://fanqienovel.com/page/7423641263695481880', status: verified_metadata}
+  - {channel: official_reader_excerpt, url: 'https://fanqienovel.com/reader/7536463745459946046', status: verified_excerpt}
+  - {channel: public_secondary_index, url: 'https://m.snapd.net/read/197897/877.html', status: partial_content}
+  unresolved:
+  - 官方网页当前只开放节选，完整情节尚未通过官方阅读接口复核。
+- id: EXTRA-NODE-0002
+  sequence: 2
+  title: 番外二，凤溪篇
+  source_chapter_sequence: 878
+  official_reader_id: '7538798715943780889'
+  verification: partial
+  summary: 凤溪在徐霄远征期间留守万妖仙宗。获悉黑虫族战事结束后，她前往太初仙帝宫迎接归军，主动表达感情；徐霄予以回应，并允许她从俘获的域外黑虫中挑选坐骑。
+  key_facts:
+  - 徐霄率军击败域外黑虫族并带回大罗、太乙层级俘虏。
+  - 凤溪以万妖仙宗大长老身份组织宗门高阶修士前往仙帝宫迎接。
+  - 凤溪主动向徐霄表达感情，双方关系获得明确推进。
+  - 徐霄允许凤溪挑选一只域外黑虫作为坐骑。
+  main_story_character_refs: [CHAR-0001, CHAR-0045, CHAR-0199]
+  evidence:
+  - {channel: official_catalog, url: 'https://fanqienovel.com/page/7423641263695481880', status: verified_metadata}
+  - {channel: official_reader, url: 'https://fanqienovel.com/reader/7538798715943780889', status: unavailable_in_current_tooling}
+  - {channel: public_secondary_index, url: 'https://m.shuhaige.net/364319/139429552.html', status: partial_content}
+  unresolved:
+  - 官方章节正文当前无法由本工具直接读取，内容事实保持 partial。
+main_story_isolation:
+  main_story_chapter_range: [1, 876]
+  main_story_last_node: NODE-0108
+  included_in_main_timeline: false
+  canonical_mutations: []
+copyright_boundary:
+  full_chapter_text_stored: false
+  long_verbatim_quotes_stored: false
+  stored_content: original_summaries_structured_facts_and_source_links
