@@ -1,0 +1,51 @@
+schema_version: 1
+extras_ingestion:
+  run_id: RUN-0129
+  task_id: TASK-0115
+  status: passed_with_partial_content_evidence
+  blocking_findings: []
+counts:
+  registered_sources: 1
+  official_catalog_entries: 878
+  main_story_chapters: 876
+  extras_catalog_entries: 2
+  extra_nodes: 2
+  verified_metadata_nodes: 2
+  partial_content_nodes: 2
+  canonical_main_story_mutations: 0
+quality_gates:
+  user_authorization:
+    status: passed
+    detail: Public metadata discovery, evidence reading, original summaries and structured facts were authorized on 2026-07-31.
+  official_source_identity:
+    status: passed
+    detail: Official work ID 7423641263695481880 and both official reader IDs are registered.
+  catalog_reconciliation:
+    status: passed
+    detail: 878 catalog entries reconcile as 876 main-story chapters plus 2 extras.
+  source_traceability:
+    status: passed_with_qualification
+    detail: Titles, order and dates are official; content facts remain partial where official full reader access was unavailable.
+  isolated_namespace:
+    status: passed
+    detail: Only EXTRA-SRC-0001 and EXTRA-NODE-0001..0002 were introduced.
+  main_story_isolation:
+    status: passed
+    detail: Chapters 1-876 and NODE-0108 remain unchanged; canonical_mutations is empty.
+  canonical_reference_integrity:
+    status: passed
+    detail: All referenced CHAR IDs exist in the generated main-story Character index.
+  copyright_boundary:
+    status: passed
+    detail: No chapter text or long quotation is stored; only metadata, original summaries, structured facts and links are retained.
+findings:
+  official_work:
+    title: 万倍返还，年迈的我去当舔狗
+    author: 夜榔头
+    status: completed
+  extras:
+  - {id: EXTRA-NODE-0001, title: 番外一，林嫣儿篇, verification: partial}
+  - {id: EXTRA-NODE-0002, title: 番外二，凤溪篇, verification: partial}
+  verification_debt:
+  - Official full-content verification remains pending for both extras.
+  resolved_blocker: BLOCK-0006

@@ -32,6 +32,7 @@ source_discovery:
   - build/
   - data/generated/
   - data/analysis/
+  - data/audits/
   - docs/02-characters/
   - docs/06-artifacts/
   - docs/08-analysis/
@@ -39,7 +40,7 @@ source_discovery:
 classification_policy:
   candidate_source: A tracked non-metadata text file under a configured source root with a high-specificity extras marker in its path or content, or a non-control tracked file with an extras marker in its path.
   main_story_evidence: A tracked source-root file without high-specificity extras markers; retained only as an isolation baseline.
-  scope_control: Project OS, workflow, script, report, source index, manifest or configuration files that discuss extras but are not story source material.
+  scope_control: Project OS, workflow, script, report, audit, source index, manifest or configuration files that discuss extras but are not story source material.
   unresolved: A candidate whose work title or chapter boundary cannot be derived from path-level metadata without reading or quoting source prose.
 namespace_policy:
   source_id_format: EXTRA-SRC-NNNN

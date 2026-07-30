@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0129 — 2026-07-31
+
+- Interpreted the user's explicit authorization as permission for public source discovery, evidence reading, original summaries and structured fact extraction, while retaining the prohibition on full chapter text storage.
+- Re-read current Project OS state and the RUN-0128 task plan, confirmed no concurrent PR, and created only `TASK-0115` from the previously blocked extras continuation.
+- Located the official Fanqie work page for work ID `7423641263695481880`; the official catalog reports 878 entries: 876 main-story chapters plus two extras.
+- Registered `EXTRA-SRC-0001` and the official Reader IDs `7536463745459946046` and `7538798715943780889` in a source manifest.
+- Created `EXTRA-NODE-0001` for 番外一，林嫣儿篇 and `EXTRA-NODE-0002` for 番外二，凤溪篇 in the isolated extras namespace.
+- Kept both node content states at `partial`: official metadata controls title, ordering and dates, while public secondary indexes are used only as corroboration where the official full reader is unavailable to current tooling.
+- Added original summaries, structured facts, validated references to existing main-story Character IDs, a human-readable extras index and per-node documents.
+- Added `scripts/validate_extras_ingestion.py` to enforce source identity, 878=876+2 reconciliation, isolated namespaces, canonical reference integrity, zero main-story mutation and the copyright boundary.
+- Resolved `BLOCK-0006` because an authorized official source is now registered. Added `BLOCK-0007` for official full-content access and queued `TASK-0116` as the unique next task for verification-state upgrades.
+- Retained `BLOCK-0005`; the authorized connector still cannot create Git tag or GitHub Release `v1.0.0`.
+
 ## RUN-0128 — 2026-07-30
 
 - Re-read current `main`, Workflow, State, Tasks, Metrics, Dashboard and Changelog before execution. Confirmed that another completed Run had already advanced `TASK-0113`; resumed only the unique pending `TASK-0114`.

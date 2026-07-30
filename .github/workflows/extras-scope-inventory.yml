@@ -58,7 +58,10 @@ jobs:
             echo 'RUN-0128 tracked outputs are not present yet; artifact materialization will be reviewed before merge.'
           fi
 
-      - name: Upload extras inventory artifact
+      - name: Validate RUN-0129 authorized extras ingestion
+        run: python scripts/validate_extras_ingestion.py
+
+      - name: Upload extras inventory and ingestion artifact
         uses: actions/upload-artifact@v4
         with:
           name: extras-scope-inventory-${{ github.sha }}
@@ -67,6 +70,10 @@ jobs:
             build/extras/data/extras/run-0128-scope.yaml
             build/extras/data/extras/run-0128-task-plan.yaml
             build/extras/docs/08-analysis/extras-scope-inventory.md
+            data/audits/run-0129.yaml
+            data/extras/run-0129.yaml
+            sources/extras/fanqienovel-7423641263695481880/manifest.yaml
+            docs/09-extras
           if-no-files-found: error
           retention-days: 30
 
@@ -92,6 +99,9 @@ jobs:
 
       - name: Materialize tracked extras inventory
         run: python scripts/inventory_extras.py --output-root .
+
+      - name: Validate authorized extras ingestion
+        run: python scripts/validate_extras_ingestion.py
 
       - name: Commit deterministic outputs when needed
         shell: bash

@@ -1,10 +1,10 @@
 schema_version: 2
-updated_at: '2026-07-30'
-last_run_id: RUN-0128
+updated_at: '2026-07-31'
+last_run_id: RUN-0129
 story_status: complete
 project_status: maintenance
 release_status: preparing_v1
-milestone: M22
+milestone: M23
 workflow:
   standard_version: 2.6
   unit: story_arc
@@ -31,11 +31,12 @@ scope: {chapter_start: 1, chapter_end: 876}
 scopes:
   main_story: {status: complete, chapter_start: 1, chapter_end: 876, timeline_namespace: NODE}
   extras:
-    status: waiting_for_source
+    status: partial_ingested_pending_official_verification
     included_in_main_timeline: false
-    priority: blocked_external_source
-    task_id: TASK-0114
+    priority: next
+    task_id: TASK-0116
     namespace_manifest: data/extras/run-0128-scope.yaml
+    source_manifest: sources/extras/fanqienovel-7423641263695481880/manifest.yaml
 progress:
   chapters_covered_through: 876
   chapters_examined_through: 876
@@ -131,13 +132,34 @@ extras_inventory:
     scope_control_mentions: 7
     namespace_collisions: 0
     main_story_isolation: passed
+extras_ingestion:
+  run_id: RUN-0129
+  task_id: TASK-0115
+  status: passed_with_partial_content_evidence
+  creates_main_timeline_node: false
+  source_id: EXTRA-SRC-0001
+  source_manifest: sources/extras/fanqienovel-7423641263695481880/manifest.yaml
+  data: data/extras/run-0129.yaml
+  machine_report: data/audits/run-0129.yaml
+  validator: scripts/validate_extras_ingestion.py
+  documents:
+  - docs/09-extras/_INDEX.md
+  - docs/09-extras/extra-node-0001.md
+  - docs/09-extras/extra-node-0002.md
+  results:
+    official_catalog_entries: 878
+    main_story_chapters: 876
+    extras_entries: 2
+    extra_nodes: 2
+    partial_content_nodes: 2
+    canonical_main_story_mutations: 0
 current:
-  next_task: null
-  task_status: blocked_external_source
+  next_task: TASK-0116
+  task_status: blocked_external_content
   task_type: extras
   next_chapter: null
   provisional_arc_end: null
-  last_completed_task: TASK-0114
+  last_completed_task: TASK-0115
 status: maintenance
 blockers:
 - id: BLOCK-0005
@@ -148,7 +170,12 @@ blockers:
   next_action: Create tag and GitHub Release v1.0.0 from RELEASE_NOTES_v1.0.0.md when an authorized release action is available.
 - id: BLOCK-0006
   category: extras
+  status: resolved
+  resolved_at: '2026-07-31'
+  resolution: User authorized public source discovery and the official Fanqie work plus both official extras Reader IDs were registered as EXTRA-SRC-0001.
+- id: BLOCK-0007
+  category: extras
   status: open
-  reason: No tracked or authorized extras source corpus was found by RUN-0128 inventory.
-  impact: Isolated extras namespaces are initialized, but no extraction or EXTRA-NODE construction can begin.
-  next_action: Add or identify an authorized extras source, then create an isolated ingestion Task from data/extras/run-0128-task-plan.yaml.
+  reason: Current tooling cannot read both official extras in full; public secondary indexes cap content verification at partial.
+  impact: EXTRA-NODE-0001 and EXTRA-NODE-0002 exist, but their content facts cannot be upgraded to verified.
+  next_action: Obtain official full-reader access or user-provided authorized chapter text, then execute TASK-0116.

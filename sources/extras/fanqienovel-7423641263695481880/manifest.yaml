@@ -1,0 +1,56 @@
+schema_version: 1
+source_id: EXTRA-SRC-0001
+scope: extras
+status: authorized_source_registered
+registered_at: '2026-07-31'
+work:
+  title: 万倍返还，年迈的我去当舔狗
+  author: 夜榔头
+  provider: 番茄小说
+  official_work_id: '7423641263695481880'
+  official_url: https://fanqienovel.com/page/7423641263695481880
+  publication_status: completed
+  catalog_entry_count: 878
+  main_story_chapter_count: 876
+  extras_entry_count: 2
+authorization:
+  granted_by: user
+  granted_at: '2026-07-31'
+  permitted_use:
+  - public_metadata_discovery
+  - evidence_reading
+  - original_summary
+  - structured_fact_extraction
+  prohibited_use:
+  - full_chapter_text_storage
+  - long_verbatim_quote_storage
+  - mutation_of_main_story_timeline
+source_policy:
+  official_catalog: primary_for_identity_title_order_and_dates
+  official_reader: primary_when_accessible
+  public_secondary_index: corroboration_only_for_content_facts
+  verification_ceiling: partial_when_content_is_not_read_from_the_official_reader
+chapters:
+- sequence: 877
+  extras_sequence: 1
+  title: 番外一，林嫣儿篇
+  official_reader_id: '7536463745459946046'
+  official_url: https://fanqienovel.com/reader/7536463745459946046
+  published_at: '2025-08-09'
+  official_word_count: 1225
+  official_access: metadata_and_excerpt
+  content_evidence: public_secondary_index
+  verification: partial
+- sequence: 878
+  extras_sequence: 2
+  title: 番外二，凤溪篇
+  official_reader_id: '7538798715943780889'
+  official_url: https://fanqienovel.com/reader/7538798715943780889
+  published_at: '2025-08-15T21:12:00+08:00'
+  official_word_count: null
+  official_access: catalog_metadata_only_in_current_tooling
+  content_evidence: public_secondary_index
+  verification: partial
+copyright_boundary:
+  full_chapter_text_stored: false
+  stored_content: source_metadata_original_summaries_and_structured_facts
