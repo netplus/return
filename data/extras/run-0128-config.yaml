@@ -1,0 +1,58 @@
+schema_version: 1
+run_id: RUN-0128
+task_id: TASK-0114
+inventory_date: '2026-07-30'
+creates_main_timeline_node: false
+scope:
+  main_story:
+    chapter_start: 1
+    chapter_end: 876
+    last_timeline_node: NODE-0108
+    timeline_namespace: NODE
+    immutable: true
+  extras:
+    included_in_main_timeline: false
+    lifecycle: inventory_then_isolated_processing
+    namespaces:
+      source: EXTRA-SRC
+      timeline: EXTRA-NODE
+      character: EXTRA-CHAR
+      gift: EXTRA-GIFT
+      artifact: EXTRA-ART
+source_discovery:
+  tracked_files_only: true
+  source_roots: [sources, source, corpus, raw, input, novel, chapters, text]
+  path_markers: [extras, extra, fanwai, side-story, side_story, epilogue, after-story, after_story, special, 番外, 外传, 后日谈, 後日談]
+  content_markers: [番外, 外传, 后日谈, 後日談, 特别篇, 特別篇, IF线, if线]
+  text_extensions: [.md, .txt, .yaml, .yml, .json, .jsonl, .html, .htm]
+  max_scan_bytes: 2097152
+  excluded_prefixes:
+  - .git/
+  - build/
+  - data/generated/
+  - data/analysis/
+  - docs/02-characters/
+  - docs/06-artifacts/
+  - docs/08-analysis/
+  - .project/
+classification_policy:
+  candidate_source: A tracked text file under a configured source root with an extras marker in its path or content, or a non-control tracked file with an extras marker in its path.
+  main_story_evidence: A tracked source-root file without extras markers; retained only as an isolation baseline.
+  scope_control: Project OS, workflow, script, report or configuration files that discuss extras but are not story source material.
+  unresolved: A candidate whose work title or chapter boundary cannot be derived from path-level metadata without reading or quoting source prose.
+namespace_policy:
+  source_id_format: EXTRA-SRC-NNNN
+  timeline_id_format: EXTRA-NODE-NNNN
+  character_id_format: EXTRA-CHAR-NNNN
+  gift_id_format: EXTRA-GIFT-NNNN
+  artifact_id_format: EXTRA-ART-NNNN
+  canonical_reuse_rule: Existing main-story Character or Artifact IDs may be referenced only when direct evidence proves identity; extras-only facts must not mutate the Chapter 1-876 canonical state.
+  isolation_rule: Extras data must remain outside data/extensions and data/generated until a separately reviewed ingestion task explicitly introduces an isolated materializer.
+quality_gates:
+- tracked_file_inventory
+- candidate_classification_complete
+- chapter_boundary_inventory
+- namespace_uniqueness
+- main_story_isolation
+- deterministic_serialization
+- copyright_boundary
