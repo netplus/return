@@ -1,5 +1,18 @@
 # Changelog
 
+## RUN-0128 — 2026-07-30
+
+- Re-read current `main`, Workflow, State, Tasks, Metrics, Dashboard and Changelog before execution. Confirmed that another completed Run had already advanced `TASK-0113`; resumed only the unique pending `TASK-0114`.
+- Created no main-story Timeline Node, changed no Chapter 1—876 story fact and retained `NODE-0108` as the terminal main-story node.
+- Added `data/extras/run-0128-config.yaml` as the frozen discovery and namespace contract, `scripts/inventory_extras.py` as the deterministic metadata-only inventory generator, and `.github/workflows/extras-scope-inventory.yml` for PR/main validation and materialization.
+- The first real inventory reported two candidates. Direct inspection showed both were false positives: the `外传` substring inside `额外传送仙台`, and a source-index metadata row asking whether extras exist. Tightened discovery to high-specificity source markers and metadata-file exclusions rather than accepting substring matches.
+- Final inventory scanned 1,066 tracked files and 114 source-root files, found 0 qualifying extras source files, classified 7 files as scope-control mentions and found 0 pre-existing isolated-namespace collisions.
+- Initialized `EXTRA-SRC`, `EXTRA-NODE`, `EXTRA-CHAR`, `EXTRA-GIFT` and `EXTRA-ART` namespaces. Extras-only facts are prohibited from mutating the completed main-story canonical state.
+- Added `data/audits/run-0128.yaml`, `data/extras/run-0128-scope.yaml`, `data/extras/run-0128-task-plan.yaml` and `docs/08-analysis/extras-scope-inventory.md`. The plan remains `waiting_for_source` and copies no source prose.
+- Fixed scheduled generated-view churn discovered during baseline inspection: RUN-0126 normalization outputs are now pinned to the verified RUN-0126 business commit instead of rewriting their source commit to each hourly workflow HEAD.
+- Completed `TASK-0114`; no repository Task remains pending. Registered `BLOCK-0006` because isolated ingestion cannot begin without a tracked or otherwise authorized extras source.
+- Retained `BLOCK-0005`; the authorized connector still cannot create Git tag or GitHub Release `v1.0.0`.
+
 ## RUN-0127 — 2026-07-29
 
 - Re-read Workflow, State, Tasks, Metrics, Dashboard, Changelog, current `main`, RUN-0126 normalization outputs, canonical indexes and both CI definitions before execution.
