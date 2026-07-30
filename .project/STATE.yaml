@@ -1,10 +1,10 @@
 schema_version: 2
-updated_at: '2026-07-29'
-last_run_id: RUN-0127
+updated_at: '2026-07-30'
+last_run_id: RUN-0128
 story_status: complete
 project_status: maintenance
 release_status: preparing_v1
-milestone: M21
+milestone: M22
 workflow:
   standard_version: 2.6
   unit: story_arc
@@ -30,7 +30,12 @@ entity_documents:
 scope: {chapter_start: 1, chapter_end: 876}
 scopes:
   main_story: {status: complete, chapter_start: 1, chapter_end: 876, timeline_namespace: NODE}
-  extras: {status: pending_inventory, included_in_main_timeline: false, priority: next, task_id: TASK-0114}
+  extras:
+    status: waiting_for_source
+    included_in_main_timeline: false
+    priority: blocked_external_source
+    task_id: TASK-0114
+    namespace_manifest: data/extras/run-0128-scope.yaml
 progress:
   chapters_covered_through: 876
   chapters_examined_through: 876
@@ -108,13 +113,31 @@ analysis:
     ambiguous_timeline_labels: 53
     unresolved_gift_participants: 14
     ambiguous_explicit_relationship_labels: 14
+extras_inventory:
+  run_id: RUN-0128
+  task_id: TASK-0114
+  status: passed_waiting_for_source
+  creates_main_timeline_node: false
+  config: data/extras/run-0128-config.yaml
+  generator: scripts/inventory_extras.py
+  machine_report: data/audits/run-0128.yaml
+  scope_manifest: data/extras/run-0128-scope.yaml
+  task_plan: data/extras/run-0128-task-plan.yaml
+  report: docs/08-analysis/extras-scope-inventory.md
+  results:
+    tracked_files: 1066
+    source_root_files: 114
+    candidate_source_files: 0
+    scope_control_mentions: 7
+    namespace_collisions: 0
+    main_story_isolation: passed
 current:
-  next_task: TASK-0114
-  task_status: pending
+  next_task: null
+  task_status: blocked_external_source
   task_type: extras
   next_chapter: null
   provisional_arc_end: null
-  last_completed_task: TASK-0113
+  last_completed_task: TASK-0114
 status: maintenance
 blockers:
 - id: BLOCK-0005
@@ -123,3 +146,9 @@ blockers:
   reason: The authorized GitHub connector exposes no tag or GitHub Release creation action.
   impact: Repository v1 baseline and release notes are complete and verified, but GitHub Release v1.0.0 cannot be truthfully marked created in this Run.
   next_action: Create tag and GitHub Release v1.0.0 from RELEASE_NOTES_v1.0.0.md when an authorized release action is available.
+- id: BLOCK-0006
+  category: extras
+  status: open
+  reason: No tracked or authorized extras source corpus was found by RUN-0128 inventory.
+  impact: Isolated extras namespaces are initialized, but no extraction or EXTRA-NODE construction can begin.
+  next_action: Add or identify an authorized extras source, then create an isolated ingestion Task from data/extras/run-0128-task-plan.yaml.
