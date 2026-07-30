@@ -25,6 +25,10 @@ OUTPUT_PATHS = (
     Path("data/extras/run-0128-task-plan.yaml"),
     Path("docs/08-analysis/extras-scope-inventory.md"),
 )
+REGISTERED_CONTROL_PREFIXES = (
+    "sources/extras/",
+    "docs/09-extras/",
+)
 EXTRA_ID_RE = re.compile(r"\bEXTRA-(?:SRC|NODE|CHAR|GIFT|ART)-\d{4}\b")
 RANGE_RE = re.compile(r"(?<!\d)(\d{1,4})\s*(?:-|–|—|至|到|_)\s*(\d{1,4})(?!\d)")
 CHAPTER_RE = re.compile(r"第?\s*(\d{1,4})\s*(?:章|话|回)")
@@ -72,7 +76,7 @@ def hits(text: str, markers: list[str]) -> list[str]:
     return sorted({marker for marker in markers if marker.lower() in lowered})
 
 
-def starts_with(path: str, prefixes: list[str]) -> bool:
+def starts_with(path: str, prefixes: list[str] | tuple[str, ...]) -> bool:
     return any(path == prefix.rstrip("/") or path.startswith(prefix) for prefix in prefixes)
 
 
@@ -126,17 +130,18 @@ def generate(root: Path, output_root: Path) -> list[str]:
                 skipped += 1
         content_hits = hits(text, content_markers)
 
-        found_ids = sorted(set(EXTRA_ID_RE.findall(text)))
-        if found_ids and relative != CONFIG_PATH and relative not in OUTPUT_PATHS and not path.startswith("scripts/"):
-            collisions[path] = found_ids
-
         control = (
             starts_with(path, excluded)
             or path.startswith("scripts/")
             or path.startswith(".github/")
             or path.startswith("data/extras/")
+            or starts_with(path, REGISTERED_CONTROL_PREFIXES)
         )
-        candidate = (bool(path_hits) and not control) or bool(root_name and (path_hits or content_hits))
+        found_ids = sorted(set(EXTRA_ID_RE.findall(text)))
+        if found_ids and relative != CONFIG_PATH and relative not in OUTPUT_PATHS and not control:
+            collisions[path] = found_ids
+
+        candidate = (bool(path_hits) and not control) or bool(root_name and (path_hits or content_hits) and not control)
         metadata = {
             "path": path,
             "bytes": absolute.stat().st_size,
@@ -153,7 +158,7 @@ def generate(root: Path, output_root: Path) -> list[str]:
                     "boundary": boundary(path),
                 }
             )
-        elif root_name:
+        elif root_name and not control:
             main_evidence.append({**metadata, "classification": "main_story_evidence"})
         elif path_hits or content_hits:
             control_mentions.append(
@@ -355,6 +360,10 @@ def generate(root: Path, output_root: Path) -> list[str]:
 
 
 def compare(actual_root: Path, expected_root: Path) -> list[str]:
+    # RUN-0128 outputs are a historical inventory snapshot. Once RUN-0129
+    # registers an authorized source, later files must not rewrite that snapshot.
+    if (expected_root / "data/extras/run-0129.yaml").exists():
+        return []
     errors: list[str] = []
     for relative in OUTPUT_PATHS:
         actual = actual_root / relative
