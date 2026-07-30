@@ -53,7 +53,15 @@ scope_control_mentions:
   path_markers:
   - extra
   - extras
-  content_markers: []
+  content_markers:
+  - IF线
+  - if线
+  - 后日谈
+  - 後日談
+  - 特別篇
+  - 特别篇
+  - 番外正文
+  - 番外篇
 - path: data/extras/run-0128-task-plan.yaml
   classification: scope_control
   path_markers:
