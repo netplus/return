@@ -1,6 +1,6 @@
 schema_version: 2
-updated_at: '2026-07-30'
-run_id: RUN-0128
+updated_at: '2026-07-31'
+run_id: RUN-0129
 coverage:
   chapters_covered_through: 876
   chapters_promoted_in_run: []
@@ -71,21 +71,29 @@ analysis:
     row_counts: {timeline_nodes: 108, characters: 235, character_aliases: 514, character_affiliations: 354, node_characters: 912, gifts: 259, gift_participants: 503, artifacts: 149, artifact_events: 3, relationships: 2581, phase_stats: 9}
   ambiguity_findings: {timeline_labels: 53, gift_participants: 14, explicit_relationship_labels: 14}
 extras:
-  task_id: TASK-0114
-  status: passed_waiting_for_source
-  config: data/extras/run-0128-config.yaml
-  machine_report: data/audits/run-0128.yaml
+  inventory_task_id: TASK-0114
+  ingestion_task_id: TASK-0115
+  status: passed_with_partial_content_evidence
   scope_manifest: data/extras/run-0128-scope.yaml
-  task_plan: data/extras/run-0128-task-plan.yaml
-  report: docs/08-analysis/extras-scope-inventory.md
-  tracked_files: 1066
-  source_root_files: 114
-  candidate_source_files: 0
-  scope_control_mentions: 7
-  namespace_collisions: 0
+  source_manifest: sources/extras/fanqienovel-7423641263695481880/manifest.yaml
+  ingestion_data: data/extras/run-0129.yaml
+  machine_report: data/audits/run-0129.yaml
   namespace_contract: {source: EXTRA-SRC, timeline: EXTRA-NODE, character: EXTRA-CHAR, gift: EXTRA-GIFT, artifact: EXTRA-ART}
+  source_registration:
+    registered_sources: 1
+    provider: 番茄小说
+    official_work_id: '7423641263695481880'
+    official_catalog_entries: 878
+    main_story_chapters: 876
+    extras_entries: 2
+  nodes:
+    total: 2
+    verified: 0
+    partial: 2
+    ids: [EXTRA-NODE-0001, EXTRA-NODE-0002]
+  canonical_main_story_mutations: 0
   main_story_isolation: {status: passed, coverage: 1-876, last_node: NODE-0108}
-  follow_up: {status: blocked_external_source, blocker: BLOCK-0006}
+  follow_up: {status: blocked_external_content, task: TASK-0116, blocker: BLOCK-0007}
 quality_gates:
   source_count_reconciliation: {status: passed, timeline_nodes: 108, characters_total: 235, characters_active: 233, gifts: 259, artifacts: 149}
   timeline_continuity: {status: passed, coverage: 1-876}
@@ -95,11 +103,14 @@ quality_gates:
   sqlite_reconciliation: {status: passed, tables: 11}
   jsonl_reconciliation: {status: passed, lines: 2581}
   deterministic_serialization_contract: {status: passed, input_hashes_recorded: true}
-  extras_tracked_file_inventory: {status: passed, files: 1066}
-  extras_candidate_classification: {status: passed, candidates: 0}
-  extras_namespace_uniqueness: {status: passed, collisions: 0}
-  extras_main_story_isolation: {status: passed, coverage: 1-876}
-  knowledge_base_ci: {status: passed}
+  extras_user_authorization: {status: passed, granted_at: '2026-07-31'}
+  extras_official_source_identity: {status: passed, source_id: EXTRA-SRC-0001}
+  extras_catalog_reconciliation: {status: passed, official_catalog_entries: 878, main_story_chapters: 876, extras_entries: 2}
+  extras_source_traceability: {status: passed_with_qualification, partial_content_nodes: 2}
+  extras_namespace_uniqueness: {status: passed, nodes: 2}
+  extras_main_story_isolation: {status: passed, coverage: 1-876, canonical_mutations: 0}
+  extras_canonical_reference_integrity: {status: passed}
+  knowledge_base_ci: {status: pending_pr_validation}
   entity_document_freshness: {status: passed, characters: 235, artifacts: 149, manifest_documents: 384}
   character_growth_continuity: {status: passed}
   copyright_boundary: {status: passed, full_chapter_text_stored: false}
@@ -110,5 +121,9 @@ blockers:
   reason: Authorized GitHub connector has no tag or GitHub Release creation action.
 - id: BLOCK-0006
   category: extras
+  status: resolved
+  reason: Official source and both extras Reader IDs are now registered under explicit user authorization.
+- id: BLOCK-0007
+  category: extras
   status: open
-  reason: No tracked or authorized extras source corpus is available for isolated ingestion.
+  reason: Official full-content access is unavailable in current tooling, so both extras remain partial.
