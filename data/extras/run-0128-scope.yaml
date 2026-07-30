@@ -19,12 +19,12 @@ extras_scope:
     gift: EXTRA-GIFT
     artifact: EXTRA-ART
 tracked_inventory:
-  tracked_files: 1066
+  tracked_files: 1073
   source_root_counts:
     sources: 114
   main_story_evidence_files: 114
   candidate_source_files: 0
-  scope_control_mentions: 7
+  scope_control_mentions: 13
   text_files_skipped_as_large_or_non_utf8: 0
 candidate_sources: []
 scope_control_mentions:
@@ -68,6 +68,12 @@ scope_control_mentions:
   - extra
   - extras
   content_markers: []
+- path: data/extras/run-0129.yaml
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
 - path: docs/06-artifacts/额外传送仙台.md
   classification: scope_control
   path_markers:
@@ -79,7 +85,37 @@ scope_control_mentions:
   - extra
   - extras
   content_markers: []
+- path: docs/09-extras/_INDEX.md
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: docs/09-extras/extra-node-0001.md
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: docs/09-extras/extra-node-0002.md
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
 - path: scripts/inventory_extras.py
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: scripts/validate_extras_ingestion.py
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: sources/extras/fanqienovel-7423641263695481880/manifest.yaml
   classification: scope_control
   path_markers:
   - extra

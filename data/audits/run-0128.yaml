@@ -5,19 +5,19 @@ extras_inventory:
   status: passed
   blocking_findings: []
 counts:
-  tracked_files: 1066
+  tracked_files: 1073
   source_root_files: 114
   main_story_evidence_files: 114
   candidate_source_files: 0
-  scope_control_mentions: 7
+  scope_control_mentions: 13
   planned_isolated_tasks: 1
 quality_gates:
   tracked_file_inventory:
     status: passed
-    detail: tracked_files=1066
+    detail: tracked_files=1073
   candidate_classification_complete:
     status: passed
-    detail: candidate_sources=0; control_mentions=7
+    detail: candidate_sources=0; control_mentions=13
   chapter_boundary_inventory:
     status: passed
     detail: unresolved=0
