@@ -139,3 +139,49 @@ tasks:
   source_status: waiting_for_authorized_source
   blocker: BLOCK-0006
   depends_on: [TASK-0113]
+- id: TASK-0115
+  title: 官方番外源登记与隔离节点初始化
+  type: extras
+  status: done
+  completed_at: '2026-07-31'
+  run_id: RUN-0129
+  target:
+    scope: extras
+    creates_main_timeline_node: false
+    source: EXTRA-SRC-0001
+    nodes: [EXTRA-NODE-0001, EXTRA-NODE-0002]
+  evidence_policy: Official metadata controls identity and ordering; content derived from non-official public indexes cannot exceed partial verification.
+  outputs:
+  - sources/extras/fanqienovel-7423641263695481880/manifest.yaml
+  - data/extras/run-0129.yaml
+  - data/audits/run-0129.yaml
+  - docs/09-extras/_INDEX.md
+  - docs/09-extras/extra-node-0001.md
+  - docs/09-extras/extra-node-0002.md
+  - scripts/validate_extras_ingestion.py
+  quality_gates:
+    user_authorization: passed
+    official_source_identity: passed
+    catalog_reconciliation: passed
+    source_traceability: passed_with_qualification
+    isolated_namespace: passed
+    main_story_isolation: passed
+    canonical_reference_integrity: passed
+    copyright_boundary: passed
+  findings:
+  - Registered the official Fanqie work and both official extras Reader IDs.
+  - Reconciled 878 catalog entries as 876 main-story chapters plus 2 extras.
+  - Created two isolated partial EXTRA-NODE records without canonical main-story mutation.
+  - Resolved BLOCK-0006 through explicit user authorization and an official source manifest.
+  depends_on: [TASK-0114]
+- id: TASK-0116
+  title: 番外官方全文复核与 partial 提升
+  type: extras
+  status: pending
+  target:
+    scope: extras
+    creates_main_timeline_node: false
+    nodes: [EXTRA-NODE-0001, EXTRA-NODE-0002]
+    goals: [official_full_content_verification, fact_reconciliation, verification_state_upgrade]
+  evidence_policy: Do not upgrade partial facts to verified without official full-content access or user-provided authorized text.
+  depends_on: [TASK-0115]
