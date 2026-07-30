@@ -8,10 +8,10 @@
 
 ## 盘点结果
 
-- Git tracked files：1073
+- Git tracked files：1066
 - Source-root files：114
 - 番外候选源：0
-- 仅用于 scope 控制的番外提及：13
+- 仅用于 scope 控制的番外提及：7
 
 - 未发现符合规则的已跟踪番外源文件。
 
@@ -31,8 +31,8 @@
 
 | Gate | 结果 | 摘要 |
 |---|---|---|
-| tracked_file_inventory | passed | tracked_files=1073 |
-| candidate_classification_complete | passed | candidate_sources=0; control_mentions=13 |
+| tracked_file_inventory | passed | tracked_files=1066 |
+| candidate_classification_complete | passed | candidate_sources=0; control_mentions=7 |
 | chapter_boundary_inventory | passed | unresolved=0 |
 | namespace_uniqueness | passed | preexisting_extra_id_files=0 |
 | main_story_isolation | passed | main Timeline remains NODE-0001..NODE-0108 and Chapters 1-876 |

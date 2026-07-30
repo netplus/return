@@ -97,8 +97,14 @@ jobs:
       - name: Install dependency
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
 
-      - name: Materialize tracked extras inventory
-        run: python scripts/inventory_extras.py --output-root .
+      - name: Materialize or preserve tracked extras inventory
+        shell: bash
+        run: |
+          if [ -f data/extras/run-0129.yaml ]; then
+            echo 'RUN-0128 is a frozen historical inventory; RUN-0129 or later exists, so tracked RUN-0128 outputs will not be regenerated.'
+          else
+            python scripts/inventory_extras.py --output-root .
+          fi
 
       - name: Validate authorized extras ingestion
         run: python scripts/validate_extras_ingestion.py
@@ -113,7 +119,7 @@ jobs:
             docs/08-analysis/extras-scope-inventory.md
           )
           if [ -z "$(git status --porcelain -- "${TRACKED_PATHS[@]}")" ]; then
-            echo 'Extras scope outputs are already current.'
+            echo 'Extras scope outputs are already current or frozen.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
