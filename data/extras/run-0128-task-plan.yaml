@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: RUN-0128
+task_id: TASK-0114
+status: waiting_for_source
+namespace_contract:
+  source: EXTRA-SRC
+  timeline: EXTRA-NODE
+  character: EXTRA-CHAR
+  gift: EXTRA-GIFT
+  artifact: EXTRA-ART
+rules:
+- Do not create or renumber NODE records in the completed main-story Timeline.
+- Do not place extras facts in data/extensions or data/generated during inventory.
+- Do not reuse main-story entity IDs without direct identity evidence.
+- Do not copy source prose into inventory, plans or generated reports.
+tasks:
+- id: EXTRA-TASK-0001
+  status: blocked_external_source
+  source_id: null
+  source_path: null
+  creates_main_timeline_node: false
+  blocker: No tracked extras source corpus was found under the configured discovery policy.
+  next_action: Add or identify an authorized extras source before extraction or Timeline construction.
+next_action: Add or identify an authorized extras source before extraction or Timeline construction.

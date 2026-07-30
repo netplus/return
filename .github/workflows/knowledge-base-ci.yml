@@ -14,6 +14,9 @@ on:
       - 'data/audits/run-0125.yaml'
       - 'data/audits/run-0126.yaml'
       - 'data/audits/run-0127.yaml'
+      - 'data/audits/run-0128.yaml'
+      - 'data/extras/run-0128-scope.yaml'
+      - 'data/extras/run-0128-task-plan.yaml'
       - 'docs/08-analysis/full-repository-audit.md'
       - 'docs/08-analysis/verification-debt.md'
       - 'docs/08-analysis/v1-baseline-statistics.md'
@@ -22,6 +25,7 @@ on:
       - 'docs/08-analysis/full-book-analysis.md'
       - 'docs/08-analysis/relationship-graph.mmd'
       - 'docs/08-analysis/relationship-graph.dot'
+      - 'docs/08-analysis/extras-scope-inventory.md'
       - 'RELEASE_NOTES_v1.0.0.md'
   schedule:
     - cron: '17 * * * *'
@@ -70,15 +74,6 @@ jobs:
       - name: Validate append-only character growth continuity
         run: python scripts/render_character_growth.py --validate-continuity --effective-run 82
 
-      - name: Upload validation report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: validation-report-${{ github.sha }}
-          path: build/validation.log
-          if-no-files-found: warn
-          retention-days: 14
-
       - name: Build materialized canonical indexes
         run: python scripts/knowledge_base.py build --output-dir build/canonical-indexes
 
@@ -113,6 +108,9 @@ jobs:
             --source-commit "${GITHUB_SHA}" \
             --analysis-date 2026-07-29
 
+      - name: Validate RUN-0128 extras inventory
+        run: python scripts/inventory_extras.py --output-root build/extras
+
       - name: Run reproducible full-repository audit
         shell: bash
         run: |
@@ -136,6 +134,15 @@ jobs:
 
       - name: Check whitespace errors
         run: git diff --check
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report-${{ github.sha }}
+          path: build/validation.log
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Upload canonical index artifact
         uses: actions/upload-artifact@v4
@@ -180,6 +187,19 @@ jobs:
             build/analysis/docs/08-analysis/full-book-analysis.md
             build/analysis/docs/08-analysis/relationship-graph.mmd
             build/analysis/docs/08-analysis/relationship-graph.dot
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload extras inventory artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extras-scope-inventory-kb-${{ github.sha }}
+          path: |
+            build/extras/data/audits/run-0128.yaml
+            build/extras/data/extras/run-0128-scope.yaml
+            build/extras/data/extras/run-0128-task-plan.yaml
+            build/extras/docs/08-analysis/extras-scope-inventory.md
           if-no-files-found: error
           retention-days: 30
 
@@ -236,10 +256,17 @@ jobs:
           python scripts/render_character_growth.py --validate-continuity --effective-run 82
           python scripts/render_character_growth.py --generated-dir data/generated
           python scripts/render_character_growth.py --generated-dir data/generated --check
+
+          NORMALIZATION_SOURCE_COMMIT="$(git log --format=%H --grep='complete RUN-0126' -1)"
+          if [ -z "${NORMALIZATION_SOURCE_COMMIT}" ]; then
+            echo 'Unable to locate the RUN-0126 business commit.' >&2
+            exit 1
+          fi
           python scripts/normalize_repository.py \
             --generated-dir data/generated \
             --output-root . \
-            --source-commit "$(git rev-parse HEAD)"
+            --source-commit "${NORMALIZATION_SOURCE_COMMIT}"
+
           if [ ! -f data/audits/run-0125.yaml ]; then
             AUDIT_SOURCE_COMMIT="$(python - <<'PY'
           from pathlib import Path
@@ -256,6 +283,7 @@ jobs:
               --source-commit "${AUDIT_SOURCE_COMMIT:-$GITHUB_SHA}" \
               --output-root .
           fi
+
           if [ ! -f data/audits/run-0127.yaml ]; then
             ANALYSIS_SOURCE_COMMIT="$(git log --format=%H --grep='complete RUN-0127' -1)"
             if [ -z "${ANALYSIS_SOURCE_COMMIT}" ]; then
@@ -301,7 +329,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "${TRACKED_PATHS[@]}"
           git commit -m 'chore(data): refresh canonical, normalization and analysis outputs'
-
           set -o pipefail
           git push origin HEAD:main 2>&1 | tee build/push.log
 

@@ -1,0 +1,88 @@
+schema_version: 1
+run_id: RUN-0128
+task_id: TASK-0114
+inventory_date: '2026-07-30'
+status: initialized_no_tracked_extra_source
+main_story_baseline:
+  chapter_start: 1
+  chapter_end: 876
+  last_timeline_node: NODE-0108
+  timeline_namespace: NODE
+  immutable: true
+extras_scope:
+  included_in_main_timeline: false
+  lifecycle: inventory_then_isolated_processing
+  namespaces:
+    source: EXTRA-SRC
+    timeline: EXTRA-NODE
+    character: EXTRA-CHAR
+    gift: EXTRA-GIFT
+    artifact: EXTRA-ART
+tracked_inventory:
+  tracked_files: 1066
+  source_root_counts:
+    sources: 114
+  main_story_evidence_files: 114
+  candidate_source_files: 0
+  scope_control_mentions: 7
+  text_files_skipped_as_large_or_non_utf8: 0
+candidate_sources: []
+scope_control_mentions:
+- path: .github/workflows/extras-scope-inventory.yml
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: data/extras/run-0128-config.yaml
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers:
+  - IF线
+  - if线
+  - 后日谈
+  - 後日談
+  - 特別篇
+  - 特别篇
+  - 番外正文
+  - 番外篇
+- path: data/extras/run-0128-scope.yaml
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers:
+  - IF线
+  - if线
+  - 后日谈
+  - 後日談
+  - 特別篇
+  - 特别篇
+  - 番外正文
+  - 番外篇
+- path: data/extras/run-0128-task-plan.yaml
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: docs/06-artifacts/额外传送仙台.md
+  classification: scope_control
+  path_markers:
+  - 外传
+  content_markers: []
+- path: docs/08-analysis/extras-scope-inventory.md
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+- path: scripts/inventory_extras.py
+  classification: scope_control
+  path_markers:
+  - extra
+  - extras
+  content_markers: []
+existing_extra_id_collisions: {}

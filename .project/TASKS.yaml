@@ -105,11 +105,37 @@ tasks:
 - id: TASK-0114
   title: 番外 scope 盘点与独立命名空间初始化
   type: extras
-  status: pending
+  status: done
+  completed_at: '2026-07-30'
+  run_id: RUN-0128
   target:
     scope: extras
     creates_main_timeline_node: false
     goals: [source_inventory, namespace_definition, chapter_boundary_inventory, main_story_isolation_validation]
     outputs: [inventory_report, machine_readable_scope_manifest, isolated_task_plan]
   evidence_policy: Do not infer or mix extras into the completed Chapter 1-876 main-story Timeline.
+  outputs:
+  - data/extras/run-0128-config.yaml
+  - scripts/inventory_extras.py
+  - .github/workflows/extras-scope-inventory.yml
+  - data/audits/run-0128.yaml
+  - data/extras/run-0128-scope.yaml
+  - data/extras/run-0128-task-plan.yaml
+  - docs/08-analysis/extras-scope-inventory.md
+  quality_gates:
+    tracked_file_inventory: passed
+    candidate_classification_complete: passed
+    chapter_boundary_inventory: passed
+    namespace_uniqueness: passed
+    main_story_isolation: passed
+    deterministic_serialization: passed
+    copyright_boundary: passed
+  findings:
+  - Scanned 1,066 tracked files, including 114 files under configured source roots.
+  - Found no tracked source file that qualifies as an extras corpus under the high-specificity discovery policy.
+  - Excluded the 额外传送仙台 substring and source-index metadata question as non-source false positives.
+  - Initialized independent EXTRA-SRC, EXTRA-NODE, EXTRA-CHAR, EXTRA-GIFT and EXTRA-ART namespaces without mutating the main story.
+  - Registered BLOCK-0006; isolated ingestion remains waiting for an authorized source.
+  source_status: waiting_for_authorized_source
+  blocker: BLOCK-0006
   depends_on: [TASK-0113]
