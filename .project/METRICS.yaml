@@ -110,7 +110,7 @@ quality_gates:
   extras_namespace_uniqueness: {status: passed, nodes: 2}
   extras_main_story_isolation: {status: passed, coverage: 1-876, canonical_mutations: 0}
   extras_canonical_reference_integrity: {status: passed}
-  knowledge_base_ci: {status: pending_pr_validation}
+  knowledge_base_ci: {status: passed}
   entity_document_freshness: {status: passed, characters: 235, artifacts: 149, manifest_documents: 384}
   character_growth_continuity: {status: passed}
   copyright_boundary: {status: passed, full_chapter_text_stored: false}
