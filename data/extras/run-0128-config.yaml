@@ -23,7 +23,8 @@ source_discovery:
   tracked_files_only: true
   source_roots: [sources, source, corpus, raw, input, novel, chapters, text]
   path_markers: [extras, extra, fanwai, side-story, side_story, epilogue, after-story, after_story, special, 番外, 外传, 后日谈, 後日談]
-  content_markers: [番外, 外传, 后日谈, 後日談, 特别篇, 特別篇, IF线, if线]
+  content_markers: [番外正文, 番外篇, 后日谈, 後日談, 特别篇, 特別篇, IF线, if线]
+  metadata_filenames: [README.md, source-index.md, manifest.yaml, index.yaml, index.yml]
   text_extensions: [.md, .txt, .yaml, .yml, .json, .jsonl, .html, .htm]
   max_scan_bytes: 2097152
   excluded_prefixes:
@@ -36,9 +37,9 @@ source_discovery:
   - docs/08-analysis/
   - .project/
 classification_policy:
-  candidate_source: A tracked text file under a configured source root with an extras marker in its path or content, or a non-control tracked file with an extras marker in its path.
-  main_story_evidence: A tracked source-root file without extras markers; retained only as an isolation baseline.
-  scope_control: Project OS, workflow, script, report or configuration files that discuss extras but are not story source material.
+  candidate_source: A tracked non-metadata text file under a configured source root with a high-specificity extras marker in its path or content, or a non-control tracked file with an extras marker in its path.
+  main_story_evidence: A tracked source-root file without high-specificity extras markers; retained only as an isolation baseline.
+  scope_control: Project OS, workflow, script, report, source index, manifest or configuration files that discuss extras but are not story source material.
   unresolved: A candidate whose work title or chapter boundary cannot be derived from path-level metadata without reading or quoting source prose.
 namespace_policy:
   source_id_format: EXTRA-SRC-NNNN
